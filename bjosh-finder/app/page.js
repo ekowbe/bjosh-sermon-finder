@@ -181,14 +181,10 @@ export default function Home() {
                             {confidenceLabel(r.confidence)}
                           </span>
                         </div>
-                        <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.matchReason}</p>
-                        {r.sermon.scriptures.length > 0 && (
-                          <div className="flex gap-1.5 flex-wrap mb-2">
-                            {r.sermon.scriptures.map(s => (
-                              <span key={s} className="text-xs px-2 py-0.5 rounded border border-stone-200 text-stone-500">{s}</span>
-                            ))}
-                          </div>
+                        {r.sermon.keyScripture && (
+                          <p className="text-xs text-amber-700 font-medium mb-1">{r.sermon.keyScripture}</p>
                         )}
+                        <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.sermon.summary}</p>
                         <a
                           href={`https://drive.google.com/file/d/${r.sermon.driveId}/view`}
                           target="_blank"
