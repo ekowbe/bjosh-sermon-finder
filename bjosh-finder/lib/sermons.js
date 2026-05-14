@@ -2,6 +2,8 @@ export const SERMONS = [
   {
     id: 1,
     title: "Why God Wants You to Suffer",
+    keyScripture: "Romans 8:28",
+    summary: "Suffering is not evidence of God's absence — it is his deliberate tool. BJosh shows why God permits hardship and how it positions believers for blessing.",
     topics: ["suffering", "trials", "faith", "perseverance", "pain", "why bad things happen", "discipline", "hardship", "why God allows suffering", "testing"],
     scriptures: [],
     driveId: "16Hfm4Qwq3fwcKg3nVuaFCUxZMiIZWDRU",
@@ -9,6 +11,8 @@ export const SERMONS = [
   {
     id: 2,
     title: "Why Philip Preached Christ",
+    keyScripture: "Acts 8:5 · Colossians 1:27",
+    summary: "Philip had many topics to choose from — money, marriage, social work — but chose Christ. The gospel is the only message with power to transform any person in any condition.",
     topics: ["evangelism", "preaching Christ", "Samaria", "soul winning", "the gospel", "why preach Christ", "Acts 8", "Colossians 1:27", "missions", "choosing your message", "Philip"],
     scriptures: ["Acts 8:4-7", "Colossians 1:27"],
     driveId: "1r6RClIr8hRwKSqfBLm68f5QDzOT4V4BD",
@@ -16,6 +20,8 @@ export const SERMONS = [
   {
     id: 3,
     title: "Remember Lot's Wife",
+    keyScripture: "Luke 17:32",
+    summary: "Those who work for God receive supernatural wages no employer on earth can match. Don't look back — forward commitment to God's work opens a window in heaven.",
     topics: ["looking back", "commitment", "working for God", "wages", "not looking back", "dedication", "soul winning", "busing people to church", "rewards", "obedience", "loyalty"],
     scriptures: ["Genesis 19", "Luke 17:32"],
     driveId: "1xqykDDsqL7CbFKol1wvml9wxh7_gdQeS",
@@ -23,6 +29,8 @@ export const SERMONS = [
   {
     id: 4,
     title: "Life, Death and Judgement",
+    keyScripture: "John 3:16",
+    summary: "God's love for the world is the greatest miracle — it compelled him to give his only Son. Every person will face life, death, and judgement; only Christ changes the outcome.",
     topics: ["salvation", "eternal life", "judgement", "John 3:16", "why God gave his son", "heaven", "hell", "death", "resurrection", "God's love", "eternal damnation"],
     scriptures: ["John 3:16"],
     driveId: "18_70Tv3UfvxIcmYHx1VMDPbaPad2U08j",
@@ -30,6 +38,8 @@ export const SERMONS = [
   {
     id: 5,
     title: "The Gospel in a Nutshell",
+    keyScripture: "1 Peter 1:9–10",
+    summary: "The salvation we freely receive was prophesied and longed for across thousands of years. The prophets searched for what we now simply possess — the greatest gift in history.",
     topics: ["salvation", "gospel", "great salvation", "cross", "prophecy", "Isaiah 9:6", "Malachi", "1 Peter 1", "salvation rally", "plan of salvation", "prophets foretold"],
     scriptures: ["1 Peter 1:9-10", "Isaiah 61:1", "Isaiah 9:6", "Genesis 49:18"],
     driveId: "1OdgQg4c4CsrZf1f4WG6dzYsoys8k0ypM",
@@ -37,6 +47,8 @@ export const SERMONS = [
   {
     id: 6,
     title: "Why You Should Avoid Pseudo Ministry",
+    keyScripture: "Ephesians 4:11",
+    summary: "God gave only five ministry gifts to lead the church. True ministry is pure like the gold in Solomon's temple — anything less is counterfeit and will not carry the anointing.",
     topics: ["pastoral ministry", "five-fold ministry", "apostle prophet evangelist pastor teacher", "real ministry", "gold", "pseudo ministry", "Ephesians 4:11", "Exodus 25", "temple", "purity in ministry"],
     scriptures: ["Ephesians 4:11", "Exodus 25:1-8"],
     driveId: "1kbytiBQLm9Vzfz20k3nETTtdIqSrnEnc",
