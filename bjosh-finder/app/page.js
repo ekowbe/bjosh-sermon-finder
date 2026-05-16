@@ -220,8 +220,8 @@ export default function Home() {
                     <polyline points="14 2 14 8 20 8"/>
                   </svg>
                   <span className="flex-1 text-sm text-stone-800">{s.title}</span>
-                  {s.scriptures.length > 0 && (
-                    <span className="text-xs text-stone-400 shrink-0">{s.scriptures[0]}</span>
+                  {s.keyScripture && (
+                    <span className="text-xs text-stone-400 shrink-0">{s.keyScripture}</span>
                   )}
                 </button>
               ))}
