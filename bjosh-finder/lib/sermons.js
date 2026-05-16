@@ -4,20 +4,24 @@ export const SERMONS = [
     "driveId": "1KwQsgr5pOTNsgIs1R-UDL5Aua1aT_r9V",
     "title": "03.05 - Flowing with The Holy Spirit as A Dove - Gospel Encounter",
     "topics": [
-      "Holy Spirit presence and filling",
-      "Not quenching the Spirit",
-      "Signs and wonders",
-      "Deliverance from demonic spirits",
-      "Divine healing",
-      "Speaking in tongues",
-      "Altar call and salvation",
-      "Flowing with the Holy Spirit",
-      "Spiritual sensitivity and obedience",
-      "Holy Spirit gifting"
+      "Holy Spirit presence",
+      "discerning God's guidance",
+      "manifestations of the Spirit",
+      "healing power",
+      "deliverance from addiction",
+      "baptism in the Holy Spirit",
+      "speaking in tongues",
+      "falling under the power",
+      "wind of the Spirit",
+      "freedom from bondage",
+      "sensitivity to the Spirit",
+      "drunkenness in the Spirit"
     ],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Bishop Joshua teaches on cultivating sensitivity to the Holy Spirit's leading in every decision and action, emphasizing that believers should not quench or resist the Spirit's movement in their lives. He demonstrates signs and wonders including healing (migraines, physical ailments, internal conditions) and manifestations of the Spirit (falling in the Spirit, speaking in tongues, shaking) as evidence of God's power working through those yielded to Him. He calls listeners to turn from demonic influences (pornography, addiction, depression, suicide) and commit their lives to Christ through an altar call, inviting them to receive the baptism of the Holy Spirit with the evidence of speaking in tongues."
+    "scriptures": [
+      "Zephaniah 3:17"
+    ],
+    "keyScripture": "Zephaniah 3:17",
+    "summary": "Bishop Heward-Mills teaches on the importance of recognizing and yielding to the Holy Spirit's presence in every decision and location, asking how many times believers have gone places or made choices where the Spirit was not leading. He demonstrates and ministers through manifestations of the Spirit including people shaking, falling under the power, being drunk in the Spirit, and receiving the baptism of the Holy Spirit with speaking in tongues. He ministers healing and deliverance from addictions (pornography, masturbation, depression, suicide, alcohol, cigarettes, drugs) through the power of the Holy Spirit's presence."
   },
   {
     "id": 2,
@@ -48,10 +52,28 @@ export const SERMONS = [
     "id": 3,
     "driveId": "1sY1F1Vl6qgg1XEGhZ7BiqhK8VBS28cLH",
     "title": "2022.10.24 - UK - Q&A UK Leaders small",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to provide accurate indexing. The transcript is severely corrupted or poorly transcribed, making it impossible to identify coherent teaching points, specific topics, or biblical references with confidence. No clear theological content or sermon structure can be reliably extracted from the provided text."
+    "topics": [
+      "spiritual relationships",
+      "levels of relationship",
+      "acquaintance vs friendship",
+      "brother relationship",
+      "teacher-student relationship",
+      "shepherd-flock relationship",
+      "spiritual authority",
+      "mentorship",
+      "pastoral care",
+      "rewards of relationships",
+      "spiritual guidance",
+      "tribute and honor"
+    ],
+    "scriptures": [
+      "Proverbs 27:17",
+      "Proverbs 18:24",
+      "Isaiah 30:20",
+      "Jeremiah 3:15"
+    ],
+    "keyScripture": "Jeremiah 3:15",
+    "summary": "BJosh teaches about different levels of spiritual relationships and their corresponding rewards, distinguishing between acquaintance, friendship, brotherhood, teacher-student, and shepherd-flock relationships. He emphasizes that each level of relationship produces specific benefits—acquaintances bring blessings, friends shape character and thinking, brothers provide support in adversity, teachers offer guidance and direction, and shepherds provide pastoral care according to God's heart. He stresses the importance of recognizing and honoring these spiritual relationships appropriately, including giving tribute and submission to spiritual authority, to receive the full rewards that each relationship offers."
   },
   {
     "id": 4,
@@ -720,27 +742,47 @@ export const SERMONS = [
     "driveId": "11MtTVLxp4kItU6ynXMo9kaBygha1F_pb",
     "title": "15.",
     "topics": [
-      "Holy Spirit filling",
-      "Speaking in tongues",
+      "Holy Spirit",
+      "supernatural power",
+      "moving mountains",
+      "impossible things",
+      "overflow",
+      "rivers in high places",
+      "wilderness transformation",
+      "Spirit filling",
+      "divine presence",
       "God's faithfulness",
       "God's mercy",
-      "Prayer and intercession",
-      "Spiritual overflow",
-      "Divine power",
-      "Worship and praise"
+      "speaking in tongues"
     ],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "The sermon focuses on inviting the Holy Spirit to fill, touch, and bless the congregation through prayer and speaking in tongues. Heward-Mills emphasizes God's faithfulness and mercy toward His people, highlighting how God has protected and sustained them throughout their lives. The teaching calls believers to allow the Holy Spirit to overflow through them like a river, transforming their hearts and enabling spiritual empowerment in worship."
+    "scriptures": [
+      "Isaiah 41:18"
+    ],
+    "keyScripture": "Isaiah 41:18",
+    "summary": "BJosh teaches about inviting the Holy Spirit to fill believers and have His way in their lives. He emphasizes God's faithfulness, mercy, and supernatural power to move mountains and make impossible things possible. He leads the congregation in worship and prayer for the Holy Spirit to overflow like a river, referencing God's promise to open rivers in high places and fountains in the valleys, turning the wilderness into pools of water.",
+    "timestamp": ""
   },
   {
     "id": 31,
     "driveId": "1Sc1vMOY_rX2kWaOT37oEWzaNPJh7Qpke",
     "title": "5.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "praise",
+      "God's presence",
+      "honor",
+      "glory",
+      "adoration",
+      "surrender",
+      "intimacy with God",
+      "standing in awe",
+      "mercy",
+      "beauty of God",
+      "reverence"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript does not contain a coherent sermon teaching. The content appears to be worship song lyrics or liturgical singing rather than expository preaching, with repeated phrases about God's beauty, love, and presence. No specific biblical instruction, doctrine, or teaching points are discernible from the material provided."
+    "summary": "This transcript appears to be primarily a worship service with song lyrics rather than a traditional sermon teaching. The focus is on worshiping God for His beauty, wisdom, love, and presence through repeated declarations of standing in awe and love of Him. The congregation is led in songs emphasizing that there is no higher calling than to bow before God and experience His presence everywhere they go."
   },
   {
     "id": 32,
@@ -749,25 +791,38 @@ export const SERMONS = [
     "topics": [
       "presence of God",
       "Holy Spirit",
-      "asking and receiving",
       "worship",
       "praise",
       "prayer",
-      "God's faithfulness",
-      "spiritual gifts"
+      "asking for the Spirit",
+      "God in our midst",
+      "sacrifice of praise",
+      "tongues",
+      "divine presence"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Bishop Joshua emphasizes the importance of God's presence and the Holy Spirit in the midst of believers, teaching that God will give the Holy Spirit to those who ask Him. He references the principle that earthly fathers give good gifts to their children, so God will certainly give His Holy Spirit to those who request it. The sermon focuses on corporate worship and intercession, calling the congregation to lift their hands, pray in tongues, and offer sincere praise as a sacrifice to God."
+    "summary": "BJosh leads the congregation in worship and prayer focused on seeking the presence of the Holy Spirit. He emphasizes that those who ask for the Holy Spirit will receive, referencing the principle that if earthly fathers give good gifts, how much more will God give the Spirit to those who ask. He guides the congregation through extended worship and prayer, encouraging them to pray in tongues and ask for God's presence to touch and transform their lives."
   },
   {
     "id": 33,
     "driveId": "1Jw16qbAWvV3nLo1ugIgk4TSfwIkiQ06n",
     "title": "9.",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "presence of God",
+      "spiritual fire",
+      "revival",
+      "consuming fire",
+      "spiritual hunger",
+      "intimacy with God",
+      "divine encounter",
+      "spiritual awakening",
+      "manifestation of God"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript appears to be a corrupted or heavily garbled recording of a worship/prayer session rather than a coherent sermon teaching. The content consists primarily of repetitive song lyrics and spontaneous prayer focusing on inviting the Holy Spirit's presence, without any discernible doctrinal instruction or biblical exposition. No specific teaching points, scriptural references, or theological content can be reliably extracted from this transcript."
+    "summary": "This transcript appears to be primarily worship song lyrics rather than a traditional sermon teaching segment. The focus is on inviting the Holy Spirit's presence to come like a rushing wind and consuming fire. The repeated themes emphasize letting everything burn in God's presence, experiencing His closeness, and desiring spiritual revival and awakening in the room."
   },
   {
     "id": 34,
@@ -776,72 +831,133 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript does not contain a sermon teaching. The content consists entirely of worship and praise segments with repetitive liturgical expressions such as 'hallelujah' and declarations of God's worthiness. No doctrinal instruction, biblical exposition, or teaching points are present in the material provided."
+    "summary": "This transcript contains only worship songs and praise expressions with no actual sermon content. No biblical teaching or doctrinal instruction is present in the text. The transcript appears to be from a worship segment rather than the teaching portion of the sermon."
   },
   {
     "id": 35,
     "driveId": "1M26H9fAt5Cb1kswXV4bErr_DAIVluVK1",
     "title": "22.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "holiness",
+      "glory of the Lamb",
+      "Holy Spirit",
+      "fire",
+      "waiting on God",
+      "praise",
+      "adoration"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This sermon consists primarily of extended worship and praise segments rather than doctrinal teaching. The content focuses on congregational singing and adoration directed toward God the Father, Jesus Christ, and the Holy Spirit. No specific biblical teaching, doctrine, or exposition is presented in this transcript."
+    "summary": "This transcript contains only worship songs and no actual sermon teaching from Bishop Joshua Heward-Mills. The congregation engages in extended praise and worship, singing about the holiness of God, the glory of the Lamb, and waiting on the Holy Spirit. No biblical teaching, exposition, or preaching content is present in this transcript."
   },
   {
     "id": 36,
     "driveId": "12L9AXr5CtE2pC4xCO6a734HUaaVc1khu",
     "title": "8.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "praise",
+      "Holy Spirit",
+      "divine presence",
+      "God's beauty",
+      "infinite wisdom",
+      "spiritual filling",
+      "adoration",
+      "reverence",
+      "God's love",
+      "surrender",
+      "transformation"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript appears to be a worship/praise segment rather than a didactic sermon with specific theological teaching. The content consists primarily of repetitive praise lyrics and worship expressions centered on Jesus and the Holy Spirit without substantive doctrinal instruction. No identifiable sermon teaching, biblical exposition, or specific spiritual instruction from Bishop Joshua Heward-Mills can be extracted from this material."
+    "summary": "This transcript appears to be primarily a worship session rather than a traditional teaching sermon, consisting of sung worship lyrics and praise expressions. The focus is on exalting God's beauty, wisdom, and incomparable nature while inviting the Holy Spirit to fill hearts and descend upon lives. BJosh leads the congregation in declaring their love and devotion to God, emphasizing surrender and the transformative power of God's presence and Spirit."
   },
   {
     "id": 37,
     "driveId": "1visw7Z9OGHkYheR_PM33cCqTcdwbaTrb",
     "title": "18.",
-    "topics": [],
+    "topics": [
+      "faithfulness of God",
+      "mercy",
+      "God's greatness",
+      "magnifying the Lord",
+      "holiness",
+      "praise and worship",
+      "God's wonders",
+      "amazing love",
+      "resurrection power",
+      "victory over death",
+      "God's glory",
+      "unwavering commitment"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to provide accurate indexing. The transcript appears to be a song or worship segment with significant transcription errors that obscure any coherent teaching content. No specific doctrinal instruction, biblical exposition, or sermon points could be identified from the provided text."
+    "summary": "This transcript appears to be primarily worship songs and praise rather than a traditional sermon teaching. The worship focuses on God's faithfulness, mercy, greatness, holiness, and His power over death and the grave. The content emphasizes total devotion to Jesus and declaring that there is no one like Him among the gods, celebrating His glorious nature and wonderful works."
   },
   {
     "id": 38,
     "driveId": "1o5V4J1gP1hbbSBe6BXfS6Bjg9fUb6R-7",
     "title": "4.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "God's presence",
+      "humility",
+      "seeking the Lord",
+      "mercy",
+      "glory",
+      "devotion",
+      "prayer",
+      "Holy Spirit",
+      "reverence",
+      "waiting on God",
+      "knowing Jesus"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This appears to be a worship/prayer segment rather than a teaching sermon, consisting primarily of spontaneous intercession and worship expressions. No specific doctrinal teaching, biblical exposition, or instructional content is present in the transcript. The content does not contain the characteristic teaching structure typical of Bishop Joshua Heward-Mills' sermons."
+    "summary": "This appears to be a worship song or prayer session rather than a traditional sermon teaching. The focus is on worship, seeking God's presence, and positioning oneself humbly before the Lord. The speaker emphasizes waiting on God, experiencing His glory, and expressing a desire to know Jesus more intimately through worship and prayer."
   },
   {
     "id": 39,
     "driveId": "1crbxOc40DuBz_T3-u-41o1tl8w0WwpXG",
     "title": "14.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "praise",
+      "glory to God",
+      "cross of Christ",
+      "salvation",
+      "debt paid",
+      "heaven to earth",
+      "Jesus' sacrifice",
+      "gratitude for salvation",
+      "chosen and called",
+      "lordship of Jesus",
+      "majesty and authority"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript appears to be primarily a worship and praise segment rather than a sermon with teaching content. The content consists mainly of song lyrics and expressions of worship to Jesus without doctrinal instruction or biblical exposition. No specific sermon teaching or message could be identified from this material."
+    "summary": "This transcript contains only worship songs and prayers with no actual sermon teaching content. The worship focuses on praising Jesus for coming from heaven to earth to pay humanity's debt through the cross. The worshippers express gratitude for being saved, chosen, and called by God while lifting up the name of Jesus in adoration."
   },
   {
     "id": 40,
     "driveId": "1CUNVbIRWHJ79Q6hva-RB_zPNa__hdB5o",
     "title": "25.",
     "topics": [
-      "God's holiness",
+      "worship",
       "seeking God's face",
-      "intimacy with God",
       "God's presence",
-      "worship and adoration",
-      "God's grace",
+      "Holy Spirit",
+      "intimacy with God",
+      "hunger for God",
+      "dwelling in God's presence",
+      "praise and worship",
       "trusting God",
-      "spiritual hunger",
-      "sacrifice of praise",
-      "fellowship with the Holy Spirit"
+      "deliverance"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This sermon is primarily a worship service focused on encountering God's presence through intimate prayer and musical worship rather than expository teaching. The congregation is led to seek God's face, express their hunger for His presence, and experience the tangible manifestation of the Holy Spirit in corporate worship. BJosh emphasizes that believers should draw near to God in worship, acknowledge His holiness, and allow His presence to transform their emotions and commitment through songs of praise and declaration of trust."
+    "summary": "This transcript captures a worship service focused on encountering God's presence rather than a traditional teaching sermon. The emphasis is on believers expressing their longing to be close to God, seeking His face, and experiencing His tangible presence through worship. The service centers on the theme that there is no higher calling than being in God's presence and that He alone is more than enough to satisfy the human heart."
   },
   {
     "id": 41,
@@ -893,39 +1009,55 @@ export const SERMONS = [
     "id": 43,
     "driveId": "1MMeBzaIxRB58OwWHQ4MrQj5I0qrMI8Ig",
     "title": "2.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "praise",
+      "God's presence",
+      "gathering in His name",
+      "corporate worship",
+      "singing to God",
+      "Holy Spirit presence",
+      "thanksgiving"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript appears to be a worship/praise segment rather than a doctrinal sermon, consisting primarily of sung or chanted worship lyrics without clear theological instruction. No specific biblical teaching, scriptural references, or concrete doctrinal points are identifiable in the content. The material does not contain sufficient coherent sermon content to extract meaningful topics or teaching summaries."
+    "summary": "This transcript appears to be primarily worship songs and singing rather than a teaching sermon. The content focuses on gathering together in God's name and His presence being among His people when they worship. No specific biblical teaching or doctrinal instruction is evident in this transcript, only expressions of worship and praise to God."
   },
   {
     "id": 44,
     "driveId": "1khHfroI6pssaz9Vx-qUZ7f1OWWakgfFE",
     "title": "12.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "presence of Jesus",
+      "praise",
+      "adoration"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript appears to be a worship or devotional segment rather than a structured sermon teaching. The content consists primarily of repetitive singing of the name Jesus and declarations about God's presence sustaining life. No specific biblical instruction, doctrine, or teaching points are discernible from the available text."
+    "summary": "This transcript contains only worship lyrics focused on calling upon the name of Jesus. The repeated phrase emphasizes that Jesus' presence brings life to the worshipper. No actual teaching content is present in this segment, only congregational singing and worship."
   },
   {
     "id": 45,
     "driveId": "18zXQvfG6mR0VTMGP49-whVLLqV4VdL-F",
     "title": "24.",
     "topics": [
-      "God's presence",
-      "Holy Spirit welcome",
-      "Divine proximity",
-      "God's companionship",
-      "Experiencing God",
-      "God's majesty",
-      "Spiritual intimacy",
-      "God's faithfulness",
-      "Worship and adoration",
-      "Divine beauty"
+      "Holy Spirit",
+      "Presence of God",
+      "Divine Presence",
+      "Worship",
+      "Standing in Awe",
+      "God's Love",
+      "Not Going Without God",
+      "Fear of the Lord",
+      "Majesty of God",
+      "Welcoming the Spirit",
+      "God in the Midst",
+      "Divine Companionship"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Bishop Joshua emphasizes the constant, available presence of God with believers in every circumstance and location, urging worshippers to actively feel and experience this divine companionship rather than merely acknowledge it intellectually. He calls for the Holy Spirit's welcome and blessing in the midst of the congregation, positioning the Spirit's presence as essential and intimate to the believer's journey. The sermon centers on cultivating awe and love toward God by recognizing His infinite wisdom, majesty, and beauty, and responding with conscious surrender and worship."
+    "summary": "This transcript consists entirely of worship songs and prayers focused on experiencing God's presence rather than a traditional sermon teaching. The emphasis is on welcoming the Holy Spirit, feeling God's presence in every place, and refusing to go anywhere without God's accompaniment. The content centers on intimate worship expressions of love, awe, and dependence on God's immediate presence rather than doctrinal instruction or biblical exposition."
   },
   {
     "id": 46,
@@ -933,17 +1065,17 @@ export const SERMONS = [
     "title": "27.",
     "topics": [
       "worship",
-      "surrender to God",
-      "cost of redemption",
-      "giving your heart to God",
-      "comfort in God",
-      "God's majesty",
+      "praise",
+      "surrender",
       "devotion",
-      "praise"
+      "adoration",
+      "sacrifice",
+      "thanksgiving",
+      "intimacy with God"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This sermon is a worship-focused exhortation centered on surrendering one's heart and soul completely to God. Bishop Heward-Mills emphasizes that nothing in life compares to God's worthiness and majesty, calling believers to continual, unceasing worship and devotion. The teaching stresses the cost of redemption and calls listeners to give themselves entirely—heart, soul, and all they possess—to the Lord in grateful response."
+    "summary": "This transcript appears to be primarily worship song lyrics rather than a traditional sermon teaching. The content focuses on expressing devotion and surrender to Jesus through worship declarations. No specific doctrinal teaching or biblical exposition is present in this transcript segment."
   },
   {
     "id": 47,
@@ -960,10 +1092,19 @@ export const SERMONS = [
     "id": 48,
     "driveId": "1u0_LJ7X1HgywB0JZnMCWI-7KLucHILWz",
     "title": "10.",
-    "topics": [],
+    "topics": [
+      "surrender",
+      "worship",
+      "drawing closer to God",
+      "light of Christ",
+      "spiritual filling",
+      "consecration",
+      "divine presence",
+      "total commitment"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to provide accurate indexing. The provided transcript appears to be corrupted, garbled, or severely machine-transcribed with nonsensical phrases and no coherent sermon content. No discernible teaching, biblical references, or theological themes could be identified from the text."
+    "summary": "This transcript appears to be primarily worship song lyrics rather than a traditional sermon teaching segment. The content focuses on themes of surrendering completely to Jesus and asking Him to fill the worshiper with His presence and light. The repeated phrases emphasize total consecration and dependence on Christ, with declarations of giving up everything to follow Him."
   },
   {
     "id": 49,
@@ -991,48 +1132,75 @@ export const SERMONS = [
     "id": 50,
     "driveId": "1P5u9AXX0E7LV60Xr-gC716hSMsrAib4a",
     "title": "7.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "Holy Spirit",
+      "presence of God",
+      "spiritual encounter",
+      "tongues",
+      "prayer",
+      "blessing",
+      "majesty of God"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate accurate summary. The provided transcript appears to be severely corrupted, machine-garbled, or poorly transcribed, containing fragmented phrases and incoherent passages that do not form a coherent sermon teaching. No specific biblical doctrine, teaching points, or clear message can be reliably extracted from this text."
+    "summary": "This transcript captures primarily a worship and prayer session rather than a teaching segment. Bishop Heward-Mills leads the congregation in worship songs about being worthy and needing God's presence. He instructs the congregation to speak in tongues for a few minutes as part of the worship experience before what appears to be the beginning of a sermon."
   },
   {
     "id": 51,
     "driveId": "11FVW3cPhvNTRLtkXoTyNVl0f2sr_i07h",
     "title": "21.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "love for Jesus",
+      "salvation",
+      "deliverance",
+      "friendship with Christ",
+      "devotion",
+      "commitment",
+      "steadfastness"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This appears to be a worship song or hymn lyrics rather than a sermon transcript with teaching content. No specific biblical instruction, doctrine, or sermon themes are present in the provided text. Without actual sermon teaching material, no topics, scriptures, or summary can be accurately identified."
+    "summary": "This transcript contains only worship song lyrics expressing love and devotion to Jesus. No actual sermon teaching or biblical exposition is present in this segment. The content focuses on personal commitment to worship Christ as a closest friend and Savior who has delivered the singer from a difficult place."
   },
   {
     "id": 52,
     "driveId": "1RGEmU89aVSF8ByHLen68PAiu1loPA6l_",
     "title": "20.",
     "topics": [
+      "worship",
       "heart of worship",
-      "surrender to God",
-      "authentic worship",
       "God's presence",
-      "devotion and commitment",
-      "worship beyond performance",
-      "intimacy with Jesus",
-      "yielding to God's will",
-      "serving God wholeheartedly",
-      "God's scrutiny of the heart"
+      "adoration",
+      "surrender",
+      "intimacy with God",
+      "dwelling in His presence",
+      "holiness",
+      "praise",
+      "quietness and trust"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This sermon emphasizes that true worship is not about outward performance or musical expression, but about surrendering one's heart completely to God. The speaker calls believers to move beyond superficial worship to seek deep intimacy with Jesus and His presence, positioning devotion as a matter of the innermost heart. The central message is that God desires authentic commitment and wholehearted allegiance above all else."
+    "summary": "This transcript appears to be primarily a worship session consisting of song lyrics rather than a traditional sermon with teaching content. The worship songs emphasize giving one's heart completely to God and returning to authentic worship that focuses on Jesus rather than on performance or ritual. The central theme throughout is desiring to dwell in God's presence, recognizing His worthiness, and worshiping Him with sincerity from the heart."
   },
   {
     "id": 53,
     "driveId": "195phNwfy88uZ4SxUsexGwpB42h1sq1rb",
     "title": "16.",
-    "topics": [],
+    "topics": [
+      "worship",
+      "surrender",
+      "devotion",
+      "intimacy with God",
+      "finding direction",
+      "divine guidance",
+      "wholehearted commitment",
+      "spiritual longing"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate summary. The provided transcript appears to be song lyrics or worship content rather than a doctrinal sermon with teaching content. No biblical references, theological instruction, or specific teaching points are identifiable in the text provided."
+    "summary": "This transcript appears to be primarily worship song lyrics rather than a traditional sermon teaching. The lyrics express themes of total dependence on God, surrendering everything to Him, and seeking His guidance to find one's way back to Him. The worshiper declares that God is all they want and need, emphasizing exclusive devotion and the desire to remain close to God's presence."
   },
   {
     "id": 54,
@@ -1042,17 +1210,19 @@ export const SERMONS = [
       "worship",
       "holiness",
       "God's presence",
-      "praise",
-      "adoration",
-      "God's strength",
-      "mercy",
-      "prayer",
+      "praise and adoration",
+      "gathering together",
+      "turning from wickedness",
+      "God's mercy",
+      "touching our land",
+      "declaring Jesus' name",
       "God's power",
-      "declaration of God's name"
+      "reverence",
+      "intimacy with God"
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This sermon is primarily a worship and prayer session led through singing, with no explicit doctrinal teaching or scripture exposition. Bishop Heward-Mills leads the congregation in extended worship songs emphasizing God's holiness, the believer's desire to draw near to God's presence, and the power of corporate praise to invite God's presence into a gathering. The service culminates in intercessory prayer for the church and nation, declaring God's name and asking for His mercy and touch upon their lives."
+    "summary": "This appears to be a worship service transcript consisting primarily of song lyrics rather than a traditional sermon teaching. The songs emphasize God's holiness, worshiping in His presence, and finding where we belong close to His throne. The worship includes themes of God inhabiting the praises of His people, calling out for mercy, turning from wicked ways, and declaring the name of Jesus for God's power to fill the congregation."
   },
   {
     "id": 55,
@@ -1228,39 +1398,49 @@ export const SERMONS = [
     "driveId": "1SdhE9wabwxt8m730AcIhzeqiX9u-VRND",
     "title": "03.13 - Why People Don_t Pray Everyda",
     "topics": [
-      "answered prayers",
-      "prayer efficacy",
-      "obedience to leadership",
+      "prayer",
+      "daily prayer",
+      "unanswered prayer",
+      "obedience to prayer calls",
+      "all night prayer",
+      "supernatural protection",
       "financial breakthrough",
-      "job provision",
-      "supernatural deliverance",
-      "armed robbery protection",
-      "pastoral guidance",
-      "Anakazu Bible School",
-      "answered petitions"
+      "divine provision",
+      "job promotion",
+      "shepherding",
+      "Anakasuwa Bible School",
+      "worship and intimacy with God"
     ],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Bishop Joshua uses two testimonies to demonstrate that God answers specific prayers when believers pray with faith and obedience to leadership. He emphasizes that attending prayer sessions and seeking God protects believers from danger (Richard's robbery deliverance) and provides concrete answers to personal requests like jobs, finances, and life decisions (Annabel's five answered prayers). The sermon teaches that prayer is not generic religious practice but a powerful mechanism for divine intervention when believers commit to seeking God consistently."
+    "scriptures": [
+      "Zephaniah 3:17"
+    ],
+    "keyScripture": "Zephaniah 3:17",
+    "summary": "BJosh teaches on why people don't pray daily through testimonies demonstrating the power of obedience to prayer calls. He highlights how one member was supernaturally protected from armed robbery after missing an all-night prayer, and another received answers to five specific prayers including a job paying ten times her previous salary after praying at Anakasuwa Bible School. The sermon emphasizes that consistent prayer and obedience to prayer gatherings leads to supernatural breakthroughs in protection, provision, and life decisions."
   },
   {
     "id": 63,
     "driveId": "1ZpyUbhsTKWeLRkCohW6HrzD76C2Qlfft",
     "title": "2022.12.04FLCES_Reasons Why First Love Church Must Be a Mega Church",
     "topics": [
-      "mega church vision",
+      "mega church",
       "church growth",
-      "first love experience service",
-      "church capacity and expansion",
-      "reasons for church enlargement",
-      "worship atmosphere",
-      "Christian vision and purpose",
+      "vision for church",
+      "appropriate Christian vision",
+      "first love church",
+      "filling the church",
+      "bringing new people",
       "soul winning",
-      "church service structure"
+      "personal vision change",
+      "heavens opened",
+      "visions of God",
+      "Holy Spirit changing life plans"
     ],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Bishop Joshua teaches that First Love Church must become a mega church because it is the most appropriate vision for Christians to have, and that this growth is inevitable for their particular service through the power of worship and unified praise. He contrasts the First Love Experience service with other services at the church, emphasizing it will become so large that standing space will be needed and the voices alone will create a powerful atmosphere without needing amplification. The sermon establishes that church growth directly affects believers' personal lives and that understanding the reasons for mega church vision is essential for those who want to see the church expand."
+    "scriptures": [
+      "Luke 12:16-20",
+      "Ezekiel 1:1"
+    ],
+    "keyScripture": "Ezekiel 1:1",
+    "summary": "BJosh teaches that the most appropriate vision for a Christian to have is for the church to become a mega church, rather than focusing on personal ambitions like marriage, jobs, or material possessions. He challenges believers to take personal responsibility for church growth by bringing somebody new every weekend—whether friends, classmates, or people in their area who have drifted away. He emphasizes that the Holy Spirit's work is to change people's life plans from their own visions to God's vision, just as the heavens opened over Ezekiel by the river Chebar and he saw the visions of God rather than his own."
   },
   {
     "id": 64,
@@ -1429,505 +1609,1924 @@ export const SERMONS = [
     "id": 70,
     "driveId": "1ckz7Ce6vDrc7r14E17INCSLFaQnoVirg",
     "title": "Fervent Prayer | Part 1",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication credentials error with Google Drive API. Please verify access permissions and resubmit the transcript."
+    "topics": [
+      "fervent prayer",
+      "effective prayer",
+      "power of the Holy Spirit",
+      "human effort versus divine promise",
+      "spiritual warfare",
+      "Amalek",
+      "Moses intercession",
+      "two-dimensional battle",
+      "fruitfulness in ministry",
+      "fulfillment of God's promises",
+      "Isaiah's prophecy of church growth",
+      "prayer as secret weapon"
+    ],
+    "scriptures": [
+      "James 5:16",
+      "Galatians 4:22",
+      "Galatians 4:23",
+      "Galatians 4:29",
+      "Isaiah 60",
+      "Isaiah 60:1",
+      "Isaiah 60:3",
+      "Isaiah 60:22",
+      "Isaiah 62:11",
+      "Isaiah 62:12",
+      "1 Thessalonians 5:24",
+      "Exodus 16",
+      "Exodus 17",
+      "1 Corinthians 10:4"
+    ],
+    "keyScripture": "James 5:16",
+    "summary": "BJosh teaches that effective, fervent prayer is the missing ingredient in ministry success, contrasting human effort (Ishmael) with Spirit-empowered ministry (Isaac) where God himself fulfills His promises. He uses the battle with Amalek in Exodus 17 to illustrate that ministry involves two simultaneous battles: the physical work on the ground (Joshua fighting) and the spiritual battle through intercession (Moses praying with raised hands). He emphasizes that Christians must understand both dimensions—going out to fight while maintaining fervent prayer—because what happens in the prayer realm determines the outcome of the physical battle."
   },
   {
     "id": 71,
     "driveId": "1S4rpcYMCQAkaB9C6l9YlRTckxlKBmChZ",
     "title": "03.02.2024 One Thing Is Needful 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "one thing is needful",
+      "Martha and Mary",
+      "sitting at Jesus feet",
+      "deception about needs versus wants",
+      "emotional decisions",
+      "closeness to God",
+      "hearing God's word",
+      "Satan's lies",
+      "idolatry of people",
+      "Garden of Eden deception",
+      "dissatisfaction in Christians",
+      "spiritual priorities"
+    ],
+    "scriptures": [
+      "Luke 10:38",
+      "Luke 10:41",
+      "Luke 4:18",
+      "John 8:44",
+      "Genesis 3"
+    ],
+    "keyScripture": "Luke 10:38-42",
+    "summary": "BJosh teaches that Satan's primary deception is making people believe they need many things when Jesus said only one thing is needful: sitting at Jesus' feet and hearing His word. He warns that people make emotional decisions when stressed and seek fulfillment in relationships, achievements, and even pastors, when only intimacy with Jesus truly satisfies. The message emphasizes distinguishing between wants and needs, recognizing that being close to God and hearing His word is the only essential thing in life."
   },
   {
     "id": 72,
     "driveId": "1JEzfIfA_nh3ZSuW65QG8lidZBjhbmb4C",
     "title": "03.02.2024 The Sweet Influences of the Holy Spirit on your character 4",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source document. No content is available for analysis."
+    "topics": [
+      "Holy Spirit influence on character",
+      "conforming to the image of Jesus",
+      "predestination",
+      "God's purpose for believers",
+      "transformation vs conformation",
+      "becoming like Christ",
+      "character development",
+      "praying in tongues",
+      "intercession of the Holy Spirit",
+      "God's will",
+      "sanctification",
+      "Christ-likeness"
+    ],
+    "scriptures": [
+      "Romans 8:28",
+      "Romans 8:24",
+      "Romans 8:25",
+      "Romans 8:26",
+      "Romans 8:27",
+      "Romans 8:29",
+      "Romans 12",
+      "1 Corinthians 12",
+      "Galatians 1:15",
+      "Matthew 12:6",
+      "Matthew 6",
+      "John 10",
+      "Romans 12:2"
+    ],
+    "keyScripture": "Romans 8:29",
+    "summary": "BJosh teaches that God's primary purpose for every believer is to be conformed to the image of Jesus Christ, not merely to fulfill ministry roles or church positions. He emphasizes that Christians must be obsessed with becoming like Jesus in every area of life—as pastors, husbands, wives, and in character—because God has predetermined that those He loves must look like His Son. He addresses the central pastoral question of whether people actually change, pointing to transformation through the Holy Spirit rather than conforming to the world."
   },
   {
     "id": 73,
     "driveId": "1YKy3ZI3NTUvd4ef51dhu_lbeNiXCHoUG",
     "title": "04 Man is a Spirit, has a Soul and lives in a Body",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error with source document. The transcript could not be retrieved to extract teaching topics, scriptures, and summary."
+    "topics": [
+      "tripartite nature of man",
+      "spirit soul and body",
+      "faith mixed with the word",
+      "profiting from preaching",
+      "doctrine reproof correction instruction",
+      "salvation principles",
+      "complete sanctification",
+      "missing God's promises",
+      "understanding versus shallow hearing",
+      "worship cannot save",
+      "charismatic church doctrine deficiency",
+      "holistic transformation"
+    ],
+    "scriptures": [
+      "Hebrews 4:1",
+      "Hebrews 4:2",
+      "2 Timothy 3:16",
+      "1 Thessalonians 5:23"
+    ],
+    "keyScripture": "1 Thessalonians 5:23",
+    "summary": "Bishop Heward-Mills teaches that man is a spirit, has a soul, and lives in a body, emphasizing that Christians must understand their tripartite nature to experience complete sanctification. He explains that God's word only profits believers when it is mixed with faith and produces four results: doctrine (information about God), reproof (conviction), correction (actual life change), and instruction (action steps). He warns that many charismatic Christians lack doctrinal understanding and mistakenly believe activities like worship can save them, when only understanding and applying God's word can bring genuine transformation."
   },
   {
     "id": 74,
     "driveId": "1gBcg3Wlvx03TMNwLJtBllNDy5OzWcoL3",
     "title": "05 The Spirit of an Unsaved Man is Dead and Desperately Wicked ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript content failed to load due to authentication error with the source document. Please provide the full sermon transcript text to generate accurate indexing metadata."
+    "topics": [
+      "spirit of man",
+      "dead spirit",
+      "unsaved man",
+      "creation of man",
+      "breath of life",
+      "living soul",
+      "brutish pastors",
+      "seeking God",
+      "man is a spirit",
+      "God breathed life",
+      "formed from dust",
+      "spiritual death"
+    ],
+    "scriptures": [
+      "Jeremiah 3:15",
+      "Jeremiah 10:21",
+      "Jeremiah 10:22",
+      "Job 36:12",
+      "1 Corinthians 14",
+      "Genesis 2:6",
+      "Genesis 2:7",
+      "Job 33:4",
+      "Psalm 92:10"
+    ],
+    "keyScripture": "Genesis 2:7",
+    "summary": "BJosh teaches that man is a spirit who has a soul and lives in a body, emphasizing that the spirit of an unsaved man is dead and desperately wicked. Using Genesis 2:7, he explains that God formed man's body from dust, but man only became alive when God breathed the breath of life into him, making him a living spirit. He emphasizes that people can be physically alive with fully formed bodies but spiritually dead until they receive the Holy Spirit's life through salvation."
   },
   {
     "id": 75,
     "driveId": "1al3v3rjRMj2j-HPrnUn9XLaA0RTXO4xZ",
     "title": "07 The Spirit of a Saved man is Righteous and Truly Holy",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. No content is available to extract topics, scriptures, or teaching summary from this sermon."
+    "topics": [
+      "spirit of saved man",
+      "righteousness",
+      "holiness",
+      "old man vs new man",
+      "salvation miracle",
+      "confession with mouth",
+      "belief in heart",
+      "created after God",
+      "putting on new man",
+      "born of God cannot sin",
+      "nature transformation",
+      "adoption into God's family"
+    ],
+    "scriptures": [
+      "Ephesians 4:20-24",
+      "Romans 10:9-10",
+      "1 John 3:9"
+    ],
+    "keyScripture": "Ephesians 4:24",
+    "summary": "BJosh teaches that when a person gets saved through confessing Jesus as Lord and believing in their heart, they become a new creation that is righteous and truly holy, created after God's own righteousness. He uses the illustration of taking off an old jacket (the old man) and putting on a new jacket (the new man) to explain that salvation transforms a person's nature to be as holy as God himself. He emphasizes that this righteousness is not modified or improved but completely new, and that a person born of God cannot sin because their spirit has been recreated in God's image."
   },
   {
     "id": 76,
     "driveId": "1EvAClvkwt-j_YdCP1H9g_2bqV6LlnsBb",
     "title": "06 Stir it Up_ Obedience",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript failed to load due to authentication error with the source system. Please verify access credentials and retry indexing."
+    "topics": [
+      "stirring up the gift of God",
+      "God's sovereignty in miracles",
+      "Jesus as the gift of God",
+      "God shows no favoritism",
+      "provoking God to action",
+      "Christ's appearance as teaching",
+      "selective divine intervention",
+      "what moves God",
+      "grace through Jesus Christ",
+      "living godly in this present world",
+      "mystery of unanswered prayer",
+      "God's indifference to human crisis"
+    ],
+    "scriptures": [
+      "2 Timothy 1:6",
+      "Isaiah 28:10",
+      "John 3:16",
+      "Hebrews 1:1-3",
+      "Philippians 2",
+      "Titus 2:11-12",
+      "Matthew 21:14",
+      "Acts 3:1-2",
+      "Luke 4:25-26",
+      "Acts 10:34-35",
+      "Mark 4:38",
+      "Mark 6:46-47"
+    ],
+    "keyScripture": "2 Timothy 1:6",
+    "summary": "BJosh teaches that we must stir up the gift of God within us, emphasizing that God is not automatically moved by the severity of our problems or crises. He explains the mystery that Jesus did not heal everyone He encountered (like the lame man at the temple gate who remained unhealed while others were healed), demonstrating that God shows no favoritism yet selectively intervenes. The central question of the sermon is: what provokes or moves God to act in one person's life but not another's, since our suffering alone does not automatically stir God to action."
   },
   {
     "id": 77,
     "driveId": "15gCHFmw1IjADSOuLolF1edgEutSwcRYB",
     "title": "02 Becoming A Soul Winner Part 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process request. The sermon transcript could not be retrieved due to authentication error with the source document. No indexing data can be generated without access to the sermon content."
+    "topics": [
+      "Second Coming of Jesus",
+      "Days of Lot",
+      "Sodom and Gomorrah",
+      "Lot's Wife",
+      "Soul Winning",
+      "Salvation Urgency",
+      "Judgment",
+      "Wickedness",
+      "Escape from Sin",
+      "Predestination",
+      "Calling Family to Christ",
+      "Angels and Messengers"
+    ],
+    "scriptures": [
+      "Luke 17:28",
+      "Luke 17:30",
+      "Luke 17:31",
+      "Luke 17:32",
+      "Genesis 13",
+      "Genesis 18",
+      "Genesis 18:20",
+      "Genesis 19",
+      "Genesis 19:1",
+      "Genesis 19:5",
+      "Genesis 19:8",
+      "Genesis 19:11"
+    ],
+    "keyScripture": "Luke 17:32",
+    "summary": "BJosh teaches that Jesus' second coming will be like the days of Lot, when people carried on business as usual without regard for their sins until sudden judgment came upon Sodom and Gomorrah. He emphasizes Jesus' specific command to \"Remember Lot's wife,\" highlighting that she was different from those who stayed in Sodom but still did not make it to heaven because she looked back. He urges believers to have urgency in soul winning, calling family members and friends to Christ before it is too late, because judgment will come suddenly just as it did in Lot's day."
   },
   {
     "id": 78,
     "driveId": "1pZZX8EyuYbDU6fByK5HjGvC616SI2OPs",
     "title": "11 How to Become a Spiritual Christian Part 3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to an authentication error (expired access token) with the source document. Please provide the sermon transcript text directly to enable proper indexing."
+    "topics": [
+      "spirituality vs Christianity",
+      "carnal Christians",
+      "spiritual company",
+      "unequally yoked",
+      "friendship with sinners",
+      "learning ways of companions",
+      "evil communication",
+      "prodigal son",
+      "point of change",
+      "leaving ungodly friendships",
+      "workplace relationships",
+      "toxic influences"
+    ],
+    "scriptures": [
+      "1 Corinthians 1:1",
+      "1 Corinthians 3:1",
+      "Proverbs 22:24",
+      "Proverbs 22:25",
+      "1 Corinthians 15:33",
+      "2 Corinthians 6:14",
+      "Luke 15:16"
+    ],
+    "keyScripture": "1 Corinthians 3:1",
+    "summary": "Bishop Joshua teaches that spirituality and Christianity are two different things, showing how Christians can be saved and sanctified yet remain carnal (unspiritual) rather than spiritual. He emphasizes that becoming a spiritual Christian requires avoiding company with sinners and unbelievers because you inevitably learn and adopt the ways of whoever you spend time with. Using the prodigal son and personal examples, he demonstrates that people don't change easily and must reach a decisive moment where they take responsibility for their lives and choose to separate from ungodly relationships that slow down spiritual progress."
   },
   {
     "id": 79,
     "driveId": "1jxFr3hNrfviGXpBJNUPfmyxqlp5CklQd",
     "title": "Your Role As A Church Member",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source API (Google Drive OAuth 2.0 access token expired). Please re-authenticate and provide the sermon transcript text to enable proper indexing."
+    "topics": [
+      "church membership",
+      "faithful attendance",
+      "stable membership",
+      "being planted",
+      "tithing and offerings",
+      "spiritual flourishing",
+      "church commitment",
+      "responsibilities of members",
+      "faithfulness requirement",
+      "robbing God",
+      "spiritual death from absence",
+      "members in particular"
+    ],
+    "scriptures": [
+      "Ephesians 5:30",
+      "1 Corinthians 12:27",
+      "1 Corinthians 4:2",
+      "Matthew 25:21",
+      "Exodus 31:15",
+      "Mark 2:28",
+      "Psalm 92:13",
+      "Job 2:2",
+      "2 Samuel 7:10",
+      "Proverbs 27:8",
+      "Malachi 3:8"
+    ],
+    "keyScripture": "1 Corinthians 12:27",
+    "summary": "Bishop Heward-Mills teaches that being a church member requires three main responsibilities beyond just enjoying salvation: faithful weekly attendance (God requires faithfulness, not just goodness), being a stable planted member in one church (those who wander between churches will not flourish spiritually), and giving tithes and offerings consistently. He emphasizes that while the privileges of being saved are wonderful like a wedding and honeymoon, members must now accept the responsibilities that come with membership, just as marriage brings responsibilities after the celebration. He warns that occasional attendance and church-hopping lead to spiritual death and stunted growth, comparing it to a tree that must be planted in one place to truly thrive and bear fruit."
   },
   {
     "id": 80,
     "driveId": "1eOzF77M7F3QF4tfF6jFeD6vxZEpnXukZ",
     "title": "03 Becoming A Soul Winner Part 3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source system. Please provide the sermon transcript text directly to enable proper indexing and analysis."
+    "topics": [
+      "Soul Winning",
+      "Resurrection Sunday",
+      "Easter",
+      "Mary Magdalene",
+      "Fruitfulness",
+      "Glorification of Jesus",
+      "Death and Resurrection",
+      "Looking unto Jesus",
+      "Compassion of Christ",
+      "Beauty of Christ",
+      "Gentile Inclusion",
+      "Corn of Wheat Dying"
+    ],
+    "scriptures": [
+      "1 Corinthians 15:13",
+      "Revelation 1:17",
+      "Revelation 1:18",
+      "John 12:20",
+      "John 12:21",
+      "John 12:22",
+      "John 12:23",
+      "John 12:24",
+      "Philippians 2",
+      "Isaiah 53:2",
+      "Isaiah 53:3",
+      "Hebrews 4:15"
+    ],
+    "keyScripture": "John 12:24",
+    "summary": "Bishop Heward-Mills teaches that Jesus had to die like a corn of wheat falling to the ground in order to become fruitful and beautiful, allowing Gentiles (Greeks) to come to Him beyond just the Jewish disciples. He emphasizes that resurrection is the foundation of Christian hope and that believers must look at Jesus' life, feelings, and compassion to finish their race. He explains that Christ experienced every human condition, including ugliness, poverty, and being an orphan, so that He could identify with all people and bring them salvation through His death and resurrection."
   },
   {
     "id": 81,
     "driveId": "1_qwF8IWIqbY7eBpqdLUKSxEr429qZ5fN",
     "title": "09 How to Become a Spiritual Christian",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process this sermon. The transcript data returned a Google API authentication error (401 UNAUTHENTICATED) instead of the actual sermon content. The sermon file could not be accessed due to expired credentials or insufficient permissions."
+    "topics": [
+      "spiritual strength",
+      "strong Christian",
+      "overcoming the wicked one",
+      "Satan's power",
+      "devil as roaring lion",
+      "strength in Christianity",
+      "weakness without God",
+      "spiritual warfare",
+      "devil's intentions to steal kill destroy",
+      "simplicity in Christ",
+      "levels of Christian maturity",
+      "overcoming evil"
+    ],
+    "scriptures": [
+      "Ephesians 6:1",
+      "Ephesians 6:2",
+      "Ephesians 6:4",
+      "Ephesians 6:5-8",
+      "Ephesians 6:9",
+      "Ephesians 6:10",
+      "1 John 2:14",
+      "1 John 4:4",
+      "1 Peter 5:8",
+      "John 10:10"
+    ],
+    "keyScripture": "1 John 2:14",
+    "summary": "BJosh teaches that being a strong Christian is essential to overcome the wicked one (Satan), emphasizing that many believers are Christians but not strong Christians. He explains that Christians cannot overcome Satan in their own strength because Satan is stronger than humans, but only through the greater power of God who lives within them. He warns that many Christians live a flimsy, light Christianity without understanding the seriousness of spiritual warfare and the devil's intentions to steal, kill, and destroy.",
+    "mainFocus": "The necessity of becoming a strong Christian in order to overcome Satan through God's power rather than human strength"
   },
   {
     "id": 82,
     "driveId": "1b49LAl3j_sOK6nVo_oVso8hL6utq2WTn",
     "title": "05 How to Become a Fruitful Christian Part 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript data could not be retrieved due to authentication error with the source system (Google Drive API returned 401 UNAUTHENTICATED). Valid authentication credentials are required to access the sermon content."
+    "topics": [
+      "fruitfulness",
+      "spiritual withering",
+      "being fed spiritually",
+      "tongue as God's pen",
+      "Holy Spirit as water",
+      "flesh versus spirit",
+      "spiritual weakness",
+      "Christian as a tree",
+      "bearing spiritual fruit",
+      "source of spiritual nutrition",
+      "revelation knowledge",
+      "spiritual strength"
+    ],
+    "scriptures": [
+      "John 15:8",
+      "John 15:6",
+      "Psalm 1:1",
+      "Psalm 1:3",
+      "1 Corinthians 2:9",
+      "1 Samuel 3:7",
+      "Psalm 45:1",
+      "John 7:38",
+      "Galatians 5:17"
+    ],
+    "keyScripture": "John 15:6",
+    "summary": "BJosh teaches that a fruitful Christian is one who serves as a source of spiritual food and nutrition for others, not just someone who receives but doesn't give out. Christians who fail to bear fruit begin to wither gradually as the Holy Spirit (represented by water) departs from their lives, leading to spiritual weakness and eventual departure from God. The primary battle every Christian faces is between the flesh and the spirit, and strength to overcome comes through fruitfulness rather than mere resolutions or decisiveness."
   },
   {
     "id": 83,
     "driveId": "1zRhE0G6N8LQiAWRcorlk29MMq9rsZWKy",
     "title": "12 How to Become a Spiritual Christian Part 4",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript data could not be retrieved due to authentication error with the source system (Google Drive API access token expired). Please retry with valid credentials to obtain the full sermon transcript."
+    "topics": [
+      "spiritual Christian",
+      "spirit soul and body",
+      "prosperity and health",
+      "walking in truth",
+      "deception and lies",
+      "Holy Spirit as Spirit of Truth",
+      "fleshly versus spiritual",
+      "temptation of body soul and spirit",
+      "living in darkness",
+      "power of darkness",
+      "three parts of man",
+      "carnality"
+    ],
+    "scriptures": [
+      "3 John 1:1",
+      "3 John 1:2",
+      "3 John 1:4",
+      "1 Thessalonians 5:23",
+      "John 16",
+      "John 18:37",
+      "John 18:38",
+      "Romans 3:4",
+      "Colossians 1:13"
+    ],
+    "keyScripture": "3 John 1:2",
+    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and becoming spiritual means being dominated by your spirit rather than your emotions (soul) or fleshly desires (body). He emphasizes that walking in truth is essential to spiritual health, explaining that the Holy Spirit leads believers into all truth and delivers them from the power of darkness that comes with deception and lies. He warns that every human being is naturally a liar according to Romans 3:4, and living in deception keeps people under a spiritual power of darkness that prevents them from changing."
   },
   {
     "id": 84,
     "driveId": "1VI8Ytekqb4XuszjQmTDTVzEEDekhse44",
     "title": "10 How to Become a Spiritual Christian Part 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error with the source document. Please provide the sermon transcript text directly to enable proper indexing and analysis."
+    "topics": [
+      "spirit soul and body",
+      "sanctification",
+      "tripartite nature of man",
+      "spiritual strength",
+      "comforting one another",
+      "edifying believers",
+      "praying without ceasing",
+      "abstaining from evil appearance",
+      "wholeness in Christ",
+      "cost of discipleship",
+      "presenting your body",
+      "submitting your mind to God"
+    ],
+    "scriptures": [
+      "Ephesians 6",
+      "1 Thessalonians 5:10",
+      "1 Thessalonians 5:11",
+      "1 Thessalonians 5:12",
+      "1 Thessalonians 5:13",
+      "1 Thessalonians 5:14",
+      "1 Thessalonians 5:15",
+      "1 Thessalonians 5:16",
+      "1 Thessalonians 5:17",
+      "1 Thessalonians 5:18",
+      "1 Thessalonians 5:19",
+      "1 Thessalonians 5:20",
+      "1 Thessalonians 5:21",
+      "1 Thessalonians 5:22",
+      "1 Thessalonians 5:23"
+    ],
+    "keyScripture": "1 Thessalonians 5:23",
+    "summary": "BJosh teaches that human beings are composed of three parts—spirit, soul, and body—and that God wants to sanctify all three components to make believers complete and holy. He emphasizes that the soul includes the mind and emotions, the spirit is the eternal part that goes to heaven, and the body must be presented as a living sacrifice. He explains that the cost of following Christ requires submitting your mind to God, presenting your body to Him, and commending your spirit into His hands for total sanctification."
   },
   {
     "id": 85,
     "driveId": "1sVRXbs743MhNRpiZQKS_1ZzYRxEAnkxE",
     "title": "03 Holy Spirit-Led Minister of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (expired OAuth 2 access token). Please verify the document is accessible and retry indexing."
+    "topics": [
+      "Holy Spirit-led ministers",
+      "knowing God through pastors",
+      "spiritual leadership",
+      "earthen vessels",
+      "marriage counseling metaphor",
+      "founder's week celebration",
+      "backsliding and restoration",
+      "spiritual gifts and offices",
+      "unity of faith",
+      "treasure in earthen vessels",
+      "pastoral ministry",
+      "relationship with God through intermediaries"
+    ],
+    "scriptures": [
+      "1 Corinthians 2:9-10",
+      "Jeremiah 3:14-15",
+      "Ephesians 4:11-13",
+      "1 Samuel 3",
+      "2 Corinthians 4:7"
+    ],
+    "keyScripture": "Jeremiah 3:14-15",
+    "summary": "BJosh teaches that God sends Holy Spirit-led ministers and pastors as intermediaries to help believers know Him and restore their relationship with Him, using the metaphor of marriage counseling where God says 'I will give you pastors' to fix the broken relationship. He emphasizes that while people want to remove the human element from knowing God, Scripture shows God works through earthen vessels—imperfect human ministers who carry divine treasure within them. He celebrates the role of their founder, Dag Heward-Mills, as the Holy Spirit-led pastor God sent to help the congregation develop their relationship with God through practices like quiet time and Bible reading."
   },
   {
     "id": 86,
     "driveId": "1P0Jqut_WdXJR2I9Q3hUJ449qupCCtxAH",
     "title": "02 Shepherding Techniques That Lead to Church Growth",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon content. The transcript could not be retrieved due to authentication failure with the source API. No sermon content is available for analysis."
+    "topics": [
+      "shepherding techniques",
+      "church growth",
+      "small churches",
+      "fellowship building",
+      "pastoral ministry",
+      "speaking in tongues",
+      "thanksgiving and worship",
+      "desolation of churches",
+      "attendance struggles",
+      "pastoral training",
+      "starting churches",
+      "prayer for growth"
+    ],
+    "scriptures": [
+      "Psalm 100:4",
+      "1 Corinthians 14:4",
+      "1 Corinthians 14:15",
+      "1 Corinthians 14:16",
+      "1 Corinthians 14:17",
+      "Daniel 9:17"
+    ],
+    "keyScripture": "Daniel 9:17",
+    "summary": "BJosh teaches that many pastors struggle with empty, desolate churches characterized by poor attendance and lack of committed members, comparing this to Daniel's prayer over a desolate sanctuary. He emphasizes that speaking in tongues brings God's presence because it allows believers to give thanks well, which is how they enter God's gates according to Psalm 100:4. He stresses that Bible school training should produce practical pastoral skills regardless of location or circumstances, and promises to teach specific shepherding techniques that will help pastors move from mobilizing temporary visitors to building committed congregations."
   },
   {
     "id": 87,
     "driveId": "1bOkqEbZlRIETuv3jtTzQrOCGSFNZN9DB",
     "title": "03 Shepherding Techniques That Lead to Church Growth Part 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source API. Please provide the sermon transcript text to enable proper indexing of topics, scriptures, and teaching summary."
+    "topics": [
+      "shepherding techniques",
+      "church growth",
+      "knowing sheep by name",
+      "sheep knowing pastor's voice",
+      "pastoral communication",
+      "frequent contact with members",
+      "pastoral counseling",
+      "skills and understanding",
+      "being ahead of sheep",
+      "pastoral calling habits",
+      "voice recognition",
+      "pastoral relationship building"
+    ],
+    "scriptures": [
+      "Daniel 9:17",
+      "Daniel 9:21",
+      "1 Corinthians 7:1",
+      "1 Corinthians 7:2",
+      "John 10:4",
+      "John 10:26",
+      "1 Samuel 26:16",
+      "1 Samuel 26:17",
+      "1 Corinthians 14:10",
+      "1 Corinthians 14:11"
+    ],
+    "keyScripture": "John 10:4",
+    "summary": "Bishop Heward-Mills teaches that effective shepherding requires sheep to know their pastor's voice through frequent, prolonged communication beyond just Sunday preaching. He emphasizes that pastors must talk to their members regularly about many different things—counseling, chatting, checking in—so members recognize the pastor's voice and will follow them. When members only hear from their pastor on Sundays or for church business, they remain strangers who will not truly follow, but consistent communication builds the voice recognition necessary for pastoral authority and church growth."
   },
   {
     "id": 88,
     "driveId": "1-pOte7NUlb0ZK0f2JJ75Fq_1OMLqNSBM",
     "title": "01 Burning Vision",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source document. Please verify the document is accessible and retry indexing."
+    "topics": [
+      "burning vision",
+      "speaking in tongues",
+      "being in the spirit",
+      "hearing God's voice",
+      "church growth",
+      "laying on of hands",
+      "receiving anointing",
+      "learning from spiritual fathers",
+      "humility in ministry",
+      "four areas of reception",
+      "revelation of God's Word",
+      "ministry success factors"
+    ],
+    "scriptures": [
+      "1 Corinthians 14:2",
+      "Revelation 1:10",
+      "Proverbs 29:18"
+    ],
+    "keyScripture": "Proverbs 29:18",
+    "summary": "Bishop Joshua teaches that ministry success requires a burning vision from God, emphasizing that according to Proverbs 29:18, without vision the people perish. He explains there are four essential areas for receiving from spiritual fathers in ministry: land (laying on of hands), received (impartation), heard (listening to messages), and seen (observing inner character traits like humility and love for God). He stresses that entering the spirit through speaking in tongues is the fastest way to hear God's voice and receive revelation, and that true ministry effectiveness comes from having God's vision placed inside your heart, not just external actions or anointing."
   },
   {
     "id": 89,
     "driveId": "1r_uIYk5D6Q3qJS3WUtQP5-GiQ1IekD8w",
     "title": "2023.01.07_ABMTC_Attempt Great Things for God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (expired access token). Please verify the document is accessible and resubmit with valid credentials."
+    "topics": [
+      "attempting great things",
+      "working for God not men",
+      "secret service",
+      "heart motives",
+      "divine promotion",
+      "fighting a good fight",
+      "finishing the course",
+      "sheep ministry",
+      "hidden faithfulness",
+      "reward from God",
+      "submission and covenant",
+      "seeking God's approval"
+    ],
+    "scriptures": [
+      "2 Timothy 4:7",
+      "Luke 16:15",
+      "Jeremiah 45:5",
+      "1 Samuel 16:7",
+      "Hebrews 11:6",
+      "Philippians 4:17"
+    ],
+    "keyScripture": "Jeremiah 45:5",
+    "summary": "Bishop Joshua teaches that Christians must attempt great things for God rather than merely maintaining ministry, emphasizing that what is highly esteemed among men is often an abomination to God. He stresses that true spiritual work is done in secret before God alone, not for public recognition or human applause, because God sees and rewards the heart while men only see outward appearances. He warns against seeking great things for oneself and instead calls believers to work faithfully in hidden places, explaining that promotion and blessing come only from God who observes secret devotion and obedience."
   },
   {
     "id": 90,
     "driveId": "1qooh62VeanDPG5NgQOd5x1zMj8f903ek",
     "title": "2023.02.09_WIS_The Truth",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the sermon content."
+    "topics": [
+      "deception",
+      "lies of Satan",
+      "truth",
+      "holiness",
+      "repentance",
+      "salvation altar call",
+      "death and judgment",
+      "Garden of Eden",
+      "worldliness",
+      "lordship of Christ",
+      "urgency of decision",
+      "eternal consequences"
+    ],
+    "scriptures": [
+      "John 18:7",
+      "John 8:44",
+      "Revelation 12:9",
+      "Genesis 1:1",
+      "Genesis 3:1",
+      "Genesis 3:2",
+      "Genesis 3:4",
+      "Genesis 3:5",
+      "John 17",
+      "Hebrews 9:27"
+    ],
+    "keyScripture": "John 8:44",
+    "summary": "Bishop Heward-Mills teaches that Satan has told three fundamental lies since the Garden of Eden: that God's Word is not true, that you will not die, and that you are your own god who can live however you want. He emphasizes that without holiness no one will see God, and that worldly living, sexual immorality, and failing to attend church all indicate deception rather than true Christianity. He urgently calls students and young people to give their lives to Christ immediately, warning that they may not have another opportunity and that judgment awaits every sin committed."
   },
   {
     "id": 91,
     "driveId": "1Hgom6ZbZVcNg6E2ZTtd8olqciEI-U_Sc",
     "title": "2023.02.24_KORLE-GONNO_Jesus will do you good ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source material (Google Drive API access token expired). No content available for analysis."
+    "topics": [
+      "salvation",
+      "forgiveness of sins",
+      "divine healing",
+      "deliverance from oppression",
+      "Jesus as healer",
+      "freedom from condemnation",
+      "power of faith",
+      "escape from hell",
+      "Holy Spirit anointing",
+      "miraculous testimonies"
+    ],
+    "scriptures": [
+      "Acts 10:38",
+      "1 Peter 1:18",
+      "Romans 8:1"
+    ],
+    "keyScripture": "Acts 10:38",
+    "summary": "Bishop Heward-Mills teaches that Jesus comes to do people good through three main works: forgiving sins completely without condemnation, saving people from hell, and physically healing their bodies from sickness and pain. He emphasizes that receiving these benefits requires only faith and belief, not human effort or qualifications. He calls people to accept Jesus for salvation and demonstrates healing prayer, with multiple testimonies of people healed from various pains and conditions during the service."
   },
   {
     "id": 92,
     "driveId": "1tJjEJgtLgwSSAbtn9m0Xjs-it5w2ERnX",
     "title": "2023.02.23_MADINA_Thou son of David, have mercy on me",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication failure with the source document. Please provide the sermon transcript text to generate an accurate index."
+    "topics": [
+      "salvation",
+      "mercy",
+      "repentance",
+      "sin and guilt",
+      "forgiveness",
+      "altar call",
+      "blindness healed",
+      "Bartimaeus",
+      "Son of David",
+      "pleading the blood",
+      "judgment day",
+      "heaven and hell"
+    ],
+    "scriptures": [
+      "Mark 10:46",
+      "Mark 10:47",
+      "Mark 10:48",
+      "Mark 10:49",
+      "Mark 10:50",
+      "Mark 10:51",
+      "Mark 10:52",
+      "Revelation 8:1"
+    ],
+    "keyScripture": "Mark 10:47",
+    "summary": "Bishop Heward-Mills preaches that the greatest human problem is not poverty or sickness but sin, and like blind Bartimaeus, we must cry out \"Son of David, have mercy on me\" to receive God's forgiveness. He emphasizes that God has paused in His eternal purposes to offer salvation, and urges listeners to publicly confess Christ now because this moment may be their last chance before judgment. He teaches that coming to Jesus requires casting away old lifestyles and relationships, and that on judgment day believers can plead the blood of Jesus rather than defend themselves for their sins."
   },
   {
     "id": 93,
     "driveId": "1pfHmPEKzA6XmBwiliWx4aH8kiyi4N4WU",
     "title": "2023.02.10_ATU_By His Stripes",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon transcript due to authentication error with source document. The transcript could not be retrieved to extract teaching content, biblical references, or thematic elements."
+    "topics": [
+      "Isaiah 53",
+      "salvation through suffering",
+      "rejection of Christ",
+      "substitutionary atonement",
+      "God's love for individuals",
+      "Ethiopian eunuch",
+      "wounds and bruises of Jesus",
+      "transgressions and iniquities",
+      "despised Messiah",
+      "bearing our griefs",
+      "prophecy fulfillment",
+      "tenderness and vulnerability of Christ"
+    ],
+    "scriptures": [
+      "Acts 8:26",
+      "Acts 8:25",
+      "Isaiah 53",
+      "Luke 2:52",
+      "Luke 2:40",
+      "John 1:11",
+      "John 12",
+      "Isaiah 52",
+      "Isaiah 53:1",
+      "Isaiah 53:2",
+      "Isaiah 53:3",
+      "Isaiah 53:4",
+      "Isaiah 53:5"
+    ],
+    "keyScripture": "Isaiah 53:5",
+    "summary": "BJosh teaches that Isaiah 53 is the central theme of the Bible, revealing God's overwhelming love through Christ's suffering for our specific sins and transgressions. He emphasizes that Jesus was wounded, bruised, and chastised not for His own guilt but to bear our griefs, sorrows, transgressions, and iniquities as a substitute. BJosh calls listeners to believe this report about Christ's sacrificial love and respond by surrendering their lives to Jesus rather than rejecting Him like the world does."
   },
   {
     "id": 94,
     "driveId": "1ES1I3WEzpcr7iLJ7rwvnnAOWleLwU0NS",
     "title": "2023.02.17_DANS_Christ in you, the Hope of Glory",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript content failed to load due to authentication errors with the source document (Google Drive API access token expired). A valid transcript is required to extract topics, scriptures, and teaching summary."
+    "topics": [
+      "Christ in you",
+      "hope of glory",
+      "salvation",
+      "sin and condemnation",
+      "the cross of Jesus",
+      "transformation through Christ",
+      "hopelessness without God",
+      "faith and confidence",
+      "deliverance from sin",
+      "madman of Gadara",
+      "repentance and new life",
+      "poverty and despair"
+    ],
+    "scriptures": [
+      "Colossians 1:27",
+      "Romans 8:1",
+      "1 John 3:21",
+      "Psalm 40:2",
+      "Isaiah 53:2"
+    ],
+    "keyScripture": "Colossians 1:27",
+    "summary": "Bishop Joshua teaches that Christ living inside a person is the only hope for a glorious and transformed life, especially for those trapped in poverty, sin, addiction, and hopelessness. He emphasizes that without Jesus, there is no real hope for improvement—not through education, marriage, career, or government—and that sin blocks God's blessings and creates condemnation that destroys faith. He calls listeners to surrender their lives to Christ through the cross, which alone can wash away sin, restore hope, and set them on a path to a better future."
   },
   {
     "id": 95,
     "driveId": "19cneTCaVFjwIrWj_8cGTMN_z4YvKL9CM",
     "title": "2023.02.08_UPSA_The Prodigal Son",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process this sermon. The transcript failed to load due to an authentication error with the source system (expired Google Drive access token). Please verify the transcript source is accessible and re-submit for indexing."
+    "topics": [
+      "Prodigal Son",
+      "rebellion against God",
+      "university life temptations",
+      "sexual immorality",
+      "far from God",
+      "coming to your senses",
+      "hell and eternity",
+      "youthful foolishness",
+      "inheritance misused",
+      "relationships and fornication",
+      "remembering your creator",
+      "God as shepherd"
+    ],
+    "scriptures": [
+      "Luke 15:11",
+      "Mark 4:33",
+      "Romans 8:29",
+      "Matthew 23:9"
+    ],
+    "keyScripture": "Luke 15:11",
+    "summary": "BJosh teaches that the prodigal son represents young people who rebel against God by using the gifts and talents God gave them for sinful purposes, especially in university settings where sexual immorality and independence from God flourish. He warns that walking away from God leads to emptiness, abandonment, and ultimately hell, while following God as your shepherd provides everything you truly need including genuine love and fulfillment. He calls students to 'come to their senses' like the prodigal son did, recognizing they are perishing without God and that only supernatural intervention through Christ can give them the power to live righteously."
   },
   {
     "id": 96,
     "driveId": "18acuWcHaPUJKef6vhxdQJaqk4BBDaZoi",
     "title": "2023.02.22_FOSTER HOMES_The works of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication error (expired OAuth 2 access token). Please provide the transcript text directly or resolve the API credentials to proceed with indexing this sermon."
+    "topics": [
+      "healing",
+      "sickness and sin",
+      "forgiveness of sins",
+      "creative miracles",
+      "the cross",
+      "inherited curses",
+      "bloodline change",
+      "salvation decision",
+      "works of God",
+      "walking by faith",
+      "spiritual blindness",
+      "altar call"
+    ],
+    "scriptures": [
+      "John 9:1",
+      "John 9:2",
+      "John 9:3",
+      "John 9:4",
+      "John 9:5",
+      "John 9:6",
+      "John 9:7",
+      "John 9:8",
+      "John 9:10",
+      "John 9:12",
+      "John 9:13",
+      "John 9:18",
+      "Psalm 103:3",
+      "Psalm 38:3",
+      "James 5:14",
+      "James 5:15",
+      "Isaiah 53:5",
+      "Exodus 20:4",
+      "Exodus 20:5",
+      "Genesis 2:6",
+      "Genesis 2:7",
+      "Matthew 2:11",
+      "Matthew 2:12",
+      "Genesis 28",
+      "2 Corinthians 4:3",
+      "2 Corinthians 4:4",
+      "Job 41:24"
+    ],
+    "keyScripture": "John 9:3",
+    "summary": "BJosh teaches that sickness has three causes: personal sin, the sins of parents/ancestors, or God's sovereign design to manifest His glory through healing. He explains that Jesus must deal with sin before healing can occur, using the cross where Jesus took both our transgressions and our diseases, and that receiving Jesus changes your bloodline and breaks inherited curses. Through the story of the blind man in John 9, he demonstrates that Jesus performs creative miracles and calls people to walk by faith, ultimately giving an altar call for salvation because spiritual blindness is worse than physical blindness."
   },
   {
     "id": 97,
     "driveId": "1t3PpgtAzG-PrFFC-k2YjPCYJ3LAzORK0",
     "title": "2023.02.26_LEGON_Almost",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "salvation",
+      "altar call",
+      "repentance",
+      "sin and judgment",
+      "hell and heaven",
+      "personal testimony",
+      "almost saved",
+      "pride and self-sufficiency",
+      "Paul before Agrippa",
+      "transformation through Christ",
+      "Holy Spirit empowerment",
+      "fear of man"
+    ],
+    "scriptures": [
+      "Acts 25-27",
+      "Acts 26:28",
+      "John 3:16",
+      "Matthew 10"
+    ],
+    "keyScripture": "Acts 26:28",
+    "summary": "Bishop Joshua Heward-Mills preaches on the danger of being 'almost saved' using King Agrippa's response to Paul in Acts 26:28 as the central text, warning that many people hear the gospel and are moved but never fully commit to Christ because of pride, fear of what others think, or unwillingness to surrender their lifestyle. He shares his own testimony of giving his life to Christ at age 19 despite coming from a privileged background and living a worldly life, emphasizing that no amount of education, wealth, or religious knowledge can save someone without a personal decision to follow Jesus. He issues a passionate altar call urging students at the University of Ghana to stop being 'almost Christians' and fully surrender to Christ before it's too late, warning that death and judgment are certain and only those who confess Christ publicly will enter heaven."
   },
   {
     "id": 98,
     "driveId": "1Eyb8DWQlRH3zX18DVPemkGvDVxtbdF-r",
     "title": "04.15 - The Sweet Influences of The Holy Spirit on Your Knowledge of God Pt. 2 - Holy Spirit Direct Teachings & Guidance Into Truth",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon index due to authentication error retrieving transcript. The sermon title indicates teaching on Holy Spirit guidance, direct teachings, and truth revelation, but specific content cannot be analyzed without access to the full transcript."
+    "topics": [
+      "knowing God personally",
+      "Holy Spirit revelation",
+      "direct encounter with God",
+      "Transfiguration",
+      "personal testimony vs secondhand faith",
+      "Peter's confession",
+      "Simeon recognizing Christ",
+      "well brought up Christians",
+      "testing teachings against Scripture",
+      "bridal love for Christ",
+      "brokenness before God",
+      "Acts 17:11 nobility"
+    ],
+    "scriptures": [
+      "Matthew 16:13",
+      "Matthew 16:14",
+      "Matthew 16:15",
+      "Matthew 16:16",
+      "Mark 9:1",
+      "Mark 9:2",
+      "Mark 9:4",
+      "Mark 9:5",
+      "Mark 9:7",
+      "Mark 9:8",
+      "Luke 2:20",
+      "Luke 2:21",
+      "Luke 2:22",
+      "Luke 2:25",
+      "Luke 2:26",
+      "Luke 2:27",
+      "Luke 2:28",
+      "Luke 2:29",
+      "Luke 7:25",
+      "Luke 7:26",
+      "Acts 17:10",
+      "Acts 17:11",
+      "Acts 17:12",
+      "Genesis 32",
+      "Isaiah 6",
+      "Isaiah 29:13",
+      "Daniel 12",
+      "Proverbs 3:5",
+      "Leviticus 12",
+      "Ephesians 5:31",
+      "1 Timothy 6:14",
+      "1 Timothy 6:15",
+      "1 Timothy 6:16",
+      "1 Corinthians 4:1",
+      "1 Corinthians 4:2",
+      "Titus 2"
+    ],
+    "keyScripture": "Matthew 16:15-16",
+    "summary": "BJosh teaches that most Christians only know what other people say about God rather than knowing Him personally through direct Holy Spirit encounter and revelation. He emphasizes that well-brought-up believers must test all teaching against Scripture (Acts 17:11) and not merely follow pastors or prophets as if they were God themselves. The Holy Spirit alone can lead believers into personal knowledge of God through direct teaching, revelation, and guidance, moving them from secondhand testimony to firsthand encounter."
   },
   {
     "id": 99,
     "driveId": "1R41qXSAu73xRNCDNud4TDA9gAdYWUHUB",
     "title": "04.08 - The Sweet Influences of The Holy Spirit on Your Knowledge of God Pt. 1 - Holy Ghost Reminders",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2.0 access token expired). Please verify access permissions to the source material and retry indexing."
+    "topics": [
+      "Holy Spirit friendship",
+      "knowing God",
+      "levels of relationship with God",
+      "transformation through the Holy Spirit",
+      "countenance change",
+      "Moses face shining",
+      "believing versus knowing",
+      "iron sharpens iron",
+      "love of Christ",
+      "intimacy with God",
+      "personal knowledge of God",
+      "spiritual progression"
+    ],
+    "scriptures": [
+      "Proverbs 27:15",
+      "Proverbs 27:17",
+      "Exodus 33:11",
+      "Exodus 34",
+      "Philippians 3:8",
+      "John 1:12",
+      "Ephesians 3:19"
+    ],
+    "keyScripture": "Proverbs 27:17",
+    "summary": "BJosh teaches that the Holy Spirit transforms people when He becomes their friend, just as iron sharpens iron and as Moses' face was changed when God spoke to him face to face as a friend. He explains that there are progressive levels of relationship with God—from merely believing in God's existence to personally knowing Him, being known by Him, and ultimately loving Him. The primary influence of the Holy Spirit is to move believers beyond basic belief into a personal, intimate knowledge of God that produces visible transformation."
   },
   {
     "id": 100,
     "driveId": "1qzTdn514Ivmb2YSzPu4Uc_hHw2ED_5iP",
     "title": "2023.01.14_FLCGES_Formula For Humility Part 1.",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error (expired access token). Please provide the sermon transcript text to enable proper indexing."
+    "topics": [
+      "humility",
+      "pride",
+      "anxiety",
+      "prayer and fasting",
+      "Operation Don't Think About It",
+      "seeking God",
+      "trusting God's provision",
+      "spiritual warfare",
+      "overcoming worry",
+      "God's initiative",
+      "supernatural breakthrough",
+      "corporate prayer"
+    ],
+    "scriptures": [
+      "Matthew 6:31",
+      "Matthew 6:32",
+      "Matthew 6:33",
+      "James 4:10",
+      "Psalm 10:4"
+    ],
+    "keyScripture": "James 4:10",
+    "summary": "BJosh teaches that humility in God's sight, not just outward appearance before people, is the key to being lifted up and receiving breakthrough. He announces a church-wide prayer and fasting operation called 'Operation Don't Think About It' based on Matthew 6, urging the congregation to stop being anxious about life needs and instead seek God's kingdom through early morning prayer (5-7am) and daily fasting (9am-7am). He emphasizes that pride is a high spiritual wall that blocks people from praying, receiving counsel, and experiencing God's blessings, while humility and dedicated prayer are the foundation for supernatural provision and breakthrough."
   },
   {
     "id": 101,
     "driveId": "1sXIIKwEbEwJc0MWxW3IE_GrkQhJ_dOZX",
     "title": "04.22 - The Sweet Influences of The Holy Spirit on Your Knowledge of God  Pt. 3 - Holy Ghost Knowings",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error (expired OAuth 2 access token). Please re-authenticate and provide the sermon transcript to enable proper indexing of topics, scriptures, and teaching content."
+    "topics": [
+      "Holy Spirit anointing",
+      "knowing God personally",
+      "grace and peace",
+      "strangers to God",
+      "undeserved favor",
+      "antichrist spirits",
+      "five wise virgins",
+      "friendship with the world",
+      "spiritual discernment",
+      "Holy Ghost knowings",
+      "relationship with God",
+      "inheritance in heaven"
+    ],
+    "scriptures": [
+      "1 Peter 1:1",
+      "1 Peter 1:2",
+      "1 Peter 1:3",
+      "1 Peter 1:4",
+      "2 Peter 1",
+      "Matthew 25:6",
+      "James 4:4",
+      "1 John 2:15",
+      "1 John 2:16",
+      "1 John 2:17",
+      "1 John 2:18",
+      "1 John 2:19",
+      "1 John 2:20"
+    ],
+    "keyScripture": "1 John 2:20",
+    "summary": "Bishop Joshua teaches that many Christians remain strangers to God despite being part of the church, lacking the personal knowledge of Him that brings grace, peace, and divine assistance in life. He emphasizes that the Holy Spirit gives believers an anointing to discern antichrist influences—people and relationships that pull them away from God—just as the five foolish virgins were rejected because the bridegroom said \"I don't know you.\" Without the Holy Spirit's gift of \"knowing,\" Christians cannot recognize when friendships, romantic relationships, or even church members are working against their relationship with God, ultimately ending their walk with Him."
   },
   {
     "id": 102,
     "driveId": "1UCtV6UByCIaEd6ayNU6sD9EzlVEBe_Mc",
     "title": "2023.01.21_FLCGES_Formula for Humility Part 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (expired OAuth 2.0 access token). Please verify the document is accessible and re-submit with valid credentials."
+    "topics": [
+      "Holy Spirit",
+      "Humility",
+      "Transformation",
+      "Pride",
+      "Presence of God",
+      "Glory of God",
+      "Intimacy with God",
+      "Friendship with God",
+      "Sources of Pride",
+      "Exaltation",
+      "Revelation",
+      "Change"
+    ],
+    "scriptures": [
+      "John 4:13-16",
+      "John 7",
+      "Exodus 33:11",
+      "Exodus 34",
+      "2 Corinthians 3:12-18",
+      "John 14:9",
+      "John 14:14-15",
+      "Hebrews 1",
+      "James 4:10",
+      "Genesis 30:32-39",
+      "John 16:14-15",
+      "Luke 18:9-14",
+      "2 Corinthians 12:7"
+    ],
+    "keyScripture": "2 Corinthians 3:18",
+    "summary": "Bishop Heward-Mills teaches that true humility cannot be learned through sermons or human effort, but only comes through intimate friendship with the Holy Spirit who transforms believers as they behold God's glory. He explains that people become what they look at, citing Moses whose face shone after encountering God, and that transformation happens when the Holy Spirit reveals Jesus and His humility to believers. He identifies seven shocking sources of pride including beauty, perfection, prayer, fasting, giving, revelation, and anointing, emphasizing that humbling oneself in God's sight—not before people—is what leads to divine exaltation and grace."
   },
   {
     "id": 103,
     "driveId": "13YBfo0kCkHa2pAsCh6aa93gye7UzyGOA",
     "title": "05.06 - The Sweet Influences of The Holy Spirit on Your Knowledge of God Pt. 4 - Spirit Led Men of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon index. The transcript failed to load due to authentication error with the source document. Please provide the sermon transcript text to complete the indexing."
+    "topics": [
+      "Holy Spirit guidance",
+      "Spirit-led men of God",
+      "knowing God personally",
+      "divine appointments",
+      "pastoral ministry",
+      "spiritual mentorship",
+      "Holy Spirit communion",
+      "backsliding",
+      "presence of God",
+      "intimacy with God",
+      "fellowship of the Holy Spirit",
+      "wingmen of God"
+    ],
+    "scriptures": [
+      "Acts 8:5",
+      "Acts 8:26",
+      "Acts 8:27",
+      "Acts 8:28",
+      "Acts 9:1",
+      "Acts 9:4",
+      "Acts 9:5",
+      "Acts 9:6",
+      "Acts 9:7",
+      "Acts 9:8",
+      "Acts 9:9",
+      "Acts 9:10",
+      "Acts 9:11",
+      "Acts 9:12",
+      "Acts 10:1",
+      "Acts 10:2",
+      "Acts 10:3",
+      "Acts 10:4",
+      "Acts 10:5",
+      "Acts 10:6",
+      "Acts 10:7",
+      "Acts 10:8",
+      "Acts 10:9",
+      "Acts 10:10",
+      "Acts 10:11",
+      "Acts 10:12",
+      "Acts 10:13",
+      "Acts 10:14",
+      "Acts 10:15",
+      "Acts 10:16",
+      "Acts 10:17",
+      "Acts 10:18",
+      "Acts 10:19",
+      "Acts 10:44",
+      "Ephesians 4:11",
+      "Ephesians 4:12",
+      "Ephesians 4:13",
+      "1 Samuel 3:1",
+      "1 Samuel 3:2",
+      "1 Samuel 3:3",
+      "1 Samuel 3:4",
+      "1 Samuel 3:5",
+      "1 Samuel 3:6",
+      "1 Samuel 3:7",
+      "1 Samuel 3:8",
+      "1 Samuel 3:9",
+      "1 Samuel 3:11",
+      "Acts 19:1",
+      "Acts 19:2",
+      "Acts 19:3",
+      "Acts 19:5",
+      "Acts 19:6",
+      "Joshua 3:3",
+      "1 John 1:1",
+      "1 John 1:2",
+      "1 John 1:3",
+      "Isaiah 51:1",
+      "Isaiah 51:2",
+      "John 12:20",
+      "John 12:21",
+      "Jeremiah 3:14",
+      "Jeremiah 3:15",
+      "2 Corinthians 13:14"
+    ],
+    "keyScripture": "Ephesians 4:11-13",
+    "summary": "Bishop Heward-Mills teaches that God does not primarily use direct sovereign encounters to bring people to know Him, but instead sends Spirit-led men of God as 'wingmen' to guide believers into personal knowledge of God. He demonstrates through Acts 8, 9, and 10 that even when God appears directly to people like the Ethiopian eunuch, Paul, and Cornelius, He still directs them to human ministers (Philip, Ananias, Peter) who will explain and teach them. He emphasizes that pastors and spiritual mentors are God's ordained method for believers to grow in intimacy with God, move beyond long-distance relationship with Him, and experience the communion of the Holy Spirit that transforms knowledge about God into knowing God personally."
   },
   {
     "id": 104,
     "driveId": "1PB_aoNhQRngLtuqqOmrPlnlFC8dIK2s9",
     "title": "2023.01.08_FLCHGE_Attempt Great Things for God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API access token expired). No content is available to analyze for topics, scriptures, or teaching summary."
+    "topics": [
+      "covenant making",
+      "attempting great things for God",
+      "soul winning",
+      "prayer commitment",
+      "giving commitment",
+      "divine promotion",
+      "seeking God's kingdom first",
+      "rest on all sides",
+      "deliverance and transformation",
+      "God's definition of greatness",
+      "spiritual awakening",
+      "kingdom advancement"
+    ],
+    "scriptures": [
+      "Psalm 105:17",
+      "Psalm 105:18",
+      "Psalm 105:19",
+      "Psalm 105:20",
+      "Psalm 119:105",
+      "Isaiah 34:16",
+      "2 Timothy 4:7",
+      "2 Chronicles 15:12",
+      "2 Chronicles 15:13",
+      "2 Chronicles 15:14",
+      "2 Chronicles 15:15",
+      "Mark 5:14",
+      "Mark 5:15",
+      "Mark 5:16",
+      "Mark 5:17",
+      "Mark 5:18",
+      "Luke 16:15",
+      "Proverbs 10:22",
+      "Jeremiah 45:5"
+    ],
+    "keyScripture": "Psalm 105:19",
+    "summary": "BJosh teaches that Christians must make a covenant with God to attempt three great things in 2023: commit to soul winning (bringing people to salvation and discipleship), commit to consistent prayer (attending morning prayer Tuesday-Saturday), and commit to sacrificial giving. He emphasizes that what humans consider great achievements (marriage, career, education, wealth) are not great to God, but bringing souls to Christ and seeing them transformed, seated, clothed, and in their right mind is what God considers truly great. The sermon stresses that promotion and breakthrough come not from human effort or connections, but from doing what is great in God's eyes, and when believers enter this covenant, God promises to give them rest on all sides."
   },
   {
     "id": 105,
     "driveId": "1oq8DX7MKEjWWe0tNQ0jzrgqV1iZvM8C9",
     "title": "02.26 - The Holy Spirit and Soul Winning",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document. Please verify access credentials and resubmit the transcript content for proper indexing."
+    "topics": [
+      "soul winning",
+      "evangelism",
+      "faithfulness in ministry",
+      "the Great Commission",
+      "sacrifice of Christ",
+      "Holy Spirit power",
+      "witnessing",
+      "reconciliation ministry",
+      "eternal rewards",
+      "crucifixion",
+      "commitment to the gospel",
+      "church crusade"
+    ],
+    "scriptures": [
+      "1 Timothy 1:11",
+      "Isaiah 53",
+      "Isaiah 53:5",
+      "Isaiah 53:6",
+      "2 Corinthians 5:17",
+      "2 Corinthians 5:18",
+      "Daniel 12:3",
+      "Acts 1:4",
+      "Acts 1:8"
+    ],
+    "keyScripture": "Acts 1:8",
+    "summary": "Bishop Joshua teaches that the primary calling of every believer is soul winning, and that God has entrusted this generation with the responsibility to reach their generation with the gospel. He emphasizes that the sign of the Holy Spirit's power in a church is not miracles or gifts alone, but believers actively witnessing and winning souls for Christ. He challenges the congregation to be faithful with the glorious gospel committed to them, reminding them that those who turn many to righteousness will shine as stars forever and ever."
   },
   {
     "id": 106,
     "driveId": "1dbQrVrqR638LI2kI1CKoX-4qGwBUJZxJ",
     "title": "04.09 - Why You Need The Presence of God Pt. 1",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication errors with the source system. Please verify the transcript is accessible and try again."
+    "topics": [
+      "Presence of God",
+      "Moses",
+      "Intimacy with God",
+      "Pride and humility",
+      "Educational qualifications vs God's presence",
+      "Proximity to God",
+      "Worship from afar vs worship near",
+      "Dependence on God",
+      "Beauty and status cannot replace God",
+      "Egyptian wisdom",
+      "Pharaoh's daughter",
+      "Plagues of Egypt"
+    ],
+    "scriptures": [
+      "Exodus 24:1",
+      "Exodus 33:15",
+      "Acts 7:20",
+      "Acts 7:21",
+      "Psalm 36:7-10"
+    ],
+    "keyScripture": "Exodus 33:15",
+    "summary": "Bishop Joshua teaches that Moses, despite being handsome, educated in all Egyptian wisdom, and adopted by Pharaoh's daughter, declared he would not go forward unless God's presence went with him. He emphasizes that no matter one's education, family background, physical appearance, or professional qualifications, none of these can replace the need for God's presence in one's life. The central message is that many Christians worship God from afar rather than seeking genuine closeness, but like Moses who performed miracles before Pharaoh, true power and success come only through intimate relationship with God's presence."
   },
   {
     "id": 107,
     "driveId": "1npR1XdVyylrpXQzhheRInWGsU6lRgGUO",
     "title": "2023.01.22FLCHGE_How You Can Receive The Holy Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source document (expired access token). Please verify the document is accessible and retry indexing."
+    "topics": [
+      "Holy Spirit",
+      "speaking in tongues",
+      "baptism of the Spirit",
+      "confession of sins",
+      "spiritual sensitivity",
+      "impartation",
+      "laying on of hands",
+      "supernatural gifts",
+      "yielding to God",
+      "persistent prayer",
+      "Old Testament vs New Testament anointing",
+      "priesthood of believers"
+    ],
+    "scriptures": [
+      "Acts 2",
+      "Acts 10",
+      "Acts 19",
+      "Acts 4",
+      "Acts 2:1-4",
+      "Joel 2:28",
+      "Ecclesiastes 5:2",
+      "1 John 1:8-9",
+      "Isaiah 1:18",
+      "Leviticus 14:14-15",
+      "Luke 11:13",
+      "Jude 1:20",
+      "Acts 8:18-19",
+      "Mark 15:34",
+      "Mark 15:37-38",
+      "1 Corinthians 14",
+      "Revelation 7"
+    ],
+    "keyScripture": "Acts 2:4",
+    "summary": "Bishop Heward-Mills teaches that receiving the Holy Spirit and speaking in tongues is the beginning point of all supernatural experiences in the Christian life. He outlines five steps to receive the Holy Spirit: confess your sins (because God's presence requires holiness), ask for the Holy Spirit (as Luke 11:13 promises), open your mouth and speak by faith (you must begin, then the Spirit gives utterance), receive the laying on of hands from someone who has the Spirit, and pray persistently until you receive. He emphasizes that speaking in tongues transforms lives, increases spiritual sensitivity, and is accessible to all believers through the blood of Jesus which cleanses us to receive God's presence."
   },
   {
     "id": 108,
     "driveId": "1oyt3AshrmxKfyB3wg3hIsw6lFZDdVddY",
     "title": "2023.01.15FLCGHE_Prayer",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process: The transcript failed to load due to an authentication error with Google Drive (expired access token). No sermon content is available for indexing."
+    "topics": [
+      "Kingdom of God",
+      "Speaking in tongues",
+      "Fasting and prayer",
+      "Holy Spirit baptism",
+      "Matthew 6:33",
+      "Don't think about your life",
+      "Seeking God first",
+      "Manifestation of the Holy Spirit",
+      "Operation Don't Think About It",
+      "Magnifying God through tongues",
+      "Divine provision",
+      "Spiritual language"
+    ],
+    "scriptures": [
+      "Matthew 6:10",
+      "Matthew 6:24",
+      "Matthew 6:25",
+      "Matthew 6:26",
+      "Matthew 6:27",
+      "Matthew 6:31",
+      "Matthew 6:32",
+      "Matthew 6:33",
+      "John 3",
+      "John 17",
+      "Isaiah 9:7",
+      "Mark 16:17",
+      "Acts 2",
+      "Acts 2:33",
+      "Acts 4",
+      "Acts 10",
+      "Acts 10:44",
+      "Acts 10:45",
+      "Acts 10:46",
+      "Acts 19",
+      "1 Corinthians 12",
+      "1 Corinthians 14",
+      "Luke 17"
+    ],
+    "keyScripture": "Matthew 6:33",
+    "summary": "Bishop Heward-Mills teaches that believers should stop worrying about their lives (food, clothes, jobs, money) and instead seek God's kingdom first through a program called 'Operation Don't Think About It' involving early morning prayer and fasting. He emphasizes that speaking in tongues is the primary manifestation and evidence of the Holy Spirit's presence, which magnifies God in the believer's life and makes His presence more real and tangible. When Christians prioritize serving God over serving money and their own needs, God promises to add all necessary provisions to their lives supernaturally, just as He provides for birds and flowers."
   },
   {
     "id": 109,
     "driveId": "1FHsbmoqZKuVJdGp0Cs9wxwrbaNGhwBST",
     "title": "05.28 - Foundations of Christianity",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token on Google Drive). No content available for analysis."
+    "topics": [
+      "born again",
+      "salvation",
+      "spiritual death",
+      "confession of faith",
+      "believing in the heart",
+      "foundation of Christianity",
+      "Jesus as Son of God",
+      "public confession",
+      "sin and death",
+      "entrance to heaven",
+      "new life in Christ",
+      "heart transformation"
+    ],
+    "scriptures": [
+      "Psalm 11:3",
+      "Hosea 4:1",
+      "Luke 6:48",
+      "John 3:3",
+      "John 14:6",
+      "Romans 3:23",
+      "Romans 10:9-10",
+      "1 John 4:15",
+      "1 John 5:1",
+      "James 2:19",
+      "1 Corinthians 14",
+      "Acts 2",
+      "John 1:12",
+      "Psalm 14:1",
+      "Proverbs 4:23",
+      "Matthew 10:32-33"
+    ],
+    "keyScripture": "John 3:3",
+    "summary": "Bishop Joshua teaches that being born again is absolutely essential for entering heaven because sin has caused spiritual death in all humans, and only through believing in Jesus as the Son of God in your heart and publicly confessing Him before men can you receive new spiritual life. He emphasizes that true belief in the heart manifests in a changed life, not just mental acknowledgment or church attendance, and warns that failing to publicly confess Christ will result in Jesus denying you before the Father. Using the analogy of foundations and personal stories, he challenges listeners to examine whether they have genuinely taken the step of public confession and heart belief, urging them to make that decision today if they haven't already."
   },
   {
     "id": 110,
     "driveId": "1f3bDZ3GSb_F_CZmViKJUmumyvzDfSInD",
     "title": "04.30 - Why You Need The Presence of God Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source API. Please provide the sermon transcript text to enable proper indexing."
+    "topics": [
+      "Presence of God",
+      "Human weakness and corruption",
+      "Sin separating from God",
+      "Natural man unable to receive spiritual things",
+      "Body corruption and resurrection",
+      "Moses and divine calling",
+      "Fellowship with Holy Spirit",
+      "Martha and Mary",
+      "Proximity to Jesus",
+      "Holiness through God's presence",
+      "Eternal life as knowing God",
+      "Human shame and dishonor"
+    ],
+    "scriptures": [
+      "Genesis 3:8",
+      "Isaiah 59:1-2",
+      "John 3:16",
+      "John 17:1-3",
+      "1 Corinthians 15:42-44",
+      "1 Corinthians 2:9",
+      "1 Corinthians 2:14",
+      "Exodus 3:8-12",
+      "Genesis 32",
+      "Genesis 28",
+      "Matthew 5"
+    ],
+    "keyScripture": "Exodus 3:11-12",
+    "summary": "BJosh teaches that human beings are inherently corrupt, weak, dishonorable, and natural (unable to receive spiritual things), which is why everyone desperately needs God's presence rather than relying on their own efforts or goodness. He emphasizes that when Moses asked 'Who am I?' at the burning bush, God's answer was not about Moses' abilities but 'I will be with you'—showing that God's presence makes up for all human inadequacy and weakness. The central message is that proximity to Jesus and His abiding presence is the one necessary thing that cannot be taken away, not religious activity or working for God, as illustrated by Mary choosing to sit at Jesus' feet while Martha worked."
   },
   {
     "id": 111,
     "driveId": "1OIzlr9ohjp5S3jITzPApCYfvIXDthz2b",
     "title": "05.07 - Why You Need The Presence of God Pt. 3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source system (Google Drive API access token expired). No content is available for analysis."
+    "topics": [
+      "presence of God",
+      "spiritual withering",
+      "fading faith",
+      "backsliding",
+      "holiness and sin",
+      "brokenheartedness",
+      "death and mortality",
+      "spiritual dryness",
+      "shield of faith",
+      "obedience",
+      "church attendance",
+      "staying close to God"
+    ],
+    "scriptures": [
+      "Psalm 72:6",
+      "Psalm 72:7",
+      "John 15:6",
+      "John 14:9",
+      "John 14:10",
+      "John 14:12",
+      "John 14:13",
+      "Luke 24:24",
+      "John 20:24",
+      "John 20:25",
+      "John 20:26",
+      "Psalm 23",
+      "1 Corinthians 8",
+      "Galatians 4:9",
+      "2 Timothy 2:19",
+      "Isaiah 61",
+      "Luke 4",
+      "Ephesians 6:16"
+    ],
+    "keyScripture": "John 15:6",
+    "summary": "BJosh teaches that without consistently staying in God's presence through prayer, Bible reading, and church attendance, Christians will spiritually wither like grass that fades and flowers that die, no matter how passionate they once were. He emphasizes that life's trials—death, disappointment, broken hearts, and spiritual attacks—can only be endured and overcome by abiding in God's presence, which keeps believers fresh, heals their brokenness, and restores their faith. He warns that Satan's primary strategy is to distance believers from God's presence by keeping them away from church and prayer, leading to backsliding and spiritual death, and stresses that obedience and faith (the shield of faith) are essential to quenching the enemy's fiery attacks."
   },
   {
     "id": 112,
     "driveId": "18Rlc4suR4_WT3R_X3PvzbhWrc5LSMe8u",
     "title": "04.23 - Take My Yoke and Learn of Me",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document (expired OAuth 2 access token). Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "yoke of Jesus",
+      "building the church",
+      "spiritual maturity",
+      "harvest laborers",
+      "Sunday morning service",
+      "soul winning",
+      "humility and meekness",
+      "rest in Christ",
+      "every joint supplying",
+      "spiritual warfare",
+      "church growth",
+      "personal responsibility"
+    ],
+    "scriptures": [
+      "Luke 10:1-2",
+      "Matthew 11:28-29",
+      "Genesis 3:19",
+      "2 Corinthians 10:6",
+      "Ephesians 4:16",
+      "1 Corinthians 2:14"
+    ],
+    "keyScripture": "Matthew 11:28-29",
+    "summary": "Bishop Joshua teaches that Jesus responds to our burdens not by removing them but by asking us to take His yoke—the work of building His church and winning souls. He emphasizes that spiritual maturity comes through understanding our inadequate state and humbly accepting the responsibility of church growth, where every member must actively supply and bring others to Christ. He commissions the morning service congregation specifically to fill the building with souls, explaining that taking Christ's yoke brings true rest even as we labor in His harvest field."
   },
   {
     "id": 113,
     "driveId": "1jO-7mxaQT5qFJGDB5YYF_iLZHS8xFd33",
     "title": "02.26 - Why Phillip Preached Christ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript returned a Google API authentication error (expired access token) rather than sermon text. Please provide the sermon transcript or resolve the authentication issue to enable indexing."
+    "topics": [
+      "soul winning",
+      "evangelism",
+      "salvation message",
+      "preaching Christ",
+      "hope of glory",
+      "converting sinners",
+      "Philip the evangelist",
+      "Billy Graham",
+      "gospel presentation",
+      "Jesus as Savior",
+      "personal testimony",
+      "Air Force One"
+    ],
+    "scriptures": [
+      "Luke 19:10",
+      "Matthew 1:21",
+      "Colossians 1:27",
+      "Acts 8:5"
+    ],
+    "keyScripture": "Colossians 1:27",
+    "summary": "Bishop Joshua teaches that the central message of First Love Church must always be Jesus Christ as Savior, following Philip's example in Acts 8 who preached Christ to Samaria. He emphasizes that Christ in you is the hope of glory (Colossians 1:27), meaning that regardless of your past, education, or circumstances, Jesus brings the possibility of honor and beauty to your life. He stresses the difference between merely gathering people to church versus actually converting souls by leading them to Christ and discipling them, which is what maintains relevance and greatness in ministry."
   },
   {
     "id": 114,
     "driveId": "1MAGU-sM3LF_E4O6ADga6xrdEqXphWahB",
     "title": "2023.01.08FLCES_Attempt Great Things for God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process: The sermon transcript failed to load due to authentication errors with the source system. No content is available for indexing at this time."
+    "topics": [
+      "attempting great things for God",
+      "covenant making",
+      "soul winning",
+      "establishing new converts",
+      "prayer commitment",
+      "financial giving",
+      "promotion from God",
+      "serving God's house",
+      "rest round about",
+      "stewardship and authority",
+      "evangelism goals",
+      "corporate prayer"
+    ],
+    "scriptures": [
+      "2 Chronicles 15:12",
+      "2 Chronicles 15:13",
+      "2 Chronicles 15:14",
+      "2 Chronicles 15:15",
+      "Luke 19:17",
+      "2 Timothy 4:7",
+      "Luke 16:15",
+      "Mark 5:15",
+      "Mark 5:18",
+      "Jeremiah 45:5",
+      "Psalm 75:6-7",
+      "Matthew 6:32"
+    ],
+    "keyScripture": "2 Chronicles 15:15",
+    "summary": "Bishop Joshua teaches that believers must make a covenant with God in 2023 to attempt great things specifically for God's work—not personal achievement—by committing to win and establish 10 souls, dedicate specific days to corporate prayer (Tuesday-Saturday 5:30-6:30am), and increase financial giving to the house of God. He emphasizes that promotion and breakthrough come only from God, not from human effort or connections, and are granted to those who serve God's house faithfully as stewards. He defines \"great things\" not by worldly standards but by what God values: people once possessed by Satan now sitting clothed, in their right mind, listening to God's Word in church."
   },
   {
     "id": 115,
     "driveId": "1Q1td-09v894DB60JL3XeX8zXjAOjudc2",
     "title": "06.11 - If You Love The Lord, Expect These Blessings Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript content is unavailable due to authentication errors with the source document. Please provide the sermon transcript text to generate accurate indexing metadata."
+    "topics": [
+      "Love for God",
+      "Manifestation of God",
+      "Blessings of loving God",
+      "Spirit of the living God",
+      "Extraordinary life",
+      "God's presence in trouble",
+      "Deliverance and promotion",
+      "Idolatry and jealousy of God",
+      "God answering prayer",
+      "Commandments and obedience",
+      "Covenant relationship with God",
+      "Divine revelation"
+    ],
+    "scriptures": [
+      "Psalm 122:1",
+      "John 14:21",
+      "1 Corinthians 2:9",
+      "Romans 8:28",
+      "Psalm 91:14",
+      "Psalm 91:15",
+      "Psalm 23:4",
+      "Job 14:1",
+      "Exodus 20:3",
+      "Exodus 20:4",
+      "Exodus 20:5",
+      "1 John 5:21",
+      "Galatians 6:7",
+      "2 Corinthians 3:3"
+    ],
+    "keyScripture": "John 14:21",
+    "summary": "Bishop Joshua teaches that loving God with all your heart, soul, and mind unlocks specific blessings including God manifesting Himself to you as a real, living presence rather than a distant historical figure. He emphasizes that those who love God receive extraordinary lives beyond human comprehension, experience God's deliverance in times of crisis, and have all things work together for their good regardless of past mistakes. The core message warns against idolatry (including modern Christian idols like jobs or relationships) and calls believers to choose God above all else, promising that God will be present in trouble, grant promotion, and answer prayers for those who truly love Him."
   },
   {
     "id": 116,
     "driveId": "1Rs_k53KvdQ6kwtCw-ymSV2zf6qDWiQu3",
     "title": "2023.01.22FLC_The Mystery of Prayer",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source API (Google Drive access token expired). Please provide the sermon transcript text or resolve the authentication credentials to proceed with indexing."
+    "topics": [
+      "spiritual realm determines physical reality",
+      "Holy Spirit as a person",
+      "mystery of prayer",
+      "God requires prayer to intervene",
+      "humility versus pride",
+      "promotion comes from God",
+      "waking God up through prayer",
+      "God's involvement in crisis",
+      "anxiety and prayer",
+      "seeking God's intervention",
+      "God's mysterious ways",
+      "prayer accomplishes much"
+    ],
+    "scriptures": [
+      "Hebrews 11",
+      "Genesis 1:2",
+      "Revelation 10:7",
+      "1 Timothy 3:16",
+      "Genesis 20:3-7",
+      "Philippians 4:6"
+    ],
+    "keyScripture": "Genesis 20:7",
+    "summary": "Bishop Heward-Mills teaches that God mysteriously limits Himself to act only when we pray, using the example of Abimelech in Genesis 20 where God required Abraham to pray even though God already knew the situation. He emphasizes that the spiritual realm determines what happens in the physical realm, and that Jesus can be peacefully asleep in our boat while our lives are sinking unless we learn to wake Him up through fervent prayer. He illustrates through personal testimony how desperate prayer at 3am before his dissertation deadline brought divine intervention and supernatural help, demonstrating that prayer activates God's involvement in every area of life."
   },
   {
     "id": 117,
     "driveId": "1CqzT0vE5W62Ru_wYSg8L8ZZ0S6fZQnKO",
     "title": "05.21 - Honour",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 Unauthenticated). Please verify access credentials and retry."
+    "topics": [
+      "Honor",
+      "Spiritual Fathers",
+      "Double Honor for Elders",
+      "Tribute and Custom",
+      "Church Founders",
+      "Pastoral Authority",
+      "Valuing Spiritual Things",
+      "Seed and Harvest",
+      "Ministry Labor",
+      "Recognizing God's Servants",
+      "Financial Support for Ministers",
+      "Dishonor in Ministry"
+    ],
+    "scriptures": [
+      "Romans 13:7",
+      "Matthew 22:17",
+      "Matthew 22:18",
+      "Matthew 22:19",
+      "1 Timothy 5:17",
+      "2 Corinthians 6:4-9",
+      "Hebrews 3:3",
+      "Hebrews 13:7"
+    ],
+    "keyScripture": "1 Timothy 5:17",
+    "summary": "Bishop Heward-Mills teaches that Christians must render honor to those who are due honor, particularly spiritual fathers, church founders, and pastors who labor in preaching and teaching, emphasizing that elders who work hard deserve double honor including financial support. He stresses that honoring spiritual authority is not optional but a biblical command, warning that the highest dishonor often comes in a prophet's own country and church, and that members must learn to value unseen spiritual things over material ones. He declares that as founder of Lighthouse Chapel/First Love Church, he is due honor in his own house, and that sowing seeds of honor will result in a harvest of being honored by those one leads."
   },
   {
     "id": 118,
     "driveId": "1MD9VjyhzTgTdRSXJKu2GcA6RD4iNJb2g",
     "title": "05.28 - If You Love The Lord, Expect These Blessings Pt. 1",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. Authentication error prevents access to transcript data. Please verify credentials and retry indexing."
+    "topics": [
+      "loving God with all your heart",
+      "the great commandment",
+      "emotional devotion to God",
+      "meditation on God",
+      "satisfaction in God alone",
+      "obedience as fruit of love",
+      "God manifesting Himself",
+      "extraordinary life through loving God",
+      "worldliness in Christians",
+      "half-hearted Christianity",
+      "God's jealousy",
+      "prioritizing God above all"
+    ],
+    "scriptures": [
+      "Matthew 22:35-40",
+      "Judges 16:15",
+      "Proverbs 23:26",
+      "Ezekiel 33:30-32",
+      "John 14:21",
+      "John 14:23",
+      "1 Kings 11:4",
+      "Psalm 63:1-5",
+      "Psalm 63:6",
+      "Isaiah 26:3",
+      "Deuteronomy 30:6-8",
+      "James 1:12",
+      "2 Corinthians 8",
+      "1 Corinthians 2:9"
+    ],
+    "keyScripture": "Matthew 22:37-38",
+    "summary": "BJosh teaches that the great commandment is to love God with all your heart, soul, and mind—not just with words or religious activity, but with genuine emotion, thoughts, and undivided devotion like one would love a romantic partner. He warns that many Christians, including pastors, serve God for years without truly loving Him, shown by hearts devoted to money, worldly satisfaction, and other priorities instead of God. Those who genuinely love God can expect specific blessings: God will manifest Himself to them, speak to them personally, empower them to obey His commandments, and prepare extraordinary things for their lives that eye has not seen."
   },
   {
     "id": 119,
     "driveId": "1OnoVf7exSRx2UagGPDXmkWCSEmgQTSCH",
     "title": "05.14 - 7 Lessons Learnt From The Life of Our Founder",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source system (Google Drive API access token expired). Please verify credentials and retry transcript retrieval."
+    "topics": [
+      "Grace of God",
+      "Obedience to God's call",
+      "Faithfulness",
+      "Patience and endurance",
+      "Sacrifice",
+      "Love for God",
+      "Presence of God",
+      "Founder's legacy",
+      "Ministry calling",
+      "Will of God",
+      "Stewardship",
+      "Partakers of grace"
+    ],
+    "scriptures": [
+      "1 Corinthians 15:10",
+      "Habakkuk 3:2",
+      "1 Corinthians 4:1-2",
+      "Matthew 16:24",
+      "Romans 5:5",
+      "1 John 2:15",
+      "Acts 10:38",
+      "Genesis 28:15",
+      "Hebrews 10:36",
+      "Hebrews 6:12",
+      "Hebrews 6:14-15",
+      "1 Corinthians 8:3",
+      "2 Corinthians 8:24"
+    ],
+    "keyScripture": "1 Corinthians 15:10",
+    "summary": "BJosh teaches seven lessons from Bishop Dag Heward-Mills' life: the grace of God that takes someone from small beginnings to great impact, obedience to God's call even when difficult, faithfulness over decades as God's requirement, patience after doing God's will, sacrifice and losing things to follow Christ, proving love for God through action not just words, and the sustaining presence of God through every trial. He emphasizes that the same grace that built the ministry from a classroom to thousands of churches is available to all believers who will obey, remain faithful, and walk in God's will. He challenges listeners to be partakers of this grace and declares that though their beginning may be small, their latter end will greatly increase if they follow these principles."
   },
   {
     "id": 120,
     "driveId": "1mXTmV9-M1Puj1us_Y91irIfVTyMTkMu1",
     "title": "2023.01.15FLCES_Reasons Why Everybody Must Pray",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript could not be retrieved due to an authentication error (expired OAuth 2 access token) from the source system. Please verify credentials and retry to obtain the full sermon content needed for accurate indexing."
+    "topics": [
+      "prayer",
+      "fasting",
+      "faith",
+      "not worrying",
+      "seeking God's kingdom first",
+      "God's provision",
+      "speaking in tongues",
+      "Holy Spirit",
+      "trust in God",
+      "operation don't think about it",
+      "building up faith",
+      "spiritual awareness"
+    ],
+    "scriptures": [
+      "Matthew 6:24",
+      "Matthew 6:25",
+      "Matthew 6:26",
+      "Matthew 6:27",
+      "Matthew 6:28",
+      "Matthew 6:31",
+      "Matthew 6:33",
+      "Job 21:14",
+      "Job 21:15",
+      "Hebrews 11:6",
+      "Hebrews 11:1",
+      "Ephesians 2:8",
+      "Jude 1:20",
+      "James 2:26",
+      "Acts 10:45-46"
+    ],
+    "keyScripture": "Matthew 6:33",
+    "summary": "BJosh teaches that Christians must stop worrying about life's needs (food, clothing, money, relationships) and instead focus on seeking God's kingdom first through prayer and fasting, trusting that God will add all these things supernaturally. He announces a three-week prayer operation called \"Don't Think About It\" with daily prayer meetings and fasting, culminating in a week of withdrawal to seek God's face. He emphasizes that prayer is a great act of faith that builds spiritual awareness and transforms lives, especially through speaking in tongues which makes believers more conscious of the spirit world and God's presence."
   },
   {
     "id": 121,
     "driveId": "1h2LE-jz1H0n4P9HQ8fiIIz03V6rrcOnJ",
     "title": "2017.06.11FLTC_The Art Of Following David(The Art Of FOllowing)",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source document (OAuth 2 access token expired). Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "praying in tongues",
+      "Holy Spirit intercession",
+      "speaking in the Spirit",
+      "gift of tongues",
+      "spiritual mysteries",
+      "emulation and following",
+      "Jacob stealing Esau's blessing",
+      "birthright and blessing",
+      "copying spiritual fathers",
+      "imitating David",
+      "unknown tongues",
+      "edification through tongues"
+    ],
+    "scriptures": [
+      "Romans 8:22",
+      "Romans 8:23",
+      "Romans 8:24",
+      "Romans 8:26",
+      "Romans 8:27",
+      "1 Corinthians 14:2",
+      "1 Corinthians 14:4",
+      "1 Corinthians 14:5",
+      "Genesis 27:15-16",
+      "Genesis 27:17",
+      "Genesis 27:18",
+      "Genesis 27:19",
+      "Genesis 27:21",
+      "Genesis 27:22",
+      "Genesis 27:24"
+    ],
+    "keyScripture": "Romans 8:26",
+    "summary": "Bishop Joshua teaches that Christians often don't know what or how to pray, but the Holy Spirit helps this infirmity by interceding through speaking in tongues, which allows believers to pray mysteries according to God's will rather than their own desires. He illustrates the art of following by showing how Jacob copied Esau to obtain blessings he had no birthright to, arguing that believers must similarly emulate spiritual fathers like David to receive blessings beyond their natural origins. The core message is that praying in tongues connects believers directly to God's mind through the Spirit, bypassing human limitations and fleshly desires.",
+    "keyScripture_elaboration": "Romans 8:26-27 is the theological foundation of the entire sermon, with Bishop Joshua spending significant time expounding how the Spirit helps our weakness of not knowing what to pray for by making intercession through groanings and tongues."
   },
   {
     "id": 122,
     "driveId": "18j8J7ERI4fdHAkv7wmkEKBNc9Vstnh5v",
     "title": "2017.04.16FLTC_The Fellowship of His Suffering (Losing, Suffering, Sacrificing, Dying)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "fellowship of suffering",
+      "closeness to Christ through suffering",
+      "sacrifice and loss",
+      "waiting on the Lord",
+      "power of resurrection",
+      "counting all things as loss",
+      "dying to self",
+      "spiritual maturity levels",
+      "suffering produces intimacy with God",
+      "renewing strength",
+      "apprehending God's purpose",
+      "breaking away from worldly pleasures"
+    ],
+    "scriptures": [
+      "Philippians 3:7",
+      "Philippians 3:8",
+      "Philippians 3:10",
+      "Philippians 3:11",
+      "Philippians 3:12",
+      "Philippians 3:13",
+      "Psalm 40:31",
+      "Isaiah 40:31",
+      "Psalm 91:3",
+      "2 Corinthians 5:8"
+    ],
+    "keyScripture": "Philippians 3:10",
+    "summary": "Bishop Heward-Mills teaches that God wants believers to experience suffering because it brings them closer to Christ, just as ultimate closeness comes through death being absent from the body and present with the Lord. He explains that there are progressive levels of sacrifice—from losing things once gained, to counting all things as loss and dung, to forgetting past things entirely—and that believers can only be as close to Christ as their sacrifice is close to His sacrifice. He emphasizes that those who wait on the Lord and suffer with Christ exist at a higher spiritual level, like eagles flying above ground-level traps, and that many Christians cannot relate to truly spiritual people because they haven't paid the same price through prayer, fasting, and denying worldly pleasures."
   },
   {
     "id": 123,
     "driveId": "18LLbjnItXkkxZ5cvqbwSRXB3HBrdpGi8",
     "title": "2017.04.02FLTC_Reasons Why God Wants You to Experience Suffering (Losing, Suffering, Sacrificing, Dying)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon index. The transcript failed to load due to authentication credentials error (ACCESS_TOKEN_EXPIRED). No content analysis available for this sermon titled 'Reasons Why God Wants You to Experience Suffering (Losing, Suffering, Sacrificing, Dying)' from April 2, 2017."
+    "topics": [
+      "suffering",
+      "sacrifice",
+      "losing",
+      "dying to self",
+      "cross-bearing",
+      "denying self",
+      "affliction with God's people",
+      "theology of suffering",
+      "current plan of God",
+      "Holy Spirit guidance",
+      "faith of Moses",
+      "pleasing God through suffering"
+    ],
+    "scriptures": [
+      "Hebrews 11:24",
+      "Hebrews 11:24-25",
+      "Philippians 1:29",
+      "Isaiah 53:10"
+    ],
+    "keyScripture": "Hebrews 11:24-25",
+    "summary": "Bishop Joshua teaches that suffering, losing, sacrificing, and dying to self must be reintroduced into Christian theology because believers are called not only to believe but also to suffer. He emphasizes that Moses chose to suffer affliction with God's people rather than enjoy the pleasures of sin, and that it actually pleases God when His people suffer and take up their cross. He challenges the congregation to identify specific areas where they need to lose something, suffer inconvenience, or sacrifice comfort, arguing that without visible suffering and cross-bearing, one is not truly following Christ."
   },
   {
     "id": 124,
     "driveId": "1HfKk54cLU9BhXKbUcXZ1JVUUzD0EJ_oj",
     "title": "2017.03.12FLTC_Why We Must Have a Mega Church_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please verify access permissions and re-attempt retrieval."
+    "topics": [
+      "mega church",
+      "prophetic destiny",
+      "soul winning",
+      "mind of Christ",
+      "church growth",
+      "evangelism",
+      "outreach",
+      "salvation of the lost",
+      "fulfilling prophecy",
+      "harvest workers",
+      "personal calling",
+      "consecration to ministry"
+    ],
+    "scriptures": [
+      "Philippians 2:4",
+      "Philippians 2:5",
+      "Job 8:7",
+      "1 Timothy 4:14",
+      "1 Timothy 4:15",
+      "2 Timothy 4:5",
+      "Haggai 2:9",
+      "Isaiah 2:2"
+    ],
+    "keyScripture": "Job 8:7",
+    "summary": "Bishop Joshua teaches that the church must become a mega church because it is the prophetic destiny spoken over God's house that though the beginning is small, the latter end will greatly increase. He emphasizes that many Christians are deceived into thinking the work of soul winning is finished when in reality hell is filling up and people desperately need salvation through aggressive evangelism and outreach. He calls every church member, shepherd, and leader to consecrate themselves wholly to the mission of seeking and saving the lost, warning that he will not allow anyone to abort the prophetic destiny or change the soul-winning message of the church."
   },
   {
     "id": 125,
     "driveId": "14YdlxqsUzvUDXuZa8DhRoMrB64VsZUsz",
     "title": "2017.04.23FLTC_Why God Wants You To Suffer_Pt.2(Losing, Suffering, Sacrificing, Dying)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication errors with the source document. A valid transcript is required to identify specific topics, scriptures, and teaching content from this message."
+    "topics": [
+      "suffering",
+      "humility",
+      "pride",
+      "sacrifice",
+      "obedience",
+      "dying to self",
+      "surrendering",
+      "wilderness experience",
+      "losing worldly pleasures",
+      "submission to authority",
+      "cross-bearing",
+      "breaking relationships for God"
+    ],
+    "scriptures": [
+      "Deuteronomy 8:1-2",
+      "Romans 8:1"
+    ],
+    "keyScripture": "Deuteronomy 8:2",
+    "summary": "Bishop Joshua teaches that God intentionally leads believers into suffering and the wilderness to humble them and prove what is in their hearts, just as God led Israel for 40 years to test their obedience. He explains that suffering is necessary for Christians to learn humility, which is the key to receiving God's grace and promotion, since God resists the proud but gives grace to the humble. He emphasizes that true Christianity requires losing things you love—relationships, friends, clothing styles, entertainment—and that without experiencing this suffering and humility, believers cannot properly obey God or relate compassionately to others."
   },
   {
     "id": 126,
@@ -1936,1393 +3535,5064 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript failed to load due to authentication error with the source document. Cannot generate topics, scriptures, or summary without access to the sermon transcript."
+    "summary": "This transcript contains no actual sermon content from Bishop Joshua Heward-Mills. The entire audio consists of worship songs and music with lyrics about heaven, Jesus's sacrifice, and eternal life. No teaching, scripture exposition, or doctrinal instruction is present in this transcript."
   },
   {
     "id": 127,
     "driveId": "1txI0v9rNK2CLBTw5QucZO1yPfjho4E6z",
     "title": "2017.12.31FLTC_Be Ready For A Long Fight",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source API (Google Drive access token expired). Please re-authenticate and provide the sermon transcript text to enable proper indexing of topics, scriptures, and content summary."
+    "topics": [
+      "spiritual warfare",
+      "long-term perseverance",
+      "prophecy and fulfillment",
+      "personal battles",
+      "marriage struggles",
+      "leadership challenges",
+      "self-discipline",
+      "overcoming depression",
+      "sexual purity",
+      "family conflicts",
+      "poverty and provision",
+      "ministerial calling"
+    ],
+    "scriptures": [
+      "Joshua 1:2-3",
+      "Joshua 11:18-19",
+      "1 Timothy 1:17-18",
+      "2 Samuel 5:17-19",
+      "Genesis 32:24",
+      "Genesis 33",
+      "1 Corinthians 15:32",
+      "Isaiah 9:5-6"
+    ],
+    "keyScripture": "Joshua 11:18",
+    "summary": "Bishop Heward-Mills teaches that every prophecy and promise from God requires a long, sustained fight across multiple dimensions—personal battles with self, family conflicts, and leadership struggles—rather than simply being received by faith without action. He emphasizes that Joshua fought for a long time to possess what God had already promised, and similarly believers must be prepared for extended warfare in every area of life including overcoming personal sins, maintaining relationships, and fulfilling ministry callings. The message calls believers to persevere through repeated failures and setbacks, understanding that spiritual maturity and fruitfulness come only through prolonged battle, not instant manifestation."
   },
   {
     "id": 128,
     "driveId": "1DtNzrfGSNurvpiLT7ewDgWH1DlNJkQqk",
     "title": "2017.08.27FLTC_Thos Who Are Ignorant Pt.3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data returned an authentication error from Google Drive, preventing access to the sermon material. Please verify the transcript is accessible and resubmit for indexing."
+    "topics": [
+      "ignorance",
+      "loyalty of Jesus Christ",
+      "sound doctrine",
+      "preaching the word",
+      "itching ears",
+      "acknowledging spiritual fathers",
+      "faithfulness",
+      "supremacy of Christ",
+      "following Christ's example",
+      "pastoral ministry",
+      "church growth",
+      "spiritual mentorship"
+    ],
+    "scriptures": [
+      "2 Timothy 4:1-2",
+      "Romans 8:29",
+      "John 14:12",
+      "John 1:1-4",
+      "Malachi 4",
+      "John 5:18",
+      "John 5:19",
+      "2 Chronicles"
+    ],
+    "keyScripture": "2 Timothy 4:2",
+    "summary": "Bishop Joshua teaches on the loyalty of Jesus Christ, emphasizing that believers must follow Christ's example of openly acknowledging His Father and doing only what He sees the Father doing. He warns against the modern church trend of seeking teachers with itching ears who preach prosperity instead of sound doctrine, urging pastors to reprove, rebuke, and exhort with longsuffering regardless of popularity. He stresses the importance of spiritual sons and daughters acknowledging their spiritual fathers and mentors, just as Jesus always acknowledged and honored God the Father despite difficulties."
   },
   {
     "id": 129,
     "driveId": "146mVo3S3q8KJwutSpJ5Y1YoKElpCitGR",
     "title": "2017.09.10FLTC_Your Prophet and Your Miracle_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error with source document. The transcript could not be retrieved, preventing analysis of BJosh's specific teachings, biblical references, and core topics from this sermon."
+    "topics": [
+      "receiving the prophet",
+      "prophetic office",
+      "miracles through prophets",
+      "honor and recognition",
+      "spiritual familiarity",
+      "prophet's reward",
+      "unbelief in hometown",
+      "meditation on God's word",
+      "transformation and change",
+      "prophetic encounter",
+      "spiritual authority",
+      "breaking limitations"
+    ],
+    "scriptures": [
+      "Mark 6:2",
+      "Mark 6:3",
+      "Mark 6:4",
+      "Mark 6:5"
+    ],
+    "keyScripture": "Mark 6:4-5",
+    "summary": "Bishop Joshua teaches that receiving miracles is directly connected to how we recognize and honor the prophet, using Jesus' inability to do mighty works in His hometown as the central example of how familiarity breeds unbelief. He emphasizes that people must receive the prophet in the name of a prophet (not as a pastor or teacher) to receive a prophet's reward, and that knowing someone's natural background can create spiritual limitations that block supernatural power. He calls for believers to have a prophetic encounter by properly recognizing the prophetic office and removing the familiarity that prevents miraculous breakthrough in their lives."
   },
   {
     "id": 130,
     "driveId": "1PPPhmE6knwlbtJJIu0IPleSt-GbkODVJ",
     "title": "2017.12.03FLTC_What It Means To Become A Shepherd",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (expired access token). Please verify the document is accessible and retry the indexing request."
+    "topics": [
+      "Shepherding",
+      "Pastoral calling",
+      "Desire to serve God",
+      "Caring for people's needs and wants",
+      "Spiritual leadership qualifications",
+      "Office of bishop/overseer",
+      "Lay ministry",
+      "Heart after God",
+      "David's life and worship",
+      "Intercession and prayer",
+      "Ministry without salary",
+      "Loving God despite imperfection"
+    ],
+    "scriptures": [
+      "Psalm 23:1",
+      "1 Timothy 3:1"
+    ],
+    "keyScripture": "1 Timothy 3:1",
+    "summary": "Bishop Joshua teaches that the primary condition for becoming a shepherd is having a genuine desire to serve God and care for people's needs and wants, not perfection or qualifications. He emphasizes that God calls everyone to shepherd at least 8-15 people through prayer and care, arguing that desire and love for God's house—not sinlessness—distinguishes true servants like David who was a murderer yet had a heart after God. He challenges believers to recognize their spiritual desires as God's drawing and to commit to ministry work driven by love for God rather than financial compensation or personal advancement."
   },
   {
     "id": 131,
     "driveId": "1BJ6MJ6-o6Q0GMub0ChprDGXpBAJJ8nYQ",
     "title": "2017.12.24FLTC_What It Means To Become A Shepherd Pt.4(Will It Follow Me)",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source system (expired OAuth 2 access token). Please verify credentials and retry the request to retrieve the full sermon content."
+    "topics": [
+      "shepherd",
+      "ministry gifts",
+      "apostles",
+      "prophets",
+      "evangelists",
+      "pastors",
+      "teachers",
+      "captivity to Christ",
+      "work of the ministry",
+      "eternal reward",
+      "perfecting the saints",
+      "building the church"
+    ],
+    "scriptures": [
+      "Ephesians 4:8",
+      "Ephesians 4:9",
+      "Ephesians 4:10",
+      "Ephesians 4:11",
+      "Ephesians 4:12",
+      "Psalm 122:6",
+      "1 Timothy 1:12"
+    ],
+    "keyScripture": "Ephesians 4:11-12",
+    "summary": "Bishop Heward-Mills teaches that God gives ministry gifts (apostles, prophets, evangelists, pastors, teachers) specifically to perfect believers for the work of the ministry and building up the body of Christ. He emphasizes that these gifts only operate when believers become captives of Christ under submission to Him, not independent operators. He challenges believers to engage in ministry work that will follow them into eternity, since earthly possessions, careers, and achievements cannot accompany them beyond death—only their works for God will remain."
   },
   {
     "id": 132,
     "driveId": "17AkyBRXP75wg9KnRUr6n4c_3UHQOmsyG",
     "title": "2017.04.30FLTC_Reason_s Why God Wants You to Experience Suffering Pt.2 (Losing, Suffering, Sacrificing, Dying)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (Access token expired). Without the sermon content, specific topics, scriptures, and teaching points cannot be identified."
+    "topics": [
+      "suffering",
+      "endurance",
+      "sacrifice",
+      "perseverance",
+      "Christian hardship",
+      "dying to self",
+      "holiness through suffering",
+      "not giving up",
+      "faithfulness in trials",
+      "commitment despite pain",
+      "ceasing from sin",
+      "ministry challenges"
+    ],
+    "scriptures": [
+      "1 Peter 4:1",
+      "Psalm 27:13"
+    ],
+    "keyScripture": "1 Peter 4:1",
+    "summary": "Bishop Joshua Heward-Mills teaches that God intentionally allows Christians to experience suffering, loss, and sacrifice as a normal part of authentic faith, not as punishment but as evidence of being in God's will. He emphasizes that suffering in the flesh causes believers to cease from sin (1 Peter 4:1) and that endurance through hardship—rather than escape from it—is the Christian calling. He challenges believers to develop a mindset that embraces struggle, rejects the temptation to quit when things are difficult, and understands that every mature Christian must walk through seasons of pain, rejection, and sacrifice."
   },
   {
     "id": 133,
     "driveId": "1J84GoMup8rq0OLGtwSmCwrU4kK4fxsSY",
     "title": "2017.03.19FLTC_Why We Must Build a Mega Church (Jesus Building Project)_Ps Joshua Heward-Mills.output",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content available for analysis."
+    "topics": [
+      "mega church building",
+      "Holy Spirit leading",
+      "walking after the Spirit",
+      "church growth vision",
+      "spiritual conviction",
+      "kingdom priorities",
+      "seek first the kingdom",
+      "soul winning",
+      "Jesus' building project",
+      "divine provision",
+      "condemnation vs Spirit-led life",
+      "church commitment"
+    ],
+    "scriptures": [
+      "Romans 8:1",
+      "2 Peter 1:2"
+    ],
+    "keyScripture": "Romans 8:1",
+    "summary": "Bishop Joshua teaches that Christians who walk after the flesh rather than after the Spirit live condemned lives, and emphasizes that most decisions people make are not led by the Holy Spirit but by routine, culture, or convenience. He argues that the church is Jesus' primary building project, not individuals' personal ambitions, marriages, or careers, and that God blesses those who prioritize soul-winning and church building above their own needs. Using his own testimony of supernatural provision while sacrificing for ministry, he calls the congregation to commit to building a 1,000-seat mega church as part of following the Holy Spirit's leading."
   },
   {
     "id": 134,
     "driveId": "1yJdSOe5jLjIdZkbewfWqK29ymjzWbLMs",
     "title": "2017.05.21FLTC_God_s Letter to Town Church",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (OAuth 2.0 credentials expired). Please re-authenticate access to the sermon transcript and resubmit for indexing."
+    "topics": [
+      "honoring prophets",
+      "obedience to spiritual leadership",
+      "fresh anointing",
+      "ministering to the Lord",
+      "praise and worship",
+      "hidden treasure in earthen vessels",
+      "humility and obedience",
+      "breaking through limitations",
+      "cost of following prophets",
+      "prosperity through obedience",
+      "spiritual breakthrough",
+      "anointing and obedience"
+    ],
+    "scriptures": [
+      "Isaiah 8:20",
+      "Psalm 92:1-3",
+      "Psalm 92:10",
+      "Isaiah 55:1",
+      "Isaiah 55:11",
+      "John 11:35",
+      "Luke 19:41-42",
+      "2 Corinthians 4:7",
+      "Matthew 13:44",
+      "2 Chronicles 20:20"
+    ],
+    "keyScripture": "2 Chronicles 20:20",
+    "summary": "Bishop Heward-Mills teaches that God's treasures and anointing are hidden in earthen vessels (prophets and spiritual leaders), and believers must humble themselves through obedience to access these treasures. He emphasizes that prosperity and breakthrough come not through human wisdom or effort, but by believing and honoring God's prophets as instructed in 2 Chronicles 20:20. He challenges believers to pay the price of humility, obedience, and time spent ministering to the Lord in order to receive fresh anointing and break free from limitations."
   },
   {
     "id": 135,
     "driveId": "11Rot5s4n6j_Ky7NRLkb0ulm3v8T763-D",
     "title": "2017.10.08FLTC_The Mystery of Tithing",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "Tithing",
+      "Power of God",
+      "Supernatural Provision",
+      "Wealth and Prosperity",
+      "Honor",
+      "Blessing",
+      "Poverty",
+      "Gospel Power",
+      "Key of Knowledge",
+      "First Fruits",
+      "Sons of God",
+      "Holy Spirit Power"
+    ],
+    "scriptures": [
+      "2 Timothy 1:7",
+      "Acts 1:8",
+      "John 1:12",
+      "1 Peter 1:5",
+      "Philemon 1:6",
+      "Deuteronomy 8:17-18",
+      "Luke 4:18",
+      "Romans 1:16",
+      "Luke 11:52",
+      "Colossians 2:12",
+      "1 Corinthians 2:12",
+      "Ecclesiastes 6:1-2",
+      "Genesis 14:20",
+      "1 Samuel 2:30",
+      "Proverbs 3:9",
+      "Mark 6:3"
+    ],
+    "keyScripture": "Proverbs 3:9",
+    "summary": "Bishop Heward-Mills teaches that Christians possess divine power in multiple forms—power to become sons of God, power to witness, power to be kept, and critically, power to get wealth—but this power only becomes effectual when believers acknowledge what God has placed inside them. He emphasizes that supernatural provision, not natural hard work alone, is the key to prosperity, illustrating how ordinary work (like Peter's fishing) produces extraordinary results when God's power comes upon it. Central to accessing this wealth-creating power is the practice of tithing, which he presents as a key of knowledge that unlocks spiritual doors—honoring God with tithes and first fruits causes God to honor believers with substance and increase in return."
   },
   {
     "id": 136,
     "driveId": "1Z4bZPSUCD4QIIZ0gEHaDl-pWbDOtlqHR",
     "title": "2017.12.17FLTC_What It Means To Become A Shepherd Pt. 3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source system. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "Becoming a shepherd",
+      "Pastoral qualifications",
+      "Testing and character development",
+      "Bishop requirements",
+      "Pastoral marriage requirements",
+      "Wife's qualifications for ministry",
+      "Sheep behavior and church members",
+      "Perfecting the saints",
+      "Work of ministry",
+      "Spiritual maturity",
+      "Leadership preparation",
+      "Godly character"
+    ],
+    "scriptures": [
+      "Matthew 28",
+      "Ephesians 4",
+      "Acts 28:3",
+      "1 Timothy 3:1",
+      "1 Timothy 3:11"
+    ],
+    "keyScripture": "1 Timothy 3:1-11",
+    "summary": "Bishop Joshua teaches that becoming a shepherd requires specific qualifications including tested character, the ability to successfully marry one wife, and being blameless, vigilant, sober, and of good behavior. He emphasizes that church members are like sheep who cannot care for themselves and need shepherds who have been tested through fire to reveal whether they are genuine leaders or pretenders. He also teaches that a leader's wife must be qualified for ministry—grave (honorable), not slanderous (not like Satan as a tempter or adversary), sober, and faithful in all things—because an unqualified wife can disqualify a man from ministry."
   },
   {
     "id": 137,
     "driveId": "1MSeAqdXSDWNcpvBbdRrqEM5DFCk7lCCG",
     "title": "2017.10.22FLTC_Pastor Joshua Heward Mills_Bearing Fruits",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source system. Please verify access credentials and retry."
+    "topics": [
+      "Bearing Fruit",
+      "False Prophets",
+      "Spiritual Reproduction",
+      "Discipleship",
+      "Fruitfulness in Ministry",
+      "Divine Nature",
+      "Faith and Works",
+      "Spiritual Diligence",
+      "Soul Winning",
+      "Church Growth",
+      "Living by Faith",
+      "Spiritual Intervention"
+    ],
+    "scriptures": [
+      "Matthew 7:15-20",
+      "2 Peter 1:4-8",
+      "Hebrews 11:1",
+      "Joshua 4:16"
+    ],
+    "keyScripture": "Matthew 7:16-20",
+    "summary": "Bishop Joshua teaches that every believer must bear fruit after their own kind by reproducing disciples who are like themselves—lawyers winning lawyers, students winning students, professionals winning professionals. He emphasizes that fruitfulness is determined by having the qualities listed in 2 Peter 1:5-8 (diligence, faith, virtue, knowledge, temperance, patience, godliness, brotherly kindness, and charity) actively working and abounding in your life. He warns that those who do not bear fruit will be cut down and cast into the fire, stressing that faith must be demonstrated through works and that Christians must believe in God's power and blessing enough to actively pursue soul winning and church building."
   },
   {
     "id": 138,
     "driveId": "1f1U81pXtkTbGljOvzByGyB0LXr51ByQ0",
     "title": "2017.01.22FLTC_The Art of Following_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (Google Drive API access token expired). Please verify the document is accessible and re-attempt indexing."
+    "topics": [
+      "following spiritual fathers",
+      "copying and imitation",
+      "learning from others",
+      "spiritual mentorship",
+      "intelligence and obedience",
+      "avoiding past mistakes",
+      "submission to leadership",
+      "originality versus imitation",
+      "spiritual maturity",
+      "discipleship",
+      "humility",
+      "wisdom from experience"
+    ],
+    "scriptures": [
+      "Ecclesiastes 1:9",
+      "Ecclesiastes 1:10"
+    ],
+    "keyScripture": "Ecclesiastes 1:9",
+    "summary": "Bishop Joshua teaches that copying and following those ahead of you spiritually is a sign of intelligence, not weakness, because it allows you to jump over years of mistakes and research that others have already done. He emphasizes that refusing to follow spiritual fathers and insisting on being original is foolish, comparing it to animals who cannot learn from observation, and argues that every area of life—whether ministry, business, or personal decisions—benefits from imitating proven patterns. He calls believers to follow their spiritual fathers completely, using the principle that 'what has been is what will be' from Ecclesiastes, and warns that independence and originality in spiritual matters leads to repeating avoidable failures."
   },
   {
     "id": 139,
     "driveId": "1JBatBNIH0reL00rt1m7H4n3X1uSBquk0",
     "title": "2017.08.06FLTC_Those Who Are Ignorant",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript failed to load due to authentication error with the source document (ACCESS_TOKEN_EXPIRED). Please verify the document is accessible and retry indexing."
+    "topics": [
+      "judging angels",
+      "spiritual blindness",
+      "Satan's devices",
+      "spiritual warfare",
+      "walking by faith not sight",
+      "demonic deception",
+      "Word of God enlightenment",
+      "Western Christianity",
+      "ignorance of Satan's methods",
+      "spiritual awareness",
+      "homosexuality and moral decline",
+      "faithfulness and loyalty"
+    ],
+    "scriptures": [
+      "1 Corinthians 6:3",
+      "Psalm 19:7-8",
+      "Revelation 2:12-13",
+      "2 Corinthians 2:11",
+      "Isaiah 56:10"
+    ],
+    "keyScripture": "1 Corinthians 6:3",
+    "summary": "BJosh teaches that Christians will judge angels because despite our spiritual blindness and inability to see spiritual warfare, we overcome Satan through faith while angels fell when tempted. He emphasizes that the Word of God enlightens our eyes like spiritual goggles to identify Satan's work, which Western Christianity often fails to recognize due to moral relativism and emphasis on human rights over biblical truth. He warns that ignorance of Satan's devices gives him advantage over believers, comparing Christians to blind warriors who fight demons they cannot see, which makes their victory miraculous in heaven's eyes."
   },
   {
     "id": 140,
     "driveId": "1idyIFremahmEFTWhmgd8aw1msLR1dLSe",
     "title": "2017.05.14FLTC_You and Your Prophet_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication errors with the source system. No content is available for indexing."
+    "topics": [
+      "prophetic ministry",
+      "spiritual fathers",
+      "honoring the prophet",
+      "spiritual covering",
+      "pastoral relationships",
+      "Joseph and his brothers",
+      "Moses and Aaron",
+      "Founder's Day",
+      "deliverance and preservation",
+      "spiritual appreciation",
+      "prophetic voice",
+      "loyalty to leadership"
+    ],
+    "scriptures": [
+      "Malachi 4",
+      "Matthew 1",
+      "Hebrews 12:11",
+      "Ecclesiastes 12:11",
+      "Hebrews 3:3-4",
+      "Genesis 45:1-9",
+      "Romans 8:28",
+      "Exodus 4:1-16"
+    ],
+    "keyScripture": "Exodus 4:16",
+    "summary": "Bishop Heward-Mills teaches that it is a blessing to be born when there is a prophet, emphasizing that many believers do not recognize or appreciate the spiritual father God has sent to preserve their lives and give them a future. He uses the relationships of Joseph with his brothers and Moses with Aaron to illustrate how God places prophetic voices as fathers who speak instead of God to their people. He stresses that members should honor their prophet because all their blessings, deliverance, and spiritual progress come through the covering and voice God has provided."
   },
   {
     "id": 141,
     "driveId": "1nkEKotDQNCNtbN1GZI5Y4pilsOcYLTbx",
     "title": "2017.03.05FLTC_Reasons Why We Must Be 1000 by December_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "mega church vision",
+      "church growth to 1000",
+      "God's awareness of churches",
+      "vision leads to spiritual journey",
+      "outreach and soul winning",
+      "large crowds increase expectation",
+      "finding marriage partner in church",
+      "door-to-door evangelism",
+      "faithfulness in church work",
+      "avoiding complacency",
+      "member involvement in vision",
+      "spiritual gifts and calling"
+    ],
+    "scriptures": [
+      "Revelation 2:1",
+      "Revelation 2:2",
+      "Revelation 2:3",
+      "Revelation 2:8",
+      "Revelation 2:9",
+      "Revelation 2:12",
+      "Revelation 2:13",
+      "John 3:16"
+    ],
+    "keyScripture": "Revelation 2:2",
+    "summary": "Bishop Joshua teaches that God knows every detail of each church—their works, labor, patience, and poverty—just as Revelation 2 describes, and therefore members must align their personal vision with God's vision for the church. He emphasizes that Town Church must reach 1000 members by December because having a mega church vision leads members on a spiritual journey of prayer, soul-winning, and faithfulness, increases faith and miracles through greater expectation, and ensures that members can find their marriage partners within the church. He warns that without a clear growth vision, churches become complacent social clubs focused on personal happiness rather than God's purpose, and calls all members—not just leaders—to actively participate in outreach, prayer, and building the church."
   },
   {
     "id": 142,
     "driveId": "1ZhxMN4nFADK1yA-m7tay4rTh-hUwC9n2",
     "title": "2017.06.04FLTC_The Four Types of Wisdom_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source system. Please verify access credentials and resubmit the sermon transcript."
+    "topics": [
+      "wisdom",
+      "four types of wisdom",
+      "earthly wisdom",
+      "sensual wisdom",
+      "devilish wisdom",
+      "heavenly wisdom",
+      "direction and guidance",
+      "influence of the Holy Spirit",
+      "sensuality and death",
+      "making godly decisions",
+      "mountains moving",
+      "testimony and glory"
+    ],
+    "scriptures": [
+      "James 3:15",
+      "Psalm 23",
+      "Matthew 4:5-7",
+      "Ecclesiastes 10:10",
+      "Romans 8",
+      "John 10:10",
+      "1 Corinthians 2:7",
+      "Psalm 19:7",
+      "Joshua 1:8",
+      "Matthew 6:33"
+    ],
+    "keyScripture": "James 3:15",
+    "summary": "Bishop Joshua teaches that there are four types of wisdom that direct human decisions: earthly wisdom (which passes away), sensual wisdom (which leads to death), devilish wisdom (which leads to stealing, killing, and destruction), and heavenly wisdom from God (which leads to glory). He emphasizes that every decision we make—including relationships, career, and ministry—is influenced by one of these four wisdoms, and we must recognize which one is directing us. He stresses that following God's wisdom, though mysterious and often not making immediate sense, always leads to glory both in this life and eternally, while following earthly, sensual, or devilish wisdom leads to destruction."
   },
   {
     "id": 143,
     "driveId": "1NsxBi-X56rYD4ZuLKiU7N7EO2QFpZBms",
     "title": "2017.05.07FLTC_Types of Accusations(Those Who Accuse You)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document (Google Drive API access token expired). Please verify document access permissions and resubmit the transcript for indexing."
+    "topics": [
+      "accusations",
+      "types of accusations",
+      "direct allegations",
+      "criticism",
+      "innuendo",
+      "spiritual warfare",
+      "strength through accusations",
+      "false accusations",
+      "defending against accusers",
+      "Satan as accuser",
+      "pastoral challenges",
+      "persecution"
+    ],
+    "scriptures": [
+      "1 Kings 19:11-12",
+      "Isaiah 53:5",
+      "Psalm 103:12",
+      "Mark 15:24",
+      "Numbers 12:1"
+    ],
+    "keyScripture": "Numbers 12:1",
+    "summary": "Bishop Joshua Heward-Mills teaches about different types of accusations that believers face, categorizing them as direct allegations, criticisms, and innuendos (accusations by insinuation). He emphasizes that accusations drain spiritual strength and can cause Christians to lose their power and effectiveness in ministry, using examples from Moses, Joseph, and David who all faced false accusations yet remained in God's favor. He warns pastors and believers to recognize these subtle forms of attack and not to be weakened by the various ways people accuse, criticize, or make insinuating remarks about their character or ministry."
   },
   {
     "id": 144,
     "driveId": "19KLk4vczI3Q1jBzYU7gwce1Rf1Ot6fV3",
     "title": "2017.07.30FLTC_120 Reasons Why You Must be a Soul Winner_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication credentials error (401 UNAUTHENTICATED). No indexing data can be generated without access to the sermon transcript."
+    "topics": [
+      "soul winning",
+      "salvation",
+      "conversion",
+      "gospel preaching",
+      "purpose of Jesus",
+      "evangelism",
+      "Holy Spirit witness",
+      "foolishness of preaching",
+      "why Jesus came",
+      "being a soul winner",
+      "gratitude for salvation",
+      "witnessing power"
+    ],
+    "scriptures": [
+      "Luke 19:10",
+      "1 Timothy 1:15",
+      "John 3:16",
+      "Matthew 6:33",
+      "Matthew 6:31",
+      "3 John 1:2",
+      "Romans 8:28",
+      "1 Corinthians 1:21",
+      "Acts 1:8",
+      "1 Peter 1:8-9",
+      "2 Peter 1:8-9",
+      "Romans 3:23",
+      "Romans 6:23",
+      "1 John 1:8-9",
+      "Romans 5:8",
+      "Hebrews 9:22",
+      "Ephesians 5:18-20"
+    ],
+    "keyScripture": "Luke 19:10",
+    "summary": "Bishop Joshua teaches that Jesus Christ came specifically to seek and save the lost, not to provide material prosperity or relationships, and this purpose must never be compromised or diluted. He emphasizes that true conversion produces witness and soul winning through the Holy Spirit's power, and Christians who don't witness are devoid of the Spirit regardless of other spiritual experiences like falling down or singing. He challenges believers to remember their own salvation and be grateful enough to become soul winners, arguing that preaching the gospel foolishly is God's ordained method to save people who cannot find salvation through human wisdom."
   },
   {
     "id": 145,
     "driveId": "1tFv0o0yenfYKx4dCDW47Wn0R_xEmKm3Y",
     "title": "2017.06.18FLTC_The Art of Following Pt.2(The Ability to Recognise Spiritual People)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source document. Please provide the actual sermon transcript text to generate accurate indexing data."
+    "topics": [
+      "recognizing spiritual people",
+      "relating to people in the spirit not the flesh",
+      "David's recognition of Saul as anointed",
+      "honoring spiritual fathers",
+      "the Antichrist as spiritual reality",
+      "ministry and spiritual calling",
+      "spiritual discernment",
+      "Father's Day and spiritual fatherhood",
+      "divorce and remarriage of ministers",
+      "Maria Woodworth-Etter",
+      "Absalom's rebellion",
+      "not living for ourselves but for Christ"
+    ],
+    "scriptures": [
+      "Hebrews 6:12",
+      "2 Timothy 2:5",
+      "Revelation 13:1-3",
+      "1 Corinthians 14:33-37",
+      "2 Thessalonians 2:10-12",
+      "2 Corinthians 5:12-16",
+      "John 3:16"
+    ],
+    "keyScripture": "2 Corinthians 5:16",
+    "summary": "BJosh teaches that one of David's keys to success was his ability to recognize and relate to people according to their spiritual identity rather than their fleshly appearance or behavior, as seen when David refused to kill Saul despite Saul's murderous pursuit because he recognized him as God's anointed. He emphasizes that since Christ died, believers must discern the spiritual reality of people—especially fathers and spiritual leaders—beyond their weaknesses, failures, or outward circumstances in the flesh. Using examples like Maria Woodworth-Etter (a divorced remarried woman powerfully used by God) and the contrast between Jesus and Barabbas, he warns that failure to recognize spiritual authority and honor spiritual fathers brings curses, while spiritual discernment unlocks blessing."
   },
   {
     "id": 146,
     "driveId": "1hi-GfqY90i3zMXaPiDnklafQJp_qImP2",
     "title": "2017.04.09FLTC_Why God Wants You to Suffer (Losing, Suffering, Sacrificing, Dying)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content is not available due to authentication error with the source document. No teaching content, biblical references, or specific doctrinal points could be extracted for indexing."
+    "topics": [
+      "suffering",
+      "obedience",
+      "learning through pain",
+      "rejection",
+      "following the Holy Spirit",
+      "will of God",
+      "spiritual guidance",
+      "sanctification through trials",
+      "divine discipline",
+      "spiritual maturity",
+      "hearing God's voice",
+      "glory after obedience"
+    ],
+    "scriptures": [
+      "Hebrews 5:7",
+      "Hebrews 5:8",
+      "Romans 12:1",
+      "Romans 12:2",
+      "Psalm 73:24",
+      "Psalm 61",
+      "Psalm 143:3",
+      "Psalm 143:4",
+      "Psalm 143:5",
+      "Psalm 143:6",
+      "Psalm 143:7",
+      "Psalm 143:8"
+    ],
+    "keyScripture": "Hebrews 5:8",
+    "summary": "Bishop Joshua teaches that God uses suffering as the primary tool to teach His people obedience, explaining that even Jesus had to learn obedience through suffering despite being the Son of God. He emphasizes that pain, rejection, and difficult experiences serve as divine guidance that leads believers to understand and follow God's perfect will rather than just His good or acceptable will. He concludes that suffering is not punishment but preparation, as God uses painful experiences to guide believers into glory, referencing Psalm 73:24 that after divine counsel and obedience comes glory."
   },
   {
     "id": 147,
     "driveId": "1mgDx3CpD0OXQHLm83pSAciaZFUlP-scP",
     "title": "2017.10.15FLTC_Bearing Fruits (Diligence)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication failure with the source system. Please verify access credentials and retry indexing this sermon."
+    "topics": [
+      "bearing fruit",
+      "soul winning",
+      "evangelism",
+      "diligence",
+      "spiritual reproduction",
+      "fruitfulness",
+      "spiritual birth",
+      "chosen by God",
+      "Christian productivity",
+      "standing before kings",
+      "patience",
+      "self-control"
+    ],
+    "scriptures": [
+      "John 15:16",
+      "Genesis 1:22",
+      "Leviticus 26:9",
+      "Matthew 7:20",
+      "Genesis 6:1-4",
+      "2 Peter 1:5-8",
+      "Proverbs 22:29"
+    ],
+    "keyScripture": "John 15:16",
+    "summary": "Bishop Joshua teaches that Christians are ordained by God to bear fruit, meaning to spiritually reproduce by winning souls and leading people to Christ, not merely to worship. He emphasizes that fruitfulness is the proof of genuine Christianity, just as physical birth proves biological identity, and that barrenness in soul-winning reveals a lack of essential qualities. He stresses that diligence is the foundational quality needed for both spiritual fruitfulness and natural prosperity, and that the same qualities required to bear spiritual fruit are what make people successful in every area of life."
   },
   {
     "id": 148,
     "driveId": "1bV-kIZLNKUZVRDGQxNZbgTOHADot4nh0",
     "title": "2017.02.19FLTC_Loyalty and Disloyalty (Critical Stage)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication errors with the source system. Please provide the sermon transcript text directly to enable proper indexing."
+    "topics": [
+      "loyalty",
+      "disloyalty",
+      "faithfulness",
+      "criticism",
+      "accusation",
+      "offense",
+      "passivity",
+      "independence",
+      "stewardship",
+      "Satan as accuser",
+      "consequences of criticism",
+      "Miriam and Aaron"
+    ],
+    "scriptures": [
+      "1 Corinthians 4:2",
+      "Proverbs 18:22",
+      "Numbers 12:1",
+      "Micah 6:8",
+      "Psalm 19:14"
+    ],
+    "keyScripture": "1 Corinthians 4:2",
+    "summary": "Bishop Joshua teaches that the fourth stage of disloyalty is the critical stage, where people begin to criticize and accuse their leaders, family members, or others they serve. He emphasizes that criticism and accusation are characteristics of Satan (the accuser of the brethren) and bring curses upon those who practice them, using Miriam and Aaron's criticism of Moses as an example that resulted in Miriam becoming leprous. He warns that faithfulness is required in all areas of life—not just in church but in family, work, and relationships—and Christians must stop speaking critical words because God judges accusers and such speech can bring destructive consequences into their lives."
   },
   {
     "id": 149,
     "driveId": "1yUrf1oZWW8SZBE1MntBlOtNizSJZip9v",
     "title": "2017.09.03FLTC_Proton Introdurction Pt.1_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API - expired access token). Please verify credentials and retry the request to retrieve the full sermon content."
+    "topics": [
+      "Kingdom of God",
+      "Righteousness",
+      "Embassies of God",
+      "Satan's control of the world",
+      "Levels of revelation in Scripture",
+      "Milk versus meat in God's Word",
+      "Water of the Word",
+      "Christian separation from worldliness",
+      "Power of Scripture",
+      "Doctrine and correction",
+      "Ezekiel's river vision",
+      "Early commitment to ministry"
+    ],
+    "scriptures": [
+      "Matthew 6:33",
+      "Micah 8:6",
+      "Judges 16",
+      "1 Peter 2:2",
+      "Luke 8:39",
+      "Proverbs 30:33",
+      "1 Corinthians 10:4",
+      "Job 29:6",
+      "Matthew 16",
+      "Ephesians 5:26",
+      "Ezekiel 47",
+      "Psalm 107:23-24",
+      "2 Timothy 3:15-17",
+      "Genesis 2:7"
+    ],
+    "keyScripture": "Matthew 6:33",
+    "summary": "Bishop Joshua teaches that seeking God's kingdom first means prioritizing church work and ministry early in life, because God needs young people and the kingdom requires an early start. He explains that Scripture has levels of depth—from milk (basic verses) to butter to oil to deep waters—and Christians must progress beyond surface-level Bible reading to experience revelation, anointing, and the miraculous works of God. He emphasizes that all Scripture is God-breathed and profitable for doctrine, reproof, correction, and instruction in righteousness, equipping believers to be complete and furnished for every good work."
   },
   {
     "id": 150,
     "driveId": "1w1omkyRvPXkT5FJhkRpFDetsTG7aDTkL",
     "title": "2017.11.12FLTC_Pastor Joshua Heward-Mills_Why You Must Be A Part Of A Mega Church",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication credentials error (OAuth 2.0 access token expired). Please verify access to the source document and retry."
+    "topics": [
+      "mega church",
+      "expectation",
+      "miracles and manifestations",
+      "baptism of the Holy Spirit",
+      "gifts of the Spirit",
+      "word of knowledge",
+      "word of wisdom",
+      "speaking in tongues",
+      "prophecy",
+      "discerning of spirits",
+      "supernatural provision",
+      "faith for the impossible"
+    ],
+    "scriptures": [
+      "Luke 3:15",
+      "Luke 3:16",
+      "Proverbs 23:18",
+      "Matthew 18:20",
+      "1 Corinthians 12:7",
+      "1 Corinthians 12:8",
+      "1 Corinthians 12:9",
+      "John 20"
+    ],
+    "keyScripture": "1 Corinthians 12:7",
+    "summary": "Bishop Heward-Mills teaches that believers must be part of a mega church because large gatherings create expectation which releases the baptism and power of the Holy Spirit. He emphasizes that in a mega church there are more miracles and manifestations of the Spirit because there is more collective faith when many believers gather together. He demonstrates the nine gifts of the Spirit from 1 Corinthians 12, including words of knowledge, prophecy, and tongues, showing that these manifestations are given so believers can profit and experience God's supernatural provision and breakthrough."
   },
   {
     "id": 151,
     "driveId": "1Wz_pxTkg5Z6pVmQxDtTiuAFlOshh2GEJ",
     "title": "2017.12.10FLTC_What It Means To Become A Shepherd Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication error (expired access token). The sermon content is inaccessible and cannot be analyzed for topics, scriptures, or teaching summary."
+    "topics": [
+      "shepherding",
+      "spiritual growth stages",
+      "Christian maturity",
+      "desire for ministry",
+      "teachers and leaders",
+      "caring for sheep",
+      "spiritual milk versus meat",
+      "prayer for laborers",
+      "harvest workers",
+      "loving guidance",
+      "compassion for multitudes",
+      "latter end blessing"
+    ],
+    "scriptures": [
+      "Romans 8:35",
+      "Hebrews 5:12",
+      "2 Timothy 3:15",
+      "Proverbs 4:1-2",
+      "Psalm 122:1",
+      "Matthew 9:35-38",
+      "Matthew 7:21-22",
+      "Psalm 34:19",
+      "Job 42:10",
+      "Job 42:12"
+    ],
+    "keyScripture": "Hebrews 5:12",
+    "summary": "Pastor BJosh teaches that becoming a shepherd is a natural stage of Christian growth that every believer should reach, just as children naturally mature and no longer need only milk. He emphasizes that all you need to become a shepherd is desire, and explains that shepherding means being a caring, loving guide who says 'let us go into the house of the Lord' and prays for others. He stresses there is a great need for shepherds (not just miracle workers), and that God will bless the latter end of those who take up shepherding despite their own problems, just as He did with Job."
   },
   {
     "id": 152,
     "driveId": "1yPkm2fngA6uIOWkkVXwwcoypN6IxCHtL",
     "title": "2017.07.02FLTC_Formula for Humility Pt.1(Four Types of Proud Speakings)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error retrieving transcript. The sermon title indicates teaching on humility and four types of proud speech, but specific topics, scriptures, and teaching content cannot be indexed without access to the full transcript."
+    "topics": [
+      "humility",
+      "pride",
+      "proud speaking",
+      "flattering lips",
+      "heart condition",
+      "overconfident declarations",
+      "power from God",
+      "dependence on God",
+      "tongue reveals heart",
+      "weakness and strength",
+      "need for prayer",
+      "self-sufficiency"
+    ],
+    "scriptures": [
+      "Proverbs 16:5",
+      "Jeremiah 17:9",
+      "Matthew 12:34",
+      "Psalm 12:3",
+      "John 19:9-11",
+      "2 Corinthians 12:9"
+    ],
+    "keyScripture": "Psalm 12:3",
+    "summary": "Bishop Joshua teaches that God hates a proud heart and that what comes out of a person's mouth reveals what is truly in their heart, especially under pressure or emotional situations. He emphasizes that all power, ability, and position comes from God alone, warning against overconfident declarations that suggest self-sufficiency or independence from God. He illustrates through Pilate's interaction with Jesus that recognizing our dependence on God and our need for Him in every area of life is the foundation of true humility."
   },
   {
     "id": 153,
     "driveId": "1Cppi7Uhr-ZjK_Yp9rhG7d978oh7vmX77",
     "title": "2017.10.01FLTC_The Prophets Honour_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content could not be retrieved due to authentication errors with the source document. Please verify access credentials and retry with valid transcript data."
+    "topics": [
+      "prophets honor",
+      "ordained ministry",
+      "receiving Gods servants",
+      "life determined by who you meet",
+      "pastoral calling",
+      "honoring father and mother",
+      "obedience versus honor",
+      "turning hearts of children to fathers",
+      "Moses intercession",
+      "Peters calling",
+      "destiny and reception",
+      "spiritual leadership"
+    ],
+    "scriptures": [
+      "Hebrews 5:1",
+      "Hebrews 5:2",
+      "Hebrews 5:3",
+      "Hebrews 5:4",
+      "Psalm 81",
+      "Psalm 89",
+      "Galatians 6:6",
+      "Matthew 9:9",
+      "Matthew 19:47",
+      "Ecclesiastes 4:13",
+      "Ecclesiastes 4:14"
+    ],
+    "keyScripture": "Hebrews 5:1",
+    "summary": "Bishop Joshua teaches that pastors and prophets are ordained by God from among men specifically for things pertaining to God, not to solve every earthly problem, and must be honored both with material gifts and with respectful words. He emphasizes that your entire life destiny is determined by who you meet and how you receive them, using Peter's immediate response to Jesus' call as the pivotal moment that placed him on a throne forever versus the unnamed man who rejected Jesus. He stresses that honoring spiritual fathers goes beyond mere obedience and includes turning your heart toward them, which carries promises of blessing and long life, while rejection brings curses."
   },
   {
     "id": 154,
     "driveId": "1nM9tpb18j_7ryYoRLLxbDyzxkAinUr_Z",
     "title": "2017.10.29FLTC_Pastor Joshua Heward-Mills_Bearing Fruits Pt.3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript could not be retrieved due to authentication errors with the source document. Please provide the actual sermon transcript text to enable proper indexing."
+    "topics": [
+      "fruitfulness",
+      "bearing fruit",
+      "spiritual productivity",
+      "Christian character",
+      "qualities of fruitfulness",
+      "diligence",
+      "knowledge",
+      "temperance",
+      "self-control",
+      "patience",
+      "godliness",
+      "brotherly kindness",
+      "charity"
+    ],
+    "scriptures": [
+      "2 Peter 1:8",
+      "Mark 4:19",
+      "Ecclesiastes 10:18",
+      "Matthew 27:46",
+      "Romans 8:26",
+      "1 Corinthians 2:4"
+    ],
+    "keyScripture": "2 Peter 1:8",
+    "summary": "Bishop Joshua Heward-Mills teaches that Christians are known by their spiritual fruit, not by external appearances, and that fruitfulness requires specific internal qualities listed in 2 Peter 1:8. He explains that lack of knowledge, self-control, godliness, brotherly kindness, and love are primary reasons why Christians remain unfruitful in their lives and ministries. He emphasizes that the greatest enemies of fruitfulness are the cares of this world, the deceitfulness of riches, and the lusts of other things that choke the word and make believers unproductive."
   },
   {
     "id": 155,
     "driveId": "1nsyffaey6Ys0jKqGAiuKoyhe0IrLut32",
     "title": "2017.05.28FLTC_God_s Letter To Town Church Pt.2 (Grace and Peace)_Bishop Dag Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (Google Drive API returned 401 Unauthorized - expired access token). Based on the title alone, this sermon appears to be part 2 of a series on God's letter to Town Church with focus on grace and peace, but specific teaching content cannot be determined without access to the full transcript."
+    "topics": [
+      "grace and peace",
+      "apostolic ministry",
+      "spiritual blessings",
+      "divine election",
+      "adoption as children of God",
+      "acceptance in the beloved",
+      "redemption through blood",
+      "wisdom and prudence",
+      "mystery of God's will",
+      "rejection versus acceptance",
+      "tithing and offerings",
+      "power of scripture"
+    ],
+    "scriptures": [
+      "Ephesians 1:1",
+      "Ephesians 1:2",
+      "Ephesians 1:3",
+      "Ephesians 1:4",
+      "Ephesians 1:5",
+      "Ephesians 1:6",
+      "Ephesians 1:7",
+      "Ephesians 1:8",
+      "Ephesians 1:9",
+      "Hebrews 4:16",
+      "2 Timothy 3:15"
+    ],
+    "keyScripture": "Ephesians 1:2",
+    "summary": "Bishop Dag teaches that grace and peace from God are the two essential things believers need throughout their lives, emphasizing that human weakness and evil nature require God's continual grace. He explains that God has adopted believers as His children before the foundation of the world, making them accepted in the beloved (the church), which is the primary place of acceptance despite life's inevitable rejections. He emphasizes that God abundantly gives wisdom and prudence through Scripture and books, revealing the mysterious will of God through prayer and study of His Word.",
+    "keyTopics": [
+      "grace and peace from God",
+      "spiritual blessings in heavenly places",
+      "predestination and adoption",
+      "acceptance in the beloved",
+      "redemption through Christ's blood",
+      "wisdom through Scripture",
+      "mystery of God's will",
+      "church as place of belonging"
+    ]
   },
   {
     "id": 156,
     "driveId": "1BhUvxiu8W1J-aA5gLpNqHSx9yow3R4jx",
     "title": "2017.11.26FLTC_Why You Must Be Part Of A Mega Church Pt 3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript file failed to load due to authentication error with the source document. No content is available for analysis."
+    "topics": [
+      "Mega Church",
+      "Deliverance from Demons",
+      "Healing and Miracles",
+      "Prince of the Power of the Air",
+      "Casting Out Devils",
+      "Evil Spirits",
+      "Vision of God",
+      "Nephilim and Fallen Angels",
+      "Depression and Oppression",
+      "Name of Jesus",
+      "Divine Healing",
+      "Spiritual Warfare"
+    ],
+    "scriptures": [
+      "Genesis 28",
+      "Genesis 32",
+      "Genesis 1:1",
+      "Genesis 1:2",
+      "Genesis 1:26",
+      "Genesis 17:15",
+      "Exodus 15:25",
+      "Exodus 15:26",
+      "1 Samuel 25:25",
+      "Proverbs 29:18",
+      "Micah 4:1",
+      "Micah 4:2",
+      "Psalm 90:16",
+      "Psalm 90:17",
+      "John 3:16",
+      "Acts 3:2",
+      "Acts 3:6",
+      "Acts 3:16",
+      "Acts 8:5",
+      "Acts 8:6",
+      "Acts 8:7",
+      "Mark 1:32",
+      "Mark 1:33",
+      "Mark 1:34",
+      "Mark 16:17",
+      "Mark 5:5",
+      "Philippians 2:9",
+      "Philippians 2:10"
+    ],
+    "keyScripture": "Micah 4:1",
+    "summary": "Bishop Joshua teaches that in a mega church there is greater power to confront the prince of the power of the air and cast out demons that cause sickness, depression, and destruction in people's lives. He explains that evil spirits (nephilim, demons from fallen angels) have infiltrated humanity since Genesis and that Jesus's ministry was characterized by casting out devils and healing the sick. He declares that through the name of Jesus and faith in that name, believers in the mega church can receive deliverance from every demonic influence, genetic curse, chronic disease, and oppressive spirit."
   },
   {
     "id": 157,
     "driveId": "1tj3lVJaXOH-u4ugXEZXX5F3MY3N7wmoT",
     "title": "2017.12.03FLC_How To Be A Humble Minister Like Jesus Pt. 1",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process request. The sermon transcript failed to load due to an authentication error with the source document. Please verify access credentials and retry."
+    "topics": [
+      "humility",
+      "Jesus as example",
+      "servant leadership",
+      "pride",
+      "divine selection",
+      "meekness",
+      "learning attitude",
+      "incarnation of Christ",
+      "obedience",
+      "supernatural laws",
+      "grace for the humble",
+      "childlikeness"
+    ],
+    "scriptures": [
+      "1 Timothy 2:5",
+      "Matthew 11",
+      "Matthew 3",
+      "Luke 3:21",
+      "James 4:10",
+      "James 4:6",
+      "Philippians 2:5",
+      "Philippians 2:6",
+      "Philippians 2:7",
+      "Philippians 2:8",
+      "John 3:17",
+      "Romans 8:29"
+    ],
+    "keyScripture": "Philippians 2:5-8",
+    "summary": "Bishop Joshua teaches that Jesus' most important lesson for ministers is not His miracles or mega-church success, but His humility, as demonstrated when He joined the baptism line and humbled Himself to become a man and die. He explains that God gives grace (supernatural help) only to the humble, and that humility can override the law of divine selection, as seen when Jesus healed the Syrophoenician woman and the Centurion who demonstrated exceptional humility. He warns that pride blocks earthly and spiritual blessings, calling believers to remain teachable like children and to embrace servant roles rather than seeking status or being \"too big\" for menial tasks in church."
   },
   {
     "id": 158,
     "driveId": "1bFuygr6CB3jyj0Pt9xKjiFoaSoWn7LxK",
     "title": "2017.03.12FLC_HYPService_Honour Your Prophet_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (expired OAuth 2 access token). The sermon content cannot be processed without access to the transcript."
+    "topics": [
+      "Honor Your Prophet",
+      "Receiving Prophets",
+      "Prophetic Reward",
+      "Recognition of Anointing",
+      "Prophetic Impartation",
+      "Spiritual Rank",
+      "Prophetic Mantle",
+      "Levels of Honor",
+      "Miraculous Power",
+      "Spiritual Covering",
+      "Prophetic Office",
+      "Anointing Recognition"
+    ],
+    "scriptures": [
+      "Matthew 10:41",
+      "Mark 6:2-5",
+      "2 Kings 4:8-16",
+      "John 1:12"
+    ],
+    "keyScripture": "Matthew 10:41",
+    "summary": "Bishop Joshua teaches that believers must receive and honor their prophet at the rank and level he operates in, not merely as a teacher or preacher, in order to receive the prophet's reward and full anointing. He emphasizes that the level of power and blessing released in someone's life is directly connected to the level of honor they give to the man of God, illustrated by the Shunammite woman who progressively increased her honor and received miraculous blessing. He warns that lack of recognition and honor for the anointing limits the prophet's ability to perform mighty works, just as Jesus could do no mighty works in his hometown due to their familiarity and lack of honor."
   },
   {
     "id": 159,
     "driveId": "1BgjPXzaZGg0lk8HIJLc0T-R6MDO-qiOX",
     "title": "2017.04.30FLC_Those Who Accuse You Pt.1_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon: transcript data unavailable due to authentication error with source document. The sermon title indicates the teaching focuses on 'Those Who Accuse You' with Psalm reference, but specific content cannot be extracted without access to the full transcript."
+    "topics": [
+      "accusation",
+      "Satan's devices",
+      "spiritual warfare",
+      "condemnation",
+      "the accuser",
+      "church enemies from within",
+      "gates of hell",
+      "discouragement",
+      "casting down accusations",
+      "no condemnation in Christ",
+      "restoration after failure",
+      "overcoming lies"
+    ],
+    "scriptures": [
+      "Mark 1:23",
+      "2 Corinthians 2:11",
+      "John 8:3",
+      "Matthew 16:18",
+      "Revelation 12:10",
+      "Romans 8:1"
+    ],
+    "keyScripture": "John 8:3-11",
+    "summary": "Pastor Joshua teaches that Satan's most effective weapon against believers is accusation rather than frontal attack, and that accusations weaken us by being partly true and destroying our confidence, strength, and relationships. He emphasizes that just as Jesus refused to condemn the woman caught in adultery, no one with sin has the right to accuse others, and believers must learn to identify and cast down the spirit of accusation operating within the church. He explains that when accusations are allowed to operate, they steal salvation, strength, and the power of Christ from believers' lives, leaving them discouraged and isolated."
   },
   {
     "id": 160,
     "driveId": "1AIl4o-th49qNDfMaR4YhgVHW98quXL4C",
     "title": "2017.08.27FLC_Tell Them Pt. 2 (The Love Of Jesus Christ)_Pastor Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript content is unavailable due to an authentication error (expired access token) when attempting to retrieve the source material. Please verify credentials and resubmit the transcript for proper indexing."
+    "topics": [
+      "Soul-winning",
+      "Blood of Jesus",
+      "Greatest love",
+      "Remission of sins",
+      "Love of Christ compared",
+      "Brotherhood love",
+      "National love",
+      "Maternal love",
+      "Romantic love",
+      "Sacrifice of Jesus",
+      "Faithfulness of God",
+      "Redemption"
+    ],
+    "scriptures": [
+      "John 1:11-12",
+      "John 14:11",
+      "John 15:13",
+      "Song of Solomon 4:6-7",
+      "1 Peter 1:22",
+      "Isaiah 49:15",
+      "Luke 19:10",
+      "2 Samuel 1:26"
+    ],
+    "keyScripture": "John 15:13",
+    "summary": "BJosh teaches that Christians must become soul-winners because without the shedding of Jesus' blood there is no forgiveness of sins, and Jesus demonstrated the greatest love by laying down His life. He systematically compares Jesus' love against four major types of human love—brotherly love, patriotic love, maternal love, and romantic love—showing how each falls short and is conditional or limited. Jesus' love stands alone as the greatest because it is unconditional, sacrificial, and directed toward sinners who could give nothing back, proving that no love in human history compares to Christ's redemptive love."
   },
   {
     "id": 161,
     "driveId": "1rFj3uy9s8MHW6wm2haUTZbN3pmPfYbli",
     "title": "2017.09.24FLC_The Disguises of the Prophet_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content is unavailable due to authentication error (expired access token) when attempting to retrieve the sermon materials from the source. Please re-authenticate and provide the transcript to enable proper indexing."
+    "topics": [
+      "prophet's reward",
+      "honoring prophets",
+      "receiving a prophet",
+      "deliverance from Egypt",
+      "preservation",
+      "disguises of the prophet",
+      "tithing blessings",
+      "shepherd blessings",
+      "belief in prophets",
+      "prophetic encounters",
+      "bondage and freedom",
+      "prophetic preservation"
+    ],
+    "scriptures": [
+      "Matthew 10:41",
+      "2 Chronicles 20:20",
+      "Hosea 12:13",
+      "Proverbs 6:20-24",
+      "John 8:53-54",
+      "Psalm 103:2",
+      "Genesis 29"
+    ],
+    "keyScripture": "Matthew 10:41",
+    "summary": "Bishop Joshua teaches that receiving a prophet in the name of a prophet—not as a teacher, advisor, or righteous man—unlocks a specific prophet's reward including deliverance from Egypt (bondage, failure, servitude) and supernatural preservation of blessings. He emphasizes that by a prophet God brought Israel out of Egypt and by a prophet they were preserved, meaning prophets carry unique anointing to break cycles of failure and maintain breakthrough in believers' lives. Christians must identify and honor prophets correctly with high levels of belief rather than discussion or debate, as different spiritual offices carry different rewards and blessings."
   },
   {
     "id": 162,
     "driveId": "1Ph_gaeJIKCeD12t0G9zn0votoAvi-gcO",
     "title": "2017.06.25FLC_The Wisdom of the Serpent(Wise as Serpents)_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication credentials error with the source document. Please verify access permissions and re-submit the transcript for indexing."
+    "topics": [
+      "Wisdom of the Serpent",
+      "Giving Yourself Wholly",
+      "Total Commitment",
+      "Matthew 6:33",
+      "Seeking First the Kingdom",
+      "Types of Wisdom",
+      "Loving God Completely",
+      "Church Growth Through Members",
+      "Soul Winning",
+      "Undivided Heart",
+      "Following Leadership",
+      "Profitable Christianity"
+    ],
+    "scriptures": [
+      "Ecclesiastes 10:10",
+      "James 3:15",
+      "2 Timothy 1:7",
+      "Ecclesiastes 10:3",
+      "1 Corinthians 2:4",
+      "1 Corinthians 2:7",
+      "Matthew 10:16",
+      "1 Timothy 4:15",
+      "Romans 13:14",
+      "Philippians 3",
+      "Matthew 6:33",
+      "Matthew 6:31",
+      "Ezekiel 36",
+      "Psalm 57:7",
+      "Psalm 108:1",
+      "Psalm 112:7",
+      "Jeremiah 17:7"
+    ],
+    "keyScripture": "1 Timothy 4:15",
+    "summary": "Pastor Joshua teaches that Christians must give themselves wholly (100%) to God and His work, using the wisdom of the serpent which commits its entire body to capturing prey as an illustration. He emphasizes that profiting in Christianity only appears when believers stop dividing their attention between the Kingdom and worldly concerns, demonstrating complete commitment with their mind, heart, and soul. He challenges church members to prioritize soul-winning and building God's church above their personal needs, asserting that Matthew 6:33 only works when believers truly seek God's kingdom first with undivided devotion."
   },
   {
     "id": 163,
     "driveId": "1WGqgb1zIQa177Y2mF9gNRue3os-S2CN_",
     "title": "2017.12.10FLC_How To Be A Humble Minister Like Jesus Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data returned an authentication error (OAuth 2 access token expired) preventing access to the sermon material. No indexing information can be generated without the actual sermon transcript."
+    "topics": [
+      "humility",
+      "pride",
+      "causes of pride",
+      "perfection",
+      "beauty",
+      "wisdom",
+      "riches",
+      "knowledge",
+      "prayer and fasting",
+      "revelations and visions",
+      "doing God's will",
+      "submission to authority"
+    ],
+    "scriptures": [
+      "Ezekiel 28:15",
+      "Ezekiel 28:17",
+      "Ezekiel 28:5",
+      "1 Corinthians 8:1",
+      "Luke 18:10-14",
+      "2 Corinthians 12:7",
+      "Matthew 11",
+      "Luke 14:10",
+      "John 6:38",
+      "Isaiah 43:13"
+    ],
+    "keyScripture": "Matthew 11:29",
+    "summary": "Bishop Joshua teaches that pride has many surprising sources including perfection, beauty, wisdom, riches, knowledge, prayer, fasting, tithing, and even dreams and revelations. He emphasizes that Jesus Christ is the ultimate teacher of humility, instructing believers to learn from Him by being meek and lowly, choosing the lowest room, and not doing their own will but God's will. He warns that proud people always want to do what they want rather than submitting to spiritual authority, and calls believers to humble themselves before God lifts them up."
   },
   {
     "id": 164,
     "driveId": "1vv225WnJCQDPAYKUbeYBgx0aGno1Tr-P",
     "title": "2017.08.20FLC_Tell Them (Without the shedding of Blood)",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source API (Google Drive access token expired). No content is available for analysis."
+    "topics": [
+      "soul winning",
+      "conversion",
+      "remission of sins",
+      "blood of Jesus",
+      "evangelism",
+      "salvation by blood alone",
+      "witnessing",
+      "missionary work",
+      "preaching the gospel",
+      "eternal life",
+      "forgiveness of sins",
+      "great commission"
+    ],
+    "scriptures": [
+      "Psalm 51:13",
+      "Acts 3:19",
+      "Hebrews 9:22",
+      "Romans 3:23",
+      "Romans 6:23",
+      "1 Peter 1:18",
+      "1 Peter 1:19",
+      "Hebrews 10:4",
+      "Revelation 7:9",
+      "Revelation 7:13",
+      "Revelation 7:14"
+    ],
+    "keyScripture": "Hebrews 9:22",
+    "summary": "Bishop Josh teaches that without the shedding of Jesus' blood there is absolutely no remission of sins, and no amount of good works, songs, church attendance, or blessings can wash away sin. He emphasizes that we must be soul winners because the blood of Jesus must reach people through our witness, just as it reached us through someone who told us the gospel. He urges believers to understand their responsibility to evangelize because people are dying without salvation, and only the blood of Jesus—not human effort or religiosity—can convert sinners and grant them eternal life."
   },
   {
     "id": 165,
     "driveId": "1PRYFUSeqDYYQ-PRcPzuQPBCYPCtwt4LM",
     "title": "2017.01.22FLC_Bebelos_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (expired OAuth 2 access token). Please verify the document is accessible and credentials are valid before resubmitting."
+    "topics": [
+      "bebelos",
+      "profane person",
+      "despising spiritual things",
+      "birthright",
+      "Esau",
+      "Greek word meaning",
+      "disrespecting holy things",
+      "lost in translation",
+      "light entering darkness",
+      "Ruth the Moabite",
+      "outsiders receiving blessing",
+      "tithing testimony"
+    ],
+    "scriptures": [
+      "Hebrews 12:16",
+      "1 Timothy 3:15",
+      "John 1:1",
+      "John 1:2",
+      "John 1:3",
+      "John 1:4",
+      "Isaiah 60:1",
+      "Isaiah 60:2",
+      "Ruth 1:1",
+      "Ruth 1:2"
+    ],
+    "keyScripture": "Hebrews 12:16",
+    "summary": "Pastor Joshua teaches on the Greek word 'bebelos' (profane) from Hebrews 12:16, explaining that it describes someone like Esau who despises spiritual things, disregards holy things, and disrespects their God-given birthright. He emphasizes that understanding the original Greek word reveals deeper meaning and power lost in English translation, showing how bebelos means not just profane but someone who treats sacred things with contempt. He warns that believers can become bebelos by despising what God has given them, allowing outsiders (like Ruth the Moabite) to take the blessings intended for those who were originally positioned to receive them."
   },
   {
     "id": 166,
     "driveId": "1QTV8kiSL4IpxWBkelqtULg_iseslH6l6",
     "title": "2017.05.07FLC_Those Who Accuse You Pt.2_Ps Joshua Heward-Mills",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (expired access token). No content is available to extract topics, scriptures, or teaching summary."
+    "topics": [
+      "accusation",
+      "accuser of the brethren",
+      "Satan's devices",
+      "salvation and strength",
+      "hidden laws of accusations",
+      "false accusations",
+      "being accused of the opposite",
+      "protection from accusers",
+      "kingdom of God",
+      "enemies of the church",
+      "Moses accused of pride",
+      "Jesus accused of destroying temple"
+    ],
+    "scriptures": [
+      "Revelation 12:10",
+      "Psalm 103:12",
+      "Matthew 25:14"
+    ],
+    "keyScripture": "Revelation 12:10",
+    "summary": "Pastor Joshua teaches that accusations are a primary weapon of Satan against believers and the church, and that when the accuser is present, salvation, strength, the kingdom of God, and the power of Christ are hindered. He reveals hidden laws of accusation, particularly that people are typically accused of the exact opposite of what they truly are or are trying to do, citing examples like Moses being accused of pride when he was the meekest man, and Jesus being accused of destroying the temple when He came to build His church. He emphasizes that believers must recognize accusations as devices of the enemy, reject them with strength, and understand that these false charges are attempts to stop God's work and undermine their calling."
   },
   {
     "id": 167,
     "driveId": "1SD81PTVP2jiBbvJlXso25aGkoaq54Xdv",
     "title": "2017.03.19FLC_In the Atmosphere of War_Ps Joshua Heward-Mills.output",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript file could not be retrieved due to expired authentication credentials with Google Drive API. No content is available for analysis."
+    "topics": [
+      "spiritual warfare",
+      "atmosphere of war",
+      "armor of God",
+      "perseverance through hardship",
+      "ministry in suffering",
+      "faith as a fight",
+      "Christian struggle",
+      "persecuting through family problems",
+      "breaking through obstacles",
+      "tithing in poverty",
+      "standing despite brokenness",
+      "worship through pain"
+    ],
+    "scriptures": [
+      "Psalm 23",
+      "Isaiah 9:6",
+      "1 Timothy 6:12",
+      "2 Timothy 3:12",
+      "Isaiah 9:5",
+      "Ephesians 6:12",
+      "2 Corinthians 11"
+    ],
+    "keyScripture": "1 Timothy 6:12",
+    "summary": "Pastor Joshua teaches that Christianity is not about peace and comfort but is actually a war that believers must fight while dealing with broken families, poverty, sickness, and pain. He emphasizes that Christians must continue serving God, paying tithes, attending church, and doing ministry even when their personal lives are falling apart and their spiritual armor is damaged. Using examples like John Wesley's troubled marriage and Charles Spurgeon's kidney stones, he insists that believers must stand and function in the atmosphere of war rather than waiting for everything to be okay before they serve God."
   },
   {
     "id": 168,
     "driveId": "1dE-z51paD98aEBfQoWBoMKMNck-55PWj",
     "title": "2017.09.03FLC_Tell them pt.3",
-    "topics": [],
+    "topics": [
+      "International Sunday",
+      "testimony",
+      "divine healing",
+      "brain injury",
+      "salvation",
+      "church planting",
+      "Bible school",
+      "missions",
+      "evangelism",
+      "youth ministry",
+      "evangelistic invitation",
+      "cross-cultural ministry"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to authentication errors with the source document (Google Drive API returned 401 Unauthenticated error). Please verify access credentials and resubmit the transcript content."
+    "summary": "This transcript does not contain a sermon by Bishop Joshua Heward-Mills, but rather testimonies from Bible school students during an International Sunday service. Two students shared their testimonies: Talent from Zimbabwe testified about divine healing from a serious head injury that could have caused brain damage, and Wendy from Namibia shared her salvation testimony and journey to Bible school after being invited to church. The focus is on thanksgiving for Bishop Heward-Mills' ministry of church planting in various nations and the opportunities provided through Bible school training."
   },
   {
     "id": 169,
     "driveId": "1OHbgB_Oj2Dz-C0-fR2sQhB744wr3nVTP",
     "title": "01 Indwelling of the Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error. The transcript data contains a Google API authentication failure (expired access token) rather than sermon text. Please verify the transcript source and resubmit with valid content."
+    "topics": [
+      "indwelling of the Holy Spirit",
+      "Spirit poured out from on high",
+      "anointing and presence",
+      "Holy Spirit within, with, and upon",
+      "spiritual transformation",
+      "Spirit-led ministry",
+      "Tabernacle of Moses",
+      "Tabernacle of David",
+      "Ark of the Covenant",
+      "Temple of Solomon",
+      "church growth through the Spirit",
+      "Holy Spirit baptism"
+    ],
+    "scriptures": [
+      "Isaiah 32:14",
+      "Isaiah 32:15",
+      "Romans 5:5",
+      "Ezekiel 39:29",
+      "Isaiah 59:2",
+      "Exodus 25:8",
+      "Exodus 25:9"
+    ],
+    "keyScripture": "Isaiah 32:15",
+    "summary": "Bishop Heward-Mills teaches that the primary reason for lack of church growth and ministerial effectiveness is the absence of the Holy Spirit being poured out on leaders and members. He emphasizes three ways the Holy Spirit interacts with believers: within (indwelling), with (presence), and upon (anointing for service), explaining that the Spirit within never occurred in the Old Testament but is available now. He testifies that every area of his life—from academics to ministry to overcoming depression and worldliness—was transformed when the Holy Spirit was poured out on him, and calls for the same outpouring on his governance team and church."
   },
   {
     "id": 170,
     "driveId": "1RKcBbHAPadg4bvdq4DKNEtc6Tq53HaNq",
     "title": "07.14 - 10 Reasons Every Christian Sh",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript data contains only an authentication error from Google Drive API (expired access token), not the actual sermon content. No teaching material is available for indexing."
+    "topics": [
+      "prayer",
+      "faith",
+      "diligent seeking",
+      "belief in God",
+      "Holy Spirit as teacher",
+      "wisdom from God",
+      "spirit of supplication",
+      "pleasing God",
+      "rewards of prayer",
+      "persistence in prayer",
+      "spiritual discipline",
+      "trusting God over human effort"
+    ],
+    "scriptures": [
+      "Hebrews 11:1",
+      "Hebrews 11:2",
+      "Hebrews 11:3",
+      "Hebrews 11:4",
+      "Hebrews 11:5",
+      "Hebrews 11:6",
+      "John 16",
+      "Psalm 73",
+      "Job 29"
+    ],
+    "keyScripture": "Hebrews 11:6",
+    "summary": "Bishop Joshua teaches that prayer is the fundamental sign of faith and that without faith it is impossible to please God, requiring believers to both believe that God exists and that He rewards those who diligently seek Him. He argues that Christians often fail to pray because they lack genuine faith in prayer's effectiveness, trusting more in their own efforts, connections, and strategies than in God's power to answer persistent prayer. He emphasizes that wisdom, guidance, and breakthrough come only through dedicated prayer in the secret place, not through education or human effort alone, and calls believers to pursue God with the same diligence they apply to worldly pursuits."
   },
   {
     "id": 171,
     "driveId": "1AoGm6-HCYMgogtoJMsJ3YlEZLBrGJwN2",
     "title": "12.22 - Humility and Pride",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source document. No indexing data can be generated without access to the sermon transcript."
+    "topics": [
+      "humility",
+      "pride",
+      "contention",
+      "meekness",
+      "earthly blessings",
+      "servanthood",
+      "menial jobs",
+      "wisdom",
+      "discernment",
+      "satisfaction",
+      "apprenticeship",
+      "promotion"
+    ],
+    "scriptures": [
+      "Psalm 19:8",
+      "Psalm 19:9",
+      "Proverbs 13:10",
+      "Psalm 37:11",
+      "Matthew 5:5",
+      "Psalm 22:26",
+      "Proverbs 11:2",
+      "Psalm 25:9",
+      "Luke 22:26",
+      "John 6:12",
+      "John 4",
+      "Genesis 8:22"
+    ],
+    "keyScripture": "Proverbs 13:10",
+    "summary": "Bishop Joshua teaches that pride is the only cause of contention and quarrels in relationships, and that it prevents people from receiving earthly blessings like jobs, marriages, and prosperity because proud people refuse to accept their current state and do menial work. He emphasizes that humility is demonstrated through two characteristics Jesus gave: behaving like a child and behaving like a servant, particularly being willing to do lowly, menial jobs without complaint. True humility brings wisdom, guidance from God, and eventual promotion, as exemplified by Jesus' disciples who served as \"house help\" for three years before becoming apostles."
   },
   {
     "id": 172,
     "driveId": "1Fjqg18s7lGdkljJRq9n7Q593pBNe1TEf",
     "title": "10.13 - Honour Relationships",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source system (Google Drive API - expired access token). No content is available for indexing."
+    "topics": [
+      "honoring the Holy Spirit",
+      "honor relationships",
+      "anointing on God's servants",
+      "prophet's reward",
+      "despising God's servants",
+      "reprobate mind",
+      "touching God's anointed",
+      "prophetic blessing",
+      "seed offering to prophet",
+      "retaining God in knowledge",
+      "Holy Spirit indwelling",
+      "consequences of dishonor"
+    ],
+    "scriptures": [
+      "Romans 13:7",
+      "John 14:15",
+      "John 14:17",
+      "Isaiah 42:1",
+      "John 6:19",
+      "Mark 6",
+      "Genesis 27:27",
+      "1 Samuel 2:29",
+      "1 Samuel 2:30",
+      "Romans 1:28",
+      "Romans 1:29",
+      "2 Corinthians 4:7",
+      "Proverbs 3",
+      "Hosea 12:13"
+    ],
+    "keyScripture": "Romans 13:7",
+    "summary": "BJosh teaches that Christians must honor their relationship with the Holy Spirit who dwells in and operates through God's anointed servants, warning that those who despise or dishonor prophets and pastors are actually touching God Himself and will face severe consequences. He emphasizes that God gave humanity over to reprobate minds when they did not retain Him in their knowledge, as seen in Western society's moral decline, and stresses that spiritual blessings and breakthroughs come through honoring prophets with offerings and respect. He concludes that the church must honor their prophet annually with seed offerings because without controversy, the lesser is blessed by the greater, and those who receive a prophet in the name of a prophet receive a prophet's reward."
   },
   {
     "id": 173,
     "driveId": "1rZP34354qWwkJM96rQWIQkRpQHdw4F-G",
     "title": "02.17 - The Global Curses - Neutralis",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication error with the source material."
+    "topics": [
+      "curses",
+      "global curses",
+      "curse on Adam",
+      "curse on Eve",
+      "curse of Noah on Ham",
+      "sweat and toil",
+      "sorrow in childbirth",
+      "servanthood",
+      "death and mortality",
+      "New Jerusalem",
+      "world to come",
+      "overcoming by faith"
+    ],
+    "scriptures": [
+      "Revelation 22:3",
+      "Genesis 3:17",
+      "Genesis 3:19",
+      "Genesis 3:16",
+      "Genesis 9:25",
+      "Job 14:5",
+      "Revelation 21:9",
+      "Revelation 21:10-11",
+      "Revelation 21:23-27",
+      "Revelation 22:1-3",
+      "Colossians 3:3-4",
+      "Romans 1:20",
+      "John 20",
+      "1 John 5:4",
+      "Hebrews 6:4-5",
+      "1 John 2:17"
+    ],
+    "keyScripture": "Revelation 22:3",
+    "summary": "Bishop Joshua teaches that there are three major global curses operating in the world: the curse on Adam (sweat, toil, and death), the curse on Eve (sorrow in childbirth and desire for husband), and the curse of Noah on Ham (servanthood and inability to build or own). He explains that these curses affect all humanity globally and are evident in struggles with work, relationships, childbearing, and systemic poverty. The way to overcome these curses is through faith in the world to come—the New Jerusalem—where there will be no more curse, no death, no sun, and believers will live in glory forever with resurrected bodies and eternal rewards."
   },
   {
     "id": 174,
     "driveId": "1ZhGt2LlYVTT5f0m3zY4uLDw00746W1ob",
     "title": "11.03 - How to Become a Mature Christ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript content could not be retrieved due to an authentication error with the source system (Google Drive API access token expired). No content analysis, topic extraction, scripture identification, or summary generation is possible without valid sermon transcript data."
+    "topics": [
+      "spiritual maturity",
+      "Christian immaturity",
+      "prodigal son",
+      "baby Christians",
+      "peculiar people",
+      "separation from world",
+      "unequal yoke",
+      "tithing",
+      "transformation",
+      "sanctification",
+      "marriage to unbelievers",
+      "growth in Christ"
+    ],
+    "scriptures": [
+      "Luke 15:11",
+      "Luke 15:12",
+      "1 Corinthians 2:7",
+      "1 Peter 2",
+      "1 Corinthians 13:11",
+      "Ephesians 4:14",
+      "Genesis 1",
+      "2 Corinthians 5:17",
+      "Colossians 1:28",
+      "John 9",
+      "John 9:8",
+      "Titus 2:14",
+      "2 Corinthians 6:13",
+      "2 Corinthians 6:14",
+      "Matthew 11:28"
+    ],
+    "keyScripture": "Colossians 1:28",
+    "summary": "Bishop Joshua teaches that spiritual maturity comes from understanding the truth of God's Word, which transforms believers from baby Christians who don't understand why they do things into mature adults who cannot be tossed by every doctrine. He emphasizes that Christians must be visibly different from unbelievers—a peculiar people zealous of good works—evidenced by changed lifestyle, music, relationships, and obedience to practices like tithing that open heaven's provision. He warns against unequal yoking with unbelievers in marriage or close friendships because they carry different burdens and directions, making it impossible to walk together in God's purposes."
   },
   {
     "id": 175,
     "driveId": "1haWNU8SXOHvoqCLBjzEputeJHkZTCkwK",
     "title": "01.20 - Why You must pray",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source system (expired OAuth 2 access token). No content is available to analyze for topics, scriptures, or teaching summary."
+    "topics": [
+      "prayer",
+      "spiritual authority",
+      "effectual fervent prayer",
+      "fallen angels",
+      "demons",
+      "spiritual warfare",
+      "closeness to God",
+      "Holy Spirit communion",
+      "praying in tongues",
+      "seeking God's presence",
+      "fasting and withdrawal",
+      "spiritual wickedness"
+    ],
+    "scriptures": [
+      "James 5:16",
+      "Matthew 7:28",
+      "Matthew 7:29",
+      "1 John 5:19",
+      "Genesis 1:1",
+      "Genesis 1:2",
+      "1 Corinthians 2:9",
+      "1 Corinthians 2:10",
+      "Proverbs 8:17",
+      "Psalm 27:1",
+      "Psalm 84:1",
+      "Psalm 84:2"
+    ],
+    "keyScripture": "James 5:16",
+    "summary": "Bishop Heward-Mills teaches that prayer transforms believers into people of spiritual authority who can overcome the demonic entities (fallen angels, jumping angels, and demons) that fill the world with wickedness. He emphasizes that prayer is not about getting things from God but about developing closeness and intimate fellowship with Him, particularly through the Holy Spirit's communion. He argues that without consistent prayer—including extended hours in God's presence—Christians will lack the authority needed to control their lives and will be overpowered by spiritual forces."
   },
   {
     "id": 176,
     "driveId": "1QI9mvs-iX8r_sSqoRQBcxTzHBDFJe60S",
     "title": "01.13 - Victory Secrets - The secret",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). No content available for analysis."
+    "topics": [
+      "sacrifice",
+      "power of God",
+      "transformation",
+      "breaking relationships with unbelievers",
+      "worthiness through sacrifice",
+      "leaving old life behind",
+      "prayer and fasting",
+      "fleeing fornication",
+      "daily cross-bearing",
+      "manifold blessings",
+      "wisdom of the cross",
+      "separation from the world"
+    ],
+    "scriptures": [
+      "Jeremiah 17:23",
+      "1 Corinthians 2:6",
+      "1 Corinthians 2:7",
+      "1 Corinthians 2:8",
+      "Revelation 5:11",
+      "Revelation 5:12",
+      "John 3:16",
+      "Luke 19:10",
+      "Matthew 1:21",
+      "Romans 12:2",
+      "James 1:21",
+      "Matthew 10:38",
+      "Luke 18:29",
+      "Luke 18:30",
+      "Matthew 6:33",
+      "1 Corinthians 1:18",
+      "2 Corinthians 6:14",
+      "1 Corinthians 5:11",
+      "Daniel 11:31"
+    ],
+    "keyScripture": "Revelation 5:12",
+    "summary": "BJosh teaches that sacrifice is the secret to receiving power, riches, wisdom, strength, honor, glory, and blessings, using Jesus as the Lamb who was slain as the primary example of how sacrifice releases God's power. He emphasizes that Christians must literally leave behind former friends, relationships with unbelievers, fornication, old entertainment, and worldly habits—not just attend church—because transformation requires actual loss and separation. He argues the modern church lacks power because it has abandoned the message of daily sacrifice, including extended prayer, breaking up with ungodly relationships, and walking away from the old life to receive manifold blessings in return."
   },
   {
     "id": 177,
     "driveId": "1oPyCi8irfPqQdU-E3G6JnIaZpO6M6PiN",
     "title": "08.18 - Don_t Be Surprised That You M",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (Google Drive API access token expired). No content is available for analysis."
+    "topics": [
+      "born again",
+      "regeneration",
+      "confession of sin",
+      "human pride",
+      "self-righteousness",
+      "admission of wrongdoing",
+      "repentance",
+      "Pharisee and publican",
+      "salvation",
+      "humility",
+      "sinful nature",
+      "spiritual transformation"
+    ],
+    "scriptures": [
+      "John 3:1-7",
+      "Genesis 3:8",
+      "Luke 18:10-14",
+      "Romans 5:13",
+      "James 4:17",
+      "1 John 1:8-9"
+    ],
+    "keyScripture": "John 3:7",
+    "summary": "Bishop Heward-Mills teaches that being born again requires first acknowledging that you are fundamentally wrong and sinful, not just different or misunderstood. He emphasizes that like Adam and Eve, humans naturally refuse to admit fault and instead justify themselves by focusing on their good deeds (like the Pharisee who fasted and tithed) rather than confessing their sins (like the publican who cried for mercy). He argues that many church attendees have never truly been born again because they've never genuinely confessed they are sinners who need complete spiritual regeneration, not just religious activity or self-improvement."
   },
   {
     "id": 178,
     "driveId": "1VrwLG3bofYHMmBYrf9OAk1JGgzOeDFPm",
     "title": "11.24 - Those Who Forget",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document. No content is available for analysis."
+    "topics": [
+      "faithfulness",
+      "leaving church",
+      "prodigal son",
+      "position in God's house",
+      "stability",
+      "poverty and desolation",
+      "symbols of wealth",
+      "staying where God plants you",
+      "consequences of leaving",
+      "God's messenger",
+      "inheritance",
+      "loyalty"
+    ],
+    "scriptures": [
+      "Luke 15:11",
+      "Luke 15:13",
+      "Luke 15:15",
+      "Luke 15:16",
+      "Luke 15:17",
+      "Luke 15:20",
+      "Luke 15:21",
+      "Luke 15:25",
+      "Luke 15:26",
+      "Luke 15:27",
+      "Luke 15:28",
+      "Luke 15:29",
+      "Luke 15:31",
+      "Job 33:23",
+      "Job 33:24",
+      "Job 33:25",
+      "Jeremiah 3:15"
+    ],
+    "keyScripture": "Luke 15:11-31",
+    "summary": "Bishop Heward-Mills teaches that leaving the church results in two major tragedies: losing your position (as positions are given to the faithful who remain stable) and entering into poverty and desolation (despite outward symbols of wealth). Using the parable of the prodigal son, he emphasizes that God places people in specific churches through messengers/interpreters (one among a thousand) and that walking out on the church is walking out on God, not just a pastor. He warns that faithfulness and staying where God has planted you is essential for spiritual prosperity, guidance, and fulfilling your divine calling, while leaving leads to wasted potential and loss of inheritance."
   },
   {
     "id": 179,
     "driveId": "1_N171EYT7IHviy_aovelvb-kjTvKvz7F",
     "title": "07.07 - The Art of Following David Pt",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content failed to load due to authentication error with the source system (Google Drive API token expired). The sermon title indicates teaching about 'The Art of Following David' but the actual content is inaccessible."
+    "topics": [
+      "following David",
+      "obedience to God's word",
+      "serving others",
+      "generosity",
+      "selflessness",
+      "rejecting selfishness",
+      "ministry to people",
+      "moving past rejection",
+      "choosing right companions",
+      "blessing others",
+      "prosperity through faith and patience",
+      "meditation on scripture"
+    ],
+    "scriptures": [
+      "Deuteronomy 4:1",
+      "Deuteronomy 4:2",
+      "Deuteronomy 4:3",
+      "Deuteronomy 4:4",
+      "Deuteronomy 4:5",
+      "Deuteronomy 4:6",
+      "Joshua 1:8",
+      "Hebrews 6:12",
+      "1 Samuel 16:23",
+      "Philippians 4:5",
+      "1 John 4:12",
+      "Matthew 10:23",
+      "Genesis 12:2",
+      "1 Samuel 17:28",
+      "1 Samuel 17:29",
+      "1 Samuel 17:30",
+      "1 Samuel 17:31"
+    ],
+    "keyScripture": "Hebrews 6:12",
+    "summary": "BJosh teaches that following David means learning the art of serving and blessing others rather than being self-absorbed and only seeking blessings for yourself. He emphasizes that true prosperity comes through faith and patience combined with generosity and ministry to others, not through selfish receiving. He also teaches that when people reject you, like David's brother rejected him, you must turn away and move on to find those who believe in you rather than staying stuck trying to convince those who won't accept you."
   },
   {
     "id": 180,
     "driveId": "1DSOwwCg8nWAuHSIocKlXUzomOcDiIpsK",
     "title": "06.30 - The Art of Following David Pt",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please resolve the API authentication issue and resubmit the transcript content for indexing."
+    "topics": [
+      "humility",
+      "starting from the bottom",
+      "working your way up",
+      "anointing of David",
+      "menial jobs",
+      "poverty mindset",
+      "practical application",
+      "serving faithfully",
+      "wisdom from Scripture",
+      "pride vs humility",
+      "delayed gratification",
+      "character development"
+    ],
+    "scriptures": [
+      "Matthew 23:3",
+      "Deuteronomy 4:5-6",
+      "2 Kings 9:6-13"
+    ],
+    "keyScripture": "Deuteronomy 4:6",
+    "summary": "Bishop Joshua teaches that true success comes from starting at the bottom with menial jobs and working your way up with humility, contrasting David who remained humble after being anointed with Jehu who immediately seized the throne. He emphasizes that believers must operate by biblical wisdom rather than worldly wisdom, learning to humble themselves and serve faithfully in small things before being promoted. He stresses that coming from a poor background or receiving unearned status leads to a destructive mindset, whereas working through hardship builds character and the ability to handle promotion when it comes.",
+    "keyMessage": "The pathway to legitimate authority and lasting success is through humble service in small things, not through pride, shortcuts, or inherited status."
   },
   {
     "id": 181,
     "driveId": "1n9v8AnAu9FVHynZRbG_VuHzHqQDKnbx1",
     "title": "06.23 - The Art of Following David",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and retry indexing."
+    "topics": [
+      "Following spiritual mentors",
+      "Faithfulness in small things",
+      "Respecting small beginnings",
+      "King David as example",
+      "Stewardship and tithing",
+      "Inheriting promises through faith and patience",
+      "Spiritual vision and discernment",
+      "Seasons of life",
+      "Commitment and loyalty",
+      "Despising the day of small things",
+      "Faithfulness with another man's ministry",
+      "Growth from insignificance to greatness"
+    ],
+    "scriptures": [
+      "Hebrews 6:12",
+      "1 Samuel 17:20-28",
+      "Zechariah 4:10",
+      "Luke 2:25-38",
+      "Luke 16:10-12",
+      "John 14:16",
+      "Ephesians 1:18",
+      "1 Corinthians 4:2",
+      "Genesis 8:22",
+      "1 Chronicles 29:28"
+    ],
+    "keyScripture": "Luke 16:10-12",
+    "summary": "Bishop Heward-Mills teaches that God promotes people who respect and are faithful in small beginnings, using David's life as the primary example of someone who rose from insignificance to greatness. He emphasizes that faithfulness with little things—whether small ministries, money, or another person's work—is the requirement for God to give you your own ministry and blessings. He warns that despising small things, being unfaithful with tithes and offerings, or failing to honor small responsibilities will prevent believers from receiving true riches and their own God-given assignments."
   },
   {
     "id": 182,
     "driveId": "18HNERqmjC4J9TphO0MsbRQpuNpg_SRHw",
     "title": "03.10 - The Church and Barrenness - C",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content available for analysis."
+    "topics": [
+      "spiritual barrenness",
+      "fruitfulness",
+      "soul winning",
+      "evangelism",
+      "bearing spiritual children",
+      "outreach ministry",
+      "spiritual reproduction",
+      "false prophets",
+      "empty religion",
+      "converts",
+      "discipleship",
+      "barren Christians"
+    ],
+    "scriptures": [
+      "Leviticus 26:22",
+      "2 Kings 2:19",
+      "John 15:16",
+      "Romans 8",
+      "Mark 11",
+      "2 Peter 2",
+      "1 Samuel 1"
+    ],
+    "keyScripture": "John 15:16",
+    "summary": "Bishop Heward-Mills teaches that the primary purpose of every Christian is to bear spiritual fruit by winning souls and making disciples, just as God chose believers specifically to go forth and bring forth fruit. He warns that many Christians appear spiritually active through worship, prayer, and church involvement, but remain barren because they fail to engage in evangelism and produce converts. Using the Hebrew words 'acar' and 'shakal' for barrenness, he emphasizes that a beautiful church with good worship but no soul-winning is like barren ground—the reproductive part is not functioning regardless of how pleasant everything else appears."
   },
   {
     "id": 183,
     "driveId": "1cChwDF5SG-DP5CC9ojxdCnEO2MGlpJvR",
     "title": "03.03 - The Church and Barrenness - C",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (Google Drive API access token expired). Please verify the document is accessible and retry the indexing process."
+    "topics": [
+      "barrenness",
+      "fruitfulness",
+      "soul winning",
+      "evangelism",
+      "church planting",
+      "spiritual reproduction",
+      "outreach",
+      "witnessing",
+      "disciple making",
+      "spiritual intimacy with Christ",
+      "Great Commission",
+      "reproductive organs metaphor"
+    ],
+    "scriptures": [
+      "2 Peter 1:1",
+      "2 Peter 1:2",
+      "2 Peter 1:3",
+      "2 Peter 1:4",
+      "2 Peter 1:5",
+      "2 Peter 1:8",
+      "Revelation 21:4",
+      "Genesis 11:30",
+      "Judges 13:2",
+      "Genesis 25:21",
+      "1 Samuel 2:5",
+      "Exodus 23:26",
+      "Ezekiel 33:30",
+      "Ezekiel 33:31",
+      "Ezekiel 33:32",
+      "Ezekiel 33:33"
+    ],
+    "keyScripture": "2 Peter 1:8",
+    "summary": "Bishop Heward-Mills teaches that spiritual barrenness occurs when Christians lack the reproductive capacity to birth new believers, comparing it to the Hebrew word 'akar' which means removal of reproductive organs. He emphasizes that while Christians may be active in worship, singing, dancing, and church attendance, if they are not witnessing and doing evangelism—the 'reproductive part' of Christianity—they are spiritually barren and strain their relationship with Christ. Using Ezekiel 33:30-33, he warns that many Christians listen to preaching with no intention of acting on it, and urges believers to use their spiritual reproductive capacity through soul-winning and outreach before they die."
   },
   {
     "id": 184,
     "driveId": "1R8MtEZ7fHMr5TdTj-rwQQjmGwC0Nie3W",
     "title": "11.17 - How to Become a Mature Christ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive access token expired). Please re-authenticate and provide the sermon transcript to generate accurate indexing metadata."
+    "topics": [
+      "Christian maturity",
+      "friendship with sinners",
+      "evangelism and outreach",
+      "speaking in tongues",
+      "fellowship with God",
+      "grace and salvation",
+      "love versus judgment",
+      "prayer in the Spirit",
+      "relationship with God",
+      "mercy over sacrifice",
+      "the Great Commission",
+      "Holy Spirit baptism"
+    ],
+    "scriptures": [
+      "Ephesians 4:14",
+      "Matthew 28:19",
+      "Matthew 9:9-12",
+      "Hosea 6:6",
+      "Luke 15:1-2",
+      "Luke 5:1-10",
+      "Romans 10:10",
+      "Ephesians 2:8-9",
+      "Jude 1:3",
+      "1 John 4:8",
+      "John 13:35",
+      "1 John 3:14",
+      "John 8:3-11",
+      "John 8:44",
+      "Ephesians 3:17-19",
+      "Luke 11:1",
+      "1 Kings 3:5-13",
+      "Proverbs 4:7",
+      "John 4:23-24",
+      "Romans 8:26",
+      "1 Corinthians 14:2",
+      "1 John 1:1-4",
+      "John 15:14-15",
+      "Luke 10:21-24",
+      "Matthew 1:23",
+      "John 5:39",
+      "Exodus 33:15"
+    ],
+    "keyScripture": "1 Corinthians 14:2",
+    "summary": "Bishop Joshua teaches that mature Christians must befriend sinners to fulfill the Great Commission, rejecting the church's tendency to judge and exclude those who are broken, because salvation itself is God's gift of persuasion, not human achievement. He emphasizes that speaking in tongues is essential for direct fellowship with God, allowing believers to pray according to God's will and build a personal relationship with Him beyond religious rules and head knowledge. The central message is that Christianity is fundamentally about having intimate fellowship with God through the Holy Spirit, not merely following religious principles or maintaining external holiness."
   },
   {
     "id": 185,
     "driveId": "1_Vwamrdc0S3-PxDnE605HKqrwn3DV_0m",
     "title": "09.29 - Honour Your Prophet",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error (expired access token). No content available for indexing."
+    "topics": [
+      "honoring the prophet",
+      "gratitude and appreciation",
+      "recognizing spiritual authority",
+      "salvation through prophets",
+      "honor relationships",
+      "giving honor with substance",
+      "Honor Your Prophet Day",
+      "spiritual blessings",
+      "Mary Magdalene's alabaster box",
+      "rendering what is due",
+      "recognizing what has been done",
+      "obedience versus honor"
+    ],
+    "scriptures": [
+      "Mark 6:4",
+      "Luke 7:36-39",
+      "Romans 13",
+      "Hosea 12:10",
+      "2 Corinthians 5:21"
+    ],
+    "keyScripture": "Romans 13",
+    "summary": "Bishop Heward-Mills teaches that believers must recognize and honor the prophets and spiritual authorities God has sent into their lives, particularly by acknowledging the spiritual work done for their salvation and transformation. He emphasizes that honor is not just verbal appreciation but requires substance (material giving), establishing 'Honor Your Prophet Day' as an institutionalized time when this honor is due, similar to how people celebrate birthdays or Valentine's Day. He argues that true gratitude begins with recognizing what has actually been done for you spiritually, comparing Mary Magdalene's grateful worship of Jesus with her alabaster box to how believers should honor those through whom they received salvation and spiritual knowledge."
   },
   {
     "id": 186,
     "driveId": "1zmARBWuZ2ORajra-umqyrFHd06ZOFYxy",
     "title": "10.20 - Honour and the Anointing",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process request. The transcript failed to load due to authentication error (expired OAuth 2 access token). No sermon content is available for indexing."
+    "topics": [
+      "honor",
+      "anointing",
+      "curses and blessings",
+      "power of God",
+      "Galatians 6:6",
+      "curse of Ham",
+      "respecting spiritual leaders",
+      "prophetic ministry",
+      "supernatural power",
+      "African prosperity",
+      "forgetfulness and ingratitude",
+      "unlocking God's power through honor"
+    ],
+    "scriptures": [
+      "Galatians 6:1-6",
+      "Mark 6",
+      "Hebrews 9:27"
+    ],
+    "keyScripture": "Galatians 6:6",
+    "summary": "Bishop Heward-Mills teaches that honor—especially toward those who teach you the Word of God—is the key that unlocks the power and anointing of God in a person's life. He argues that the curse of Ham (dishonoring his father Noah) explains Africa's poverty and struggles, and that without honor for prophets and pastors, believers will never experience supernatural breakthroughs despite hard work or education. He emphasizes that God releases His power through human vessels (prophets, pastors, teachers), and only those who recognize and honor these anointed leaders will see miracles, provision, and transformation in their lives."
   },
   {
     "id": 187,
     "driveId": "1iSn8A5IVKUCs3d3Q8dHjWNHFlwlG6h1G",
     "title": "05.12 - The New Creation Pt.3",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document (expired OAuth 2 access token). Please verify the document is accessible and retry the indexing request."
+    "topics": [
+      "New Creation",
+      "Righteousness",
+      "True Holiness",
+      "Old Man vs New Man",
+      "Salvation",
+      "Born Again",
+      "Justification by Faith",
+      "Spirit Soul Body",
+      "Death to Sin",
+      "Imputed Righteousness",
+      "Abraham's Faith",
+      "Marriage to Christ"
+    ],
+    "scriptures": [
+      "Ephesians 4:22",
+      "Ephesians 4:23",
+      "Ephesians 4:24",
+      "2 Corinthians 5:21",
+      "Philemon 1:6",
+      "Romans 3:29",
+      "Romans 3:30",
+      "Romans 3:31",
+      "Romans 4:1",
+      "Romans 4:2",
+      "Romans 4:3",
+      "Romans 4:4",
+      "Romans 4:5",
+      "Romans 4:6",
+      "Romans 4:7",
+      "Romans 4:8",
+      "Romans 6:1",
+      "John 3:6",
+      "Galatians 2:20"
+    ],
+    "keyScripture": "Ephesians 4:24",
+    "summary": "BJosh teaches that when a person is born again, they become the righteousness of God in Christ—as holy and perfect as Jesus Himself—not through works but through faith, just as Abraham's belief was counted as righteousness. He emphasizes that believers must \"put off the old man\" (their former sinful identity and behaviors) and \"put on the new man\" which is created in true righteousness and holiness, recognizing that their spirit has been transformed even though their flesh may still feel the same. Christians must actively live out their new identity by changing their friends, habits, and lifestyle to align with who they have become in Christ, understanding that their righteousness is imputed (installed like software) and enables them to reign in life, pray boldly, and overcome the world."
   },
   {
     "id": 188,
     "driveId": "1DKiHhH3GvLsjTltuHnF9fr5erf2S0Qzz",
     "title": "03.31 - 15 Essential Features of a Sh",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to an authentication error with the source system. Please verify that the sermon transcript is accessible and try indexing again."
+    "topics": [
+      "shepherding",
+      "personal relationship with God",
+      "listening to preaching",
+      "fasting",
+      "prayer life",
+      "knowing God personally",
+      "drawing near to God",
+      "pastoral ministry",
+      "spiritual disciplines",
+      "learning from teaching",
+      "solitude with God",
+      "spiritual authority"
+    ],
+    "scriptures": [
+      "2 Timothy 1:12",
+      "Ecclesiastes 10:4",
+      "Mark 1:35",
+      "Ezekiel 2:2",
+      "1 John 1:7"
+    ],
+    "keyScripture": "2 Timothy 1:12",
+    "summary": "Bishop Joshua teaches that shepherds must first develop a personal relationship with God because no human can solve the deep crises that arise in ministry, and knowing God through prayer and solitude is essential for waiting on Him. He emphasizes that aspiring ministers must cultivate the habit of listening to preaching and watching sermon videos, as you cannot become something you have never listened to or learned from. He stresses that a personal fasting life and various forms of self-denial are crucial spiritual disciplines for anyone called to serve God and shepherd His people."
   },
   {
     "id": 189,
     "driveId": "1VZNFPLxDdMAXY1VxW3nrHZjtY8O978f-",
     "title": "03.24 - The Church and Barrenness - C",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please verify the source document is accessible and retry indexing."
+    "topics": [
+      "barrenness",
+      "spiritual dryness",
+      "presence of God",
+      "Holy Spirit",
+      "worship",
+      "living water",
+      "well vs river vs rain",
+      "spiritual wealth",
+      "eternal inheritance",
+      "salvation",
+      "materialistic Christianity",
+      "true worship vs begging"
+    ],
+    "scriptures": [
+      "2 Corinthians 5:1",
+      "Isaiah 41:18",
+      "John 4:7-14",
+      "John 7:37-38",
+      "Hosea 6:1-3"
+    ],
+    "keyScripture": "Isaiah 41:18",
+    "summary": "Bishop Joshua teaches on spiritual barrenness, specifically the 'tsia' type which means dryness in the spirit, using Isaiah 41:18 to explain how God transforms dry wilderness into pools of water through His presence. He describes three progressive levels of God's presence as water: the well (for personal needs), the river (blessing others), and the rain (widespread blessing), emphasizing that many Christians and churches suffer from spiritual dryness characterized by absence of God's presence. He critiques modern worship that focuses on materialistic requests rather than genuine worship, calling believers to pursue intimacy with God's presence above earthly blessings and to understand they need eternal inheritance in heaven beyond their temporal earthly existence."
   },
   {
     "id": 190,
     "driveId": "1fsOrxCb1SZQzVkW4c3rbptG7j49gd5pk",
     "title": "07.21 - How to Pray",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source API (Google Drive access token expired). Please re-authenticate and resubmit the transcript for indexing."
+    "topics": [
+      "prayer",
+      "authority",
+      "spiritual warfare",
+      "demons",
+      "prayerlessness",
+      "betrayal of Christ",
+      "worldliness",
+      "discernment",
+      "unfaithfulness",
+      "demonic influence",
+      "spiritual deception",
+      "false witness"
+    ],
+    "scriptures": [
+      "James 4:1",
+      "James 4:2",
+      "James 4:3",
+      "James 4:4",
+      "Matthew 7:28",
+      "Matthew 7:29",
+      "Luke 4:14",
+      "Luke 9:1",
+      "1 Corinthians 2:7",
+      "1 Corinthians 2:8",
+      "Proverbs 6:16"
+    ],
+    "keyScripture": "Luke 9:1",
+    "summary": "Bishop Heward-Mills teaches that prayer transforms Christians into people of spiritual authority over demons and diseases, while prayerlessness leads to fighting, lust, quarreling, and vulnerability to demonic influence. He demonstrates through the crucifixion of Christ how demons orchestrated Jesus' betrayal through prayerless people like Judas, the Pharisees, and the crowds who shouted for Barabbas, showing that similar demonic activity causes Christians to abandon their leaders and churches today. He emphasizes that Christians must maintain consistent prayer lives to receive authority from God, resist demonic manipulation, and avoid the unfaithfulness and treachery that characterizes Satan's work."
   },
   {
     "id": 191,
     "driveId": "11yaSqWkoMMp4pKUnnin-i2PRpUxWDyGu",
     "title": "10.27 - Why Christians Do Not Use The",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data contains a Google API authentication error (expired access token) instead of the actual sermon text. No indexing can be performed without access to the sermon transcript."
+    "topics": [
+      "Kingdom of God",
+      "Parable of the Talents",
+      "Using gifts for God",
+      "Hiding talents",
+      "Accusation and criticism",
+      "Fear of ministry",
+      "Laziness in service",
+      "Serving in church",
+      "Accountability before God",
+      "Many called few chosen",
+      "Stewardship",
+      "Selfishness"
+    ],
+    "scriptures": [
+      "Matthew 22:14",
+      "Matthew 25:14-30",
+      "John 14",
+      "Revelation 19:10"
+    ],
+    "keyScripture": "Matthew 25:14-30",
+    "summary": "Bishop Joshua teaches on the Parable of the Talents from Matthew 25, emphasizing that every Christian has been given talents and gifts by God to use for His kingdom work, not to hide or hoard. He confronts three main reasons Christians don't use their talents: hiding their abilities out of selfishness, accusing and criticizing church leaders instead of serving, and operating in fear or laziness. He warns that all believers will stand alone before God to give account of how they used what He entrusted to them, urging the congregation to actively serve in practical church ministries rather than passively attending services."
   },
   {
     "id": 192,
     "driveId": "1nZbUOAe9ZPIsdT0Oc_Qs7etf5Yy26er4",
     "title": "08.25 - Many Are Called",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript content failed to load due to authentication errors with the source document. No teaching content is available for analysis."
+    "topics": [
+      "many are called",
+      "few are chosen",
+      "characteristics of called people",
+      "God calls failures",
+      "Moses calling",
+      "Peter's fishing miracle",
+      "soul winning",
+      "serving God",
+      "justification",
+      "evangelism",
+      "second chances",
+      "divine calling"
+    ],
+    "scriptures": [
+      "Matthew 22:14",
+      "Exodus 3:11",
+      "John 15"
+    ],
+    "keyScripture": "Matthew 22:14",
+    "summary": "BJosh teaches that God specifically calls failures and people who have tried and failed at various things in life, using Moses as the primary example of someone who failed but was still called by God. He emphasizes that one of the key characteristics of called people is that they are failures—whether in school, relationships, ministry attempts, or holiness—and God wants to use them despite their failures. He concludes that as believers engage in God's work and soul winning, God justifies them and transforms their character in the process."
   },
   {
     "id": 193,
     "driveId": "1NjNWdFfF64u1bOHo-TtY3Gmxm5mCZKE4",
     "title": "06.02 - The New Creation Pt. 6",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error with transcript source. The transcript data could not be retrieved or accessed."
+    "topics": [
+      "Holy Spirit",
+      "new creation",
+      "guidance of the Spirit",
+      "hearing God's voice",
+      "thirsting for God",
+      "flesh vs spirit",
+      "keeping the body under",
+      "spiritual companionship",
+      "angelic rebellion",
+      "repentance",
+      "overcoming sin",
+      "spiritual growth"
+    ],
+    "scriptures": [
+      "John 7:33-34",
+      "John 7:35-36",
+      "John 7:37-38",
+      "John 4:20",
+      "John 14:16",
+      "John 14:17",
+      "1 John 2:7",
+      "Acts 8:1-7",
+      "Acts 8:28-29",
+      "Acts 10:19",
+      "Romans 7:18",
+      "1 Corinthians 3:16",
+      "Romans 1:8",
+      "Ephesians 4",
+      "Genesis 6:1",
+      "2 Corinthians 5:17"
+    ],
+    "keyScripture": "John 7:37-38",
+    "summary": "Bishop Heward-Mills teaches that after salvation, while your spirit is made righteous and holy, your body (flesh) remains unchanged and must be kept under control through the Holy Spirit's power. He emphasizes that Christians must actively thirst for and seek the Holy Spirit's companionship to hear His voice for guidance, provision, and direction in daily life, as illustrated by biblical examples like Philip being told to join the Ethiopian's chariot. He warns that even spiritually mature believers can fall into sin if they don't deliberately subjugate their flesh, using the example of angels who left heaven for earthly pleasures, and stresses that repentance requires concrete action like removing all connections to sin."
   },
   {
     "id": 194,
     "driveId": "1S3XNSxwxCRKQ-TprrmorE7RtCJ2jEBER",
     "title": "12.29 - Thanksgiving",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document (expired OAuth 2 access token). Please verify access credentials and resubmit the sermon transcript for indexing."
+    "topics": [
+      "thanksgiving",
+      "gratitude",
+      "understanding God's will",
+      "Holy Spirit",
+      "humility",
+      "plague and atheism",
+      "ten lepers",
+      "faith after miracle",
+      "incomplete blessings",
+      "turning back to thank God",
+      "acknowledging God's hand",
+      "car accidents and deliverance"
+    ],
+    "scriptures": [
+      "Ephesians 5:17",
+      "Ephesians 5:18",
+      "Ephesians 5:19",
+      "Ephesians 5:20",
+      "Romans 1:21",
+      "Luke 17:11",
+      "Luke 17:12",
+      "Luke 17:14",
+      "Luke 17:15",
+      "Luke 17:16",
+      "Luke 17:17",
+      "Luke 17:18",
+      "Luke 17:19"
+    ],
+    "keyScripture": "Luke 17:11-19",
+    "summary": "BJosh teaches that true thanksgiving requires understanding and accepting God's will even when prayers go unanswered and circumstances remain difficult, emphasizing we should give thanks \"in all things\" not \"for all things.\" He uses the story of the ten lepers to show that only one returned to thank Jesus despite being healed of just one problem out of many, and that this gratitude demonstrated faith that perfected everything else in his life. BJosh challenges the congregation to turn around and acknowledge what God has done in 2019 despite incomplete solutions, imperfect circumstances, and ongoing struggles, because thanksgiving itself is an act of faith that pleases God."
   },
   {
     "id": 195,
     "driveId": "1PdLcYtErMdJaCcrjBYQn0m7DsDiLbBKA",
     "title": "02.24 - The Curse of Eve- Neutralisin",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process this sermon. The transcript failed to load due to authentication credentials error (401 Unauthorized - expired OAuth 2 access token). No content is available for indexing."
+    "topics": [
+      "curse of Eve",
+      "neutralizing curses",
+      "sorrow and conception",
+      "desire for husband",
+      "male dominance",
+      "submission",
+      "wisdom for deliverance",
+      "Genesis curses",
+      "childbirth pain",
+      "women's suffering",
+      "patriarchy",
+      "breaking generational curses"
+    ],
+    "scriptures": [
+      "Genesis 3:16",
+      "Isaiah 43:28",
+      "Mark 11:22-23",
+      "Zechariah 5:4",
+      "Ecclesiastes 9:13-15",
+      "James 1:5"
+    ],
+    "keyScripture": "Genesis 3:16",
+    "summary": "Bishop Joshua teaches that the curse of Eve in Genesis 3:16 contains four specific curses: multiplied sorrow, pain in childbirth, desire for husband, and male rule over women, all of which are actively working in women's lives today as evidenced by statistics on mental health, grief, and male dominance. He explains that curses are powerful pronouncements with far-reaching consequences that surround a person's life, requiring believers to actively bind and reject negative words spoken against them. The key to overcoming or reducing the effects of these curses is through wisdom, understanding, and submission to God's Word, not through human effort or fighting against divinely established authority."
   },
   {
     "id": 196,
     "driveId": "1E6b0Jn12RRid6ZJ9kiKiNGAxnP1h6GIO",
     "title": "11.03 - Birthday Prayer",
-    "topics": [],
+    "topics": [
+      "birthday blessing",
+      "protection from evil",
+      "angelic warfare",
+      "survival and prevailing",
+      "dragon and his angels",
+      "man child",
+      "binding Satan",
+      "breaking conspiracies",
+      "premature death",
+      "multiply ten thousand times",
+      "divine wisdom",
+      "contending against enemies"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API returned 401 Unauthenticated). Please verify access credentials and retry the indexing process."
+    "summary": "Bishop Joshua prays a prophetic birthday blessing over Joshua, asking God for wisdom beyond his years and the ability to survive and stand where others have fallen. He invokes spiritual warfare language, loosing angels to fight against those who fight against Joshua and binding Satan, devils, and wicked spirits that seek to devour the 'man child' as referenced in Revelation imagery. He declares protection against premature death, accidents, and enemy conspiracies, pronouncing blessings of survival, prevailing, and multiplying ten thousand times more."
   },
   {
     "id": 197,
     "driveId": "15nYPFQcjuhjyw2I-xG3tbT7RNoSUWr6W",
     "title": "08.11 - Reasons Why Every Christian S",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (Google Drive API returned 401 UNAUTHENTICATED). The sermon title appears incomplete: '08.11 - Reasons Why Every Christian S' (text is cut off). Please provide the full transcript or resolve the access credentials to enable proper indexing."
+    "topics": [
+      "prayer",
+      "creative power of prayer",
+      "birthing new dimensions",
+      "spiritual breakthrough",
+      "access to higher realms",
+      "mystery of God's wisdom",
+      "praying without ceasing",
+      "breaking limitations",
+      "spiritual mobility",
+      "favor through prayer",
+      "supernatural provision",
+      "church growth through prayer"
+    ],
+    "scriptures": [
+      "Isaiah 66:8",
+      "Hebrews 11",
+      "1 Corinthians 2:7"
+    ],
+    "keyScripture": "Isaiah 66:8",
+    "summary": "Bishop Joshua teaches that prayer possesses creative power to birth entirely new dimensions and possibilities in a Christian's life that their background, education, or natural abilities cannot access. He emphasizes that spiritual advancement and breakthrough—whether in ministry growth, personal holiness, provision, or relationships—only comes through prayer, not through fleshly efforts or human strategies. Using Isaiah 66:8 as his foundation, he explains that just as Zion travailed in prayer and suddenly brought forth children, Christians must pray to create new realities and break into higher dimensions that seem impossible or out of reach."
   },
   {
     "id": 198,
     "driveId": "1keCkV_8uBwYt_DsAS-jw3xQ_I1F0j_-e",
     "title": "09.22 - Obstacles to Bearing Fruits",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data contains only an authentication error from Google Drive (expired OAuth token) and no sermon text. Please provide the actual sermon transcript to generate accurate indexing data."
+    "topics": [
+      "bearing fruit",
+      "obstacles to fruitfulness",
+      "cares of this world",
+      "deceitfulness of riches",
+      "lust for other things",
+      "contentment",
+      "seeking God's kingdom first",
+      "casting cares on God",
+      "godliness with contentment",
+      "materialism",
+      "satisfaction in God",
+      "thorns that choke the word"
+    ],
+    "scriptures": [
+      "Amos 7:14-15",
+      "Romans 5:5",
+      "Mark 4:18-19",
+      "Matthew 6:31-33",
+      "1 Peter 5:7",
+      "Proverbs 23:4-5",
+      "Ecclesiastes 5:11",
+      "1 Timothy 6:6-8",
+      "Matthew 6:25-34",
+      "1 John 2:15-16",
+      "James 1:12-13"
+    ],
+    "keyScripture": "Mark 4:18-19",
+    "summary": "BJosh teaches that three specific obstacles choke the word of God and make Christians unfruitful: the cares of this world (worries about school, jobs, relationships, money), the deceitfulness of riches (the false promise that wealth will satisfy when it never does and always flies away), and the lust for other things (uncontrollable desires of the flesh and eyes). He emphasizes that overcoming these requires casting our cares on God who already knows our needs, cultivating godliness with contentment (being satisfied with food and clothing), and seeking first God's kingdom instead of pursuing the same material goals as unbelievers. The solution is trusting that if God gave us His Son, He will freely give us all we need, and recognizing that true gain is godliness combined with contentment, not accumulation of wealth or possessions."
   },
   {
     "id": 199,
     "driveId": "1Zkkp6tRFlP41idolCt2DcVaTDKp66VOs",
     "title": "04.14 - 15 Essential Features of a Sh",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript returned a Google Drive authentication error (invalid or expired OAuth token), preventing access to the sermon material. No indexing data can be extracted without the actual sermon transcript."
+    "topics": [
+      "shepherding",
+      "good shepherd",
+      "work of the ministry",
+      "ruling with iron rod",
+      "bad shepherds",
+      "levels of prophecy",
+      "strong leadership",
+      "accountability",
+      "separation from sin",
+      "perfecting of the saints",
+      "confirmation bias",
+      "pastoral authority"
+    ],
+    "scriptures": [
+      "John 10:11",
+      "Ephesians 4:11",
+      "Ephesians 4:12",
+      "Ephesians 2:8",
+      "Ephesians 2:9",
+      "Ephesians 2:10",
+      "Luke 7:16",
+      "1 Corinthians 12:7",
+      "1 Corinthians 12:8",
+      "Revelation 19:15",
+      "Matthew 11:7",
+      "Psalm 23",
+      "John 4",
+      "Jude 1:19",
+      "Romans 10:9",
+      "Romans 10:10",
+      "Haggai 2"
+    ],
+    "keyScripture": "John 10:11",
+    "summary": "Bishop Joshua teaches that Jesus identified Himself as the 'good shepherd' which means there are bad shepherds, and all believers are called to shepherd others with both a wooden rod (gentleness) and an iron rod (ruling/discipline). He emphasizes that the church needs strong pastoral leadership that can rule with authority, set clear boundaries, confront sin directly, and guide people firmly rather than just being gentle and permissive. He stresses that many Christians are called to do the work of ministry according to Ephesians 4:12, not just attend church passively, and that effective shepherding requires strength to tell people hard truths about their sin and direction in life."
   },
   {
     "id": 200,
     "driveId": "1ExNjxZXEw-g3WO9Ye-fuaDZW4sfJ4giY",
     "title": "02.10 - Why This Teaching About Curse",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and retry."
+    "topics": [
+      "curses",
+      "blessings",
+      "neutralizing curses",
+      "respect for curses",
+      "upside down world",
+      "curse of Ham",
+      "parental curses",
+      "robbery of God",
+      "tithes and offerings",
+      "Ghana's curse",
+      "spoken words",
+      "power and wisdom of God"
+    ],
+    "scriptures": [
+      "Deuteronomy 11:26",
+      "Psalm 119:15",
+      "Genesis 3",
+      "Proverbs 3:33",
+      "Isaiah 24:1-3",
+      "Genesis 27:3-13",
+      "Malachi 3:9",
+      "Mark 11:13-22",
+      "Genesis 3:16"
+    ],
+    "keyScripture": "Deuteronomy 11:26",
+    "summary": "Bishop Heward-Mills teaches that curses are real spiritual forces released through spoken words that give demons legal access to operate in people's lives, and Christians must have proper respect for curses just as they respect demons. He explains that curses can be national (like on Ghana and Israel), familial (like the curse of Ham preventing building), or personal (from broken promises, parental words, or robbing God in tithes), and these curses cause the world to be turned upside down where those who should prosper struggle instead. He emphasizes that every curse can be neutralized through both the power and wisdom of God working together, and believers should not be offended when pastors point out curses operating in their lives."
   },
   {
     "id": 201,
     "driveId": "1U3K84YqMwlcXvGg8fBUEuT2W2ecLbZeH",
     "title": "04.07 - 15 Essential Features of a Sh",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source document (expired access token). No content is available for indexing."
+    "topics": [
+      "shepherding",
+      "tithing",
+      "faithfulness with money",
+      "availability for ministry",
+      "fasting",
+      "commitment to God's work",
+      "teaching others",
+      "church membership",
+      "financial stewardship",
+      "spiritual leadership qualifications",
+      "cursing from withholding tithes",
+      "work in ministry"
+    ],
+    "scriptures": [
+      "2 Timothy 2:1-2",
+      "John 3:16",
+      "2 Corinthians 11:25-27",
+      "Acts 1:21",
+      "Psalm 139:8",
+      "Matthew 26:14-16",
+      "Luke 16:11",
+      "Malachi 3:8-9"
+    ],
+    "keyScripture": "2 Timothy 2:2",
+    "summary": "BJosh teaches that essential features of a shepherd include regular fasting, availability for God's work, and faithful tithing to demonstrate true commitment. He emphasizes that faithfulness with money is a requirement for spiritual leadership, stating that those who don't tithe are not真正 members of the church and cannot be trusted with greater spiritual responsibility. He challenges believers to commit the gospel they've heard to faithful people who will teach others, making shepherding and soul-winning a non-negotiable responsibility for every Christian."
   },
   {
     "id": 202,
     "driveId": "1b0A7Yc9NaBDuiuzjxPXtChM9lMyRpTzL",
     "title": "05.05 - The New Creation Pt.2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source system (Google Drive API returned 401 UNAUTHENTICATED error with expired access token). Please resolve the credential issue and resubmit the transcript for indexing."
+    "topics": [
+      "new creation",
+      "the heart",
+      "desperately wicked",
+      "deceitful heart",
+      "dead spirit",
+      "unnatural affections",
+      "homosexuality",
+      "reprobate mind",
+      "old man died",
+      "baptism symbolism",
+      "wickedness of man",
+      "divine nature"
+    ],
+    "scriptures": [
+      "2 Corinthians 5:12-17",
+      "Jeremiah 17:9",
+      "Ephesians 4:6",
+      "Ezekiel 36:26",
+      "Romans 1:18-32",
+      "Romans 5:12-14",
+      "Romans 7"
+    ],
+    "keyScripture": "2 Corinthians 5:17",
+    "summary": "Bishop Joshua teaches that the unsaved human heart is dead, desperately wicked, deceitful, and darkened, leading to unnatural affections including homosexuality and sexual immorality when God gives people over to their sinful desires. He emphasizes that true salvation through being born again must result in the death of the old man and a complete transformation of nature, not just religious activity while continuing in sin. Using Romans 1:18-32, he argues that when the old nature hasn't died and passed away, it proves a person is not truly saved, regardless of church attendance or religious profession."
   },
   {
     "id": 203,
     "driveId": "1ee1LMJFIuXKOP0PV_egJS4NESzMF4ZrI",
     "title": "05.26 - The New Creation Pt.5",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "New Creation",
+      "Mind Renewal",
+      "Transformation",
+      "Metamorphosis",
+      "Holy Spirit Revelation",
+      "Strongholds",
+      "Imaginations",
+      "Word of God",
+      "Spiritual Warfare",
+      "Quiet Time",
+      "Maturity",
+      "Sanctification"
+    ],
+    "scriptures": [
+      "Philippians 2:5",
+      "Proverbs 23:7",
+      "1 Corinthians 13:11",
+      "Romans 12:1-2",
+      "Romans 7:18",
+      "Ephesians 4:20-23",
+      "Philippians 3:15",
+      "2 Corinthians 3:14-18",
+      "John 14:26",
+      "Malachi 3:10",
+      "2 Corinthians 10:4-5",
+      "Proverbs 3:5-6",
+      "Hebrews 11:3",
+      "Psalm 119:11",
+      "Isaiah 7:15",
+      "Psalm 19:7",
+      "Proverbs 3:13-18",
+      "2 Timothy 3:15",
+      "Ephesians 6:17"
+    ],
+    "keyScripture": "Romans 12:2",
+    "summary": "BJosh teaches that when you are born again, your spirit changes but your mind remains the same and must be renewed through God's Word. He emphasizes that true transformation (metamorphosis) comes not from changing your flesh but from renewing your mind through Scripture, with the Holy Spirit removing the veil so you can understand God's Word. He identifies three strongholds Christians must battle: imaginations about how life should be, high things that exalt themselves against knowing God, and thoughts that disobey Christ—all of which can only be defeated by the sword of the Spirit, which is the Word of God."
   },
   {
     "id": 204,
     "driveId": "1GrwRO2kb-2NSV2dnSVA_LYQ3RDXjUr9h",
     "title": "05.19 - The New Creation Pt.4",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API - expired access token). The sermon content could not be retrieved to extract topics, scriptures, or teaching summary."
+    "topics": [
+      "spiritual growth",
+      "spiritual maturity stages",
+      "born again",
+      "baby Christians",
+      "carnality",
+      "Word of God",
+      "quiet time",
+      "biblical milk versus meat",
+      "doctrine",
+      "spiritual discernment",
+      "discipleship",
+      "obedience"
+    ],
+    "scriptures": [
+      "John 3:3",
+      "1 Corinthians 3:1",
+      "1 Corinthians 3:2",
+      "1 Corinthians 3:3",
+      "1 Peter 2:2",
+      "Jude 1:20",
+      "Acts 20:32",
+      "Ephesians 4:8",
+      "Ephesians 4:11",
+      "Ephesians 4:14",
+      "Ephesians 4:15",
+      "John 17:17",
+      "1 Corinthians 13:11",
+      "Hebrews 5:12",
+      "Hebrews 5:13",
+      "Hebrews 5:14",
+      "Psalm 119:9",
+      "Psalm 119:11",
+      "Proverbs 30:33",
+      "Acts 12:24",
+      "Acts 6:7",
+      "Isaiah 7:15",
+      "Job 29:6"
+    ],
+    "keyScripture": "1 Peter 2:2",
+    "summary": "BJosh teaches that when believers are born again, they begin as spiritual babies who must grow through stages—baby, child, and adult—by consistently reading the Word of God and praying. Baby Christians are characterized by carnality, requiring milk (basic teaching), while mature Christians can handle strong meat (deeper doctrine) and become teachers themselves. Growth happens only when believers deliberately desire and consume Scripture, moving from being tossed by every doctrine to becoming rooted, obedient disciples who discern good from evil."
   },
   {
     "id": 205,
     "driveId": "1-Tj2HhnYPLaONXyhaTl82t0Fcz9DW2z4",
     "title": "07.12 - Ho NTC - Where The Fire Goes",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document. The sermon title suggests teaching on fire/Holy Spirit manifestation and location/positioning in Christian life, but specific content cannot be verified without access to the full transcript."
+    "topics": [
+      "spiritual fire",
+      "speaking in tongues",
+      "evangelism and soul winning",
+      "signs and wonders",
+      "backsliding",
+      "leaven of the Pharisees",
+      "hypocrisy",
+      "Holy Spirit baptism",
+      "prayer and intercession",
+      "church planting",
+      "crusades and open-air preaching",
+      "power of God"
+    ],
+    "scriptures": [
+      "Proverbs 26:20",
+      "Psalm 104:4",
+      "Acts 2:1",
+      "Acts 2:3",
+      "Acts 2:4",
+      "Acts 2:6",
+      "Acts 2:11",
+      "Acts 2:12",
+      "Acts 2:14",
+      "Acts 2:36",
+      "Acts 2:37",
+      "Acts 2:38",
+      "Acts 2:39",
+      "Acts 2:41",
+      "Acts 2:43",
+      "Hebrews 4:12"
+    ],
+    "keyScripture": "Proverbs 26:20",
+    "summary": "BJosh teaches that spiritual fire in Christians and churches goes out when three essential 'woods' are removed: speaking in tongues, preaching the gospel/soul winning, and signs and wonders. He warns that churches become respectable, comfortable, and dead when they lose the fire of early Pentecost, infected by the leaven of the Pharisees which is hypocrisy and religiosity. He calls believers back to all-night prayer, door-to-door evangelism, crusades, and demonstrating God's power rather than becoming comfortable, professionalized church attenders."
   },
   {
     "id": 206,
     "driveId": "135FHw7Tnii4-os0yahy01NxQZPbtHVFY",
     "title": "06.20 - Dansoma - Understanding The H",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication credentials error with the source document. No content is available for analysis."
+    "topics": [
+      "Holy Spirit",
+      "anointing",
+      "revelation",
+      "spiritual sight",
+      "knowing versus receiving",
+      "double portion of the Spirit",
+      "being led by the Spirit",
+      "gifts already given",
+      "hunger for the Spirit",
+      "cost of anointing",
+      "grieving the Spirit",
+      "sonship"
+    ],
+    "scriptures": [
+      "James 1:17",
+      "Psalm 84:11",
+      "Ephesians 4:25-32",
+      "Romans 8:32",
+      "1 Corinthians 2:9-14",
+      "2 Kings 2:9"
+    ],
+    "keyScripture": "1 Corinthians 2:9-10",
+    "summary": "Bishop Joshua teaches that God has already given believers all good gifts through Christ, but these remain hidden and unusable until the Holy Spirit reveals them. He emphasizes that receiving the anointing of the Holy Spirit is not instant or easy—it requires deep knowledge of the Spirit, strong desire, and submission to being led, which costs something significant. The key to unlocking everything God has promised is not human effort or pastoral intervention, but the Holy Spirit revealing what has already been provided but cannot be seen, heard, or felt by natural senses."
   },
   {
     "id": 207,
     "driveId": "1Kn-OfclFFChVvu_J3uKmQwc1KxQOAOCz",
     "title": "08.22 - FLM - Others and Nabal",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript data is unavailable due to authentication error with the source document (Google Drive API returned 401 Unauthenticated). Please verify access credentials and re-submit the sermon transcript for indexing."
+    "topics": [
+      "Others",
+      "Selfishness",
+      "Nabal",
+      "David in the wilderness",
+      "Prosperity and responsibility",
+      "Looking beyond yourself",
+      "Ministry mandate",
+      "Tema evangelism",
+      "Self-sacrifice",
+      "Gospel urgency",
+      "Community outreach",
+      "Complacency in blessing"
+    ],
+    "scriptures": [
+      "Philippians 2:4",
+      "Hebrews 1:1",
+      "1 Samuel 25",
+      "1 John 4:10",
+      "1 John 4:11"
+    ],
+    "keyScripture": "Philippians 2:4",
+    "summary": "Bishop Joshua teaches that Christians must stop focusing exclusively on their own problems, salvation, and prosperity and instead think about 'others'—the lost souls in communities like Tema who have no church and no access to the gospel. He uses the story of Nabal (a prosperous but selfish man) and David (in the wilderness with nothing) to illustrate that even when we are blessed or still struggling, there are always others in greater need whom God calls us to serve. He challenges the congregation to overcome their selfishness, recognize how much God has already done for them, and actively reach out to start churches and evangelize in unreached areas before it's too late."
   },
   {
     "id": 208,
     "driveId": "1T6JesTyZcnL8f1XJpWUnJ40NFg4FThPb",
     "title": "07.04 - Kasoa - The Holy Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon: transcript data unavailable due to authentication error with source document. The sermon title indicates teaching on the Holy Spirit in Kasoa, but specific content, topics, scriptures, and key teachings cannot be extracted without access to the full transcript."
+    "topics": [
+      "Holy Spirit",
+      "transformation",
+      "temple of God",
+      "spiritual power",
+      "waiting on the Lord",
+      "spiritual charge",
+      "not by might nor by power",
+      "worship in spirit and truth",
+      "perfection through the Spirit",
+      "conviction of sin",
+      "desire versus ability",
+      "fellowship with God"
+    ],
+    "scriptures": [
+      "1 Corinthians 3:16",
+      "John 4:19-24",
+      "1 Peter 2:5",
+      "Zechariah 4:5-6",
+      "Acts 10:38",
+      "John 16:7-8",
+      "Romans 7",
+      "John 6:63",
+      "Job 33:4"
+    ],
+    "keyScripture": "Zechariah 4:6",
+    "mainScripture": "Zechariah 4:6",
+    "summary": "Bishop Heward-Mills teaches that believers are the temple of God and that lasting transformation comes not through miracles, power, or education, but only through the Holy Spirit. He emphasizes that the disciples witnessed Jesus' mighty works yet were not changed until they received the Holy Spirit at Pentecost, demonstrating that the gap between desire and ability to live righteously is bridged only by the Spirit. He stresses the importance of 'waiting on the Lord' to be spiritually charged—spending extended time alone with God in fellowship—to increase spiritual altitude, speed, and power for effective Christian living."
   },
   {
     "id": 209,
     "driveId": "1PlF_czL7KIL9KMl-hhScQQIzcb1uNoHK",
     "title": "05.14 - UPSA - Accessing the Holy Spi",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document (Google Drive API returned 401 Unauthorized - expired access token). Please verify the document is accessible and re-submit with valid credentials."
+    "topics": [
+      "Holy Spirit manifestations",
+      "spiritual seasons",
+      "times of refreshing",
+      "physical evidence of God's presence",
+      "waiting on God",
+      "signs and wonders",
+      "supernatural encounters",
+      "being slain in the Spirit",
+      "speaking in tongues",
+      "Azusa Street revival",
+      "church history",
+      "tangible presence of God"
+    ],
+    "scriptures": [
+      "John 14:26",
+      "John 14:18",
+      "John 14:20",
+      "Acts 1",
+      "Genesis 3",
+      "Psalm 1",
+      "1 Corinthians 14"
+    ],
+    "keyScripture": "John 14:26",
+    "summary": "Bishop Heward-Mills teaches that we are in a spiritual season of the Holy Spirit where physical manifestations are the primary evidence of God's presence, just as the disciples experienced visible fire, audible sound, and shaking in the upper room. He emphasizes that Christians must wait and be planted in the right spiritual season to experience tangible encounters like crying, falling, shaking, laughing, and supernatural phenomena rather than merely receiving intellectual teaching or reminders. He argues that the true Holy Spirit produces physical, measurable evidence of His arrival and presence, citing historical examples from revivals and modern ministers who experienced supernatural manifestations, visions, healings, and miracles."
   },
   {
     "id": 210,
     "driveId": "1Y6i85cLE4Tyc0PkHr5evlHYiSIV0uJ5p",
     "title": "05.29 - Korle Bu - The Holy Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source system. Indexing cannot proceed without access to the sermon transcript."
+    "topics": [
+      "Holy Spirit",
+      "personal relationship with the Spirit",
+      "transformation and change",
+      "presence of God",
+      "impartation",
+      "spiritual encounter",
+      "manifestation of the Spirit",
+      "divine introduction",
+      "Trinity",
+      "life after salvation",
+      "spiritual empowerment",
+      "intimacy with God"
+    ],
+    "scriptures": [
+      "Zechariah 4:6",
+      "John 16",
+      "Genesis 1",
+      "2 Chronicles 5:13",
+      "Acts 1",
+      "Acts 2:1",
+      "Acts 2:2",
+      "Philippians 2:3"
+    ],
+    "keyScripture": "Acts 2:1-2",
+    "summary": "Bishop Heward-Mills teaches that Christians must move beyond experiencing the Holy Spirit as merely a force or gift and must meet Him as a Person who transforms their lives. He explains that miracles and power cannot change a person—only a personal encounter with the Holy Spirit Himself brings true transformation, just as the 120 disciples were changed at Pentecost when the Spirit came upon each of them individually. He emphasizes that the Holy Spirit walks beside believers after salvation, waiting to be acknowledged and invited to teach, guide, and make Jesus real in their daily lives."
   },
   {
     "id": 211,
     "driveId": "1rRmoU5n2BZmNW4nnIirOrJKO703FUlMJ",
     "title": "05.31 - Legon - The Holy Spirit",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "Comforter",
+      "Jesus departure",
+      "Spirit's coming",
+      "Divine presence",
+      "Jesus ascension",
+      "Paraclete",
+      "Spirit's mission"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document. No content is available for analysis."
+    "summary": "BJosh teaches that Jesus had to go away so that the Comforter (the Holy Spirit) could come, emphasizing that the Spirit's coming was dependent on Jesus' departure. He explains that Jesus' physical absence was necessary for the Holy Spirit's arrival and presence with believers. The sermon focuses on understanding the relationship between Jesus' ascension and the Holy Spirit's coming as the Comforter."
   },
   {
     "id": 212,
     "driveId": "1SbfBgMn2wQs1p_KYzlU4jZlkm_vYXLt8",
     "title": "11.06 - ABMTC - Jesus Christ Son Of M",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (expired OAuth 2 access token). Please verify access credentials and retry the indexing process."
+    "topics": [
+      "Son of Man",
+      "Humility in Ministry",
+      "Learning from Jesus",
+      "Entry Points into Ministry",
+      "Passing Tests and Temptation",
+      "Submission to Authority",
+      "Overcoming the Flesh",
+      "Following Jesus' Example",
+      "Ministry Promotion through Testing",
+      "Servant Leadership",
+      "Legal Entry into Calling",
+      "Spiritual Maturity"
+    ],
+    "scriptures": [
+      "Acts 1:1",
+      "Matthew 11:28-29",
+      "John 12:46",
+      "John 8:12",
+      "John 4",
+      "Ephesians 4:11-13",
+      "Mark 10:32",
+      "Genesis 6:1-2",
+      "Matthew 18",
+      "Philippians 2:5-11",
+      "John 13:13-14",
+      "Ezekiel 2",
+      "Daniel",
+      "Jeremiah 50:40",
+      "James 1:13",
+      "Hebrews 4:15"
+    ],
+    "keyScripture": "Philippians 2:5-11",
+    "summary": "Bishop Joshua teaches that Jesus called Himself the Son of Man to demonstrate the only legal entry point into ministry is through humility, following Jesus' example of becoming a servant despite being God. He emphasizes that pastors must humble themselves at entry points, learn directly from Jesus and His Word rather than their own ideas, and cannot escape the tests and temptations that qualify them for promotion. BJosh challenges ministers that without passing tests of the flesh, submission to authority, and Christ-like humility, they will never receive the anointing or advancement God intends for them."
   },
   {
     "id": 213,
     "driveId": "1Z8k4Kvljmj918pWVSGnv-5hRCzPlSZ5V",
     "title": "06.18 - Wisconsin- 7 Steps to the Ano",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication errors with the source document. No content is available for analysis."
+    "topics": [
+      "anointing",
+      "Holy Spirit baptism",
+      "supernatural strength",
+      "Samson and Delilah",
+      "dependence on God",
+      "power versus might",
+      "waiting for the Spirit",
+      "personal encounter with God",
+      "ministry preparation",
+      "divine presence",
+      "spiritual empowerment",
+      "not by power nor by might"
+    ],
+    "scriptures": [
+      "Judges 16:1",
+      "Judges 16:3",
+      "Judges 16:4",
+      "Judges 16:5",
+      "Judges 16:6",
+      "Judges 16:7",
+      "Judges 16:17",
+      "Judges 16:20",
+      "John 14:26",
+      "1 John 2:27",
+      "Luke 3:21-23",
+      "Luke 2:52",
+      "Acts 1:4",
+      "Acts 1:8"
+    ],
+    "keyScripture": "Judges 16:20",
+    "summary": "Bishop Joshua teaches that true spiritual power comes not from human ability, education, or any ritual symbol (like Samson's hair), but solely from the presence of the Holy Spirit—70% of all success is the Holy Spirit, only 30% is human effort. He emphasizes that even Jesus and the apostles waited to receive the Holy Spirit before beginning ministry, and that being around anointed people or having spiritual knowledge is not enough without a personal baptism of the Holy Spirit. Believers must consciously rely on and trust the Holy Spirit in every area of life—marriage, work, ministry, and daily decisions—rather than depending on their own strength, wisdom, or favor."
   },
   {
     "id": 214,
     "driveId": "1vB4JLfBhSj3zas2XuU5NufVn5hJBPthA",
     "title": "10.25 - Oyibi - Jesus And The Man At",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication credentials error with the source system. Please verify access permissions and retry the indexing request."
+    "topics": [
+      "Jesus healing ministry",
+      "Pool of Bethesda",
+      "breaking cycles",
+      "spiritual impotence",
+      "divine intervention",
+      "carrying your testimony",
+      "sin and eternity",
+      "grace through five wounds"
+    ],
+    "scriptures": [
+      "John 1",
+      "John 2",
+      "John 3",
+      "John 4",
+      "John 5",
+      "John 5:1",
+      "John 5:8",
+      "John 5:9",
+      "John 5:10",
+      "John 5:12",
+      "John 5:14",
+      "2 Corinthians 5:19",
+      "2 Corinthians 5:20",
+      "2 Corinthians 5:21",
+      "Hebrews 1:14"
+    ],
+    "keyScripture": "John 5:8",
+    "summary": "Bishop Joshua teaches that Jesus came to break cycles and processes by going directly to the paralyzed man at Bethesda's pool who had waited 38 years, commanding him to rise, take his bed, and walk. He emphasizes that Jesus breaks through human limitations and religious rules to heal immediately, not based on our deserving or ability to follow steps, but by His power and grace alone. The sermon concludes that while physical healing matters, avoiding sin is even more critical because there is something worse than 38 years of paralysis—eternity in hell without Jesus."
   },
   {
     "id": 215,
     "driveId": "1s9McUhckjx3BtYdVnwXaLftCyuEHJ85S",
     "title": "07.11 - Maritime - Quench Not The Hol",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to authentication failure with the source document (Google Drive API returned a 401 error with expired access token). Please verify access credentials and retry."
+    "topics": [
+      "Quenching the Holy Spirit",
+      "Manifestation of the Spirit",
+      "Word of Wisdom",
+      "Word of Knowledge",
+      "Gift of Faith",
+      "Spiritual Gifts",
+      "Sensitivity to the Holy Spirit",
+      "Divine Instruction",
+      "Grieving the Spirit",
+      "Prophetic Guidance",
+      "Holy Spirit as Comforter",
+      "Dwelling with the Holy Spirit"
+    ],
+    "scriptures": [
+      "1 Thessalonians 5:15",
+      "1 Thessalonians 5:16",
+      "1 Thessalonians 5:17",
+      "1 Thessalonians 5:18",
+      "1 Thessalonians 5:19",
+      "John 7:37",
+      "John 7:38",
+      "John 7:39",
+      "1 Corinthians 12:7",
+      "1 Corinthians 12:8",
+      "2 Kings 2:15",
+      "Proverbs 4:13",
+      "John 16:6",
+      "Philippians 4:6"
+    ],
+    "keyScripture": "1 Thessalonians 5:19",
+    "summary": "Bishop Joshua teaches that believers quench the Holy Spirit when they ignore or dismiss His manifestations through spiritual gifts like the word of wisdom, word of knowledge, and faith. He explains that the Holy Spirit is constantly present in believers' lives trying to guide them, but many Christians don't recognize His voice or respond to His instructions, thereby stopping the flow of God's blessings. He emphasizes that every believer receives manifestations of the Spirit, and quenching occurs when we fail to act on divine wisdom, knowledge, or conviction that the Holy Spirit provides in daily situations."
   },
   {
     "id": 216,
     "driveId": "12aWKIVpeRwF5LxMJjymi1lqBfFsP7pcn",
     "title": "10.10 - Korle Bu - Jesus And The Rich",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "covetousness",
+      "greed",
+      "worldly prosperity",
+      "eternal perspective",
+      "heavenly treasures",
+      "rich fool parable",
+      "inheritance disputes",
+      "anxiety over possessions",
+      "laying up treasure in heaven",
+      "suffering for Christ",
+      "eternal rewards",
+      "crowns in heaven"
+    ],
+    "scriptures": [
+      "Isaiah 9:6",
+      "John 2:24",
+      "John 2:25",
+      "Luke 12:1",
+      "Luke 12:12",
+      "Luke 12:13",
+      "Luke 12:14",
+      "Luke 12:15",
+      "Luke 12:16",
+      "Luke 12:25",
+      "Luke 12:26",
+      "Luke 12:28",
+      "Luke 12:32",
+      "Luke 12:33",
+      "Luke 12:34",
+      "1 Corinthians 2:16",
+      "Revelation 7:13",
+      "Revelation 7:14",
+      "2 Timothy 4:7",
+      "2 Timothy 4:8"
+    ],
+    "keyScripture": "Luke 12:15",
+    "summary": "BJosh teaches that Jesus warns against covetousness and spending one's entire life planning for earthly prosperity, comfort, and security rather than focusing on eternal heavenly treasures. Using the parable of the rich fool who built bigger barns only to die that night, he emphasizes that Christians must direct all their wealth, talents, and energy toward God's kingdom instead of accumulating possessions on earth. He challenges believers to lay up treasure in heaven through suffering, tribulation, and faithfulness to the gospel, because earthly achievements and possessions are temporary and will ultimately disappoint."
   },
   {
     "id": 217,
     "driveId": "1XHkpOcasVqjNHuJgpWtgROxOYhZr-o1g",
     "title": "06.12 - ABMTC - The Holy Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the transcript content."
+    "topics": [
+      "Holy Spirit",
+      "Paraclitus",
+      "Helper",
+      "Comforter",
+      "Teaching ministry of the Spirit",
+      "Inspiration",
+      "Conviction of sin",
+      "Reproof",
+      "Correction from Scripture",
+      "Bible instruction",
+      "Quiet time",
+      "Pastoral formation"
+    ],
+    "scriptures": [
+      "John 14:18",
+      "John 14:16",
+      "John 14:17",
+      "John 7:37-38",
+      "John 20:21",
+      "2 Corinthians 3:15",
+      "2 Corinthians 3:18",
+      "1 Peter 1:20",
+      "2 Peter 1:20",
+      "1 John 2:27",
+      "2 Timothy 3:15",
+      "2 Timothy 3:16",
+      "Job 32:8",
+      "John 16:7",
+      "John 16:8"
+    ],
+    "keyScripture": "2 Timothy 3:16",
+    "summary": "Bishop Joshua teaches that the Holy Spirit's primary manifestation is as teacher and reminder, giving pastors doctrine, reproof, correction, and instruction directly from Scripture through inspiration during quiet time and Bible reading. He emphasizes that without the Holy Spirit actively teaching from the Word, pastors remain helpless, unchanged, and directionless—unable to receive convictions of sin, instructions for ministry decisions, or corrections for their weaknesses. He insists that Scripture is only profitable when given by inspiration of the Holy Spirit, the true author of the Bible, who must open the eyes of Bible students and pastors to see fresh revelation, receive specific guidance, and be transformed into effective ministers."
   },
   {
     "id": 218,
     "driveId": "17N6EKkA9YyWeL7i42R1PytywbYJP4cge",
     "title": "12.15 - Wise as Serpents",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and try again."
+    "topics": [
+      "wisdom of serpents",
+      "overcoming handicaps",
+      "surviving as sheep among wolves",
+      "turning weakness into strength",
+      "dealing with afflictions",
+      "prophetic encounter experience",
+      "serpent movement and survival",
+      "handicaps as advantages",
+      "youth as weakness and strength",
+      "righteous suffering",
+      "godly living persecution",
+      "snake wisdom lessons"
+    ],
+    "scriptures": [
+      "Matthew 10:16",
+      "Proverbs 30:18",
+      "Genesis 3",
+      "Revelation 2:7",
+      "2 Timothy 3:12"
+    ],
+    "keyScripture": "Matthew 10:16",
+    "summary": "Bishop Joshua teaches that Christians must learn wisdom from serpents who have mastered overcoming their handicaps of having no hands, legs, ears, or functional eyes, yet thrive everywhere as successful predators. He emphasizes that God does not remove our problems and afflictions, but gives us the power to overcome and turn our weaknesses into strengths, just as serpents use their limitations to their advantage. Using personal stories and examples, he demonstrates that what appears to be a handicap—whether youth, disability, or other challenges—can actually become one's greatest strength when approached with godly wisdom."
   },
   {
     "id": 219,
     "driveId": "1S2EdtLkrCXX9za2GJcMAtm2We53DeaTO",
     "title": "06.09 - Why Non-Tithing Christians ar",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. No content is available for analysis."
+    "topics": [
+      "tithing",
+      "honoring God",
+      "seed and harvest",
+      "financial blessing",
+      "firstfruits",
+      "prosperity principles",
+      "curse on the ground",
+      "opening windows of heaven",
+      "divine provision",
+      "rebuking the devourer",
+      "sowing and reaping",
+      "obedience to God's method"
+    ],
+    "scriptures": [
+      "Philippians 4:19",
+      "Ecclesiastes 9:11",
+      "Exodus 20:12",
+      "Ephesians 6:2-3",
+      "Proverbs 3:9",
+      "Genesis 8:22",
+      "Hosea 8:7",
+      "3 John 1:2",
+      "Malachi 3:10"
+    ],
+    "keyScripture": "Malachi 3:10",
+    "summary": "BJosh teaches that non-tithing Christians remain poor because they have no seed to harvest, they do not attract God's blessings through obedience, and they live under the curse on the ground without accessing heaven's open windows. He emphasizes that tithing is God's prescribed method of honoring Him as Father (Proverbs 3:9) and that it activates the principle of seedtime and harvest in believers' lives. When Christians faithfully tithe, they position themselves to receive divine provision, rebuke the devourer, and neutralize the curse of sweating for bread that came from the fall in Genesis."
   },
   {
     "id": 220,
     "driveId": "1O6ysKEI_CkCGmAFJm34otMGDn0QJ0Von",
     "title": "09.01 - Bearing Fruits Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source material (Google Drive API access token expired). Please re-authenticate and resubmit the transcript for indexing."
+    "topics": [
+      "Fruitfulness",
+      "Soul Winning",
+      "Seed Faith October",
+      "Church Growth",
+      "Spiritual Sickness",
+      "Self-Control",
+      "Temperance",
+      "Adding to Faith",
+      "Building God's House",
+      "Speaking in Tongues",
+      "Holiness",
+      "Evangelism"
+    ],
+    "scriptures": [
+      "Genesis 1:22",
+      "2 Peter 1:5",
+      "Mark 11",
+      "1 Corinthians 14",
+      "Jude 1:20",
+      "2 Chronicles 6:8",
+      "1 Peter 2:5",
+      "Psalm 122:6",
+      "1 Corinthians 2:7"
+    ],
+    "keyScripture": "2 Peter 1:5",
+    "summary": "Bishop Joshua teaches that being fruitful in bringing souls to church is the first blessing of God in Genesis, and Christians who are unfruitful are like sick or cursed believers. He explains that according to 2 Peter 1:5, Christians must add virtue, knowledge, temperance, and patience to their faith in order to bear fruit, as merely being a Christian is not enough. He emphasizes that sickness in Christians—manifested through lack of purity, lack of knowledge of God's Word, lack of self-control, and lack of patience—prevents them from winning souls and building the spiritual house of God."
   },
   {
     "id": 221,
     "driveId": "1Wdt3Rn3onM5o5BPgE6QALyltkL07yJ39",
     "title": "07.21 - Steps to 100_ Answered Prayer",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to expired authentication credentials with Google Drive API. Please verify access permissions and re-upload the transcript content."
+    "topics": [
+      "answered prayer",
+      "prayerlessness",
+      "confessing sins",
+      "asking amiss",
+      "lusts and desires",
+      "sin separates from God",
+      "pride",
+      "mental purity",
+      "warfare and fighting",
+      "cleansing from sin",
+      "how to pray effectively",
+      "negotiating with God"
+    ],
+    "scriptures": [
+      "James 4:1",
+      "James 4:2",
+      "James 4:3",
+      "John 9:31",
+      "1 John 1:7",
+      "1 John 1:9",
+      "Isaiah 59:1",
+      "Isaiah 59:2"
+    ],
+    "keyScripture": "James 4:3",
+    "summary": "Bishop Joshua teaches that many prayers go unanswered because believers either don't pray at all (leading to fighting and striving) or they ask amiss without understanding how to pray properly. He emphasizes that sin creates a barrier between us and God, making it impossible for Him to hear our prayers until we confess our specific sins in detail rather than making general requests for forgiveness. The fourth step to 100% answered prayer is to confess your sins before you pray, listing specific sins rather than just asking God to generally have mercy, because confession leads both to forgiveness and to cleansing from unrighteousness."
   },
   {
     "id": 222,
     "driveId": "1adO3-klQizS0rxbseg_ixkSxdZpFqI1U",
     "title": "05.19 - The Three Rewards of Honourin",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript content could not be retrieved due to authentication failure with the source document. Please verify access credentials and resubmit the sermon transcript for indexing."
+    "topics": [
+      "honoring fathers",
+      "spiritual fathers",
+      "types of fathers",
+      "Founders Day celebration",
+      "father in the ministry",
+      "father of the church",
+      "substitute father",
+      "rewards of honoring",
+      "obedience vs honor",
+      "recognition of fathers",
+      "gift giving",
+      "church establishment"
+    ],
+    "scriptures": [
+      "Matthew 23:9",
+      "Matthew 21:33-38",
+      "Luke 11:2",
+      "Titus 1:4",
+      "1 Corinthians 4:15",
+      "Acts 16",
+      "1 Corinthians 4:17",
+      "Exodus 20:12",
+      "Malachi 1:6",
+      "Matthew 15:4",
+      "Ephesians 6:1-3",
+      "Ecclesiastes 8:6"
+    ],
+    "keyScripture": "Ephesians 6:2-3",
+    "summary": "BJosh teaches that there are multiple types of fathers God sends into our lives including biological fathers, fathers in Christ who lead us to salvation, spiritual fathers who teach us, fathers in the ministry, fathers of the church, and substitute fathers who step in when others cannot. He emphasizes that honoring fathers is a commandment confirmed throughout Scripture from the Law to the Prophets to Jesus to the Apostles, with no qualification or clause attached to the command to honor. The first of three rewards for honoring fathers is that it may be well with you, meaning your life will go smoothly, whereas dishonoring fathers brings misery and things not going well in various aspects of life."
   },
   {
     "id": 223,
     "driveId": "1NrNDlVaeEDMu12NggI5ERNC3QvVw-v3Q",
     "title": "09.22 - What Jesus Did for Others",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired OAuth 2 access token). Please re-authenticate and provide the full sermon transcript to generate accurate indexing data."
+    "topics": [
+      "Others",
+      "Mind of Christ",
+      "Selflessness",
+      "Salvation of Others",
+      "Soul Winning",
+      "Office of the Prophet",
+      "Honor Your Prophet",
+      "Rolling Sunday",
+      "Thinking About Others",
+      "Preparing Place for Others",
+      "Testimonies of Transformation",
+      "Church History and Revelation"
+    ],
+    "scriptures": [
+      "Philippians 2:4",
+      "Philippians 2:5",
+      "Philippians 2:3",
+      "Philippians 2:16",
+      "Romans 12",
+      "Romans 8:28",
+      "Hosea 12:10",
+      "Hosea 12:11",
+      "Hosea 12:12",
+      "Hosea 12:13",
+      "Luke 1:76",
+      "John 14",
+      "Acts 2",
+      "1 Corinthians 14"
+    ],
+    "keyScripture": "Philippians 2:4",
+    "summary": "BJosh teaches that Christians must adopt the mind of Christ by looking not on their own things but on the things of others, preparing places for others in the Father's house just as Jesus did for His disciples. He emphasizes that transformation comes through renewing the mind to think selflessly about bringing others to salvation, especially during the upcoming Soul Winning Sunday on October 6th. He also teaches on honoring the prophet God has sent to the church, explaining that throughout church history God has progressively restored truths and that prophets are essential for bringing people out of Egypt and preserving them in their walk with God."
   },
   {
     "id": 224,
     "driveId": "1AFeR8xiMbGUkor0odKhOUOi6eSriCoUu",
     "title": "10.13 - Honour Your Prophet",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript failed to load due to authentication errors with the source API. Please verify the transcript is accessible and resubmit for indexing."
+    "topics": [
+      "honoring prophets",
+      "prophet's reward",
+      "receiving anointing",
+      "spiritual authority",
+      "breaking yokes",
+      "spiritual covering",
+      "rejecting prophets",
+      "Jesus in His hometown",
+      "spiritual blessings",
+      "offering and honor",
+      "recognizing the anointing",
+      "Melchizedek principle"
+    ],
+    "scriptures": [
+      "Romans 13:7",
+      "Matthew 23:23",
+      "Matthew 23:33-35",
+      "Matthew 10:40-42",
+      "Hosea 12:10",
+      "Hosea 12:13",
+      "Exodus 4:16",
+      "Mark 6:1-6",
+      "Mark 6:7-14",
+      "Isaiah 42:1",
+      "Isaiah 61:1",
+      "Acts 10:38",
+      "Genesis 27:27",
+      "Genesis 49",
+      "Hebrews 7",
+      "1 Samuel 2:29",
+      "John 14:17"
+    ],
+    "keyScripture": "Matthew 10:41",
+    "summary": "Bishop Heward-Mills teaches that receiving a prophet in the name of a prophet—not merely as a man—unlocks the prophet's reward including God speaking to you, visions being multiplied, and the anointing that breaks yokes. He emphasizes that without honor, miraculous power is trapped, as seen when Jesus could do no mighty works in His hometown due to their lack of honor and familiarity. He calls believers to honor their prophet substantially through offerings and recognition, because the anointing on the man of God—not degrees or natural abilities—is what determines breakthrough and blessing in life."
   },
   {
     "id": 225,
     "driveId": "1hHxfQpOtf-HkZbhDz6NDBrErcgKh9rkU",
     "title": "10.20 - How Honour Releases Power",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "Honor",
+      "Power of God",
+      "Prophetic anointing",
+      "Divine provision",
+      "Miracles and testimonies",
+      "Familiarity",
+      "Prophet without honor",
+      "Spiritual authority",
+      "Laws versus power",
+      "Resurrection",
+      "Honoring spiritual leaders",
+      "Breakthrough and favor"
+    ],
+    "scriptures": [
+      "John 3:16",
+      "Mark 6",
+      "Matthew 22:15-30",
+      "Romans 8:3",
+      "Proverbs 22"
+    ],
+    "keyScripture": "Matthew 22:29",
+    "summary": "BJosh teaches that honor is the key that releases the power of God, explaining that prophets are not honored in their own country, family, and house because familiarity breeds disrespect. He emphasizes that many Christians know scriptural laws and principles but lack experience with God's power, which can supersede natural laws when properly accessed through honor. Using Jesus's response to the Sadducees, he demonstrates that people err because they know neither the scriptures nor the power of God, and that miracles come not from following rules alone but from accessing divine power through proper honor and relationship."
   },
   {
     "id": 226,
     "driveId": "1tB5oApPpqOagVuEv2-ZoWO8pPZ9Y_l9u",
     "title": "01.20 - Praying in the Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and retry."
+    "topics": [
+      "praying in the Spirit",
+      "praying in tongues",
+      "spiritual warfare",
+      "Holy Spirit baptism",
+      "demonic powers",
+      "spiritual realm",
+      "building up faith",
+      "intercession",
+      "armor of God",
+      "unknown tongues",
+      "spirit-led prayer",
+      "supernatural language"
+    ],
+    "scriptures": [
+      "Ephesians 6:10-18",
+      "1 Corinthians 14:15",
+      "Jude 1:20",
+      "Hebrews 11:3",
+      "Hebrews 13:2",
+      "Genesis 6:2",
+      "Numbers 22:21-35",
+      "Revelation 16:13",
+      "Revelation 18:2-3",
+      "1 Peter 5:8",
+      "Luke 10:19",
+      "Philippians 3:2",
+      "Matthew 27:46-50",
+      "Luke 11:1",
+      "John 14:16",
+      "John 14:26",
+      "1 Kings 3:5-10",
+      "Proverbs 4:3-5",
+      "James 4:3",
+      "1 John 5:14",
+      "Romans 8:26-27",
+      "James 5:16",
+      "2 Corinthians 10:5",
+      "John 7:38",
+      "Acts 2:4"
+    ],
+    "keyScripture": "Ephesians 6:18",
+    "summary": "Bishop Heward-Mills teaches that Christians must pray in the Spirit (speaking in tongues) rather than only praying with understanding, because our real struggles are against spiritual forces in the unseen realm that don't respond to our natural language. He explains that the Holy Spirit teaches us what to pray according to God's will when we speak in unknown tongues, building up our faith and enabling effective intercession against principalities, powers, and spiritual wickedness. He emphasizes that praying in tongues allows believers to communicate directly in the spirit realm where angels, demons, and various spiritual beings operate, making this type of prayer essential for overcoming spiritual opposition."
   },
   {
     "id": 227,
     "driveId": "1xbAMUwti_eauZ1rmLgNakmHpTjXgj0se",
     "title": "07.14 - Steps to 100_ Answered Prayer",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source system (Google Drive API returned 401 UNAUTHENTICATED with expired access token). Please verify that valid credentials are configured for accessing the sermon transcript before attempting to index again."
+    "topics": [
+      "answered prayer",
+      "prayer confidence",
+      "learning to pray",
+      "prayer without intermediaries",
+      "promises of God",
+      "doubt and lies",
+      "praying according to God's will",
+      "self-reliance in prayer",
+      "Elijah's prayer",
+      "asking and receiving",
+      "prayer effectiveness",
+      "spiritual independence"
+    ],
+    "scriptures": [
+      "Numbers 23:19",
+      "Jeremiah 33:3",
+      "John 14:14",
+      "John 16:26",
+      "John 17",
+      "1 John 5:14"
+    ],
+    "keyScripture": "John 16:26",
+    "summary": "Bishop Joshua teaches that many Christians don't pray effectively because they've been conditioned by broken human promises to doubt God's promises, leading them to lack confidence that their prayers will be answered. He emphasizes that believers must learn to pray for themselves without always needing others to intercede, referencing Jesus' statement in John 16:26 that believers should ask in His name directly rather than needing Him to pray to the Father on their behalf. Using Elijah as an example of prayer confidence, he explains that praying according to God's will brings assurance and 100% answered prayer, but this requires understanding the proper steps and methods of prayer rather than relying on a generation accustomed to having everything done for them."
   },
   {
     "id": 228,
     "driveId": "1IJss4nX_MTt5Jvr4YUctF2bwld8YIune",
     "title": "02.24 - Neutralising The Curse - Top",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to retrieve due to authentication error with the source document (Google Drive API access token expired). No content was available for analysis."
+    "topics": [
+      "curses",
+      "neutralizing curses",
+      "idol worship",
+      "tithing and offerings",
+      "fig tree cursed",
+      "robbing God",
+      "biblical curses",
+      "desiring prophecies",
+      "servant of servants",
+      "money as idol",
+      "death and decay",
+      "hidden in Christ"
+    ],
+    "scriptures": [
+      "Mark 11:13",
+      "Mark 11:14",
+      "Mark 11:19",
+      "Mark 11:20",
+      "Mark 11:21",
+      "Malachi 3:8",
+      "Malachi 3:9",
+      "1 Thessalonians 5:26",
+      "2 Peter 1:20",
+      "John 10:35",
+      "Deuteronomy 27:15",
+      "Exodus 20:3",
+      "Exodus 20:4",
+      "Colossians 3:3",
+      "Colossians 3:4"
+    ],
+    "keyScripture": "Malachi 3:8-9",
+    "summary": "Bishop Heward-Mills teaches that Christians must have proper respect for curses found in Scripture, as many believers are unknowingly living under biblical curses such as the curse on those who rob God in tithes and offerings, the curse on idol worshipers, and the generational curse from Adam's fall. He emphasizes that curses must be actively revoked and not simply ignored with passive faith, as demonstrated by Jesus cursing the fig tree and Peter having to point out that a curse had been spoken. The sermon warns against modern idolatry, particularly the worship of money, which causes people to prioritize work over God and prevents them from fully worshiping and surrendering to Christ."
   },
   {
     "id": 229,
     "driveId": "1SSp-9yNqGvh05D8HAdKBC1WBs6pK_fMv",
     "title": "06.02 - Why Non-Tithing Christians ar",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source material (expired access token). No content is available to analyze for topics, scriptures, or teaching summary."
+    "topics": [
+      "tithing",
+      "spiritual poverty",
+      "disloyalty and unfaithfulness",
+      "rebellion against God",
+      "selective obedience",
+      "power to get wealth",
+      "wisdom and prosperity",
+      "Judas spirit",
+      "storehouse giving",
+      "testing God in tithing",
+      "robbing God",
+      "breaking yoke of poverty"
+    ],
+    "scriptures": [
+      "Psalm 34:7",
+      "Mark 6:1-2",
+      "Luke 7:35",
+      "Proverbs 13:13",
+      "Proverbs 13:16",
+      "Deuteronomy 8:18",
+      "Genesis 2:15-17",
+      "Psalm 50:10",
+      "John 10:35",
+      "Matthew 6:33",
+      "James 1:17",
+      "John 12:4-5",
+      "Luke 16:11",
+      "1 Samuel 15:3",
+      "1 Samuel 15:13-14",
+      "1 Samuel 15:20",
+      "1 Samuel 15:22-23",
+      "2 Corinthians 8:7",
+      "Malachi 3:8-10"
+    ],
+    "keyScripture": "Malachi 3:8-10",
+    "summary": "Bishop Joshua teaches that Christians who do not tithe suffer from three main spiritual problems: disloyalty and lack of commitment like Judas, rebellion and stubbornness like King Saul, and selective obedience to God's Word. He emphasizes that tithing is a supernatural principle established before Moses that unlocks prosperity and the power to get wealth, and that God specifically invites believers to test Him in this area. He declares that non-tithers are blocked from heavenly blessings and challenges the congregation to a two-month tithing test to break the yoke of poverty over their lives."
   },
   {
     "id": 230,
     "driveId": "1bfSK-WT2ocTo_uZdLF93F4-R4DyTltlY",
     "title": "03.03 - Neutralising The Curse Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication error (expired access token on Google Drive API). No content is available for analysis."
+    "topics": [
+      "curses",
+      "causeless curse",
+      "cheating and deception",
+      "stealing",
+      "trusting in man",
+      "idolatry",
+      "honoring parents",
+      "tithing",
+      "obedience to instruction",
+      "neutralizing curses",
+      "consequences of sin",
+      "spiritual integrity"
+    ],
+    "scriptures": [
+      "Philippians 4:19",
+      "Malachi 4:6",
+      "Proverbs 26:1-3",
+      "Proverbs 26:2",
+      "Joshua 9:22-23",
+      "Zechariah 5:3-4",
+      "Jeremiah 17:5-6",
+      "John 5",
+      "1 Corinthians 2:7"
+    ],
+    "keyScripture": "Proverbs 26:2",
+    "summary": "Bishop Joshua teaches that curses do not come without a cause, emphasizing that specific sins like cheating, stealing, deception, and trusting in man rather than God activate pre-existing biblical curses. He warns that these curses follow people into their homes and affect their families, citing examples of students cheating in exams, people stealing, and leaders deceiving others. He stresses the importance of integrity, obedience to spiritual authority, and dependence on God rather than human wisdom or resources to avoid these curses."
   },
   {
     "id": 231,
     "driveId": "11bQulAjx8pgiYy798CQbki1Ytu6ktVia",
     "title": "02.10 - Quiet Time - Legon",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "baptism in the Spirit",
+      "refreshing",
+      "presence of God",
+      "infilling",
+      "salvation altar call",
+      "deliverance",
+      "spiritual dryness",
+      "tongues",
+      "supernatural power",
+      "being filled again",
+      "times of refreshing"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API access token expired). No content is available for analysis."
+    "summary": "Bishop Joshua leads an extended Holy Spirit service focused on refreshing believers in dry spiritual places and filling them afresh with the Holy Ghost. He emphasizes that God is moving to bring times of refreshing from His presence, encouraging people to breathe in and receive the Holy Spirit with manifestations of power including shaking, heat, and tongues. He concludes with a salvation altar call, inviting those who have never received Jesus to come forward and give their hearts to Christ, emphasizing that Jesus stands at the door knocking and wants to come in."
   },
   {
     "id": 232,
     "driveId": "1jsj6JnctZNumuaUslTrhAkiqtaSAqPqh",
     "title": "10.24 - Tell Them - 120 Reasons Why Y",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript content failed to load due to an authentication error with the source system (Google Drive API returned 401 UNAUTHENTICATED). Without access to the actual sermon transcript, specific topics, scriptures, and teaching content cannot be extracted."
+    "topics": [
+      "soul winning",
+      "evangelism",
+      "Great Commission",
+      "secondary school ministry",
+      "Christian responsibility",
+      "dormitory evangelism",
+      "personal witness",
+      "spiritual deception",
+      "salvation assurance",
+      "eternal rewards",
+      "Soul Winning Sunday",
+      "youth evangelism"
+    ],
+    "scriptures": [
+      "Proverbs 11:30",
+      "Matthew 28:18-20",
+      "John 3:34",
+      "John 1:16",
+      "2 Corinthians 5:17",
+      "Daniel 12:3",
+      "1 Corinthians 2:16"
+    ],
+    "keyScripture": "Matthew 28:18-20",
+    "summary": "BJosh teaches that every Christian—not just pastors—has a mandate to become a soul winner, especially targeting their immediate environment like school dormitories and classrooms where people claim to be Christians but are not truly saved. He emphasizes that soul winning is Jesus Christ's final and most important command (the Great Commission), and that many young people in Christian environments are deceived into thinking they're saved when they're not. BJosh challenges the church to move beyond being a 'blessed and be blessed' church to become active fishers of men, with a specific call to bring people to Soul Winning Sunday on November 14th."
   },
   {
     "id": 233,
     "driveId": "12zCDg1Uc-ZQu4cXQ5-YY97FUGbqUg9ow",
     "title": "08.22 - How You Can Be a Spiritual Ch",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript returned a 401 authentication error from Google Drive, preventing access to the sermon material. No indexing data could be extracted."
+    "topics": [
+      "spiritual Christian",
+      "being born again",
+      "flesh versus spirit",
+      "inner man",
+      "will of God",
+      "God's plan",
+      "seeking God's will",
+      "spiritual mindedness",
+      "following God's plan",
+      "presence of God",
+      "surrendering to God",
+      "pornography addiction deliverance"
+    ],
+    "scriptures": [
+      "John 3",
+      "Ephesians 3:16",
+      "Romans 12:1-2",
+      "Romans 8:6",
+      "Jeremiah 29:11",
+      "Psalm 143:10",
+      "Psalm 106:13-14",
+      "John 8:29",
+      "John 1:32-33",
+      "John 10"
+    ],
+    "keyScripture": "Jeremiah 29:11",
+    "summary": "BJosh teaches that becoming a spiritual Christian requires seeking and surrendering to God's specific plan for your life, which He has designed in detail like an architect's blueprint. He emphasizes that God knows the plans He has for each individual—plans for welfare and not calamity, with a future and hope—and that spiritual peace comes from discovering and yielding to this divine will rather than following personal desires or lust. The key to living in God's presence and experiencing His approval is doing the things that please Him and saying 'not my will, but Your will be done,' just as Jesus did."
   },
   {
     "id": 234,
     "driveId": "1KjXxlICodQ0BQifVfj4n05tMmA9dCDxS",
     "title": "08.15 - How You Can Be a Spiritual Ch",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication credentials error (expired OAuth 2 access token). The sermon title appears incomplete ('How You Can Be a Spiritual Ch...') and no content is available for analysis."
+    "topics": [
+      "conscience",
+      "spirituality",
+      "Holy Spirit domination",
+      "good conscience",
+      "evil conscience",
+      "defiled conscience",
+      "seared conscience",
+      "shipwreck of faith",
+      "inner compass",
+      "moral sensitivity",
+      "spiritual Christian",
+      "redemption point"
+    ],
+    "scriptures": [
+      "James 3:15",
+      "1 Timothy 1:5",
+      "1 Timothy 1:19",
+      "Ephesians 2:8",
+      "Mark 6:14-16",
+      "Romans 2:14-15",
+      "John 8",
+      "Hebrews 10:22",
+      "Isaiah 5:20",
+      "Titus 3:5",
+      "Titus 1:15-16",
+      "John 15:3",
+      "1 Timothy 4:1-2",
+      "Proverbs 29:1",
+      "Hosea 4:17"
+    ],
+    "keyScripture": "1 Timothy 1:19",
+    "summary": "Bishop Joshua teaches that becoming a spiritual Christian requires holding both faith and a good conscience together, as abandoning your conscience leads to shipwreck and opens your life to demonic influence. He explains that God has planted a conscience as an inner compass in every human being that tells us right from wrong, and we must stay sensitive to its voice rather than allowing it to become evil, defiled, or seared through repeated disobedience. He warns that ignoring your conscience repeatedly can lead you past a 'redemption point' where you become hardened and can no longer feel conviction, making it essential to obey that inner voice immediately when it speaks."
   },
   {
     "id": 235,
     "driveId": "18jVX8Qx_fogk9xPDzFq_tpwBDYP7EKhs",
     "title": "08.01 - How You Can Be a Spiritual Ch",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API). Please verify the access credentials and retry."
+    "topics": [
+      "spiritual Christian",
+      "strong Christian",
+      "flesh versus spirit",
+      "Christian fellowship",
+      "spirit soul and body",
+      "spiritual warfare",
+      "pastoral authority",
+      "secondary school Christians",
+      "devotion to pastor's teaching",
+      "isolation and backsliding",
+      "Holy Spirit presence",
+      "overcoming fleshly desires"
+    ],
+    "scriptures": [
+      "Jeremiah 3:15",
+      "Isaiah 34:16",
+      "1 Thessalonians 5:23",
+      "Galatians 5:16",
+      "Galatians 5:17",
+      "Genesis 2:18",
+      "Romans 8:6",
+      "Luke 1:35",
+      "Genesis 4:9",
+      "Matthew 12:43",
+      "Matthew 12:44",
+      "Matthew 12:45",
+      "Acts 2:42",
+      "2 Chronicles 5"
+    ],
+    "keyScripture": "Galatians 5:16-17",
+    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and whoever is strongest dominates your life, with the flesh constantly fighting against the spirit. He emphasizes that to become a strong spiritual Christian rather than a fleshly one, believers must keep regular fellowship with spiritual people because God never designed man to be alone. Using the example of demons bringing seven stronger spirits to overcome resistance, he urges students to surround themselves with seven friends more prayerful and spiritual than themselves to overcome strongholds they cannot defeat alone."
   },
   {
     "id": 236,
     "driveId": "1SJWOn77QVI87x9Zlkj3hQNWXtWxeMF9X",
     "title": "08.08 - How You Can Be a Spiritual Ch",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source system. No content is available for indexing."
+    "topics": [
+      "spiritual Christian",
+      "fellowship with believers",
+      "avoiding sinners",
+      "Holy Spirit transformation",
+      "choosing friends wisely",
+      "evil communication",
+      "academic excellence through spirituality",
+      "avoiding backsliding",
+      "discerning voices",
+      "walking in truth",
+      "speaking in tongues",
+      "separation from worldly company"
+    ],
+    "scriptures": [
+      "Proverbs 22:24",
+      "Proverbs 22:25",
+      "2 Thessalonians 3:14",
+      "Ephesians 3:15",
+      "Ephesians 3:16",
+      "1 Corinthians 2:7",
+      "Philippians 3",
+      "Psalm 19:7",
+      "Psalm 19:8",
+      "Jude 1:19",
+      "1 Corinthians 15:33",
+      "1 Corinthians 5:9",
+      "1 Corinthians 5:11",
+      "1 Corinthians 5:12",
+      "1 Corinthians 5:13",
+      "Acts 4:32",
+      "1 Thessalonians 5:23"
+    ],
+    "keyScripture": "Proverbs 22:24-25",
+    "summary": "BJosh teaches that becoming a spiritual Christian requires carefully choosing your companions, avoiding fellowship with angry people, sinners, and even Christians who live worldly lives, because their communication and influence will corrupt your character and trap your soul. He emphasizes that the Holy Spirit transforms every area of life including intelligence and academics, but spirituality is hindered by the voices and company you keep. He instructs believers to note and separate from those who don't obey the church's teachings, even if what they say is factually true, because the real issue is whose voice you're listening to and allowing to shape your life."
   },
   {
     "id": 237,
     "driveId": "1rtICn1XMtoBF14gzaCkZVVOSXC6UlEhV",
     "title": "06.08 - The Presence Of The Holy Spir",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript content is unavailable due to authentication credentials error (OAuth 2 access token expired). Cannot index topics, scriptures, or generate summary without access to the sermon transcript."
+    "topics": [
+      "Presence of the Holy Spirit",
+      "Goodness of God",
+      "Repentance",
+      "Experiencing God's presence",
+      "Joy and peace in God",
+      "Conviction of sin",
+      "Satisfaction in Christ",
+      "Living in communion with God",
+      "Transformation through God's presence",
+      "Hearing God's voice",
+      "Humility and correction",
+      "Holy Spirit as Comforter"
+    ],
+    "scriptures": [
+      "2 Corinthians 13:14",
+      "Zechariah 9:17",
+      "Psalm 27:13-14",
+      "Romans 2:4",
+      "Isaiah 6:1-5",
+      "1 Corinthians 3:16-17",
+      "Psalm 16:11"
+    ],
+    "keyScripture": "Psalm 27:13",
+    "summary": "Bishop Joshua teaches that living in the presence of the Holy Spirit is essential for experiencing God's goodness, which brings joy, satisfaction, and the ability to continue in faith despite life's challenges. He emphasizes that the goodness of God leads believers to genuine repentance and conviction of sin without needing external correction, as the Holy Spirit reveals our true condition when we enter God's presence. Without dwelling in God's presence daily, Christians become proud, unsatisfied, anxious, and unable to sustain their faith journey, but in His presence there is fullness of joy and transformation of character."
   },
   {
     "id": 238,
     "driveId": "1hnouL1_G91r8_rkptztt9SKcWMA_rj4X",
     "title": "06.10 - The Voice of the Holy Spirit",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 Unauthorized - expired access token). Please re-authenticate and provide the transcript text to generate accurate indexing data."
+    "topics": [
+      "Voice of the Holy Spirit",
+      "Hearing from God",
+      "Spiritual discernment",
+      "Following God's leading",
+      "Sheep versus goats",
+      "Spiritual senses",
+      "Visions and trances",
+      "Direct communication with God",
+      "Maturity in hearing God",
+      "Holy Spirit as communicator",
+      "Moving beyond milk to meat",
+      "God speaking through servants"
+    ],
+    "scriptures": [
+      "Exodus 19:5",
+      "Exodus 20",
+      "Exodus 20:1",
+      "Exodus 20:33",
+      "Psalm 103:7",
+      "Psalm 23",
+      "Psalm 23:2",
+      "John 12:28",
+      "John 12:29",
+      "Acts 1:2",
+      "Acts 1:6-7",
+      "Acts 13:1",
+      "Acts 9:1",
+      "Acts 10:10",
+      "1 Corinthians 2:9",
+      "1 Corinthians 2:10",
+      "2 Corinthians 13:14",
+      "Ephesians 4:17",
+      "Hebrews 5",
+      "Hebrews 5:14",
+      "Revelation 1",
+      "2 Peter 1:20",
+      "Exodus 3:13",
+      "2 Samuel 23:2",
+      "Matthew 16:17",
+      "1 Samuel 3"
+    ],
+    "keyScripture": "Exodus 19:5",
+    "summary": "Bishop Heward-Mills teaches that what makes believers peculiar and special to God is their ability to hear and obey His voice through the Holy Spirit. He explains that while God the Father's voice is too terrifying and Jesus' glorified voice too overwhelming, the Holy Spirit is given as the communicator who can relate to believers and transmit God's current plan for their lives. He emphasizes that hearing from God requires developing spiritual senses through practice and use, moving from being spiritual babies who only receive milk (Scripture alone) to mature believers who can discern the Holy Spirit speaking directly to their body, soul, and spirit in various ways including visions, inner voice, and through other people."
   },
   {
     "id": 239,
     "driveId": "1As_qhuzq0KuBYLSc4-ek41w3b5TcHJ2u",
     "title": "06.01 - The Presence Of The Holy Spir",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript data could not be retrieved due to authentication credentials error (OAuth 2.0 access token expired). Please provide the sermon transcript text to generate an index."
+    "topics": [
+      "Holy Spirit presence",
+      "fellowship with Holy Spirit",
+      "walking in the Spirit",
+      "communion with God",
+      "glory of God",
+      "partnership with Holy Spirit",
+      "presence distinguishes believers",
+      "Holy Spirit as person",
+      "acknowledging the Holy Spirit",
+      "spiritual intimacy",
+      "Moses and God's presence",
+      "covenant relationship"
+    ],
+    "scriptures": [
+      "2 Corinthians 13:14",
+      "Luke 5:9-10",
+      "John 14:16",
+      "John 14:26",
+      "Hebrews 9:14",
+      "Romans 8:27",
+      "Psalm 139:7",
+      "Exodus 33:10-19",
+      "Galatians 5:16",
+      "Galatians 5:25",
+      "John 3",
+      "2 Corinthians 3:16",
+      "John 11:14",
+      "Genesis 1"
+    ],
+    "keyScripture": "Exodus 33:14-16",
+    "summary": "Bishop Joshua teaches that the distinguishing factor of every believer's life is not programs or knowledge but the continuous presence and fellowship of the Holy Spirit as a person, not merely a force. He emphasizes that like Moses who refused to go anywhere without God's presence, Christians must learn to acknowledge, speak to, and walk daily with the Holy Spirit to experience transformation in marriage, ministry, morality, and every area of life. The Holy Spirit is God Himself—eternal, all-knowing, all-powerful, and omnipresent—who desires intimate partnership (koinonia) with believers, and when His presence goes with us, His glory transforms dead religious activity into supernatural life."
   },
   {
     "id": 240,
     "driveId": "15Y3QVONsEQRGRqGq4nyjHbc1OEoX00xv",
     "title": "08.16 - The Strategies for having a S",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source system (Google Drive API access token expired). No content is available for analysis."
+    "topics": [
+      "quiet time",
+      "daily scripture reading",
+      "searching the scriptures",
+      "morning devotion",
+      "manna revelation",
+      "solitude with God",
+      "spiritual discipline",
+      "closet prayer",
+      "wrestling with God",
+      "Berean church",
+      "living by God's word",
+      "spiritual nobility"
+    ],
+    "scriptures": [
+      "Acts 17:10",
+      "Acts 17:11",
+      "Matthew 6:6",
+      "Mark 1:35",
+      "Exodus 16",
+      "Exodus 16:3",
+      "Exodus 16:4",
+      "Exodus 16:15",
+      "Exodus 16:19",
+      "Exodus 16:21",
+      "Deuteronomy 8:3",
+      "John 6",
+      "Psalm 42:1",
+      "Psalm 42:2",
+      "Psalm 42:3",
+      "Psalm 42:4",
+      "Psalm 42:5",
+      "Psalm 42:6",
+      "Isaiah 30:15",
+      "Genesis 32:22",
+      "Genesis 32:23",
+      "Genesis 32:25",
+      "2 Peter 1:19",
+      "2 Peter 1:20"
+    ],
+    "keyScripture": "Acts 17:11",
+    "summary": "Bishop Heward-Mills teaches that spiritual nobility comes from daily searching the scriptures personally, not just receiving preaching in church services. He provides three strategies for successful quiet time: set a fixed unchangeable morning time (30 minutes minimum), withdraw to a closet alone where no one can access you, and create an atmosphere conducive for fellowship with God before the day's heat melts the manna. Using the manna revelation from Exodus 16, he emphasizes that yesterday's word cannot sustain today and that individual wrestling with God in solitude—like Jacob—transforms a person's walk and gives them power with both God and men."
   },
   {
     "id": 241,
     "driveId": "1Nxop7d_P6ORXE0awbyKzaGdWRQoKaTak",
     "title": "07.21 - The Relationships of Spiritua",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication error (expired access token with Google Drive API). No content is available to analyze."
+    "topics": [
+      "spiritual relationships",
+      "prophets and spiritual people",
+      "knowing after the spirit not flesh",
+      "spirituality versus carnality",
+      "authority in the church",
+      "flesh versus spirit",
+      "the cross's effect on relationships",
+      "doctrine and manner of life",
+      "spiritual discernment",
+      "Paul's relationship with Timothy",
+      "mystery of godliness",
+      "spiritual definitions"
+    ],
+    "scriptures": [
+      "1 Corinthians 14:33",
+      "1 Corinthians 14:34",
+      "1 Corinthians 14:35",
+      "1 Corinthians 14:36",
+      "1 Corinthians 14:37",
+      "1 Corinthians 3:1",
+      "1 Samuel 18:1",
+      "Matthew 15:8",
+      "2 Corinthians 5:15",
+      "2 Corinthians 5:16",
+      "Mark 6",
+      "Luke 1:39",
+      "John 4:9",
+      "John 8:56",
+      "John 8:57",
+      "John 8:58",
+      "John 7:34",
+      "Luke 7:35",
+      "John 4:6",
+      "2 Timothy 3:10"
+    ],
+    "keyScripture": "2 Corinthians 5:16",
+    "summary": "Bishop Joshua teaches that spiritual people must relate to others according to the spirit, not the flesh, meaning relationships should be based on doctrine, faith, and spiritual connection rather than family ties, nationality, age, or natural affinity. He explains that Paul subjected his controversial teachings only to prophets and spiritual people, and that since Christ's death on the cross, believers should know no one—including Christ himself—after the flesh. True spiritual relationship with a man or woman of God is established by knowing their doctrine, manner of life, purpose, faith, and persecutions, not through casual familiarity, WhatsApp messages, or natural connections."
   },
   {
     "id": 242,
     "driveId": "1FXNN3nQfVD8ZyVEhEVVe-WeUwLezVY9e",
     "title": "07.22 - North Kaneshie - Four ways yo",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with Google Drive (expired access token). Please verify credentials and retry the request to obtain the full sermon content."
+    "topics": [
+      "Holy Spirit",
+      "gifts of the Spirit",
+      "healing",
+      "laying on of hands",
+      "manifestation of the Spirit",
+      "word of knowledge",
+      "word of wisdom",
+      "divine touch",
+      "anointing transmission",
+      "spiritual impartation",
+      "supernatural power",
+      "administration of the Holy Spirit"
+    ],
+    "scriptures": [
+      "Exodus 19:10",
+      "1 Corinthians 12:7",
+      "Jeremiah 8:22",
+      "Mark 2:17",
+      "1 Corinthians 12:4",
+      "1 Corinthians 12:5",
+      "1 Corinthians 12:6",
+      "1 Corinthians 12:7",
+      "Hebrews 1:1-3",
+      "John 6:38",
+      "Luke 13:12-13",
+      "Matthew 8:15",
+      "Matthew 19:13",
+      "Hebrews 6:1-2",
+      "Acts 8:18",
+      "2 Timothy 1:6"
+    ],
+    "keyScripture": "Hebrews 6:1-2",
+    "summary": "Bishop Joshua teaches that the Holy Spirit is administered in four distinct ways, comparing it to how medicine can be given through different methods (orally, intramuscularly, intravenously, or rectally). He emphasizes that the laying on of hands is the primary foundational way the Holy Spirit is transmitted, citing it as one of the basic doctrines of Christianity alongside repentance, faith, and baptisms. He stresses that believers must be sensitive and receptive to hands laid on them by anointed vessels, as this physical contact transmits God's presence, power, wisdom, and spiritual gifts that cannot be obtained through study alone."
   },
   {
     "id": 243,
     "driveId": "1Hkdg7_LYUFEFkKYEY9jPs6s2z7KGvooq",
     "title": "02.25 - ATU - Jesus, the First and th",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and try again."
+    "topics": [
+      "Jesus the first and last",
+      "salvation through Christ alone",
+      "blood of Jesus",
+      "keys to death and hell",
+      "forgiveness of sins",
+      "eternal life",
+      "escape from hell",
+      "healing and deliverance",
+      "Christ's resurrection",
+      "altar call and repentance",
+      "no other savior",
+      "reconciliation with God"
+    ],
+    "scriptures": [
+      "Revelation 1:17-19",
+      "John 1:29",
+      "Luke 19:10",
+      "John 14:2-3",
+      "Numbers 25",
+      "John 10:10",
+      "John 14:19",
+      "Matthew 8:16-17",
+      "Isaiah 53"
+    ],
+    "keyScripture": "Revelation 1:17-19",
+    "summary": "Bishop Heward-Mills preaches that Jesus is the first and last Savior sent from heaven, and no other person or thing can save humanity from sin, death, and hell. He emphasizes that Jesus alone holds the keys to death and hell, having died for our sins and risen again, making Him the only way to eternal life and reconciliation with God. He urgently calls people to respond to Christ now, warning that this may be their first and last opportunity to receive salvation before facing eternity."
   },
   {
     "id": 244,
     "driveId": "17r7YFS7MhoHyinE72rG8AtDiQEt1dDnO",
     "title": "08.04 - Lapaz - The Powerful Effects",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process this sermon. The transcript content failed to load due to an authentication error with the source document. Please verify the source file is accessible and try again."
+    "topics": [
+      "Holy Spirit",
+      "anointing oil",
+      "divine help",
+      "provision from God",
+      "spiritual adoption",
+      "orphan spirit",
+      "manifestation of the Spirit",
+      "leaven and influence",
+      "supernatural assistance",
+      "Spirit of adoption",
+      "God's faithfulness",
+      "chosen by God"
+    ],
+    "scriptures": [
+      "John 1:16",
+      "John 14:16",
+      "John 14:17",
+      "John 14:18",
+      "John 14:19",
+      "John 14:20",
+      "Romans 8:15",
+      "Galatians 5:9",
+      "1 Corinthians 12:7",
+      "Psalm 89:19"
+    ],
+    "keyScripture": "John 14:18",
+    "summary": "Bishop Heward-Mills teaches that the Holy Spirit removes the orphan nature from believers' lives, bringing provision, guidance, correction, and wisdom just as a father provides for his children. He emphasizes that supernatural help in every season of life comes not from personal ability, education, or holiness, but from the anointing oil of the Holy Spirit upon a person. Using Psalm 89:19 as a foundation, he declares that God lays help upon those He anoints with His holy oil, making divine assistance the primary manifestation of the Spirit's presence in daily life."
   },
   {
     "id": 245,
     "driveId": "1Br-5r7gQSYG_l_5msuK3Edx2v7nt4jy2",
     "title": "07.07 - Kwabenya - Jesus is Anointed",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source (expired OAuth 2 access token). Please provide the sermon transcript text to generate proper indexing data."
+    "topics": [
+      "anointing of Jesus",
+      "Christ manifested",
+      "Jesus is alive",
+      "Holy Spirit descending",
+      "baptism of Jesus",
+      "deliverance from captivity",
+      "healing the brokenhearted",
+      "recovery of sight to the blind",
+      "works of Satan destroyed",
+      "mediator between God and man",
+      "carpenter Jesus",
+      "Luke 4:18 commission"
+    ],
+    "scriptures": [
+      "Revelation 1:13",
+      "Revelation 1:14",
+      "Revelation 1:15",
+      "Revelation 1:16",
+      "Revelation 1:17",
+      "Revelation 1:18",
+      "Genesis 1:1",
+      "Proverbs 8",
+      "John 1:2",
+      "1 John 3:8",
+      "Galatians 4:4",
+      "Mark 6:3",
+      "Luke 3:21",
+      "Luke 3:22",
+      "Luke 4:18",
+      "Luke 5:15",
+      "Matthew 15:30"
+    ],
+    "keyScripture": "Luke 4:18",
+    "summary": "Bishop Heward-Mills teaches that Jesus Christ is not a historical figure of the past but is alive today and anointed specifically to meet every individual need. He emphasizes that Jesus was anointed at His baptism when the Holy Spirit descended on Him, transforming Him from a carpenter into the Christ who heals the brokenhearted, delivers captives, gives sight to the blind, and sets the bruised at liberty. The central message is that Jesus was anointed because of you and your problems, and encountering Him today brings transformation, healing, and miracles to every area of life."
   },
   {
     "id": 246,
     "driveId": "1vU13hmfih6N-fobsWZCmTcJ6TjOXhSqA",
     "title": "06.30 - ABMTC - The Sweet Influence o",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source API (Google Drive access token expired). Please verify the transcript is accessible and retry indexing."
+    "topics": [
+      "Holy Spirit's role in ministry",
+      "becoming a pastor",
+      "overseer of the flock",
+      "calling and desire",
+      "sanctification",
+      "vessel unto honor",
+      "law of the Spirit",
+      "purging from sin",
+      "unsuitability due to sin",
+      "four spiritual laws",
+      "walking in the Spirit",
+      "wondrous attraction of the cross"
+    ],
+    "scriptures": [
+      "Romans 8:14",
+      "Job 33:4",
+      "Acts 20:28",
+      "Luke 11:13",
+      "Hebrews 5:1-4",
+      "Revelation 22:17",
+      "Acts 13:1-2",
+      "Luke 9:23",
+      "Matthew 10:37-38",
+      "1 Timothy 3:1",
+      "Philippians 2:13",
+      "John 6:44",
+      "John 6:66",
+      "2 Timothy 2:19-21",
+      "Romans 7:12-25",
+      "Romans 8:1-2",
+      "1 Peter 1:2"
+    ],
+    "keyScripture": "Acts 20:28",
+    "summary": "Bishop Joshua teaches that the Holy Spirit alone makes people into pastors and overseers of flocks through a multi-stage process: first by calling them, second by giving them desire for the cross and ministry, and third by sanctifying them from sin. He emphasizes that without sanctification, a person remains unsuitable as a vessel for God's use in ministry, no matter how strong their calling or desire. He explains that victory over sin comes not through willpower but through walking in the Spirit, following the law of the Spirit which makes believers free from the law of sin and death."
   },
   {
     "id": 247,
     "driveId": "1BLQRmFU1KvEq9ymq_ea7IzlMope80IYY",
     "title": "07.13 - DC - By His Stripes",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 Unauthenticated). Please verify access credentials and retry."
+    "topics": [
+      "healing",
+      "stripes of Jesus",
+      "prophecy of Isaiah 53",
+      "crucifixion",
+      "divine health",
+      "suffering servant",
+      "miracles",
+      "Christ's sacrifice",
+      "sickness carried by Jesus",
+      "supernatural power",
+      "iniquity",
+      "rejection of Christ"
+    ],
+    "scriptures": [
+      "Isaiah 53",
+      "Isaiah 52:13",
+      "Isaiah 52:14",
+      "Hosea 11:3",
+      "Zechariah 12:10",
+      "Acts 8:26-30",
+      "Acts 8:35",
+      "Luke 22:37",
+      "Isaiah 5:13",
+      "Deuteronomy 29:29",
+      "1 Corinthians 12",
+      "John 12",
+      "Mark 6",
+      "Isaiah 52:12",
+      "John 19:8",
+      "John 19:9",
+      "Luke 23:8",
+      "Luke 23:9"
+    ],
+    "keyScripture": "Isaiah 53:5",
+    "summary": "Bishop Joshua teaches that Isaiah 53, written 782 years before Christ, is the most accurate Old Testament prophecy detailing how Jesus was wounded for our transgressions, bruised for our iniquities, and by His stripes we are healed. He emphasizes that those who believe this specific report will see the arm of the Lord revealed in their lives, experiencing miracles and healing because Christ already carried all sickness, sorrow, and sin on the cross. The sermon declares that no Christian should remain sick or troubled because the chastisement for our peace was upon Jesus, and His suffering—including the brutal scourging that plowed His back—has already paid the price for complete deliverance."
   },
   {
     "id": 248,
     "driveId": "1PHPY4w11oS5jL4QBk3cH8AN5kcmEcuIm",
     "title": "07.15 - Osu - The Sweet Influence of",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication errors with the source document. No content is available for analysis."
+    "topics": [
+      "Lordship of Jesus Christ",
+      "Holy Spirit empowerment",
+      "Obedience to God",
+      "Slavery to Christ",
+      "Sweet influence of the Holy Spirit",
+      "Government of Christ",
+      "Submission versus freedom",
+      "Heart transformation",
+      "Denying false teachers",
+      "Knowing Jesus as Master",
+      "Resisting Satan through submission",
+      "Communion with God"
+    ],
+    "scriptures": [
+      "1 Corinthians 10:14",
+      "Ezekiel 36:26-27",
+      "2 Peter 2:20",
+      "2 Peter 2:1",
+      "John 13:13",
+      "Matthew 11:28-29",
+      "Luke 6:46",
+      "1 Corinthians 6:19-20",
+      "James 4:7",
+      "Romans 14:8",
+      "1 Corinthians 12:3",
+      "John 20:21-22"
+    ],
+    "keyScripture": "1 Corinthians 12:3",
+    "summary": "Bishop Heward-Mills teaches that true Christianity requires not only knowing Jesus as Savior and Friend, but crucially as Lord and Master who owns and governs every area of believers' lives. He explains that obedience to Christ's lordship is impossible through human effort alone, but only becomes possible through the Holy Spirit's enabling power working within believers to cause them to walk in God's statutes. The central message is that no one can truly say 'Jesus is Lord' and live in submission to His mastery except by the Holy Spirit, which is why believers must earnestly pray to be filled with the Spirit for the power to obey."
   },
   {
     "id": 249,
     "driveId": "18RdK7aVVVygPUSoAh9qrkMJWcHiZr3D9",
     "title": "02.24 - ABMTC - Jesus, a Man of Anoin",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document. No content is available for analysis."
+    "topics": [
+      "anointing",
+      "miracles",
+      "supernatural ministry",
+      "nicknames of Jesus",
+      "Holy Spirit power",
+      "conforming to Christ's image",
+      "predestination",
+      "Jesus the Carpenter",
+      "Jesus of Nazareth",
+      "Christos",
+      "prophetic ministry",
+      "healing miracles"
+    ],
+    "scriptures": [
+      "Romans 8:28",
+      "Romans 8:29",
+      "Mark 1:24",
+      "John 3",
+      "Mark 6:3",
+      "John 6:42",
+      "Luke 3:22",
+      "Luke 4:14",
+      "Luke 4:41",
+      "1 John 2:6",
+      "John 7:11",
+      "Luke 7:11",
+      "John 3:2",
+      "Romans 3:23",
+      "Romans 6:23",
+      "Romans 10:9-10",
+      "John 1:12"
+    ],
+    "keyScripture": "Romans 8:29",
+    "summary": "Bishop Joshua teaches that every believer is predestined to be conformed to the image of Jesus Christ in every way, including operating in supernatural power and miracles. He emphasizes that Jesus earned the nickname 'Christ' (meaning 'anointed one') only after receiving the Holy Spirit at His baptism and returning in power, demonstrating that being born again is different from being anointed with power. He argues there is no legitimate version of Christian ministry that lacks the supernatural element, as Jesus operated in all five-fold ministries with miraculous signs, and believers must walk as He walked."
   },
   {
     "id": 250,
     "driveId": "1l3lFS2donG0_5LnK2nrxJpo6kDBBlNAI",
     "title": "02.10 - Legon - Quiet Time",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source document (Google Drive API error 401). No content is available for analysis."
+    "topics": [
+      "quiet time",
+      "personal relationship with God",
+      "spending time alone with God",
+      "Christian transformation",
+      "daily devotion",
+      "intimacy with Christ",
+      "knowing God personally",
+      "Bible reading",
+      "Holy Spirit as teacher",
+      "scripture meditation",
+      "overcoming temptation through God's Word",
+      "friendship with God"
+    ],
+    "scriptures": [
+      "Proverbs 8:33-36",
+      "Proverbs 8:34",
+      "Genesis 39",
+      "James 4",
+      "Matthew 25"
+    ],
+    "keyScripture": "Proverbs 8:34",
+    "summary": "Bishop Joshua teaches that the quiet time—spending time alone with God daily—is the most essential practice for developing a genuine Christian life and personal transformation. He emphasizes that many people call themselves Christians but have never developed an actual relationship with God through private Bible reading, prayer, and communion with the Holy Spirit, which is why their lives show no real change. He stresses that knowing about God through church attendance or pastoral relationships is not enough; believers must personally know God as a friend through consistent daily time in His presence, just as Proverbs 8:34 describes waiting at His gates daily."
   },
   {
     "id": 251,
     "driveId": "1Ca3SsfrkajS6Qm-j5BDfn6Ow7heMDsLE",
     "title": "08.11 - Kasoa - Sweet Influence of th",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication errors with the source document. No content is available for indexing."
+    "topics": [
+      "Holy Spirit presence",
+      "authenticity in ministry",
+      "seal and earnest of the Spirit",
+      "discernment of true anointing",
+      "false apostles and prophets",
+      "aura of God's presence",
+      "worship in Spirit and truth",
+      "remaining of the Spirit",
+      "counterfeit Christianity",
+      "manifest presence versus power",
+      "shadow of the Almighty",
+      "Nike trademark analogy"
+    ],
+    "scriptures": [
+      "2 Corinthians 1:21",
+      "Zechariah 2:13",
+      "John 1:26",
+      "John 1:31",
+      "Exodus 33:15-16",
+      "Revelation 2:2",
+      "1 John 4:1",
+      "Galatians 1:7-8",
+      "2 Peter 2:1",
+      "Mark 13:22",
+      "John 8:29",
+      "Job 4:13-16",
+      "2 Chronicles 5:13",
+      "Psalm 91:1",
+      "Acts 10:44-45",
+      "Genesis 3"
+    ],
+    "keyScripture": "2 Corinthians 1:21-22",
+    "summary": "Bishop Joshua teaches that God has given believers the Holy Spirit as a seal, stamp, and guarantee to authenticate genuine Christianity, just as a trademark distinguishes real Nike shoes from counterfeits. He emphasizes that while many Christians, pastors, prophets, and ministries may look identical outwardly, the distinguishing mark of authenticity is the manifest presence (not just power) of the Holy Spirit—an aura or atmosphere that can be sensed. Using John the Baptist's witness that the Spirit descended and remained on Jesus, he urges believers to pursue and recognize this abiding presence as the only true evidence that God is pleased with them, rather than relying on blessings, position, or outward success."
   },
   {
     "id": 252,
     "driveId": "1oZ7-XAjPeIuh7WxSQfO_egW4_nXNQk-k",
     "title": "08.03 - Family Health - How to Multip",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and retry indexing."
+    "topics": [
+      "Holy Spirit influence",
+      "flesh versus spirit",
+      "multiplication of spiritual influence",
+      "secret righteousness",
+      "spiritual hunger and desire",
+      "character transformation",
+      "being led by the Spirit",
+      "wrestling with God",
+      "spiritual thirst",
+      "countenance change",
+      "surrender to God's will",
+      "intimacy with the Holy Spirit"
+    ],
+    "scriptures": [
+      "Galatians 5",
+      "Isaiah 53:6",
+      "Psalm 34:5",
+      "2 Corinthians 3:7",
+      "Acts 4:13",
+      "1 Corinthians 15:52",
+      "Galatians 5:6",
+      "John 4:9",
+      "Genesis 32:23-28",
+      "2 Peter 1:19",
+      "Jeremiah 2",
+      "Acts 19:1-6",
+      "Isaiah 64:7",
+      "Matthew 5:6",
+      "Isaiah 55:1",
+      "Psalm 143:6",
+      "Revelation 21:6",
+      "Psalm 42:1-2",
+      "Song of Solomon 7:9-10",
+      "John 7:37",
+      "Ezekiel 1"
+    ],
+    "keyScripture": "Isaiah 55:1",
+    "summary": "Bishop Heward-Mills teaches that every problem in Scripture arose when the influence of the flesh overcame the influence of the Holy Spirit in someone's life, and that Christians must actively multiply the Holy Spirit's capacity to influence their character, behavior, and decisions. He emphasizes that increasing the Holy Spirit's influence begins with talking about Him and cultivating spiritual hunger and desire, because God only fills those who are thirsty and actively seeking Him. He illustrates that transformation happens when believers reject their own ways and allow the Holy Spirit to change them from within, moving from fleshly control to spiritual control in every area of life including marriage, business, and ministry."
   },
   {
     "id": 253,
     "driveId": "1TQmEsTHHUAW9gRNZIZ-ivUN302yo_W9s",
     "title": "08.24 - Basonta - Pray to Begin your",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication errors with the source document. No content is available for indexing."
+    "topics": [
+      "quiet time",
+      "effective devotions",
+      "prayer before reading",
+      "thanksgiving and praise",
+      "entering God's presence",
+      "confession of sin",
+      "Holy Spirit as guide",
+      "Word of God having effect",
+      "traditions nullifying Scripture",
+      "dwelling in secret place",
+      "Spirit of truth",
+      "prophetic Scripture"
+    ],
+    "scriptures": [
+      "Mark 7:13",
+      "2 Thessalonians 3:1",
+      "Psalm 100:4",
+      "Psalm 92:13",
+      "Isaiah 59:1-2",
+      "Romans 8:7-8",
+      "1 John 1:8-9",
+      "John 17:17",
+      "John 14:6",
+      "John 16:12-13",
+      "Luke 10:38-42",
+      "Psalm 91:1"
+    ],
+    "keyScripture": "Mark 7:13",
+    "summary": "BJosh teaches that many Christians have ineffective quiet times because their traditions and habits make the Word of God of no effect, as stated in Mark 7:13. He emphasizes that believers must pray to begin their devotions—entering God's gates with thanksgiving, His courts with praise, confessing sin, and praying in tongues to move from flesh to spirit—before reading Scripture. Without this prayerful preparation, Christians remain outside God's presence where the Holy Spirit cannot guide them into truth, transmit God's current plan for their day, or reveal the prophetic nature of Scripture."
   },
   {
     "id": 254,
     "driveId": "1FWuKdYJWOP59PlLpGNYCRIb2lm6XyJK0",
     "title": "07.27 - Legon - What is the Manifesta",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication credentials error with Google Drive API. No content is available for indexing."
+    "topics": [
+      "manifestation of the Holy Spirit",
+      "presence of God",
+      "worship",
+      "spiritual sensitivity",
+      "quenching the Spirit",
+      "knowledge versus life",
+      "confession of sin",
+      "seeking God's face",
+      "Holy Spirit testimony",
+      "dwelling with God",
+      "spiritual deadness",
+      "hungering for God"
+    ],
+    "scriptures": [
+      "1 Corinthians 12:7",
+      "1 Thessalonians 5:19",
+      "Psalm 42",
+      "Psalm 42:1",
+      "Psalm 42:2",
+      "Psalm 42:3",
+      "Psalm 42:4",
+      "Psalm 42:6",
+      "Psalm 133:1",
+      "Psalm 133:3",
+      "Psalm 63",
+      "Psalm 63:1",
+      "Psalm 63:2",
+      "John 4",
+      "2 Corinthians 4:6",
+      "Luke 17:21",
+      "Acts 1:8",
+      "Acts 2",
+      "John 16",
+      "Jeremiah 2:13",
+      "Proverbs 8:31",
+      "John 14"
+    ],
+    "keyScripture": "1 Corinthians 12:7",
+    "summary": "Bishop Heward-Mills teaches that the manifestation of the Holy Spirit is a sign, demonstration, or symptom given to every believer for their profit, making the invisible God visible and real in tangible experiences. He emphasizes that two things block God's manifest presence: forsaking God by not genuinely seeking Him (especially through worship), and broken vessels due to unconfessed sin that cannot hold His presence. He stresses that true Christianity requires moving beyond dead religious routine to actually experiencing God's presence through worship, confession of sin, and hungering for God like a child, not just knowing about Him intellectually."
   },
   {
     "id": 255,
     "driveId": "1-HrSz3cespPYl0bxblmMAYdP68zj7NOu",
     "title": "07.14 - Korle Bu - Come Unto Me",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. Please verify access credentials and retry."
+    "topics": [
+      "rest in Jesus",
+      "divine healing",
+      "miracles through faith",
+      "expectation and faith",
+      "Jesus carrying burdens",
+      "come unto me invitation",
+      "academic breakthrough",
+      "supernatural results",
+      "strength in the Lord",
+      "God's unchanging nature",
+      "financial breakthrough",
+      "worship and praise"
+    ],
+    "scriptures": [
+      "Matthew 11:28"
+    ],
+    "keyScripture": "Matthew 11:28",
+    "summary": "Bishop Joshua teaches on Jesus's invitation in Matthew 11:28 to come to Him for rest, emphasizing that miracles happen for those who expect them through faith. He encourages believers that Jesus is unchanging and still performs miracles today, whether for healing, finances, or academics, for those who believe and expect. The message centers on bringing all burdens to Jesus—physical sickness, financial needs, and academic challenges—trusting that He who carries the world on His shoulders will carry their problems too."
   },
   {
     "id": 256,
     "driveId": "1Xnffj5BosUi-MC5I_S7HBGnD5kZYhG2g",
     "title": "07.28 - Madina - The Sweet Influence",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript content could not be retrieved due to an authentication error with the source system (Google Drive API). Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "Holy Spirit",
+      "knowing God",
+      "presence of God",
+      "remembrance",
+      "worship",
+      "mankind's forgetfulness",
+      "ministering to the Lord",
+      "perpetual decrees",
+      "intimacy with God",
+      "spiritual atmosphere",
+      "Levitical ministry",
+      "personal worship"
+    ],
+    "scriptures": [
+      "Jeremiah 9:23",
+      "Jeremiah 9:24",
+      "Exodus 33:16",
+      "Isaiah 59:1",
+      "Isaiah 59:2",
+      "Jeremiah 2:13",
+      "John 4",
+      "1 Timothy 6:16",
+      "2 Corinthians 4:6",
+      "Genesis 2:15",
+      "Genesis 2:16",
+      "John 14:26",
+      "Isaiah 55:11",
+      "Genesis 1",
+      "Jeremiah 5:22",
+      "2 Peter 3:5",
+      "2 Peter 3:6",
+      "2 Peter 3:7",
+      "Psalm 62:11",
+      "Genesis 41:32",
+      "Job 33:14",
+      "2 Timothy 2:20",
+      "John 7:37",
+      "John 4",
+      "Acts 13:2",
+      "Isaiah 43:7",
+      "Isaiah 43:21",
+      "Deuteronomy 10:8",
+      "Revelation 4:5"
+    ],
+    "keyScripture": "John 14:26",
+    "summary": "BJosh teaches that the Holy Spirit helps us know God primarily by reminding us of what God has already spoken, because mankind's fundamental problem is forgetfulness unlike the rest of creation which obeys God's perpetual decrees spoken once. He explains that God speaks once and does not repeat Himself, but humans constantly need reminders of His instructions, promises, and calling, which is why the Holy Spirit's ministry of bringing all things to our remembrance is essential for maintaining relationship with God. He emphasizes that believers must learn to enter God's presence through personal worship and singing, ministering to the Lord rather than just doing things for Him, as the Levites were called to stand before God and minister to Him without any other occupation."
   },
   {
     "id": 257,
     "driveId": "1l1JSi-Z3NqREdKP1_Pl3wP3nLYgfX3_b",
     "title": "08.13 - British Accra - Sweet Influen",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication credentials error (ACCESS_TOKEN_EXPIRED). No content is available for analysis."
+    "topics": [
+      "spiritual eyes",
+      "seeing in the spirit",
+      "seven spirits of God",
+      "eyes of understanding",
+      "Spirit of wisdom and revelation",
+      "natural eyes versus spiritual eyes",
+      "hope of calling",
+      "discerning spiritual reality",
+      "fall of man in Genesis",
+      "Holy Spirit opening eyes",
+      "God sees the heart not appearance",
+      "prophetic vision"
+    ],
+    "scriptures": [
+      "Genesis 1:27",
+      "Genesis 2:19",
+      "Genesis 3:1-7",
+      "Ephesians 3:16-20",
+      "Ephesians 1:17-19",
+      "Revelation 5:6",
+      "Isaiah 11:1-3",
+      "2 Kings 6:11-17",
+      "1 Samuel 16:6-7",
+      "Revelation 3:17-18",
+      "Revelation 19:11-15",
+      "John 14:18",
+      "John 4:24",
+      "Isaiah 6:1-5",
+      "Psalm 133",
+      "James 1:23-25",
+      "Psalm 16:7",
+      "Zechariah 4:10"
+    ],
+    "keyScripture": "Ephesians 1:17-18",
+    "summary": "Bishop Joshua teaches that God created humanity with spiritual eyes to see Him and spiritual realities, but when Adam and Eve sinned their spiritual eyes closed and natural eyes opened, causing them to see only the flesh and no longer see God. God has seven eyes which are seven spirits (wisdom, understanding, counsel, might, knowledge, fear of the Lord, and the Spirit of the Lord) that allow Him to judge not by outward appearance but by the heart and spirit. Through the Holy Spirit, believers can have their spiritual eyes reopened to see their true sinful state, see angels and spiritual realities, understand the hope of their calling, and discern what God sees rather than judging by natural sight."
   },
   {
     "id": 258,
     "driveId": "1BCTq0Mj5Zn6MU0wnXFkKIxULu6LYjyWt",
     "title": "12.12 - Three Strategies fo",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source system. No content is available for indexing at this time."
+    "topics": [
+      "quiet time",
+      "daily Bible reading",
+      "relationship with God",
+      "wisdom from Scripture",
+      "going deeper with God",
+      "consistency in devotion",
+      "setting practical time",
+      "unchangeable schedule",
+      "morning devotions",
+      "knowing God personally",
+      "Holy Spirit guidance",
+      "Biblical wisdom"
+    ],
+    "scriptures": [
+      "1 Timothy 3:15",
+      "Psalm 19",
+      "2 Timothy 3:15-17",
+      "Deuteronomy 4:5-6",
+      "Numbers 12",
+      "Genesis 3:8",
+      "Psalm 27:4"
+    ],
+    "keyScripture": "2 Timothy 3:15",
+    "summary": "Bishop Joshua teaches that having a regular, practical, and unchangeable quiet time is essential for building a deep personal relationship with God, emphasizing that reading the Bible daily makes you wise and transforms your life in ways that no other education or knowledge can. He stresses that the Bible is your wisdom in every area of life—not just in church—and that most Christians fail to read their Bibles consistently, missing out on the intimacy with God that comes only through dedicated time in His Word. The first key strategy he presents is to set a practical, unchangeable, and regular time for your quiet time, recommending early morning (5-6 AM) as the most effective time when there are no distractions."
   },
   {
     "id": 259,
     "driveId": "11yuVntOD8R3jKngBnO_mAiWK3rH4B73j",
     "title": "08.01 - How to Recognise the Number O",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API access token expired). No content is available for analysis."
+    "topics": [
+      "manifestation of the Holy Spirit",
+      "phanerosis",
+      "Holy Spirit as teacher",
+      "anointing and revelation",
+      "conviction of sin",
+      "understanding Scripture",
+      "quiet time",
+      "spiritual discernment",
+      "mysteries of the kingdom",
+      "wisdom from God's Word",
+      "personal relationship with Jesus",
+      "devotion to pastoral teaching"
+    ],
+    "scriptures": [
+      "1 Corinthians 12:7",
+      "Jeremiah 3:15",
+      "Jeremiah 3:16",
+      "Genesis 17:17",
+      "Luke 19",
+      "John 11:35",
+      "Matthew 8",
+      "John 9:22",
+      "John 14:16",
+      "John 16:5",
+      "John 16:6",
+      "John 16:7",
+      "John 16:26",
+      "1 John 2:27",
+      "1 Peter 1:20-21",
+      "2 Peter 1:20",
+      "2 Peter 1:21"
+    ],
+    "keyScripture": "John 16:26",
+    "summary": "Bishop Joshua teaches that the number one manifestation of the Holy Spirit is not falling down, crying, or other physical demonstrations, but the Holy Spirit teaching and revealing truth from Scripture to believers. He emphasizes that the Greek word 'phanerosis' means making the invisible visible, and the primary way God does this is through spiritual understanding and conviction when reading the Word. True transformation comes when the Holy Spirit, who authored Scripture, personally teaches each Christian in their quiet time, opening their eyes to mysteries and wisdom that change their lives practically."
   },
   {
     "id": 260,
     "driveId": "1PQHO7y4vaytVlxHvs-6UVJOWBVUNJ_ZU",
     "title": "08.08 - The Sweet Influence of the Holy Spirit - If I Am Not Spiritual, What Am I_",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API returned 401 UNAUTHENTICATED). Please verify access credentials and retry to retrieve the full sermon content for indexing."
+    "topics": [
+      "Holy Spirit",
+      "spirituality",
+      "inner man",
+      "flesh versus spirit",
+      "earthly wisdom",
+      "sensual wisdom",
+      "devilish wisdom",
+      "God's plan",
+      "prayer",
+      "spiritual building",
+      "yielding to the Spirit",
+      "being spirit-dominated"
+    ],
+    "scriptures": [
+      "1 Peter 2:5",
+      "Ephesians 5:18-20",
+      "Ephesians 3:16",
+      "Jude 1:19-20",
+      "Revelation 1:9-10",
+      "Galatians 5:7-8",
+      "1 Kings 22:20-21",
+      "James 3:15",
+      "1 John 2:15-16",
+      "1 Corinthians 2:6-7",
+      "Jeremiah 29:11",
+      "Proverbs 3:6",
+      "1 Corinthians 12:3",
+      "Colossians 3:1-2",
+      "Psalm 16:10-11"
+    ],
+    "keyScripture": "James 3:15",
+    "summary": "Bishop Joshua teaches that Christians are constantly being persuaded by one of three types of wisdom: earthly (focusing only on this life), sensual (led by the five senses and fleshly desires), or devilish (demonic), rather than being dominated by the Holy Spirit. He emphasizes that God has a specific architectural plan for every believer's life that leads to glory, but most Christians follow earthly wisdom in their decisions about marriage, career, and life direction instead of yielding to the Holy Spirit's influence. He calls believers to build up their spirit man through prayer and submission to the Holy Spirit, allowing Him to dominate and transform their lives from the inside out."
   },
   {
     "id": 261,
     "driveId": "18bL_td60za2BT-66x6FYGGpk8WCFKGXD",
     "title": "10.30 - Responding To The Call of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data could not be retrieved due to authentication errors with the source system. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "call of God",
+      "bearing fruit",
+      "fruitfulness",
+      "spiritual reproduction",
+      "soul winning",
+      "evangelism",
+      "preserving your species",
+      "Noah and the ark",
+      "seed time and harvest",
+      "identifying true Christians",
+      "spiritual pregnancy",
+      "multiplication"
+    ],
+    "scriptures": [
+      "John 15:16",
+      "Genesis 8:22",
+      "Genesis 9:1",
+      "Matthew 7:20",
+      "Genesis 7:3"
+    ],
+    "keyScripture": "John 15:16",
+    "summary": "Bishop Joshua teaches that God's primary call to every believer is to be fruitful and multiply spiritually by winning souls, regardless of their circumstances or season of life. He emphasizes that true Christians are identified not by their appearance, position, or religious activities, but by their spiritual fruit—the people they lead to Christ. He stresses that believers must reproduce their own 'species' in the church by evangelizing people from their own backgrounds, professions, and communities, or else those groups will become 'endangered species' and disappear from the church."
   },
   {
     "id": 262,
     "driveId": "1acxZcu3QLT5LCCERikJ6h_gEcNYpglFe",
     "title": "10.09 - Many Are Called",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication credentials error with the source API. No content is available for indexing."
+    "topics": [
+      "calling of God",
+      "reconciliation ministry",
+      "fruitfulness",
+      "good works",
+      "holy calling",
+      "salvation and calling together",
+      "ordained to bear fruit",
+      "purpose of salvation",
+      "ministry to all believers",
+      "desire as calling",
+      "afflictions of gospel",
+      "ordinary calling"
+    ],
+    "scriptures": [
+      "2 Timothy 1:8-9",
+      "2 Corinthians 5:17-18",
+      "Matthew 22:14",
+      "Ephesians 2:8-10",
+      "John 15:16"
+    ],
+    "keyScripture": "2 Timothy 1:9",
+    "summary": "Bishop Joshua teaches that when God saves a person, salvation comes with a calling—most Christians are called by God to do specific work for Him, particularly the ministry of reconciliation. He emphasizes that the call of God is primarily a call to bear fruit and reach others, not just to receive blessings, and that most people are called in ordinary ways through inner desire rather than spectacular visions. He challenges believers to recognize that they were created for good works and that God's provision flows when they prioritize their calling over personal ambitions like marriage, career, or education."
   },
   {
     "id": 263,
     "driveId": "1y3BvJYUoIlOdM67esU3q1G44DJTXNkyv",
     "title": "09.11 - The Good Samaritan",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "Good Samaritan parable",
+      "salvation through Christ alone",
+      "insufficiency of the law",
+      "journey from life to death",
+      "sin and spiritual death",
+      "compassion of Jesus",
+      "blood of Jesus",
+      "Holy Spirit power",
+      "wounds and healing",
+      "Christ's substitutionary exchange",
+      "rejection and despising of Christ",
+      "eternal life"
+    ],
+    "scriptures": [
+      "Luke 10:25-37",
+      "John 10",
+      "John 15",
+      "Isaiah 53:1-3",
+      "Luke 4:18",
+      "Revelation 7:13-14",
+      "Titus 3:5"
+    ],
+    "keyScripture": "Luke 10:25-37",
+    "summary": "Bishop Joshua teaches that the parable of the Good Samaritan is a prophetic story about Jesus rescuing humanity, who like the wounded man on the road from Jerusalem to Jericho, is half-dead in sin and unable to save themselves. He emphasizes that the priest and Levite (representing the law and prophets) could not save the wounded man, but only Jesus—the rejected Samaritan—came down from heaven with compassion to bind up our wounds by pouring in His blood for cleansing and the Holy Spirit for power. Christ exchanged places with us, getting down from His high position to lift us up, so that we who were half-dead in sin could be made alive and clothed in white robes washed in His blood."
   },
   {
     "id": 264,
     "driveId": "1mDUz-H8eCSXEYYpEjSDz-E0rAmL3FHdw",
     "title": "10.02 - The Blood of Jesus",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source document."
+    "topics": [
+      "Blood of Jesus",
+      "Atonement",
+      "Eternal redemption",
+      "Forgiveness of sins",
+      "Sacrifice",
+      "Abel's blood",
+      "Passover",
+      "Well-deserved punishment",
+      "Justification",
+      "Life through blood",
+      "Heaven's gates",
+      "Corruption and expiration"
+    ],
+    "scriptures": [
+      "Hebrews 6:5",
+      "Genesis 4:10",
+      "1 Peter 1:18-19",
+      "Hebrews 9:14",
+      "Leviticus 17:11"
+    ],
+    "keyScripture": "Hebrews 9:14",
+    "summary": "Bishop Heward-Mills teaches that the blood of Jesus is the only eternal, non-expiring solution to humanity's sin problem, contrasting it with all previous blood sacrifices throughout history that were temporary and corruptible. He emphasizes that the blood's power comes from Jesus being conceived by the Holy Spirit, making His blood half-spiritual and therefore eternal, able to wash away sins from Abel's time to the present day without losing potency. He declares that no human merit, money, beauty, or good works can save anyone from their well-deserved punishment—only accepting and applying the blood of Jesus brings forgiveness, justification, spiritual life, and access to heaven."
   },
   {
     "id": 265,
     "driveId": "1oRV8B8DhDQk2UH4n_Uwe4Myevby8FCLI",
     "title": "10.16 - The Characteristics of a Call",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process request. The sermon transcript failed to load due to authentication error with the source document. Please verify access credentials and retry to enable proper indexing of this sermon's content."
+    "topics": [
+      "call of God",
+      "divine employment",
+      "working for God",
+      "God's provision",
+      "failure and redemption",
+      "unworthiness",
+      "Moses' calling",
+      "seeking God's kingdom first",
+      "Holy Spirit empowerment",
+      "characteristics of the called",
+      "God's payroll",
+      "ministry calling"
+    ],
+    "scriptures": [
+      "Psalm 27:1",
+      "Matthew 22:14",
+      "Exodus 3:11",
+      "Psalm 37:25",
+      "Luke 4:35"
+    ],
+    "keyScripture": "Exodus 3:11",
+    "summary": "Bishop Heward-Mills teaches that God specifically calls failures and unworthy people to work for Him, using Moses as the primary example of someone who felt inadequate but was chosen by God. He emphasizes that working for God is actual employment with divine compensation both on earth and in heaven, superior to any earthly job, and that believers should seek God's kingdom first rather than focusing on earthly problems. He stresses that God looks at the heart of the worker, not their qualifications or background, and that those who feel disqualified by past failures are precisely the candidates God is searching for."
   },
   {
     "id": 266,
     "driveId": "1z2WAac6YlaYPfaofoRBcjAmeetXRiw2B",
     "title": "10.23 - The Limitation of Gods Callin",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document (expired access token). No content is available to analyze for topics, scriptures, or teaching summary."
+    "topics": [
+      "limitation of calling",
+      "body of Christ",
+      "collective ministry",
+      "supernatural heroes",
+      "completeness of Jesus",
+      "measured anointing",
+      "soul winning",
+      "evangelism responsibility",
+      "mind of Christ",
+      "feelings for the lost",
+      "corporate mission",
+      "individual calling limitations"
+    ],
+    "scriptures": [
+      "Matthew 16:18",
+      "John 3",
+      "Luke 7",
+      "Luke 19",
+      "Ephesians 4",
+      "John 3:34",
+      "John 1:16",
+      "Ephesians 4:16",
+      "1 Corinthians 2:16",
+      "Psalm 107:21",
+      "Psalm 107:24"
+    ],
+    "keyScripture": "Ephesians 4:16",
+    "summary": "Bishop Heward-Mills teaches that no individual pastor or Christian leader can be a superhero like Jesus Christ, who alone possessed the fullness of the Spirit without measure as the complete apostle, prophet, evangelist, pastor, and teacher. He emphasizes that since Jesus ascended, the body of Christ—every church member together—must collectively carry out the work of soul winning and evangelism, each contributing their measured portion of anointing. He challenges Christians to move beyond self-centered Christianity and embrace the mind, feelings, and purposes of Christ for the lost world, particularly in preparation for their upcoming outreach Sunday."
   },
   {
     "id": 267,
     "driveId": "1UcqO2Wrg12JApw-lBKck-vgaOlr8IF8k",
     "title": "08.21 - Jesus and the man sick of Pal",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication credentials error with the source document. No content is available to index for this sermon titled 'Jesus and the man sick of Pal'."
+    "topics": [
+      "paralysis",
+      "neurological disease",
+      "lack of control",
+      "pride as obstacle",
+      "four friends carrying",
+      "personal encounter with Jesus",
+      "fatherless existence",
+      "humility before honor",
+      "Jesus in His house",
+      "house of God power",
+      "foolishness of preaching",
+      "salvation through Jesus alone"
+    ],
+    "scriptures": [
+      "Mark 2:1",
+      "Genesis 28:16",
+      "Genesis 28:17",
+      "Hebrews 10:25",
+      "1 Corinthians 1:21",
+      "Acts 17:27",
+      "Matthew 1:21",
+      "Romans 7:18-19",
+      "Proverbs 15:33",
+      "John 14:18",
+      "Psalm 27:10",
+      "1 Timothy 2:5",
+      "Mark 1:21"
+    ],
+    "keyScripture": "Mark 2:1-12",
+    "summary": "BJosh teaches that the man sick of palsy represents those whose minds want to obey God but whose bodies (flesh) won't respond, creating a neurological spiritual disconnect where people cannot control their sinful actions despite their intentions. He emphasizes that while four friends can carry you to Jesus (through family, pastors, witnesses), none of them can actually save you—only a personal encounter with Jesus Christ Himself brings salvation. The main obstacle preventing people from reaching Jesus is pride, which must be removed like the roof was removed, requiring humility to bow before Christ as Lord and Master rather than negotiating with Him as an equal."
   },
   {
     "id": 268,
     "driveId": "18MuDbxOgB_756W9Js2SNOl9bS3VzJX-B",
     "title": "11.06 - Seek Ye First the Kingdom",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript data could not be retrieved due to authentication errors with the source API (Google Drive access token expired). Without access to the actual sermon content, topic keywords, biblical references, and teaching summary cannot be extracted."
+    "topics": [
+      "Seeking God's Kingdom First",
+      "Prosperity Through Service",
+      "God's Wisdom vs World's Wisdom",
+      "Divine Provision",
+      "Evangelism and Soul Winning",
+      "Supernatural Clothing and Blessing",
+      "Changed Mindset",
+      "Working for God's Kingdom",
+      "Rejecting Worldly Thinking",
+      "Ministry Over Career",
+      "God's Way of Wealth",
+      "Church Building"
+    ],
+    "scriptures": [
+      "Matthew 6:25",
+      "Matthew 6:26",
+      "Matthew 6:28",
+      "Matthew 6:29",
+      "Matthew 6:30",
+      "Matthew 6:32",
+      "Matthew 6:33",
+      "Luke 21:38",
+      "Habakkuk 2:1",
+      "Habakkuk 2:2",
+      "Nehemiah 8:2",
+      "Nehemiah 8:3",
+      "Nehemiah 8:4",
+      "Nehemiah 8:5",
+      "Nehemiah 8:6",
+      "Isaiah 55:6",
+      "Isaiah 55:7",
+      "Isaiah 55:8",
+      "1 Kings 3:3",
+      "1 Kings 3:11",
+      "1 Kings 3:12",
+      "1 Kings 3:13",
+      "1 Corinthians 2:6",
+      "2 Timothy 3:15",
+      "Psalm 19:7",
+      "John 10:35",
+      "Luke 19:10"
+    ],
+    "keyScripture": "Matthew 6:33",
+    "summary": "Bishop Joshua teaches that God's way to prosperity is radically different from the world's approach of planning, saving, and career-building—instead, believers must seek God's Kingdom first by focusing on evangelism, soul-winning, and building the church, and God will supernaturally add all material needs. He emphasizes that the Holy Spirit must change how Christians think, rejecting worldly wisdom about money and success in favor of God's hidden wisdom that prioritizes ministry over personal financial planning. He testifies from his own life that by dedicating himself completely to preaching and church work as a student without work experience or savings plans, God prospered him beyond what planning could achieve."
   },
   {
     "id": 269,
     "driveId": "1z6Jf3p7C6KrjO0QFusI0bkV-34SJiefl",
     "title": "09.25 - The Kingdom of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source system (expired OAuth 2 access token). Please verify the transcript is accessible and retry indexing."
+    "topics": [
+      "Kingdom of God",
+      "Born Again",
+      "Citizenship in Heaven",
+      "Translation from Darkness",
+      "Spiritual Immigration",
+      "Violence and the Kingdom",
+      "Passports and Kingdoms",
+      "Benefits of the Kingdom",
+      "Righteousness Peace and Joy",
+      "Eternal Destination",
+      "Taking the Kingdom by Force",
+      "Salvation and Conversion"
+    ],
+    "scriptures": [
+      "John 3:1",
+      "John 3:2",
+      "John 3:3",
+      "Colossians 1:13",
+      "Psalm 19:7",
+      "Matthew 6:33",
+      "Matthew 11:12",
+      "Romans 14:17",
+      "John 18:36"
+    ],
+    "keyScripture": "John 3:3",
+    "summary": "BJosh teaches that everyone is born into the kingdom of darkness but must violently and determinedly seek entrance into the Kingdom of God through being born again, just as immigrants desperately fight to enter earthly kingdoms. He emphasizes that earthly citizenship and passports will not matter at heaven's gates—only belonging to the Kingdom of God through having the Son of God matters. Using vivid stories of illegal immigration journeys, he illustrates that taking the Kingdom requires the same desperate force and determination, and invites listeners to change their spiritual immigration status before it's too late."
   },
   {
     "id": 270,
     "driveId": "1yHANmDFYeLJdXTQeQ0dtxxGuKAHdEImL",
     "title": "08.01 - How to Recognise the number One Manifestation of The Holy Spirit - Gathering Service",
-    "topics": [],
+    "topics": [
+      "Holy Spirit manifestation",
+      "Holy Spirit presence",
+      "worship and praise",
+      "drawing closer to God",
+      "spiritual revelation",
+      "anointing",
+      "transformation",
+      "knowing God more"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication credentials error (OAuth 2.0 access token expired). Please reupload the sermon transcript or provide valid access to the source material."
+    "summary": "This transcript appears to be primarily a worship service with songs and prayers rather than a teaching sermon. The focus is on inviting the Holy Spirit's presence and asking God to reveal Himself more deeply to the congregation. The prayers emphasize being changed by the Holy Spirit, drawing closer to God, and experiencing the reality of the living God rather than knowing a dead religion."
   },
   {
     "id": 271,
     "driveId": "1hU5NcPQ4_MTJFBxeBJeXzVgJ9vUrnj3N",
     "title": "02.24 - Jesus, A Man of Anointing and Miracles - ABMTC",
-    "topics": [],
+    "topics": [
+      "anointing",
+      "miracles",
+      "Holy Spirit",
+      "transformation",
+      "God's presence",
+      "worship",
+      "prayer",
+      "divine touch"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript content failed to load due to authentication error with the source document. No teaching content is available to index."
+    "summary": "This transcript captures only the opening worship and prayer segment of the sermon, not the actual teaching content. Bishop Heward-Mills leads the congregation in worship songs declaring there is none like Jesus and surrendering their hearts to God. He prays for the Holy Spirit to teach, speak, guide, and transform the people into Christ's image through the anointing and power of God."
   },
   {
     "id": 272,
     "driveId": "1bQwyIFN7xQCJ533zEenhwsBOx2jGedSk",
     "title": "02.25 - Jesus, The First and The Last - ATU",
-    "topics": [],
+    "topics": [
+      "worship",
+      "healing",
+      "divine presence",
+      "miracles",
+      "sickness",
+      "infirmity",
+      "salvation",
+      "Holy Spirit",
+      "deliverance",
+      "physical healing",
+      "Jesus Christ",
+      "throne of God"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication errors with the source document. No content is available for indexing at this time."
+    "summary": "This transcript captures a worship and healing service rather than a traditional sermon teaching. Bishop Heward-Mills leads the congregation in worship songs focused on God's uniqueness and becoming more like Jesus. He prays for physical healing, declaring that various ailments like swelling, lumps, headaches, migraines, and pain are disappearing as Jesus touches people, and he intercedes for souls to be saved from hell."
   },
   {
     "id": 273,
     "driveId": "1cYnI_yVphfqNB9ASe2_xmLoDvJqZz2Gj",
     "title": "06.24 - The Voice of the Word - Leaders Service",
-    "topics": [],
+    "topics": [
+      "worship",
+      "God's presence",
+      "healing",
+      "power of God",
+      "intimacy with God",
+      "trust",
+      "friendship with God",
+      "divine encounter"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API access token expired). Please provide the sermon transcript text directly to enable proper indexing."
+    "summary": "This transcript appears to capture only the worship and prayer portion of the service, not the actual sermon teaching. The content consists primarily of sung worship lyrics and spontaneous prayer declarations. No specific doctrinal teaching from Bishop Heward-Mills is present in this transcript segment."
   },
   {
     "id": 274,
     "driveId": "1al-HDFgkpbe6Uvr6JOnbDAir0RR4qOSC",
     "title": "10.16 - The Characteristics of A Called Christian - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "Holy Spirit infilling",
+      "speaking in tongues",
+      "spiritual transformation",
+      "divine calling",
+      "spiritual renewal",
+      "yielding to the Spirit",
+      "spiritual edification",
+      "consecration",
+      "spiritual empowerment",
+      "intimacy with God"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source document. Please provide the sermon transcript text to generate an accurate index."
+    "summary": "Bishop Heward-Mills leads an extended worship and Holy Spirit encounter session focused on being filled with the Holy Ghost and speaking in tongues. He emphasizes yielding to the Holy Spirit for transformation, strengthening, and spiritual building up through tongues-speaking. He teaches that the Holy Spirit's work changes believers, empowers them to say no to sin, and enables them to walk in their divine calling at a new level."
   },
   {
     "id": 275,
     "driveId": "1H5RRHE4eKhCCmKTU6ZiJOVBw4ETiI8QR",
     "title": "07.13 - By His Stripes - Dansoman",
-    "topics": [],
+    "topics": [
+      "worship",
+      "healing",
+      "salvation",
+      "Holy Spirit",
+      "prayer",
+      "breakthrough",
+      "miracles",
+      "surrender",
+      "grace",
+      "faith",
+      "presence of God",
+      "woman at the well"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content is available for analysis."
+    "summary": "This transcript captures a worship service rather than a traditional sermon teaching segment. The focus is on leading the congregation in songs of worship and prayer, invoking the presence of the Holy Spirit and declaring God's worthiness. Prayer is offered for miracles, breakthroughs, solutions, and for God's hand to be mighty to save those in need."
   },
   {
     "id": 276,
     "driveId": "1JVT73BQk9mHNuG6rfXq8YOYl22SKDaxu",
     "title": "10.23 - The Limitation of God_s Calling - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "calling of God",
+      "Holy Spirit",
+      "sacrifice of praise",
+      "obedience",
+      "serving God",
+      "presence of God",
+      "tongues",
+      "worship"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content is available for analysis."
+    "summary": "This transcript appears to be primarily a worship and prayer session rather than a traditional teaching sermon. Bishop Heward-Mills leads the congregation in extended speaking in tongues and worship, asking the Holy Spirit to touch and influence the people. He prays for people to perceive God's calling on their lives and for those who struggle to obey and serve God to be filled with the Holy Spirit."
   },
   {
     "id": 277,
     "driveId": "1_uYIGTRUkfRF0bg3tBJ2HDpasgtXAo1E",
     "title": "06.01 - The Presence of The Holy Spirit Pt. 1 - City Church",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "presence of God",
+      "worship",
+      "tongues",
+      "prayer",
+      "spiritual depth",
+      "intimacy with God",
+      "heart's desire"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "summary": "This transcript captures the opening worship and prayer portion of the sermon rather than the teaching content. Bishop Joshua Heward-Mills leads the congregation in praying in tongues and worship songs focused on drawing deeper into God's presence. The congregation is encouraged to pray for themselves and allow the Holy Spirit to touch and speak to them during the service."
   },
   {
     "id": 278,
     "driveId": "1KZuu0IaTJnHp3rORuOa7tVNKudo1pgdJ",
     "title": "11.27 - Proton and Relationship - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "worship",
+      "surrender",
+      "stillness",
+      "Holy Spirit",
+      "trust",
+      "waiting on God",
+      "divine guidance",
+      "blood of Jesus"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content is available for analysis."
+    "summary": "This transcript appears to be primarily worship songs and prayer rather than a teaching sermon. The focus is on surrendering one's heart and life to God, declaring trust in Him alone, and waiting in stillness for the Holy Spirit to work. The speaker leads the congregation in worship and prayer, emphasizing being still before God, trusting His direction, and pleading the blood of Jesus for covering and cleansing from sin."
   },
   {
     "id": 279,
     "driveId": "1Hom9mOjq3aXVJslu8vLfQo6jK59f5qZq",
     "title": "07.27 - What Is The Manifestation of The Holy Spirit - Legon",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "presence of God",
+      "love of God",
+      "worship",
+      "healing",
+      "Holy Ground",
+      "encounter with God",
+      "being filled",
+      "consecration",
+      "transformation"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please verify access permissions and resubmit the transcript content for proper indexing."
+    "summary": "This transcript captures a worship and prayer segment rather than a traditional sermon teaching. Bishop Heward-Mills leads the congregation in worship, emphasizing the presence of the Holy Spirit and inviting God's presence to fill the place. He prays for the congregation to encounter God's presence, be filled with the love of God through the Holy Spirit, and experience transformation and healing."
   },
   {
     "id": 280,
     "driveId": "1gEkGngmeFHdu9pr9EAAMPFdUMHWCYR8i",
     "title": "10.02 - The Blood of Jesus - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "speaking in tongues",
+      "Holy Spirit filling",
+      "spiritual transformation",
+      "intercession",
+      "surrender to God",
+      "blood of Jesus",
+      "washing from sin",
+      "spiritual worship",
+      "breaking strongholds",
+      "God's presence"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 Unauthenticated). Please verify access credentials and retry."
+    "summary": "Bishop Heward-Mills leads an extended time of corporate prayer in tongues, emphasizing that speaking in tongues brings transformation and breaks strongholds in believers' lives. He encourages everyone, including pastors, to participate without self-consciousness, explaining that speaking in tongues operates in the spiritual realm and changes things. The service transitions into worship focused on surrender to God and being washed by the blood of Jesus from sin."
   },
   {
     "id": 281,
@@ -3340,493 +8610,1741 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please verify the source document is accessible and retry."
+    "summary": "This transcript contains only worship songs and opening prayers without any teaching content. No biblical exposition or doctrinal instruction is present in this segment. The transcript appears to be the introductory worship portion before the actual sermon begins."
   },
   {
     "id": 283,
     "driveId": "1oclDr2OtuTGA3CC790XKrzca53TLi_B1",
     "title": "07.07 - Jesus Is Anointed For You - Kwabenya",
-    "topics": [],
-    "scriptures": [],
+    "topics": [
+      "anointing",
+      "Holy Spirit",
+      "transformation",
+      "healing",
+      "miracles",
+      "surrender",
+      "breakthrough",
+      "speaking in tongues",
+      "presence of God",
+      "divine touch",
+      "emptiness filled",
+      "prayer requests"
+    ],
+    "scriptures": [
+      "Revelation 1"
+    ],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication credentials error (OAuth 2 access token expired). No sermon content is available for indexing."
+    "summary": "Bishop Joshua teaches that Jesus is anointed specifically for the benefit of believers and that this anointing brings transformation, healing, and filling of every empty area in their lives. He instructs the congregation to actively pray in tongues and surrender everything to Jesus, believing that God's anointing is grace that flows to meet their specific needs. He emphasizes making particular prayer requests known to God about every problem, whether concerning houses, sleep, or any other issue, trusting for breakthrough and provision in that very service."
   },
   {
     "id": 284,
     "driveId": "1skL7CS0yIwhP645FhGrCNnQK9cjecdxZ",
     "title": "08.21 - Jesus and the Man Sick of Palsy - Gospel Encounter",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript content failed to load due to an authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "worship",
+      "presence of God",
+      "entering God's presence",
+      "singing",
+      "praise",
+      "peace of mind",
+      "stony heart",
+      "heart of flesh",
+      "Ezekiel prophecy",
+      "Holy Spirit conviction",
+      "transformation",
+      "mindset"
+    ],
+    "scriptures": [
+      "Psalm 100:2",
+      "Ezekiel 36:26"
+    ],
+    "keyScripture": "Psalm 100:2",
+    "summary": "Bishop Joshua teaches that believers can transition from their daily concerns into God's presence through worship and singing, referencing Psalm 100's instruction to come before His presence with singing. He emphasizes that worship involves closing your eyes, lifting your hands, thinking about God, and meaning the words you sing. He prays for the Holy Spirit to remove stony hearts and replace them with hearts of flesh, citing God's promise in Ezekiel to transform people's hearts."
   },
   {
     "id": 285,
     "driveId": "1D3Wo-HbjCRCPhbIIxbqQdQQB79H1f7Iv",
     "title": "06.30 - The Sweet Influences of The Holy Spirit on Your Becoming A Pastor - ABMTC",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "prayer in tongues",
+      "spiritual transformation",
+      "presence of God",
+      "worship",
+      "pastoral training",
+      "spiritual encounter",
+      "divine guidance",
+      "spiritual renewal",
+      "intimacy with God",
+      "deception of the enemy",
+      "spiritual empowerment"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document (Google Drive API access token expired). Please provide the sermon transcript text to enable proper indexing."
+    "summary": "Bishop Heward-Mills leads an extended prayer and worship session focused on inviting the Holy Spirit's presence and transformation. He emphasizes the need for spiritual encounter, asking the Holy Spirit to reveal hidden things, expose deception from the enemy and the world, and bring personal change to those in ministry training. The teaching centers on creating an atmosphere of worship and surrender where participants can experience the manifest presence of God and develop a friendship with the Holy Spirit."
   },
   {
     "id": 286,
     "driveId": "1WCabyYcQ0fudTYatI7OtiEsIfgSYAEcr",
     "title": "12.12 - Three Strategies for an Effective Quiet Time - Gathering Service",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "prayer",
+      "asking God",
+      "anointing",
+      "God's presence",
+      "worship",
+      "guidance into truth",
+      "expectation of the righteous"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). No content available for analysis."
+    "summary": "Bishop Joshua Heward-Mills teaches that the Holy Spirit is given to those who ask, not to those who deserve it or are good. He emphasizes praying for the Holy Spirit to guide believers into all truth, as Jesus promised. He instructs the congregation to pray for God's anointing and presence, referencing that where two or three are gathered, God is present with them."
   },
   {
     "id": 287,
     "driveId": "1A2eaI2l4-B8hD2B7Ha4bLpdrid4_-77w",
     "title": "10.30 - Responding To The Call of God - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "speaking in tongues",
+      "entering the Spirit",
+      "leaving the flesh",
+      "prayer in the Spirit",
+      "Holy Spirit baptism",
+      "worship and adoration",
+      "surrendering to God",
+      "breaking yokes",
+      "spiritual hunger",
+      "transformation and renewal",
+      "pleading the blood",
+      "presence of God"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document (expired OAuth access token). A valid transcript is required to extract topics, scriptures, and teaching content."
+    "summary": "Bishop Heward-Mills teaches that the fastest way to leave the realm of the flesh and enter the realm of the Spirit is to pray in tongues and speak in the Spirit out loud, not whisper. He emphasizes that miracles and life transformation happen in the Spirit, and anyone can enter this realm regardless of their current spiritual condition by speaking in tongues. He leads the congregation into extended worship and prayer in the Spirit, declaring that God breaks yokes of sin and wickedness when people hunger for His presence rather than material things."
   },
   {
     "id": 288,
     "driveId": "1lbAFEZDw4_-iQdZJ30HOoMM9n48sDYvt",
     "title": "07.14 - Come Unto Me - Korle Bu",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. Please verify the document access permissions and resubmit the transcript for indexing."
+    "topics": [
+      "expectation from God",
+      "salvation",
+      "healing",
+      "Holy Spirit",
+      "presence of God",
+      "quenching spiritual thirst",
+      "supernatural power",
+      "miracles",
+      "worship",
+      "speaking in tongues",
+      "woman at the well",
+      "divine touch"
+    ],
+    "scriptures": [
+      "Matthew 11"
+    ],
+    "keyScripture": "Matthew 11",
+    "summary": "Bishop Heward-Mills emphasizes that Jesus never did anything for anyone who was not expectant, urging the congregation to actively expect God's intervention in their lives. He draws on the imagery of the woman at the well, teaching that only Jesus can satisfy spiritual thirst with living water that never runs dry. He prays for God's supernatural touch, healing, and miracles to manifest among those gathered who are seeking and expecting from God.",
+    "searchableText": "come unto me expectation healing salvation holy spirit touch miracles supernatural woman at well living water quench thirst worship presence of god"
   },
   {
     "id": 289,
     "driveId": "1zJHYCvQ_V0b7JvKll5_orF_NO0xnb5o6",
     "title": "08.08 - How You Can Become A Spiritual Christian Pt. 2 - Rising Stars",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "spiritual transformation",
+      "divine presence",
+      "worship",
+      "prayer",
+      "spiritual encounter",
+      "seeking God",
+      "personal change"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please verify access permissions and retry with valid authentication."
+    "summary": "This transcript captures only the opening prayer and worship portion of the sermon, not the actual teaching content. Bishop Heward-Mills prays for the Holy Spirit's presence to fill the place and for God to speak to the attendees. He encourages the congregation to pray that God would change their lives and give them an encounter with Him, emphasizing that people should not leave the same as they came."
   },
   {
     "id": 290,
     "driveId": "114_LE7O2tyQFt3W4w3TslSnnVHk4sMyJ",
     "title": "06.10 - The Voice of the Holy Spirit - City Church",
-    "topics": [],
+    "topics": [
+      "Holy Spirit",
+      "voice of God",
+      "divine presence",
+      "spiritual healing",
+      "hearing God's voice",
+      "welcoming the Spirit",
+      "Holy Spirit encounter",
+      "supernatural touch"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript data could not be retrieved due to authentication errors with the source system. Please verify access credentials and try indexing again."
+    "summary": "This transcript captures only the opening prayer and worship portion of the sermon, where BJosh leads the congregation in inviting the Holy Spirit's presence. He instructs listeners to open their hearts and ask the Holy Spirit to speak to them and show them His realm. The focus is on welcoming the Holy Spirit's voice, presence, and healing power into the gathering."
   },
   {
     "id": 291,
     "driveId": "1QX5Qbn3CwPMT1WYR8-QTmpPYy5Q5sBT4",
     "title": "07.31 - Not Everyone Who Calls Me Lord Shall Enter the Kingdom - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "kingdom of heaven",
+      "salvation",
+      "lordship",
+      "false profession",
+      "true discipleship",
+      "obedience",
+      "deception",
+      "entering heaven"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source document. No indexing data can be generated without access to the sermon transcript."
+    "summary": "This transcript contains only the worship and opening prayer portion of the sermon, not the actual teaching content. Bishop Heward-Mills leads the congregation in worship and prayer, asking God to speak to hearts and reveal His plans. The actual sermon teaching referenced in the title about not everyone who calls Him Lord entering the kingdom has not yet begun in this transcript segment."
   },
   {
     "id": 292,
     "driveId": "1y4Bcsh0_2-ZsTeJc6pLD5aFOl1d3-MOQ",
     "title": "06.22 - Be Led by the Spirit of God - Leaders Service",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon transcript. Authentication error encountered when attempting to retrieve sermon content from source. Please verify access credentials and resubmit transcript for indexing."
+    "topics": [
+      "Holy Spirit",
+      "being led by the Spirit",
+      "surrender",
+      "being filled with the Spirit",
+      "spiritual hunger",
+      "God's presence",
+      "being used by God",
+      "deeper intimacy with God",
+      "consecration",
+      "spiritual leadership",
+      "yielding to God",
+      "personal transformation"
+    ],
+    "scriptures": [
+      "Ephesians 3:16"
+    ],
+    "keyScripture": "Ephesians 3:16",
+    "summary": "BJosh teaches that leaders must surrender everything—their hands, feet, hearts, ambitions, hopes, and plans—to be used by the Holy Spirit. He emphasizes that the Holy Spirit is a real person who wants to fill, speak to, and lead believers into deeper intimacy with God beyond where they currently are. He stresses that being led by the Spirit requires hunger for God's presence and willingness to walk away from anything that is not God's will, with success in ministry depending on one's ability to surrender to the Spirit."
   },
   {
     "id": 293,
     "driveId": "1CPe6xLaNhP9yseklo72CBNKXjHUUAnjW",
     "title": "12.11 - Proton and Our Faults - Gospel Encounter",
-    "topics": [],
+    "topics": [
+      "spirit of faith",
+      "prayer",
+      "worship",
+      "God's kingdom",
+      "holiness",
+      "God's presence",
+      "believing God",
+      "mixing faith with the word"
+    ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API access token expired). No sermon content is available for analysis."
+    "summary": "Bishop Heward-Mills leads the congregation in prayer specifically asking for the spirit of faith to help believers trust God. He emphasizes the need for God's word to be mixed with faith so it can bring profit and blessing to the people. He intercedes for God's kingdom to be established, for holiness through Jesus' blood, and for God's presence and anointing to rest upon the gathering."
   },
   {
     "id": 294,
     "driveId": "1a5tEgrwiR1QnIOpLHjxLiVtCP6W7ktm0",
     "title": "2020.01.25_FLCC_Quiet Time",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with Google Drive API (expired access token). Please verify credentials and resubmit the transcript content."
+    "topics": [
+      "quiet time",
+      "personal relationship with God",
+      "spiritual warfare",
+      "knowing God intimately",
+      "Christian maturity",
+      "overcoming sin",
+      "power of God's Word",
+      "spiritual strength",
+      "sanctification",
+      "prayer life",
+      "spiritual discipline",
+      "divine intimacy"
+    ],
+    "scriptures": [
+      "Nahum 2:1",
+      "Isaiah 57:15",
+      "Matthew 7",
+      "Daniel 11:33",
+      "Job 22:21",
+      "Job 22:22",
+      "Psalm 50",
+      "Psalm 73:25",
+      "Job 22:24",
+      "Galatians 6:14",
+      "Revelation 12"
+    ],
+    "keyScripture": "Job 22:21",
+    "summary": "BJosh teaches that true spiritual strength and breakthrough come only through personal quiet time with God, not through corporate worship, church attendance, or following pastors. He emphasizes that Christians must develop an intimate, private relationship with God by reading His Word daily and praying alone, because this is how believers are built up spiritually, overcome sin, and receive divine help for life's challenges. He warns that many Christians are weak and immature because they lack this personal acquaintance with God, making them unable to stand against temptation or access God's provision when they need it most."
   },
   {
     "id": 295,
     "driveId": "1aRoyIhU0ann9kUzl8wberr06KGx4c_zq",
     "title": "Art of Hearing - City Church - October 29th ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "hearing from God",
+      "divine guidance",
+      "obedience to God's voice",
+      "seeking God's will",
+      "prosperity through obedience",
+      "prayer and decision-making",
+      "consequences of disobedience",
+      "God's plans for believers",
+      "spiritual discernment",
+      "following God's direction",
+      "repentance",
+      "sexual purity"
+    ],
+    "scriptures": [
+      "Psalm 10:4",
+      "Jeremiah 29:11",
+      "Isaiah 48:18"
+    ],
+    "keyScripture": "Jeremiah 29:11",
+    "summary": "BJosh teaches that many Christians fail to prosper because they do not actively seek and listen to God's guidance before making major life decisions about career, marriage, location, and ministry. He emphasizes that God has specific plans for each believer's welfare and future, and that obedience to God's voice—even when it seems counterintuitive—leads to greater peace and prosperity than following one's own reasoning. He shares personal testimonies of how seeking God through prayer before major decisions (university choice, job changes, marriage) led him to paths that seemed difficult initially but resulted in greater blessing than the seemingly better worldly options.",
+    "keyTopics": []
   },
   {
     "id": 296,
     "driveId": "1T05Ict6tYGURkWQQontKiJAyie2n9x2F",
     "title": "2020.06.23_FLCC_Barren Because You Are Blind to Hell",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error retrieving transcript. The sermon title suggests teaching on spiritual blindness regarding hell and its connection to barrenness, but specific content, topics, scriptures, and teaching details cannot be indexed without access to the full transcript."
+    "topics": [
+      "barrenness",
+      "fruitfulness",
+      "spiritual blindness",
+      "hell",
+      "calling",
+      "evangelism",
+      "spiritual eyes",
+      "Moses",
+      "rich man and Lazarus",
+      "soul winning",
+      "keys of hell and death",
+      "inner man vs outer man"
+    ],
+    "scriptures": [
+      "John 15:8",
+      "2 Peter 1:8-9",
+      "Luke 4:18",
+      "Hebrews 11:24-27",
+      "Luke 16:19-31",
+      "Isaiah 14:9",
+      "2 Corinthians 4:16",
+      "Ephesians 3:16",
+      "Revelation 1:12-18"
+    ],
+    "keyScripture": "2 Peter 1:8-9",
+    "summary": "Bishop Heward-Mills teaches that spiritual barrenness in Christians is caused by spiritual blindness, specifically blindness to the reality of hell. He explains that when our spiritual eyes are opened to see hell—like the rich man in Luke 16 who became hell's evangelist after death—we become activated in our calling to win souls and bear fruit. The solution to barrenness is having our spiritual eyes opened to see invisible realities like hell, heaven, and eternal judgment, which transforms our values and motivates us to fulfill the Great Commission."
   },
   {
     "id": 297,
     "driveId": "1mveV_ondhftOs32uDrg4XfoEOUeWOkGJ",
     "title": "2020.03.14_FLCC_The Sweet Influence of the Holy Spirit on your Knowledge of God",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "topics": [
+      "Holy Spirit",
+      "knowing God personally",
+      "difficulty of Christian life",
+      "obedience to God",
+      "relationship versus belief",
+      "prayer and meditation",
+      "righteousness through Christ",
+      "temple veil torn",
+      "walking with God",
+      "spiritual versus fleshly confidence",
+      "mystery of godliness",
+      "Holy Spirit as teacher"
+    ],
+    "scriptures": [
+      "1 John 2:3",
+      "1 John 2:4",
+      "1 Timothy 3:16",
+      "Acts 13",
+      "Matthew 11:29",
+      "Ezekiel 16:4",
+      "Psalm 103:7",
+      "Philippians 3:1",
+      "Philippians 3:2",
+      "Philippians 3:3",
+      "Philippians 3:4",
+      "Philippians 3:5",
+      "Philippians 3:6",
+      "Philippians 3:7"
+    ],
+    "keyScripture": "1 John 2:3",
+    "summary": "Bishop Joshua teaches that being a Christian is impossible through human effort alone, but becomes easier when you truly know God personally rather than merely believing in His existence. He explains that the Holy Spirit's primary role is to help believers develop an intimate, personal relationship with God, which makes obedience and Christian living natural rather than a struggle. The key to keeping God's commandments is not trying harder but knowing God deeply, as demonstrated in 1 John 2:3-4, where knowing Him makes keeping His commands possible.",
+    "keywords": "Holy Spirit, knowledge of God, personal relationship, Christian obedience, knowing versus believing, walking with God, righteousness through Christ, spiritual worship"
   },
   {
     "id": 298,
     "driveId": "17TLC1Fzn0IoKzok4wzfkQKI_8HVTynN5",
     "title": "2020.02.01_FLCC_STEPS TO AN EFFECTIVE QUIET TIME 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication failure with the source system. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "quiet time",
+      "hearing God's voice",
+      "Holy Spirit guidance",
+      "step-by-step direction",
+      "entering God's presence",
+      "courts of the Lord",
+      "thanksgiving and praise",
+      "scripture interpretation",
+      "Holy Spirit as teacher",
+      "removing the veil",
+      "effective Bible reading",
+      "spiritual realm"
+    ],
+    "scriptures": [
+      "Genesis 21",
+      "Genesis 22",
+      "Genesis 22:1",
+      "James 1:13",
+      "Psalm 100:4",
+      "Psalm 84:10",
+      "2 Timothy 3:15-16",
+      "Psalm 92:13",
+      "1 Peter 1:20",
+      "2 Peter 1:20",
+      "2 Peter 1:21",
+      "1 John 2:27",
+      "John 1:1",
+      "Genesis 1:1",
+      "John 10:35",
+      "John 11:35",
+      "John 3:16",
+      "1 John 1:9",
+      "Micah 6:8",
+      "Zechariah 4:6",
+      "Matthew 6:33",
+      "Romans 8:1",
+      "Romans 8:26",
+      "Romans 8:28",
+      "Psalm 119:105",
+      "Psalm 118:17",
+      "Mark 8:36",
+      "John 3:27",
+      "John 10:10",
+      "1 Samuel 16:7",
+      "2 Corinthians 3:14",
+      "2 Corinthians 3:15"
+    ],
+    "keyScripture": "Psalm 84:10",
+    "summary": "BJosh teaches that effective quiet time requires entering God's presence through thanksgiving and praise to access His courts, where one day achieves more than a thousand days elsewhere. He emphasizes that the Holy Spirit must teach believers how to interpret Scripture because the Bible was written by the Spirit and cannot be understood through human effort alone—there is a veil over the Word until the Holy Spirit removes it. God gives step-by-step direction rather than full detailed plans, revealing only the next step on the journey so that believers learn to hear His voice and depend on Him progressively."
   },
   {
     "id": 299,
     "driveId": "1VYKRYeRMYaT6KtYVA2UIpZSbqP5pgqhQ",
     "title": "2020.03.07_FLCC_Fortify Thy Power Mightily",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon: transcript retrieval failed due to authentication error (expired access token). The sermon title suggests teaching on spiritual strength and fortification, but specific content cannot be analyzed without access to the full transcript."
+    "topics": [
+      "Holy Spirit",
+      "born again",
+      "spiritual birth",
+      "new creation",
+      "Christian growth",
+      "sanctification",
+      "spiritual maturity",
+      "dependence on God",
+      "transformation",
+      "cutting the navel",
+      "washing with the Word",
+      "life after salvation"
+    ],
+    "scriptures": [
+      "Nahum 2:1",
+      "2 Timothy 1:7",
+      "John 3:3",
+      "John 3:5-6",
+      "Matthew 1",
+      "Genesis 1",
+      "Matthew 7:13-14",
+      "John 15",
+      "Ephesians 5:25",
+      "Ezekiel 16:4-6",
+      "John 3:3-4"
+    ],
+    "keyScripture": "Ezekiel 16:4-6",
+    "summary": "Bishop Heward-Mills teaches that being born again is a miracle but insufficient for Christian survival—believers need the Holy Spirit to mature after spiritual birth, just as Jesus needed the Holy Spirit despite being born of the Spirit. Using Ezekiel 16:4-6, he illustrates that newborn Christians have uncut navels (spiritual dependence on pastors), are unwashed (unchanged by God's Word), and are unsalted (unhealed flesh), requiring the Holy Spirit to live victoriously. He emphasizes that the narrow gate of salvation is followed by a narrow way that requires the Holy Spirit's power to walk, as being around Jesus doesn't change people—only the indwelling Holy Spirit transforms believers into functioning, independent, fruitful Christians."
   },
   {
     "id": 300,
     "driveId": "1wViDAdGIecTUbqTVVZNzGE0nkerKKR7Z",
     "title": "2020.02.08_FLCC_How to be a Strong Christian( The Prevailing Word of God).",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data contains an authentication error from Google Drive API and does not include the actual sermon text. Please provide the sermon transcript to enable proper indexing of topics, scriptures, and teaching summary."
+    "topics": [
+      "Word of God",
+      "quiet time",
+      "prevailing Word",
+      "seed planting",
+      "spiritual growth",
+      "Bible meditation",
+      "overcoming through Scripture",
+      "mustard seed faith",
+      "Scripture memorization",
+      "daily Bible reading",
+      "God's Word alive and powerful",
+      "transformation through Scripture"
+    ],
+    "scriptures": [
+      "Acts 19:20",
+      "Mark 4:26-32",
+      "Matthew 4:4",
+      "1 Samuel 22:1-2",
+      "Jeremiah 1:12",
+      "Hebrews 4:12",
+      "Luke 8:11",
+      "2 Timothy 3:16",
+      "Psalm 119:11",
+      "Mark 4:15",
+      "Isaiah 55:10-11",
+      "Jeremiah 5:22",
+      "Philippians 4:19",
+      "John 1:1",
+      "John 1:14"
+    ],
+    "keyScripture": "Acts 19:20",
+    "summary": "Bishop Heward-Mills teaches that the Word of God is like a seed that grows and prevails over every problem when planted in the heart through consistent quiet time and Bible reading. He emphasizes that Christians cannot grow or overcome difficulties without daily personal Bible study, as God only performs His Word, not our wishes or opinions. The Word may seem small compared to life's problems, but when sown into the heart through meditation and confession, it grows supernaturally and conquers depression, debt, sickness, and every adversity."
   },
   {
     "id": 301,
     "driveId": "1iGYsXvyUjt2sXIgLs7aLcOTMDIPv8wk1",
     "title": "2020.06.09_FLCC_The Limitations of an Individuals Calling",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please verify the source document is accessible and retry."
+    "topics": [
+      "measure of the Spirit",
+      "body of Christ",
+      "limitations of calling",
+      "fullness of the Godhead",
+      "Christ as ultimate minister",
+      "humility in ministry",
+      "grace in weakness",
+      "individual anointing",
+      "Jesus as apostle prophet evangelist pastor teacher",
+      "thorn in the flesh",
+      "joint supply",
+      "idolizing men of God"
+    ],
+    "scriptures": [
+      "Ephesians 4:4-7",
+      "Ephesians 4:11-12",
+      "John 1:1",
+      "John 3:16",
+      "1 Corinthians 12:11",
+      "Colossians 2:9",
+      "Hebrews 1:1-3",
+      "Matthew 16:18",
+      "Luke 4:43",
+      "Luke 19:10",
+      "Mark 1:32-33",
+      "John 10",
+      "1 Peter 5:4",
+      "John 11:35",
+      "Luke 7:11-16",
+      "Isaiah 2:22",
+      "1 Corinthians 7:25",
+      "Ephesians 4:16",
+      "Psalm 103:15"
+    ],
+    "keyScripture": "Ephesians 4:7",
+    "summary": "BJosh teaches that every believer and minister receives only a measure of the Spirit and anointing, not the fullness that Jesus Christ possessed in His earthly body. He emphasizes that Jesus is the ultimate and complete minister—the perfect apostle, prophet, evangelist, pastor, and teacher—while all other ministers are limited and can only accomplish part of God's global work. Therefore, many must be called and work together as the body of Christ to fulfill what Jesus alone could do, requiring humility to recognize our weaknesses and the contributions of others."
   },
   {
     "id": 302,
     "driveId": "1wboguijPqeWf0n7eN9KezZN3wIKZDH_s",
     "title": "2020.06.16_FLCC_How God Monitors your Works",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process: The sermon transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). No content is available for indexing."
+    "topics": [
+      "God monitors works",
+      "fruit and labor for the kingdom",
+      "works despite tribulation",
+      "works despite poverty",
+      "works despite false leaders",
+      "works versus charity and service",
+      "Revelation seven churches",
+      "bearing fruit for Christ",
+      "great commission urgency",
+      "crowns and rewards in heaven",
+      "works not emotional baggage",
+      "internal transformation"
+    ],
+    "scriptures": [
+      "Psalm 33:18",
+      "2 Chronicles 16:9",
+      "1 Samuel 16:7",
+      "Matthew 7:16",
+      "Revelation 1:13-16",
+      "Revelation 2:1",
+      "Revelation 2:2",
+      "Revelation 2:8",
+      "Revelation 2:9",
+      "Revelation 2:12",
+      "Revelation 2:14",
+      "Revelation 2:18",
+      "Revelation 2:20",
+      "Revelation 3:1",
+      "Matthew 13",
+      "Ephesians 2:8-10"
+    ],
+    "keyScripture": "Revelation 2:2",
+    "summary": "Bishop Joshua teaches that God monitors only one thing when He looks at believers: their works for the kingdom, meaning souls won and fruits borne for the gospel. He emphasizes that despite tribulation, poverty, false leaders, personal trauma, or difficult spiritual surroundings, God still expects and monitors works, not charity, service, or faith alone. Using the seven churches of Revelation where Jesus repeatedly says 'I know your works,' he warns that Christians will stand before God empty-handed if they allow circumstances, emotional baggage, or other Christian activities to replace actual fruit-bearing and gospel preaching."
   },
   {
     "id": 303,
     "driveId": "1Vjw4GnuzEAsdzGW_zB_gs5nIMeO1vXO9",
     "title": "2020.06.02_FLCC_Characteristics of Called People",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error (expired OAuth 2 access token) from the Google Drive API. Please authenticate and re-submit the transcript content for proper indexing."
+    "topics": [
+      "call of God",
+      "sovereignty of God",
+      "leaving everything to follow Jesus",
+      "separation unto ministry",
+      "Levitical calling",
+      "God as inheritance",
+      "special grace and anointing",
+      "rejecting volunteers",
+      "distinct summons by name",
+      "full-time ministry",
+      "cost of discipleship",
+      "trusting God as provider"
+    ],
+    "scriptures": [
+      "Romans 1:1",
+      "Romans 1:6",
+      "Romans 1:7",
+      "Romans 1:8",
+      "Isaiah 1:18",
+      "Matthew 4:18",
+      "Matthew 4:19",
+      "Matthew 4:20",
+      "Matthew 4:21",
+      "Luke 9:57",
+      "Luke 9:59",
+      "Luke 9:61",
+      "Psalm 8:3",
+      "Psalm 89",
+      "Luke 19:5",
+      "Exodus 3:4",
+      "Exodus 31:2",
+      "1 Samuel 3:4",
+      "Acts 9",
+      "2 Corinthians 4:1",
+      "Mark 10:17",
+      "Mark 10:21",
+      "John 3:16",
+      "Deuteronomy 10:8",
+      "Exodus 19:6",
+      "Deuteronomy 10:9",
+      "Deuteronomy 18:1",
+      "Deuteronomy 18:2",
+      "Psalm 73:26",
+      "Psalm 73:28",
+      "Acts 13",
+      "Genesis 49",
+      "Romans 12:3",
+      "Hebrews 11"
+    ],
+    "keyScripture": "Matthew 4:19",
+    "summary": "BJosh teaches that God's call is not for volunteers but a sovereign, personal summons by name requiring believers to immediately leave their nets, jobs, and life plans to follow Jesus full-time. He explains that being called means receiving distinct summons, special grace, and separation from other believers to have God alone as one's inheritance and portion, like the tribe of Levi. The call demands complete trust in God as provider, rejecting the common deception of part-time service while maintaining secular careers, and instead pursuing full surrender to ministry with no guaranteed earthly provisions except God's presence."
   },
   {
     "id": 304,
     "driveId": "1IGK8U6XthW-8vpKiO738kGdyYiXtMSCK",
     "title": "2020.05.19_FLCC_How Different People Were Called ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "call of God",
+      "characteristics of called people",
+      "failure and rejection",
+      "unworthiness",
+      "inferiority complex",
+      "Moses",
+      "God's selection criteria",
+      "heart condition",
+      "ministry failure",
+      "fishers of men",
+      "rejection by people",
+      "God looks at the heart"
+    ],
+    "scriptures": [
+      "1 Kings 22:24",
+      "2 Chronicles 16:9",
+      "2 Chronicles 16:7",
+      "1 Samuel 16:7",
+      "Deuteronomy 7:7-8",
+      "John 14:6",
+      "Exodus 3:11",
+      "Romans 8:28-30",
+      "Exodus 2:12-14",
+      "Exodus 4:1",
+      "Exodus 4:10",
+      "Exodus 5:22-23"
+    ],
+    "keyScripture": "2 Chronicles 16:9",
+    "summary": "BJosh teaches that God specifically calls people who appear unqualified by human standards—those who have failed, feel unworthy, experienced rejection, lack eloquence, and have an inferiority complex. He emphasizes that God's eyes search throughout the whole earth looking for hearts that are entirely devoted to Him, not people who meet worldly qualifications or human expectations. Using Moses as the primary example and his own personal testimony of repeated ministry failures and rejection, he demonstrates that God's faithfulness in calling is based on His character, not the worthiness of those He calls."
   },
   {
     "id": 305,
     "driveId": "1fTe_DalDJ8zJn0K-youMJHGR6J75wT9m",
     "title": "2020.01.18_FLCC_KEEP THE MUNITION",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error with the source material. Please provide the sermon transcript text to enable proper indexing."
+    "topics": [
+      "spiritual warfare",
+      "preparing for attacks",
+      "armor of God",
+      "word of God as weapon",
+      "strengthening yourself",
+      "expectations of evil",
+      "quiet time",
+      "Scripture study",
+      "Christian endurance",
+      "standing after battle",
+      "ammunition in the spirit",
+      "knowing God deeply"
+    ],
+    "scriptures": [
+      "1 Kings 20:22",
+      "Nahum 2:1",
+      "Hosea 2:1",
+      "Revelation 3:2",
+      "Ephesians 6:10-17",
+      "Daniel 11:32",
+      "John 1:35",
+      "1 Peter 2:2",
+      "James 2:19",
+      "Psalm 107:20",
+      "Psalm 119:105",
+      "1 Corinthians 2:10",
+      "1 Corinthians 2:14",
+      "2 Corinthians 3:18"
+    ],
+    "keyScripture": "Nahum 2:1",
+    "summary": "BJosh teaches that Christians must prepare for inevitable spiritual attacks and strengthen themselves because \"he that dashes in pieces\" is coming against them at the turn of the year. He emphasizes that the only weapon in spiritual warfare is the Word of God (the sword of the Spirit from Ephesians 6), and Christians must become well-versed and strong in Scripture to survive life's battles. He announces a sermon series on keeping spiritual ammunition through developing a deep, practical relationship with God's Word that transforms the mind and enables believers to stand after enduring all attacks."
   },
   {
     "id": 306,
     "driveId": "1N1hVLA9V9LfdCSur4CDsaq6WXBz1UFeR",
     "title": "2020.01.26FLTC_Make Yourselves Saviours of Men Pt. 4 Great Commission.",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source system (expired OAuth 2 access token). Please verify access credentials and retry."
+    "topics": [
+      "Great Commission",
+      "Holy Spirit witness",
+      "salvation of souls",
+      "soul winning",
+      "eternity",
+      "second coming of Christ",
+      "tree of life",
+      "last words of Scripture",
+      "church mission",
+      "gospel preaching",
+      "witness power",
+      "forsaking worldly success"
+    ],
+    "scriptures": [
+      "Revelation 22:12",
+      "Revelation 22:13",
+      "Revelation 22:14",
+      "Revelation 22:15",
+      "Revelation 22:16",
+      "Revelation 22:17",
+      "Matthew 28",
+      "Acts 1:8",
+      "Psalm 73:24",
+      "2 Timothy 2:13"
+    ],
+    "keyScripture": "Acts 1:8",
+    "summary": "Bishop Heward-Mills teaches that the true evidence of the Holy Spirit is not manifestations like speaking in tongues or falling down, but becoming a witness who wins souls to Jesus Christ. He illustrates this with the testimony of a successful businessman who abandoned nine businesses to pastor a village church after one prophetic conference convicted him that God's only purpose on earth is the salvation of souls, not prosperity. He challenges believers that when the Holy Spirit truly comes upon someone, they cannot continue their normal life but are compelled to witness and bring people to Jesus, just as the last words of both Jesus and the Bible in Revelation 22:17 command the Spirit and the bride to say 'Come.'"
   },
   {
     "id": 307,
     "driveId": "1wF1AdYog-pcJ3z-Fc78o8ZvTIbRwyffM",
     "title": "2020.03.08FLTC_The Sweet Influences of the Holy Spirit. Pt. 1",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process: The transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please refresh authentication and resubmit the transcript content for indexing."
+    "topics": [
+      "Holy Spirit guidance",
+      "wisdom sources",
+      "earthly wisdom",
+      "sensual wisdom",
+      "devilish influence",
+      "spiritual discernment",
+      "relationship decisions",
+      "demonic influence",
+      "leaven parable",
+      "spiritual surrender"
+    ],
+    "scriptures": [
+      "Matthew 13:33",
+      "James 3:15",
+      "Proverbs 10:10",
+      "2 Timothy 1:7",
+      "Romans 8:14",
+      "Galatians 5:16",
+      "Jude 1:19",
+      "Mark 5"
+    ],
+    "keyScripture": "James 3:15",
+    "summary": "Bishop Heward-Mills teaches that there are only four sources of wisdom that guide every decision in life: wisdom from above (Holy Spirit), earthly wisdom (focused only on this world), sensual wisdom (guided by the five senses and feelings), and devilish wisdom (departing from common sense into destructive patterns). He emphasizes that these spiritual influences work invisibly like leaven in dough, subtly affecting choices in relationships, careers, church attendance, and moral decisions without people realizing they are being influenced. He calls believers to reject being led by earthly considerations, physical attraction, emotions, or demonic oppression, and instead surrender completely to the Holy Spirit's guidance in every area of life."
   },
   {
     "id": 308,
     "driveId": "1NvOU-AbSvcUmFXJzQwgNjd-o9sNGrK5s",
     "title": "2020.02.09FLTC_Make Yourselves Saviours of Men( The Great Commission according to Jude).",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source document. Please verify access credentials and resubmit the sermon transcript for indexing."
+    "topics": [
+      "Great Commission",
+      "fear of God",
+      "hell",
+      "judgment",
+      "contamination by the flesh",
+      "worldliness",
+      "purity",
+      "salvation with fear",
+      "end times",
+      "love of pleasure",
+      "self-love",
+      "separation from the world"
+    ],
+    "scriptures": [
+      "Jude 1:21-25",
+      "2 Timothy 3:1-5",
+      "Matthew 6:31-33"
+    ],
+    "keyScripture": "Jude 1:22-23",
+    "summary": "Bishop Heward-Mills teaches that the Great Commission according to Jude requires saving people with the fear of God and hell, recognizing the reality of eternal judgment and pulling people from the fire. He emphasizes that Christians must hate even garments spotted by the flesh, meaning they must separate themselves from worldly contamination, pleasures, and fleshly desires to remain pure. He warns that the modern church has become contaminated by worldliness, self-love, and pleasure-seeking rather than godliness, and calls believers to pursue purity and live completely for God rather than seeking prosperity and personal comfort."
   },
   {
     "id": 309,
     "driveId": "1QE8oXF2xLM1CSdsfFgkqpimBzN4xCdKD",
     "title": "2020.01.19FLTC_Make Yourselves Saviours of Men(James)",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication errors with the source document. Please provide the sermon transcript text to generate an accurate index."
+    "topics": [
+      "Great Commission",
+      "Soul Winning",
+      "Evangelism",
+      "Becoming Saviours",
+      "Confession and Belief",
+      "Calling on the Lord",
+      "Witnessing",
+      "Converting Sinners",
+      "Subject to Like Passions",
+      "Hiding a Multitude of Sins",
+      "Personal Testimony",
+      "Bringing Friends to Church"
+    ],
+    "scriptures": [
+      "Obadiah 1:21",
+      "Luke 2:11",
+      "John 3:16",
+      "Romans 10:12",
+      "Romans 10:13",
+      "Romans 10:9",
+      "Romans 10:10",
+      "Romans 10:14",
+      "1 Corinthians 2",
+      "Mark 7:21",
+      "Matthew 23",
+      "Matthew 28:16-20",
+      "Isaiah 9:6",
+      "Isaiah 53",
+      "John 1:41",
+      "Acts 1:8",
+      "James 5:17",
+      "James 5:19",
+      "James 5:20"
+    ],
+    "keyScripture": "James 5:20",
+    "summary": "Bishop Joshua teaches that every Christian is called to be a saviour of men by winning souls and converting sinners, not just Jesus Christ alone. He emphasizes that even those struggling with their own passions and weaknesses can fulfill the Great Commission by witnessing and bringing people to Christ. He declares that when believers convert a sinner from error, they save a soul from death and hide a multitude of their own sins, making soul-winning the primary mandate for all Christians.",
+    "mostCentralScripture": "James 5:20"
   },
   {
     "id": 310,
     "driveId": "1CyfuJmwvQyJKd5kEC8VDWhg09-VoCj20",
     "title": "2020.02.02FLTC_Make Yourselves Saviours of Men. Pt. 5",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "Great Commission",
+      "loving Jesus",
+      "feeding sheep",
+      "discipleship",
+      "ministry",
+      "obedience over feelings",
+      "spiritual mentorship",
+      "making disciples",
+      "following Christ",
+      "serving others",
+      "spiritual responsibility"
+    ],
+    "scriptures": [
+      "John 21:14",
+      "John 21:15",
+      "John 21:16",
+      "John 21:17",
+      "Luke 5"
+    ],
+    "keyScripture": "John 21:15-17",
+    "summary": "Bishop Heward-Mills teaches that the Great Commission according to John is fundamentally about love demonstrated through feeding God's sheep, not just verbal declarations of devotion. He emphasizes that true love for Jesus requires obedience—specifically, consistently caring for and discipling others (feeding lambs until they become sheep)—even when you don't feel like it. He challenges every Christian to identify 4-5 people they are personally following up with and feeding spiritually, arguing that everyone can afford to pay someone's school fees and invest in others' spiritual growth as proof of their love for Christ."
   },
   {
     "id": 311,
     "driveId": "1unM1vT70jK3YcT3LbQgPfAJy14bevJSr",
     "title": "2020.01.05FLTC_Make Yourself Saviors of Men",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source system (Google Drive API). No content is available for analysis."
+    "topics": [
+      "Great Commission",
+      "Mount Zion",
+      "Church as heavenly Jerusalem",
+      "Deliverance",
+      "Holiness",
+      "Possessing spiritual blessings",
+      "Fire of the Holy Spirit",
+      "Becoming saviors of men",
+      "Soul winning",
+      "Evangelism",
+      "Converting souls",
+      "Eternal significance"
+    ],
+    "scriptures": [
+      "Obadiah 1:17",
+      "Obadiah 1:18",
+      "Obadiah 1:19",
+      "Obadiah 1:20",
+      "Obadiah 1:21",
+      "Hebrews 12:22",
+      "Hebrews 12:23",
+      "Hebrews 12:24",
+      "Philemon 1:6",
+      "Romans 10:14",
+      "Romans 10:15",
+      "1 Corinthians 15:58"
+    ],
+    "keyScripture": "Obadiah 1:21",
+    "summary": "Bishop Joshua teaches that believers must make themselves 'saviors of men' by actively evangelizing and bringing people to Christ, not just focusing on personal success or church attendance. He explains that Mount Zion represents the church where deliverance, holiness, and spiritual blessings are found, and out of this church must come saviors who tell others about Jesus. He emphasizes that everything in life—marriage, wealth, career—will ultimately disappoint, but the only work that has eternal value is converting souls and doing the work of God."
   },
   {
     "id": 312,
     "driveId": "1SggWDFH8mJ5C6zFaoIJMruNp1UmuzE7i",
     "title": "2020.01.12FLTC_Make Yourselves Saviours of Men Pt. 2",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript failed to load due to authentication errors with the source material. Please verify access credentials and resubmit the transcript text."
+    "topics": [
+      "Holy Spirit",
+      "Latter Rain",
+      "Former Rain",
+      "Evangelism",
+      "Soul Winning",
+      "Pentecostal History",
+      "Great Commission",
+      "Azusa Street Revival",
+      "Making Yourself a Savior of Men",
+      "Power for Witnessing",
+      "Church History",
+      "Purpose of the Holy Spirit"
+    ],
+    "scriptures": [
+      "Hosea 6:3",
+      "Acts 1:8",
+      "Acts 2:1",
+      "Deuteronomy 11:14"
+    ],
+    "keyScripture": "Acts 1:8",
+    "summary": "Bishop Heward-Mills teaches that the Holy Spirit was poured out in two seasons—the former rain at Pentecost and the latter rain beginning in 1901 at Azusa Street—specifically to empower believers for evangelism and soul winning, not personal prosperity or comfort. He emphasizes that the primary purpose of receiving the Holy Spirit is to become witnesses and saviors of men, warning Christians against reducing the Spirit's work to personal breakthroughs, jobs, marriages, or emotional experiences. He calls believers, especially young men, to prioritize making disciples and leading people to salvation above career success or personal achievements, citing examples like William Carey and Billy Graham who gave their lives to fulfilling the Great Commission."
   },
   {
     "id": 313,
     "driveId": "1LgeRD2VX6lWuFV6UcF2ao2euikKcV-7R",
     "title": "BJosh First Service FB Live",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to authentication failure with the source document. No content is available for analysis."
+    "topics": [
+      "calling of God",
+      "holy calling",
+      "fruitfulness",
+      "Great Commission",
+      "full-time ministry",
+      "soul winning",
+      "taking up the cross",
+      "many are called",
+      "plague as a sign",
+      "desire for ministry",
+      "leaving all to follow Jesus",
+      "faithfulness in giving"
+    ],
+    "scriptures": [
+      "Matthew 14:24-27",
+      "2 Timothy 1:8-9",
+      "Matthew 22:14",
+      "John 15:16"
+    ],
+    "keyScripture": "Matthew 22:14",
+    "summary": "BJosh teaches that God's primary message to the church is not about personal prosperity or blessing, but about His call for believers to give themselves fully to the work of saving souls and fulfilling the Great Commission. He emphasizes that many Christians are called by God—not just a select few—and that the call requires complete surrender, not partial commitment or part-time service. He challenges believers to recognize God's calling through the inner desire and passion for ministry, and to walk away from worldly pursuits to serve God wholeheartedly in bringing forth fruit."
   },
   {
     "id": 314,
     "driveId": "1Rn_yaSfUCesEqIFBeYG79UJmS5DOheme",
     "title": "2020.02.05.Kotobabi_WITHOUT ME YOU CAN DO NOTHING",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "achievement",
+      "spiritual dependence",
+      "obedience to God",
+      "futility without God",
+      "God's guidance",
+      "spiritual intimacy",
+      "human ambition",
+      "divine provision",
+      "Tower of Babel",
+      "vanity of human effort",
+      "hearing God's voice",
+      "closeness to God"
+    ],
+    "scriptures": [
+      "Matthew 12:34",
+      "John 15:5",
+      "Psalm 127:1",
+      "Genesis 11:4-8",
+      "Genesis 12:1-2",
+      "Luke 12:16-21",
+      "John 21:5-11"
+    ],
+    "keyScripture": "John 15:5",
+    "summary": "BJosh teaches that without God, all human achievement and striving is ultimately nothing and vanity, regardless of worldly success markers like education, marriage, ministry size, or wealth. He emphasizes that true spirituality requires personal intimacy with God through prayer and His Word, not merely proximity to church activities or pastoral approval. He warns that many Christians pursue their own ambitions without seeking God's guidance, but those who obey God's voice—like Abraham and the disciples fishing—receive divine provision that exceeds their own efforts."
   },
   {
     "id": 315,
     "driveId": "1Jr17IMJ9Av6NM94p44-CHZITIvdY-c-B",
     "title": "2020.02.11_WIS_Devils and How to deal with them",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (expired access token). Please verify the document is accessible and retry indexing."
+    "topics": [
+      "demons",
+      "spiritual warfare",
+      "demonic oppression",
+      "addiction",
+      "self-destruction",
+      "depression",
+      "church attendance",
+      "pornography",
+      "unwanted behavior",
+      "presence of God",
+      "habitation of devils",
+      "cycles of sin"
+    ],
+    "scriptures": [
+      "Matthew 4",
+      "Romans 7:19",
+      "2 Timothy 3:1-7",
+      "Daniel 11:32",
+      "Luke 4:32-35",
+      "Mark 5:1-6",
+      "1 Timothy 4:1",
+      "Matthew 18:20"
+    ],
+    "keyScripture": "Romans 7:19",
+    "summary": "BJosh teaches that when believers repeatedly do things they don't want to do, it is evidence of demonic presence and activity in their lives, not merely weakness or bad habits. He explains that demons influence Christians through speaking to them, keeping them isolated from church, causing depression and self-destructive behavior, and maintaining cycles of sin like pornography, pride, and broken relationships. The solution is running to the presence of Jesus by physically getting to church gatherings, because Matthew 18:20 promises that where two or three gather in His name, He is there, and His presence causes demons to react and lose their control."
   },
   {
     "id": 316,
     "driveId": "1nEZ5JNFwLv4ZU-v0OhBd-n4DCV8vb3rt",
     "title": "2020.02.11.KORLE-BU_DEMONS AND HOW TO DEAL WITH THEM",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to an authentication error with the source system (Google Drive API access token expired). Please verify the source document is accessible and retry indexing."
+    "topics": [
+      "demons",
+      "spiritual warfare",
+      "demonic oppression",
+      "deliverance",
+      "freedom in Christ",
+      "spiritual isolation",
+      "demonic voices",
+      "unclean spirits",
+      "casting out devils",
+      "demonic influence on behavior",
+      "spiritual authority",
+      "breaking addictions"
+    ],
+    "scriptures": [
+      "Galatians 5:1",
+      "Psalm 23",
+      "Acts 10:38",
+      "Genesis 1:1-2",
+      "Genesis 6",
+      "Romans 7:15-21",
+      "Job 1:6",
+      "Mark 5",
+      "Mark 5:7",
+      "Mark 5:10-11",
+      "Luke 4:33-35",
+      "Jude 1:19",
+      "Psalm 19"
+    ],
+    "keyScripture": "Romans 7:17-20",
+    "summary": "Bishop Heward-Mills teaches that Christians must recognize demons are actively speaking to them and dwelling in them, causing them to do things they don't want to do and preventing obedience to God. He emphasizes that deliverance requires naming the specific demon (spirit of lust, pride, depression, etc.), commanding it to hold its peace and stop speaking, then casting it out in Jesus' name. He warns that Satan strategically isolates believers from church, Christian community, and spiritual disciplines through demonic voices that explain circumstances in ways contrary to the Holy Spirit's guidance."
   },
   {
     "id": 317,
     "driveId": "1gIa8DmaagcOQ3FvoMDngQY_S4JWKJjmz",
     "title": "09.24 - USA - Q&A with USA GSOs and W",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication errors with the source document. No content is available for analysis."
+    "topics": [
+      "church growth",
+      "hearing God's voice",
+      "faithfulness in ministry",
+      "preaching and teaching",
+      "prayer for growth",
+      "studying the Word",
+      "pastoral authority",
+      "sermon preparation",
+      "sexual purity in ministry",
+      "laziness vs diligence",
+      "prophetic guidance",
+      "shepherding the flock"
+    ],
+    "scriptures": [
+      "Psalm 29:9",
+      "Isaiah 12",
+      "Numbers 23",
+      "Isaiah 62:6-7",
+      "1 Kings 18:42-44",
+      "Luke 19:17",
+      "Romans 12:11",
+      "1 Corinthians 15:57-58",
+      "Ephesians 6",
+      "John 1:4"
+    ],
+    "keyScripture": "Luke 19:17",
+    "summary": "BJosh teaches that church growth from 10 to 25 members comes primarily through hearing God's voice through Scripture and the prophet's teaching, combined with deep sermon preparation that can take 45 hours of study for a 45-minute message. He emphasizes that pastors must be faithful in shepherding very few members before God will give them authority over larger congregations, and that laziness in study is the greatest enemy of effective preaching. He warns that ministry cannot coexist with sexual sin, stating that a preacher's life is the true light that people follow, not just their words."
   },
   {
     "id": 318,
     "driveId": "1ZKjsoTwv73pH_6L7S63NGgGD0TAdN2mT",
     "title": "2020.02.13_UPSA_Secrets of a Directed Path",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error (expired OAuth 2 access token) when accessing the source material. Please authenticate the API credentials and resubmit for indexing."
+    "topics": [
+      "directed path",
+      "spiritual house",
+      "decision making",
+      "trust in God",
+      "living by God's word",
+      "spiritual growth",
+      "God's guidance",
+      "Christian living",
+      "pornography addiction",
+      "marriage decisions",
+      "career choices",
+      "spiritual maturity"
+    ],
+    "scriptures": [
+      "Matthew 4:4",
+      "1 Peter 2:4",
+      "1 Peter 2:5",
+      "Proverbs 3:5",
+      "Proverbs 3:6"
+    ],
+    "keyScripture": "Proverbs 3:5-6",
+    "summary": "BJosh teaches that Christians must learn to live by God's word in daily life, not just attend church, by building themselves up as a spiritual house that can make decisions independently. He explains the secret of directed paths from Proverbs 3:5-6, emphasizing that when believers trust God completely and acknowledge Him in all their ways, God will direct their path by closing wrong doors and leaving only the right option available. He stresses that trusting God requires believing that God truly cares about every detail of life including marriage, careers, and personal decisions, and that God wants to give believers better outcomes than they could choose for themselves."
   },
   {
     "id": 319,
     "driveId": "1IcJpMP4yn3GkrGiwCO75KbyzOQOvTz64",
     "title": "Bjosh FB Live Midweek Service - April 15th ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source system (expired OAuth 2 access token). Please verify access credentials and retry."
+    "topics": [
+      "Holy Spirit",
+      "knowing God personally",
+      "spiritual relationship",
+      "voice of God",
+      "Holy Spirit communion",
+      "remembrance of God's Word",
+      "ways versus acts of God",
+      "spiritual discernment",
+      "Holy Spirit baptism",
+      "presence of God",
+      "covenant friendship with God",
+      "transformation through the Spirit"
+    ],
+    "scriptures": [
+      "Psalm 103:7",
+      "John 4",
+      "Colossians 3",
+      "Exodus 20",
+      "Exodus 20:18",
+      "Job 37:1",
+      "Job 37:5",
+      "Matthew 17:5",
+      "Revelation 1:15",
+      "Revelation 1:17",
+      "Acts 1:2",
+      "Jeremiah 9:23",
+      "Jeremiah 9:24",
+      "1 Corinthians 2:14",
+      "John 14:26",
+      "Jeremiah 5:22",
+      "2 Peter 3:7",
+      "Psalm 62:11",
+      "Genesis 1",
+      "Genesis 41:32",
+      "Job 33:14",
+      "Colossians 3:1",
+      "Matthew 23:9",
+      "1 John 3:1",
+      "2 Corinthians 13:14"
+    ],
+    "keyScripture": "John 14:26",
+    "summary": "BJosh teaches that the Holy Spirit is essential for believers to have a personal relationship with God because mankind cannot directly handle the Father's thunderous voice or stand in His presence without dying. He emphasizes that the Holy Spirit helps us know God in two primary ways: by reminding us of Scripture and God's words we've heard before (bringing them to remembrance when we need them), and through Holy Spirit communion where we share a common union with God's presence. BJosh stresses that true Christianity is not about boasting in wisdom, might, or riches, but in personally knowing and understanding God through the Holy Spirit's influence in our daily lives."
   },
   {
     "id": 320,
     "driveId": "1Q2ZtQD7ssJQmL-DW5HSAwwS6pI-0oscB",
     "title": "#Two Guys - Art Of Hearing - May 6th 2020",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (expired OAuth 2 access token). Please verify access permissions and retry."
+    "topics": [
+      "hearing God's voice",
+      "being led by the Holy Spirit",
+      "spiritual discernment",
+      "God's will vs human understanding",
+      "trust in God",
+      "prayer and seeking God",
+      "wisdom of God vs wisdom of the world",
+      "favor and promotion through obedience",
+      "acknowledging God in all ways",
+      "directed paths",
+      "spiritual maturity",
+      "revelation knowledge"
+    ],
+    "scriptures": [
+      "1 Corinthians 14",
+      "1 Samuel 3",
+      "Deuteronomy 28:1",
+      "Psalm 73:24",
+      "Proverbs 3:5-6",
+      "Proverbs 8:34-35",
+      "Jeremiah 29:11",
+      "Job 33:14",
+      "Romans 12:1-2",
+      "Malachi 4:6",
+      "James 3:13",
+      "2 Timothy 3:15"
+    ],
+    "keyScripture": "Proverbs 3:5-6",
+    "summary": "BJosh teaches that hearing from God is an art that must be learned and practiced, requiring believers to trust God completely rather than lean on their own understanding or what looks right to human perception. He emphasizes that God's promotion and glory come through being led by the Holy Spirit in every area of life—relationships, career, ministry—by acknowledging God in all your ways so He can direct your paths. He warns that many people fail to hear from God because they don't trust Him enough to involve Him through prayer in every decision, instead relying on worldly wisdom, personal calculation, or what appears good to their natural senses."
   },
   {
     "id": 321,
     "driveId": "1iJsCqz0eT2L-rvaB3JPgxVU8pM-zBvHe",
     "title": "2020.02.12_ABMTC_Your Faith Your Life",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error (expired access token). No content available for indexing."
+    "topics": [
+      "faith and life alignment",
+      "anointing",
+      "prayer",
+      "church planting",
+      "giving and tithing",
+      "Holy Spirit",
+      "pastoral ministry",
+      "spiritual service",
+      "humility",
+      "obedience to calling",
+      "biblical belief demonstrated through action"
+    ],
+    "scriptures": [
+      "James 2:18"
+    ],
+    "keyScripture": "James 2:18",
+    "summary": "Bishop Joshua teaches that your faith level is directly revealed by your life level—what you truly believe is demonstrated by what you actually do, not just what you say. He emphasizes that students who claim to believe in church planting, prayer, the anointing, and giving must prove it through concrete action like starting churches, praying for hours, serving humbly, and giving sacrificially. He challenges believers that if they cannot plant a church or gather even 12 people while in Bible school, they don't truly believe what they've been taught, and their faith remains theoretical rather than practical."
   },
   {
     "id": 322,
     "driveId": "165oWefR2dKNMFwIh9yPTCQo8uVyb9HrT",
     "title": "06.04.2020_ZoomFLNorthAmerica_Holy Spirit (Q&A) ",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error. The transcript could not be retrieved from the source."
+    "topics": [
+      "Holy Spirit friendship",
+      "speaking in tongues",
+      "scripture study and meditation",
+      "spiritual foundation in scripture",
+      "grieving the Holy Spirit",
+      "quenching the Spirit",
+      "blasphemy against the Holy Spirit",
+      "Philip and the Ethiopian eunuch",
+      "Berean nobility",
+      "spiritual discernment",
+      "anointed men of God",
+      "revival movements"
+    ],
+    "scriptures": [
+      "John 14",
+      "John 15",
+      "John 16",
+      "Acts 17:11",
+      "Daniel 8:19",
+      "Matthew 12:32"
+    ],
+    "keyScripture": "Acts 17:11",
+    "summary": "Bishop Heward-Mills teaches that the foundation for knowing the Holy Spirit and developing spiritually comes entirely from deep scripture study, not just emotional experiences or music. He emphasizes that believers must follow the Berean example by checking every teaching against scripture, praying while reading, and meditating on God's Word to discover spiritual secrets and mysteries. He warns strongly against speaking against the Holy Spirit's work, men of God, or genuine moves of God, teaching that such blasphemy is dangerous and that complaints should only be lodged to God, not through public criticism."
   },
   {
     "id": 323,
     "driveId": "1B1Bk79Zp4GMvj9xisYRYMyX_IcJ1YC_d",
     "title": "2020.03.06FLC_Birth Right",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and retry."
+    "topics": [
+      "birthright",
+      "spiritual warfare",
+      "prayer",
+      "wrestling with God",
+      "Holy Spirit",
+      "temperament",
+      "sanguine",
+      "melancholic",
+      "phlegmatic",
+      "choleric",
+      "tongues",
+      "alone with God"
+    ],
+    "scriptures": [
+      "Genesis 25:28",
+      "Genesis 25:29",
+      "Genesis 25:30",
+      "Genesis 25:31",
+      "Genesis 25:32",
+      "Genesis 32:24",
+      "Genesis 32:25",
+      "Jude 1:19",
+      "Ezekiel 1:1",
+      "Ezekiel 1:2",
+      "Ezekiel 1:4",
+      "Ezekiel 1:5",
+      "Ezekiel 1:10"
+    ],
+    "keyScripture": "Genesis 32:24",
+    "summary": "Bishop Joshua teaches that Christians must value their birthright—the unique temperament and gifts God gave them—rather than despising it like Esau did, and use those natural abilities in service to God. He emphasizes that spiritual problems cannot be solved at the point of contact but require wrestling alone with God in intense prayer, just as Jacob wrestled until daybreak and was permanently changed. He warns that any Christian who cannot pray for extended periods (3-5 hours) is not serious, because true transformation comes only through being filled with the Holy Spirit in prayer, not through decisions or human effort.",
+    "keyVerseQuote": ""
   },
   {
     "id": 324,
     "driveId": "1zD5m3JGP5VodJbNqOXLUvB7y5D9ldaWp",
     "title": "2020.01.19FLC_Make Yourselves Saviours of Men(Matthew)",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "Great Commission",
+      "Saviours of Men",
+      "Mount Zion",
+      "Deliverance",
+      "Evangelism",
+      "Water Baptism",
+      "Holy Spirit Baptism",
+      "Soul Winning",
+      "Witnessing",
+      "Spiritual Transformation",
+      "Gospel Preaching",
+      "Church Mission"
+    ],
+    "scriptures": [
+      "Hebrews 12:22",
+      "Hebrews 12:23",
+      "Obadiah 1:17",
+      "Obadiah 1:21",
+      "Luke 2:11",
+      "Romans 10:12-14",
+      "James 5:17",
+      "James 5:20",
+      "Matthew 24:14",
+      "2 Peter 3",
+      "Matthew 28:16",
+      "Matthew 28:17",
+      "Matthew 28:19",
+      "Psalm 142:4",
+      "Mark 5",
+      "Romans 6:4",
+      "Romans 10"
+    ],
+    "keyScripture": "Matthew 28:19",
+    "summary": "Bishop Joshua teaches that according to Obadiah's prophecy, the church (Mount Zion) is called to produce saviours who will proclaim the gospel and save souls from spiritual death. He emphasizes that the Great Commission in Matthew 28:19 requires believers to go, baptize in water (symbolizing death to the old self and resurrection), and baptize in the Holy Spirit for power and transformation. He stresses that the church's primary responsibility is caring for people's souls, not just their physical or social needs, and that every believer must witness about what God has done for them."
   },
   {
     "id": 325,
     "driveId": "1lbg1ejznvXpBhbz4sq5PSYHldXupxPQ6",
     "title": "2020.01.26FLC_The Great Commission from the Book of Acts",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication error (expired access token). No indexing data can be generated without access to the sermon transcript."
+    "topics": [
+      "Great Commission",
+      "Holy Spirit baptism",
+      "witnessing",
+      "power after the Holy Spirit",
+      "signs of the Holy Spirit",
+      "soul winning",
+      "testimony and witness",
+      "being witnesses unto Jesus",
+      "manifestations of the Spirit",
+      "Pentecostal experience",
+      "spiritual power",
+      "evangelism to all nations"
+    ],
+    "scriptures": [
+      "Acts 1:4",
+      "Acts 1:6",
+      "Acts 1:7",
+      "Acts 1:8",
+      "Obadiah 1:21",
+      "1 Corinthians 12",
+      "Acts 5",
+      "Acts 6",
+      "1 John 5"
+    ],
+    "keyScripture": "Acts 1:8",
+    "summary": "Bishop Joshua teaches that the true evidence of the Holy Spirit's presence is not merely falling down, speaking in tongues, or emotional worship experiences, but becoming a witness for Jesus Christ as stated in Acts 1:8. He emphasizes that the Great Commission from the Book of Acts reveals that believers receive power after the Holy Spirit comes upon them specifically to be witnesses in Jerusalem, Judea, Samaria, and to the uttermost parts of the earth. He challenges the congregation to understand that the real sign of the Holy Spirit in someone's life is their active testimony and witness for Christ, not just manifestations or feelings during worship."
   },
   {
     "id": 326,
     "driveId": "154Wwkh-Wglr3M2Q3UA7YrdceIdqg4Mnb",
     "title": "09.16 - The Art of Following Nehemiah",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with the source document. Please verify the document is accessible and retry the indexing request."
+    "topics": [
+      "building vs inheriting",
+      "personal responsibility",
+      "infrastructure development",
+      "spiritual discipline",
+      "faith building",
+      "ministry development",
+      "marriage building",
+      "progressive sanctification",
+      "wisdom and inheritance",
+      "self-reliance",
+      "gradual transformation",
+      "intentional growth"
+    ],
+    "scriptures": [
+      "Nehemiah 2:20",
+      "Ephesians 5:25-27",
+      "Acts 20:32",
+      "Proverbs 20:5",
+      "Proverbs 24:3",
+      "Jude 1:20",
+      "Habakkuk 2",
+      "Psalm 4"
+    ],
+    "keyScripture": "Nehemiah 2:20",
+    "summary": "Bishop Joshua teaches that you cannot have what you refuse to build, emphasizing that inheritance without wisdom leads to nothing while building requires intentional, gradual effort over time. He contrasts African dependency on foreign aid and inheritance mentality with the need to personally construct everything from infrastructure to relationships, marriages, ministries, and spiritual disciplines block by block. Using Nehemiah as an example, he insists that transformation comes through slow, deliberate building—whether developing members, overcoming sin, growing in prayer, or establishing churches—rather than expecting instant results or waiting for others to provide solutions."
   },
   {
     "id": 327,
     "driveId": "1yrJRkHp9mXejZ-pbXjWYOMWtPTT-J1YK",
     "title": "08.09 - GTUC - By His Grace",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript data could not be retrieved due to authentication error with the source (Google Drive API access token expired). Please provide the sermon transcript text to generate proper indexing metadata."
+    "topics": [
+      "spirit of grace",
+      "grace makes things easy",
+      "supernatural ease",
+      "transference of spirit",
+      "recognition of grace",
+      "grace versus struggle",
+      "grace in vessels",
+      "gifts and provision",
+      "operating in grace",
+      "grace appearing to all",
+      "grace as a spirit",
+      "end of struggles"
+    ],
+    "scriptures": [
+      "Zechariah 12:8",
+      "Zechariah 12:9",
+      "Zechariah 12:10",
+      "Zechariah 12:11",
+      "1 Corinthians 15:10",
+      "Galatians 2:9"
+    ],
+    "keyScripture": "Zechariah 12:10",
+    "summary": "BJosh teaches that grace is a spirit that must be poured out on believers, making difficult things become easy and supernatural in their lives. He emphasizes that people should recognize and operate in the specific graces God has given them rather than struggling in areas where they lack grace, illustrated by his own ministry successes happening with ease. He concludes that the spirit of grace can be transferred from one vessel to another, calling believers to receive the grace that ends struggles and brings supernatural provision and favor."
   },
   {
     "id": 328,
     "driveId": "1y9TXBJ2KBUcxBSCg-bAXIpJZ2VukercD",
     "title": "07.26 - Osu - Seeds and Harvest",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source document (Google Drive access token expired). No indexing data can be extracted without the sermon content."
+    "topics": [
+      "seeds and harvest",
+      "sowing and reaping",
+      "provision through seeds",
+      "giving good things",
+      "spiritual virtues as seeds",
+      "mercy and forgiveness",
+      "God's method of provision",
+      "material possessions as seeds",
+      "faithfulness in giving",
+      "reaping what you sow",
+      "legal entitlement to harvest",
+      "blessing through sowing"
+    ],
+    "scriptures": [
+      "Genesis 1:11",
+      "Genesis 1:12",
+      "Psalm 37:25",
+      "Genesis 8:22",
+      "Hosea 12:12",
+      "Galatians 6:6",
+      "Proverbs 28:10",
+      "Proverbs 13:25",
+      "Job 22:18",
+      "Genesis 45:23",
+      "Matthew 18:32",
+      "Matthew 18:33"
+    ],
+    "keyScripture": "Genesis 8:22",
+    "summary": "BJosh teaches that God's primary method of provision is through the principle of sowing seeds and reaping harvests, not through direct blessing without sowing. He emphasizes that seeds include not only money but all good things (possessions, food, material items) and spiritual virtues (mercy, forgiveness, compassion, honor). He argues that Christians who lack provision have no seed in the ground to harvest, and that Genesis 8:22's prophecy guarantees that seedtime and harvest will never cease, giving believers legal entitlement to reap what they have sown."
   },
   {
     "id": 329,
     "driveId": "1TdXYHHc31eo3ACugz53mx7QziUI_eK2i",
     "title": "09.12 - Korle Bu - Transformation",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript could not be retrieved due to authentication credential errors with the source API. No indexing data can be generated without access to the sermon text."
+    "topics": [
+      "transformation",
+      "sanctification",
+      "metamorphosis",
+      "renewing of the mind",
+      "Holy Spirit teaching",
+      "veil over the heart",
+      "spiritual growth vs childishness",
+      "Word of God as weapon",
+      "glory to glory change",
+      "difference between holy and unholy",
+      "meta-schematizo (false transformation)",
+      "spiritual maturity"
+    ],
+    "scriptures": [
+      "Leviticus 10:3",
+      "Leviticus 10:10",
+      "John 14:6",
+      "1 Corinthians 5:17",
+      "Romans 12:1",
+      "Romans 12:2",
+      "Ephesians 6",
+      "2 Corinthians 10",
+      "2 Corinthians 3:15",
+      "2 Corinthians 3:16",
+      "2 Corinthians 3:17",
+      "2 Corinthians 3:18",
+      "James 1:21",
+      "Psalm 23",
+      "Matthew 17",
+      "Mark 17",
+      "Acts 20:20",
+      "2 Corinthians 11:13",
+      "2 Corinthians 11:14",
+      "Jude 1:20",
+      "1 Corinthians 14:14",
+      "1 Peter 2:2",
+      "1 Corinthians 13:11",
+      "Acts 20:32",
+      "Proverbs 19:7",
+      "James 1:25",
+      "Genesis 1",
+      "Hebrews 4:12"
+    ],
+    "keyScripture": "2 Corinthians 3:18",
+    "summary": "BJosh teaches that true transformation (metamorphosis) happens through the Word of God renewing the mind, requiring the Holy Spirit to remove the veil over the heart so believers can behold God's glory and be changed from glory to glory. He contrasts genuine inner transformation (metamorphoso) with outward false change (meta-schematizo) where people appear changed but remain spiritual children with unchanged desires, thinking, and behavior. He emphasizes that continuous exposure to preaching and Scripture—not just prayer or church attendance—is what captures wrong thoughts, changes the mind, and produces actual Christ-like transformation in believers' lives."
   },
   {
     "id": 330,
     "driveId": "1vRUL6H2jdk8nOlfkt0kCr8g-AsH3sQ50",
     "title": "06.21 - Reason Why People Dont Use th",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and retry the indexing process."
+    "topics": [
+      "talents",
+      "kingdom of heaven",
+      "fear of ministry",
+      "hiding talents",
+      "using your abilities",
+      "church building",
+      "hell and the church",
+      "servants and stewardship",
+      "excuses for not serving",
+      "discovery of gifts",
+      "laziness in service",
+      "accountability to God"
+    ],
+    "scriptures": [
+      "Matthew 25:14-30"
+    ],
+    "keyScripture": "Matthew 25:14-30",
+    "summary": "Bishop Heward-Mills teaches on the parable of the talents from Matthew 25, explaining why people don't use their talents in God's service. He identifies fear, hidden talents, and making excuses (finding fault with God) as the primary reasons believers fail to serve and use what God has given them. He emphasizes that the church is built to prevail against hell and that everyone has been given talents they must use rather than hide or make excuses about."
   },
   {
     "id": 331,
     "driveId": "1-iXlIV6aOqViVarQ8bx6eiGvDtUbcF48",
     "title": "2018.12.09FLC_ - Remember Lots Wife",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document (Google Drive API access token expired). Please re-authenticate and provide the sermon transcript to generate accurate indexing metadata."
+    "topics": [
+      "Soul winning",
+      "Bus ministry",
+      "Rewards for God's work",
+      "Lot's wife",
+      "Looking back",
+      "Salvation",
+      "Commitment to Christ",
+      "Leaving the world",
+      "God's provision",
+      "Testimonies of blessing",
+      "Forgetting the past",
+      "Total surrender"
+    ],
+    "scriptures": [
+      "John 4:36",
+      "Luke 17:32",
+      "Galatians 4:4",
+      "1 Corinthians 1:21",
+      "2 Peter 2:6",
+      "1 John 2:15",
+      "Hebrews 10:39",
+      "Philippians 3:13",
+      "Philippians 3:14",
+      "2 Timothy 2:19",
+      "Jeremiah 31",
+      "Isaiah 53"
+    ],
+    "keyScripture": "Luke 17:32",
+    "summary": "Bishop Heward-Mills teaches that Christians who actively work for God through soul winning and bus ministry receive supernatural wages and provision, as illustrated by testimonies of students who brought people to church. He warns believers not to be like Lot's wife by having one foot in the world and one foot in Christ, but instead to completely forget what is behind and reach forward to God's calling. He emphasizes that God sends ordinary people as His messengers of salvation, and urges listeners to give their whole hearts to Jesus rather than holding back parts of their lives for the world."
   },
   {
     "id": 332,
     "driveId": "10KqAbJL_ug2Uz8OVcn_w6U2pNvgfXxO2",
     "title": "2018.03.18FLC_ - The Supernatural Abilities of The Blood",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API access token expired). Please verify the document is accessible and retry the indexing request."
+    "topics": [
+      "blood of Jesus",
+      "power of the blood",
+      "supernatural abilities",
+      "redemption",
+      "forgiveness of sins",
+      "eternal efficacy",
+      "blood never expires",
+      "salvation from punishment",
+      "cleansing from sin",
+      "reconciliation with God",
+      "prison testimony",
+      "criminal conversion"
+    ],
+    "scriptures": [
+      "Hebrews 4:2",
+      "1 Peter 1:18-19",
+      "Hebrews 6:4-5"
+    ],
+    "keyScripture": "1 Peter 1:18-19",
+    "summary": "Bishop Joshua teaches that the blood of Jesus possesses supernatural abilities, specifically that it never expires like human blood (which lasts only 42 days) because Jesus was conceived of the Holy Spirit and His blood retains eternal power. He emphasizes that the blood has the power to save people from all well-deserved punishment, washing away sins that cannot be removed by good works, preaching, singing, or any human effort. He illustrates through testimonies that no matter how many times a person needs cleansing or how severe their sins (including criminals and murderers), the blood of Jesus remains perpetually powerful to forgive and transform lives completely."
   },
   {
     "id": 333,
     "driveId": "17ch6jub0fdYY3GUjyN5ItEuZGyLp38pI",
     "title": "2018.08.26FLC_ - Sweet Influence of the Holy S",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error (expired access token). Please provide the sermon transcript text to enable indexing."
+    "topics": [
+      "Holy Spirit",
+      "obedience",
+      "divine provision",
+      "spiritual authority",
+      "miracles through obedience",
+      "spiritual warfare",
+      "perverse spirits",
+      "overcoming disobedience",
+      "commandments of God",
+      "sweet influences of the Holy Spirit",
+      "King David's anointing",
+      "submission to authority"
+    ],
+    "scriptures": [
+      "John 16:7",
+      "John 20:21",
+      "John 20:22",
+      "Ephesians 6:1",
+      "Hebrews 13:17",
+      "1 Peter 3",
+      "Romans 13:1",
+      "Romans 13:2",
+      "John 14:21",
+      "John 2:1",
+      "John 2:2",
+      "John 2:3",
+      "John 2:5",
+      "John 2:6",
+      "John 2:7",
+      "John 2:9",
+      "John 2:11",
+      "Deuteronomy 11:26",
+      "Deuteronomy 11:27",
+      "Romans 7:15",
+      "Romans 7:16",
+      "Romans 7:17",
+      "Romans 7:18",
+      "Isaiah 19:14",
+      "Ephesians 2:2",
+      "Galatians 5:7",
+      "Psalm 131:4",
+      "Habakkuk 1:5"
+    ],
+    "keyScripture": "John 20:22",
+    "summary": "Bishop Joshua teaches that the Holy Spirit is God's complete provision for every area of life—not just for spiritual manifestations like falling down or speaking in tongues, but for business, education, family, and overcoming all challenges, just as God equipped Jesus when sending Him to earth. He explains that obedience is the key that unlocks miracles, as seen at the wedding in Cana, but disobedience is often caused by perverse spirits working inside people that prevent them from doing what they know is right. The solution is receiving and walking in the Holy Spirit's influence, which empowers believers to obey God's commandments, submit to spiritual authority, and experience supernatural breakthrough in every situation."
   },
   {
     "id": 334,
     "driveId": "1iM6soG2G9CM3F7IieENOGq7ZBz2fQnps",
     "title": "2018.10.14FLC_ - Honour Prophet and Prosper",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source document (Google Drive API returned 401 Unauthorized - Access Token Expired). Please re-authenticate and provide the sermon transcript text to enable proper indexing."
+    "topics": [
+      "honoring the prophet",
+      "prosperity through honor",
+      "blessing and cursing",
+      "lesser blessed by greater",
+      "anointing and oil",
+      "spiritual rank and authority",
+      "gifts to men",
+      "pastoral authority",
+      "seedtime and harvest of honor",
+      "faithful stewardship",
+      "receiving God's messenger",
+      "spiritual covering"
+    ],
+    "scriptures": [
+      "Hebrews 7:7",
+      "Matthew 10:40",
+      "Luke 10:16",
+      "Hebrews 3:3-6",
+      "John 14:6",
+      "Ephesians 4:11",
+      "1 Corinthians 2:13",
+      "1 John 2"
+    ],
+    "keyScripture": "Hebrews 7:7",
+    "summary": "Bishop Heward-Mills teaches that honoring the prophet God sends to you is a biblical principle that releases prosperity and blessing into your life. He emphasizes that according to Hebrews 7:7, the lesser is always blessed by the greater, and that the man of God who builds the house deserves more honor than the house itself. He stresses that receiving and honoring God's sent messenger is equivalent to receiving Jesus Himself, as stated in Matthew 10:40 and Luke 10:16, and that this honor should be expressed tangibly through financial support and recognition of spiritual authority."
   },
   {
     "id": 335,
     "driveId": "1JLNhp7EVNglEFl7y9fdcn_iBdOel6rfC",
     "title": "2018.09.30FLC_ - Carefully Choose Your Mentor",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and resubmit the transcript for indexing."
+    "topics": [
+      "mentorship",
+      "choosing mentors",
+      "prophets",
+      "honoring prophets",
+      "Egyptian syndrome",
+      "breaking through",
+      "spiritual guidance",
+      "John the Baptist",
+      "disciples following Jesus",
+      "tithe",
+      "spiritual growth",
+      "deliverance from Egypt"
+    ],
+    "scriptures": [
+      "Romans 8:28",
+      "Galatians 6:6",
+      "1 Corinthians 14:4",
+      "1 Corinthians 14:6",
+      "Hebrews 5:12",
+      "Hebrews 5:13",
+      "Hosea 12:13",
+      "Numbers 11",
+      "Luke 4:25",
+      "Luke 4:26",
+      "John 1:35",
+      "John 1:37",
+      "Isaiah 51:2",
+      "Genesis 1"
+    ],
+    "keyScripture": "Hosea 12:13",
+    "summary": "Bishop Joshua teaches that carefully choosing your mentor is critical to breaking out of stagnation, which he calls 'Egyptian syndrome'—being stuck despite praying, tithing, and attending church. He emphasizes that God brings deliverance through prophets (Hosea 12:13), using the example of John the Baptist's disciples who chose to follow Jesus instead of remaining with their original mentor. He urges believers to recognize and follow the prophet God has sent to them, as this choice determines whether they will experience breakthrough and greatness or remain spiritually stuck."
   },
   {
     "id": 336,
     "driveId": "1WEvFDnOQZ6Pz-IqYU5oJY7VEVi28HDHN",
     "title": "2018.10.07FLC_ - Honour Your Prophet",
-    "topics": [],
-    "scriptures": [],
-    "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document (Google Drive access token expired). Please re-authenticate and provide the transcript text to generate accurate topic keywords, scripture references, and teaching summary."
+    "topics": [
+      "honoring the prophet",
+      "tithing and offerings",
+      "deliverance from Egypt",
+      "spiritual breakthrough",
+      "prophetic ministry",
+      "divine selection",
+      "backsliding",
+      "supernatural provision",
+      "testimonies of transformation",
+      "God's mouthpiece",
+      "pastoral authority",
+      "restoration"
+    ],
+    "scriptures": [
+      "Galatians 6:6",
+      "1 Timothy 5:17",
+      "Romans 8:28",
+      "Hosea 12:13",
+      "Acts 3:1-9",
+      "Judges 3:9",
+      "Judges 3:12-15",
+      "Luke 4:24-26",
+      "Jeremiah 3:14-16",
+      "Exodus 3:15",
+      "Numbers 11:5",
+      "James 5:13"
+    ],
+    "keyScripture": "Hosea 12:13",
+    "summary": "Bishop Heward-Mills teaches that the only solution to being stuck in spiritual Egypt is through honoring and receiving ministry from God's prophet, not through tithing, offerings, or personal prayer alone. He emphasizes that God divinely selects specific people to receive a prophet (one from a city, two from a family according to Jeremiah 3:14-16), and that believers must recognize this divine assignment and honor it. He declares that by a prophet God brings deliverance and preservation, transforming backsliding children into those who are increased and multiplied through pastoral ministry."
   },
   {
     "id": 337,
@@ -3835,7 +10353,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to authentication error with the source API (Google Drive access token expired). Please re-authenticate the data source and resubmit for indexing."
+    "summary": "No transcript content is available due to an authentication error. The sermon titled '10 Things FirstLove Church Mu' could not be accessed or processed. No teaching content, scripture references, or topics can be extracted from the error message provided."
   },
   {
     "id": 338,
@@ -3844,7 +10362,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "summary": "No transcript content is available for indexing. The provided data shows an authentication error indicating expired access credentials to the source document. Without the actual sermon transcript, no teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 339,
@@ -3853,7 +10371,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication errors with the source document. No content is available for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. The indexing cannot be completed without valid transcript data."
   },
   {
     "id": 340,
@@ -3862,7 +10380,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error retrieving transcript. No indexing data available."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. No teaching points, scriptures, or topics could be extracted from this session."
   },
   {
     "id": 341,
@@ -3871,7 +10389,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please verify credentials and resubmit the sermon transcript for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error with the source document. No sermon content was available to analyze or index. A valid transcript is required to extract topics, scriptures, and teaching content."
   },
   {
     "id": 342,
@@ -3880,7 +10398,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error with transcript source. The sermon title suggests teaching on silence and its spiritual benefits, but specific doctrinal content cannot be indexed without access to the full transcript."
+    "summary": "No transcript content is available due to an authentication error. The sermon titled 'Powerful Effects of The Quiet' could not be indexed. Unable to extract teaching content, scripture references, or topics from this source."
   },
   {
     "id": 343,
@@ -3889,7 +10407,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication errors with the source document. No content is available for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error with the source document. No sermon content was available to analyze or index. The title suggests the sermon topic was about becoming a strong Christian, but no specific teachings could be extracted."
   },
   {
     "id": 344,
@@ -3898,7 +10416,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon indexing due to authentication error. The transcript content could not be retrieved from the source. Please verify access credentials and resubmit the transcript for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. Unable to extract teachings, topics, or scripture references from this source."
   },
   {
     "id": 345,
@@ -3907,7 +10425,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to an authentication error with the source document (expired access token). No content is available for indexing."
+    "summary": "No transcript content is available due to an authentication error. The sermon title suggests the topic is about avoiding shallowness through an unspecified means. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 346,
@@ -3916,7 +10434,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content failed to load due to authentication error with the source system (Google Drive API - expired access token). No teaching content is available for analysis."
+    "summary": "No transcript content was available due to an authentication error when attempting to access the source document. The sermon title indicates this message is part of a series on spiritual fathers and discusses different types of fathers in ministry. Without the actual transcript text, the specific teachings and scripture references cannot be extracted or summarized."
   },
   {
     "id": 347,
@@ -3925,7 +10443,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process request. The sermon transcript failed to load due to an authentication error with the source document. Please verify the transcript is accessible and retry indexing."
+    "summary": "No transcript content was available to analyze due to an authentication error with the source document. The sermon title suggests teaching about believers being compared to trees and the spiritual atmosphere affecting growth. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 348,
@@ -3934,7 +10452,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. Please verify the document is accessible and retry indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available for indexing. The audio-to-text data was not retrieved from the source."
   },
   {
     "id": 349,
@@ -3943,7 +10461,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript could not be retrieved due to an authentication error with the source document (Google Drive API returned 401 Unauthorized). Please verify the document is accessible and authentication credentials are valid before attempting to index again."
+    "summary": "The transcript could not be accessed due to an authentication error with the source document. No sermon content was available to analyze or index. A valid transcript is needed to extract topics, scriptures, and teaching content."
   },
   {
     "id": 350,
@@ -3952,7 +10470,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript data could not be retrieved due to authentication error with the source system. Please verify access credentials and resubmit the transcript for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available for indexing. Unable to extract teaching points, scripture references, or topics from this source."
   },
   {
     "id": 351,
@@ -3961,7 +10479,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process this sermon. The transcript could not be retrieved due to an authentication error with the source system (Google Drive API access token expired). No content is available for indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title suggests teaching about redeeming time and three significant nights in life. Without access to the actual transcript, the specific biblical teaching and references cannot be extracted."
   },
   {
     "id": 352,
@@ -3970,7 +10488,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source document (Google Drive API access token expired). No content is available for indexing."
+    "summary": "No transcript content is available for this sermon. The provided data contains only an authentication error from a cloud storage service. Without access to the actual sermon transcript, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 353,
@@ -3979,7 +10497,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify the document is accessible and try again."
+    "summary": "No transcript content was available due to an authentication error with the source document. The sermon title indicates the topic relates to 'first love experience' but the actual teaching content could not be accessed or analyzed. Without the transcript text, no specific doctrinal points, scripture references, or teaching themes can be extracted."
   },
   {
     "id": 354,
@@ -3988,7 +10506,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon: transcript retrieval failed due to authentication error (expired access token). No content available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching would focus on the righteousness and holiness of the regenerated human spirit after salvation. Without the actual transcript text, no specific scriptures, topics, or teaching points can be extracted."
   },
   {
     "id": 355,
@@ -3997,7 +10515,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please provide the sermon transcript text to enable proper indexing and analysis."
+    "summary": "No transcript content available due to authentication error. The document could not be accessed because of invalid or expired credentials. Unable to extract any sermon content, scripture references, or teachings from Bishop Joshua Heward-Mills."
   },
   {
     "id": 356,
@@ -4006,7 +10524,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document (expired OAuth 2.0 access token). Please verify access credentials and resubmit the transcript content for proper indexing."
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon title indicates the teaching would focus on the developmental process of spiritual sons becoming shepherds. Without access to the actual transcript, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 357,
@@ -4015,7 +10533,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content is unavailable due to authentication error with the source document. Please provide the sermon transcript text to generate accurate indexing data."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. The document requires valid OAuth 2 credentials to retrieve the actual transcript text."
   },
   {
     "id": 358,
@@ -4024,7 +10542,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content failed to load due to authentication errors with the source system. No sermon content is available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is the third part of a series on 'Poison' focusing specifically on blasphemy and Holy Ghost encounter. Without the actual transcript text, the specific teachings of Bishop Joshua Heward-Mills cannot be indexed or summarized."
   },
   {
     "id": 359,
@@ -4033,7 +10551,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon index. The transcript content failed to load due to authentication credentials error from the source. No sermon content is available for analysis."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. The indexing cannot be completed without valid access credentials to the source material."
   },
   {
     "id": 360,
@@ -4042,7 +10560,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error (expired OAuth 2 access token). Please verify API credentials and resubmit the sermon transcript."
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon title indicates this is part two of a series on becoming a spiritual Christian, focusing on experiential aspects of spirituality. Without access to the actual transcript, the specific biblical references and teachings cannot be extracted."
   },
   {
     "id": 361,
@@ -4051,7 +10569,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript content is unavailable due to an authentication error with the source document. Please provide the sermon transcript text to generate topics, scriptures, and summary information."
+    "summary": "The transcript could not be accessed due to an authentication error with the source document. No sermon content was available to analyze or index. The provided error indicates expired access credentials rather than actual sermon text."
   },
   {
     "id": 362,
@@ -4060,7 +10578,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 UNAUTHENTICATED with expired access token). Please verify access credentials and retry."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon is titled 'Poison Pt. I - Holy Ghost Encounter' by Bishop Joshua Heward-Mills, but the actual teaching content could not be accessed. Without the transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 363,
@@ -4069,7 +10587,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please verify the source document is accessible and retry with valid credentials."
+    "summary": "No transcript content is available for indexing. The provided data contains only an authentication error message indicating expired access credentials. Without the actual sermon transcript, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 364,
@@ -4078,7 +10596,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript data failed to load due to authentication credentials error with the source API. No content is available to analyze for topics, scriptures, or teaching summary."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 2 of a series on the dream church, focusing on miracles and manifestations from an experiential perspective. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 365,
@@ -4087,7 +10605,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication credentials error (ACCESS_TOKEN_EXPIRED) from Google Drive API. Please verify access permissions and retry retrieval of the sermon content."
+    "summary": "No transcript content was available due to an authentication error when attempting to access the sermon file. The transcript could not be retrieved or processed for indexing purposes. Without access to the actual sermon content, no teaching points, scripture references, or topics can be extracted."
   },
   {
     "id": 366,
@@ -4096,7 +10614,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript content is unavailable due to authentication credentials error with the source system. Please provide the sermon transcript or resolve the access issue to enable proper indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates teaching on church growth through serving and receiving God's blessing based on experience. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 367,
@@ -4105,7 +10623,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon transcript. Authentication error returned from source material - no transcript content available for indexing."
+    "summary": "No transcript content was available due to an authentication error. The sermon is titled 'Visitation' by Bishop Joshua Heward-Mills, but the actual teaching content could not be accessed or analyzed. Without the transcript text, no specific doctrinal points, biblical references, or theological teachings can be extracted."
   },
   {
     "id": 368,
@@ -4114,7 +10632,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon: transcript retrieval failed due to authentication error with source document. The sermon title indicates teaching on fervent prayer in tongues within the context of an idealized church model, but specific content, biblical references, and doctrinal points cannot be extracted without access to the full transcript."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this teaching focuses on praying fervently in tongues as a characteristic of the dream church. Without the actual transcript text, the specific biblical references and detailed teaching points cannot be extracted."
   },
   {
     "id": 369,
@@ -4123,7 +10641,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data contains an authentication error from Google Drive API and no actual sermon text. Please provide the complete sermon transcript to generate accurate indexing metadata."
+    "summary": "No transcript content was available to analyze due to an authentication error with the source document. The sermon is titled 'Honour For The Anointing - Holy Ghost Encounter' by Bishop Joshua Heward-Mills, but the actual teaching content could not be accessed. Without the transcript text, no specific doctrinal points, scripture references, or theological teachings can be extracted."
   },
   {
     "id": 370,
@@ -4132,7 +10650,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to an authentication error with Google Drive (expired access token). No content is available for analysis."
+    "summary": "No transcript content is available due to an authentication error. The sermon audio file could not be accessed because of expired OAuth credentials. Without the actual sermon transcript, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 371,
@@ -4141,7 +10659,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2.0 access token expired). Please provide the sermon transcript text to complete indexing."
+    "summary": "No transcript content was available due to an authentication error. The sermon title indicates this is part 3 of a series on overcoming the world, focusing on the course of this world and personal experience. Without the actual transcript text, the specific teaching content cannot be determined."
   },
   {
     "id": 372,
@@ -4150,7 +10668,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part one of a series on preaching salvation, focusing on interaction and Holy Ghost encounter. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 373,
@@ -4159,7 +10677,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data contains only an authentication error from Google Drive and does not include the actual sermon text. Please provide the full sermon transcript to generate accurate indexing metadata for this Bishop Joshua Heward-Mills sermon."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching is about seven steps to honoring based on experience. Without the actual transcript text, the specific biblical teachings and references cannot be extracted or summarized."
   },
   {
     "id": 374,
@@ -4168,7 +10686,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript content."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 3 of a series on preaching salvation, specifically focused on visitation and experience. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 375,
@@ -4177,7 +10695,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon index: transcript data unavailable due to authentication error. The sermon title suggests teaching on overcoming worldly influences and defining what 'the world' means from an experiential perspective, but specific content cannot be analyzed without access to the full transcript."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is Part 1 of a series on overcoming the world, focusing on defining what 'the world' means from an experiential perspective. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 376,
@@ -4186,7 +10704,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data returned an authentication error from Google Drive API, preventing access to the sermon material. Please provide the sermon transcript directly or resolve the authentication issue to enable proper indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates teaching about seven sequential steps to receiving or walking in the anointing, with emphasis on experiential application. Without the actual transcript text, the specific teachings and scripture references cannot be extracted or analyzed."
   },
   {
     "id": 377,
@@ -4195,7 +10713,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication credentials error (OAuth 2.0 access token expired on Google Drive). Cannot extract topics, scriptures, or summary without sermon content."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching would focus on Philip's evangelistic ministry and his motivations for preaching about Christ. The subtitle suggests emphasis on the Holy Spirit's role in empowering Philip's ministry."
   },
   {
     "id": 378,
@@ -4204,7 +10722,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content failed to load due to an authentication error with the source material. Please verify access credentials and resubmit the transcript for indexing."
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon title indicates this is part one of a series on preaching salvation, focusing on interaction and experience. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 379,
@@ -4213,7 +10731,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error (expired access token) from the source API. Please verify credentials and resubmit the transcript content for indexing."
+    "summary": "No transcript content was provided due to an authentication error. The document could not be accessed or retrieved from the source. Without the sermon text, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 380,
@@ -4233,7 +10751,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript could not be retrieved due to authentication errors with the source system. Please verify access credentials and resubmit the transcript content."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching is about obedience being the master key to experiencing God's presence. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 382,
@@ -4242,7 +10760,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication failure with the source API (Google Drive access token expired). No content is available to extract topics, scriptures, or teaching summary."
+    "summary": "No transcript content was provided due to an authentication error. The sermon title indicates it would cover the biblical account of the man with palsy and Holy Ghost encounters. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 383,
@@ -4251,7 +10769,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source document. No content is available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching is about honoring prophets and experiencing the Holy Ghost. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 384,
@@ -4260,7 +10778,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript could not be retrieved due to authentication error with the source service. No content is available for indexing."
+    "summary": "No sermon transcript was provided due to an authentication error with the source file. The audio file could not be accessed because of expired OAuth credentials. Therefore, no teaching content from Bishop Joshua Heward-Mills could be analyzed or indexed."
   },
   {
     "id": 385,
@@ -4269,7 +10787,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please provide the sermon transcript text to generate accurate topics, scriptures, and summary."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part one of a series on seven principles for great change, focusing specifically on Holy Ghost encounter. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 386,
@@ -4278,7 +10796,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2 access token expired). Please provide the sermon transcript text to generate accurate indexing data."
+    "summary": "No transcript content is available for indexing. The provided data contains only an authentication error message from a Google API service. Without access to the actual sermon transcript, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 387,
@@ -4287,7 +10805,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript data contains an authentication error from Google Drive and no sermon content is available for indexing. Please provide the actual sermon transcript to generate search metadata."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part two of a series on poison, specifically focusing on lies during a Holy Ghost Encounter service. Without access to the actual transcript, the specific teachings of Bishop Joshua Heward-Mills cannot be determined or indexed."
   },
   {
     "id": 388,
@@ -4296,7 +10814,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to an authentication error with the source document. Please verify the document access permissions and retry."
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon is titled 'Swollen Sunday Pt. 1 - Why? - The Experience' by Bishop Joshua Heward-Mills, but the actual teaching content could not be accessed or indexed. Without the transcript text, no specific biblical references, topics, or theological points can be extracted."
   },
   {
     "id": 389,
@@ -4305,7 +10823,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon: transcript file failed to load due to authentication error with source document. The sermon title references Greek terms (Anagkazo, Biazo, Anadeia) related to compulsion/force and church growth principles, but the actual teaching content is inaccessible. Please resolve the API authentication credentials and resubmit the transcript for proper indexing."
+    "summary": "No transcript content was available due to an authentication error with the source document. The sermon title indicates teaching on three Greek terms related to church growth: Anagkazo (compel), Biazo (force/violence), and Anadeia (shameless persistence), focusing on practical experience. Without the actual transcript text, the specific scriptural references and detailed teaching points cannot be extracted."
   },
   {
     "id": 390,
@@ -4314,7 +10832,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript data contains a Google API authentication error (401 UNAUTHENTICATED) rather than sermon content. The source document could not be accessed to extract topics, scriptures, or teaching summary."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates teaching about the role and experience of church members. Without access to the actual transcript, specific teachings cannot be extracted or summarized."
   },
   {
     "id": 391,
@@ -4323,7 +10841,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index. The sermon transcript failed to load due to an authentication error with the source document. Please verify access credentials and retry the indexing request."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates Bishop Heward-Mills teaches about the negative consequences that develop when lay people are not actively involved in church ministry. Without the actual transcript text, specific teachings, scripture references, and topics cannot be extracted."
   },
   {
     "id": 392,
@@ -4332,7 +10850,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content due to authentication error. The transcript data could not be retrieved from the source. Please verify access credentials and resubmit the sermon transcript for indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 2 of a teaching series on preaching salvation, specifically focusing on the experiential aspect. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 393,
@@ -4341,7 +10859,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired access token). Please provide the sermon transcript text to enable proper indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. Unable to extract teaching points, scripture references, or topics from this source."
   },
   {
     "id": 394,
@@ -4350,7 +10868,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. Please verify access credentials and resubmit the transcript content for indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title suggests teaching about church growth strategy where one member reaches five souls. Without the actual transcript text, the specific biblical teaching and references cannot be extracted or summarized."
   },
   {
     "id": 395,
@@ -4359,7 +10877,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript retrieval failed due to authentication error with the source document. Please provide the sermon transcript text to generate accurate indexing data."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 4 of a Church Growth series focusing on 'Anagkazo' (a Greek term meaning 'to compel') and its relationship to church growth through experiential application. Without access to the actual transcript, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 396,
@@ -4368,7 +10886,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication errors with the source document. Please provide the sermon transcript text to generate proper indexing metadata."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 3 of a series on principles for great change, specifically focusing on Holy Ghost encounters. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 397,
@@ -4377,7 +10895,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to generate index: The sermon transcript could not be retrieved due to authentication failure with the source document. A valid transcript is required to identify specific topics, scripture references, and teaching content from this sermon."
+    "summary": "The transcript could not be accessed due to an authentication error with the source document. No sermon content was available to analyze or index. Unable to extract Bishop Heward-Mills' teaching without valid transcript data."
   },
   {
     "id": 398,
@@ -4386,7 +10904,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates Bishop Joshua Heward-Mills teaches about reasons for pursuing mega church growth based on experience. Without the actual transcript text, the specific biblical references and detailed teaching points cannot be extracted."
   },
   {
     "id": 399,
@@ -4395,7 +10913,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to an authentication error with the source system (Google Drive API access token expired). Please verify credentials and retry to obtain the sermon content for indexing."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part 3 of a series on 'The Dream Church' focusing on 'A Church of Faith - The Experience'. Without access to the actual transcript, no specific teachings, scriptures, or topics can be extracted."
   },
   {
     "id": 400,
@@ -4404,7 +10922,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error (expired access token). Please provide the sermon transcript text to generate indexing metadata."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part five of a series on poison, focusing specifically on talebearing and slander during a Holy Ghost Encounter service. Without access to the actual transcript, the specific teachings of Bishop Joshua Heward-Mills cannot be extracted or summarized."
   },
   {
     "id": 401,
@@ -4413,7 +10931,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript failed to load due to authentication error (expired access token). The sermon content is not accessible for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates this is part four of a series on poison, specifically focusing on expressing doubt in relation to Holy Ghost encounters. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 402,
@@ -4422,7 +10940,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index this sermon. The transcript data could not be retrieved due to authentication credentials expiring on the source document. Please re-authenticate and provide the sermon transcript to enable proper indexing of topics, scriptures, and content summary."
+    "summary": "No transcript content is available due to an authentication error. The sermon titled 'How You Can Preach Salvation Pt. 4 - Prayer - The Experience' could not be indexed because the source document requires valid credentials to access. Without the actual sermon text, no teaching content, scripture references, or topics can be extracted."
   },
   {
     "id": 403,
@@ -4431,7 +10949,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication credentials error (OAuth 2 access token expired). No content available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates teaching on reasons for building mega churches and Holy Ghost encounters. Without the actual transcript text, specific teachings, scriptures, and topics cannot be extracted."
   },
   {
     "id": 404,
@@ -4440,7 +10958,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript failed to load due to authentication error with the source document (Google Drive API access token expired). No sermon content available for indexing."
+    "summary": "The transcript could not be accessed due to an authentication error. No sermon content was available to analyze. Therefore, no teaching points, scripture references, or topics could be extracted from this sermon."
   },
   {
     "id": 405,
@@ -4449,7 +10967,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication credentials error (OAuth 2.0 access token expired). No sermon content is available for analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates it focuses on Jesus's invitation 'Come Unto Me' and experiencing the Holy Ghost. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 406,
@@ -4458,7 +10976,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript contains only an authentication error from Google Drive API, not the actual sermon transcript. Please provide the valid sermon transcript to generate accurate indexing data."
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon title indicates Bishop Heward-Mills was teaching about reasons for pursuing mega church growth, specifically focusing on Holy Ghost encounters as part of a series. Without access to the actual transcript, the specific biblical references and detailed teachings cannot be extracted or indexed."
   },
   {
     "id": 407,
@@ -4467,7 +10985,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document (Google Drive API returned 401 UNAUTHENTICATED). Please provide the sermon transcript text to enable proper indexing."
+    "summary": "The transcript could not be loaded due to an authentication error with the source document. No sermon content was available to analyze or index. Unable to extract any teaching points, scripture references, or topics from this sermon."
   },
   {
     "id": 408,
@@ -4476,7 +10994,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript could not be retrieved due to authentication error with the source document. Please verify access credentials and resubmit the transcript for indexing."
+    "summary": "No transcript content was available to index. The provided data contained only an authentication error from a cloud storage service. Without access to the actual sermon transcript, no teaching content, scripture references, or topics could be extracted."
   },
   {
     "id": 409,
@@ -4485,7 +11003,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error (expired OAuth 2 access token). Please verify access credentials and retry."
+    "summary": "No transcript content available due to authentication error. The sermon titled 'Everything By Prayer - The Flow Church' by Bishop Joshua Heward-Mills could not be indexed. A valid transcript is required to extract topics, scriptures, and teaching content."
   },
   {
     "id": 410,
@@ -4494,7 +11012,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript content failed to load due to authentication error with the source document. Please provide the sermon transcript text directly or resolve the access credentials to the document."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates the teaching is about encountering God through the Holy Spirit. Without access to the actual transcript, no specific doctrinal content, scripture references, or teaching points can be extracted."
   },
   {
     "id": 411,
@@ -4503,7 +11021,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data could not be retrieved due to authentication error with the source system. Please provide the sermon transcript text directly to enable proper indexing and analysis."
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon title indicates Bishop Joshua Heward-Mills teaches about what defines the presence of God in a Holy Ghost encounter context. Without the actual transcript text, specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 412,
@@ -4512,7 +11030,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to index sermon. The transcript failed to load due to authentication error with the source document. No content available for analysis."
+    "summary": "No transcript content was available due to an authentication error with the source document. The sermon title indicates this is part four of a series on the dream church, specifically focusing on the church of soul winners and their experience. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   },
   {
     "id": 413,
@@ -4521,7 +11039,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon content. The transcript data returned an authentication error (expired OAuth 2 access token) from Google Drive API, preventing access to the sermon transcript. Please re-authenticate and provide the transcript text to enable proper indexing."
+    "summary": "No transcript content was provided due to an authentication error. The sermon title indicates this is part one of a series on becoming a spiritual Christian, focusing on the experiential aspect. Without the actual transcript, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 414,
@@ -4530,7 +11048,7 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon indexing. The transcript failed to load due to authentication errors with the source document. Please provide the sermon transcript text to enable proper indexing of topics, scriptures, and teaching summary."
+    "summary": "No transcript content was available due to an authentication error with the source document. The sermon title indicates the topic is 'Oikodomeo' which is the Greek word for edification or building up believers. Without the actual transcript text, no specific teachings, scripture references, or topics can be extracted."
   },
   {
     "id": 415,
@@ -4539,6 +11057,486 @@ export const SERMONS = [
     "topics": [],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "Unable to process sermon. The transcript returned an authentication error from Google Drive (expired access token), preventing retrieval of the sermon content. No indexing data could be extracted."
+    "summary": "No transcript content was provided due to an authentication error. The sermon title indicates teaching about building one's spiritual life on a solid foundation based on Christ's parable. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
+  },
+  {
+    "id": 416,
+    "driveId": "1bOinvXwIelxD1Ui4m2gTOzOBcX9Z5k2U",
+    "title": "1.",
+    "topics": [
+      "worship",
+      "seeking God",
+      "divine presence",
+      "intimacy with God",
+      "spiritual hunger",
+      "encountering God",
+      "praise",
+      "devotion"
+    ],
+    "scriptures": [],
+    "keyScripture": "",
+    "summary": "This transcript appears to be primarily a worship song session rather than a teaching sermon. The lyrics express a deep desire to see God, experience His presence, and seek Him more intimately. The content focuses on welcoming God's presence and expressing love and devotion through repetitive worship declarations."
+  },
+  {
+    "id": 417,
+    "driveId": "13CH2W2v-r0v5yl_r940Fycf06PcDVL12",
+    "title": "17.",
+    "topics": [
+      "worship",
+      "presence of God",
+      "sanctuary",
+      "praise",
+      "holiness",
+      "answered prayer",
+      "seeking God's face",
+      "divine healing",
+      "heavenly intervention",
+      "repentance",
+      "calling on the Lord",
+      "spiritual touch"
+    ],
+    "scriptures": [],
+    "keyScripture": "",
+    "summary": "This transcript captures a worship service focused on entering God's presence through praise and declaring His awesomeness in the sanctuary. The congregation sings about standing face to face with God, bowing in worship, and acknowledging His worthiness to receive praise. The message emphasizes calling out to God, seeking His holy face, and asking Him to hear from heaven, touch His people, and send healing as they gather in His house."
+  },
+  {
+    "id": 418,
+    "driveId": "1zbHNcWmGFbR7sbuFCjs8LmirOSCLokoy",
+    "title": "03.20 - How to Watch and Pray",
+    "topics": [
+      "watching and praying",
+      "prayer as alternative to striving",
+      "asking in prayer",
+      "lusting and desiring",
+      "fighting and killing for what we want",
+      "not having because we ask not",
+      "apostles' doctrine",
+      "continuing steadfastly",
+      "New Testament church practices",
+      "God's different ways with different servants"
+    ],
+    "scriptures": [
+      "James 4:2",
+      "Acts 2:42"
+    ],
+    "keyScripture": "James 4:2",
+    "summary": "BJosh teaches that people often lust, kill, desire, and fight to obtain what they want, but the real reason they don't have is because they don't ask God in prayer. He emphasizes that prayer is the key to obtaining what we are fighting for, desiring, or trying to get through our own efforts. He calls the church to continue steadfastly in the four practices of the New Testament church, beginning with the apostles' doctrine, and stresses that each of God's servants has a unique doctrine and way that God works with them.",
+    "keyTheme": "Prayer replaces human striving"
+  },
+  {
+    "id": 419,
+    "driveId": "1cMOAYRLpD4KJGDhtic938HKc7SGsbmQ6",
+    "title": "01 Becoming A Soul Winner",
+    "topics": [
+      "soul winning",
+      "evangelism",
+      "the great commission",
+      "gospel definition",
+      "salvation testimony",
+      "demons and strongholds",
+      "Christ died for sins",
+      "personal conversion",
+      "motivation in ministry",
+      "wisdom in winning souls",
+      "preaching the gospel",
+      "spiritual warfare"
+    ],
+    "scriptures": [
+      "Proverbs 11:30",
+      "Acts 1",
+      "1 Corinthians 15:1-6",
+      "Matthew 28:18"
+    ],
+    "keyScripture": "Proverbs 11:30",
+    "summary": "BJosh teaches that every Christian must personally become a soul winner by sitting down with individuals to share that Christ died for their sins and praying with them until they are genuinely converted. He defines the gospel specifically as the message that Christ died for our sins, was buried, and rose again on the third day according to the scriptures. He emphasizes that soul winning is the great commission and that those who win souls are wise, warning that demons create strongholds on people's minds that prevent them from receiving salvation."
+  },
+  {
+    "id": 420,
+    "driveId": "16a9fs3YYtzOm7tQLjcXnGucS916S-XQt",
+    "title": "04 How to Become a Fruitful Christian",
+    "topics": [
+      "fruitfulness",
+      "discipleship",
+      "abiding in Christ",
+      "bearing fruit",
+      "laws of fruitfulness",
+      "pruning",
+      "cleanliness through the Word",
+      "closeness to God",
+      "true Christians versus cultural Christians",
+      "intimacy with God",
+      "cost of discipleship",
+      "reproduction and multiplication"
+    ],
+    "scriptures": [
+      "John 15:8",
+      "Matthew 4:19",
+      "John 15:4"
+    ],
+    "keyScripture": "John 15:8",
+    "summary": "Bishop Joshua teaches that true disciples of Jesus Christ are identified not by religious activity or church attendance, but by their fruitfulness—bearing spiritual fruit that proves they are genuine followers. He presents four laws of fruitfulness: fruitless Christians will be removed, fruitful Christians will be pruned to bear more fruit, cleanliness through God's Word is needed for fruitfulness, and closeness (abiding) in Christ is essential for bearing fruit. Using the analogy of biological reproduction requiring complete intimacy, he emphasizes that believers must have deep, unhindered closeness with God to be truly fruitful, warning that in cultures where Christianity costs nothing, many may appear Christian without actually being disciples."
+  },
+  {
+    "id": 421,
+    "driveId": "1itQf0Ft4U8PSAC-ph-4OAoo4JepyQfUy",
+    "title": "01 What it means to be Humble like Jesus",
+    "topics": [
+      "humility",
+      "meek and quiet spirit",
+      "hidden man of the heart",
+      "pride",
+      "self-love",
+      "boasting",
+      "covetousness",
+      "inner transformation",
+      "wives submission",
+      "last days characteristics",
+      "outward versus inward adornment",
+      "exaltation through humility"
+    ],
+    "scriptures": [
+      "1 Peter 3:1",
+      "1 Peter 3:2",
+      "1 Peter 3:3",
+      "Jeremiah 3:15",
+      "Philippians 1:6",
+      "2 Timothy 3:1",
+      "Mark 7:20",
+      "1 John 2:16",
+      "Ephesians 4"
+    ],
+    "keyScripture": "1 Peter 3:3-4",
+    "summary": "BJosh teaches that God's primary work is transforming believers internally, particularly by developing humility and a meek and quiet spirit which God values highly. He explains that pride is naturally generated in human hearts and is a characteristic of the last days, manifested through self-love, boasting, and covetousness that pervades modern culture including among Christians. He emphasizes that true beauty and value come from the hidden man of the heart rather than outward adornment, and that those who humble themselves will be exalted according to universal biblical law."
+  },
+  {
+    "id": 422,
+    "driveId": "1AY_tFyZwlPkuPRxYRcDmzWaoXuVdCSo1",
+    "title": "2023.02.21_KWAB_Your faith has made you whole",
+    "topics": [
+      "faith",
+      "healing",
+      "wholeness",
+      "salvation",
+      "woman with issue of blood",
+      "suffering",
+      "touch of faith",
+      "anointing",
+      "Jesus as healer",
+      "point of contact",
+      "miracles",
+      "El Shaddai"
+    ],
+    "scriptures": [
+      "Mark 5:25",
+      "Mark 5:26",
+      "Mark 5:27",
+      "Mark 5:28",
+      "Mark 5:29",
+      "Mark 5:32",
+      "Mark 5:34",
+      "2 Corinthians 4:17",
+      "1 Peter 5:10",
+      "Romans 8:32"
+    ],
+    "keyScripture": "Mark 5:34",
+    "summary": "Bishop Joshua teaches that Jesus is the healer who specializes in every type of sickness and that faith in Him, activated through a point of contact, brings immediate healing and wholeness. He emphasizes that the woman with the issue of blood was not only healed but made whole through her faith in Jesus, and that wholeness requires salvation through Jesus Christ, not just physical healing. He calls listeners to surrender their lives to Jesus, warning that this moment may be their last chance to receive both healing and eternal salvation."
+  },
+  {
+    "id": 423,
+    "driveId": "13MQ4UGe31g8407hsadRyweSRUZHtAiFs",
+    "title": "2023.06.18_FLHGE_What You Must Know About Salvation",
+    "topics": [
+      "salvation",
+      "sin",
+      "justification by faith",
+      "blood of Jesus",
+      "grace",
+      "repentance",
+      "Holy Spirit conviction",
+      "eternal judgment",
+      "confession of faith",
+      "spiritual death",
+      "filthy rags",
+      "hell"
+    ],
+    "scriptures": [
+      "Luke 19:41",
+      "Luke 19:42",
+      "John 11:35",
+      "Hosea 4:6",
+      "Romans 3:23",
+      "Psalm 19:1",
+      "Psalm 19:2",
+      "Psalm 19:7",
+      "Psalm 19:8",
+      "Hebrews 9:14",
+      "Isaiah 33:6",
+      "Psalm 51:5",
+      "James 4:17",
+      "Romans 2:14",
+      "Romans 2:15",
+      "Isaiah 64:6",
+      "Ephesians 2:8",
+      "Ephesians 2:9",
+      "John 16:7",
+      "John 16:8",
+      "Acts 4:12",
+      "Acts 5:31",
+      "Romans 10:9",
+      "Romans 10:10",
+      "2 Corinthians 5:14"
+    ],
+    "keyScripture": "Ephesians 2:8-9",
+    "summary": "BJosh teaches that all people are sinners from birth and even their good works are like filthy rags before God, making salvation impossible through human effort. He emphasizes that salvation comes only through the blood of Jesus Christ, which has eternal and spiritual properties through the Holy Spirit, and cannot be earned by any religious activities or moral behavior. He stresses that the Holy Spirit must convict people of sin and give them both faith and repentance, requiring public confession of Christ before others as essential to genuine salvation."
+  },
+  {
+    "id": 424,
+    "driveId": "1pwANG3O1-WVtSvHf4iyA0qh6jKZItWhs",
+    "title": "02 The Presence of the Holy Spirit",
+    "topics": [
+      "voice of the Holy Spirit",
+      "hearing from God",
+      "presence of God",
+      "supernatural guidance",
+      "Holy Spirit leading",
+      "prophecy and visions",
+      "divine direction",
+      "spiritual sensitivity",
+      "language of the Spirit",
+      "remembrance of scripture",
+      "thoughts and ideas from God",
+      "trances and dreams"
+    ],
+    "scriptures": [
+      "Luke 5:1-10",
+      "John 14:17",
+      "John 14:26",
+      "Hosea 12:10",
+      "1 Corinthians 14:10",
+      "1 Corinthians 14:11",
+      "Acts 10:10",
+      "2 Peter 1:20-21",
+      "Luke 1:3",
+      "Acts 15:28",
+      "Psalm 23"
+    ],
+    "keyScripture": "Luke 5:4-6",
+    "summary": "BJosh teaches that the primary evidence of God's presence is hearing His voice, which transforms ministry from human effort (toiling all night with no results) to supernatural results through divine guidance. He emphasizes that the Holy Spirit speaks through three channels: to the body (audible voice, servants/prophets, visions), to the soul (making you remember scriptures, giving thoughts that seem good), and to the spirit, and Christians must learn the language and patterns of how God speaks. He illustrates that without learning to hear the Holy Spirit's voice in daily decisions—from fishing on the right side of the boat to buying land to leading a church—believers will remain limited to ordinary, natural results rather than accessing the supernatural abundant life God intends."
+  },
+  {
+    "id": 425,
+    "driveId": "1cPMRkMudW_GpzM8bn0Osdr2nUY1m39-S",
+    "title": "12.08 - Why Philip Preached Christ",
+    "topics": [
+      "Philip the Evangelist",
+      "preaching Christ",
+      "Samaria",
+      "hope of glory",
+      "light of the world",
+      "resurrection and life",
+      "salvation from sin",
+      "shame and disgrace",
+      "eternal life",
+      "Christ in you",
+      "death and heaven",
+      "born again"
+    ],
+    "scriptures": [
+      "Acts 8:4",
+      "Acts 8:5",
+      "Acts 8:6",
+      "Acts 8:7",
+      "Acts 8:8",
+      "Colossians 1:27",
+      "1 John 3:8",
+      "John 8:12",
+      "1 Timothy 1:8",
+      "1 Corinthians 2:2",
+      "1 Corinthians 2:7",
+      "John 4:14",
+      "John 11:25",
+      "Matthew 1:21",
+      "1 Timothy 1:15",
+      "John 1:29",
+      "John 3:16",
+      "John 3:17"
+    ],
+    "keyScripture": "Acts 8:5",
+    "summary": "Bishop Joshua teaches that Philip preached Christ to Samaria—a rejected, poor, and lawless place—because Christ alone is the hope of glory, the light of the world who guides our lives, and the resurrection and the life who saves us from sin and death. He emphasizes that no amount of education, money, or human solutions can solve humanity's core problem of shame and mortality, only Jesus Christ can transform lives and grant eternal life. The sermon concludes with an altar call for people to accept Jesus as their personal Savior and receive forgiveness, guidance, and the promise of resurrection."
+  },
+  {
+    "id": 426,
+    "driveId": "1NH3wPzmwklxQq39uL1X6S5-Hr3eIU6DP",
+    "title": "04.28 - The New Creation",
+    "topics": [
+      "New Creation",
+      "Born Again",
+      "Man as Spirit",
+      "Soul and Body",
+      "Death through Adam",
+      "Salvation through Christ",
+      "Incorruptible Seed",
+      "Inner Man",
+      "Spiritual Exercise",
+      "Eternal Spirit",
+      "Human Composition",
+      "Spiritual Rebirth"
+    ],
+    "scriptures": [
+      "Romans 8:28",
+      "1 Corinthians 2:9",
+      "Genesis 2:7",
+      "Genesis 2:15",
+      "Genesis 2:17",
+      "Galatians 5:12",
+      "Romans 5:12",
+      "Romans 5:14",
+      "John 3:1-3",
+      "2 Corinthians 5:17",
+      "1 Peter 1:22-25",
+      "Ezekiel 36:26",
+      "1 Thessalonians 5:23",
+      "2 Corinthians 4:16",
+      "Ephesians 3:16",
+      "1 Peter 3:4",
+      "Hebrews 4:12",
+      "2 Corinthians 5:1-2",
+      "2 Corinthians 5:8",
+      "1 Corinthians 14:4",
+      "Jude 1:20",
+      "1 Peter 2:2",
+      "Luke 16",
+      "Matthew 16:26"
+    ],
+    "keyScripture": "2 Corinthians 5:17",
+    "summary": "Bishop Heward-Mills teaches that when a person is born again through faith in Christ, they become a completely new creation in their spirit—the real person inside—while the outer body remains unchanged and is perishing. He emphasizes that humans are tripartite beings composed of spirit, soul, and body, with the spirit being the true eternal self that was dead in sin through Adam but is made alive through the incorruptible seed of God's Word. He urges believers to invest in their inner spiritual man through prayer, tongues, and God's Word rather than focusing only on the temporary physical body, because the spirit is what continues after death into eternity."
+  },
+  {
+    "id": 427,
+    "driveId": "1N438xulyOIClaSXARJinP16oNHcI916o",
+    "title": "08.14 - Jesus and Blind Bartimaeus",
+    "topics": [
+      "blindness",
+      "spiritual blindness",
+      "Bartimaeus",
+      "seeking God",
+      "mercy",
+      "salvation encounter",
+      "God's pursuit of man",
+      "crying out to Jesus",
+      "standing still for one person",
+      "overcoming obstacles to faith",
+      "walking by faith not sight",
+      "new identity in Christ"
+    ],
+    "scriptures": [
+      "Mark 10:46",
+      "Mark 10:47",
+      "Mark 10:48",
+      "Mark 10:49",
+      "2 Corinthians 4:3",
+      "Romans 1:16",
+      "1 Corinthians 2",
+      "Hebrews 1:3",
+      "John 14:17",
+      "Isaiah 62:2",
+      "Isaiah 62:4",
+      "Acts 24:24",
+      "Acts 24:25",
+      "John 3:16"
+    ],
+    "keyScripture": "Mark 10:46-49",
+    "summary": "Bishop Joshua teaches that all lost people are spiritually blind like Bartimaeus, unable to see their own sin and need for salvation until Jesus comes to them. He emphasizes that salvation is initiated by Jesus seeking us out, not by our ability to find Him, and that we must cry out for mercy and come to Jesus by faith despite obstacles that try to silence us. The sermon illustrates that Jesus stands still for each individual person, demonstrating God's personal love and willingness to interrupt His plans to save even one soul who calls out to Him."
+  },
+  {
+    "id": 428,
+    "driveId": "1AcJcwNc8eNt11VEPt_RMv3Jpu4CMRJJp",
+    "title": "08.14 - Jesus and Blind Bartimaeus - Gospel Encounter",
+    "topics": [
+      "Blind Bartimaeus",
+      "Gospel Encounter",
+      "Holy Spirit encounter",
+      "divine revelation",
+      "spiritual hunger",
+      "righteousness",
+      "transformation",
+      "backsliding",
+      "God's glory",
+      "being filled",
+      "spiritual satisfaction",
+      "hungering for God"
+    ],
+    "scriptures": [
+      "Matthew 5:6"
+    ],
+    "keyScripture": "Matthew 5:6",
+    "summary": "BJosh welcomes the Holy Spirit and invites God's presence to reveal His grace, glory, and power to those gathered. He emphasizes the need for spiritual hunger and references Jesus' teaching that those who hunger and thirst after righteousness will be filled. He prays for transformation through encounter with God's presence, particularly for backsliders and those who need to know God more intimately."
+  },
+  {
+    "id": 429,
+    "driveId": "1mj3ztkwiqwRUL09bM0Ol7_4nhzhX3DED",
+    "title": "2020.02.22_FirstLove Houston_Your Personal Encounter with God",
+    "topics": [
+      "Personal encounter with God",
+      "Spiritual awakening",
+      "Wrestling with God",
+      "Transformation through Christ",
+      "Being asleep spiritually",
+      "Pursuing God intentionally",
+      "Jacob's experience at Bethel",
+      "Jacob wrestling at Peniel",
+      "Life change through meeting Jesus",
+      "Reading the Bible personally",
+      "Natural man vs spiritual man",
+      "Desperately seeking God"
+    ],
+    "scriptures": [
+      "Genesis 28:10",
+      "Genesis 28:12",
+      "Genesis 28:13",
+      "Genesis 28:15",
+      "Genesis 28:16",
+      "Isaiah 55:8",
+      "Isaiah 55:9",
+      "1 Corinthians 2:14",
+      "Romans 12:2",
+      "James 4:8",
+      "Genesis 32:23",
+      "Genesis 32:24",
+      "Genesis 32:25",
+      "Genesis 32:26",
+      "Genesis 32:27",
+      "Jeremiah 29:13",
+      "Habakkuk 1:2"
+    ],
+    "keyScripture": "Genesis 32:26",
+    "summary": "Bishop Joshua teaches that many Christians miss their personal encounter with God because they are spiritually asleep and not actively pursuing Him, just as Jacob was asleep when the ladder to heaven appeared. He emphasizes that true transformation only comes through wrestling with God personally—seeking Him desperately in His Word until He blesses you and changes your life, which will be evidenced by walking differently like Jacob's limp. He warns that attending church or being raised in a Christian family is not enough; each person must have their own individual encounter with Jesus that transforms their mind, character, and daily life."
+  },
+  {
+    "id": 430,
+    "driveId": "11VySvb3m3ORkLFiOEPamfGsfl-_MUAyA",
+    "title": "How You Can Preach Salvation Pt. 5 - How To Establish People In Church - The Experience",
+    "topics": [],
+    "scriptures": [],
+    "keyScripture": "",
+    "summary": "No transcript content was available due to an authentication error. The sermon title indicates this is part 5 of a series on preaching salvation, specifically focusing on establishing people in church through experience. Without the actual transcript, the specific teachings and scripture references cannot be extracted."
+  },
+  {
+    "id": 431,
+    "driveId": "15G-WofRdwZ4rNWdUoso-JMPPlsmvPgzI",
+    "title": "2025.07.30 Taking Heed",
+    "topics": [],
+    "scriptures": [],
+    "keyScripture": "",
+    "summary": "No transcript content was provided due to an authentication error with the source document. The sermon is titled 'Taking Heed' from July 30, 2025, but the actual teaching content could not be accessed. Without the transcript text, no specific teachings, topics, or scripture references can be extracted."
+  },
+  {
+    "id": 432,
+    "driveId": "1D-Nk0pEqk5JaSRjch4xgKu-bVNGHnOKW",
+    "title": "Seven Great Principles For A Great Change Pt. 2 - Holy Ghost Encounter",
+    "topics": [],
+    "scriptures": [],
+    "keyScripture": "",
+    "summary": "No transcript content is available due to an authentication error with the source document. The sermon title indicates this is part two of a series on principles for great change, specifically focusing on Holy Ghost encounters. Without the actual transcript text, the specific teachings and scripture references cannot be extracted."
   }
 ];
