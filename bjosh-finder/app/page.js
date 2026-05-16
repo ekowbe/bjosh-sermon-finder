@@ -28,10 +28,7 @@ export default function Home() {
         body: JSON.stringify({ query: searchQ }),
       });
       const data = await res.json();
-      const enriched = (data.matches || [])
-        .map(m => ({ ...m, sermon: SERMONS.find(s => s.id === m.id) }))
-        .filter(m => m.sermon);
-      setResults(enriched);
+      setResults(data.matches || []);
     } catch {
       setResults([]);
     }
@@ -169,24 +166,26 @@ export default function Home() {
             ) : (
               <div className="flex flex-col gap-3">
                 {results.map((r, i) => (
-                  <div key={r.id} className="bg-white rounded-xl border border-stone-200 p-4">
+                  <div key={r.driveId} className="bg-white rounded-xl border border-stone-200 p-4">
                     <div className="flex gap-3">
                       <div className="w-7 h-7 rounded-full bg-amber-100 flex items-center justify-center text-xs font-medium text-amber-700 shrink-0 mt-0.5">
                         {i + 1}
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-start gap-2 flex-wrap mb-1">
-                          <span className="text-sm font-medium text-stone-900">{r.sermon.title}</span>
+                          <span className="text-sm font-medium text-stone-900">{r.title}</span>
                           <span className={`text-xs px-2 py-0.5 rounded-full ${confidenceBadge(r.confidence)}`}>
                             {confidenceLabel(r.confidence)}
                           </span>
                         </div>
-                        {r.sermon.keyScripture && (
-                          <p className="text-xs text-amber-700 font-medium mb-1">{r.sermon.keyScripture}</p>
+                        {r.keyScripture && (
+                          <p className="text-xs text-amber-700 font-medium mb-1">{r.keyScripture}</p>
                         )}
-                        <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.sermon.summary}</p>
+                        {r.summary && (
+                          <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.summary}</p>
+                        )}
                         <a
-                          href={`https://drive.google.com/file/d/${r.sermon.driveId}/view`}
+                          href={`https://drive.google.com/file/d/${r.driveId}/view`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs text-amber-600 hover:text-amber-700"
