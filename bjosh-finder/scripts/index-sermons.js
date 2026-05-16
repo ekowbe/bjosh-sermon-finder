@@ -63,7 +63,7 @@ async function extractMetadata(title, text, anthropic) {
 Sermon title: "${title}"
 
 Transcript:
-${text.slice(0, 15000)}
+${text}
 
 Your job:
 1. Find ALL Bible scripture references — listen for spoken patterns like "john three sixteen", "first corinthians fourteen", "the book of romans chapter eight", "genesis chapter one", etc. Convert them to standard format: "John 3:16", "1 Corinthians 14", "Romans 8", etc.
@@ -81,7 +81,7 @@ Return ONLY this JSON, nothing else:
 
   const response = await anthropic.messages.create({
     model: 'claude-sonnet-4-5',
-    max_tokens: 800,
+    max_tokens: 1200,
     messages: [{ role: 'user', content: prompt }],
   });
 
