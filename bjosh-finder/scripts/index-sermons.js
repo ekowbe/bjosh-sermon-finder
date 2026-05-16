@@ -63,7 +63,7 @@ async function extractMetadata(title, text, anthropic) {
 Sermon title: "${title}"
 
 Transcript:
-${text}
+${text.slice(0, 40000)}
 
 Your job:
 1. Find ALL Bible scripture references — listen for spoken patterns like "john three sixteen", "first corinthians fourteen", "the book of romans chapter eight", "genesis chapter one", etc. Convert them to standard format: "John 3:16", "1 Corinthians 14", "Romans 8", etc.
@@ -135,7 +135,7 @@ async function main() {
         } catch (retryErr) {
           if (attempt === 3) throw retryErr;
           console.log(`  → Retry ${attempt}/3 after error: ${retryErr.message}`);
-          await new Promise(r => setTimeout(r, 3000 * attempt));
+          await new Promise(r => setTimeout(r, 5000 * attempt));
         }
       }
       results[f.id] = { driveId: f.id, title, ...meta };
