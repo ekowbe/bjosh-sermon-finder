@@ -127,12 +127,22 @@ async function main() {
 
     try {
       const text = await readFile(f.id, token);
-      const meta = await extractMetadata(title, text, anthropic);
+      let meta;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          meta = await extractMetadata(title, text, anthropic);
+          break;
+        } catch (retryErr) {
+          if (attempt === 3) throw retryErr;
+          console.log(`  → Retry ${attempt}/3 after error: ${retryErr.message}`);
+          await new Promise(r => setTimeout(r, 3000 * attempt));
+        }
+      }
       results[f.id] = { driveId: f.id, title, ...meta };
       newCount++;
       saveProgress(results);
       console.log(`  → ${meta.scriptures.length} scriptures · ${meta.topics.length} topics`);
-      await new Promise(r => setTimeout(r, 400));
+      await new Promise(r => setTimeout(r, 1500));
     } catch (e) {
       console.log(`  → Error: ${e.message}`);
     }
