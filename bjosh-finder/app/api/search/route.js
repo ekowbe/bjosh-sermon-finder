@@ -40,31 +40,26 @@ export async function POST(request) {
 
   try {
     const token = await getAccessToken();
-
-    // Search Drive full-text
     const files = await searchDrive(query, token);
-
     if (!files.length) return NextResponse.json({ matches: [] });
 
-    // Read snippets from top results
     const snippets = await Promise.all(
       files.slice(0, 8).map(async (f) => {
         const text = await readSnippet(f.id, token);
-        return { id: f.id, title: f.name.replace('.txt', ''), snippet: text };
+        return { driveId: f.id, title: f.name.replace('.txt', ''), snippet: text };
       })
     );
 
-    // Ask Claude to rank and explain
     const prompt = `You help find BJosh (Bishop Joshua Heward-Mills) sermons. User searched: "${query}"
 
-Here are the matching sermons with transcript excerpts:
+Here are matching sermons with transcript excerpts (numbered 0 to ${snippets.length - 1}):
 
-${snippets.map((s, i) => `[${i + 1}] "${s.title}"
+${snippets.map((s, i) => `[${i}] "${s.title}"
 Excerpt: ${s.snippet.slice(0, 800)}
 ---`).join('\n')}
 
-Rank these by relevance to the search query. Return a JSON array:
-[{"index": 1, "confidence": "high"|"medium"|"low", "keyScripture": "main scripture if found or empty string", "summary": "one crisp sentence on what this sermon is about"}]
+Rank these by relevance. Return a JSON array using the exact 0-based index shown above:
+[{"index": 0, "confidence": "high"|"medium"|"low", "keyScripture": "main scripture or empty string", "summary": "one crisp sentence on what this sermon is about"}]
 Return ONLY valid JSON, nothing else.`;
 
     const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -85,13 +80,19 @@ Return ONLY valid JSON, nothing else.`;
     const text = data.content?.find(b => b.type === 'text')?.text || '[]';
     const ranked = JSON.parse(text.replace(/```json|```/g, '').trim());
 
-    const matches = ranked.map(r => ({
-      driveId: snippets[r.index - 1]?.id,
-      title: snippets[r.index - 1]?.title,
-      confidence: r.confidence,
-      keyScripture: r.keyScripture,
-      summary: r.summary,
-    })).filter(m => m.driveId);
+    const matches = ranked
+      .map(r => {
+        const s = snippets[r.index];
+        if (!s) return null;
+        return {
+          driveId: s.driveId,
+          title: s.title,
+          confidence: r.confidence,
+          keyScripture: r.keyScripture || '',
+          summary: r.summary || '',
+        };
+      })
+      .filter(Boolean);
 
     return NextResponse.json({ matches });
   } catch (e) {
