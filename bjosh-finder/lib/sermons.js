@@ -431,23 +431,4 @@ export const SERMONS = [
   { id: 430, title: 'Why Philip Preached Christ - Holy Ghost Encounter', keyScripture: '', summary: '', driveId: '1niW2KsmKKuE9roQWv9qeNDE22dlDduDX' },
   { id: 431, title: 'Your Role As A Church Member', keyScripture: '', summary: '', driveId: '1jxFr3hNrfviGXpBJNUPfmyxqlp5CklQd' },
   { id: 432, title: 'Your Role As A Church Member - The Experience', keyScripture: '', summary: '', driveId: '12jSFfRx4yBDqmmq9SzmpRApQLieLYfFO' }
-];  },
-  {
-    id: 5,
-    title: "The Gospel in a Nutshell",
-    keyScripture: "1 Peter 1:9–10",
-    summary: "The salvation we freely receive was prophesied and longed for across thousands of years. The prophets searched for what we now simply possess — the greatest gift in history.",
-    topics: ["salvation", "gospel", "great salvation", "cross", "prophecy", "Isaiah 9:6", "Malachi", "1 Peter 1", "salvation rally", "plan of salvation", "prophets foretold"],
-    scriptures: ["1 Peter 1:9-10", "Isaiah 61:1", "Isaiah 9:6", "Genesis 49:18"],
-    driveId: "1OdgQg4c4CsrZf1f4WG6dzYsoys8k0ypM",
-  },
-  {
-    id: 6,
-    title: "Why You Should Avoid Pseudo Ministry",
-    keyScripture: "Ephesians 4:11",
-    summary: "God gave only five ministry gifts to lead the church. True ministry is pure like the gold in Solomon's temple — anything less is counterfeit and will not carry the anointing.",
-    topics: ["pastoral ministry", "five-fold ministry", "apostle prophet evangelist pastor teacher", "real ministry", "gold", "pseudo ministry", "Ephesians 4:11", "Exodus 25", "temple", "purity in ministry"],
-    scriptures: ["Ephesians 4:11", "Exodus 25:1-8"],
-    driveId: "1kbytiBQLm9Vzfz20k3nETTtdIqSrnEnc",
-  },
 ];
