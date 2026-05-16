@@ -58,7 +58,7 @@ ${snippets.map((s, i) => `[${i}] "${s.title}"
 Excerpt: ${s.snippet.slice(0, 800)}
 ---`).join('\n')}
 
-Rank these by relevance. Return a JSON array using the exact 0-based index shown above:
+Rank these by relevance. Exclude any sermon where the topic only appears in an opening prayer, worship section, or passing mention — only include sermons where it is a central teaching point. Return a JSON array using the exact 0-based index shown above:
 [{"index": 0, "confidence": "high"|"medium"|"low", "keyScripture": "main scripture or empty string", "summary": "one crisp sentence on what this sermon is about"}]
 Return ONLY valid JSON, nothing else.`;
 
