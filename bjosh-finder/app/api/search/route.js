@@ -8,12 +8,17 @@ export async function POST(request) {
     return NextResponse.json({ error: 'No query provided' }, { status: 400 });
   }
 
-  const prompt = `You help find BJosh (Bishop Joshua Heward-Mills) sermons from First Love Church. User searched: "${query}"
+  const prompt = `You help find BJosh (Bishop Joshua Heward-Mills) sermons from First Love Church.
 
-Library:
-${SERMONS.map(s => `[${s.id}] "${s.title}" | Topics: ${s.topics.join(', ')} | Scriptures: ${s.scriptures.join(', ') || 'none'}`).join('\n')}
+User searched: "${query}"
 
-Return only a JSON array of matches ordered by relevance. Each item: {"id":number,"matchReason":"1-2 sentences","confidence":"high"|"medium"|"low"}. Only include genuine matches. Return ONLY valid JSON, nothing else.`;
+Sermon library (${SERMONS.length} sermons — title only):
+${SERMONS.map(s => `[${s.id}] ${s.title}`).join('\n')}
+
+Return a JSON array of the best matching sermon IDs, ordered by relevance. Max 8 results.
+Only include genuine matches based on the sermon title.
+Each item: {"id": number, "confidence": "high"|"medium"|"low"}
+Return ONLY valid JSON, nothing else.`;
 
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
