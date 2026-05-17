@@ -53,44 +53,7 @@ async function crawl(folderId, token, audioMap) {
 }
 
 function normalize(s) {
-  return s
-    .toLowerCase()
-    .trim()
-    .replace(/[_\-]+/g, ' ')           // underscores and dashes to spaces
-    .replace(/\s+/g, ' ')              // collapse whitespace
-    .replace(/['']/g, "'")             // normalize quotes
-    .replace(/[^a-z0-9 ']/g, '')      // remove special chars
-    .trim();
-}
-
-function fuzzyMatch(transcriptTitle, audioMap) {
-  const tNorm = normalize(transcriptTitle);
-
-  // 1. Exact match
-  if (audioMap.has(tNorm)) return audioMap.get(tNorm);
-
-  // 2. Audio title contains transcript title (handles truncated transcript names)
-  for (const [audioKey, audioVal] of audioMap) {
-    if (audioKey.includes(tNorm) || tNorm.includes(audioKey)) {
-      return audioVal;
-    }
-  }
-
-  // 3. Significant word overlap (>70% of transcript words appear in audio title)
-  const tWords = tNorm.split(' ').filter(w => w.length > 3);
-  if (tWords.length === 0) return null;
-
-  let bestMatch = null, bestScore = 0;
-  for (const [audioKey, audioVal] of audioMap) {
-    const aWords = new Set(audioKey.split(' '));
-    const overlap = tWords.filter(w => aWords.has(w)).length;
-    const score = overlap / tWords.length;
-    if (score > 0.7 && score > bestScore) {
-      bestScore = score;
-      bestMatch = audioVal;
-    }
-  }
-  return bestMatch;
+  return s.toLowerCase().trim().replace(/[_\s]+/g, ' ');
 }
 
 async function main() {
@@ -113,7 +76,8 @@ async function main() {
   let matched = 0, unmatched = 0;
 
   const updated = sermons.map(s => {
-    const audio = fuzzyMatch(s.title, audioMap);
+    const key = normalize(s.title);
+    const audio = audioMap.get(key);
     if (audio) {
       matched++;
       return { ...s, audioId: audio.id };
