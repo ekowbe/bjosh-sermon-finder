@@ -71,6 +71,8 @@ Your job:
 3. Identify the single most central scripture.
 4. Write a 3-sentence summary of what BJosh specifically teaches.
 
+The transcript text shown above is exactly what was provided to you — there is no separate document to "access" and no authentication step on your end, so never describe missing content as an "authentication error" or "could not be accessed". If the transcript is present but is only worship-song lyrics, crowd noise, or garbled/repetitive speech-to-text output with no discernible teaching, say exactly that in plain terms (e.g. "This transcript consists only of worship song lyrics with no sermon content" or "This transcript is garbled speech-to-text with no discernible teaching content") and return empty arrays/strings for topics, scriptures, and keyScripture.
+
 Return ONLY this JSON, nothing else:
 {
   "topics": ["8-12 specific topic keywords — not generic words like God or church"],
