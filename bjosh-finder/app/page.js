@@ -3,6 +3,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { SERMONS } from '@/lib/sermons';
 
+const MATCH_WINDOW_WORDS = 30;
+const MATCH_MIN_WORDS = 6;
+const MATCH_DEBOUNCE_MS = 1800;
+const MATCH_MIN_INTERVAL_MS = 6000;
+
 export default function Home() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(null);
@@ -11,16 +16,23 @@ export default function Home() {
   const [transcript, setTranscript] = useState('');
   const [speechSupported, setSpeechSupported] = useState(false);
   const recRef = useRef(null);
+  const bufferRef = useRef('');
+  const stopRequestedRef = useRef(false);
+  const searchTimerRef = useRef(null);
+  const searchInFlightRef = useRef(false);
+  const lastSearchAtRef = useRef(0);
 
   useEffect(() => {
     setSpeechSupported('webkitSpeechRecognition' in window || 'SpeechRecognition' in window);
+    return () => clearTimeout(searchTimerRef.current);
   }, []);
 
   async function doSearch(q) {
-    const searchQ = (q || query).trim();
+    const searchQ = (q ?? query).trim();
     if (!searchQ) return;
+    if (searchInFlightRef.current) return;
+    searchInFlightRef.current = true;
     setLoading(true);
-    setResults(null);
     try {
       const res = await fetch('/api/search', {
         method: 'POST',
@@ -33,35 +45,92 @@ export default function Home() {
       setResults([]);
     }
     setLoading(false);
+    searchInFlightRef.current = false;
   }
 
-  function toggleListening() {
-    if (listening) {
-      recRef.current?.stop();
-      setListening(false);
-      return;
+  function scheduleMatchSearch() {
+    const words = bufferRef.current.trim().split(/\s+/).filter(Boolean);
+    if (words.length < MATCH_MIN_WORDS) return;
+    clearTimeout(searchTimerRef.current);
+    const elapsed = Date.now() - lastSearchAtRef.current;
+    if (elapsed >= MATCH_MIN_INTERVAL_MS) {
+      lastSearchAtRef.current = Date.now();
+      doSearch(bufferRef.current.trim());
+    } else {
+      // speech is still flowing in faster than our min interval — wait for a
+      // pause (debounce) so we search once on the freshest window of words
+      searchTimerRef.current = setTimeout(() => {
+        lastSearchAtRef.current = Date.now();
+        doSearch(bufferRef.current.trim());
+      }, MATCH_DEBOUNCE_MS);
     }
+  }
+
+  // Listens continuously, sliding a window over the last ~30 spoken words and
+  // re-searching whenever a final chunk comes in — lets you hold the mic up to
+  // a sermon playing aloud and have it identify itself, not just one-shot queries.
+  function startListening() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) return;
+    stopRequestedRef.current = false;
+    bufferRef.current = '';
+    lastSearchAtRef.current = 0;
+    setQuery('');
+    setResults(null);
+    setTranscript('');
+
     const rec = new SR();
-    rec.continuous = false;
+    rec.continuous = true;
     rec.interimResults = true;
     rec.lang = 'en-US';
-    rec.onresult = e => {
-      const t = Array.from(e.results).map(r => r[0].transcript).join(' ');
-      setTranscript(t);
-      if (e.results[e.results.length - 1].isFinal) {
-        setQuery(t);
+
+    rec.onresult = (e) => {
+      let interim = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const r = e.results[i];
+        if (r.isFinal) {
+          const words = (bufferRef.current + ' ' + r[0].transcript).trim().split(/\s+/);
+          bufferRef.current = words.slice(-MATCH_WINDOW_WORDS).join(' ');
+          scheduleMatchSearch();
+        } else {
+          interim += r[0].transcript;
+        }
+      }
+      setTranscript((bufferRef.current + ' ' + interim).trim());
+    };
+    rec.onerror = (e) => {
+      if (e.error === 'not-allowed' || e.error === 'service-not-allowed') {
+        stopRequestedRef.current = true;
         setListening(false);
-        doSearch(t);
+      }
+      // other errors (no-speech, aborted, network blips) are recovered via onend restart
+    };
+    rec.onend = () => {
+      if (stopRequestedRef.current) {
+        setListening(false);
+        return;
+      }
+      try {
+        rec.start();
+      } catch {
+        setListening(false);
       }
     };
-    rec.onerror = () => setListening(false);
-    rec.onend = () => setListening(false);
     recRef.current = rec;
     rec.start();
     setListening(true);
-    setTranscript('');
+  }
+
+  function stopListening() {
+    stopRequestedRef.current = true;
+    clearTimeout(searchTimerRef.current);
+    recRef.current?.stop();
+    setListening(false);
+  }
+
+  function toggleListening() {
+    if (listening) stopListening();
+    else startListening();
   }
 
   const confidenceBadge = (c) => {
@@ -91,7 +160,7 @@ export default function Home() {
             </svg>
             <h1 className="text-xl font-medium text-stone-900">BJosh Sermon Finder</h1>
           </div>
-          <p className="text-sm text-stone-500">Search by topic, scripture, or speak a phrase</p>
+          <p className="text-sm text-stone-500">Search by topic, scripture, speak a phrase, or hold the mic up to a playing sermon</p>
         </div>
 
         {/* Mic button */}
@@ -117,9 +186,17 @@ export default function Home() {
               </svg>
             </button>
             {listening && (
-              <p className="text-sm text-stone-500 italic">
-                {transcript ? `"${transcript}"` : 'Listening...'}
-              </p>
+              <div className="flex flex-col items-center gap-1">
+                <p className="text-sm text-stone-500 italic text-center max-w-sm">
+                  {transcript ? `"${transcript}"` : 'Listening for a question or a sermon playing nearby...'}
+                </p>
+                <button
+                  onClick={stopListening}
+                  className="text-xs text-amber-600 hover:text-amber-700 underline"
+                >
+                  Stop listening
+                </button>
+              </div>
             )}
           </div>
         )}
