@@ -264,7 +264,7 @@ export default function Home() {
             ) : (
               <div className="flex flex-col gap-3">
                 {results.map((r, i) => (
-                  <div key={r.driveId} className="bg-white/6 backdrop-blur rounded-2xl ring-1 ring-white/10 p-4 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
+                  <div key={r.driveId || r.youtubeId} className="bg-white/6 backdrop-blur rounded-2xl ring-1 ring-white/10 p-4 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
                     <div className="flex gap-3">
                       <div className="w-8 h-8 rounded-full bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center text-xs font-medium text-blue-300 shrink-0 mt-0.5">
                         {i + 1}
@@ -283,14 +283,16 @@ export default function Home() {
                           <p className="text-xs text-white/50 leading-relaxed mb-2">{r.summary}</p>
                         )}
                         <div className="flex items-center gap-3 flex-wrap">
-                          <a
-                            href={`https://drive.google.com/file/d/${r.driveId}/view`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-blue-300 hover:text-blue-200"
-                          >
-                            Open transcript →
-                          </a>
+                          {r.driveId && (
+                            <a
+                              href={`https://drive.google.com/file/d/${r.driveId}/view`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs text-blue-300 hover:text-blue-200"
+                            >
+                              Open transcript →
+                            </a>
+                          )}
                           {r.audioId && (
                             <a
                               href={`https://drive.google.com/file/d/${r.audioId}/view`}
@@ -299,6 +301,16 @@ export default function Home() {
                               className="text-xs text-amber-300 hover:text-amber-200"
                             >
                               Listen to audio →
+                            </a>
+                          )}
+                          {r.youtubeId && (
+                            <a
+                              href={`https://www.youtube.com/watch?v=${r.youtubeId}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs text-red-300 hover:text-red-200"
+                            >
+                              Watch on YouTube →
                             </a>
                           )}
                         </div>

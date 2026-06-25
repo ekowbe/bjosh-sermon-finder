@@ -21,8 +21,7 @@ export const SERMONS = [
       "Zephaniah 3:17"
     ],
     "keyScripture": "Zephaniah 3:17",
-    "summary": "Bishop Heward-Mills teaches on the importance of recognizing and yielding to the Holy Spirit's presence in every decision and location, asking how many times believers have gone places or made choices where the Spirit was not leading. He demonstrates and ministers through manifestations of the Spirit including people shaking, falling under the power, being drunk in the Spirit, and receiving the baptism of the Holy Spirit with speaking in tongues. He ministers healing and deliverance from addictions (pornography, masturbation, depression, suicide, alcohol, cigarettes, drugs) through the power of the Holy Spirit's presence.",
-    "audioId": "1ZJuct2poC9sNQ-Hc6CiUw7CCmN8TXOxB"
+    "summary": "Bishop Heward-Mills teaches on the importance of recognizing and yielding to the Holy Spirit's presence in every decision and location, asking how many times believers have gone places or made choices where the Spirit was not leading. He demonstrates and ministers through manifestations of the Spirit including people shaking, falling under the power, being drunk in the Spirit, and receiving the baptism of the Holy Spirit with speaking in tongues. He ministers healing and deliverance from addictions (pornography, masturbation, depression, suicide, alcohol, cigarettes, drugs) through the power of the Holy Spirit's presence."
   },
   {
     "id": 2,
@@ -74,8 +73,7 @@ export const SERMONS = [
       "Jeremiah 3:15"
     ],
     "keyScripture": "Jeremiah 3:15",
-    "summary": "BJosh teaches about different levels of spiritual relationships and their corresponding rewards, distinguishing between acquaintance, friendship, brotherhood, teacher-student, and shepherd-flock relationships. He emphasizes that each level of relationship produces specific benefits—acquaintances bring blessings, friends shape character and thinking, brothers provide support in adversity, teachers offer guidance and direction, and shepherds provide pastoral care according to God's heart. He stresses the importance of recognizing and honoring these spiritual relationships appropriately, including giving tribute and submission to spiritual authority, to receive the full rewards that each relationship offers.",
-    "audioId": "1IURuVQk2Dfj_dbxvByHWY57730EYV1Dg"
+    "summary": "BJosh teaches about different levels of spiritual relationships and their corresponding rewards, distinguishing between acquaintance, friendship, brotherhood, teacher-student, and shepherd-flock relationships. He emphasizes that each level of relationship produces specific benefits—acquaintances bring blessings, friends shape character and thinking, brothers provide support in adversity, teachers offer guidance and direction, and shepherds provide pastoral care according to God's heart. He stresses the importance of recognizing and honoring these spiritual relationships appropriately, including giving tribute and submission to spiritual authority, to receive the full rewards that each relationship offers."
   },
   {
     "id": 4,
@@ -103,8 +101,7 @@ export const SERMONS = [
       "Exodus 31:15"
     ],
     "keyScripture": "1 Corinthians 4:2",
-    "summary": "BJosh teaches that church membership is a privilege that requires faithfulness as the primary responsibility, using the analogy that job requirements are mandatory not optional—just as chemistry is required for medical school, faithful attendance is required for church members. He emphasizes that God requires believers to honor the Sabbath day by attending church consistently, establishing Sunday as the Lord's day when the Lord becomes your employer and boss, not your workplace. Without faithfulness, even good works and righteous behavior become tarnished and worthless, so believers must commit to regular church attendance whether sick, unemployed, or facing personal crises.",
-    "audioId": "15XJeuU9nZelggo1wSMMHVPMZHFmR6AGK"
+    "summary": "BJosh teaches that church membership is a privilege that requires faithfulness as the primary responsibility, using the analogy that job requirements are mandatory not optional—just as chemistry is required for medical school, faithful attendance is required for church members. He emphasizes that God requires believers to honor the Sabbath day by attending church consistently, establishing Sunday as the Lord's day when the Lord becomes your employer and boss, not your workplace. Without faithfulness, even good works and righteous behavior become tarnished and worthless, so believers must commit to regular church attendance whether sick, unemployed, or facing personal crises."
   },
   {
     "id": 5,
@@ -184,8 +181,7 @@ export const SERMONS = [
       "Luke 10:21"
     ],
     "keyScripture": "Luke 3:21",
-    "summary": "Bishop Joshua teaches that the anointing is the presence and power of the Holy Spirit in your life, and that Jesus Christ himself waited to be baptized and anointed before beginning his ministry at age 30. Jesus serves as the prototype for all believers—He experienced hunger, fatigue, anger, and joy as a man, learning obedience through suffering, demonstrating that everything Jesus achieved can be achieved by believers who receive the Holy Spirit. Because Jesus was fully human and achieved all He did through the Holy Spirit rather than through divinity alone, believers can follow His example and walk as He walked in their daily lives.",
-    "audioId": "1AqCPULcbEHq-EiJaXxrMGt6MKXdhd4J8"
+    "summary": "Bishop Joshua teaches that the anointing is the presence and power of the Holy Spirit in your life, and that Jesus Christ himself waited to be baptized and anointed before beginning his ministry at age 30. Jesus serves as the prototype for all believers—He experienced hunger, fatigue, anger, and joy as a man, learning obedience through suffering, demonstrating that everything Jesus achieved can be achieved by believers who receive the Holy Spirit. Because Jesus was fully human and achieved all He did through the Holy Spirit rather than through divinity alone, believers can follow His example and walk as He walked in their daily lives."
   },
   {
     "id": 8,
@@ -234,8 +230,7 @@ export const SERMONS = [
       "Romans 8:9"
     ],
     "keyScripture": "Genesis 1:2",
-    "summary": "Bishop Joshua teaches that the Holy Spirit is an invisible person and power that moves like wind over our lives, bringing order from chaos, form from void, and light from darkness. He explains that God's word cannot travel to our hearts without the Holy Spirit's movement, just as breath is necessary for sound to carry from the mouth—the Holy Spirit transmits God's current plan and enables transformation. Since believers cannot see the Holy Spirit, God uses symbols like wind and breath to help us understand how to live with and flow alongside Him in our daily lives.",
-    "audioId": "1Gm3M7SGKcm3g6bgSnuQjaLsj25kFH7i8"
+    "summary": "Bishop Joshua teaches that the Holy Spirit is an invisible person and power that moves like wind over our lives, bringing order from chaos, form from void, and light from darkness. He explains that God's word cannot travel to our hearts without the Holy Spirit's movement, just as breath is necessary for sound to carry from the mouth—the Holy Spirit transmits God's current plan and enables transformation. Since believers cannot see the Holy Spirit, God uses symbols like wind and breath to help us understand how to live with and flow alongside Him in our daily lives."
   },
   {
     "id": 10,
@@ -283,8 +278,7 @@ export const SERMONS = [
       "Romans 8:29"
     ],
     "keyScripture": "Philippians 2:4",
-    "summary": "Bishop Joshua teaches that Christians must shift focus from self-interest to the needs of others, as exemplified by Christ's selflessness. He warns that the love of money and covetousness leads people to compromise their faith, make poor life decisions, and pierce themselves with sorrows—citing the example of young men in Nigeria who chase wealth through fraud instead of righteousness. True godliness means progressively becoming like Jesus through adopting His mindset: thinking like God thinks, relating to people as He would, and pursuing character transformation rather than material accumulation.",
-    "audioId": "1pTT-v_r46q_QutKePLmd9CxTeLzamWxo"
+    "summary": "Bishop Joshua teaches that Christians must shift focus from self-interest to the needs of others, as exemplified by Christ's selflessness. He warns that the love of money and covetousness leads people to compromise their faith, make poor life decisions, and pierce themselves with sorrows—citing the example of young men in Nigeria who chase wealth through fraud instead of righteousness. True godliness means progressively becoming like Jesus through adopting His mindset: thinking like God thinks, relating to people as He would, and pursuing character transformation rather than material accumulation."
   },
   {
     "id": 12,
@@ -309,8 +303,7 @@ export const SERMONS = [
       "Job 2:9"
     ],
     "keyScripture": "Job 42:10",
-    "summary": "BJosh teaches that the solution to your personal problems is to pray for others instead of focusing only on yourself, illustrated through Job's extreme suffering—loss of livestock business, all ten children, physical boils covering his body, and his wife's rejection. The turning point in Job's captivity came when he prayed for his friends, demonstrating that intercession for others is the key that releases God's deliverance in your own life. Rather than being consumed by your prayer topics—money, health, family, dignity—you must shift focus outward to help and pray for those around you.",
-    "audioId": "1FsHLJEgIaGnrralW8Vjsaxsr_-enX6bT"
+    "summary": "BJosh teaches that the solution to your personal problems is to pray for others instead of focusing only on yourself, illustrated through Job's extreme suffering—loss of livestock business, all ten children, physical boils covering his body, and his wife's rejection. The turning point in Job's captivity came when he prayed for his friends, demonstrating that intercession for others is the key that releases God's deliverance in your own life. Rather than being consumed by your prayer topics—money, health, family, dignity—you must shift focus outward to help and pray for those around you."
   },
   {
     "id": 13,
@@ -338,8 +331,7 @@ export const SERMONS = [
       "Leviticus 22:21"
     ],
     "keyScripture": "Philippians 3:7",
-    "summary": "Bishop Joshua teaches that Christian discipleship requires four mandatory elements—losing, suffering, sacrifice, and dying—which are distinct actions with different meanings: losing means abandoning worldly gains to follow Christ, sacrifice means offering something valuable and unblemished to God, suffering means enduring afflictions imposed upon you, and dying means self-crucifixion daily. He emphasizes that losing progresses through levels, from counting worldly gains as loss, to counting all things as loss to know Christ, to regarding lost things as worthless compared to knowing Him. He argues that the modern church has abandoned the cross as central to Christian service, which explains why the church lacks spiritual power and why Christians fail to give time, resources, and themselves fully to God.",
-    "audioId": "1nxzrZ9G0nTUay7_vQ2Ch4VM6z-TRT-iy"
+    "summary": "Bishop Joshua teaches that Christian discipleship requires four mandatory elements—losing, suffering, sacrifice, and dying—which are distinct actions with different meanings: losing means abandoning worldly gains to follow Christ, sacrifice means offering something valuable and unblemished to God, suffering means enduring afflictions imposed upon you, and dying means self-crucifixion daily. He emphasizes that losing progresses through levels, from counting worldly gains as loss, to counting all things as loss to know Christ, to regarding lost things as worthless compared to knowing Him. He argues that the modern church has abandoned the cross as central to Christian service, which explains why the church lacks spiritual power and why Christians fail to give time, resources, and themselves fully to God."
   },
   {
     "id": 14,
@@ -363,8 +355,7 @@ export const SERMONS = [
       "John 10:35"
     ],
     "keyScripture": "Romans 8:2",
-    "summary": "Bishop Joshua teaches that supernatural power operates through discoverable spiritual laws, just as physical laws like Newton's laws of motion and Archimedes' principle of flotation govern the natural world. When believers obey these spiritual laws, God's power flows through their lives and they perform supernatural acts that defy natural understanding. The foundation of accessing supernatural power is increasing in personal knowledge of God through relationship with Him, which aligns our desires with His will.",
-    "audioId": "1mvXtfr-xdfzGRYAN8Jrd0V49Xd_YzGiK"
+    "summary": "Bishop Joshua teaches that supernatural power operates through discoverable spiritual laws, just as physical laws like Newton's laws of motion and Archimedes' principle of flotation govern the natural world. When believers obey these spiritual laws, God's power flows through their lives and they perform supernatural acts that defy natural understanding. The foundation of accessing supernatural power is increasing in personal knowledge of God through relationship with Him, which aligns our desires with His will."
   },
   {
     "id": 15,
@@ -390,8 +381,7 @@ export const SERMONS = [
       "Psalm 90:17"
     ],
     "keyScripture": "Hebrews 11:25-26",
-    "summary": "Bishop Joshua teaches that soul winning—the conversion of souls to Christ—is the primary work of the church and Christians, and he defines true conversion using Hebrews 11 to show it means choosing to leave worldly pleasures and suffering to follow God and value His kingdom above all else. He announces a one-month operation called 'Operation Lever to Be Blessed' requiring church members to attend 5-7 a.m. and 6:30-7:30 p.m. prayer meetings daily for two weeks focused exclusively on soul winning. He emphasizes that God withholds no good thing from those who serve Him, and that blessings in work, marriage, and childbearing come as rewards for laboring to win souls for Christ.",
-    "audioId": "13QdXRh4E10i7XSsyt7XtKN52eBPvemcg"
+    "summary": "Bishop Joshua teaches that soul winning—the conversion of souls to Christ—is the primary work of the church and Christians, and he defines true conversion using Hebrews 11 to show it means choosing to leave worldly pleasures and suffering to follow God and value His kingdom above all else. He announces a one-month operation called 'Operation Lever to Be Blessed' requiring church members to attend 5-7 a.m. and 6:30-7:30 p.m. prayer meetings daily for two weeks focused exclusively on soul winning. He emphasizes that God withholds no good thing from those who serve Him, and that blessings in work, marriage, and childbearing come as rewards for laboring to win souls for Christ."
   },
   {
     "id": 16,
@@ -442,8 +432,7 @@ export const SERMONS = [
       "John 8:28"
     ],
     "keyScripture": "John 1:32-33",
-    "summary": "The Holy Spirit is symbolized as a dove that descends and remains, not merely visits, requiring constant sensitivity and attentiveness to maintain His presence in your life. Jesus exemplified this perfectly for three years at the Jordan, doing nothing of Himself but only what the Father was doing, never acting independently of the Holy Spirit's direction. To flow with the Holy Spirit like a dove means you must be so attuned to His presence that every action, word, and thought reflects His will, treating Him with the delicate care one would give to a sensitive creature resting on your shoulder.",
-    "audioId": "1j7iopxy7urlYZdJ4XJroNVCh9OvfxFbi"
+    "summary": "The Holy Spirit is symbolized as a dove that descends and remains, not merely visits, requiring constant sensitivity and attentiveness to maintain His presence in your life. Jesus exemplified this perfectly for three years at the Jordan, doing nothing of Himself but only what the Father was doing, never acting independently of the Holy Spirit's direction. To flow with the Holy Spirit like a dove means you must be so attuned to His presence that every action, word, and thought reflects His will, treating Him with the delicate care one would give to a sensitive creature resting on your shoulder."
   },
   {
     "id": 18,
@@ -469,8 +458,7 @@ export const SERMONS = [
       "Proverbs 21:1"
     ],
     "keyScripture": "John 7:38",
-    "summary": "Jesus described the Holy Spirit as a river of living water that flows from believers' bellies, not merely as a person but as a dynamic force. The Old Testament rock that gushed water for Israel foreshadowed Jesus Christ, whose pierced side released the Holy Spirit for all believers to receive. Unlike a river that cannot be controlled but controls those in it, the Holy Spirit operates on His own terms and requires believers to surrender and flow with His movement rather than attempting to manipulate or control Him.",
-    "audioId": "1IYGNV7xZm7jJjBN3St_j0uGuMOah2oDA"
+    "summary": "Jesus described the Holy Spirit as a river of living water that flows from believers' bellies, not merely as a person but as a dynamic force. The Old Testament rock that gushed water for Israel foreshadowed Jesus Christ, whose pierced side released the Holy Spirit for all believers to receive. Unlike a river that cannot be controlled but controls those in it, the Holy Spirit operates on His own terms and requires believers to surrender and flow with His movement rather than attempting to manipulate or control Him."
   },
   {
     "id": 19,
@@ -521,8 +509,7 @@ export const SERMONS = [
       "John 17"
     ],
     "keyScripture": "Philippians 2:4",
-    "summary": "BJosh teaches that developing a divine nature means shifting from selfish thinking (focusing on 'I, me, myself') to consistently thinking about others' needs, which is God's natural character demonstrated by the Father, Son, and Holy Spirit. He illustrates how self-centeredness corrupts relationships like marriage, where each person's competing demands create conflict, while God's nature manifests in constant concern for others rather than self-promotion. Regular spiritual feeding through God's Word gradually transforms believers from their human, selfish nature into the divine nature of Christ, enabling them to escape the corruption caused by lustful and self-serving desires.",
-    "audioId": "1mnMbCWF-ZpA1FUXcaVcQb6C-qoeVB1Rw"
+    "summary": "BJosh teaches that developing a divine nature means shifting from selfish thinking (focusing on 'I, me, myself') to consistently thinking about others' needs, which is God's natural character demonstrated by the Father, Son, and Holy Spirit. He illustrates how self-centeredness corrupts relationships like marriage, where each person's competing demands create conflict, while God's nature manifests in constant concern for others rather than self-promotion. Regular spiritual feeding through God's Word gradually transforms believers from their human, selfish nature into the divine nature of Christ, enabling them to escape the corruption caused by lustful and self-serving desires."
   },
   {
     "id": 21,
@@ -548,8 +535,7 @@ export const SERMONS = [
       "1 Corinthians 13:13"
     ],
     "keyScripture": "John 10:35",
-    "summary": "BJosh teaches that leaders must give people hope even when circumstances and data suggest otherwise, because hope is not rational analysis but a conviction that God will do something better regardless of past failures. He emphasizes that leaders should not rely solely on truth and analysis but must balance these with grace, and that people should not be bound by examining only their own circumstances and history. The central truth is that Christ in our analysis changes everything—when we leave Jesus out of our calculations, we arrive at hopelessness, but when we include Him, we have hope for glory and transformation.",
-    "audioId": "16GOM-2IjxBsMmE9BWH_XfPHk_s5OX2ZP"
+    "summary": "BJosh teaches that leaders must give people hope even when circumstances and data suggest otherwise, because hope is not rational analysis but a conviction that God will do something better regardless of past failures. He emphasizes that leaders should not rely solely on truth and analysis but must balance these with grace, and that people should not be bound by examining only their own circumstances and history. The central truth is that Christ in our analysis changes everything—when we leave Jesus out of our calculations, we arrive at hopelessness, but when we include Him, we have hope for glory and transformation."
   },
   {
     "id": 22,
@@ -599,8 +585,7 @@ export const SERMONS = [
       "1 Corinthians 2:16"
     ],
     "keyScripture": "John 14:16",
-    "summary": "Jesus promised to send the Holy Spirit as a comforter, advocate, intercessor, and counselor who operates in multiple roles to guide, strengthen, and advise believers throughout their lives. The Holy Spirit's presence is not limited to church experiences but should accompany you daily at work, school, and home, transforming your thinking and enabling you to have the mind of Christ. Just as the Holy Spirit empowered Jesus from age 30 onwards to perform miracles and speak life-changing words, the Holy Spirit desires to abide with you forever and change your life from the inside out through His constant counsel and presence.",
-    "audioId": "1siv_fHvIvr6vqeXvEJkAVSW9mhDgqCf1"
+    "summary": "Jesus promised to send the Holy Spirit as a comforter, advocate, intercessor, and counselor who operates in multiple roles to guide, strengthen, and advise believers throughout their lives. The Holy Spirit's presence is not limited to church experiences but should accompany you daily at work, school, and home, transforming your thinking and enabling you to have the mind of Christ. Just as the Holy Spirit empowered Jesus from age 30 onwards to perform miracles and speak life-changing words, the Holy Spirit desires to abide with you forever and change your life from the inside out through His constant counsel and presence."
   },
   {
     "id": 24,
@@ -623,8 +608,7 @@ export const SERMONS = [
       "Matthew 13:12 (implied - 'to him that hath shall be given')"
     ],
     "keyScripture": "Matthew 13:12",
-    "summary": "Bishop Joshua teaches that inequality in life—whether in finances, relationships, careers, or spirituality—is determined not by external circumstances like family background or location, but by internal qualities and the spiritual road a person is already on. He explains that those who have tend to accumulate more (houses, jobs, gifts, church members) while those who lack tend to lose even what little they have, creating a cycle of increase or decrease. The root cause of poverty and inequality comes from within the person, and believers must understand they are already positioned on one of two roads—the road of having or the road of lacking—based on their internal conditions and choices.",
-    "audioId": "1u2Eq3__IzcMQvAg-MNqUEemU5xOzvfe-"
+    "summary": "Bishop Joshua teaches that inequality in life—whether in finances, relationships, careers, or spirituality—is determined not by external circumstances like family background or location, but by internal qualities and the spiritual road a person is already on. He explains that those who have tend to accumulate more (houses, jobs, gifts, church members) while those who lack tend to lose even what little they have, creating a cycle of increase or decrease. The root cause of poverty and inequality comes from within the person, and believers must understand they are already positioned on one of two roads—the road of having or the road of lacking—based on their internal conditions and choices."
   },
   {
     "id": 25,
@@ -647,8 +631,7 @@ export const SERMONS = [
       "Psalm 103:15"
     ],
     "keyScripture": "Hebrews 11:7",
-    "summary": "BJosh teaches that good leadership requires looking ahead into the future (10-15 years) and preparing for what is coming, using Noah as an example of someone who prepared for rain he had not yet seen. He emphasizes that you must first lead yourself by taking personal responsibility for your life rather than blaming circumstances, as this marks the beginning of real change. He identifies growth as a primary future reality to prepare for—your body, abilities, relationships, and circumstances will all change with age—so leaders must anticipate these transitions and plan accordingly.",
-    "audioId": "1okuVW1qYJkuFFnll-zidjjS2SkmS7kA-"
+    "summary": "BJosh teaches that good leadership requires looking ahead into the future (10-15 years) and preparing for what is coming, using Noah as an example of someone who prepared for rain he had not yet seen. He emphasizes that you must first lead yourself by taking personal responsibility for your life rather than blaming circumstances, as this marks the beginning of real change. He identifies growth as a primary future reality to prepare for—your body, abilities, relationships, and circumstances will all change with age—so leaders must anticipate these transitions and plan accordingly."
   },
   {
     "id": 26,
@@ -671,8 +654,7 @@ export const SERMONS = [
       "2 Chronicles 5:12-13"
     ],
     "keyScripture": "3 John 2",
-    "summary": "Bishop Joshua teaches that God's presence comes through worship and singing together, and that serving the Lord brings blessings in all areas of life including academics, finances, and career. He emphasizes that commitment to church work does not hinder success but rather enables it through God's grace and the support of spiritual mentors and shepherds. The presence of God is accessed and experienced when believers gather to worship, sing, and praise Him with their whole hearts.",
-    "audioId": "1BgRrjU4ODlSNc05axIwI3QUMkJU-1Nt0"
+    "summary": "Bishop Joshua teaches that God's presence comes through worship and singing together, and that serving the Lord brings blessings in all areas of life including academics, finances, and career. He emphasizes that commitment to church work does not hinder success but rather enables it through God's grace and the support of spiritual mentors and shepherds. The presence of God is accessed and experienced when believers gather to worship, sing, and praise Him with their whole hearts."
   },
   {
     "id": 27,
@@ -723,8 +705,7 @@ export const SERMONS = [
       "1 Timothy 6:10"
     ],
     "keyScripture": "2 Timothy 3:5",
-    "summary": "Bishop Joshua teaches that many Christians live with only a 'form of godliness' while denying the power that should come with their faith in Christ, leaving them without the spiritual advantage God has equipped them with. He warns that perilous times are marked by self-love, pride, boasting, competitiveness over material possessions, and lack of genuine affection—characteristics that make people dangerous to follow. The master key to leadership and life is maintaining your source of power by pursuing actual godliness and the power of God, which creates a real demarcation between believers and non-believers in how they navigate life's universal battles.",
-    "audioId": "1z95wUteywEqbcbZCKZdJ3nL-f5FHTAh3"
+    "summary": "Bishop Joshua teaches that many Christians live with only a 'form of godliness' while denying the power that should come with their faith in Christ, leaving them without the spiritual advantage God has equipped them with. He warns that perilous times are marked by self-love, pride, boasting, competitiveness over material possessions, and lack of genuine affection—characteristics that make people dangerous to follow. The master key to leadership and life is maintaining your source of power by pursuing actual godliness and the power of God, which creates a real demarcation between believers and non-believers in how they navigate life's universal battles."
   },
   {
     "id": 29,
@@ -754,8 +735,7 @@ export const SERMONS = [
       "Luke 4:41"
     ],
     "keyScripture": "Luke 11:20",
-    "summary": "Every Christian should expect God to demonstrate supernatural power—signs, wonders, healing, and deliverance from demons—as evidence that the kingdom of God has come into their life. Many churches have adopted a dead Christianity with only the form of godliness while denying the power of God, but Scripture from Genesis to Revelation consistently shows God operating supernaturally through healings and miracles. Jesus never went anywhere without signs and wonders following Him, and since He does not change, Christians today should actively seek and expect these supernatural manifestations as normal Christian experience.",
-    "audioId": "1Tl9KNISHZkaEr-bw3Q_vEVMQcmJVRFRg"
+    "summary": "Every Christian should expect God to demonstrate supernatural power—signs, wonders, healing, and deliverance from demons—as evidence that the kingdom of God has come into their life. Many churches have adopted a dead Christianity with only the form of godliness while denying the power of God, but Scripture from Genesis to Revelation consistently shows God operating supernaturally through healings and miracles. Jesus never went anywhere without signs and wonders following Him, and since He does not change, Christians today should actively seek and expect these supernatural manifestations as normal Christian experience."
   },
   {
     "id": 30,
@@ -779,9 +759,7 @@ export const SERMONS = [
       "Isaiah 41:18"
     ],
     "keyScripture": "Isaiah 41:18",
-    "summary": "BJosh teaches about inviting the Holy Spirit to fill believers and have His way in their lives. He emphasizes God's faithfulness, mercy, and supernatural power to move mountains and make impossible things possible. He leads the congregation in worship and prayer for the Holy Spirit to overflow like a river, referencing God's promise to open rivers in high places and fountains in the valleys, turning the wilderness into pools of water.",
-    "timestamp": "",
-    "audioId": "1ItNM8L2gXlFccnuCWVa13qG26e2rxEDM"
+    "summary": "BJosh teaches about inviting the Holy Spirit to fill believers and have His way in their lives. He emphasizes God's faithfulness, mercy, and supernatural power to move mountains and make impossible things possible. He leads the congregation in worship and prayer for the Holy Spirit to overflow like a river, referencing God's promise to open rivers in high places and fountains in the valleys, turning the wilderness into pools of water."
   },
   {
     "id": 31,
@@ -805,8 +783,7 @@ export const SERMONS = [
       "Psalm 103:1"
     ],
     "keyScripture": "Psalm 27:4",
-    "summary": "Bishop Joshua teaches believers to fix their eyes exclusively on Jesus by deliberately casting aside every distraction—work, school, and worldly concerns—to encounter His beauty and presence. The central petition is the Psalmist's cry: \"one thing I ask of the Lord...that I may dwell in the house of the Lord all the days of my life\" (Psalm 27:4), emphasizing singular devotion over divided attention. Through worship and seeking God's face, believers surrender the cares of the world and experience Jesus as their joy, reward, and the majesty that restores their souls.",
-    "audioId": "1CPD5tNGXi4-7LLcZzoQw7OxUtX-WzPe7"
+    "summary": "Bishop Joshua teaches believers to fix their eyes exclusively on Jesus by deliberately casting aside every distraction—work, school, and worldly concerns—to encounter His beauty and presence. The central petition is the Psalmist's cry: \"one thing I ask of the Lord...that I may dwell in the house of the Lord all the days of my life\" (Psalm 27:4), emphasizing singular devotion over divided attention. Through worship and seeking God's face, believers surrender the cares of the world and experience Jesus as their joy, reward, and the majesty that restores their souls."
   },
   {
     "id": 32,
@@ -828,8 +805,7 @@ export const SERMONS = [
       "I will be found of you"
     ],
     "keyScripture": "I will be found of you",
-    "summary": "Bishop Joshua teaches that believers must actively seek and pray for the manifest presence of God in their daily lives, relationships, and ministries. He emphasizes that God has promised to be found by those who seek Him wholeheartedly, positioning His presence as both a protection and a guide standing right beside the believer. The sermon culminates in exhorting believers to draw near to God's presence through worship and intimate fellowship rather than worshipping from a distance.",
-    "audioId": "1BNMCaq4fCnLZ8LCuSzDaOBt7Slx074RM"
+    "summary": "Bishop Joshua teaches that believers must actively seek and pray for the manifest presence of God in their daily lives, relationships, and ministries. He emphasizes that God has promised to be found by those who seek Him wholeheartedly, positioning His presence as both a protection and a guide standing right beside the believer. The sermon culminates in exhorting believers to draw near to God's presence through worship and intimate fellowship rather than worshipping from a distance."
   },
   {
     "id": 33,
@@ -840,8 +816,7 @@ export const SERMONS = [
       "John"
     ],
     "keyScripture": "",
-    "summary": "This transcript does not contain a structured sermon teaching. Instead, it consists almost entirely of repetitive prayer, worship, and devotional lyrics focused on drawing closer to God's presence and seeking spiritual strength. Without substantive doctrinal content, specific theological instruction, or clear expository teaching from Bishop Joshua Heward-Mills, no concrete summary of his teaching can be provided.",
-    "audioId": "1LHq56C7OYSfzHgK7XOx__lJwLqhDQiSQ"
+    "summary": "This transcript does not contain a structured sermon teaching. Instead, it consists almost entirely of repetitive prayer, worship, and devotional lyrics focused on drawing closer to God's presence and seeking spiritual strength. Without substantive doctrinal content, specific theological instruction, or clear expository teaching from Bishop Joshua Heward-Mills, no concrete summary of his teaching can be provided."
   },
   {
     "id": 34,
@@ -863,8 +838,7 @@ export const SERMONS = [
       "Revelation 1:13-18"
     ],
     "keyScripture": "Revelation 1:13-18",
-    "summary": "BJosh teaches that believers must move from fear into faithful nearness with God, abandoning distant worship to draw deep into His presence where true contentment and identity are found. He emphasizes that nothing in life—no promotion, place, or achievement—is greater than kneeling in God's presence and being filled by the Holy Spirit like a dove descending upon one's life. Through a vision of the glorified Christ from Revelation, with eyes like flames and voice like many waters, BJosh illustrates that encountering Jesus personally transforms fear into worship and fills the spiritually hungry with His complete satisfaction.",
-    "audioId": "1OMFek_4yvQjYiRQFt4_-5rpy1kz52d4E"
+    "summary": "BJosh teaches that believers must move from fear into faithful nearness with God, abandoning distant worship to draw deep into His presence where true contentment and identity are found. He emphasizes that nothing in life—no promotion, place, or achievement—is greater than kneeling in God's presence and being filled by the Holy Spirit like a dove descending upon one's life. Through a vision of the glorified Christ from Revelation, with eyes like flames and voice like many waters, BJosh illustrates that encountering Jesus personally transforms fear into worship and fills the spiritually hungry with His complete satisfaction."
   },
   {
     "id": 35,
@@ -892,8 +866,7 @@ export const SERMONS = [
       "Ephesians 4:11"
     ],
     "keyScripture": "John 10 (Jesus as the Good Shepherd)",
-    "summary": "A shepherd is a caring, loving guide to God's people, whom Scripture identifies as sheep, and this shepherding role is not limited to those with titles or formal appointments but is available to all Christians. God leads His people through the hands of ordinary human beings whom He uses as under-shepherds, just as pastors, bishops, and evangelists function at different levels of spiritual leadership. Every believer should allow God to use them to lead, guide, and care for others, making shepherding an active part of Christian discipleship beyond simply occupying a church seat.",
-    "audioId": "1A69mHIYebFY1BriIjDRX8h7TxQw5Ptc0"
+    "summary": "A shepherd is a caring, loving guide to God's people, whom Scripture identifies as sheep, and this shepherding role is not limited to those with titles or formal appointments but is available to all Christians. God leads His people through the hands of ordinary human beings whom He uses as under-shepherds, just as pastors, bishops, and evangelists function at different levels of spiritual leadership. Every believer should allow God to use them to lead, guide, and care for others, making shepherding an active part of Christian discipleship beyond simply occupying a church seat."
   },
   {
     "id": 36,
@@ -919,8 +892,7 @@ export const SERMONS = [
       "Luke 13:6"
     ],
     "keyScripture": "John 15:8",
-    "summary": "BJosh teaches that biblical fruitfulness means leading people to Christ and assuming spiritual responsibility for their growth, not merely attending church for years without discipling others. The Holy Spirit empowers believers to become witnesses who lead others to Christ and ensure their continued relationship with God through prayer, Bible study, and church attendance. True fruitfulness requires active spiritual parenting and mentorship, as exemplified in 1 Corinthians 4:15 where Paul describes fathering believers in Christ rather than simply instructing them.",
-    "audioId": "16tOex_UdelfFzbq1-Ku7KYeQTkhmTO73"
+    "summary": "BJosh teaches that biblical fruitfulness means leading people to Christ and assuming spiritual responsibility for their growth, not merely attending church for years without discipling others. The Holy Spirit empowers believers to become witnesses who lead others to Christ and ensure their continued relationship with God through prayer, Bible study, and church attendance. True fruitfulness requires active spiritual parenting and mentorship, as exemplified in 1 Corinthians 4:15 where Paul describes fathering believers in Christ rather than simply instructing them."
   },
   {
     "id": 37,
@@ -989,8 +961,7 @@ export const SERMONS = [
       "Isaiah 38:19"
     ],
     "keyScripture": "Isaiah 38:19",
-    "summary": "Bishop Joshua teaches that those who are alive must continually praise God and that God never forgets those who care for His people and work faithfully for Him. Through Pastor Douglas's testimony of three attempted robberies where his business was supernaturally protected while neighboring buildings were stripped bare, BJosh demonstrates that God's faithfulness extends to those who maintain consistent prayer and worship. The sermon emphasizes that the key to receiving God's protection and blessing is to find at least one person to care for and maintain a lifestyle of watching, praying, and thanksgiving.",
-    "audioId": "1xaPkm7K6bA17oDFg7mKDevoUJk96mA16"
+    "summary": "Bishop Joshua teaches that those who are alive must continually praise God and that God never forgets those who care for His people and work faithfully for Him. Through Pastor Douglas's testimony of three attempted robberies where his business was supernaturally protected while neighboring buildings were stripped bare, BJosh demonstrates that God's faithfulness extends to those who maintain consistent prayer and worship. The sermon emphasizes that the key to receiving God's protection and blessing is to find at least one person to care for and maintain a lifestyle of watching, praying, and thanksgiving."
   },
   {
     "id": 40,
@@ -1036,8 +1007,7 @@ export const SERMONS = [
       "1 Timothy 3:1"
     ],
     "keyScripture": "1 Timothy 3:1",
-    "summary": "To become a shepherd in God's house, one must first have a genuine desire for the position, as 1 Timothy 3:1 establishes that desiring the office of overseer is a noble and trustworthy aspiration. The work of shepherding requires preparation and perseverance through difficulties similar to professional training, such as learning scripture, developing preaching ability, and cultivating proper character. Bishop Heward-Mills illustrates this through personal testimony of starting a church alone, discouraged by initial lack of attendance, but continuing faithfully until seven people eventually joined.",
-    "audioId": "15qL4xSAFKwCg6R57SdFJIbJOoQ_SJ-S7"
+    "summary": "To become a shepherd in God's house, one must first have a genuine desire for the position, as 1 Timothy 3:1 establishes that desiring the office of overseer is a noble and trustworthy aspiration. The work of shepherding requires preparation and perseverance through difficulties similar to professional training, such as learning scripture, developing preaching ability, and cultivating proper character. Bishop Heward-Mills illustrates this through personal testimony of starting a church alone, discouraged by initial lack of attendance, but continuing faithfully until seven people eventually joined."
   },
   {
     "id": 42,
@@ -1061,8 +1031,7 @@ export const SERMONS = [
       "Zephaniah 3:17"
     ],
     "keyScripture": "Zephaniah 3:17",
-    "summary": "BJosh teaches on why people don't pray daily through testimonies demonstrating the power of obedience to prayer calls. He highlights how one member was supernaturally protected from armed robbery after missing an all-night prayer, and another received answers to five specific prayers including a job paying ten times her previous salary after praying at Anakasuwa Bible School. The sermon emphasizes that consistent prayer and obedience to prayer gatherings leads to supernatural breakthroughs in protection, provision, and life decisions.",
-    "audioId": "1fFaT5yPWb1MYNSARjMM7ECiawWw8n6L0"
+    "summary": "BJosh teaches on why people don't pray daily through testimonies demonstrating the power of obedience to prayer calls. He highlights how one member was supernaturally protected from armed robbery after missing an all-night prayer, and another received answers to five specific prayers including a job paying ten times her previous salary after praying at Anakasuwa Bible School. The sermon emphasizes that consistent prayer and obedience to prayer gatherings leads to supernatural breakthroughs in protection, provision, and life decisions."
   },
   {
     "id": 43,
@@ -1087,8 +1056,7 @@ export const SERMONS = [
       "Ezekiel 1:1"
     ],
     "keyScripture": "Ezekiel 1:1",
-    "summary": "BJosh teaches that the most appropriate vision for a Christian to have is for the church to become a mega church, rather than focusing on personal ambitions like marriage, jobs, or material possessions. He challenges believers to take personal responsibility for church growth by bringing somebody new every weekend—whether friends, classmates, or people in their area who have drifted away. He emphasizes that the Holy Spirit's work is to change people's life plans from their own visions to God's vision, just as the heavens opened over Ezekiel by the river Chebar and he saw the visions of God rather than his own.",
-    "audioId": "1_L6E_KL1kodCuFLQxkeaA07x4t2LtDKv"
+    "summary": "BJosh teaches that the most appropriate vision for a Christian to have is for the church to become a mega church, rather than focusing on personal ambitions like marriage, jobs, or material possessions. He challenges believers to take personal responsibility for church growth by bringing somebody new every weekend—whether friends, classmates, or people in their area who have drifted away. He emphasizes that the Holy Spirit's work is to change people's life plans from their own visions to God's vision, just as the heavens opened over Ezekiel by the river Chebar and he saw the visions of God rather than his own."
   },
   {
     "id": 44,
@@ -1112,8 +1080,7 @@ export const SERMONS = [
       "1 Corinthians 2:3-4"
     ],
     "keyScripture": "Isaiah 40:29",
-    "summary": "Bishop Joshua teaches that believers need specific qualities for effective watching and praying, emphasizing that even young and strong Christians experience spiritual faintness and weariness in ministry. He explains that God gives power to the faint and strength to those without might, contrasting human weakness with divine ability to sustain intercession. The central point is that proximity to anointed leaders reveals human weakness and trembling, yet God's Spirit and power work through this weakness when believers depend on Him through prayer.",
-    "audioId": "1lMqZk4Kv5a2uYeyKyjPQZSxupOZtmbHd"
+    "summary": "Bishop Joshua teaches that believers need specific qualities for effective watching and praying, emphasizing that even young and strong Christians experience spiritual faintness and weariness in ministry. He explains that God gives power to the faint and strength to those without might, contrasting human weakness with divine ability to sustain intercession. The central point is that proximity to anointed leaders reveals human weakness and trembling, yet God's Spirit and power work through this weakness when believers depend on Him through prayer."
   },
   {
     "id": 45,
@@ -1143,8 +1110,7 @@ export const SERMONS = [
       "Isaiah 53:2-3"
     ],
     "keyScripture": "Psalm 119:9-10",
-    "summary": "When you are truly saved, your spirit man comes alive and produces supernatural desires that were not present before, including desire for God's word, church attendance, soul winning, and most importantly, an abnormal longing for God Himself. These new spiritual desires replace the old fleshly desires and are signs that prove your salvation is genuine. The desire for God is the most important indicator—if you find yourself drawn to something or someone with no earthly beauty or benefit, that abnormal attraction comes only from your awakened spirit and shows you truly know God.",
-    "audioId": "1eA9mNSHoSpu61Z8Pv4WxntwXvs7xlJIk"
+    "summary": "When you are truly saved, your spirit man comes alive and produces supernatural desires that were not present before, including desire for God's word, church attendance, soul winning, and most importantly, an abnormal longing for God Himself. These new spiritual desires replace the old fleshly desires and are signs that prove your salvation is genuine. The desire for God is the most important indicator—if you find yourself drawn to something or someone with no earthly beauty or benefit, that abnormal attraction comes only from your awakened spirit and shows you truly know God."
   },
   {
     "id": 46,
@@ -1169,8 +1135,7 @@ export const SERMONS = [
       "Exodus 33:20"
     ],
     "keyScripture": "Jeremiah 31:34",
-    "summary": "Bishop Joshua teaches that while God's greatness makes Him seem distant, believers can genuinely know God intimately and become His friends, contrary to the misconception that knowing God requires payment or brings only death. He emphasizes the need for personal holiness, being refined by God's fire, and offering oneself as a living sacrifice to draw closer to Him. In the last days, God will use His intimate friends to do His greatest work on earth, making it possible for all people from the least to the greatest to know Him personally.",
-    "audioId": "1_LPHnMP_U_ac86SfmWmjbv-vPoNN72QS"
+    "summary": "Bishop Joshua teaches that while God's greatness makes Him seem distant, believers can genuinely know God intimately and become His friends, contrary to the misconception that knowing God requires payment or brings only death. He emphasizes the need for personal holiness, being refined by God's fire, and offering oneself as a living sacrifice to draw closer to Him. In the last days, God will use His intimate friends to do His greatest work on earth, making it possible for all people from the least to the greatest to know Him personally."
   },
   {
     "id": 47,
@@ -1203,8 +1168,7 @@ export const SERMONS = [
       "Revelation 7:8"
     ],
     "keyScripture": "Genesis 1:26-27",
-    "summary": "God created mankind in His image specifically to have relationship and communication with beings like Himself, which angels and animals cannot provide because they are not made in His image. Sin's primary problem is not God's anger but the separation it creates between God and man, breaking the intended fellowship. Meditation on God's word is essential because it brings satisfaction to the spirit and gives strength to obey what God has revealed.",
-    "audioId": "1wp0jn8BszPvfRqA5zlilYgjwsrX2nfkE"
+    "summary": "God created mankind in His image specifically to have relationship and communication with beings like Himself, which angels and animals cannot provide because they are not made in His image. Sin's primary problem is not God's anger but the separation it creates between God and man, breaking the intended fellowship. Meditation on God's word is essential because it brings satisfaction to the spirit and gives strength to obey what God has revealed."
   },
   {
     "id": 48,
@@ -1229,8 +1193,7 @@ export const SERMONS = [
       "Psalm 63:5-6 (soul satisfied, meditation in the night)"
     ],
     "keyScripture": "Psalm 107:9",
-    "summary": "When you intentionally meet with God through attention and meditation, your soul becomes filled and satisfied, which eliminates the hunger that drives worldly lusts and desires. Bishop Joshua teaches that the manifestation (phanerosis) of the Holy Spirit makes the invisible God visible and tangible to believers, allowing them to experience His presence tangibly. A soul that is full of God's presence will not be drawn to the temporary pleasures of the world like a starving soul that finds even bitter things sweet.",
-    "audioId": "13NLJkMLwQNa8SXk_YsPhlhRVq6AOGmuF"
+    "summary": "When you intentionally meet with God through attention and meditation, your soul becomes filled and satisfied, which eliminates the hunger that drives worldly lusts and desires. Bishop Joshua teaches that the manifestation (phanerosis) of the Holy Spirit makes the invisible God visible and tangible to believers, allowing them to experience His presence tangibly. A soul that is full of God's presence will not be drawn to the temporary pleasures of the world like a starving soul that finds even bitter things sweet."
   },
   {
     "id": 49,
@@ -1256,8 +1219,7 @@ export const SERMONS = [
       "John 7:37"
     ],
     "keyScripture": "Isaiah 62:6",
-    "summary": "BJosh teaches that fervent intercessory prayer requires disciplined night vigils and persistent crying out to God, sharing his personal practice of praying 5-6 hours nightly to break through spiritual atmospheres before ministry. He emphasizes that spiritual watchmen set on the walls must give God no rest day and night, using Isaiah 62:6 as the foundation for understanding how prayer releases God's promises and intervention. He contrasts human effort alone with prayer-powered ministry, arguing that pastors have nothing to offer lost souls except what they receive through relentless intercession at midnight hours when heaven must respond.",
-    "audioId": "1x-nrXZ890UVSUT_0aVxSMG6PjGx4XMgA"
+    "summary": "BJosh teaches that fervent intercessory prayer requires disciplined night vigils and persistent crying out to God, sharing his personal practice of praying 5-6 hours nightly to break through spiritual atmospheres before ministry. He emphasizes that spiritual watchmen set on the walls must give God no rest day and night, using Isaiah 62:6 as the foundation for understanding how prayer releases God's promises and intervention. He contrasts human effort alone with prayer-powered ministry, arguing that pastors have nothing to offer lost souls except what they receive through relentless intercession at midnight hours when heaven must respond."
   },
   {
     "id": 50,
@@ -1294,8 +1256,7 @@ export const SERMONS = [
       "1 Corinthians 10:4"
     ],
     "keyScripture": "James 5:16",
-    "summary": "BJosh teaches that effective, fervent prayer is the missing ingredient in ministry success, contrasting human effort (Ishmael) with Spirit-empowered ministry (Isaac) where God himself fulfills His promises. He uses the battle with Amalek in Exodus 17 to illustrate that ministry involves two simultaneous battles: the physical work on the ground (Joshua fighting) and the spiritual battle through intercession (Moses praying with raised hands). He emphasizes that Christians must understand both dimensions—going out to fight while maintaining fervent prayer—because what happens in the prayer realm determines the outcome of the physical battle.",
-    "audioId": "1UfxtydgMIk7M3amLyYUHD0g9B4Ef7I71"
+    "summary": "BJosh teaches that effective, fervent prayer is the missing ingredient in ministry success, contrasting human effort (Ishmael) with Spirit-empowered ministry (Isaac) where God himself fulfills His promises. He uses the battle with Amalek in Exodus 17 to illustrate that ministry involves two simultaneous battles: the physical work on the ground (Joshua fighting) and the spiritual battle through intercession (Moses praying with raised hands). He emphasizes that Christians must understand both dimensions—going out to fight while maintaining fervent prayer—because what happens in the prayer realm determines the outcome of the physical battle."
   },
   {
     "id": 51,
@@ -1323,8 +1284,7 @@ export const SERMONS = [
       "Genesis 3"
     ],
     "keyScripture": "Luke 10:38-42",
-    "summary": "BJosh teaches that Satan's primary deception is making people believe they need many things when Jesus said only one thing is needful: sitting at Jesus' feet and hearing His word. He warns that people make emotional decisions when stressed and seek fulfillment in relationships, achievements, and even pastors, when only intimacy with Jesus truly satisfies. The message emphasizes distinguishing between wants and needs, recognizing that being close to God and hearing His word is the only essential thing in life.",
-    "audioId": "18Rx-AswZSGTftWb-DHbuiZ1xVIczdV2v"
+    "summary": "BJosh teaches that Satan's primary deception is making people believe they need many things when Jesus said only one thing is needful: sitting at Jesus' feet and hearing His word. He warns that people make emotional decisions when stressed and seek fulfillment in relationships, achievements, and even pastors, when only intimacy with Jesus truly satisfies. The message emphasizes distinguishing between wants and needs, recognizing that being close to God and hearing His word is the only essential thing in life."
   },
   {
     "id": 52,
@@ -1360,8 +1320,7 @@ export const SERMONS = [
       "Romans 12:2"
     ],
     "keyScripture": "Romans 8:29",
-    "summary": "BJosh teaches that God's primary purpose for every believer is to be conformed to the image of Jesus Christ, not merely to fulfill ministry roles or church positions. He emphasizes that Christians must be obsessed with becoming like Jesus in every area of life—as pastors, husbands, wives, and in character—because God has predetermined that those He loves must look like His Son. He addresses the central pastoral question of whether people actually change, pointing to transformation through the Holy Spirit rather than conforming to the world.",
-    "audioId": "1XAxuOjFN785lJQnJGBFjiKE58QbUeg1c"
+    "summary": "BJosh teaches that God's primary purpose for every believer is to be conformed to the image of Jesus Christ, not merely to fulfill ministry roles or church positions. He emphasizes that Christians must be obsessed with becoming like Jesus in every area of life—as pastors, husbands, wives, and in character—because God has predetermined that those He loves must look like His Son. He addresses the central pastoral question of whether people actually change, pointing to transformation through the Holy Spirit rather than conforming to the world."
   },
   {
     "id": 53,
@@ -1388,8 +1347,7 @@ export const SERMONS = [
       "1 Thessalonians 5:23"
     ],
     "keyScripture": "1 Thessalonians 5:23",
-    "summary": "Bishop Heward-Mills teaches that man is a spirit, has a soul, and lives in a body, emphasizing that Christians must understand their tripartite nature to experience complete sanctification. He explains that God's word only profits believers when it is mixed with faith and produces four results: doctrine (information about God), reproof (conviction), correction (actual life change), and instruction (action steps). He warns that many charismatic Christians lack doctrinal understanding and mistakenly believe activities like worship can save them, when only understanding and applying God's word can bring genuine transformation.",
-    "audioId": "1cD7y4Rl-mnWCIoq0IhGzjPYCrSrwRhDz"
+    "summary": "Bishop Heward-Mills teaches that man is a spirit, has a soul, and lives in a body, emphasizing that Christians must understand their tripartite nature to experience complete sanctification. He explains that God's word only profits believers when it is mixed with faith and produces four results: doctrine (information about God), reproof (conviction), correction (actual life change), and instruction (action steps). He warns that many charismatic Christians lack doctrinal understanding and mistakenly believe activities like worship can save them, when only understanding and applying God's word can bring genuine transformation."
   },
   {
     "id": 54,
@@ -1421,8 +1379,7 @@ export const SERMONS = [
       "Psalm 92:10"
     ],
     "keyScripture": "Genesis 2:7",
-    "summary": "BJosh teaches that man is a spirit who has a soul and lives in a body, emphasizing that the spirit of an unsaved man is dead and desperately wicked. Using Genesis 2:7, he explains that God formed man's body from dust, but man only became alive when God breathed the breath of life into him, making him a living spirit. He emphasizes that people can be physically alive with fully formed bodies but spiritually dead until they receive the Holy Spirit's life through salvation.",
-    "audioId": "1Mt2VuziqQAPzb1kaAe4KwRKatZfvYZPZ"
+    "summary": "BJosh teaches that man is a spirit who has a soul and lives in a body, emphasizing that the spirit of an unsaved man is dead and desperately wicked. Using Genesis 2:7, he explains that God formed man's body from dust, but man only became alive when God breathed the breath of life into him, making him a living spirit. He emphasizes that people can be physically alive with fully formed bodies but spiritually dead until they receive the Holy Spirit's life through salvation."
   },
   {
     "id": 55,
@@ -1448,8 +1405,7 @@ export const SERMONS = [
       "1 John 3:9"
     ],
     "keyScripture": "Ephesians 4:24",
-    "summary": "BJosh teaches that when a person gets saved through confessing Jesus as Lord and believing in their heart, they become a new creation that is righteous and truly holy, created after God's own righteousness. He uses the illustration of taking off an old jacket (the old man) and putting on a new jacket (the new man) to explain that salvation transforms a person's nature to be as holy as God himself. He emphasizes that this righteousness is not modified or improved but completely new, and that a person born of God cannot sin because their spirit has been recreated in God's image.",
-    "audioId": "14gjhSgTOahF5MYbZbyZchzs2vpuxWZ3u"
+    "summary": "BJosh teaches that when a person gets saved through confessing Jesus as Lord and believing in their heart, they become a new creation that is righteous and truly holy, created after God's own righteousness. He uses the illustration of taking off an old jacket (the old man) and putting on a new jacket (the new man) to explain that salvation transforms a person's nature to be as holy as God himself. He emphasizes that this righteousness is not modified or improved but completely new, and that a person born of God cannot sin because their spirit has been recreated in God's image."
   },
   {
     "id": 56,
@@ -1484,8 +1440,7 @@ export const SERMONS = [
       "Mark 6:46-47"
     ],
     "keyScripture": "2 Timothy 1:6",
-    "summary": "BJosh teaches that we must stir up the gift of God within us, emphasizing that God is not automatically moved by the severity of our problems or crises. He explains the mystery that Jesus did not heal everyone He encountered (like the lame man at the temple gate who remained unhealed while others were healed), demonstrating that God shows no favoritism yet selectively intervenes. The central question of the sermon is: what provokes or moves God to act in one person's life but not another's, since our suffering alone does not automatically stir God to action.",
-    "audioId": "1kT7-VMP12VSW0srMJySnwiF71M_eUPxa"
+    "summary": "BJosh teaches that we must stir up the gift of God within us, emphasizing that God is not automatically moved by the severity of our problems or crises. He explains the mystery that Jesus did not heal everyone He encountered (like the lame man at the temple gate who remained unhealed while others were healed), demonstrating that God shows no favoritism yet selectively intervenes. The central question of the sermon is: what provokes or moves God to act in one person's life but not another's, since our suffering alone does not automatically stir God to action."
   },
   {
     "id": 57,
@@ -1520,8 +1475,7 @@ export const SERMONS = [
       "Genesis 19:11"
     ],
     "keyScripture": "Luke 17:32",
-    "summary": "BJosh teaches that Jesus' second coming will be like the days of Lot, when people carried on business as usual without regard for their sins until sudden judgment came upon Sodom and Gomorrah. He emphasizes Jesus' specific command to \"Remember Lot's wife,\" highlighting that she was different from those who stayed in Sodom but still did not make it to heaven because she looked back. He urges believers to have urgency in soul winning, calling family members and friends to Christ before it is too late, because judgment will come suddenly just as it did in Lot's day.",
-    "audioId": "10x4eENwmx0Hw2Nj2dgnymuvGP1GBmzua"
+    "summary": "BJosh teaches that Jesus' second coming will be like the days of Lot, when people carried on business as usual without regard for their sins until sudden judgment came upon Sodom and Gomorrah. He emphasizes Jesus' specific command to \"Remember Lot's wife,\" highlighting that she was different from those who stayed in Sodom but still did not make it to heaven because she looked back. He urges believers to have urgency in soul winning, calling family members and friends to Christ before it is too late, because judgment will come suddenly just as it did in Lot's day."
   },
   {
     "id": 58,
@@ -1551,8 +1505,7 @@ export const SERMONS = [
       "Luke 15:16"
     ],
     "keyScripture": "1 Corinthians 3:1",
-    "summary": "Bishop Joshua teaches that spirituality and Christianity are two different things, showing how Christians can be saved and sanctified yet remain carnal (unspiritual) rather than spiritual. He emphasizes that becoming a spiritual Christian requires avoiding company with sinners and unbelievers because you inevitably learn and adopt the ways of whoever you spend time with. Using the prodigal son and personal examples, he demonstrates that people don't change easily and must reach a decisive moment where they take responsibility for their lives and choose to separate from ungodly relationships that slow down spiritual progress.",
-    "audioId": "1CQhtqG4NPF7HZttRk_8poGIxI0Ay42b2"
+    "summary": "Bishop Joshua teaches that spirituality and Christianity are two different things, showing how Christians can be saved and sanctified yet remain carnal (unspiritual) rather than spiritual. He emphasizes that becoming a spiritual Christian requires avoiding company with sinners and unbelievers because you inevitably learn and adopt the ways of whoever you spend time with. Using the prodigal son and personal examples, he demonstrates that people don't change easily and must reach a decisive moment where they take responsibility for their lives and choose to separate from ungodly relationships that slow down spiritual progress."
   },
   {
     "id": 59,
@@ -1586,8 +1539,7 @@ export const SERMONS = [
       "Malachi 3:8"
     ],
     "keyScripture": "1 Corinthians 12:27",
-    "summary": "Bishop Heward-Mills teaches that being a church member requires three main responsibilities beyond just enjoying salvation: faithful weekly attendance (God requires faithfulness, not just goodness), being a stable planted member in one church (those who wander between churches will not flourish spiritually), and giving tithes and offerings consistently. He emphasizes that while the privileges of being saved are wonderful like a wedding and honeymoon, members must now accept the responsibilities that come with membership, just as marriage brings responsibilities after the celebration. He warns that occasional attendance and church-hopping lead to spiritual death and stunted growth, comparing it to a tree that must be planted in one place to truly thrive and bear fruit.",
-    "audioId": "1Q2hPnFheP9wVca_vW1yvL3FTvbdMt8U8"
+    "summary": "Bishop Heward-Mills teaches that being a church member requires three main responsibilities beyond just enjoying salvation: faithful weekly attendance (God requires faithfulness, not just goodness), being a stable planted member in one church (those who wander between churches will not flourish spiritually), and giving tithes and offerings consistently. He emphasizes that while the privileges of being saved are wonderful like a wedding and honeymoon, members must now accept the responsibilities that come with membership, just as marriage brings responsibilities after the celebration. He warns that occasional attendance and church-hopping lead to spiritual death and stunted growth, comparing it to a tree that must be planted in one place to truly thrive and bear fruit."
   },
   {
     "id": 60,
@@ -1622,8 +1574,7 @@ export const SERMONS = [
       "Hebrews 4:15"
     ],
     "keyScripture": "John 12:24",
-    "summary": "Bishop Heward-Mills teaches that Jesus had to die like a corn of wheat falling to the ground in order to become fruitful and beautiful, allowing Gentiles (Greeks) to come to Him beyond just the Jewish disciples. He emphasizes that resurrection is the foundation of Christian hope and that believers must look at Jesus' life, feelings, and compassion to finish their race. He explains that Christ experienced every human condition, including ugliness, poverty, and being an orphan, so that He could identify with all people and bring them salvation through His death and resurrection.",
-    "audioId": "181TRlouANznC56L58Gz3uj3yglDVpL9U"
+    "summary": "Bishop Heward-Mills teaches that Jesus had to die like a corn of wheat falling to the ground in order to become fruitful and beautiful, allowing Gentiles (Greeks) to come to Him beyond just the Jewish disciples. He emphasizes that resurrection is the foundation of Christian hope and that believers must look at Jesus' life, feelings, and compassion to finish their race. He explains that Christ experienced every human condition, including ugliness, poverty, and being an orphan, so that He could identify with all people and bring them salvation through His death and resurrection."
   },
   {
     "id": 61,
@@ -1656,9 +1607,7 @@ export const SERMONS = [
       "John 10:10"
     ],
     "keyScripture": "1 John 2:14",
-    "summary": "BJosh teaches that being a strong Christian is essential to overcome the wicked one (Satan), emphasizing that many believers are Christians but not strong Christians. He explains that Christians cannot overcome Satan in their own strength because Satan is stronger than humans, but only through the greater power of God who lives within them. He warns that many Christians live a flimsy, light Christianity without understanding the seriousness of spiritual warfare and the devil's intentions to steal, kill, and destroy.",
-    "mainFocus": "The necessity of becoming a strong Christian in order to overcome Satan through God's power rather than human strength",
-    "audioId": "12wIT3SjCkFF5yi0PsaRI4UdTc0mkJ1jM"
+    "summary": "BJosh teaches that being a strong Christian is essential to overcome the wicked one (Satan), emphasizing that many believers are Christians but not strong Christians. He explains that Christians cannot overcome Satan in their own strength because Satan is stronger than humans, but only through the greater power of God who lives within them. He warns that many Christians live a flimsy, light Christianity without understanding the seriousness of spiritual warfare and the devil's intentions to steal, kill, and destroy."
   },
   {
     "id": 62,
@@ -1690,8 +1639,7 @@ export const SERMONS = [
       "Galatians 5:17"
     ],
     "keyScripture": "John 15:6",
-    "summary": "BJosh teaches that a fruitful Christian is one who serves as a source of spiritual food and nutrition for others, not just someone who receives but doesn't give out. Christians who fail to bear fruit begin to wither gradually as the Holy Spirit (represented by water) departs from their lives, leading to spiritual weakness and eventual departure from God. The primary battle every Christian faces is between the flesh and the spirit, and strength to overcome comes through fruitfulness rather than mere resolutions or decisiveness.",
-    "audioId": "1rL_EMCzXU5ns-cU0-HtlA_vdn9v34_Y6"
+    "summary": "BJosh teaches that a fruitful Christian is one who serves as a source of spiritual food and nutrition for others, not just someone who receives but doesn't give out. Christians who fail to bear fruit begin to wither gradually as the Holy Spirit (represented by water) departs from their lives, leading to spiritual weakness and eventual departure from God. The primary battle every Christian faces is between the flesh and the spirit, and strength to overcome comes through fruitfulness rather than mere resolutions or decisiveness."
   },
   {
     "id": 63,
@@ -1723,8 +1671,7 @@ export const SERMONS = [
       "Colossians 1:13"
     ],
     "keyScripture": "3 John 1:2",
-    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and becoming spiritual means being dominated by your spirit rather than your emotions (soul) or fleshly desires (body). He emphasizes that walking in truth is essential to spiritual health, explaining that the Holy Spirit leads believers into all truth and delivers them from the power of darkness that comes with deception and lies. He warns that every human being is naturally a liar according to Romans 3:4, and living in deception keeps people under a spiritual power of darkness that prevents them from changing.",
-    "audioId": "1GZ5qFXGwz2vC4mJpcosXvU6DDcx3hucK"
+    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and becoming spiritual means being dominated by your spirit rather than your emotions (soul) or fleshly desires (body). He emphasizes that walking in truth is essential to spiritual health, explaining that the Holy Spirit leads believers into all truth and delivers them from the power of darkness that comes with deception and lies. He warns that every human being is naturally a liar according to Romans 3:4, and living in deception keeps people under a spiritual power of darkness that prevents them from changing."
   },
   {
     "id": 64,
@@ -1762,8 +1709,7 @@ export const SERMONS = [
       "1 Thessalonians 5:23"
     ],
     "keyScripture": "1 Thessalonians 5:23",
-    "summary": "BJosh teaches that human beings are composed of three parts—spirit, soul, and body—and that God wants to sanctify all three components to make believers complete and holy. He emphasizes that the soul includes the mind and emotions, the spirit is the eternal part that goes to heaven, and the body must be presented as a living sacrifice. He explains that the cost of following Christ requires submitting your mind to God, presenting your body to Him, and commending your spirit into His hands for total sanctification.",
-    "audioId": "1EglJhAzJlbVgPHJnynVv1iLIDy4-9Uzw"
+    "summary": "BJosh teaches that human beings are composed of three parts—spirit, soul, and body—and that God wants to sanctify all three components to make believers complete and holy. He emphasizes that the soul includes the mind and emotions, the spirit is the eternal part that goes to heaven, and the body must be presented as a living sacrifice. He explains that the cost of following Christ requires submitting your mind to God, presenting your body to Him, and commending your spirit into His hands for total sanctification."
   },
   {
     "id": 65,
@@ -1791,8 +1737,7 @@ export const SERMONS = [
       "2 Corinthians 4:7"
     ],
     "keyScripture": "Jeremiah 3:14-15",
-    "summary": "BJosh teaches that God sends Holy Spirit-led ministers and pastors as intermediaries to help believers know Him and restore their relationship with Him, using the metaphor of marriage counseling where God says 'I will give you pastors' to fix the broken relationship. He emphasizes that while people want to remove the human element from knowing God, Scripture shows God works through earthen vessels—imperfect human ministers who carry divine treasure within them. He celebrates the role of their founder, Dag Heward-Mills, as the Holy Spirit-led pastor God sent to help the congregation develop their relationship with God through practices like quiet time and Bible reading.",
-    "audioId": "1wuFABj1qLIggMDi6F8HiBpChgYpe2M2z"
+    "summary": "BJosh teaches that God sends Holy Spirit-led ministers and pastors as intermediaries to help believers know Him and restore their relationship with Him, using the metaphor of marriage counseling where God says 'I will give you pastors' to fix the broken relationship. He emphasizes that while people want to remove the human element from knowing God, Scripture shows God works through earthen vessels—imperfect human ministers who carry divine treasure within them. He celebrates the role of their founder, Dag Heward-Mills, as the Holy Spirit-led pastor God sent to help the congregation develop their relationship with God through practices like quiet time and Bible reading."
   },
   {
     "id": 66,
@@ -1821,8 +1766,7 @@ export const SERMONS = [
       "Daniel 9:17"
     ],
     "keyScripture": "Daniel 9:17",
-    "summary": "BJosh teaches that many pastors struggle with empty, desolate churches characterized by poor attendance and lack of committed members, comparing this to Daniel's prayer over a desolate sanctuary. He emphasizes that speaking in tongues brings God's presence because it allows believers to give thanks well, which is how they enter God's gates according to Psalm 100:4. He stresses that Bible school training should produce practical pastoral skills regardless of location or circumstances, and promises to teach specific shepherding techniques that will help pastors move from mobilizing temporary visitors to building committed congregations.",
-    "audioId": "1i_mcJKviPXANmKl2fwCknNvB1KUhHkqt"
+    "summary": "BJosh teaches that many pastors struggle with empty, desolate churches characterized by poor attendance and lack of committed members, comparing this to Daniel's prayer over a desolate sanctuary. He emphasizes that speaking in tongues brings God's presence because it allows believers to give thanks well, which is how they enter God's gates according to Psalm 100:4. He stresses that Bible school training should produce practical pastoral skills regardless of location or circumstances, and promises to teach specific shepherding techniques that will help pastors move from mobilizing temporary visitors to building committed congregations."
   },
   {
     "id": 67,
@@ -1855,8 +1799,7 @@ export const SERMONS = [
       "1 Corinthians 14:11"
     ],
     "keyScripture": "John 10:4",
-    "summary": "Bishop Heward-Mills teaches that effective shepherding requires sheep to know their pastor's voice through frequent, prolonged communication beyond just Sunday preaching. He emphasizes that pastors must talk to their members regularly about many different things—counseling, chatting, checking in—so members recognize the pastor's voice and will follow them. When members only hear from their pastor on Sundays or for church business, they remain strangers who will not truly follow, but consistent communication builds the voice recognition necessary for pastoral authority and church growth.",
-    "audioId": "13nTiV8AJozsS9MTCoUQzEEDoQnRF4768"
+    "summary": "Bishop Heward-Mills teaches that effective shepherding requires sheep to know their pastor's voice through frequent, prolonged communication beyond just Sunday preaching. He emphasizes that pastors must talk to their members regularly about many different things—counseling, chatting, checking in—so members recognize the pastor's voice and will follow them. When members only hear from their pastor on Sundays or for church business, they remain strangers who will not truly follow, but consistent communication builds the voice recognition necessary for pastoral authority and church growth."
   },
   {
     "id": 68,
@@ -1882,8 +1825,7 @@ export const SERMONS = [
       "Proverbs 29:18"
     ],
     "keyScripture": "Proverbs 29:18",
-    "summary": "Bishop Joshua teaches that ministry success requires a burning vision from God, emphasizing that according to Proverbs 29:18, without vision the people perish. He explains there are four essential areas for receiving from spiritual fathers in ministry: land (laying on of hands), received (impartation), heard (listening to messages), and seen (observing inner character traits like humility and love for God). He stresses that entering the spirit through speaking in tongues is the fastest way to hear God's voice and receive revelation, and that true ministry effectiveness comes from having God's vision placed inside your heart, not just external actions or anointing.",
-    "audioId": "1JAG16E4sttgURbYy2oGTiNrT0D4pItW9"
+    "summary": "Bishop Joshua teaches that ministry success requires a burning vision from God, emphasizing that according to Proverbs 29:18, without vision the people perish. He explains there are four essential areas for receiving from spiritual fathers in ministry: land (laying on of hands), received (impartation), heard (listening to messages), and seen (observing inner character traits like humility and love for God). He stresses that entering the spirit through speaking in tongues is the fastest way to hear God's voice and receive revelation, and that true ministry effectiveness comes from having God's vision placed inside your heart, not just external actions or anointing."
   },
   {
     "id": 69,
@@ -2227,8 +2169,7 @@ export const SERMONS = [
       "Titus 2"
     ],
     "keyScripture": "Matthew 16:15-16",
-    "summary": "BJosh teaches that most Christians only know what other people say about God rather than knowing Him personally through direct Holy Spirit encounter and revelation. He emphasizes that well-brought-up believers must test all teaching against Scripture (Acts 17:11) and not merely follow pastors or prophets as if they were God themselves. The Holy Spirit alone can lead believers into personal knowledge of God through direct teaching, revelation, and guidance, moving them from secondhand testimony to firsthand encounter.",
-    "audioId": "1PeCyd9p7Vvfhx6WBuZJENuTbe_MU5xoy"
+    "summary": "BJosh teaches that most Christians only know what other people say about God rather than knowing Him personally through direct Holy Spirit encounter and revelation. He emphasizes that well-brought-up believers must test all teaching against Scripture (Acts 17:11) and not merely follow pastors or prophets as if they were God themselves. The Holy Spirit alone can lead believers into personal knowledge of God through direct teaching, revelation, and guidance, moving them from secondhand testimony to firsthand encounter."
   },
   {
     "id": 79,
@@ -2258,8 +2199,7 @@ export const SERMONS = [
       "Ephesians 3:19"
     ],
     "keyScripture": "Proverbs 27:17",
-    "summary": "BJosh teaches that the Holy Spirit transforms people when He becomes their friend, just as iron sharpens iron and as Moses' face was changed when God spoke to him face to face as a friend. He explains that there are progressive levels of relationship with God—from merely believing in God's existence to personally knowing Him, being known by Him, and ultimately loving Him. The primary influence of the Holy Spirit is to move believers beyond basic belief into a personal, intimate knowledge of God that produces visible transformation.",
-    "audioId": "1hnJdey-SxsLTA2DQnYiZZ0NKdPZMO9w7"
+    "summary": "BJosh teaches that the Holy Spirit transforms people when He becomes their friend, just as iron sharpens iron and as Moses' face was changed when God spoke to him face to face as a friend. He explains that there are progressive levels of relationship with God—from merely believing in God's existence to personally knowing Him, being known by Him, and ultimately loving Him. The primary influence of the Holy Spirit is to move believers beyond basic belief into a personal, intimate knowledge of God that produces visible transformation."
   },
   {
     "id": 80,
@@ -2323,8 +2263,7 @@ export const SERMONS = [
       "1 John 2:20"
     ],
     "keyScripture": "1 John 2:20",
-    "summary": "Bishop Joshua teaches that many Christians remain strangers to God despite being part of the church, lacking the personal knowledge of Him that brings grace, peace, and divine assistance in life. He emphasizes that the Holy Spirit gives believers an anointing to discern antichrist influences—people and relationships that pull them away from God—just as the five foolish virgins were rejected because the bridegroom said \"I don't know you.\" Without the Holy Spirit's gift of \"knowing,\" Christians cannot recognize when friendships, romantic relationships, or even church members are working against their relationship with God, ultimately ending their walk with Him.",
-    "audioId": "1_02pMzBz8nooXZzRN_nXDEIBfrj1V4_o"
+    "summary": "Bishop Joshua teaches that many Christians remain strangers to God despite being part of the church, lacking the personal knowledge of Him that brings grace, peace, and divine assistance in life. He emphasizes that the Holy Spirit gives believers an anointing to discern antichrist influences—people and relationships that pull them away from God—just as the five foolish virgins were rejected because the bridegroom said \"I don't know you.\" Without the Holy Spirit's gift of \"knowing,\" Christians cannot recognize when friendships, romantic relationships, or even church members are working against their relationship with God, ultimately ending their walk with Him."
   },
   {
     "id": 82,
@@ -2446,8 +2385,7 @@ export const SERMONS = [
       "2 Corinthians 13:14"
     ],
     "keyScripture": "Ephesians 4:11-13",
-    "summary": "Bishop Heward-Mills teaches that God does not primarily use direct sovereign encounters to bring people to know Him, but instead sends Spirit-led men of God as 'wingmen' to guide believers into personal knowledge of God. He demonstrates through Acts 8, 9, and 10 that even when God appears directly to people like the Ethiopian eunuch, Paul, and Cornelius, He still directs them to human ministers (Philip, Ananias, Peter) who will explain and teach them. He emphasizes that pastors and spiritual mentors are God's ordained method for believers to grow in intimacy with God, move beyond long-distance relationship with Him, and experience the communion of the Holy Spirit that transforms knowledge about God into knowing God personally.",
-    "audioId": "1MZkRkJ9k8TLKgZBDHs8Rb-URgAnwGomT"
+    "summary": "Bishop Heward-Mills teaches that God does not primarily use direct sovereign encounters to bring people to know Him, but instead sends Spirit-led men of God as 'wingmen' to guide believers into personal knowledge of God. He demonstrates through Acts 8, 9, and 10 that even when God appears directly to people like the Ethiopian eunuch, Paul, and Cornelius, He still directs them to human ministers (Philip, Ananias, Peter) who will explain and teach them. He emphasizes that pastors and spiritual mentors are God's ordained method for believers to grow in intimacy with God, move beyond long-distance relationship with Him, and experience the communion of the Holy Spirit that transforms knowledge about God into knowing God personally."
   },
   {
     "id": 84,
@@ -2521,8 +2459,7 @@ export const SERMONS = [
       "Acts 1:8"
     ],
     "keyScripture": "Acts 1:8",
-    "summary": "Bishop Joshua teaches that the primary calling of every believer is soul winning, and that God has entrusted this generation with the responsibility to reach their generation with the gospel. He emphasizes that the sign of the Holy Spirit's power in a church is not miracles or gifts alone, but believers actively witnessing and winning souls for Christ. He challenges the congregation to be faithful with the glorious gospel committed to them, reminding them that those who turn many to righteousness will shine as stars forever and ever.",
-    "audioId": "12ObvE0HJ2klS2zhOVuylH0O7LHZeRLIM"
+    "summary": "Bishop Joshua teaches that the primary calling of every believer is soul winning, and that God has entrusted this generation with the responsibility to reach their generation with the gospel. He emphasizes that the sign of the Holy Spirit's power in a church is not miracles or gifts alone, but believers actively witnessing and winning souls for Christ. He challenges the congregation to be faithful with the glorious gospel committed to them, reminding them that those who turn many to righteousness will shine as stars forever and ever."
   },
   {
     "id": 86,
@@ -2550,8 +2487,7 @@ export const SERMONS = [
       "Psalm 36:7-10"
     ],
     "keyScripture": "Exodus 33:15",
-    "summary": "Bishop Joshua teaches that Moses, despite being handsome, educated in all Egyptian wisdom, and adopted by Pharaoh's daughter, declared he would not go forward unless God's presence went with him. He emphasizes that no matter one's education, family background, physical appearance, or professional qualifications, none of these can replace the need for God's presence in one's life. The central message is that many Christians worship God from afar rather than seeking genuine closeness, but like Moses who performed miracles before Pharaoh, true power and success come only through intimate relationship with God's presence.",
-    "audioId": "1XZ03r1XahqSrA9M20z29mxxVWFi_z99W"
+    "summary": "Bishop Joshua teaches that Moses, despite being handsome, educated in all Egyptian wisdom, and adopted by Pharaoh's daughter, declared he would not go forward unless God's presence went with him. He emphasizes that no matter one's education, family background, physical appearance, or professional qualifications, none of these can replace the need for God's presence in one's life. The central message is that many Christians worship God from afar rather than seeking genuine closeness, but like Moses who performed miracles before Pharaoh, true power and success come only through intimate relationship with God's presence."
   },
   {
     "id": 87,
@@ -2591,8 +2527,7 @@ export const SERMONS = [
       "Revelation 7"
     ],
     "keyScripture": "Acts 2:4",
-    "summary": "Bishop Heward-Mills teaches that receiving the Holy Spirit and speaking in tongues is the beginning point of all supernatural experiences in the Christian life. He outlines five steps to receive the Holy Spirit: confess your sins (because God's presence requires holiness), ask for the Holy Spirit (as Luke 11:13 promises), open your mouth and speak by faith (you must begin, then the Spirit gives utterance), receive the laying on of hands from someone who has the Spirit, and pray persistently until you receive. He emphasizes that speaking in tongues transforms lives, increases spiritual sensitivity, and is accessible to all believers through the blood of Jesus which cleanses us to receive God's presence.",
-    "audioId": "1DeMQj_ebxV-iShcNb3EpN9DcvJe-J0un"
+    "summary": "Bishop Heward-Mills teaches that receiving the Holy Spirit and speaking in tongues is the beginning point of all supernatural experiences in the Christian life. He outlines five steps to receive the Holy Spirit: confess your sins (because God's presence requires holiness), ask for the Holy Spirit (as Luke 11:13 promises), open your mouth and speak by faith (you must begin, then the Spirit gives utterance), receive the laying on of hands from someone who has the Spirit, and pray persistently until you receive. He emphasizes that speaking in tongues transforms lives, increases spiritual sensitivity, and is accessible to all believers through the blood of Jesus which cleanses us to receive God's presence."
   },
   {
     "id": 88,
@@ -2677,8 +2612,7 @@ export const SERMONS = [
       "Matthew 10:32-33"
     ],
     "keyScripture": "John 3:3",
-    "summary": "Bishop Joshua teaches that being born again is absolutely essential for entering heaven because sin has caused spiritual death in all humans, and only through believing in Jesus as the Son of God in your heart and publicly confessing Him before men can you receive new spiritual life. He emphasizes that true belief in the heart manifests in a changed life, not just mental acknowledgment or church attendance, and warns that failing to publicly confess Christ will result in Jesus denying you before the Father. Using the analogy of foundations and personal stories, he challenges listeners to examine whether they have genuinely taken the step of public confession and heart belief, urging them to make that decision today if they haven't already.",
-    "audioId": "1-nxg-EA-ggi0Y6AmUWdH8Uc46tFIvwtg"
+    "summary": "Bishop Joshua teaches that being born again is absolutely essential for entering heaven because sin has caused spiritual death in all humans, and only through believing in Jesus as the Son of God in your heart and publicly confessing Him before men can you receive new spiritual life. He emphasizes that true belief in the heart manifests in a changed life, not just mental acknowledgment or church attendance, and warns that failing to publicly confess Christ will result in Jesus denying you before the Father. Using the analogy of foundations and personal stories, he challenges listeners to examine whether they have genuinely taken the step of public confession and heart belief, urging them to make that decision today if they haven't already."
   },
   {
     "id": 90,
@@ -2712,8 +2646,7 @@ export const SERMONS = [
       "Matthew 5"
     ],
     "keyScripture": "Exodus 3:11-12",
-    "summary": "BJosh teaches that human beings are inherently corrupt, weak, dishonorable, and natural (unable to receive spiritual things), which is why everyone desperately needs God's presence rather than relying on their own efforts or goodness. He emphasizes that when Moses asked 'Who am I?' at the burning bush, God's answer was not about Moses' abilities but 'I will be with you'—showing that God's presence makes up for all human inadequacy and weakness. The central message is that proximity to Jesus and His abiding presence is the one necessary thing that cannot be taken away, not religious activity or working for God, as illustrated by Mary choosing to sit at Jesus' feet while Martha worked.",
-    "audioId": "1LmTQhgLiP9cg8TH-n7F0ZOZDKtkdo9A1"
+    "summary": "BJosh teaches that human beings are inherently corrupt, weak, dishonorable, and natural (unable to receive spiritual things), which is why everyone desperately needs God's presence rather than relying on their own efforts or goodness. He emphasizes that when Moses asked 'Who am I?' at the burning bush, God's answer was not about Moses' abilities but 'I will be with you'—showing that God's presence makes up for all human inadequacy and weakness. The central message is that proximity to Jesus and His abiding presence is the one necessary thing that cannot be taken away, not religious activity or working for God, as illustrated by Mary choosing to sit at Jesus' feet while Martha worked."
   },
   {
     "id": 91,
@@ -2754,8 +2687,7 @@ export const SERMONS = [
       "Ephesians 6:16"
     ],
     "keyScripture": "John 15:6",
-    "summary": "BJosh teaches that without consistently staying in God's presence through prayer, Bible reading, and church attendance, Christians will spiritually wither like grass that fades and flowers that die, no matter how passionate they once were. He emphasizes that life's trials—death, disappointment, broken hearts, and spiritual attacks—can only be endured and overcome by abiding in God's presence, which keeps believers fresh, heals their brokenness, and restores their faith. He warns that Satan's primary strategy is to distance believers from God's presence by keeping them away from church and prayer, leading to backsliding and spiritual death, and stresses that obedience and faith (the shield of faith) are essential to quenching the enemy's fiery attacks.",
-    "audioId": "1mwD-J47w1Z0-UIgRAE4n6-nfdcyWmUxJ"
+    "summary": "BJosh teaches that without consistently staying in God's presence through prayer, Bible reading, and church attendance, Christians will spiritually wither like grass that fades and flowers that die, no matter how passionate they once were. He emphasizes that life's trials—death, disappointment, broken hearts, and spiritual attacks—can only be endured and overcome by abiding in God's presence, which keeps believers fresh, heals their brokenness, and restores their faith. He warns that Satan's primary strategy is to distance believers from God's presence by keeping them away from church and prayer, leading to backsliding and spiritual death, and stresses that obedience and faith (the shield of faith) are essential to quenching the enemy's fiery attacks."
   },
   {
     "id": 92,
@@ -2784,8 +2716,7 @@ export const SERMONS = [
       "1 Corinthians 2:14"
     ],
     "keyScripture": "Matthew 11:28-29",
-    "summary": "Bishop Joshua teaches that Jesus responds to our burdens not by removing them but by asking us to take His yoke—the work of building His church and winning souls. He emphasizes that spiritual maturity comes through understanding our inadequate state and humbly accepting the responsibility of church growth, where every member must actively supply and bring others to Christ. He commissions the morning service congregation specifically to fill the building with souls, explaining that taking Christ's yoke brings true rest even as we labor in His harvest field.",
-    "audioId": "17eMtIkFvZ3PyURQ1qgvfi1bokLX8aYke"
+    "summary": "Bishop Joshua teaches that Jesus responds to our burdens not by removing them but by asking us to take His yoke—the work of building His church and winning souls. He emphasizes that spiritual maturity comes through understanding our inadequate state and humbly accepting the responsibility of church growth, where every member must actively supply and bring others to Christ. He commissions the morning service congregation specifically to fill the building with souls, explaining that taking Christ's yoke brings true rest even as we labor in His harvest field."
   },
   {
     "id": 93,
@@ -2812,8 +2743,7 @@ export const SERMONS = [
       "Acts 8:5"
     ],
     "keyScripture": "Colossians 1:27",
-    "summary": "Bishop Joshua teaches that the central message of First Love Church must always be Jesus Christ as Savior, following Philip's example in Acts 8 who preached Christ to Samaria. He emphasizes that Christ in you is the hope of glory (Colossians 1:27), meaning that regardless of your past, education, or circumstances, Jesus brings the possibility of honor and beauty to your life. He stresses the difference between merely gathering people to church versus actually converting souls by leading them to Christ and discipling them, which is what maintains relevance and greatness in ministry.",
-    "audioId": "11ffp2nBWaUAABNe1JC4bUh31tTX222op"
+    "summary": "Bishop Joshua teaches that the central message of First Love Church must always be Jesus Christ as Savior, following Philip's example in Acts 8 who preached Christ to Samaria. He emphasizes that Christ in you is the hope of glory (Colossians 1:27), meaning that regardless of your past, education, or circumstances, Jesus brings the possibility of honor and beauty to your life. He stresses the difference between merely gathering people to church versus actually converting souls by leading them to Christ and discipling them, which is what maintains relevance and greatness in ministry."
   },
   {
     "id": 94,
@@ -2885,8 +2815,7 @@ export const SERMONS = [
       "2 Corinthians 3:3"
     ],
     "keyScripture": "John 14:21",
-    "summary": "Bishop Joshua teaches that loving God with all your heart, soul, and mind unlocks specific blessings including God manifesting Himself to you as a real, living presence rather than a distant historical figure. He emphasizes that those who love God receive extraordinary lives beyond human comprehension, experience God's deliverance in times of crisis, and have all things work together for their good regardless of past mistakes. The core message warns against idolatry (including modern Christian idols like jobs or relationships) and calls believers to choose God above all else, promising that God will be present in trouble, grant promotion, and answer prayers for those who truly love Him.",
-    "audioId": "1_3Otg1lv_sz836FLqkUK0o3PFOEcKshj"
+    "summary": "Bishop Joshua teaches that loving God with all your heart, soul, and mind unlocks specific blessings including God manifesting Himself to you as a real, living presence rather than a distant historical figure. He emphasizes that those who love God receive extraordinary lives beyond human comprehension, experience God's deliverance in times of crisis, and have all things work together for their good regardless of past mistakes. The core message warns against idolatry (including modern Christian idols like jobs or relationships) and calls believers to choose God above all else, promising that God will be present in trouble, grant promotion, and answer prayers for those who truly love Him."
   },
   {
     "id": 96,
@@ -2946,8 +2875,7 @@ export const SERMONS = [
       "Hebrews 13:7"
     ],
     "keyScripture": "1 Timothy 5:17",
-    "summary": "Bishop Heward-Mills teaches that Christians must render honor to those who are due honor, particularly spiritual fathers, church founders, and pastors who labor in preaching and teaching, emphasizing that elders who work hard deserve double honor including financial support. He stresses that honoring spiritual authority is not optional but a biblical command, warning that the highest dishonor often comes in a prophet's own country and church, and that members must learn to value unseen spiritual things over material ones. He declares that as founder of Lighthouse Chapel/First Love Church, he is due honor in his own house, and that sowing seeds of honor will result in a harvest of being honored by those one leads.",
-    "audioId": "1YcUXkIpxEFK18Udv4yXeJ1Wj41Hnv4zu"
+    "summary": "Bishop Heward-Mills teaches that Christians must render honor to those who are due honor, particularly spiritual fathers, church founders, and pastors who labor in preaching and teaching, emphasizing that elders who work hard deserve double honor including financial support. He stresses that honoring spiritual authority is not optional but a biblical command, warning that the highest dishonor often comes in a prophet's own country and church, and that members must learn to value unseen spiritual things over material ones. He declares that as founder of Lighthouse Chapel/First Love Church, he is due honor in his own house, and that sowing seeds of honor will result in a harvest of being honored by those one leads."
   },
   {
     "id": 98,
@@ -2984,8 +2912,7 @@ export const SERMONS = [
       "1 Corinthians 2:9"
     ],
     "keyScripture": "Matthew 22:37-38",
-    "summary": "BJosh teaches that the great commandment is to love God with all your heart, soul, and mind—not just with words or religious activity, but with genuine emotion, thoughts, and undivided devotion like one would love a romantic partner. He warns that many Christians, including pastors, serve God for years without truly loving Him, shown by hearts devoted to money, worldly satisfaction, and other priorities instead of God. Those who genuinely love God can expect specific blessings: God will manifest Himself to them, speak to them personally, empower them to obey His commandments, and prepare extraordinary things for their lives that eye has not seen.",
-    "audioId": "1i0V2oe-aC6Hf7rsbmrCRM_0f_RdxOp1X"
+    "summary": "BJosh teaches that the great commandment is to love God with all your heart, soul, and mind—not just with words or religious activity, but with genuine emotion, thoughts, and undivided devotion like one would love a romantic partner. He warns that many Christians, including pastors, serve God for years without truly loving Him, shown by hearts devoted to money, worldly satisfaction, and other priorities instead of God. Those who genuinely love God can expect specific blessings: God will manifest Himself to them, speak to them personally, empower them to obey His commandments, and prepare extraordinary things for their lives that eye has not seen."
   },
   {
     "id": 99,
@@ -3021,8 +2948,7 @@ export const SERMONS = [
       "2 Corinthians 8:24"
     ],
     "keyScripture": "1 Corinthians 15:10",
-    "summary": "BJosh teaches seven lessons from Bishop Dag Heward-Mills' life: the grace of God that takes someone from small beginnings to great impact, obedience to God's call even when difficult, faithfulness over decades as God's requirement, patience after doing God's will, sacrifice and losing things to follow Christ, proving love for God through action not just words, and the sustaining presence of God through every trial. He emphasizes that the same grace that built the ministry from a classroom to thousands of churches is available to all believers who will obey, remain faithful, and walk in God's will. He challenges listeners to be partakers of this grace and declares that though their beginning may be small, their latter end will greatly increase if they follow these principles.",
-    "audioId": "1w0LuuWl_hA4IP52L56035HuvwUEqPhmW"
+    "summary": "BJosh teaches seven lessons from Bishop Dag Heward-Mills' life: the grace of God that takes someone from small beginnings to great impact, obedience to God's call even when difficult, faithfulness over decades as God's requirement, patience after doing God's will, sacrifice and losing things to follow Christ, proving love for God through action not just words, and the sustaining presence of God through every trial. He emphasizes that the same grace that built the ministry from a classroom to thousands of churches is available to all believers who will obey, remain faithful, and walk in God's will. He challenges listeners to be partakers of this grace and declares that though their beginning may be small, their latter end will greatly increase if they follow these principles."
   },
   {
     "id": 100,
@@ -3098,8 +3024,7 @@ export const SERMONS = [
       "Genesis 27:24"
     ],
     "keyScripture": "Romans 8:26",
-    "summary": "Bishop Joshua teaches that Christians often don't know what or how to pray, but the Holy Spirit helps this infirmity by interceding through speaking in tongues, which allows believers to pray mysteries according to God's will rather than their own desires. He illustrates the art of following by showing how Jacob copied Esau to obtain blessings he had no birthright to, arguing that believers must similarly emulate spiritual fathers like David to receive blessings beyond their natural origins. The core message is that praying in tongues connects believers directly to God's mind through the Spirit, bypassing human limitations and fleshly desires.",
-    "keyScripture_elaboration": "Romans 8:26-27 is the theological foundation of the entire sermon, with Bishop Joshua spending significant time expounding how the Spirit helps our weakness of not knowing what to pray for by making intercession through groanings and tongues."
+    "summary": "Bishop Joshua teaches that Christians often don't know what or how to pray, but the Holy Spirit helps this infirmity by interceding through speaking in tongues, which allows believers to pray mysteries according to God's will rather than their own desires. He illustrates the art of following by showing how Jacob copied Esau to obtain blessings he had no birthright to, arguing that believers must similarly emulate spiritual fathers like David to receive blessings beyond their natural origins. The core message is that praying in tongues connects believers directly to God's mind through the Spirit, bypassing human limitations and fleshly desires."
   },
   {
     "id": 102,
@@ -3246,8 +3171,7 @@ export const SERMONS = [
       "Isaiah 9:5-6"
     ],
     "keyScripture": "Joshua 11:18",
-    "summary": "Bishop Heward-Mills teaches that every prophecy and promise from God requires a long, sustained fight across multiple dimensions—personal battles with self, family conflicts, and leadership struggles—rather than simply being received by faith without action. He emphasizes that Joshua fought for a long time to possess what God had already promised, and similarly believers must be prepared for extended warfare in every area of life including overcoming personal sins, maintaining relationships, and fulfilling ministry callings. The message calls believers to persevere through repeated failures and setbacks, understanding that spiritual maturity and fruitfulness come only through prolonged battle, not instant manifestation.",
-    "audioId": "1J5dfMIglPtwqTzZQ7l1j756H8g3fu-oc"
+    "summary": "Bishop Heward-Mills teaches that every prophecy and promise from God requires a long, sustained fight across multiple dimensions—personal battles with self, family conflicts, and leadership struggles—rather than simply being received by faith without action. He emphasizes that Joshua fought for a long time to possess what God had already promised, and similarly believers must be prepared for extended warfare in every area of life including overcoming personal sins, maintaining relationships, and fulfilling ministry callings. The message calls believers to persevere through repeated failures and setbacks, understanding that spiritual maturity and fruitfulness come only through prolonged battle, not instant manifestation."
   },
   {
     "id": 107,
@@ -3443,8 +3367,7 @@ export const SERMONS = [
       "2 Chronicles 20:20"
     ],
     "keyScripture": "2 Chronicles 20:20",
-    "summary": "Bishop Heward-Mills teaches that God's treasures and anointing are hidden in earthen vessels (prophets and spiritual leaders), and believers must humble themselves through obedience to access these treasures. He emphasizes that prosperity and breakthrough come not through human wisdom or effort, but by believing and honoring God's prophets as instructed in 2 Chronicles 20:20. He challenges believers to pay the price of humility, obedience, and time spent ministering to the Lord in order to receive fresh anointing and break free from limitations.",
-    "audioId": "1dDjeXgRyV91oNubTV8yoYqGFOqGoV2Ed"
+    "summary": "Bishop Heward-Mills teaches that God's treasures and anointing are hidden in earthen vessels (prophets and spiritual leaders), and believers must humble themselves through obedience to access these treasures. He emphasizes that prosperity and breakthrough come not through human wisdom or effort, but by believing and honoring God's prophets as instructed in 2 Chronicles 20:20. He challenges believers to pay the price of humility, obedience, and time spent ministering to the Lord in order to receive fresh anointing and break free from limitations."
   },
   {
     "id": 114,
@@ -4105,17 +4028,7 @@ export const SERMONS = [
       "2 Timothy 3:15"
     ],
     "keyScripture": "Ephesians 1:2",
-    "summary": "Bishop Dag teaches that grace and peace from God are the two essential things believers need throughout their lives, emphasizing that human weakness and evil nature require God's continual grace. He explains that God has adopted believers as His children before the foundation of the world, making them accepted in the beloved (the church), which is the primary place of acceptance despite life's inevitable rejections. He emphasizes that God abundantly gives wisdom and prudence through Scripture and books, revealing the mysterious will of God through prayer and study of His Word.",
-    "keyTopics": [
-      "grace and peace from God",
-      "spiritual blessings in heavenly places",
-      "predestination and adoption",
-      "acceptance in the beloved",
-      "redemption through Christ's blood",
-      "wisdom through Scripture",
-      "mystery of God's will",
-      "church as place of belonging"
-    ]
+    "summary": "Bishop Dag teaches that grace and peace from God are the two essential things believers need throughout their lives, emphasizing that human weakness and evil nature require God's continual grace. He explains that God has adopted believers as His children before the foundation of the world, making them accepted in the beloved (the church), which is the primary place of acceptance despite life's inevitable rejections. He emphasizes that God abundantly gives wisdom and prudence through Scripture and books, revealing the mysterious will of God through prayer and study of His Word."
   },
   {
     "id": 135,
@@ -4166,8 +4079,7 @@ export const SERMONS = [
       "Philippians 2:10"
     ],
     "keyScripture": "Micah 4:1",
-    "summary": "Bishop Joshua teaches that in a mega church there is greater power to confront the prince of the power of the air and cast out demons that cause sickness, depression, and destruction in people's lives. He explains that evil spirits (nephilim, demons from fallen angels) have infiltrated humanity since Genesis and that Jesus's ministry was characterized by casting out devils and healing the sick. He declares that through the name of Jesus and faith in that name, believers in the mega church can receive deliverance from every demonic influence, genetic curse, chronic disease, and oppressive spirit.",
-    "audioId": "1pCaXLzLkB4VGO5g0_mSMJuSGvWJmzHpd"
+    "summary": "Bishop Joshua teaches that in a mega church there is greater power to confront the prince of the power of the air and cast out demons that cause sickness, depression, and destruction in people's lives. He explains that evil spirits (nephilim, demons from fallen angels) have infiltrated humanity since Genesis and that Jesus's ministry was characterized by casting out devils and healing the sick. He declares that through the name of Jesus and faith in that name, believers in the mega church can receive deliverance from every demonic influence, genetic curse, chronic disease, and oppressive spirit."
   },
   {
     "id": 136,
@@ -4202,8 +4114,7 @@ export const SERMONS = [
       "Romans 8:29"
     ],
     "keyScripture": "Philippians 2:5-8",
-    "summary": "Bishop Joshua teaches that Jesus' most important lesson for ministers is not His miracles or mega-church success, but His humility, as demonstrated when He joined the baptism line and humbled Himself to become a man and die. He explains that God gives grace (supernatural help) only to the humble, and that humility can override the law of divine selection, as seen when Jesus healed the Syrophoenician woman and the Centurion who demonstrated exceptional humility. He warns that pride blocks earthly and spiritual blessings, calling believers to remain teachable like children and to embrace servant roles rather than seeking status or being \"too big\" for menial tasks in church.",
-    "audioId": "1vZmn3wly9Qj7NQ5T7LosmXf93zoMSpy5"
+    "summary": "Bishop Joshua teaches that Jesus' most important lesson for ministers is not His miracles or mega-church success, but His humility, as demonstrated when He joined the baptism line and humbled Himself to become a man and die. He explains that God gives grace (supernatural help) only to the humble, and that humility can override the law of divine selection, as seen when Jesus healed the Syrophoenician woman and the Centurion who demonstrated exceptional humility. He warns that pride blocks earthly and spiritual blessings, calling believers to remain teachable like children and to embrace servant roles rather than seeking status or being \"too big\" for menial tasks in church."
   },
   {
     "id": 137,
@@ -4393,8 +4304,7 @@ export const SERMONS = [
       "Isaiah 43:13"
     ],
     "keyScripture": "Matthew 11:29",
-    "summary": "Bishop Joshua teaches that pride has many surprising sources including perfection, beauty, wisdom, riches, knowledge, prayer, fasting, tithing, and even dreams and revelations. He emphasizes that Jesus Christ is the ultimate teacher of humility, instructing believers to learn from Him by being meek and lowly, choosing the lowest room, and not doing their own will but God's will. He warns that proud people always want to do what they want rather than submitting to spiritual authority, and calls believers to humble themselves before God lifts them up.",
-    "audioId": "1vZmn3wly9Qj7NQ5T7LosmXf93zoMSpy5"
+    "summary": "Bishop Joshua teaches that pride has many surprising sources including perfection, beauty, wisdom, riches, knowledge, prayer, fasting, tithing, and even dreams and revelations. He emphasizes that Jesus Christ is the ultimate teacher of humility, instructing believers to learn from Him by being meek and lowly, choosing the lowest room, and not doing their own will but God's will. He warns that proud people always want to do what they want rather than submitting to spiritual authority, and calls believers to humble themselves before God lifts them up."
   },
   {
     "id": 143,
@@ -4547,8 +4457,7 @@ export const SERMONS = [
       "Exodus 25:9"
     ],
     "keyScripture": "Isaiah 32:15",
-    "summary": "Bishop Heward-Mills teaches that the primary reason for lack of church growth and ministerial effectiveness is the absence of the Holy Spirit being poured out on leaders and members. He emphasizes three ways the Holy Spirit interacts with believers: within (indwelling), with (presence), and upon (anointing for service), explaining that the Spirit within never occurred in the Old Testament but is available now. He testifies that every area of his life—from academics to ministry to overcoming depression and worldliness—was transformed when the Holy Spirit was poured out on him, and calls for the same outpouring on his governance team and church.",
-    "audioId": "1VdWT3gZmj89OtOFqsI4nDCCVYqzDNnY2"
+    "summary": "Bishop Heward-Mills teaches that the primary reason for lack of church growth and ministerial effectiveness is the absence of the Holy Spirit being poured out on leaders and members. He emphasizes three ways the Holy Spirit interacts with believers: within (indwelling), with (presence), and upon (anointing for service), explaining that the Spirit within never occurred in the Old Testament but is available now. He testifies that every area of his life—from academics to ministry to overcoming depression and worldliness—was transformed when the Holy Spirit was poured out on him, and calls for the same outpouring on his governance team and church."
   },
   {
     "id": 148,
@@ -4580,8 +4489,7 @@ export const SERMONS = [
       "Job 29"
     ],
     "keyScripture": "Hebrews 11:6",
-    "summary": "Bishop Joshua teaches that prayer is the fundamental sign of faith and that without faith it is impossible to please God, requiring believers to both believe that God exists and that He rewards those who diligently seek Him. He argues that Christians often fail to pray because they lack genuine faith in prayer's effectiveness, trusting more in their own efforts, connections, and strategies than in God's power to answer persistent prayer. He emphasizes that wisdom, guidance, and breakthrough come only through dedicated prayer in the secret place, not through education or human effort alone, and calls believers to pursue God with the same diligence they apply to worldly pursuits.",
-    "audioId": "16YodeN80YsoVDgYq2u0cbc7ovNLohZji"
+    "summary": "Bishop Joshua teaches that prayer is the fundamental sign of faith and that without faith it is impossible to please God, requiring believers to both believe that God exists and that He rewards those who diligently seek Him. He argues that Christians often fail to pray because they lack genuine faith in prayer's effectiveness, trusting more in their own efforts, connections, and strategies than in God's power to answer persistent prayer. He emphasizes that wisdom, guidance, and breakthrough come only through dedicated prayer in the secret place, not through education or human effort alone, and calls believers to pursue God with the same diligence they apply to worldly pursuits."
   },
   {
     "id": 149,
@@ -4616,8 +4524,7 @@ export const SERMONS = [
       "Genesis 8:22"
     ],
     "keyScripture": "Proverbs 13:10",
-    "summary": "Bishop Joshua teaches that pride is the only cause of contention and quarrels in relationships, and that it prevents people from receiving earthly blessings like jobs, marriages, and prosperity because proud people refuse to accept their current state and do menial work. He emphasizes that humility is demonstrated through two characteristics Jesus gave: behaving like a child and behaving like a servant, particularly being willing to do lowly, menial jobs without complaint. True humility brings wisdom, guidance from God, and eventual promotion, as exemplified by Jesus' disciples who served as \"house help\" for three years before becoming apostles.",
-    "audioId": "17qv59yi8aVgLKMJThXdSDULCs2Qp4Mos"
+    "summary": "Bishop Joshua teaches that pride is the only cause of contention and quarrels in relationships, and that it prevents people from receiving earthly blessings like jobs, marriages, and prosperity because proud people refuse to accept their current state and do menial work. He emphasizes that humility is demonstrated through two characteristics Jesus gave: behaving like a child and behaving like a servant, particularly being willing to do lowly, menial jobs without complaint. True humility brings wisdom, guidance from God, and eventual promotion, as exemplified by Jesus' disciples who served as \"house help\" for three years before becoming apostles."
   },
   {
     "id": 150,
@@ -4654,8 +4561,7 @@ export const SERMONS = [
       "Hosea 12:13"
     ],
     "keyScripture": "Romans 13:7",
-    "summary": "BJosh teaches that Christians must honor their relationship with the Holy Spirit who dwells in and operates through God's anointed servants, warning that those who despise or dishonor prophets and pastors are actually touching God Himself and will face severe consequences. He emphasizes that God gave humanity over to reprobate minds when they did not retain Him in their knowledge, as seen in Western society's moral decline, and stresses that spiritual blessings and breakthroughs come through honoring prophets with offerings and respect. He concludes that the church must honor their prophet annually with seed offerings because without controversy, the lesser is blessed by the greater, and those who receive a prophet in the name of a prophet receive a prophet's reward.",
-    "audioId": "1sWN1Bzzu20D48f-Be-m69yxo4Yvj-UHw"
+    "summary": "BJosh teaches that Christians must honor their relationship with the Holy Spirit who dwells in and operates through God's anointed servants, warning that those who despise or dishonor prophets and pastors are actually touching God Himself and will face severe consequences. He emphasizes that God gave humanity over to reprobate minds when they did not retain Him in their knowledge, as seen in Western society's moral decline, and stresses that spiritual blessings and breakthroughs come through honoring prophets with offerings and respect. He concludes that the church must honor their prophet annually with seed offerings because without controversy, the lesser is blessed by the greater, and those who receive a prophet in the name of a prophet receive a prophet's reward."
   },
   {
     "id": 151,
@@ -4694,8 +4600,7 @@ export const SERMONS = [
       "1 John 2:17"
     ],
     "keyScripture": "Revelation 22:3",
-    "summary": "Bishop Joshua teaches that there are three major global curses operating in the world: the curse on Adam (sweat, toil, and death), the curse on Eve (sorrow in childbirth and desire for husband), and the curse of Noah on Ham (servanthood and inability to build or own). He explains that these curses affect all humanity globally and are evident in struggles with work, relationships, childbearing, and systemic poverty. The way to overcome these curses is through faith in the world to come—the New Jerusalem—where there will be no more curse, no death, no sun, and believers will live in glory forever with resurrected bodies and eternal rewards.",
-    "audioId": "1m8fW4Kp9O3KvIdigf3xNWF9mjHwL4RbB"
+    "summary": "Bishop Joshua teaches that there are three major global curses operating in the world: the curse on Adam (sweat, toil, and death), the curse on Eve (sorrow in childbirth and desire for husband), and the curse of Noah on Ham (servanthood and inability to build or own). He explains that these curses affect all humanity globally and are evident in struggles with work, relationships, childbearing, and systemic poverty. The way to overcome these curses is through faith in the world to come—the New Jerusalem—where there will be no more curse, no death, no sun, and believers will live in glory forever with resurrected bodies and eternal rewards."
   },
   {
     "id": 152,
@@ -4733,8 +4638,7 @@ export const SERMONS = [
       "Matthew 11:28"
     ],
     "keyScripture": "Colossians 1:28",
-    "summary": "Bishop Joshua teaches that spiritual maturity comes from understanding the truth of God's Word, which transforms believers from baby Christians who don't understand why they do things into mature adults who cannot be tossed by every doctrine. He emphasizes that Christians must be visibly different from unbelievers—a peculiar people zealous of good works—evidenced by changed lifestyle, music, relationships, and obedience to practices like tithing that open heaven's provision. He warns against unequal yoking with unbelievers in marriage or close friendships because they carry different burdens and directions, making it impossible to walk together in God's purposes.",
-    "audioId": "1AN373BNAWpngLKkPrH7-o52dza7s6akV"
+    "summary": "Bishop Joshua teaches that spiritual maturity comes from understanding the truth of God's Word, which transforms believers from baby Christians who don't understand why they do things into mature adults who cannot be tossed by every doctrine. He emphasizes that Christians must be visibly different from unbelievers—a peculiar people zealous of good works—evidenced by changed lifestyle, music, relationships, and obedience to practices like tithing that open heaven's provision. He warns against unequal yoking with unbelievers in marriage or close friendships because they carry different burdens and directions, making it impossible to walk together in God's purposes."
   },
   {
     "id": 153,
@@ -4769,8 +4673,7 @@ export const SERMONS = [
       "Psalm 84:2"
     ],
     "keyScripture": "James 5:16",
-    "summary": "Bishop Heward-Mills teaches that prayer transforms believers into people of spiritual authority who can overcome the demonic entities (fallen angels, jumping angels, and demons) that fill the world with wickedness. He emphasizes that prayer is not about getting things from God but about developing closeness and intimate fellowship with Him, particularly through the Holy Spirit's communion. He argues that without consistent prayer—including extended hours in God's presence—Christians will lack the authority needed to control their lives and will be overpowered by spiritual forces.",
-    "audioId": "1KMG8cvgc4WbLRmMt3b-xFjmFRDhW5bzC"
+    "summary": "Bishop Heward-Mills teaches that prayer transforms believers into people of spiritual authority who can overcome the demonic entities (fallen angels, jumping angels, and demons) that fill the world with wickedness. He emphasizes that prayer is not about getting things from God but about developing closeness and intimate fellowship with Him, particularly through the Holy Spirit's communion. He argues that without consistent prayer—including extended hours in God's presence—Christians will lack the authority needed to control their lives and will be overpowered by spiritual forces."
   },
   {
     "id": 154,
@@ -4812,8 +4715,7 @@ export const SERMONS = [
       "Daniel 11:31"
     ],
     "keyScripture": "Revelation 5:12",
-    "summary": "BJosh teaches that sacrifice is the secret to receiving power, riches, wisdom, strength, honor, glory, and blessings, using Jesus as the Lamb who was slain as the primary example of how sacrifice releases God's power. He emphasizes that Christians must literally leave behind former friends, relationships with unbelievers, fornication, old entertainment, and worldly habits—not just attend church—because transformation requires actual loss and separation. He argues the modern church lacks power because it has abandoned the message of daily sacrifice, including extended prayer, breaking up with ungodly relationships, and walking away from the old life to receive manifold blessings in return.",
-    "audioId": "1wfelBu31qiWivW2fFfC0u8K760gZ6agc"
+    "summary": "BJosh teaches that sacrifice is the secret to receiving power, riches, wisdom, strength, honor, glory, and blessings, using Jesus as the Lamb who was slain as the primary example of how sacrifice releases God's power. He emphasizes that Christians must literally leave behind former friends, relationships with unbelievers, fornication, old entertainment, and worldly habits—not just attend church—because transformation requires actual loss and separation. He argues the modern church lacks power because it has abandoned the message of daily sacrifice, including extended prayer, breaking up with ungodly relationships, and walking away from the old life to receive manifold blessings in return."
   },
   {
     "id": 155,
@@ -4882,8 +4784,7 @@ export const SERMONS = [
       "Jeremiah 3:15"
     ],
     "keyScripture": "Luke 15:11-31",
-    "summary": "Bishop Heward-Mills teaches that leaving the church results in two major tragedies: losing your position (as positions are given to the faithful who remain stable) and entering into poverty and desolation (despite outward symbols of wealth). Using the parable of the prodigal son, he emphasizes that God places people in specific churches through messengers/interpreters (one among a thousand) and that walking out on the church is walking out on God, not just a pastor. He warns that faithfulness and staying where God has planted you is essential for spiritual prosperity, guidance, and fulfilling your divine calling, while leaving leads to wasted potential and loss of inheritance.",
-    "audioId": "1uUdgKLCq_XV43nEkW4pqe2o3ZKT1zoj9"
+    "summary": "Bishop Heward-Mills teaches that leaving the church results in two major tragedies: losing your position (as positions are given to the faithful who remain stable) and entering into poverty and desolation (despite outward symbols of wealth). Using the parable of the prodigal son, he emphasizes that God places people in specific churches through messengers/interpreters (one among a thousand) and that walking out on the church is walking out on God, not just a pastor. He warns that faithfulness and staying where God has planted you is essential for spiritual prosperity, guidance, and fulfilling your divine calling, while leaving leads to wasted potential and loss of inheritance."
   },
   {
     "id": 157,
@@ -4923,8 +4824,7 @@ export const SERMONS = [
       "1 Samuel 17:31"
     ],
     "keyScripture": "Hebrews 6:12",
-    "summary": "BJosh teaches that following David means learning the art of serving and blessing others rather than being self-absorbed and only seeking blessings for yourself. He emphasizes that true prosperity comes through faith and patience combined with generosity and ministry to others, not through selfish receiving. He also teaches that when people reject you, like David's brother rejected him, you must turn away and move on to find those who believe in you rather than staying stuck trying to convince those who won't accept you.",
-    "audioId": "1wzq-BfsN-9P-7Qz9WeWwfU_I_ngPABEv"
+    "summary": "BJosh teaches that following David means learning the art of serving and blessing others rather than being self-absorbed and only seeking blessings for yourself. He emphasizes that true prosperity comes through faith and patience combined with generosity and ministry to others, not through selfish receiving. He also teaches that when people reject you, like David's brother rejected him, you must turn away and move on to find those who believe in you rather than staying stuck trying to convince those who won't accept you."
   },
   {
     "id": 158,
@@ -4950,9 +4850,7 @@ export const SERMONS = [
       "2 Kings 9:6-13"
     ],
     "keyScripture": "Deuteronomy 4:6",
-    "summary": "Bishop Joshua teaches that true success comes from starting at the bottom with menial jobs and working your way up with humility, contrasting David who remained humble after being anointed with Jehu who immediately seized the throne. He emphasizes that believers must operate by biblical wisdom rather than worldly wisdom, learning to humble themselves and serve faithfully in small things before being promoted. He stresses that coming from a poor background or receiving unearned status leads to a destructive mindset, whereas working through hardship builds character and the ability to handle promotion when it comes.",
-    "keyMessage": "The pathway to legitimate authority and lasting success is through humble service in small things, not through pride, shortcuts, or inherited status.",
-    "audioId": "1Y7lXFA_O5ewW6BuBuB4Pe5Dy5I5nNzRl"
+    "summary": "Bishop Joshua teaches that true success comes from starting at the bottom with menial jobs and working your way up with humility, contrasting David who remained humble after being anointed with Jehu who immediately seized the throne. He emphasizes that believers must operate by biblical wisdom rather than worldly wisdom, learning to humble themselves and serve faithfully in small things before being promoted. He stresses that coming from a poor background or receiving unearned status leads to a destructive mindset, whereas working through hardship builds character and the ability to handle promotion when it comes."
   },
   {
     "id": 159,
@@ -4985,8 +4883,7 @@ export const SERMONS = [
       "1 Chronicles 29:28"
     ],
     "keyScripture": "Luke 16:10-12",
-    "summary": "Bishop Heward-Mills teaches that God promotes people who respect and are faithful in small beginnings, using David's life as the primary example of someone who rose from insignificance to greatness. He emphasizes that faithfulness with little things—whether small ministries, money, or another person's work—is the requirement for God to give you your own ministry and blessings. He warns that despising small things, being unfaithful with tithes and offerings, or failing to honor small responsibilities will prevent believers from receiving true riches and their own God-given assignments.",
-    "audioId": "1PZLmpLjvZ30R7LH7Jqy0D1QtyVwbBDE2"
+    "summary": "Bishop Heward-Mills teaches that God promotes people who respect and are faithful in small beginnings, using David's life as the primary example of someone who rose from insignificance to greatness. He emphasizes that faithfulness with little things—whether small ministries, money, or another person's work—is the requirement for God to give you your own ministry and blessings. He warns that despising small things, being unfaithful with tithes and offerings, or failing to honor small responsibilities will prevent believers from receiving true riches and their own God-given assignments."
   },
   {
     "id": 160,
@@ -5016,8 +4913,7 @@ export const SERMONS = [
       "1 Samuel 1"
     ],
     "keyScripture": "John 15:16",
-    "summary": "Bishop Heward-Mills teaches that the primary purpose of every Christian is to bear spiritual fruit by winning souls and making disciples, just as God chose believers specifically to go forth and bring forth fruit. He warns that many Christians appear spiritually active through worship, prayer, and church involvement, but remain barren because they fail to engage in evangelism and produce converts. Using the Hebrew words 'acar' and 'shakal' for barrenness, he emphasizes that a beautiful church with good worship but no soul-winning is like barren ground—the reproductive part is not functioning regardless of how pleasant everything else appears.",
-    "audioId": "1Lf8tgPHGKZDF4TzoQXqZAbTFOiQZ61UC"
+    "summary": "Bishop Heward-Mills teaches that the primary purpose of every Christian is to bear spiritual fruit by winning souls and making disciples, just as God chose believers specifically to go forth and bring forth fruit. He warns that many Christians appear spiritually active through worship, prayer, and church involvement, but remain barren because they fail to engage in evangelism and produce converts. Using the Hebrew words 'acar' and 'shakal' for barrenness, he emphasizes that a beautiful church with good worship but no soul-winning is like barren ground—the reproductive part is not functioning regardless of how pleasant everything else appears."
   },
   {
     "id": 161,
@@ -5056,8 +4952,7 @@ export const SERMONS = [
       "Ezekiel 33:33"
     ],
     "keyScripture": "2 Peter 1:8",
-    "summary": "Bishop Heward-Mills teaches that spiritual barrenness occurs when Christians lack the reproductive capacity to birth new believers, comparing it to the Hebrew word 'akar' which means removal of reproductive organs. He emphasizes that while Christians may be active in worship, singing, dancing, and church attendance, if they are not witnessing and doing evangelism—the 'reproductive part' of Christianity—they are spiritually barren and strain their relationship with Christ. Using Ezekiel 33:30-33, he warns that many Christians listen to preaching with no intention of acting on it, and urges believers to use their spiritual reproductive capacity through soul-winning and outreach before they die.",
-    "audioId": "1cnspDs-V9AycsCaxmSwVoVIZD75_Xs1o"
+    "summary": "Bishop Heward-Mills teaches that spiritual barrenness occurs when Christians lack the reproductive capacity to birth new believers, comparing it to the Hebrew word 'akar' which means removal of reproductive organs. He emphasizes that while Christians may be active in worship, singing, dancing, and church attendance, if they are not witnessing and doing evangelism—the 'reproductive part' of Christianity—they are spiritually barren and strain their relationship with Christ. Using Ezekiel 33:30-33, he warns that many Christians listen to preaching with no intention of acting on it, and urges believers to use their spiritual reproductive capacity through soul-winning and outreach before they die."
   },
   {
     "id": 162,
@@ -5107,8 +5002,7 @@ export const SERMONS = [
       "Exodus 33:15"
     ],
     "keyScripture": "1 Corinthians 14:2",
-    "summary": "Bishop Joshua teaches that mature Christians must befriend sinners to fulfill the Great Commission, rejecting the church's tendency to judge and exclude those who are broken, because salvation itself is God's gift of persuasion, not human achievement. He emphasizes that speaking in tongues is essential for direct fellowship with God, allowing believers to pray according to God's will and build a personal relationship with Him beyond religious rules and head knowledge. The central message is that Christianity is fundamentally about having intimate fellowship with God through the Holy Spirit, not merely following religious principles or maintaining external holiness.",
-    "audioId": "1ffa5-T0nl__3LBslPSDdHNvauTlZEcuy"
+    "summary": "Bishop Joshua teaches that mature Christians must befriend sinners to fulfill the Great Commission, rejecting the church's tendency to judge and exclude those who are broken, because salvation itself is God's gift of persuasion, not human achievement. He emphasizes that speaking in tongues is essential for direct fellowship with God, allowing believers to pray according to God's will and build a personal relationship with Him beyond religious rules and head knowledge. The central message is that Christianity is fundamentally about having intimate fellowship with God through the Holy Spirit, not merely following religious principles or maintaining external holiness."
   },
   {
     "id": 163,
@@ -5136,8 +5030,7 @@ export const SERMONS = [
       "2 Corinthians 5:21"
     ],
     "keyScripture": "Romans 13",
-    "summary": "Bishop Heward-Mills teaches that believers must recognize and honor the prophets and spiritual authorities God has sent into their lives, particularly by acknowledging the spiritual work done for their salvation and transformation. He emphasizes that honor is not just verbal appreciation but requires substance (material giving), establishing 'Honor Your Prophet Day' as an institutionalized time when this honor is due, similar to how people celebrate birthdays or Valentine's Day. He argues that true gratitude begins with recognizing what has actually been done for you spiritually, comparing Mary Magdalene's grateful worship of Jesus with her alabaster box to how believers should honor those through whom they received salvation and spiritual knowledge.",
-    "audioId": "1Nl-k4C7_tdbKphLQqP5prGI7gaucEskJ"
+    "summary": "Bishop Heward-Mills teaches that believers must recognize and honor the prophets and spiritual authorities God has sent into their lives, particularly by acknowledging the spiritual work done for their salvation and transformation. He emphasizes that honor is not just verbal appreciation but requires substance (material giving), establishing 'Honor Your Prophet Day' as an institutionalized time when this honor is due, similar to how people celebrate birthdays or Valentine's Day. He argues that true gratitude begins with recognizing what has actually been done for you spiritually, comparing Mary Magdalene's grateful worship of Jesus with her alabaster box to how believers should honor those through whom they received salvation and spiritual knowledge."
   },
   {
     "id": 164,
@@ -5163,8 +5056,7 @@ export const SERMONS = [
       "Hebrews 9:27"
     ],
     "keyScripture": "Galatians 6:6",
-    "summary": "Bishop Heward-Mills teaches that honor—especially toward those who teach you the Word of God—is the key that unlocks the power and anointing of God in a person's life. He argues that the curse of Ham (dishonoring his father Noah) explains Africa's poverty and struggles, and that without honor for prophets and pastors, believers will never experience supernatural breakthroughs despite hard work or education. He emphasizes that God releases His power through human vessels (prophets, pastors, teachers), and only those who recognize and honor these anointed leaders will see miracles, provision, and transformation in their lives.",
-    "audioId": "1wJ8R4fGhd3jgmlBBJgsovvjnP3rJtOhK"
+    "summary": "Bishop Heward-Mills teaches that honor—especially toward those who teach you the Word of God—is the key that unlocks the power and anointing of God in a person's life. He argues that the curse of Ham (dishonoring his father Noah) explains Africa's poverty and struggles, and that without honor for prophets and pastors, believers will never experience supernatural breakthroughs despite hard work or education. He emphasizes that God releases His power through human vessels (prophets, pastors, teachers), and only those who recognize and honor these anointed leaders will see miracles, provision, and transformation in their lives."
   },
   {
     "id": 165,
@@ -5206,8 +5098,7 @@ export const SERMONS = [
       "Galatians 2:20"
     ],
     "keyScripture": "Ephesians 4:24",
-    "summary": "BJosh teaches that when a person is born again, they become the righteousness of God in Christ—as holy and perfect as Jesus Himself—not through works but through faith, just as Abraham's belief was counted as righteousness. He emphasizes that believers must \"put off the old man\" (their former sinful identity and behaviors) and \"put on the new man\" which is created in true righteousness and holiness, recognizing that their spirit has been transformed even though their flesh may still feel the same. Christians must actively live out their new identity by changing their friends, habits, and lifestyle to align with who they have become in Christ, understanding that their righteousness is imputed (installed like software) and enables them to reign in life, pray boldly, and overcome the world.",
-    "audioId": "1_HhZ5Q-_bcLfrUefJ_aQwR7fbprnMIEC"
+    "summary": "BJosh teaches that when a person is born again, they become the righteousness of God in Christ—as holy and perfect as Jesus Himself—not through works but through faith, just as Abraham's belief was counted as righteousness. He emphasizes that believers must \"put off the old man\" (their former sinful identity and behaviors) and \"put on the new man\" which is created in true righteousness and holiness, recognizing that their spirit has been transformed even though their flesh may still feel the same. Christians must actively live out their new identity by changing their friends, habits, and lifestyle to align with who they have become in Christ, understanding that their righteousness is imputed (installed like software) and enables them to reign in life, pray boldly, and overcome the world."
   },
   {
     "id": 166,
@@ -5235,8 +5126,7 @@ export const SERMONS = [
       "1 John 1:7"
     ],
     "keyScripture": "2 Timothy 1:12",
-    "summary": "Bishop Joshua teaches that shepherds must first develop a personal relationship with God because no human can solve the deep crises that arise in ministry, and knowing God through prayer and solitude is essential for waiting on Him. He emphasizes that aspiring ministers must cultivate the habit of listening to preaching and watching sermon videos, as you cannot become something you have never listened to or learned from. He stresses that a personal fasting life and various forms of self-denial are crucial spiritual disciplines for anyone called to serve God and shepherd His people.",
-    "audioId": "1Z8_9t42_Hv5ATX4cKoVnLhtKp8bDMGie"
+    "summary": "Bishop Joshua teaches that shepherds must first develop a personal relationship with God because no human can solve the deep crises that arise in ministry, and knowing God through prayer and solitude is essential for waiting on Him. He emphasizes that aspiring ministers must cultivate the habit of listening to preaching and watching sermon videos, as you cannot become something you have never listened to or learned from. He stresses that a personal fasting life and various forms of self-denial are crucial spiritual disciplines for anyone called to serve God and shepherd His people."
   },
   {
     "id": 167,
@@ -5264,8 +5154,7 @@ export const SERMONS = [
       "Hosea 6:1-3"
     ],
     "keyScripture": "Isaiah 41:18",
-    "summary": "Bishop Joshua teaches on spiritual barrenness, specifically the 'tsia' type which means dryness in the spirit, using Isaiah 41:18 to explain how God transforms dry wilderness into pools of water through His presence. He describes three progressive levels of God's presence as water: the well (for personal needs), the river (blessing others), and the rain (widespread blessing), emphasizing that many Christians and churches suffer from spiritual dryness characterized by absence of God's presence. He critiques modern worship that focuses on materialistic requests rather than genuine worship, calling believers to pursue intimacy with God's presence above earthly blessings and to understand they need eternal inheritance in heaven beyond their temporal earthly existence.",
-    "audioId": "1xGu9iJLatsP08ANJoXTdkI3rFdON_TlE"
+    "summary": "Bishop Joshua teaches on spiritual barrenness, specifically the 'tsia' type which means dryness in the spirit, using Isaiah 41:18 to explain how God transforms dry wilderness into pools of water through His presence. He describes three progressive levels of God's presence as water: the well (for personal needs), the river (blessing others), and the rain (widespread blessing), emphasizing that many Christians and churches suffer from spiritual dryness characterized by absence of God's presence. He critiques modern worship that focuses on materialistic requests rather than genuine worship, calling believers to pursue intimacy with God's presence above earthly blessings and to understand they need eternal inheritance in heaven beyond their temporal earthly existence."
   },
   {
     "id": 168,
@@ -5299,8 +5188,7 @@ export const SERMONS = [
       "Proverbs 6:16"
     ],
     "keyScripture": "Luke 9:1",
-    "summary": "Bishop Heward-Mills teaches that prayer transforms Christians into people of spiritual authority over demons and diseases, while prayerlessness leads to fighting, lust, quarreling, and vulnerability to demonic influence. He demonstrates through the crucifixion of Christ how demons orchestrated Jesus' betrayal through prayerless people like Judas, the Pharisees, and the crowds who shouted for Barabbas, showing that similar demonic activity causes Christians to abandon their leaders and churches today. He emphasizes that Christians must maintain consistent prayer lives to receive authority from God, resist demonic manipulation, and avoid the unfaithfulness and treachery that characterizes Satan's work.",
-    "audioId": "15H-BjS1kHkysaLdt8pX8M4ltB8ORvo7B"
+    "summary": "Bishop Heward-Mills teaches that prayer transforms Christians into people of spiritual authority over demons and diseases, while prayerlessness leads to fighting, lust, quarreling, and vulnerability to demonic influence. He demonstrates through the crucifixion of Christ how demons orchestrated Jesus' betrayal through prayerless people like Judas, the Pharisees, and the crowds who shouted for Barabbas, showing that similar demonic activity causes Christians to abandon their leaders and churches today. He emphasizes that Christians must maintain consistent prayer lives to receive authority from God, resist demonic manipulation, and avoid the unfaithfulness and treachery that characterizes Satan's work."
   },
   {
     "id": 169,
@@ -5327,8 +5215,7 @@ export const SERMONS = [
       "Revelation 19:10"
     ],
     "keyScripture": "Matthew 25:14-30",
-    "summary": "Bishop Joshua teaches on the Parable of the Talents from Matthew 25, emphasizing that every Christian has been given talents and gifts by God to use for His kingdom work, not to hide or hoard. He confronts three main reasons Christians don't use their talents: hiding their abilities out of selfishness, accusing and criticizing church leaders instead of serving, and operating in fear or laziness. He warns that all believers will stand alone before God to give account of how they used what He entrusted to them, urging the congregation to actively serve in practical church ministries rather than passively attending services.",
-    "audioId": "1w_8pMU6F44bTVkpt13ls-9SwpvZ_pFqu"
+    "summary": "Bishop Joshua teaches on the Parable of the Talents from Matthew 25, emphasizing that every Christian has been given talents and gifts by God to use for His kingdom work, not to hide or hoard. He confronts three main reasons Christians don't use their talents: hiding their abilities out of selfishness, accusing and criticizing church leaders instead of serving, and operating in fear or laziness. He warns that all believers will stand alone before God to give account of how they used what He entrusted to them, urging the congregation to actively serve in practical church ministries rather than passively attending services."
   },
   {
     "id": 170,
@@ -5354,8 +5241,7 @@ export const SERMONS = [
       "John 15"
     ],
     "keyScripture": "Matthew 22:14",
-    "summary": "BJosh teaches that God specifically calls failures and people who have tried and failed at various things in life, using Moses as the primary example of someone who failed but was still called by God. He emphasizes that one of the key characteristics of called people is that they are failures—whether in school, relationships, ministry attempts, or holiness—and God wants to use them despite their failures. He concludes that as believers engage in God's work and soul winning, God justifies them and transforms their character in the process.",
-    "audioId": "12_o5zKbLBwhKOaCsJF7lNym2LgN5i_48"
+    "summary": "BJosh teaches that God specifically calls failures and people who have tried and failed at various things in life, using Moses as the primary example of someone who failed but was still called by God. He emphasizes that one of the key characteristics of called people is that they are failures—whether in school, relationships, ministry attempts, or holiness—and God wants to use them despite their failures. He concludes that as believers engage in God's work and soul winning, God justifies them and transforms their character in the process."
   },
   {
     "id": 171,
@@ -5394,8 +5280,7 @@ export const SERMONS = [
       "2 Corinthians 5:17"
     ],
     "keyScripture": "John 7:37-38",
-    "summary": "Bishop Heward-Mills teaches that after salvation, while your spirit is made righteous and holy, your body (flesh) remains unchanged and must be kept under control through the Holy Spirit's power. He emphasizes that Christians must actively thirst for and seek the Holy Spirit's companionship to hear His voice for guidance, provision, and direction in daily life, as illustrated by biblical examples like Philip being told to join the Ethiopian's chariot. He warns that even spiritually mature believers can fall into sin if they don't deliberately subjugate their flesh, using the example of angels who left heaven for earthly pleasures, and stresses that repentance requires concrete action like removing all connections to sin.",
-    "audioId": "1VVHdLke1sBsCktloBlCiRoy7uR5V0MTu"
+    "summary": "Bishop Heward-Mills teaches that after salvation, while your spirit is made righteous and holy, your body (flesh) remains unchanged and must be kept under control through the Holy Spirit's power. He emphasizes that Christians must actively thirst for and seek the Holy Spirit's companionship to hear His voice for guidance, provision, and direction in daily life, as illustrated by biblical examples like Philip being told to join the Ethiopian's chariot. He warns that even spiritually mature believers can fall into sin if they don't deliberately subjugate their flesh, using the example of angels who left heaven for earthly pleasures, and stresses that repentance requires concrete action like removing all connections to sin."
   },
   {
     "id": 172,
@@ -5431,8 +5316,7 @@ export const SERMONS = [
       "Luke 17:19"
     ],
     "keyScripture": "Luke 17:11-19",
-    "summary": "BJosh teaches that true thanksgiving requires understanding and accepting God's will even when prayers go unanswered and circumstances remain difficult, emphasizing we should give thanks \"in all things\" not \"for all things.\" He uses the story of the ten lepers to show that only one returned to thank Jesus despite being healed of just one problem out of many, and that this gratitude demonstrated faith that perfected everything else in his life. BJosh challenges the congregation to turn around and acknowledge what God has done in 2019 despite incomplete solutions, imperfect circumstances, and ongoing struggles, because thanksgiving itself is an act of faith that pleases God.",
-    "audioId": "1T3uYXO6NOjh-YWpeFofEIqR44x5wQmVe"
+    "summary": "BJosh teaches that true thanksgiving requires understanding and accepting God's will even when prayers go unanswered and circumstances remain difficult, emphasizing we should give thanks \"in all things\" not \"for all things.\" He uses the story of the ten lepers to show that only one returned to thank Jesus despite being healed of just one problem out of many, and that this gratitude demonstrated faith that perfected everything else in his life. BJosh challenges the congregation to turn around and acknowledge what God has done in 2019 despite incomplete solutions, imperfect circumstances, and ongoing struggles, because thanksgiving itself is an act of faith that pleases God."
   },
   {
     "id": 173,
@@ -5461,8 +5345,7 @@ export const SERMONS = [
       "James 1:5"
     ],
     "keyScripture": "Genesis 3:16",
-    "summary": "Bishop Joshua teaches that the curse of Eve in Genesis 3:16 contains four specific curses: multiplied sorrow, pain in childbirth, desire for husband, and male rule over women, all of which are actively working in women's lives today as evidenced by statistics on mental health, grief, and male dominance. He explains that curses are powerful pronouncements with far-reaching consequences that surround a person's life, requiring believers to actively bind and reject negative words spoken against them. The key to overcoming or reducing the effects of these curses is through wisdom, understanding, and submission to God's Word, not through human effort or fighting against divinely established authority.",
-    "audioId": "15MmbYRgqBDfYr2XERvEBz2krChUV2xK8"
+    "summary": "Bishop Joshua teaches that the curse of Eve in Genesis 3:16 contains four specific curses: multiplied sorrow, pain in childbirth, desire for husband, and male rule over women, all of which are actively working in women's lives today as evidenced by statistics on mental health, grief, and male dominance. He explains that curses are powerful pronouncements with far-reaching consequences that surround a person's life, requiring believers to actively bind and reject negative words spoken against them. The key to overcoming or reducing the effects of these curses is through wisdom, understanding, and submission to God's Word, not through human effort or fighting against divinely established authority."
   },
   {
     "id": 174,
@@ -5484,8 +5367,7 @@ export const SERMONS = [
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This is a birthday prayer rather than a sermon teaching, where BJosh intercedes for someone named Joshua. He prays for supernatural wisdom, survival where others have fallen, and protection against the dragon and his angels seeking to devour the man child. He binds Satan, devils, wicked spirits, and any conspiracies or plans of the enemy, while releasing angels to fight on Joshua's behalf for a life of victory and multiplication.",
-    "audioId": "1bPgKRUG2rQcoSLMZfUaFVQLU0Z1T3GYn"
+    "summary": "This is a birthday prayer rather than a sermon teaching, where BJosh intercedes for someone named Joshua. He prays for supernatural wisdom, survival where others have fallen, and protection against the dragon and his angels seeking to devour the man child. He binds Satan, devils, wicked spirits, and any conspiracies or plans of the enemy, while releasing angels to fight on Joshua's behalf for a life of victory and multiplication."
   },
   {
     "id": 175,
@@ -5511,8 +5393,7 @@ export const SERMONS = [
       "1 Corinthians 2:7"
     ],
     "keyScripture": "Isaiah 66:8",
-    "summary": "Bishop Joshua teaches that prayer possesses creative power to birth entirely new dimensions and possibilities in a Christian's life that their background, education, or natural abilities cannot access. He emphasizes that spiritual advancement and breakthrough—whether in ministry growth, personal holiness, provision, or relationships—only comes through prayer, not through fleshly efforts or human strategies. Using Isaiah 66:8 as his foundation, he explains that just as Zion travailed in prayer and suddenly brought forth children, Christians must pray to create new realities and break into higher dimensions that seem impossible or out of reach.",
-    "audioId": "11_Y10_jRR0t1xqKECsc0MvYGOms0CQFY"
+    "summary": "Bishop Joshua teaches that prayer possesses creative power to birth entirely new dimensions and possibilities in a Christian's life that their background, education, or natural abilities cannot access. He emphasizes that spiritual advancement and breakthrough—whether in ministry growth, personal holiness, provision, or relationships—only comes through prayer, not through fleshly efforts or human strategies. Using Isaiah 66:8 as his foundation, he explains that just as Zion travailed in prayer and suddenly brought forth children, Christians must pray to create new realities and break into higher dimensions that seem impossible or out of reach."
   },
   {
     "id": 176,
@@ -5546,8 +5427,7 @@ export const SERMONS = [
       "James 1:12-13"
     ],
     "keyScripture": "Mark 4:18-19",
-    "summary": "BJosh teaches that three specific obstacles choke the word of God and make Christians unfruitful: the cares of this world (worries about school, jobs, relationships, money), the deceitfulness of riches (the false promise that wealth will satisfy when it never does and always flies away), and the lust for other things (uncontrollable desires of the flesh and eyes). He emphasizes that overcoming these requires casting our cares on God who already knows our needs, cultivating godliness with contentment (being satisfied with food and clothing), and seeking first God's kingdom instead of pursuing the same material goals as unbelievers. The solution is trusting that if God gave us His Son, He will freely give us all we need, and recognizing that true gain is godliness combined with contentment, not accumulation of wealth or possessions.",
-    "audioId": "1aCeXH7rFcW6mCK7HanlSN25Q6OBBf04c"
+    "summary": "BJosh teaches that three specific obstacles choke the word of God and make Christians unfruitful: the cares of this world (worries about school, jobs, relationships, money), the deceitfulness of riches (the false promise that wealth will satisfy when it never does and always flies away), and the lust for other things (uncontrollable desires of the flesh and eyes). He emphasizes that overcoming these requires casting our cares on God who already knows our needs, cultivating godliness with contentment (being satisfied with food and clothing), and seeking first God's kingdom instead of pursuing the same material goals as unbelievers. The solution is trusting that if God gave us His Son, He will freely give us all we need, and recognizing that true gain is godliness combined with contentment, not accumulation of wealth or possessions."
   },
   {
     "id": 177,
@@ -5587,8 +5467,7 @@ export const SERMONS = [
       "Haggai 2"
     ],
     "keyScripture": "John 10:11",
-    "summary": "Bishop Joshua teaches that Jesus identified Himself as the 'good shepherd' which means there are bad shepherds, and all believers are called to shepherd others with both a wooden rod (gentleness) and an iron rod (ruling/discipline). He emphasizes that the church needs strong pastoral leadership that can rule with authority, set clear boundaries, confront sin directly, and guide people firmly rather than just being gentle and permissive. He stresses that many Christians are called to do the work of ministry according to Ephesians 4:12, not just attend church passively, and that effective shepherding requires strength to tell people hard truths about their sin and direction in life.",
-    "audioId": "1-9jsHY0pVixCX9r71G4hVo3QB-qrscFX"
+    "summary": "Bishop Joshua teaches that Jesus identified Himself as the 'good shepherd' which means there are bad shepherds, and all believers are called to shepherd others with both a wooden rod (gentleness) and an iron rod (ruling/discipline). He emphasizes that the church needs strong pastoral leadership that can rule with authority, set clear boundaries, confront sin directly, and guide people firmly rather than just being gentle and permissive. He stresses that many Christians are called to do the work of ministry according to Ephesians 4:12, not just attend church passively, and that effective shepherding requires strength to tell people hard truths about their sin and direction in life."
   },
   {
     "id": 178,
@@ -5620,8 +5499,7 @@ export const SERMONS = [
       "Genesis 3:16"
     ],
     "keyScripture": "Deuteronomy 11:26",
-    "summary": "Bishop Heward-Mills teaches that curses are real spiritual forces released through spoken words that give demons legal access to operate in people's lives, and Christians must have proper respect for curses just as they respect demons. He explains that curses can be national (like on Ghana and Israel), familial (like the curse of Ham preventing building), or personal (from broken promises, parental words, or robbing God in tithes), and these curses cause the world to be turned upside down where those who should prosper struggle instead. He emphasizes that every curse can be neutralized through both the power and wisdom of God working together, and believers should not be offended when pastors point out curses operating in their lives.",
-    "audioId": "1tfrdi2vsX22N0FBNFCILYav7pGzsDI85"
+    "summary": "Bishop Heward-Mills teaches that curses are real spiritual forces released through spoken words that give demons legal access to operate in people's lives, and Christians must have proper respect for curses just as they respect demons. He explains that curses can be national (like on Ghana and Israel), familial (like the curse of Ham preventing building), or personal (from broken promises, parental words, or robbing God in tithes), and these curses cause the world to be turned upside down where those who should prosper struggle instead. He emphasizes that every curse can be neutralized through both the power and wisdom of God working together, and believers should not be offended when pastors point out curses operating in their lives."
   },
   {
     "id": 179,
@@ -5652,8 +5530,7 @@ export const SERMONS = [
       "Malachi 3:8-9"
     ],
     "keyScripture": "2 Timothy 2:2",
-    "summary": "BJosh teaches that essential features of a shepherd include regular fasting, availability for God's work, and faithful tithing to demonstrate true commitment. He emphasizes that faithfulness with money is a requirement for spiritual leadership, stating that those who don't tithe are not真正 members of the church and cannot be trusted with greater spiritual responsibility. He challenges believers to commit the gospel they've heard to faithful people who will teach others, making shepherding and soul-winning a non-negotiable responsibility for every Christian.",
-    "audioId": "1_ABfsooVQWZEUQBKz_QrDvZxXk22gbyC"
+    "summary": "BJosh teaches that essential features of a shepherd include regular fasting, availability for God's work, and faithful tithing to demonstrate true commitment. He emphasizes that faithfulness with money is a requirement for spiritual leadership, stating that those who don't tithe are not真正 members of the church and cannot be trusted with greater spiritual responsibility. He challenges believers to commit the gospel they've heard to faithful people who will teach others, making shepherding and soul-winning a non-negotiable responsibility for every Christian."
   },
   {
     "id": 180,
@@ -5683,8 +5560,7 @@ export const SERMONS = [
       "Romans 7"
     ],
     "keyScripture": "2 Corinthians 5:17",
-    "summary": "Bishop Joshua teaches that the unsaved human heart is dead, desperately wicked, deceitful, and darkened, leading to unnatural affections including homosexuality and sexual immorality when God gives people over to their sinful desires. He emphasizes that true salvation through being born again must result in the death of the old man and a complete transformation of nature, not just religious activity while continuing in sin. Using Romans 1:18-32, he argues that when the old nature hasn't died and passed away, it proves a person is not truly saved, regardless of church attendance or religious profession.",
-    "audioId": "11q6R6DO1ojcIUneBACCjUk-SYWynQOGl"
+    "summary": "Bishop Joshua teaches that the unsaved human heart is dead, desperately wicked, deceitful, and darkened, leading to unnatural affections including homosexuality and sexual immorality when God gives people over to their sinful desires. He emphasizes that true salvation through being born again must result in the death of the old man and a complete transformation of nature, not just religious activity while continuing in sin. Using Romans 1:18-32, he argues that when the old nature hasn't died and passed away, it proves a person is not truly saved, regardless of church attendance or religious profession."
   },
   {
     "id": 181,
@@ -5726,8 +5602,7 @@ export const SERMONS = [
       "Ephesians 6:17"
     ],
     "keyScripture": "Romans 12:2",
-    "summary": "BJosh teaches that when you are born again, your spirit changes but your mind remains the same and must be renewed through God's Word. He emphasizes that true transformation (metamorphosis) comes not from changing your flesh but from renewing your mind through Scripture, with the Holy Spirit removing the veil so you can understand God's Word. He identifies three strongholds Christians must battle: imaginations about how life should be, high things that exalt themselves against knowing God, and thoughts that disobey Christ—all of which can only be defeated by the sword of the Spirit, which is the Word of God.",
-    "audioId": "1MdzsKm8qwrULbjoth1XQC-sCg2_T8_3B"
+    "summary": "BJosh teaches that when you are born again, your spirit changes but your mind remains the same and must be renewed through God's Word. He emphasizes that true transformation (metamorphosis) comes not from changing your flesh but from renewing your mind through Scripture, with the Holy Spirit removing the veil so you can understand God's Word. He identifies three strongholds Christians must battle: imaginations about how life should be, high things that exalt themselves against knowing God, and thoughts that disobey Christ—all of which can only be defeated by the sword of the Spirit, which is the Word of God."
   },
   {
     "id": 182,
@@ -5773,8 +5648,7 @@ export const SERMONS = [
       "Job 29:6"
     ],
     "keyScripture": "1 Peter 2:2",
-    "summary": "BJosh teaches that when believers are born again, they begin as spiritual babies who must grow through stages—baby, child, and adult—by consistently reading the Word of God and praying. Baby Christians are characterized by carnality, requiring milk (basic teaching), while mature Christians can handle strong meat (deeper doctrine) and become teachers themselves. Growth happens only when believers deliberately desire and consume Scripture, moving from being tossed by every doctrine to becoming rooted, obedient disciples who discern good from evil.",
-    "audioId": "14kep7s_kRTD1NDoVvhSY3CcQDShgdhLg"
+    "summary": "BJosh teaches that when believers are born again, they begin as spiritual babies who must grow through stages—baby, child, and adult—by consistently reading the Word of God and praying. Baby Christians are characterized by carnality, requiring milk (basic teaching), while mature Christians can handle strong meat (deeper doctrine) and become teachers themselves. Growth happens only when believers deliberately desire and consume Scripture, moving from being tossed by every doctrine to becoming rooted, obedient disciples who discern good from evil."
   },
   {
     "id": 183,
@@ -5813,8 +5687,7 @@ export const SERMONS = [
       "Hebrews 4:12"
     ],
     "keyScripture": "Proverbs 26:20",
-    "summary": "BJosh teaches that spiritual fire in Christians and churches goes out when three essential 'woods' are removed: speaking in tongues, preaching the gospel/soul winning, and signs and wonders. He warns that churches become respectable, comfortable, and dead when they lose the fire of early Pentecost, infected by the leaven of the Pharisees which is hypocrisy and religiosity. He calls believers back to all-night prayer, door-to-door evangelism, crusades, and demonstrating God's power rather than becoming comfortable, professionalized church attenders.",
-    "audioId": "1P-IADXS0a0g_wY9hC8KzfLZfjMNknePz"
+    "summary": "BJosh teaches that spiritual fire in Christians and churches goes out when three essential 'woods' are removed: speaking in tongues, preaching the gospel/soul winning, and signs and wonders. He warns that churches become respectable, comfortable, and dead when they lose the fire of early Pentecost, infected by the leaven of the Pharisees which is hypocrisy and religiosity. He calls believers back to all-night prayer, door-to-door evangelism, crusades, and demonstrating God's power rather than becoming comfortable, professionalized church attenders."
   },
   {
     "id": 184,
@@ -5843,8 +5716,7 @@ export const SERMONS = [
       "2 Kings 2:9"
     ],
     "keyScripture": "1 Corinthians 2:9-10",
-    "summary": "Bishop Joshua teaches that God has already given believers all good gifts through Christ, but these remain hidden and unusable until the Holy Spirit reveals them. He emphasizes that receiving the anointing of the Holy Spirit is not instant or easy—it requires deep knowledge of the Spirit, strong desire, and submission to being led, which costs something significant. The key to unlocking everything God has promised is not human effort or pastoral intervention, but the Holy Spirit revealing what has already been provided but cannot be seen, heard, or felt by natural senses.",
-    "audioId": "1v1HOtnxVdp-3-TRnCBFyLdiV8t73io3a"
+    "summary": "Bishop Joshua teaches that God has already given believers all good gifts through Christ, but these remain hidden and unusable until the Holy Spirit reveals them. He emphasizes that receiving the anointing of the Holy Spirit is not instant or easy—it requires deep knowledge of the Spirit, strong desire, and submission to being led, which costs something significant. The key to unlocking everything God has promised is not human effort or pastoral intervention, but the Holy Spirit revealing what has already been provided but cannot be seen, heard, or felt by natural senses."
   },
   {
     "id": 185,
@@ -5872,8 +5744,7 @@ export const SERMONS = [
       "1 John 4:11"
     ],
     "keyScripture": "Philippians 2:4",
-    "summary": "Bishop Joshua teaches that Christians must stop focusing exclusively on their own problems, salvation, and prosperity and instead think about 'others'—the lost souls in communities like Tema who have no church and no access to the gospel. He uses the story of Nabal (a prosperous but selfish man) and David (in the wilderness with nothing) to illustrate that even when we are blessed or still struggling, there are always others in greater need whom God calls us to serve. He challenges the congregation to overcome their selfishness, recognize how much God has already done for them, and actively reach out to start churches and evangelize in unreached areas before it's too late.",
-    "audioId": "1PZD8gqwf8qOmaM2g0EFW6AEsvU4wDc5k"
+    "summary": "Bishop Joshua teaches that Christians must stop focusing exclusively on their own problems, salvation, and prosperity and instead think about 'others'—the lost souls in communities like Tema who have no church and no access to the gospel. He uses the story of Nabal (a prosperous but selfish man) and David (in the wilderness with nothing) to illustrate that even when we are blessed or still struggling, there are always others in greater need whom God calls us to serve. He challenges the congregation to overcome their selfishness, recognize how much God has already done for them, and actively reach out to start churches and evangelize in unreached areas before it's too late."
   },
   {
     "id": 186,
@@ -5905,9 +5776,7 @@ export const SERMONS = [
       "Job 33:4"
     ],
     "keyScripture": "Zechariah 4:6",
-    "mainScripture": "Zechariah 4:6",
-    "summary": "Bishop Heward-Mills teaches that believers are the temple of God and that lasting transformation comes not through miracles, power, or education, but only through the Holy Spirit. He emphasizes that the disciples witnessed Jesus' mighty works yet were not changed until they received the Holy Spirit at Pentecost, demonstrating that the gap between desire and ability to live righteously is bridged only by the Spirit. He stresses the importance of 'waiting on the Lord' to be spiritually charged—spending extended time alone with God in fellowship—to increase spiritual altitude, speed, and power for effective Christian living.",
-    "audioId": "1OfRRw3pBgkM8OkjH2VErQgtPa0SKLavT"
+    "summary": "Bishop Heward-Mills teaches that believers are the temple of God and that lasting transformation comes not through miracles, power, or education, but only through the Holy Spirit. He emphasizes that the disciples witnessed Jesus' mighty works yet were not changed until they received the Holy Spirit at Pentecost, demonstrating that the gap between desire and ability to live righteously is bridged only by the Spirit. He stresses the importance of 'waiting on the Lord' to be spiritually charged—spending extended time alone with God in fellowship—to increase spiritual altitude, speed, and power for effective Christian living."
   },
   {
     "id": 187,
@@ -5937,8 +5806,7 @@ export const SERMONS = [
       "1 Corinthians 14"
     ],
     "keyScripture": "John 14:26",
-    "summary": "Bishop Heward-Mills teaches that we are in a spiritual season of the Holy Spirit where physical manifestations are the primary evidence of God's presence, just as the disciples experienced visible fire, audible sound, and shaking in the upper room. He emphasizes that Christians must wait and be planted in the right spiritual season to experience tangible encounters like crying, falling, shaking, laughing, and supernatural phenomena rather than merely receiving intellectual teaching or reminders. He argues that the true Holy Spirit produces physical, measurable evidence of His arrival and presence, citing historical examples from revivals and modern ministers who experienced supernatural manifestations, visions, healings, and miracles.",
-    "audioId": "1J_LDBUSTFoaohkyE2cAPxwnZa9S-WE-B"
+    "summary": "Bishop Heward-Mills teaches that we are in a spiritual season of the Holy Spirit where physical manifestations are the primary evidence of God's presence, just as the disciples experienced visible fire, audible sound, and shaking in the upper room. He emphasizes that Christians must wait and be planted in the right spiritual season to experience tangible encounters like crying, falling, shaking, laughing, and supernatural phenomena rather than merely receiving intellectual teaching or reminders. He argues that the true Holy Spirit produces physical, measurable evidence of His arrival and presence, citing historical examples from revivals and modern ministers who experienced supernatural manifestations, visions, healings, and miracles."
   },
   {
     "id": 188,
@@ -5969,8 +5837,7 @@ export const SERMONS = [
       "Philippians 2:3"
     ],
     "keyScripture": "Acts 2:1-2",
-    "summary": "Bishop Heward-Mills teaches that Christians must move beyond experiencing the Holy Spirit as merely a force or gift and must meet Him as a Person who transforms their lives. He explains that miracles and power cannot change a person—only a personal encounter with the Holy Spirit Himself brings true transformation, just as the 120 disciples were changed at Pentecost when the Spirit came upon each of them individually. He emphasizes that the Holy Spirit walks beside believers after salvation, waiting to be acknowledged and invited to teach, guide, and make Jesus real in their daily lives.",
-    "audioId": "18o5c8MDuyivTv0BY2dvL2PF3yt0-sscq"
+    "summary": "Bishop Heward-Mills teaches that Christians must move beyond experiencing the Holy Spirit as merely a force or gift and must meet Him as a Person who transforms their lives. He explains that miracles and power cannot change a person—only a personal encounter with the Holy Spirit Himself brings true transformation, just as the 120 disciples were changed at Pentecost when the Spirit came upon each of them individually. He emphasizes that the Holy Spirit walks beside believers after salvation, waiting to be acknowledged and invited to teach, guide, and make Jesus real in their daily lives."
   },
   {
     "id": 189,
@@ -5990,8 +5857,7 @@ export const SERMONS = [
       "John 16:7"
     ],
     "keyScripture": "John 16:7",
-    "summary": "Bishop Joshua teaches on Jesus's promise that the Comforter (Holy Spirit) would not come unless He went away, emphasizing this as the reason for Christ's departure. He explains that Jesus's physical departure was necessary for the Holy Spirit's arrival and presence with believers. The teaching centers on understanding the transition from Christ's earthly presence to the Holy Spirit's indwelling presence.",
-    "audioId": "1EYjUiVg64Iq3W75qr-Enj2uTfz1kC9Hz"
+    "summary": "Bishop Joshua teaches on Jesus's promise that the Comforter (Holy Spirit) would not come unless He went away, emphasizing this as the reason for Christ's departure. He explains that Jesus's physical departure was necessary for the Holy Spirit's arrival and presence with believers. The teaching centers on understanding the transition from Christ's earthly presence to the Holy Spirit's indwelling presence."
   },
   {
     "id": 190,
@@ -6030,8 +5896,7 @@ export const SERMONS = [
       "Hebrews 4:15"
     ],
     "keyScripture": "Philippians 2:5-11",
-    "summary": "Bishop Joshua teaches that Jesus called Himself the Son of Man to demonstrate the only legal entry point into ministry is through humility, following Jesus' example of becoming a servant despite being God. He emphasizes that pastors must humble themselves at entry points, learn directly from Jesus and His Word rather than their own ideas, and cannot escape the tests and temptations that qualify them for promotion. BJosh challenges ministers that without passing tests of the flesh, submission to authority, and Christ-like humility, they will never receive the anointing or advancement God intends for them.",
-    "audioId": "1A_3IvHl2ruT1dZr0k4LFcRzBngbjqhnI"
+    "summary": "Bishop Joshua teaches that Jesus called Himself the Son of Man to demonstrate the only legal entry point into ministry is through humility, following Jesus' example of becoming a servant despite being God. He emphasizes that pastors must humble themselves at entry points, learn directly from Jesus and His Word rather than their own ideas, and cannot escape the tests and temptations that qualify them for promotion. BJosh challenges ministers that without passing tests of the flesh, submission to authority, and Christ-like humility, they will never receive the anointing or advancement God intends for them."
   },
   {
     "id": 191,
@@ -6068,8 +5933,7 @@ export const SERMONS = [
       "Acts 1:8"
     ],
     "keyScripture": "Judges 16:20",
-    "summary": "Bishop Joshua teaches that true spiritual power comes not from human ability, education, or any ritual symbol (like Samson's hair), but solely from the presence of the Holy Spirit—70% of all success is the Holy Spirit, only 30% is human effort. He emphasizes that even Jesus and the apostles waited to receive the Holy Spirit before beginning ministry, and that being around anointed people or having spiritual knowledge is not enough without a personal baptism of the Holy Spirit. Believers must consciously rely on and trust the Holy Spirit in every area of life—marriage, work, ministry, and daily decisions—rather than depending on their own strength, wisdom, or favor.",
-    "audioId": "106PJGX5yeJKkh6xbFK6yUl-leXOgO2oG"
+    "summary": "Bishop Joshua teaches that true spiritual power comes not from human ability, education, or any ritual symbol (like Samson's hair), but solely from the presence of the Holy Spirit—70% of all success is the Holy Spirit, only 30% is human effort. He emphasizes that even Jesus and the apostles waited to receive the Holy Spirit before beginning ministry, and that being around anointed people or having spiritual knowledge is not enough without a personal baptism of the Holy Spirit. Believers must consciously rely on and trust the Holy Spirit in every area of life—marriage, work, ministry, and daily decisions—rather than depending on their own strength, wisdom, or favor."
   },
   {
     "id": 192,
@@ -6103,8 +5967,7 @@ export const SERMONS = [
       "Hebrews 1:14"
     ],
     "keyScripture": "John 5:8",
-    "summary": "Bishop Joshua teaches that Jesus came to break cycles and processes by going directly to the paralyzed man at Bethesda's pool who had waited 38 years, commanding him to rise, take his bed, and walk. He emphasizes that Jesus breaks through human limitations and religious rules to heal immediately, not based on our deserving or ability to follow steps, but by His power and grace alone. The sermon concludes that while physical healing matters, avoiding sin is even more critical because there is something worse than 38 years of paralysis—eternity in hell without Jesus.",
-    "audioId": "1S2FoHwWmLucXm8GaPpZXZ_xasA2Uv_CT"
+    "summary": "Bishop Joshua teaches that Jesus came to break cycles and processes by going directly to the paralyzed man at Bethesda's pool who had waited 38 years, commanding him to rise, take his bed, and walk. He emphasizes that Jesus breaks through human limitations and religious rules to heal immediately, not based on our deserving or ability to follow steps, but by His power and grace alone. The sermon concludes that while physical healing matters, avoiding sin is even more critical because there is something worse than 38 years of paralysis—eternity in hell without Jesus."
   },
   {
     "id": 193,
@@ -6141,8 +6004,7 @@ export const SERMONS = [
       "Philippians 4:6"
     ],
     "keyScripture": "1 Thessalonians 5:19",
-    "summary": "Bishop Joshua teaches that believers quench the Holy Spirit when they ignore or dismiss His manifestations through spiritual gifts like the word of wisdom, word of knowledge, and faith. He explains that the Holy Spirit is constantly present in believers' lives trying to guide them, but many Christians don't recognize His voice or respond to His instructions, thereby stopping the flow of God's blessings. He emphasizes that every believer receives manifestations of the Spirit, and quenching occurs when we fail to act on divine wisdom, knowledge, or conviction that the Holy Spirit provides in daily situations.",
-    "audioId": "18Qw_Th6XhIeF7KAEUYyqsgPYg4SkPy-y"
+    "summary": "Bishop Joshua teaches that believers quench the Holy Spirit when they ignore or dismiss His manifestations through spiritual gifts like the word of wisdom, word of knowledge, and faith. He explains that the Holy Spirit is constantly present in believers' lives trying to guide them, but many Christians don't recognize His voice or respond to His instructions, thereby stopping the flow of God's blessings. He emphasizes that every believer receives manifestations of the Spirit, and quenching occurs when we fail to act on divine wisdom, knowledge, or conviction that the Holy Spirit provides in daily situations."
   },
   {
     "id": 194,
@@ -6185,8 +6047,7 @@ export const SERMONS = [
       "2 Timothy 4:8"
     ],
     "keyScripture": "Luke 12:15",
-    "summary": "BJosh teaches that Jesus warns against covetousness and spending one's entire life planning for earthly prosperity, comfort, and security rather than focusing on eternal heavenly treasures. Using the parable of the rich fool who built bigger barns only to die that night, he emphasizes that Christians must direct all their wealth, talents, and energy toward God's kingdom instead of accumulating possessions on earth. He challenges believers to lay up treasure in heaven through suffering, tribulation, and faithfulness to the gospel, because earthly achievements and possessions are temporary and will ultimately disappoint.",
-    "audioId": "1EglNRZfH_UgiQ_MwavZq5K-n5nelfFuv"
+    "summary": "BJosh teaches that Jesus warns against covetousness and spending one's entire life planning for earthly prosperity, comfort, and security rather than focusing on eternal heavenly treasures. Using the parable of the rich fool who built bigger barns only to die that night, he emphasizes that Christians must direct all their wealth, talents, and energy toward God's kingdom instead of accumulating possessions on earth. He challenges believers to lay up treasure in heaven through suffering, tribulation, and faithfulness to the gospel, because earthly achievements and possessions are temporary and will ultimately disappoint."
   },
   {
     "id": 195,
@@ -6224,8 +6085,7 @@ export const SERMONS = [
       "John 16:8"
     ],
     "keyScripture": "2 Timothy 3:16",
-    "summary": "Bishop Joshua teaches that the Holy Spirit's primary manifestation is as teacher and reminder, giving pastors doctrine, reproof, correction, and instruction directly from Scripture through inspiration during quiet time and Bible reading. He emphasizes that without the Holy Spirit actively teaching from the Word, pastors remain helpless, unchanged, and directionless—unable to receive convictions of sin, instructions for ministry decisions, or corrections for their weaknesses. He insists that Scripture is only profitable when given by inspiration of the Holy Spirit, the true author of the Bible, who must open the eyes of Bible students and pastors to see fresh revelation, receive specific guidance, and be transformed into effective ministers.",
-    "audioId": "149vU5UHWwqzPJtuVmVSn2TruGkgn74f2"
+    "summary": "Bishop Joshua teaches that the Holy Spirit's primary manifestation is as teacher and reminder, giving pastors doctrine, reproof, correction, and instruction directly from Scripture through inspiration during quiet time and Bible reading. He emphasizes that without the Holy Spirit actively teaching from the Word, pastors remain helpless, unchanged, and directionless—unable to receive convictions of sin, instructions for ministry decisions, or corrections for their weaknesses. He insists that Scripture is only profitable when given by inspiration of the Holy Spirit, the true author of the Bible, who must open the eyes of Bible students and pastors to see fresh revelation, receive specific guidance, and be transformed into effective ministers."
   },
   {
     "id": 196,
@@ -6253,8 +6113,7 @@ export const SERMONS = [
       "2 Timothy 3:12"
     ],
     "keyScripture": "Matthew 10:16",
-    "summary": "Bishop Joshua teaches that Christians must learn wisdom from serpents who have mastered overcoming their handicaps of having no hands, legs, ears, or functional eyes, yet thrive everywhere as successful predators. He emphasizes that God does not remove our problems and afflictions, but gives us the power to overcome and turn our weaknesses into strengths, just as serpents use their limitations to their advantage. Using personal stories and examples, he demonstrates that what appears to be a handicap—whether youth, disability, or other challenges—can actually become one's greatest strength when approached with godly wisdom.",
-    "audioId": "1PDOTe0b-dve19p1xl6u9wcd8YCx66sNt"
+    "summary": "Bishop Joshua teaches that Christians must learn wisdom from serpents who have mastered overcoming their handicaps of having no hands, legs, ears, or functional eyes, yet thrive everywhere as successful predators. He emphasizes that God does not remove our problems and afflictions, but gives us the power to overcome and turn our weaknesses into strengths, just as serpents use their limitations to their advantage. Using personal stories and examples, he demonstrates that what appears to be a handicap—whether youth, disability, or other challenges—can actually become one's greatest strength when approached with godly wisdom."
   },
   {
     "id": 197,
@@ -6286,8 +6145,7 @@ export const SERMONS = [
       "Malachi 3:10"
     ],
     "keyScripture": "Malachi 3:10",
-    "summary": "BJosh teaches that non-tithing Christians remain poor because they have no seed to harvest, they do not attract God's blessings through obedience, and they live under the curse on the ground without accessing heaven's open windows. He emphasizes that tithing is God's prescribed method of honoring Him as Father (Proverbs 3:9) and that it activates the principle of seedtime and harvest in believers' lives. When Christians faithfully tithe, they position themselves to receive divine provision, rebuke the devourer, and neutralize the curse of sweating for bread that came from the fall in Genesis.",
-    "audioId": "1eMm0WIqi0oGs7SFZgIR7Bds_1TqVym3O"
+    "summary": "BJosh teaches that non-tithing Christians remain poor because they have no seed to harvest, they do not attract God's blessings through obedience, and they live under the curse on the ground without accessing heaven's open windows. He emphasizes that tithing is God's prescribed method of honoring Him as Father (Proverbs 3:9) and that it activates the principle of seedtime and harvest in believers' lives. When Christians faithfully tithe, they position themselves to receive divine provision, rebuke the devourer, and neutralize the curse of sweating for bread that came from the fall in Genesis."
   },
   {
     "id": 198,
@@ -6319,8 +6177,7 @@ export const SERMONS = [
       "1 Corinthians 2:7"
     ],
     "keyScripture": "2 Peter 1:5",
-    "summary": "Bishop Joshua teaches that being fruitful in bringing souls to church is the first blessing of God in Genesis, and Christians who are unfruitful are like sick or cursed believers. He explains that according to 2 Peter 1:5, Christians must add virtue, knowledge, temperance, and patience to their faith in order to bear fruit, as merely being a Christian is not enough. He emphasizes that sickness in Christians—manifested through lack of purity, lack of knowledge of God's Word, lack of self-control, and lack of patience—prevents them from winning souls and building the spiritual house of God.",
-    "audioId": "13YcH4XlUSOBTOtGV92cvEd1U5TcXzVLt"
+    "summary": "Bishop Joshua teaches that being fruitful in bringing souls to church is the first blessing of God in Genesis, and Christians who are unfruitful are like sick or cursed believers. He explains that according to 2 Peter 1:5, Christians must add virtue, knowledge, temperance, and patience to their faith in order to bear fruit, as merely being a Christian is not enough. He emphasizes that sickness in Christians—manifested through lack of purity, lack of knowledge of God's Word, lack of self-control, and lack of patience—prevents them from winning souls and building the spiritual house of God."
   },
   {
     "id": 199,
@@ -6351,8 +6208,7 @@ export const SERMONS = [
       "Isaiah 59:2"
     ],
     "keyScripture": "James 4:3",
-    "summary": "Bishop Joshua teaches that many prayers go unanswered because believers either don't pray at all (leading to fighting and striving) or they ask amiss without understanding how to pray properly. He emphasizes that sin creates a barrier between us and God, making it impossible for Him to hear our prayers until we confess our specific sins in detail rather than making general requests for forgiveness. The fourth step to 100% answered prayer is to confess your sins before you pray, listing specific sins rather than just asking God to generally have mercy, because confession leads both to forgiveness and to cleansing from unrighteousness.",
-    "audioId": "1CYFe6mMYi6d2cA6corRmsKbFm3fsJipl"
+    "summary": "Bishop Joshua teaches that many prayers go unanswered because believers either don't pray at all (leading to fighting and striving) or they ask amiss without understanding how to pray properly. He emphasizes that sin creates a barrier between us and God, making it impossible for Him to hear our prayers until we confess our specific sins in detail rather than making general requests for forgiveness. The fourth step to 100% answered prayer is to confess your sins before you pray, listing specific sins rather than just asking God to generally have mercy, because confession leads both to forgiveness and to cleansing from unrighteousness."
   },
   {
     "id": 200,
@@ -6387,8 +6243,7 @@ export const SERMONS = [
       "Ecclesiastes 8:6"
     ],
     "keyScripture": "Ephesians 6:2-3",
-    "summary": "BJosh teaches that there are multiple types of fathers God sends into our lives including biological fathers, fathers in Christ who lead us to salvation, spiritual fathers who teach us, fathers in the ministry, fathers of the church, and substitute fathers who step in when others cannot. He emphasizes that honoring fathers is a commandment confirmed throughout Scripture from the Law to the Prophets to Jesus to the Apostles, with no qualification or clause attached to the command to honor. The first of three rewards for honoring fathers is that it may be well with you, meaning your life will go smoothly, whereas dishonoring fathers brings misery and things not going well in various aspects of life.",
-    "audioId": "1XP9ZYXJo4xdvXGcmQ71pl7gsHnKS_8-r"
+    "summary": "BJosh teaches that there are multiple types of fathers God sends into our lives including biological fathers, fathers in Christ who lead us to salvation, spiritual fathers who teach us, fathers in the ministry, fathers of the church, and substitute fathers who step in when others cannot. He emphasizes that honoring fathers is a commandment confirmed throughout Scripture from the Law to the Prophets to Jesus to the Apostles, with no qualification or clause attached to the command to honor. The first of three rewards for honoring fathers is that it may be well with you, meaning your life will go smoothly, whereas dishonoring fathers brings misery and things not going well in various aspects of life."
   },
   {
     "id": 201,
@@ -6425,8 +6280,7 @@ export const SERMONS = [
       "1 Corinthians 14"
     ],
     "keyScripture": "Philippians 2:4",
-    "summary": "BJosh teaches that Christians must adopt the mind of Christ by looking not on their own things but on the things of others, preparing places for others in the Father's house just as Jesus did for His disciples. He emphasizes that transformation comes through renewing the mind to think selflessly about bringing others to salvation, especially during the upcoming Soul Winning Sunday on October 6th. He also teaches on honoring the prophet God has sent to the church, explaining that throughout church history God has progressively restored truths and that prophets are essential for bringing people out of Egypt and preserving them in their walk with God.",
-    "audioId": "1wtod9eayOUywURD6kV7CoSHTblAG1bFy"
+    "summary": "BJosh teaches that Christians must adopt the mind of Christ by looking not on their own things but on the things of others, preparing places for others in the Father's house just as Jesus did for His disciples. He emphasizes that transformation comes through renewing the mind to think selflessly about bringing others to salvation, especially during the upcoming Soul Winning Sunday on October 6th. He also teaches on honoring the prophet God has sent to the church, explaining that throughout church history God has progressively restored truths and that prophets are essential for bringing people out of Egypt and preserving them in their walk with God."
   },
   {
     "id": 202,
@@ -6466,8 +6320,7 @@ export const SERMONS = [
       "John 14:17"
     ],
     "keyScripture": "Matthew 10:41",
-    "summary": "Bishop Heward-Mills teaches that receiving a prophet in the name of a prophet—not merely as a man—unlocks the prophet's reward including God speaking to you, visions being multiplied, and the anointing that breaks yokes. He emphasizes that without honor, miraculous power is trapped, as seen when Jesus could do no mighty works in His hometown due to their lack of honor and familiarity. He calls believers to honor their prophet substantially through offerings and recognition, because the anointing on the man of God—not degrees or natural abilities—is what determines breakthrough and blessing in life.",
-    "audioId": "1dn1dAhtVm5jX1O4DCLW52PlJ2lOZO7rF"
+    "summary": "Bishop Heward-Mills teaches that receiving a prophet in the name of a prophet—not merely as a man—unlocks the prophet's reward including God speaking to you, visions being multiplied, and the anointing that breaks yokes. He emphasizes that without honor, miraculous power is trapped, as seen when Jesus could do no mighty works in His hometown due to their lack of honor and familiarity. He calls believers to honor their prophet substantially through offerings and recognition, because the anointing on the man of God—not degrees or natural abilities—is what determines breakthrough and blessing in life."
   },
   {
     "id": 203,
@@ -6495,8 +6348,7 @@ export const SERMONS = [
       "Proverbs 22"
     ],
     "keyScripture": "Matthew 22:29",
-    "summary": "BJosh teaches that honor is the key that releases the power of God, explaining that prophets are not honored in their own country, family, and house because familiarity breeds disrespect. He emphasizes that many Christians know scriptural laws and principles but lack experience with God's power, which can supersede natural laws when properly accessed through honor. Using Jesus's response to the Sadducees, he demonstrates that people err because they know neither the scriptures nor the power of God, and that miracles come not from following rules alone but from accessing divine power through proper honor and relationship.",
-    "audioId": "1uiz7SWMjQv31weqw8PtI6pjF6zngM-pD"
+    "summary": "BJosh teaches that honor is the key that releases the power of God, explaining that prophets are not honored in their own country, family, and house because familiarity breeds disrespect. He emphasizes that many Christians know scriptural laws and principles but lack experience with God's power, which can supersede natural laws when properly accessed through honor. Using Jesus's response to the Sadducees, he demonstrates that people err because they know neither the scriptures nor the power of God, and that miracles come not from following rules alone but from accessing divine power through proper honor and relationship."
   },
   {
     "id": 204,
@@ -6544,8 +6396,7 @@ export const SERMONS = [
       "Acts 2:4"
     ],
     "keyScripture": "Ephesians 6:18",
-    "summary": "Bishop Heward-Mills teaches that Christians must pray in the Spirit (speaking in tongues) rather than only praying with understanding, because our real struggles are against spiritual forces in the unseen realm that don't respond to our natural language. He explains that the Holy Spirit teaches us what to pray according to God's will when we speak in unknown tongues, building up our faith and enabling effective intercession against principalities, powers, and spiritual wickedness. He emphasizes that praying in tongues allows believers to communicate directly in the spirit realm where angels, demons, and various spiritual beings operate, making this type of prayer essential for overcoming spiritual opposition.",
-    "audioId": "19EoFXaTHhGcb71bABE12P-soYuZa80Gl"
+    "summary": "Bishop Heward-Mills teaches that Christians must pray in the Spirit (speaking in tongues) rather than only praying with understanding, because our real struggles are against spiritual forces in the unseen realm that don't respond to our natural language. He explains that the Holy Spirit teaches us what to pray according to God's will when we speak in unknown tongues, building up our faith and enabling effective intercession against principalities, powers, and spiritual wickedness. He emphasizes that praying in tongues allows believers to communicate directly in the spirit realm where angels, demons, and various spiritual beings operate, making this type of prayer essential for overcoming spiritual opposition."
   },
   {
     "id": 205,
@@ -6574,8 +6425,7 @@ export const SERMONS = [
       "1 John 5:14"
     ],
     "keyScripture": "John 16:26",
-    "summary": "Bishop Joshua teaches that many Christians don't pray effectively because they've been conditioned by broken human promises to doubt God's promises, leading them to lack confidence that their prayers will be answered. He emphasizes that believers must learn to pray for themselves without always needing others to intercede, referencing Jesus' statement in John 16:26 that believers should ask in His name directly rather than needing Him to pray to the Father on their behalf. Using Elijah as an example of prayer confidence, he explains that praying according to God's will brings assurance and 100% answered prayer, but this requires understanding the proper steps and methods of prayer rather than relying on a generation accustomed to having everything done for them.",
-    "audioId": "1CYFe6mMYi6d2cA6corRmsKbFm3fsJipl"
+    "summary": "Bishop Joshua teaches that many Christians don't pray effectively because they've been conditioned by broken human promises to doubt God's promises, leading them to lack confidence that their prayers will be answered. He emphasizes that believers must learn to pray for themselves without always needing others to intercede, referencing Jesus' statement in John 16:26 that believers should ask in His name directly rather than needing Him to pray to the Father on their behalf. Using Elijah as an example of prayer confidence, he explains that praying according to God's will brings assurance and 100% answered prayer, but this requires understanding the proper steps and methods of prayer rather than relying on a generation accustomed to having everything done for them."
   },
   {
     "id": 206,
@@ -6613,8 +6463,7 @@ export const SERMONS = [
       "Colossians 3:4"
     ],
     "keyScripture": "Malachi 3:8-9",
-    "summary": "Bishop Heward-Mills teaches that Christians must have proper respect for curses found in Scripture, as many believers are unknowingly living under biblical curses such as the curse on those who rob God in tithes and offerings, the curse on idol worshipers, and the generational curse from Adam's fall. He emphasizes that curses must be actively revoked and not simply ignored with passive faith, as demonstrated by Jesus cursing the fig tree and Peter having to point out that a curse had been spoken. The sermon warns against modern idolatry, particularly the worship of money, which causes people to prioritize work over God and prevents them from fully worshiping and surrendering to Christ.",
-    "audioId": "1-4gNuuaOQm0btGhMgYedSbUhowStfaO_"
+    "summary": "Bishop Heward-Mills teaches that Christians must have proper respect for curses found in Scripture, as many believers are unknowingly living under biblical curses such as the curse on those who rob God in tithes and offerings, the curse on idol worshipers, and the generational curse from Adam's fall. He emphasizes that curses must be actively revoked and not simply ignored with passive faith, as demonstrated by Jesus cursing the fig tree and Peter having to point out that a curse had been spoken. The sermon warns against modern idolatry, particularly the worship of money, which causes people to prioritize work over God and prevents them from fully worshiping and surrendering to Christ."
   },
   {
     "id": 207,
@@ -6656,8 +6505,7 @@ export const SERMONS = [
       "Malachi 3:8-10"
     ],
     "keyScripture": "Malachi 3:8-10",
-    "summary": "Bishop Joshua teaches that Christians who do not tithe suffer from three main spiritual problems: disloyalty and lack of commitment like Judas, rebellion and stubbornness like King Saul, and selective obedience to God's Word. He emphasizes that tithing is a supernatural principle established before Moses that unlocks prosperity and the power to get wealth, and that God specifically invites believers to test Him in this area. He declares that non-tithers are blocked from heavenly blessings and challenges the congregation to a two-month tithing test to break the yoke of poverty over their lives.",
-    "audioId": "1JN369YP-CF0x_19bk4zDE5HK-sJAgx3u"
+    "summary": "Bishop Joshua teaches that Christians who do not tithe suffer from three main spiritual problems: disloyalty and lack of commitment like Judas, rebellion and stubbornness like King Saul, and selective obedience to God's Word. He emphasizes that tithing is a supernatural principle established before Moses that unlocks prosperity and the power to get wealth, and that God specifically invites believers to test Him in this area. He declares that non-tithers are blocked from heavenly blessings and challenges the congregation to a two-month tithing test to break the yoke of poverty over their lives."
   },
   {
     "id": 208,
@@ -6689,8 +6537,7 @@ export const SERMONS = [
       "1 Corinthians 2:7"
     ],
     "keyScripture": "Proverbs 26:2",
-    "summary": "Bishop Joshua teaches that curses do not come without a cause, emphasizing that specific sins like cheating, stealing, deception, and trusting in man rather than God activate pre-existing biblical curses. He warns that these curses follow people into their homes and affect their families, citing examples of students cheating in exams, people stealing, and leaders deceiving others. He stresses the importance of integrity, obedience to spiritual authority, and dependence on God rather than human wisdom or resources to avoid these curses.",
-    "audioId": "1-CZD27zpb_iVv_DnRbeC-FvVuK2L4eCf"
+    "summary": "Bishop Joshua teaches that curses do not come without a cause, emphasizing that specific sins like cheating, stealing, deception, and trusting in man rather than God activate pre-existing biblical curses. He warns that these curses follow people into their homes and affect their families, citing examples of students cheating in exams, people stealing, and leaders deceiving others. He stresses the importance of integrity, obedience to spiritual authority, and dependence on God rather than human wisdom or resources to avoid these curses."
   },
   {
     "id": 209,
@@ -6708,8 +6555,7 @@ export const SERMONS = [
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript consists primarily of worship song lyrics, prayers in tongues, and an altar call invitation with no discernible expositional teaching content. The service focuses on inviting the Holy Spirit's presence and calling people to come forward to receive Christ, with repeated phrases like 'receive the Holy Ghost' and rebuking evil spirits. No specific biblical texts are referenced or taught, and the majority of the content is experiential worship rather than doctrinal instruction.",
-    "audioId": "1GIG3G-zBgr-qJh94smTzeCn9M40N0ove"
+    "summary": "This transcript consists primarily of worship song lyrics, prayers in tongues, and an altar call invitation with no discernible expositional teaching content. The service focuses on inviting the Holy Spirit's presence and calling people to come forward to receive Christ, with repeated phrases like 'receive the Holy Ghost' and rebuking evil spirits. No specific biblical texts are referenced or taught, and the majority of the content is experiential worship rather than doctrinal instruction."
   },
   {
     "id": 210,
@@ -6739,8 +6585,7 @@ export const SERMONS = [
       "1 Corinthians 2:16"
     ],
     "keyScripture": "Matthew 28:18-20",
-    "summary": "BJosh teaches that every Christian—not just pastors—has a mandate to become a soul winner, especially targeting their immediate environment like school dormitories and classrooms where people claim to be Christians but are not truly saved. He emphasizes that soul winning is Jesus Christ's final and most important command (the Great Commission), and that many young people in Christian environments are deceived into thinking they're saved when they're not. BJosh challenges the church to move beyond being a 'blessed and be blessed' church to become active fishers of men, with a specific call to bring people to Soul Winning Sunday on November 14th.",
-    "audioId": "1d7JvrNvVPsPVCXpN4fLTL_JrwllOQzvU"
+    "summary": "BJosh teaches that every Christian—not just pastors—has a mandate to become a soul winner, especially targeting their immediate environment like school dormitories and classrooms where people claim to be Christians but are not truly saved. He emphasizes that soul winning is Jesus Christ's final and most important command (the Great Commission), and that many young people in Christian environments are deceived into thinking they're saved when they're not. BJosh challenges the church to move beyond being a 'blessed and be blessed' church to become active fishers of men, with a specific call to bring people to Soul Winning Sunday on November 14th."
   },
   {
     "id": 211,
@@ -6773,8 +6618,7 @@ export const SERMONS = [
       "John 10"
     ],
     "keyScripture": "Jeremiah 29:11",
-    "summary": "BJosh teaches that becoming a spiritual Christian requires seeking and surrendering to God's specific plan for your life, which He has designed in detail like an architect's blueprint. He emphasizes that God knows the plans He has for each individual—plans for welfare and not calamity, with a future and hope—and that spiritual peace comes from discovering and yielding to this divine will rather than following personal desires or lust. The key to living in God's presence and experiencing His approval is doing the things that please Him and saying 'not my will, but Your will be done,' just as Jesus did.",
-    "audioId": "1lgeGWvxNOCqozdti3LvqxftHTY3ElVBA"
+    "summary": "BJosh teaches that becoming a spiritual Christian requires seeking and surrendering to God's specific plan for your life, which He has designed in detail like an architect's blueprint. He emphasizes that God knows the plans He has for each individual—plans for welfare and not calamity, with a future and hope—and that spiritual peace comes from discovering and yielding to this divine will rather than following personal desires or lust. The key to living in God's presence and experiencing His approval is doing the things that please Him and saying 'not my will, but Your will be done,' just as Jesus did."
   },
   {
     "id": 212,
@@ -6812,8 +6656,7 @@ export const SERMONS = [
       "Hosea 4:17"
     ],
     "keyScripture": "1 Timothy 1:19",
-    "summary": "Bishop Joshua teaches that becoming a spiritual Christian requires holding both faith and a good conscience together, as abandoning your conscience leads to shipwreck and opens your life to demonic influence. He explains that God has planted a conscience as an inner compass in every human being that tells us right from wrong, and we must stay sensitive to its voice rather than allowing it to become evil, defiled, or seared through repeated disobedience. He warns that ignoring your conscience repeatedly can lead you past a 'redemption point' where you become hardened and can no longer feel conviction, making it essential to obey that inner voice immediately when it speaks.",
-    "audioId": "1chuhOw3plrY_Moxh5BnOpkJgZxX2t6OW"
+    "summary": "Bishop Joshua teaches that becoming a spiritual Christian requires holding both faith and a good conscience together, as abandoning your conscience leads to shipwreck and opens your life to demonic influence. He explains that God has planted a conscience as an inner compass in every human being that tells us right from wrong, and we must stay sensitive to its voice rather than allowing it to become evil, defiled, or seared through repeated disobedience. He warns that ignoring your conscience repeatedly can lead you past a 'redemption point' where you become hardened and can no longer feel conviction, making it essential to obey that inner voice immediately when it speaks."
   },
   {
     "id": 213,
@@ -6850,8 +6693,7 @@ export const SERMONS = [
       "2 Chronicles 5"
     ],
     "keyScripture": "Galatians 5:16-17",
-    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and whoever is strongest dominates your life, with the flesh constantly fighting against the spirit. He emphasizes that to become a strong spiritual Christian rather than a fleshly one, believers must keep regular fellowship with spiritual people because God never designed man to be alone. Using the example of demons bringing seven stronger spirits to overcome resistance, he urges students to surround themselves with seven friends more prayerful and spiritual than themselves to overcome strongholds they cannot defeat alone.",
-    "audioId": "13ApvXgRfiykdWHGhjFvnOlDoFw7-UuuG"
+    "summary": "BJosh teaches that Christians have three parts—spirit, soul, and body—and whoever is strongest dominates your life, with the flesh constantly fighting against the spirit. He emphasizes that to become a strong spiritual Christian rather than a fleshly one, believers must keep regular fellowship with spiritual people because God never designed man to be alone. Using the example of demons bringing seven stronger spirits to overcome resistance, he urges students to surround themselves with seven friends more prayerful and spiritual than themselves to overcome strongholds they cannot defeat alone."
   },
   {
     "id": 214,
@@ -6891,8 +6733,7 @@ export const SERMONS = [
       "1 Thessalonians 5:23"
     ],
     "keyScripture": "Proverbs 22:24-25",
-    "summary": "BJosh teaches that becoming a spiritual Christian requires carefully choosing your companions, avoiding fellowship with angry people, sinners, and even Christians who live worldly lives, because their communication and influence will corrupt your character and trap your soul. He emphasizes that the Holy Spirit transforms every area of life including intelligence and academics, but spirituality is hindered by the voices and company you keep. He instructs believers to note and separate from those who don't obey the church's teachings, even if what they say is factually true, because the real issue is whose voice you're listening to and allowing to shape your life.",
-    "audioId": "1c3iY1Sm3Z1CgxRy4RJj9BDB81cxEeA2g"
+    "summary": "BJosh teaches that becoming a spiritual Christian requires carefully choosing your companions, avoiding fellowship with angry people, sinners, and even Christians who live worldly lives, because their communication and influence will corrupt your character and trap your soul. He emphasizes that the Holy Spirit transforms every area of life including intelligence and academics, but spirituality is hindered by the voices and company you keep. He instructs believers to note and separate from those who don't obey the church's teachings, even if what they say is factually true, because the real issue is whose voice you're listening to and allowing to shape your life."
   },
   {
     "id": 215,
@@ -6922,8 +6763,7 @@ export const SERMONS = [
       "Psalm 16:11"
     ],
     "keyScripture": "Psalm 27:13",
-    "summary": "Bishop Joshua teaches that living in the presence of the Holy Spirit is essential for experiencing God's goodness, which brings joy, satisfaction, and the ability to continue in faith despite life's challenges. He emphasizes that the goodness of God leads believers to genuine repentance and conviction of sin without needing external correction, as the Holy Spirit reveals our true condition when we enter God's presence. Without dwelling in God's presence daily, Christians become proud, unsatisfied, anxious, and unable to sustain their faith journey, but in His presence there is fullness of joy and transformation of character.",
-    "audioId": "1HmcBiJqohtk_dwzZ-uPGCcKsT_3AXz5N"
+    "summary": "Bishop Joshua teaches that living in the presence of the Holy Spirit is essential for experiencing God's goodness, which brings joy, satisfaction, and the ability to continue in faith despite life's challenges. He emphasizes that the goodness of God leads believers to genuine repentance and conviction of sin without needing external correction, as the Holy Spirit reveals our true condition when we enter God's presence. Without dwelling in God's presence daily, Christians become proud, unsatisfied, anxious, and unable to sustain their faith journey, but in His presence there is fullness of joy and transformation of character."
   },
   {
     "id": 216,
@@ -6972,8 +6812,7 @@ export const SERMONS = [
       "1 Samuel 3"
     ],
     "keyScripture": "Exodus 19:5",
-    "summary": "Bishop Heward-Mills teaches that what makes believers peculiar and special to God is their ability to hear and obey His voice through the Holy Spirit. He explains that while God the Father's voice is too terrifying and Jesus' glorified voice too overwhelming, the Holy Spirit is given as the communicator who can relate to believers and transmit God's current plan for their lives. He emphasizes that hearing from God requires developing spiritual senses through practice and use, moving from being spiritual babies who only receive milk (Scripture alone) to mature believers who can discern the Holy Spirit speaking directly to their body, soul, and spirit in various ways including visions, inner voice, and through other people.",
-    "audioId": "1CHFQYjmmKxsTRteRMT1NLDyvoTsVXnIZ"
+    "summary": "Bishop Heward-Mills teaches that what makes believers peculiar and special to God is their ability to hear and obey His voice through the Holy Spirit. He explains that while God the Father's voice is too terrifying and Jesus' glorified voice too overwhelming, the Holy Spirit is given as the communicator who can relate to believers and transmit God's current plan for their lives. He emphasizes that hearing from God requires developing spiritual senses through practice and use, moving from being spiritual babies who only receive milk (Scripture alone) to mature believers who can discern the Holy Spirit speaking directly to their body, soul, and spirit in various ways including visions, inner voice, and through other people."
   },
   {
     "id": 217,
@@ -7010,8 +6849,7 @@ export const SERMONS = [
       "Genesis 1"
     ],
     "keyScripture": "Exodus 33:14-16",
-    "summary": "Bishop Joshua teaches that the distinguishing factor of every believer's life is not programs or knowledge but the continuous presence and fellowship of the Holy Spirit as a person, not merely a force. He emphasizes that like Moses who refused to go anywhere without God's presence, Christians must learn to acknowledge, speak to, and walk daily with the Holy Spirit to experience transformation in marriage, ministry, morality, and every area of life. The Holy Spirit is God Himself—eternal, all-knowing, all-powerful, and omnipresent—who desires intimate partnership (koinonia) with believers, and when His presence goes with us, His glory transforms dead religious activity into supernatural life.",
-    "audioId": "13-6B8A0TmOXRlIIK953FyjrgWJtJ8xHJ"
+    "summary": "Bishop Joshua teaches that the distinguishing factor of every believer's life is not programs or knowledge but the continuous presence and fellowship of the Holy Spirit as a person, not merely a force. He emphasizes that like Moses who refused to go anywhere without God's presence, Christians must learn to acknowledge, speak to, and walk daily with the Holy Spirit to experience transformation in marriage, ministry, morality, and every area of life. The Holy Spirit is God Himself—eternal, all-knowing, all-powerful, and omnipresent—who desires intimate partnership (koinonia) with believers, and when His presence goes with us, His glory transforms dead religious activity into supernatural life."
   },
   {
     "id": 218,
@@ -7058,8 +6896,7 @@ export const SERMONS = [
       "2 Peter 1:20"
     ],
     "keyScripture": "Acts 17:11",
-    "summary": "Bishop Heward-Mills teaches that spiritual nobility comes from daily searching the scriptures personally, not just receiving preaching in church services. He provides three strategies for successful quiet time: set a fixed unchangeable morning time (30 minutes minimum), withdraw to a closet alone where no one can access you, and create an atmosphere conducive for fellowship with God before the day's heat melts the manna. Using the manna revelation from Exodus 16, he emphasizes that yesterday's word cannot sustain today and that individual wrestling with God in solitude—like Jacob—transforms a person's walk and gives them power with both God and men.",
-    "audioId": "1cRq2BzyXqrHa_BuKxqX9hXADAiPkTjRh"
+    "summary": "Bishop Heward-Mills teaches that spiritual nobility comes from daily searching the scriptures personally, not just receiving preaching in church services. He provides three strategies for successful quiet time: set a fixed unchangeable morning time (30 minutes minimum), withdraw to a closet alone where no one can access you, and create an atmosphere conducive for fellowship with God before the day's heat melts the manna. Using the manna revelation from Exodus 16, he emphasizes that yesterday's word cannot sustain today and that individual wrestling with God in solitude—like Jacob—transforms a person's walk and gives them power with both God and men."
   },
   {
     "id": 219,
@@ -7102,8 +6939,7 @@ export const SERMONS = [
       "2 Timothy 3:10"
     ],
     "keyScripture": "2 Corinthians 5:16",
-    "summary": "Bishop Joshua teaches that spiritual people must relate to others according to the spirit, not the flesh, meaning relationships should be based on doctrine, faith, and spiritual connection rather than family ties, nationality, age, or natural affinity. He explains that Paul subjected his controversial teachings only to prophets and spiritual people, and that since Christ's death on the cross, believers should know no one—including Christ himself—after the flesh. True spiritual relationship with a man or woman of God is established by knowing their doctrine, manner of life, purpose, faith, and persecutions, not through casual familiarity, WhatsApp messages, or natural connections.",
-    "audioId": "19H2e_u6uMF7OGnxK6puAPUHVP8xpPd1U"
+    "summary": "Bishop Joshua teaches that spiritual people must relate to others according to the spirit, not the flesh, meaning relationships should be based on doctrine, faith, and spiritual connection rather than family ties, nationality, age, or natural affinity. He explains that Paul subjected his controversial teachings only to prophets and spiritual people, and that since Christ's death on the cross, believers should know no one—including Christ himself—after the flesh. True spiritual relationship with a man or woman of God is established by knowing their doctrine, manner of life, purpose, faith, and persecutions, not through casual familiarity, WhatsApp messages, or natural connections."
   },
   {
     "id": 220,
@@ -7142,8 +6978,7 @@ export const SERMONS = [
       "2 Timothy 1:6"
     ],
     "keyScripture": "Hebrews 6:1-2",
-    "summary": "Bishop Joshua teaches that the Holy Spirit is administered in four distinct ways, comparing it to how medicine can be given through different methods (orally, intramuscularly, intravenously, or rectally). He emphasizes that the laying on of hands is the primary foundational way the Holy Spirit is transmitted, citing it as one of the basic doctrines of Christianity alongside repentance, faith, and baptisms. He stresses that believers must be sensitive and receptive to hands laid on them by anointed vessels, as this physical contact transmits God's presence, power, wisdom, and spiritual gifts that cannot be obtained through study alone.",
-    "audioId": "158a9Z40yn673jcvRhI3Atpk62w-qjpLR"
+    "summary": "Bishop Joshua teaches that the Holy Spirit is administered in four distinct ways, comparing it to how medicine can be given through different methods (orally, intramuscularly, intravenously, or rectally). He emphasizes that the laying on of hands is the primary foundational way the Holy Spirit is transmitted, citing it as one of the basic doctrines of Christianity alongside repentance, faith, and baptisms. He stresses that believers must be sensitive and receptive to hands laid on them by anointed vessels, as this physical contact transmits God's presence, power, wisdom, and spiritual gifts that cannot be obtained through study alone."
   },
   {
     "id": 221,
@@ -7175,8 +7010,7 @@ export const SERMONS = [
       "Isaiah 53"
     ],
     "keyScripture": "Revelation 1:17-19",
-    "summary": "Bishop Heward-Mills preaches that Jesus is the first and last Savior sent from heaven, and no other person or thing can save humanity from sin, death, and hell. He emphasizes that Jesus alone holds the keys to death and hell, having died for our sins and risen again, making Him the only way to eternal life and reconciliation with God. He urgently calls people to respond to Christ now, warning that this may be their first and last opportunity to receive salvation before facing eternity.",
-    "audioId": "1Psc-UfAB7RPMq3sMCnqBXogfnbZ51yWN"
+    "summary": "Bishop Heward-Mills preaches that Jesus is the first and last Savior sent from heaven, and no other person or thing can save humanity from sin, death, and hell. He emphasizes that Jesus alone holds the keys to death and hell, having died for our sins and risen again, making Him the only way to eternal life and reconciliation with God. He urgently calls people to respond to Christ now, warning that this may be their first and last opportunity to receive salvation before facing eternity."
   },
   {
     "id": 222,
@@ -7209,8 +7043,7 @@ export const SERMONS = [
       "Psalm 89:19"
     ],
     "keyScripture": "John 14:18",
-    "summary": "Bishop Heward-Mills teaches that the Holy Spirit removes the orphan nature from believers' lives, bringing provision, guidance, correction, and wisdom just as a father provides for his children. He emphasizes that supernatural help in every season of life comes not from personal ability, education, or holiness, but from the anointing oil of the Holy Spirit upon a person. Using Psalm 89:19 as a foundation, he declares that God lays help upon those He anoints with His holy oil, making divine assistance the primary manifestation of the Spirit's presence in daily life.",
-    "audioId": "12cmq5iUkA1M9Q5324BkBF08QcrwnHoDx"
+    "summary": "Bishop Heward-Mills teaches that the Holy Spirit removes the orphan nature from believers' lives, bringing provision, guidance, correction, and wisdom just as a father provides for his children. He emphasizes that supernatural help in every season of life comes not from personal ability, education, or holiness, but from the anointing oil of the Holy Spirit upon a person. Using Psalm 89:19 as a foundation, he declares that God lays help upon those He anoints with His holy oil, making divine assistance the primary manifestation of the Spirit's presence in daily life."
   },
   {
     "id": 223,
@@ -7250,8 +7083,7 @@ export const SERMONS = [
       "Matthew 15:30"
     ],
     "keyScripture": "Luke 4:18",
-    "summary": "Bishop Heward-Mills teaches that Jesus Christ is not a historical figure of the past but is alive today and anointed specifically to meet every individual need. He emphasizes that Jesus was anointed at His baptism when the Holy Spirit descended on Him, transforming Him from a carpenter into the Christ who heals the brokenhearted, delivers captives, gives sight to the blind, and sets the bruised at liberty. The central message is that Jesus was anointed because of you and your problems, and encountering Him today brings transformation, healing, and miracles to every area of life.",
-    "audioId": "1Es-wgq6ahPHprgN4q1bdrH48ceY42t-d"
+    "summary": "Bishop Heward-Mills teaches that Jesus Christ is not a historical figure of the past but is alive today and anointed specifically to meet every individual need. He emphasizes that Jesus was anointed at His baptism when the Holy Spirit descended on Him, transforming Him from a carpenter into the Christ who heals the brokenhearted, delivers captives, gives sight to the blind, and sets the bruised at liberty. The central message is that Jesus was anointed because of you and your problems, and encountering Him today brings transformation, healing, and miracles to every area of life."
   },
   {
     "id": 224,
@@ -7291,8 +7123,7 @@ export const SERMONS = [
       "1 Peter 1:2"
     ],
     "keyScripture": "Acts 20:28",
-    "summary": "Bishop Joshua teaches that the Holy Spirit alone makes people into pastors and overseers of flocks through a multi-stage process: first by calling them, second by giving them desire for the cross and ministry, and third by sanctifying them from sin. He emphasizes that without sanctification, a person remains unsuitable as a vessel for God's use in ministry, no matter how strong their calling or desire. He explains that victory over sin comes not through willpower but through walking in the Spirit, following the law of the Spirit which makes believers free from the law of sin and death.",
-    "audioId": "1-ZQe9IRC5NMF4mw5d3hT8cJnvjGiBNWU"
+    "summary": "Bishop Joshua teaches that the Holy Spirit alone makes people into pastors and overseers of flocks through a multi-stage process: first by calling them, second by giving them desire for the cross and ministry, and third by sanctifying them from sin. He emphasizes that without sanctification, a person remains unsuitable as a vessel for God's use in ministry, no matter how strong their calling or desire. He explains that victory over sin comes not through willpower but through walking in the Spirit, following the law of the Spirit which makes believers free from the law of sin and death."
   },
   {
     "id": 225,
@@ -7333,8 +7164,7 @@ export const SERMONS = [
       "Luke 23:9"
     ],
     "keyScripture": "Isaiah 53:5",
-    "summary": "Bishop Joshua teaches that Isaiah 53, written 782 years before Christ, is the most accurate Old Testament prophecy detailing how Jesus was wounded for our transgressions, bruised for our iniquities, and by His stripes we are healed. He emphasizes that those who believe this specific report will see the arm of the Lord revealed in their lives, experiencing miracles and healing because Christ already carried all sickness, sorrow, and sin on the cross. The sermon declares that no Christian should remain sick or troubled because the chastisement for our peace was upon Jesus, and His suffering—including the brutal scourging that plowed His back—has already paid the price for complete deliverance.",
-    "audioId": "1M6ZghpwDXb8QB2syoW56n6WVEV8SFcoE"
+    "summary": "Bishop Joshua teaches that Isaiah 53, written 782 years before Christ, is the most accurate Old Testament prophecy detailing how Jesus was wounded for our transgressions, bruised for our iniquities, and by His stripes we are healed. He emphasizes that those who believe this specific report will see the arm of the Lord revealed in their lives, experiencing miracles and healing because Christ already carried all sickness, sorrow, and sin on the cross. The sermon declares that no Christian should remain sick or troubled because the chastisement for our peace was upon Jesus, and His suffering—including the brutal scourging that plowed His back—has already paid the price for complete deliverance."
   },
   {
     "id": 226,
@@ -7369,8 +7199,7 @@ export const SERMONS = [
       "John 20:21-22"
     ],
     "keyScripture": "1 Corinthians 12:3",
-    "summary": "Bishop Heward-Mills teaches that true Christianity requires not only knowing Jesus as Savior and Friend, but crucially as Lord and Master who owns and governs every area of believers' lives. He explains that obedience to Christ's lordship is impossible through human effort alone, but only becomes possible through the Holy Spirit's enabling power working within believers to cause them to walk in God's statutes. The central message is that no one can truly say 'Jesus is Lord' and live in submission to His mastery except by the Holy Spirit, which is why believers must earnestly pray to be filled with the Spirit for the power to obey.",
-    "audioId": "18m0inWLWj_X4HXpzIYkdlPmEkCRQ9n46"
+    "summary": "Bishop Heward-Mills teaches that true Christianity requires not only knowing Jesus as Savior and Friend, but crucially as Lord and Master who owns and governs every area of believers' lives. He explains that obedience to Christ's lordship is impossible through human effort alone, but only becomes possible through the Holy Spirit's enabling power working within believers to cause them to walk in God's statutes. The central message is that no one can truly say 'Jesus is Lord' and live in submission to His mastery except by the Holy Spirit, which is why believers must earnestly pray to be filled with the Spirit for the power to obey."
   },
   {
     "id": 227,
@@ -7410,8 +7239,7 @@ export const SERMONS = [
       "John 1:12"
     ],
     "keyScripture": "Romans 8:29",
-    "summary": "Bishop Joshua teaches that every believer is predestined to be conformed to the image of Jesus Christ in every way, including operating in supernatural power and miracles. He emphasizes that Jesus earned the nickname 'Christ' (meaning 'anointed one') only after receiving the Holy Spirit at His baptism and returning in power, demonstrating that being born again is different from being anointed with power. He argues there is no legitimate version of Christian ministry that lacks the supernatural element, as Jesus operated in all five-fold ministries with miraculous signs, and believers must walk as He walked.",
-    "audioId": "11yZpWhC-11hapCpU-mAsQFSRVoefNXnI"
+    "summary": "Bishop Joshua teaches that every believer is predestined to be conformed to the image of Jesus Christ in every way, including operating in supernatural power and miracles. He emphasizes that Jesus earned the nickname 'Christ' (meaning 'anointed one') only after receiving the Holy Spirit at His baptism and returning in power, demonstrating that being born again is different from being anointed with power. He argues there is no legitimate version of Christian ministry that lacks the supernatural element, as Jesus operated in all five-fold ministries with miraculous signs, and believers must walk as He walked."
   },
   {
     "id": 228,
@@ -7439,8 +7267,7 @@ export const SERMONS = [
       "Matthew 25"
     ],
     "keyScripture": "Proverbs 8:34",
-    "summary": "Bishop Joshua teaches that the quiet time—spending time alone with God daily—is the most essential practice for developing a genuine Christian life and personal transformation. He emphasizes that many people call themselves Christians but have never developed an actual relationship with God through private Bible reading, prayer, and communion with the Holy Spirit, which is why their lives show no real change. He stresses that knowing about God through church attendance or pastoral relationships is not enough; believers must personally know God as a friend through consistent daily time in His presence, just as Proverbs 8:34 describes waiting at His gates daily.",
-    "audioId": "1i10g_7tOSSBWAOO8zgmbO7Fm7AjTABna"
+    "summary": "Bishop Joshua teaches that the quiet time—spending time alone with God daily—is the most essential practice for developing a genuine Christian life and personal transformation. He emphasizes that many people call themselves Christians but have never developed an actual relationship with God through private Bible reading, prayer, and communion with the Holy Spirit, which is why their lives show no real change. He stresses that knowing about God through church attendance or pastoral relationships is not enough; believers must personally know God as a friend through consistent daily time in His presence, just as Proverbs 8:34 describes waiting at His gates daily."
   },
   {
     "id": 229,
@@ -7479,8 +7306,7 @@ export const SERMONS = [
       "Genesis 3"
     ],
     "keyScripture": "2 Corinthians 1:21-22",
-    "summary": "Bishop Joshua teaches that God has given believers the Holy Spirit as a seal, stamp, and guarantee to authenticate genuine Christianity, just as a trademark distinguishes real Nike shoes from counterfeits. He emphasizes that while many Christians, pastors, prophets, and ministries may look identical outwardly, the distinguishing mark of authenticity is the manifest presence (not just power) of the Holy Spirit—an aura or atmosphere that can be sensed. Using John the Baptist's witness that the Spirit descended and remained on Jesus, he urges believers to pursue and recognize this abiding presence as the only true evidence that God is pleased with them, rather than relying on blessings, position, or outward success.",
-    "audioId": "1bC3miUexPXiGu9M-6HAgKxX977LllRcU"
+    "summary": "Bishop Joshua teaches that God has given believers the Holy Spirit as a seal, stamp, and guarantee to authenticate genuine Christianity, just as a trademark distinguishes real Nike shoes from counterfeits. He emphasizes that while many Christians, pastors, prophets, and ministries may look identical outwardly, the distinguishing mark of authenticity is the manifest presence (not just power) of the Holy Spirit—an aura or atmosphere that can be sensed. Using John the Baptist's witness that the Spirit descended and remained on Jesus, he urges believers to pursue and recognize this abiding presence as the only true evidence that God is pleased with them, rather than relying on blessings, position, or outward success."
   },
   {
     "id": 230,
@@ -7524,8 +7350,7 @@ export const SERMONS = [
       "Ezekiel 1"
     ],
     "keyScripture": "Isaiah 55:1",
-    "summary": "Bishop Heward-Mills teaches that every problem in Scripture arose when the influence of the flesh overcame the influence of the Holy Spirit in someone's life, and that Christians must actively multiply the Holy Spirit's capacity to influence their character, behavior, and decisions. He emphasizes that increasing the Holy Spirit's influence begins with talking about Him and cultivating spiritual hunger and desire, because God only fills those who are thirsty and actively seeking Him. He illustrates that transformation happens when believers reject their own ways and allow the Holy Spirit to change them from within, moving from fleshly control to spiritual control in every area of life including marriage, business, and ministry.",
-    "audioId": "1PFqCZpxB-_NkoSoHr_UZKhVlOIWkthdP"
+    "summary": "Bishop Heward-Mills teaches that every problem in Scripture arose when the influence of the flesh overcame the influence of the Holy Spirit in someone's life, and that Christians must actively multiply the Holy Spirit's capacity to influence their character, behavior, and decisions. He emphasizes that increasing the Holy Spirit's influence begins with talking about Him and cultivating spiritual hunger and desire, because God only fills those who are thirsty and actively seeking Him. He illustrates that transformation happens when believers reject their own ways and allow the Holy Spirit to change them from within, moving from fleshly control to spiritual control in every area of life including marriage, business, and ministry."
   },
   {
     "id": 231,
@@ -7560,8 +7385,7 @@ export const SERMONS = [
       "Psalm 91:1"
     ],
     "keyScripture": "Mark 7:13",
-    "summary": "BJosh teaches that many Christians have ineffective quiet times because their traditions and habits make the Word of God of no effect, as stated in Mark 7:13. He emphasizes that believers must pray to begin their devotions—entering God's gates with thanksgiving, His courts with praise, confessing sin, and praying in tongues to move from flesh to spirit—before reading Scripture. Without this prayerful preparation, Christians remain outside God's presence where the Holy Spirit cannot guide them into truth, transmit God's current plan for their day, or reveal the prophetic nature of Scripture.",
-    "audioId": "1DQQ3Dx_Ir0Y_gLx7wKflYbRyZLqTkX8B"
+    "summary": "BJosh teaches that many Christians have ineffective quiet times because their traditions and habits make the Word of God of no effect, as stated in Mark 7:13. He emphasizes that believers must pray to begin their devotions—entering God's gates with thanksgiving, His courts with praise, confessing sin, and praying in tongues to move from flesh to spirit—before reading Scripture. Without this prayerful preparation, Christians remain outside God's presence where the Holy Spirit cannot guide them into truth, transmit God's current plan for their day, or reveal the prophetic nature of Scripture."
   },
   {
     "id": 232,
@@ -7606,8 +7430,7 @@ export const SERMONS = [
       "John 14"
     ],
     "keyScripture": "1 Corinthians 12:7",
-    "summary": "Bishop Heward-Mills teaches that the manifestation of the Holy Spirit is a sign, demonstration, or symptom given to every believer for their profit, making the invisible God visible and real in tangible experiences. He emphasizes that two things block God's manifest presence: forsaking God by not genuinely seeking Him (especially through worship), and broken vessels due to unconfessed sin that cannot hold His presence. He stresses that true Christianity requires moving beyond dead religious routine to actually experiencing God's presence through worship, confession of sin, and hungering for God like a child, not just knowing about Him intellectually.",
-    "audioId": "1E-Q3aiYH-BaNa2lFQMjeSqNbvM9558Mw"
+    "summary": "Bishop Heward-Mills teaches that the manifestation of the Holy Spirit is a sign, demonstration, or symptom given to every believer for their profit, making the invisible God visible and real in tangible experiences. He emphasizes that two things block God's manifest presence: forsaking God by not genuinely seeking Him (especially through worship), and broken vessels due to unconfessed sin that cannot hold His presence. He stresses that true Christianity requires moving beyond dead religious routine to actually experiencing God's presence through worship, confession of sin, and hungering for God like a child, not just knowing about Him intellectually."
   },
   {
     "id": 233,
@@ -7631,8 +7454,7 @@ export const SERMONS = [
       "Matthew 11:28"
     ],
     "keyScripture": "Matthew 11:28",
-    "summary": "Bishop Joshua teaches on Jesus's invitation in Matthew 11:28 to come to Him for rest, emphasizing that miracles happen for those who expect them through faith. He encourages believers that Jesus is unchanging and still performs miracles today, whether for healing, finances, or academics, for those who believe and expect. The message centers on bringing all burdens to Jesus—physical sickness, financial needs, and academic challenges—trusting that He who carries the world on His shoulders will carry their problems too.",
-    "audioId": "1-KFZA4W_oONh2ib1MGNk7jvnfKsC3Lgq"
+    "summary": "Bishop Joshua teaches on Jesus's invitation in Matthew 11:28 to come to Him for rest, emphasizing that miracles happen for those who expect them through faith. He encourages believers that Jesus is unchanging and still performs miracles today, whether for healing, finances, or academics, for those who believe and expect. The message centers on bringing all burdens to Jesus—physical sickness, financial needs, and academic challenges—trusting that He who carries the world on His shoulders will carry their problems too."
   },
   {
     "id": 234,
@@ -7684,8 +7506,7 @@ export const SERMONS = [
       "Revelation 4:5"
     ],
     "keyScripture": "John 14:26",
-    "summary": "BJosh teaches that the Holy Spirit helps us know God primarily by reminding us of what God has already spoken, because mankind's fundamental problem is forgetfulness unlike the rest of creation which obeys God's perpetual decrees spoken once. He explains that God speaks once and does not repeat Himself, but humans constantly need reminders of His instructions, promises, and calling, which is why the Holy Spirit's ministry of bringing all things to our remembrance is essential for maintaining relationship with God. He emphasizes that believers must learn to enter God's presence through personal worship and singing, ministering to the Lord rather than just doing things for Him, as the Levites were called to stand before God and minister to Him without any other occupation.",
-    "audioId": "1m9dhn394RRTz4PoO4O3e6lBwt24iUSFe"
+    "summary": "BJosh teaches that the Holy Spirit helps us know God primarily by reminding us of what God has already spoken, because mankind's fundamental problem is forgetfulness unlike the rest of creation which obeys God's perpetual decrees spoken once. He explains that God speaks once and does not repeat Himself, but humans constantly need reminders of His instructions, promises, and calling, which is why the Holy Spirit's ministry of bringing all things to our remembrance is essential for maintaining relationship with God. He emphasizes that believers must learn to enter God's presence through personal worship and singing, ministering to the Lord rather than just doing things for Him, as the Levites were called to stand before God and minister to Him without any other occupation."
   },
   {
     "id": 235,
@@ -7726,8 +7547,7 @@ export const SERMONS = [
       "Zechariah 4:10"
     ],
     "keyScripture": "Ephesians 1:17-18",
-    "summary": "Bishop Joshua teaches that God created humanity with spiritual eyes to see Him and spiritual realities, but when Adam and Eve sinned their spiritual eyes closed and natural eyes opened, causing them to see only the flesh and no longer see God. God has seven eyes which are seven spirits (wisdom, understanding, counsel, might, knowledge, fear of the Lord, and the Spirit of the Lord) that allow Him to judge not by outward appearance but by the heart and spirit. Through the Holy Spirit, believers can have their spiritual eyes reopened to see their true sinful state, see angels and spiritual realities, understand the hope of their calling, and discern what God sees rather than judging by natural sight.",
-    "audioId": "13bodzxGldaqeHca5uEsX6dxQpp6_1G6I"
+    "summary": "Bishop Joshua teaches that God created humanity with spiritual eyes to see Him and spiritual realities, but when Adam and Eve sinned their spiritual eyes closed and natural eyes opened, causing them to see only the flesh and no longer see God. God has seven eyes which are seven spirits (wisdom, understanding, counsel, might, knowledge, fear of the Lord, and the Spirit of the Lord) that allow Him to judge not by outward appearance but by the heart and spirit. Through the Holy Spirit, believers can have their spiritual eyes reopened to see their true sinful state, see angels and spiritual realities, understand the hope of their calling, and discern what God sees rather than judging by natural sight."
   },
   {
     "id": 236,
@@ -7757,8 +7577,7 @@ export const SERMONS = [
       "Psalm 27:4"
     ],
     "keyScripture": "2 Timothy 3:15",
-    "summary": "Bishop Joshua teaches that having a regular, practical, and unchangeable quiet time is essential for building a deep personal relationship with God, emphasizing that reading the Bible daily makes you wise and transforms your life in ways that no other education or knowledge can. He stresses that the Bible is your wisdom in every area of life—not just in church—and that most Christians fail to read their Bibles consistently, missing out on the intimacy with God that comes only through dedicated time in His Word. The first key strategy he presents is to set a practical, unchangeable, and regular time for your quiet time, recommending early morning (5-6 AM) as the most effective time when there are no distractions.",
-    "audioId": "1B9fK2V_cRzaQdVNJ0MSf3_Tkk4EgU2bK"
+    "summary": "Bishop Joshua teaches that having a regular, practical, and unchangeable quiet time is essential for building a deep personal relationship with God, emphasizing that reading the Bible daily makes you wise and transforms your life in ways that no other education or knowledge can. He stresses that the Bible is your wisdom in every area of life—not just in church—and that most Christians fail to read their Bibles consistently, missing out on the intimacy with God that comes only through dedicated time in His Word. The first key strategy he presents is to set a practical, unchangeable, and regular time for your quiet time, recommending early morning (5-6 AM) as the most effective time when there are no distractions."
   },
   {
     "id": 237,
@@ -7798,8 +7617,7 @@ export const SERMONS = [
       "2 Peter 1:21"
     ],
     "keyScripture": "John 16:26",
-    "summary": "Bishop Joshua teaches that the number one manifestation of the Holy Spirit is not falling down, crying, or other physical demonstrations, but the Holy Spirit teaching and revealing truth from Scripture to believers. He emphasizes that the Greek word 'phanerosis' means making the invisible visible, and the primary way God does this is through spiritual understanding and conviction when reading the Word. True transformation comes when the Holy Spirit, who authored Scripture, personally teaches each Christian in their quiet time, opening their eyes to mysteries and wisdom that change their lives practically.",
-    "audioId": "1xUEyxAhsXXkHeSfYBa3-_xK1k5mS639c"
+    "summary": "Bishop Joshua teaches that the number one manifestation of the Holy Spirit is not falling down, crying, or other physical demonstrations, but the Holy Spirit teaching and revealing truth from Scripture to believers. He emphasizes that the Greek word 'phanerosis' means making the invisible visible, and the primary way God does this is through spiritual understanding and conviction when reading the Word. True transformation comes when the Holy Spirit, who authored Scripture, personally teaches each Christian in their quiet time, opening their eyes to mysteries and wisdom that change their lives practically."
   },
   {
     "id": 238,
@@ -7837,8 +7655,7 @@ export const SERMONS = [
       "Psalm 16:10-11"
     ],
     "keyScripture": "James 3:15",
-    "summary": "Bishop Joshua teaches that Christians are constantly being persuaded by one of three types of wisdom: earthly (focusing only on this life), sensual (led by the five senses and fleshly desires), or devilish (demonic), rather than being dominated by the Holy Spirit. He emphasizes that God has a specific architectural plan for every believer's life that leads to glory, but most Christians follow earthly wisdom in their decisions about marriage, career, and life direction instead of yielding to the Holy Spirit's influence. He calls believers to build up their spirit man through prayer and submission to the Holy Spirit, allowing Him to dominate and transform their lives from the inside out.",
-    "audioId": "1Hu77uXe2ITQTH4qjCaZ15SGVBdACgPtb"
+    "summary": "Bishop Joshua teaches that Christians are constantly being persuaded by one of three types of wisdom: earthly (focusing only on this life), sensual (led by the five senses and fleshly desires), or devilish (demonic), rather than being dominated by the Holy Spirit. He emphasizes that God has a specific architectural plan for every believer's life that leads to glory, but most Christians follow earthly wisdom in their decisions about marriage, career, and life direction instead of yielding to the Holy Spirit's influence. He calls believers to build up their spirit man through prayer and submission to the Holy Spirit, allowing Him to dominate and transform their lives from the inside out."
   },
   {
     "id": 239,
@@ -7866,8 +7683,7 @@ export const SERMONS = [
       "Genesis 7:3"
     ],
     "keyScripture": "John 15:16",
-    "summary": "Bishop Joshua teaches that God's primary call to every believer is to be fruitful and multiply spiritually by winning souls, regardless of their circumstances or season of life. He emphasizes that true Christians are identified not by their appearance, position, or religious activities, but by their spiritual fruit—the people they lead to Christ. He stresses that believers must reproduce their own 'species' in the church by evangelizing people from their own backgrounds, professions, and communities, or else those groups will become 'endangered species' and disappear from the church.",
-    "audioId": "1OqX-KE5EXE-zhRFluTQXmyROgWabT3ej"
+    "summary": "Bishop Joshua teaches that God's primary call to every believer is to be fruitful and multiply spiritually by winning souls, regardless of their circumstances or season of life. He emphasizes that true Christians are identified not by their appearance, position, or religious activities, but by their spiritual fruit—the people they lead to Christ. He stresses that believers must reproduce their own 'species' in the church by evangelizing people from their own backgrounds, professions, and communities, or else those groups will become 'endangered species' and disappear from the church."
   },
   {
     "id": 240,
@@ -7895,8 +7711,7 @@ export const SERMONS = [
       "John 15:16"
     ],
     "keyScripture": "2 Timothy 1:9",
-    "summary": "Bishop Joshua teaches that when God saves a person, salvation comes with a calling—most Christians are called by God to do specific work for Him, particularly the ministry of reconciliation. He emphasizes that the call of God is primarily a call to bear fruit and reach others, not just to receive blessings, and that most people are called in ordinary ways through inner desire rather than spectacular visions. He challenges believers to recognize that they were created for good works and that God's provision flows when they prioritize their calling over personal ambitions like marriage, career, or education.",
-    "audioId": "1QXtgdamLT877T8__ssi4j7PMFFDzTkCF"
+    "summary": "Bishop Joshua teaches that when God saves a person, salvation comes with a calling—most Christians are called by God to do specific work for Him, particularly the ministry of reconciliation. He emphasizes that the call of God is primarily a call to bear fruit and reach others, not just to receive blessings, and that most people are called in ordinary ways through inner desire rather than spectacular visions. He challenges believers to recognize that they were created for good works and that God's provision flows when they prioritize their calling over personal ambitions like marriage, career, or education."
   },
   {
     "id": 241,
@@ -7926,8 +7741,7 @@ export const SERMONS = [
       "Titus 3:5"
     ],
     "keyScripture": "Luke 10:25-37",
-    "summary": "Bishop Joshua teaches that the parable of the Good Samaritan is a prophetic story about Jesus rescuing humanity, who like the wounded man on the road from Jerusalem to Jericho, is half-dead in sin and unable to save themselves. He emphasizes that the priest and Levite (representing the law and prophets) could not save the wounded man, but only Jesus—the rejected Samaritan—came down from heaven with compassion to bind up our wounds by pouring in His blood for cleansing and the Holy Spirit for power. Christ exchanged places with us, getting down from His high position to lift us up, so that we who were half-dead in sin could be made alive and clothed in white robes washed in His blood.",
-    "audioId": "1nMq0XP3-jzplaW6smnK--k0IjpGOUa5j"
+    "summary": "Bishop Joshua teaches that the parable of the Good Samaritan is a prophetic story about Jesus rescuing humanity, who like the wounded man on the road from Jerusalem to Jericho, is half-dead in sin and unable to save themselves. He emphasizes that the priest and Levite (representing the law and prophets) could not save the wounded man, but only Jesus—the rejected Samaritan—came down from heaven with compassion to bind up our wounds by pouring in His blood for cleansing and the Holy Spirit for power. Christ exchanged places with us, getting down from His high position to lift us up, so that we who were half-dead in sin could be made alive and clothed in white robes washed in His blood."
   },
   {
     "id": 242,
@@ -7955,8 +7769,7 @@ export const SERMONS = [
       "Leviticus 17:11"
     ],
     "keyScripture": "Hebrews 9:14",
-    "summary": "Bishop Heward-Mills teaches that the blood of Jesus is the only eternal, non-expiring solution to humanity's sin problem, contrasting it with all previous blood sacrifices throughout history that were temporary and corruptible. He emphasizes that the blood's power comes from Jesus being conceived by the Holy Spirit, making His blood half-spiritual and therefore eternal, able to wash away sins from Abel's time to the present day without losing potency. He declares that no human merit, money, beauty, or good works can save anyone from their well-deserved punishment—only accepting and applying the blood of Jesus brings forgiveness, justification, spiritual life, and access to heaven.",
-    "audioId": "14qCbw1Qd9tk9fjTnqntrXYCcFi-N7XKm"
+    "summary": "Bishop Heward-Mills teaches that the blood of Jesus is the only eternal, non-expiring solution to humanity's sin problem, contrasting it with all previous blood sacrifices throughout history that were temporary and corruptible. He emphasizes that the blood's power comes from Jesus being conceived by the Holy Spirit, making His blood half-spiritual and therefore eternal, able to wash away sins from Abel's time to the present day without losing potency. He declares that no human merit, money, beauty, or good works can save anyone from their well-deserved punishment—only accepting and applying the blood of Jesus brings forgiveness, justification, spiritual life, and access to heaven."
   },
   {
     "id": 243,
@@ -7984,8 +7797,7 @@ export const SERMONS = [
       "Luke 4:35"
     ],
     "keyScripture": "Exodus 3:11",
-    "summary": "Bishop Heward-Mills teaches that God specifically calls failures and unworthy people to work for Him, using Moses as the primary example of someone who felt inadequate but was chosen by God. He emphasizes that working for God is actual employment with divine compensation both on earth and in heaven, superior to any earthly job, and that believers should seek God's kingdom first rather than focusing on earthly problems. He stresses that God looks at the heart of the worker, not their qualifications or background, and that those who feel disqualified by past failures are precisely the candidates God is searching for.",
-    "audioId": "1ji_z2ZeSWowJA7a2OXSuUVdqT9tmfyLf"
+    "summary": "Bishop Heward-Mills teaches that God specifically calls failures and unworthy people to work for Him, using Moses as the primary example of someone who felt inadequate but was chosen by God. He emphasizes that working for God is actual employment with divine compensation both on earth and in heaven, superior to any earthly job, and that believers should seek God's kingdom first rather than focusing on earthly problems. He stresses that God looks at the heart of the worker, not their qualifications or background, and that those who feel disqualified by past failures are precisely the candidates God is searching for."
   },
   {
     "id": 244,
@@ -8019,8 +7831,7 @@ export const SERMONS = [
       "Psalm 107:24"
     ],
     "keyScripture": "Ephesians 4:16",
-    "summary": "Bishop Heward-Mills teaches that no individual pastor or Christian leader can be a superhero like Jesus Christ, who alone possessed the fullness of the Spirit without measure as the complete apostle, prophet, evangelist, pastor, and teacher. He emphasizes that since Jesus ascended, the body of Christ—every church member together—must collectively carry out the work of soul winning and evangelism, each contributing their measured portion of anointing. He challenges Christians to move beyond self-centered Christianity and embrace the mind, feelings, and purposes of Christ for the lost world, particularly in preparation for their upcoming outreach Sunday.",
-    "audioId": "1XVpP4hpbn6cZx7U-X_4Zea6YOWLLKSuQ"
+    "summary": "Bishop Heward-Mills teaches that no individual pastor or Christian leader can be a superhero like Jesus Christ, who alone possessed the fullness of the Spirit without measure as the complete apostle, prophet, evangelist, pastor, and teacher. He emphasizes that since Jesus ascended, the body of Christ—every church member together—must collectively carry out the work of soul winning and evangelism, each contributing their measured portion of anointing. He challenges Christians to move beyond self-centered Christianity and embrace the mind, feelings, and purposes of Christ for the lost world, particularly in preparation for their upcoming outreach Sunday."
   },
   {
     "id": 245,
@@ -8056,8 +7867,7 @@ export const SERMONS = [
       "Mark 1:21"
     ],
     "keyScripture": "Mark 2:1-12",
-    "summary": "BJosh teaches that the man sick of palsy represents those whose minds want to obey God but whose bodies (flesh) won't respond, creating a neurological spiritual disconnect where people cannot control their sinful actions despite their intentions. He emphasizes that while four friends can carry you to Jesus (through family, pastors, witnesses), none of them can actually save you—only a personal encounter with Jesus Christ Himself brings salvation. The main obstacle preventing people from reaching Jesus is pride, which must be removed like the roof was removed, requiring humility to bow before Christ as Lord and Master rather than negotiating with Him as an equal.",
-    "audioId": "1kNiom_HYVzOnWMc20d6pUQznr5xpI9t3"
+    "summary": "BJosh teaches that the man sick of palsy represents those whose minds want to obey God but whose bodies (flesh) won't respond, creating a neurological spiritual disconnect where people cannot control their sinful actions despite their intentions. He emphasizes that while four friends can carry you to Jesus (through family, pastors, witnesses), none of them can actually save you—only a personal encounter with Jesus Christ Himself brings salvation. The main obstacle preventing people from reaching Jesus is pride, which must be removed like the roof was removed, requiring humility to bow before Christ as Lord and Master rather than negotiating with Him as an equal."
   },
   {
     "id": 246,
@@ -8107,8 +7917,7 @@ export const SERMONS = [
       "Luke 19:10"
     ],
     "keyScripture": "Matthew 6:33",
-    "summary": "Bishop Joshua teaches that God's way to prosperity is radically different from the world's approach of planning, saving, and career-building—instead, believers must seek God's Kingdom first by focusing on evangelism, soul-winning, and building the church, and God will supernaturally add all material needs. He emphasizes that the Holy Spirit must change how Christians think, rejecting worldly wisdom about money and success in favor of God's hidden wisdom that prioritizes ministry over personal financial planning. He testifies from his own life that by dedicating himself completely to preaching and church work as a student without work experience or savings plans, God prospered him beyond what planning could achieve.",
-    "audioId": "10lgDDOj0BffQmXWu4ul41c2Rs8L0vq3V"
+    "summary": "Bishop Joshua teaches that God's way to prosperity is radically different from the world's approach of planning, saving, and career-building—instead, believers must seek God's Kingdom first by focusing on evangelism, soul-winning, and building the church, and God will supernaturally add all material needs. He emphasizes that the Holy Spirit must change how Christians think, rejecting worldly wisdom about money and success in favor of God's hidden wisdom that prioritizes ministry over personal financial planning. He testifies from his own life that by dedicating himself completely to preaching and church work as a student without work experience or savings plans, God prospered him beyond what planning could achieve."
   },
   {
     "id": 247,
@@ -8140,8 +7949,7 @@ export const SERMONS = [
       "John 18:36"
     ],
     "keyScripture": "John 3:3",
-    "summary": "BJosh teaches that everyone is born into the kingdom of darkness but must violently and determinedly seek entrance into the Kingdom of God through being born again, just as immigrants desperately fight to enter earthly kingdoms. He emphasizes that earthly citizenship and passports will not matter at heaven's gates—only belonging to the Kingdom of God through having the Son of God matters. Using vivid stories of illegal immigration journeys, he illustrates that taking the Kingdom requires the same desperate force and determination, and invites listeners to change their spiritual immigration status before it's too late.",
-    "audioId": "1mYMH2L18vwEV4nEw99yi_Kgfjm3WQPW_"
+    "summary": "BJosh teaches that everyone is born into the kingdom of darkness but must violently and determinedly seek entrance into the Kingdom of God through being born again, just as immigrants desperately fight to enter earthly kingdoms. He emphasizes that earthly citizenship and passports will not matter at heaven's gates—only belonging to the Kingdom of God through having the Son of God matters. Using vivid stories of illegal immigration journeys, he illustrates that taking the Kingdom requires the same desperate force and determination, and invites listeners to change their spiritual immigration status before it's too late."
   },
   {
     "id": 248,
@@ -8165,8 +7973,7 @@ export const SERMONS = [
       "Isaiah 55:8-9"
     ],
     "keyScripture": "",
-    "summary": "Bishop Heward-Mills leads an extended session of corporate prayer in tongues, emphasizing that speaking in tongues is transformative and breaks strongholds in believers' lives. He teaches that praying in the Spirit allows the Holy Spirit to speak directly to individuals and bring personal transformation and change. The sermon focuses on complete surrender to God's will and being cleansed by the blood of Jesus, with much of the message delivered through sung worship declarations of giving God one's heart and soul.",
-    "audioId": "12aFQG8itaaJr31rzpyJayRTo4w5NxqkO"
+    "summary": "Bishop Heward-Mills leads an extended session of corporate prayer in tongues, emphasizing that speaking in tongues is transformative and breaks strongholds in believers' lives. He teaches that praying in the Spirit allows the Holy Spirit to speak directly to individuals and bring personal transformation and change. The sermon focuses on complete surrender to God's will and being cleansed by the blood of Jesus, with much of the message delivered through sung worship declarations of giving God one's heart and soul."
   },
   {
     "id": 249,
@@ -8190,8 +7997,7 @@ export const SERMONS = [
       "Revelation 1"
     ],
     "keyScripture": "",
-    "summary": "Bishop Joshua teaches that Jesus is anointed specifically for the benefit of believers and that this anointing brings transformation, healing, and filling of every empty area in their lives. He instructs the congregation to actively pray in tongues and surrender everything to Jesus, believing that God's anointing is grace that flows to meet their specific needs. He emphasizes making particular prayer requests known to God about every problem, whether concerning houses, sleep, or any other issue, trusting for breakthrough and provision in that very service.",
-    "audioId": "1uA19U1c_jEjGQJ2LP9JYWpXGu3u_7yyO"
+    "summary": "Bishop Joshua teaches that Jesus is anointed specifically for the benefit of believers and that this anointing brings transformation, healing, and filling of every empty area in their lives. He instructs the congregation to actively pray in tongues and surrender everything to Jesus, believing that God's anointing is grace that flows to meet their specific needs. He emphasizes making particular prayer requests known to God about every problem, whether concerning houses, sleep, or any other issue, trusting for breakthrough and provision in that very service."
   },
   {
     "id": 250,
@@ -8216,8 +8022,7 @@ export const SERMONS = [
       "Ezekiel 36:26"
     ],
     "keyScripture": "Psalm 100:2",
-    "summary": "Bishop Joshua teaches that believers can transition from their daily concerns into God's presence through worship and singing, referencing Psalm 100's instruction to come before His presence with singing. He emphasizes that worship involves closing your eyes, lifting your hands, thinking about God, and meaning the words you sing. He prays for the Holy Spirit to remove stony hearts and replace them with hearts of flesh, citing God's promise in Ezekiel to transform people's hearts.",
-    "audioId": "1if6dUHIgwKDHZ0cK2-JegZygerKMV6c4"
+    "summary": "Bishop Joshua teaches that believers can transition from their daily concerns into God's presence through worship and singing, referencing Psalm 100's instruction to come before His presence with singing. He emphasizes that worship involves closing your eyes, lifting your hands, thinking about God, and meaning the words you sing. He prays for the Holy Spirit to remove stony hearts and replace them with hearts of flesh, citing God's promise in Ezekiel to transform people's hearts."
   },
   {
     "id": 251,
@@ -8237,8 +8042,7 @@ export const SERMONS = [
     ],
     "scriptures": [],
     "keyScripture": "",
-    "summary": "This transcript consists almost entirely of worship song lyrics, prayers, and exhortations to speak in tongues and worship, with no discernible sermon teaching content. BJosh encourages the congregation to leave the flesh and enter the Spirit realm by praying in tongues out loud rather than whispering. The session focuses on creating an atmosphere of worship and surrender rather than delivering biblical exposition or doctrinal teaching.",
-    "audioId": "10qr9Ff-j6Xecpb1_j65o9h-1_BWG8-LF"
+    "summary": "This transcript consists almost entirely of worship song lyrics, prayers, and exhortations to speak in tongues and worship, with no discernible sermon teaching content. BJosh encourages the congregation to leave the flesh and enter the Spirit realm by praying in tongues out loud rather than whispering. The session focuses on creating an atmosphere of worship and surrender rather than delivering biblical exposition or doctrinal teaching."
   },
   {
     "id": 252,
@@ -8262,9 +8066,7 @@ export const SERMONS = [
       "Matthew 11"
     ],
     "keyScripture": "Matthew 11",
-    "summary": "Bishop Heward-Mills emphasizes that Jesus never did anything for anyone who was not expectant, urging the congregation to actively expect God's intervention in their lives. He draws on the imagery of the woman at the well, teaching that only Jesus can satisfy spiritual thirst with living water that never runs dry. He prays for God's supernatural touch, healing, and miracles to manifest among those gathered who are seeking and expecting from God.",
-    "searchableText": "come unto me expectation healing salvation holy spirit touch miracles supernatural woman at well living water quench thirst worship presence of god",
-    "audioId": "1iFHqsiwo-GEtJSxbYHz_G7-NJtXGYoed"
+    "summary": "Bishop Heward-Mills emphasizes that Jesus never did anything for anyone who was not expectant, urging the congregation to actively expect God's intervention in their lives. He draws on the imagery of the woman at the well, teaching that only Jesus can satisfy spiritual thirst with living water that never runs dry. He prays for God's supernatural touch, healing, and miracles to manifest among those gathered who are seeking and expecting from God."
   },
   {
     "id": 253,
@@ -8288,8 +8090,7 @@ export const SERMONS = [
       "Ephesians 3:16"
     ],
     "keyScripture": "Ephesians 3:16",
-    "summary": "BJosh teaches that leaders must surrender everything—their hands, feet, hearts, ambitions, hopes, and plans—to be used by the Holy Spirit. He emphasizes that the Holy Spirit is a real person who wants to fill, speak to, and lead believers into deeper intimacy with God beyond where they currently are. He stresses that being led by the Spirit requires hunger for God's presence and willingness to walk away from anything that is not God's will, with success in ministry depending on one's ability to surrender to the Spirit.",
-    "audioId": "1-Q8mpFyJZFDvPnnRdaB462uNMFg3EH6T"
+    "summary": "BJosh teaches that leaders must surrender everything—their hands, feet, hearts, ambitions, hopes, and plans—to be used by the Holy Spirit. He emphasizes that the Holy Spirit is a real person who wants to fill, speak to, and lead believers into deeper intimacy with God beyond where they currently are. He stresses that being led by the Spirit requires hunger for God's presence and willingness to walk away from anything that is not God's will, with success in ministry depending on one's ability to surrender to the Spirit."
   },
   {
     "id": 254,
@@ -8349,9 +8150,7 @@ export const SERMONS = [
       "Isaiah 48:18"
     ],
     "keyScripture": "Jeremiah 29:11",
-    "summary": "BJosh teaches that many Christians fail to prosper because they do not actively seek and listen to God's guidance before making major life decisions about career, marriage, location, and ministry. He emphasizes that God has specific plans for each believer's welfare and future, and that obedience to God's voice—even when it seems counterintuitive—leads to greater peace and prosperity than following one's own reasoning. He shares personal testimonies of how seeking God through prayer before major decisions (university choice, job changes, marriage) led him to paths that seemed difficult initially but resulted in greater blessing than the seemingly better worldly options.",
-    "keyTopics": [],
-    "audioId": "1zFDaWIkBHzAdLIkgJFyhxUXmXO5GYtYV"
+    "summary": "BJosh teaches that many Christians fail to prosper because they do not actively seek and listen to God's guidance before making major life decisions about career, marriage, location, and ministry. He emphasizes that God has specific plans for each believer's welfare and future, and that obedience to God's voice—even when it seems counterintuitive—leads to greater peace and prosperity than following one's own reasoning. He shares personal testimonies of how seeking God through prayer before major decisions (university choice, job changes, marriage) led him to paths that seemed difficult initially but resulted in greater blessing than the seemingly better worldly options."
   },
   {
     "id": 256,
@@ -8420,9 +8219,7 @@ export const SERMONS = [
       "Philippians 3:7"
     ],
     "keyScripture": "1 John 2:3",
-    "summary": "Bishop Joshua teaches that being a Christian is impossible through human effort alone, but becomes easier when you truly know God personally rather than merely believing in His existence. He explains that the Holy Spirit's primary role is to help believers develop an intimate, personal relationship with God, which makes obedience and Christian living natural rather than a struggle. The key to keeping God's commandments is not trying harder but knowing God deeply, as demonstrated in 1 John 2:3-4, where knowing Him makes keeping His commands possible.",
-    "keywords": "Holy Spirit, knowledge of God, personal relationship, Christian obedience, knowing versus believing, walking with God, righteousness through Christ, spiritual worship",
-    "audioId": "1Fb6Kx3flWkSklF8HJXdbSmVscCe0mJ-4"
+    "summary": "Bishop Joshua teaches that being a Christian is impossible through human effort alone, but becomes easier when you truly know God personally rather than merely believing in His existence. He explains that the Holy Spirit's primary role is to help believers develop an intimate, personal relationship with God, which makes obedience and Christian living natural rather than a struggle. The key to keeping God's commandments is not trying harder but knowing God deeply, as demonstrated in 1 John 2:3-4, where knowing Him makes keeping His commands possible."
   },
   {
     "id": 258,
@@ -8821,8 +8618,7 @@ export const SERMONS = [
       "Mark 5"
     ],
     "keyScripture": "James 3:15",
-    "summary": "Bishop Heward-Mills teaches that there are only four sources of wisdom that guide every decision in life: wisdom from above (Holy Spirit), earthly wisdom (focused only on this world), sensual wisdom (guided by the five senses and feelings), and devilish wisdom (departing from common sense into destructive patterns). He emphasizes that these spiritual influences work invisibly like leaven in dough, subtly affecting choices in relationships, careers, church attendance, and moral decisions without people realizing they are being influenced. He calls believers to reject being led by earthly considerations, physical attraction, emotions, or demonic oppression, and instead surrender completely to the Holy Spirit's guidance in every area of life.",
-    "audioId": "1XAxuOjFN785lJQnJGBFjiKE58QbUeg1c"
+    "summary": "Bishop Heward-Mills teaches that there are only four sources of wisdom that guide every decision in life: wisdom from above (Holy Spirit), earthly wisdom (focused only on this world), sensual wisdom (guided by the five senses and feelings), and devilish wisdom (departing from common sense into destructive patterns). He emphasizes that these spiritual influences work invisibly like leaven in dough, subtly affecting choices in relationships, careers, church attendance, and moral decisions without people realizing they are being influenced. He calls believers to reject being led by earthly considerations, physical attraction, emotions, or demonic oppression, and instead surrender completely to the Holy Spirit's guidance in every area of life."
   },
   {
     "id": 268,
@@ -8890,8 +8686,7 @@ export const SERMONS = [
       "James 5:20"
     ],
     "keyScripture": "James 5:20",
-    "summary": "Bishop Joshua teaches that every Christian is called to be a saviour of men by winning souls and converting sinners, not just Jesus Christ alone. He emphasizes that even those struggling with their own passions and weaknesses can fulfill the Great Commission by witnessing and bringing people to Christ. He declares that when believers convert a sinner from error, they save a soul from death and hide a multitude of their own sins, making soul-winning the primary mandate for all Christians.",
-    "mostCentralScripture": "James 5:20"
+    "summary": "Bishop Joshua teaches that every Christian is called to be a saviour of men by winning souls and converting sinners, not just Jesus Christ alone. He emphasizes that even those struggling with their own passions and weaknesses can fulfill the Great Commission by witnessing and bringing people to Christ. He declares that when believers convert a sinner from error, they save a soul from death and hide a multitude of their own sins, making soul-winning the primary mandate for all Christians."
   },
   {
     "id": 270,
@@ -9007,8 +8802,7 @@ export const SERMONS = [
       "John 15:16"
     ],
     "keyScripture": "Matthew 22:14",
-    "summary": "BJosh teaches that God's primary message to the church is not about personal prosperity or blessing, but about His call for believers to give themselves fully to the work of saving souls and fulfilling the Great Commission. He emphasizes that many Christians are called by God—not just a select few—and that the call requires complete surrender, not partial commitment or part-time service. He challenges believers to recognize God's calling through the inner desire and passion for ministry, and to walk away from worldly pursuits to serve God wholeheartedly in bringing forth fruit.",
-    "audioId": "1vOvu1w9ACO3NHvYmqeOSjrd5pNVK9MZw"
+    "summary": "BJosh teaches that God's primary message to the church is not about personal prosperity or blessing, but about His call for believers to give themselves fully to the work of saving souls and fulfilling the Great Commission. He emphasizes that many Christians are called by God—not just a select few—and that the call requires complete surrender, not partial commitment or part-time service. He challenges believers to recognize God's calling through the inner desire and passion for ministry, and to walk away from worldly pursuits to serve God wholeheartedly in bringing forth fruit."
   },
   {
     "id": 274,
@@ -9138,8 +8932,7 @@ export const SERMONS = [
       "John 1:4"
     ],
     "keyScripture": "Luke 19:17",
-    "summary": "BJosh teaches that church growth from 10 to 25 members comes primarily through hearing God's voice through Scripture and the prophet's teaching, combined with deep sermon preparation that can take 45 hours of study for a 45-minute message. He emphasizes that pastors must be faithful in shepherding very few members before God will give them authority over larger congregations, and that laziness in study is the greatest enemy of effective preaching. He warns that ministry cannot coexist with sexual sin, stating that a preacher's life is the true light that people follow, not just their words.",
-    "audioId": "1LLYxWrAx2ic5k3C10kYJazViLUv-wbBA"
+    "summary": "BJosh teaches that church growth from 10 to 25 members comes primarily through hearing God's voice through Scripture and the prophet's teaching, combined with deep sermon preparation that can take 45 hours of study for a 45-minute message. He emphasizes that pastors must be faithful in shepherding very few members before God will give them authority over larger congregations, and that laziness in study is the greatest enemy of effective preaching. He warns that ministry cannot coexist with sexual sin, stating that a preacher's life is the true light that people follow, not just their words."
   },
   {
     "id": 278,
@@ -9215,8 +9008,7 @@ export const SERMONS = [
       "2 Corinthians 13:14"
     ],
     "keyScripture": "John 14:26",
-    "summary": "BJosh teaches that the Holy Spirit is essential for believers to have a personal relationship with God because mankind cannot directly handle the Father's thunderous voice or stand in His presence without dying. He emphasizes that the Holy Spirit helps us know God in two primary ways: by reminding us of Scripture and God's words we've heard before (bringing them to remembrance when we need them), and through Holy Spirit communion where we share a common union with God's presence. BJosh stresses that true Christianity is not about boasting in wisdom, might, or riches, but in personally knowing and understanding God through the Holy Spirit's influence in our daily lives.",
-    "audioId": "1k51NvPqJz5Sy85BKoITANHi5DpdX8Bbk"
+    "summary": "BJosh teaches that the Holy Spirit is essential for believers to have a personal relationship with God because mankind cannot directly handle the Father's thunderous voice or stand in His presence without dying. He emphasizes that the Holy Spirit helps us know God in two primary ways: by reminding us of Scripture and God's words we've heard before (bringing them to remembrance when we need them), and through Holy Spirit communion where we share a common union with God's presence. BJosh stresses that true Christianity is not about boasting in wisdom, might, or riches, but in personally knowing and understanding God through the Holy Spirit's influence in our daily lives."
   },
   {
     "id": 280,
@@ -9251,8 +9043,7 @@ export const SERMONS = [
       "2 Timothy 3:15"
     ],
     "keyScripture": "Proverbs 3:5-6",
-    "summary": "BJosh teaches that hearing from God is an art that must be learned and practiced, requiring believers to trust God completely rather than lean on their own understanding or what looks right to human perception. He emphasizes that God's promotion and glory come through being led by the Holy Spirit in every area of life—relationships, career, ministry—by acknowledging God in all your ways so He can direct your paths. He warns that many people fail to hear from God because they don't trust Him enough to involve Him through prayer in every decision, instead relying on worldly wisdom, personal calculation, or what appears good to their natural senses.",
-    "audioId": "1ytSSxgNAbMwp-e4jYbJaET5Cs0Dm7jBc"
+    "summary": "BJosh teaches that hearing from God is an art that must be learned and practiced, requiring believers to trust God completely rather than lean on their own understanding or what looks right to human perception. He emphasizes that God's promotion and glory come through being led by the Holy Spirit in every area of life—relationships, career, ministry—by acknowledging God in all your ways so He can direct your paths. He warns that many people fail to hear from God because they don't trust Him enough to involve Him through prayer in every decision, instead relying on worldly wisdom, personal calculation, or what appears good to their natural senses."
   },
   {
     "id": 281,
@@ -9340,8 +9131,7 @@ export const SERMONS = [
       "Ezekiel 1:10"
     ],
     "keyScripture": "Genesis 32:24",
-    "summary": "Bishop Joshua teaches that Christians must value their birthright—the unique temperament and gifts God gave them—rather than despising it like Esau did, and use those natural abilities in service to God. He emphasizes that spiritual problems cannot be solved at the point of contact but require wrestling alone with God in intense prayer, just as Jacob wrestled until daybreak and was permanently changed. He warns that any Christian who cannot pray for extended periods (3-5 hours) is not serious, because true transformation comes only through being filled with the Holy Spirit in prayer, not through decisions or human effort.",
-    "keyVerseQuote": ""
+    "summary": "Bishop Joshua teaches that Christians must value their birthright—the unique temperament and gifts God gave them—rather than despising it like Esau did, and use those natural abilities in service to God. He emphasizes that spiritual problems cannot be solved at the point of contact but require wrestling alone with God in intense prayer, just as Jacob wrestled until daybreak and was permanently changed. He warns that any Christian who cannot pray for extended periods (3-5 hours) is not serious, because true transformation comes only through being filled with the Holy Spirit in prayer, not through decisions or human effort."
   },
   {
     "id": 284,
@@ -9413,8 +9203,7 @@ export const SERMONS = [
       "1 John 5"
     ],
     "keyScripture": "Acts 1:8",
-    "summary": "Bishop Joshua teaches that the true evidence of the Holy Spirit's presence is not merely falling down, speaking in tongues, or emotional worship experiences, but becoming a witness for Jesus Christ as stated in Acts 1:8. He emphasizes that the Great Commission from the Book of Acts reveals that believers receive power after the Holy Spirit comes upon them specifically to be witnesses in Jerusalem, Judea, Samaria, and to the uttermost parts of the earth. He challenges the congregation to understand that the real sign of the Holy Spirit in someone's life is their active testimony and witness for Christ, not just manifestations or feelings during worship.",
-    "audioId": "1SV7uODphlzRhtwH9H2oQNvXvsMxaergO"
+    "summary": "Bishop Joshua teaches that the true evidence of the Holy Spirit's presence is not merely falling down, speaking in tongues, or emotional worship experiences, but becoming a witness for Jesus Christ as stated in Acts 1:8. He emphasizes that the Great Commission from the Book of Acts reveals that believers receive power after the Holy Spirit comes upon them specifically to be witnesses in Jerusalem, Judea, Samaria, and to the uttermost parts of the earth. He challenges the congregation to understand that the real sign of the Holy Spirit in someone's life is their active testimony and witness for Christ, not just manifestations or feelings during worship."
   },
   {
     "id": 286,
@@ -9445,8 +9234,7 @@ export const SERMONS = [
       "Psalm 4"
     ],
     "keyScripture": "Nehemiah 2:20",
-    "summary": "Bishop Joshua teaches that you cannot have what you refuse to build, emphasizing that inheritance without wisdom leads to nothing while building requires intentional, gradual effort over time. He contrasts African dependency on foreign aid and inheritance mentality with the need to personally construct everything from infrastructure to relationships, marriages, ministries, and spiritual disciplines block by block. Using Nehemiah as an example, he insists that transformation comes through slow, deliberate building—whether developing members, overcoming sin, growing in prayer, or establishing churches—rather than expecting instant results or waiting for others to provide solutions.",
-    "audioId": "1CixH3X6w6uXOyztYwoZcRPYPGE1BIaXu"
+    "summary": "Bishop Joshua teaches that you cannot have what you refuse to build, emphasizing that inheritance without wisdom leads to nothing while building requires intentional, gradual effort over time. He contrasts African dependency on foreign aid and inheritance mentality with the need to personally construct everything from infrastructure to relationships, marriages, ministries, and spiritual disciplines block by block. Using Nehemiah as an example, he insists that transformation comes through slow, deliberate building—whether developing members, overcoming sin, growing in prayer, or establishing churches—rather than expecting instant results or waiting for others to provide solutions."
   },
   {
     "id": 287,
@@ -9475,8 +9263,7 @@ export const SERMONS = [
       "Galatians 2:9"
     ],
     "keyScripture": "Zechariah 12:10",
-    "summary": "BJosh teaches that grace is a spirit that must be poured out on believers, making difficult things become easy and supernatural in their lives. He emphasizes that people should recognize and operate in the specific graces God has given them rather than struggling in areas where they lack grace, illustrated by his own ministry successes happening with ease. He concludes that the spirit of grace can be transferred from one vessel to another, calling believers to receive the grace that ends struggles and brings supernatural provision and favor.",
-    "audioId": "14GD_RnOq_giblfuCdONOGd_LL4NMo1i-"
+    "summary": "BJosh teaches that grace is a spirit that must be poured out on believers, making difficult things become easy and supernatural in their lives. He emphasizes that people should recognize and operate in the specific graces God has given them rather than struggling in areas where they lack grace, illustrated by his own ministry successes happening with ease. He concludes that the spirit of grace can be transferred from one vessel to another, calling believers to receive the grace that ends struggles and brings supernatural provision and favor."
   },
   {
     "id": 288,
@@ -9511,8 +9298,7 @@ export const SERMONS = [
       "Matthew 18:33"
     ],
     "keyScripture": "Genesis 8:22",
-    "summary": "BJosh teaches that God's primary method of provision is through the principle of sowing seeds and reaping harvests, not through direct blessing without sowing. He emphasizes that seeds include not only money but all good things (possessions, food, material items) and spiritual virtues (mercy, forgiveness, compassion, honor). He argues that Christians who lack provision have no seed in the ground to harvest, and that Genesis 8:22's prophecy guarantees that seedtime and harvest will never cease, giving believers legal entitlement to reap what they have sown.",
-    "audioId": "1UPwWH5R_6ByFjWlZ8yBSEFLDgJVIYXZt"
+    "summary": "BJosh teaches that God's primary method of provision is through the principle of sowing seeds and reaping harvests, not through direct blessing without sowing. He emphasizes that seeds include not only money but all good things (possessions, food, material items) and spiritual virtues (mercy, forgiveness, compassion, honor). He argues that Christians who lack provision have no seed in the ground to harvest, and that Genesis 8:22's prophecy guarantees that seedtime and harvest will never cease, giving believers legal entitlement to reap what they have sown."
   },
   {
     "id": 289,
@@ -9563,8 +9349,7 @@ export const SERMONS = [
       "Hebrews 4:12"
     ],
     "keyScripture": "2 Corinthians 3:18",
-    "summary": "BJosh teaches that true transformation (metamorphosis) happens through the Word of God renewing the mind, requiring the Holy Spirit to remove the veil over the heart so believers can behold God's glory and be changed from glory to glory. He contrasts genuine inner transformation (metamorphoso) with outward false change (meta-schematizo) where people appear changed but remain spiritual children with unchanged desires, thinking, and behavior. He emphasizes that continuous exposure to preaching and Scripture—not just prayer or church attendance—is what captures wrong thoughts, changes the mind, and produces actual Christ-like transformation in believers' lives.",
-    "audioId": "1c9ZAhAvKWKyqGPhS4kENg81Uw8F086RP"
+    "summary": "BJosh teaches that true transformation (metamorphosis) happens through the Word of God renewing the mind, requiring the Holy Spirit to remove the veil over the heart so believers can behold God's glory and be changed from glory to glory. He contrasts genuine inner transformation (metamorphoso) with outward false change (meta-schematizo) where people appear changed but remain spiritual children with unchanged desires, thinking, and behavior. He emphasizes that continuous exposure to preaching and Scripture—not just prayer or church attendance—is what captures wrong thoughts, changes the mind, and produces actual Christ-like transformation in believers' lives."
   },
   {
     "id": 290,
@@ -9588,8 +9373,7 @@ export const SERMONS = [
       "Matthew 25:14-30"
     ],
     "keyScripture": "Matthew 25:14-30",
-    "summary": "Bishop Heward-Mills teaches on the parable of the talents from Matthew 25, explaining why people don't use their talents in God's service. He identifies fear, hidden talents, and making excuses (finding fault with God) as the primary reasons believers fail to serve and use what God has given them. He emphasizes that the church is built to prevail against hell and that everyone has been given talents they must use rather than hide or make excuses about.",
-    "audioId": "176a0yjhEdbdwTC09c0I3EIWk50iM311G"
+    "summary": "Bishop Heward-Mills teaches on the parable of the talents from Matthew 25, explaining why people don't use their talents in God's service. He identifies fear, hidden talents, and making excuses (finding fault with God) as the primary reasons believers fail to serve and use what God has given them. He emphasizes that the church is built to prevail against hell and that everyone has been given talents they must use rather than hide or make excuses about."
   },
   {
     "id": 291,
@@ -9624,8 +9408,7 @@ export const SERMONS = [
       "Isaiah 53"
     ],
     "keyScripture": "Luke 17:32",
-    "summary": "Bishop Heward-Mills teaches that Christians who actively work for God through soul winning and bus ministry receive supernatural wages and provision, as illustrated by testimonies of students who brought people to church. He warns believers not to be like Lot's wife by having one foot in the world and one foot in Christ, but instead to completely forget what is behind and reach forward to God's calling. He emphasizes that God sends ordinary people as His messengers of salvation, and urges listeners to give their whole hearts to Jesus rather than holding back parts of their lives for the world.",
-    "audioId": "1fxUxU0I9AN2fV5qG9QA1QyS9PWPo0JkJ"
+    "summary": "Bishop Heward-Mills teaches that Christians who actively work for God through soul winning and bus ministry receive supernatural wages and provision, as illustrated by testimonies of students who brought people to church. He warns believers not to be like Lot's wife by having one foot in the world and one foot in Christ, but instead to completely forget what is behind and reach forward to God's calling. He emphasizes that God sends ordinary people as His messengers of salvation, and urges listeners to give their whole hearts to Jesus rather than holding back parts of their lives for the world."
   },
   {
     "id": 292,
@@ -9651,8 +9434,7 @@ export const SERMONS = [
       "Hebrews 6:4-5"
     ],
     "keyScripture": "1 Peter 1:18-19",
-    "summary": "Bishop Joshua teaches that the blood of Jesus possesses supernatural abilities, specifically that it never expires like human blood (which lasts only 42 days) because Jesus was conceived of the Holy Spirit and His blood retains eternal power. He emphasizes that the blood has the power to save people from all well-deserved punishment, washing away sins that cannot be removed by good works, preaching, singing, or any human effort. He illustrates through testimonies that no matter how many times a person needs cleansing or how severe their sins (including criminals and murderers), the blood of Jesus remains perpetually powerful to forgive and transform lives completely.",
-    "audioId": "1kNU-eUY0ooEINGYy3odugOfdvjTB64J-"
+    "summary": "Bishop Joshua teaches that the blood of Jesus possesses supernatural abilities, specifically that it never expires like human blood (which lasts only 42 days) because Jesus was conceived of the Holy Spirit and His blood retains eternal power. He emphasizes that the blood has the power to save people from all well-deserved punishment, washing away sins that cannot be removed by good works, preaching, singing, or any human effort. He illustrates through testimonies that no matter how many times a person needs cleansing or how severe their sins (including criminals and murderers), the blood of Jesus remains perpetually powerful to forgive and transform lives completely."
   },
   {
     "id": 293,
@@ -9703,8 +9485,7 @@ export const SERMONS = [
       "Habakkuk 1:5"
     ],
     "keyScripture": "John 20:22",
-    "summary": "Bishop Joshua teaches that the Holy Spirit is God's complete provision for every area of life—not just for spiritual manifestations like falling down or speaking in tongues, but for business, education, family, and overcoming all challenges, just as God equipped Jesus when sending Him to earth. He explains that obedience is the key that unlocks miracles, as seen at the wedding in Cana, but disobedience is often caused by perverse spirits working inside people that prevent them from doing what they know is right. The solution is receiving and walking in the Holy Spirit's influence, which empowers believers to obey God's commandments, submit to spiritual authority, and experience supernatural breakthrough in every situation.",
-    "audioId": "1Hu77uXe2ITQTH4qjCaZ15SGVBdACgPtb"
+    "summary": "Bishop Joshua teaches that the Holy Spirit is God's complete provision for every area of life—not just for spiritual manifestations like falling down or speaking in tongues, but for business, education, family, and overcoming all challenges, just as God equipped Jesus when sending Him to earth. He explains that obedience is the key that unlocks miracles, as seen at the wedding in Cana, but disobedience is often caused by perverse spirits working inside people that prevent them from doing what they know is right. The solution is receiving and walking in the Holy Spirit's influence, which empowers believers to obey God's commandments, submit to spiritual authority, and experience supernatural breakthrough in every situation."
   },
   {
     "id": 294,
@@ -9735,8 +9516,7 @@ export const SERMONS = [
       "1 John 2"
     ],
     "keyScripture": "Hebrews 7:7",
-    "summary": "Bishop Heward-Mills teaches that honoring the prophet God sends to you is a biblical principle that releases prosperity and blessing into your life. He emphasizes that according to Hebrews 7:7, the lesser is always blessed by the greater, and that the man of God who builds the house deserves more honor than the house itself. He stresses that receiving and honoring God's sent messenger is equivalent to receiving Jesus Himself, as stated in Matthew 10:40 and Luke 10:16, and that this honor should be expressed tangibly through financial support and recognition of spiritual authority.",
-    "audioId": "1V6CK1yIj-1_peF5YxL8p_kG-WEbQV0bU"
+    "summary": "Bishop Heward-Mills teaches that honoring the prophet God sends to you is a biblical principle that releases prosperity and blessing into your life. He emphasizes that according to Hebrews 7:7, the lesser is always blessed by the greater, and that the man of God who builds the house deserves more honor than the house itself. He stresses that receiving and honoring God's sent messenger is equivalent to receiving Jesus Himself, as stated in Matthew 10:40 and Luke 10:16, and that this honor should be expressed tangibly through financial support and recognition of spiritual authority."
   },
   {
     "id": 295,
@@ -9773,8 +9553,7 @@ export const SERMONS = [
       "Genesis 1"
     ],
     "keyScripture": "Hosea 12:13",
-    "summary": "Bishop Joshua teaches that carefully choosing your mentor is critical to breaking out of stagnation, which he calls 'Egyptian syndrome'—being stuck despite praying, tithing, and attending church. He emphasizes that God brings deliverance through prophets (Hosea 12:13), using the example of John the Baptist's disciples who chose to follow Jesus instead of remaining with their original mentor. He urges believers to recognize and follow the prophet God has sent to them, as this choice determines whether they will experience breakthrough and greatness or remain spiritually stuck.",
-    "audioId": "1cX6H2r4epMvI7mYOM5uah4Vg3A8YfWiM"
+    "summary": "Bishop Joshua teaches that carefully choosing your mentor is critical to breaking out of stagnation, which he calls 'Egyptian syndrome'—being stuck despite praying, tithing, and attending church. He emphasizes that God brings deliverance through prophets (Hosea 12:13), using the example of John the Baptist's disciples who chose to follow Jesus instead of remaining with their original mentor. He urges believers to recognize and follow the prophet God has sent to them, as this choice determines whether they will experience breakthrough and greatness or remain spiritually stuck."
   },
   {
     "id": 296,
@@ -9809,8 +9588,7 @@ export const SERMONS = [
       "James 5:13"
     ],
     "keyScripture": "Hosea 12:13",
-    "summary": "Bishop Heward-Mills teaches that the only solution to being stuck in spiritual Egypt is through honoring and receiving ministry from God's prophet, not through tithing, offerings, or personal prayer alone. He emphasizes that God divinely selects specific people to receive a prophet (one from a city, two from a family according to Jeremiah 3:14-16), and that believers must recognize this divine assignment and honor it. He declares that by a prophet God brings deliverance and preservation, transforming backsliding children into those who are increased and multiplied through pastoral ministry.",
-    "audioId": "1XRCd-JLlktNOTRuKoMHhQr4-fiTyRm5R"
+    "summary": "Bishop Heward-Mills teaches that the only solution to being stuck in spiritual Egypt is through honoring and receiving ministry from God's prophet, not through tithing, offerings, or personal prayer alone. He emphasizes that God divinely selects specific people to receive a prophet (one from a city, two from a family according to Jeremiah 3:14-16), and that believers must recognize this divine assignment and honor it. He declares that by a prophet God brings deliverance and preservation, transforming backsliding children into those who are increased and multiplied through pastoral ministry."
   },
   {
     "id": 297,
@@ -9840,8 +9618,7 @@ export const SERMONS = [
       "Romans 10:14-15"
     ],
     "keyScripture": "Hebrews 6:10",
-    "summary": "Pastor Joshua teaches that God sends prophets and pastors as a spiritual solution to feed believers with knowledge and understanding, and that honoring these sent ministers is the pathway to blessing. He emphasizes that the greatest labor of love is not material gifts but spiritual ministry, and God will not forget those who minister to the saints. He calls First Love Church members to never forget their soul winner—the person or ministry through whom they were saved—as this recognition is foundational to walking in righteousness and avoiding spiritual ingratitude.",
-    "audioId": "1dOJ2ScW4L-3siZlRnCno5EVLZeVVtCNZ"
+    "summary": "Pastor Joshua teaches that God sends prophets and pastors as a spiritual solution to feed believers with knowledge and understanding, and that honoring these sent ministers is the pathway to blessing. He emphasizes that the greatest labor of love is not material gifts but spiritual ministry, and God will not forget those who minister to the saints. He calls First Love Church members to never forget their soul winner—the person or ministry through whom they were saved—as this recognition is foundational to walking in righteousness and avoiding spiritual ingratitude."
   },
   {
     "id": 298,
@@ -10057,8 +9834,7 @@ export const SERMONS = [
       "Proverbs 4:5"
     ],
     "keyScripture": "2 Timothy 3:15-16",
-    "summary": "Bishop Joshua teaches that having a daily quiet time—spending time alone with God reading Scripture every morning—is the secret to spiritual growth, wisdom, and prosperity. He explains that the Word of God is a seed that, when sown daily into one's life, produces a harvest of good things, illuminates one's path to avoid walking in darkness, and makes believers wise beyond human education. Through testimonies and practical illustrations, he demonstrates that consistent Scripture reading and church involvement lead to supernatural provision, transformation of character, and divine direction in every area of life.",
-    "audioId": "1RVAw-4qSyo6GojMkeCvoOG40Ohjocb2K"
+    "summary": "Bishop Joshua teaches that having a daily quiet time—spending time alone with God reading Scripture every morning—is the secret to spiritual growth, wisdom, and prosperity. He explains that the Word of God is a seed that, when sown daily into one's life, produces a harvest of good things, illuminates one's path to avoid walking in darkness, and makes believers wise beyond human education. Through testimonies and practical illustrations, he demonstrates that consistent Scripture reading and church involvement lead to supernatural provision, transformation of character, and divine direction in every area of life."
   },
   {
     "id": 303,
@@ -10104,8 +9880,7 @@ export const SERMONS = [
       "James 1:13-14"
     ],
     "keyScripture": "John 15:16",
-    "summary": "Bishop Heward-Mills teaches that God chose and ordained Christians specifically to be fruitful—to bring people to Christ and fill the church—and that barrenness is a curse while fruitfulness brings God's blessing and answered prayers. He identifies the main obstacles to fruitfulness as the cares of this world, the deceitfulness of riches and love of money, and the lust for other things, all of which choke spiritual productivity. He urges believers to develop spiritual goals and vision alongside their natural ambitions, emphasizing that contentment with food and clothing frees Christians from the trap of pursuing wealth and enables them to focus on multiplication and soul-winning.",
-    "audioId": "1vHW65Gep3ovfeQBiRG4OQS1C1ebwzOrq"
+    "summary": "Bishop Heward-Mills teaches that God chose and ordained Christians specifically to be fruitful—to bring people to Christ and fill the church—and that barrenness is a curse while fruitfulness brings God's blessing and answered prayers. He identifies the main obstacles to fruitfulness as the cares of this world, the deceitfulness of riches and love of money, and the lust for other things, all of which choke spiritual productivity. He urges believers to develop spiritual goals and vision alongside their natural ambitions, emphasizing that contentment with food and clothing frees Christians from the trap of pursuing wealth and enables them to focus on multiplication and soul-winning."
   },
   {
     "id": 304,
@@ -10194,8 +9969,7 @@ export const SERMONS = [
       "Jeremiah 3:15"
     ],
     "keyScripture": "Mark 4:16-17",
-    "summary": "BJosh teaches that 80% of Christians are shallow because they lack spiritual roots and foundations, evidenced by their inability to know scripture, pray for one hour daily, worship genuinely, or teach others after one year of being saved. He emphasizes that the foundation of a Christian is the unseen part—their quiet time, prayer life, and knowledge of God's Word—which determines how high they can grow spiritually and whether they will withstand life's storms. He challenges believers to develop depth through daily Bible reading, extended prayer, scripture memorization, and consistent church fellowship rather than remaining sensual, surface-level Christians who separate themselves and have no spirit.",
-    "audioId": "1rpVzZt0ozC4uhUi_mrQD17nH8kvPuS0V"
+    "summary": "BJosh teaches that 80% of Christians are shallow because they lack spiritual roots and foundations, evidenced by their inability to know scripture, pray for one hour daily, worship genuinely, or teach others after one year of being saved. He emphasizes that the foundation of a Christian is the unseen part—their quiet time, prayer life, and knowledge of God's Word—which determines how high they can grow spiritually and whether they will withstand life's storms. He challenges believers to develop depth through daily Bible reading, extended prayer, scripture memorization, and consistent church fellowship rather than remaining sensual, surface-level Christians who separate themselves and have no spirit."
   },
   {
     "id": 306,
@@ -10240,8 +10014,7 @@ export const SERMONS = [
       "Psalm 3"
     ],
     "keyScripture": "Matthew 16:17",
-    "summary": "Bishop Joshua teaches that recognizing spiritual fathers requires divine revelation from God, not natural perception, just as Peter needed the Father to reveal Jesus' true identity. He identifies nine types of fathers in a believer's life including heavenly Father, father in Christ, father in ministry, biological father, and substitute father, emphasizing that honoring all these fathers through speech, time, and money brings the blessing of long life. He stresses that believers often miss their fathers because they walk in disguises of familiarity and weakness, but the commandments of the Lord must open our eyes to see and honor them despite their flaws.",
-    "audioId": "1atvxlIxO_G6Bb8jJYCdi_-k3kYoky7fE"
+    "summary": "Bishop Joshua teaches that recognizing spiritual fathers requires divine revelation from God, not natural perception, just as Peter needed the Father to reveal Jesus' true identity. He identifies nine types of fathers in a believer's life including heavenly Father, father in Christ, father in ministry, biological father, and substitute father, emphasizing that honoring all these fathers through speech, time, and money brings the blessing of long life. He stresses that believers often miss their fathers because they walk in disguises of familiarity and weakness, but the commandments of the Lord must open our eyes to see and honor them despite their flaws."
   },
   {
     "id": 307,
@@ -10272,8 +10045,7 @@ export const SERMONS = [
       "1 Corinthians 15:33"
     ],
     "keyScripture": "Isaiah 61:3",
-    "summary": "Bishop Joshua teaches that Christians are 'trees of righteousness' whose spiritual growth and character are determined by their atmosphere—the things they hear, see, look upon, handle, and fellowship with. He explains that transformation into priesthood and ministry comes not from trying to change oneself directly, but from changing one's spiritual atmosphere and surroundings, which then automatically produces the change. He emphasizes that dwelling in God's house and fellowshiping with godly preaching, proclamation, and anointing creates the atmosphere that transforms people from their past into ministers and priests of God.",
-    "audioId": "1uSPuRaQXgEtgRcX67laiMNGJabhtL7fC"
+    "summary": "Bishop Joshua teaches that Christians are 'trees of righteousness' whose spiritual growth and character are determined by their atmosphere—the things they hear, see, look upon, handle, and fellowship with. He explains that transformation into priesthood and ministry comes not from trying to change oneself directly, but from changing one's spiritual atmosphere and surroundings, which then automatically produces the change. He emphasizes that dwelling in God's house and fellowshiping with godly preaching, proclamation, and anointing creates the atmosphere that transforms people from their past into ministers and priests of God."
   },
   {
     "id": 308,
@@ -10303,8 +10075,7 @@ export const SERMONS = [
       "Genesis 22:4-14"
     ],
     "keyScripture": "Hebrews 10:25",
-    "summary": "BJosh teaches that the assembly of the saints is where Satan is directly confronted and dealt with through corporate worship, prayer, and preaching, making believers uncomfortable targets when scattered but victorious when gathered. He emphasizes that the church provides a spiritual family that shows up in times of adversity, unlike temporary friendships that fade, with true brothers and sisters revealed in trouble. He concludes that God supplies all needs in the assembly (Jehovah Jireh) at Mount Zion, where provision comes even before asking, including spouses, jobs, education, and spiritual breakthrough.",
-    "audioId": "1GcD6xqhCAMR-MAH9QjnHGZ2MaZU-7lXY"
+    "summary": "BJosh teaches that the assembly of the saints is where Satan is directly confronted and dealt with through corporate worship, prayer, and preaching, making believers uncomfortable targets when scattered but victorious when gathered. He emphasizes that the church provides a spiritual family that shows up in times of adversity, unlike temporary friendships that fade, with true brothers and sisters revealed in trouble. He concludes that God supplies all needs in the assembly (Jehovah Jireh) at Mount Zion, where provision comes even before asking, including spouses, jobs, education, and spiritual breakthrough."
   },
   {
     "id": 309,
@@ -10340,8 +10111,7 @@ export const SERMONS = [
       "Joel 3:10"
     ],
     "keyScripture": "1 Corinthians 14:3",
-    "summary": "BJosh teaches that preaching in the assembly of the saints serves three vital purposes: edification (building up the spirit to overcome the flesh), exhortation (encouraging believers in spiritual warfare), and comfort (reminding discouraged Christians that God hasn't given up on them). He illustrates how consistent exposure to preaching constructs spiritual strength like building a house, enabling believers to resist temptation and overcome struggles they previously couldn't defeat. Using personal testimony and the image of God as Jehovah Nissi (our banner over the battlefield), he emphasizes that gathering for church and hearing God's Word provides the supernatural power needed to win battles in Christian life.",
-    "audioId": "14pr8WLEn6i1QV25yDps4hSSmrFPKp70K"
+    "summary": "BJosh teaches that preaching in the assembly of the saints serves three vital purposes: edification (building up the spirit to overcome the flesh), exhortation (encouraging believers in spiritual warfare), and comfort (reminding discouraged Christians that God hasn't given up on them). He illustrates how consistent exposure to preaching constructs spiritual strength like building a house, enabling believers to resist temptation and overcome struggles they previously couldn't defeat. Using personal testimony and the image of God as Jehovah Nissi (our banner over the battlefield), he emphasizes that gathering for church and hearing God's Word provides the supernatural power needed to win battles in Christian life."
   },
   {
     "id": 310,
@@ -10376,8 +10146,7 @@ export const SERMONS = [
       "Ezekiel 48:30-35"
     ],
     "keyScripture": "Hebrews 10:25",
-    "summary": "Bishop Heward-Mills teaches that as the signs of Jesus' imminent return intensify (wars, famines, persecution), believers must prioritize assembling together in church services rather than forsaking corporate gatherings. He emphasizes three reasons to assemble: God's presence manifests powerfully when believers gather, the preached Word of God is the primary weapon that breaks deception and transforms lives quickly, and the church silences the accusing voice of Satan by providing gates of entry for every type of sinner (illustrated by the tribal gates in Ezekiel 48). The central exhortation is that consistent church attendance—gathering with the saints—is the most important response to recognizing we are living in the last days before Christ's return.",
-    "audioId": "1RzAkV_0Cw2RvfEZejfSRjVYLrIJkJ_sa"
+    "summary": "Bishop Heward-Mills teaches that as the signs of Jesus' imminent return intensify (wars, famines, persecution), believers must prioritize assembling together in church services rather than forsaking corporate gatherings. He emphasizes three reasons to assemble: God's presence manifests powerfully when believers gather, the preached Word of God is the primary weapon that breaks deception and transforms lives quickly, and the church silences the accusing voice of Satan by providing gates of entry for every type of sinner (illustrated by the tribal gates in Ezekiel 48). The central exhortation is that consistent church attendance—gathering with the saints—is the most important response to recognizing we are living in the last days before Christ's return."
   },
   {
     "id": 311,
@@ -10404,8 +10173,7 @@ export const SERMONS = [
       "Psalm 90:12"
     ],
     "keyScripture": "Ephesians 5:15-16",
-    "summary": "BJosh teaches that believers must redeem (rescue from uselessness) their time by walking accurately and understanding what season they are in, because the Bible commands us to walk circumspectly as wise people, not fools. He explains three 'nights' when you can no longer work for God: old age when energy is gone, after graduation when access to schools ends, and after migration when doors in previous locations close. Through personal stories of wasted opportunities in secondary school and urgent ministry in university, he urges young people to use their current energy, access, and opportunities to win souls and serve God before their 'day' of opportunity passes into 'night' when no one can work.",
-    "audioId": "1Mn7oM0IycdkFI-dIy6Avar5Zwrca3MCY"
+    "summary": "BJosh teaches that believers must redeem (rescue from uselessness) their time by walking accurately and understanding what season they are in, because the Bible commands us to walk circumspectly as wise people, not fools. He explains three 'nights' when you can no longer work for God: old age when energy is gone, after graduation when access to schools ends, and after migration when doors in previous locations close. Through personal stories of wasted opportunities in secondary school and urgent ministry in university, he urges young people to use their current energy, access, and opportunities to win souls and serve God before their 'day' of opportunity passes into 'night' when no one can work."
   },
   {
     "id": 312,
@@ -10434,8 +10202,7 @@ export const SERMONS = [
       "1 John 3:16"
     ],
     "keyScripture": "Matthew 6:33",
-    "summary": "Bishop Heward-Mills teaches on the Greek word 'proton' (meaning first in order and value) to emphasize that Christians must seek God's kingdom first before worrying about food, clothes, or material needs. He challenges young people to use their energy for church work—preaching, soul-winning, and serving—arguing that prosperity, academic success, and provision come supernaturally through prioritizing God's work over personal concerns. He calls believers to respond to Christ's sacrifice with radical devotion, making God's business (evangelism, church service, giving) the absolute priority rather than career, relationships, or security.",
-    "audioId": "11w412S1aUF_BCB2jvz6yNj_waJnOfEYd"
+    "summary": "Bishop Heward-Mills teaches on the Greek word 'proton' (meaning first in order and value) to emphasize that Christians must seek God's kingdom first before worrying about food, clothes, or material needs. He challenges young people to use their energy for church work—preaching, soul-winning, and serving—arguing that prosperity, academic success, and provision come supernaturally through prioritizing God's work over personal concerns. He calls believers to respond to Christ's sacrifice with radical devotion, making God's business (evangelism, church service, giving) the absolute priority rather than career, relationships, or security."
   },
   {
     "id": 313,
@@ -10467,8 +10234,7 @@ export const SERMONS = [
       "Job 14:1"
     ],
     "keyScripture": "Philippians 2:4",
-    "summary": "Bishop Joshua Heward-Mills teaches that the primary evidence of true Christianity is not outward religious practices but loving and caring for others, as emphasized by William Booth's one-word telegram 'OTHERS'. He argues that when the Holy Spirit transforms believers, the greatest change is shifting from self-centeredness to being genuinely concerned about other people's needs and problems. Christians are called to spend and be spent for others, living sacrificially to serve people rather than pursuing their own comfort, success, or happiness.",
-    "keyScripture_context": "Philippians 2:4 - 'Look not every man on his own things, but every man also on the things of others' - is quoted repeatedly throughout the sermon as the foundation for the 'OTHERS' message."
+    "summary": "Bishop Joshua Heward-Mills teaches that the primary evidence of true Christianity is not outward religious practices but loving and caring for others, as emphasized by William Booth's one-word telegram 'OTHERS'. He argues that when the Holy Spirit transforms believers, the greatest change is shifting from self-centeredness to being genuinely concerned about other people's needs and problems. Christians are called to spend and be spent for others, living sacrificially to serve people rather than pursuing their own comfort, success, or happiness."
   },
   {
     "id": 314,
@@ -10505,8 +10271,7 @@ export const SERMONS = [
       "Galatians"
     ],
     "keyScripture": "2 Corinthians 5:21",
-    "summary": "BJosh teaches that when a person is saved, God imputes Christ's perfect righteousness to them through substitutionary exchange—all the believer's sins (past, present, and future) were placed on Jesus at the cross, and Jesus' 33 years of sinless perfection are credited to the believer, making them completely righteous and holy before God regardless of their behavior. He emphasizes that salvation requires public confession of faith before people, not just private belief, and that many church-goers may not be truly saved because they have never made this public declaration. He explains that Christians overcome sin not through self-effort or law-consciousness, but through accurately knowing and confessing their righteous identity in Christ (Philemon 1:6), which makes their faith effective and powerful to break sin's grip.",
-    "audioId": "1kzurAQu5VbbQXsTAQ1XB6AU7IhxkQl3C"
+    "summary": "BJosh teaches that when a person is saved, God imputes Christ's perfect righteousness to them through substitutionary exchange—all the believer's sins (past, present, and future) were placed on Jesus at the cross, and Jesus' 33 years of sinless perfection are credited to the believer, making them completely righteous and holy before God regardless of their behavior. He emphasizes that salvation requires public confession of faith before people, not just private belief, and that many church-goers may not be truly saved because they have never made this public declaration. He explains that Christians overcome sin not through self-effort or law-consciousness, but through accurately knowing and confessing their righteous identity in Christ (Philemon 1:6), which makes their faith effective and powerful to break sin's grip."
   },
   {
     "id": 315,
@@ -10549,8 +10314,7 @@ export const SERMONS = [
       "2 Samuel 24"
     ],
     "keyScripture": "Deuteronomy 11:26-28",
-    "summary": "Bishop Heward-Mills teaches that curses from the law of God can be neutralized through three primary means: obedience to God's commands, crying out for God's mercy, and bringing costly sacrificial offerings that are precious to the giver. He explains that various curses exist in Scripture for idol worship, dishonoring parents, lying, mistreating the vulnerable, and trusting in man rather than God, and these curses can affect multiple generations. The washing away of curses (OMO) happens when believers choose the blessing over the curse by obeying God's instructions, seeking His mercy, and sacrificing offerings that genuinely cost them something rather than giving what is convenient or leftover.",
-    "audioId": "1rb6jDo7wBunDtEoUSt8ZECX2KQxceJRc"
+    "summary": "Bishop Heward-Mills teaches that curses from the law of God can be neutralized through three primary means: obedience to God's commands, crying out for God's mercy, and bringing costly sacrificial offerings that are precious to the giver. He explains that various curses exist in Scripture for idol worship, dishonoring parents, lying, mistreating the vulnerable, and trusting in man rather than God, and these curses can affect multiple generations. The washing away of curses (OMO) happens when believers choose the blessing over the curse by obeying God's instructions, seeking His mercy, and sacrificing offerings that genuinely cost them something rather than giving what is convenient or leftover."
   },
   {
     "id": 316,
@@ -10577,8 +10341,7 @@ export const SERMONS = [
       "Romans 16:13"
     ],
     "keyScripture": "1 Corinthians 4:15",
-    "summary": "Bishop Joshua teaches that many pastors and workers remain in a labor-only relationship with their spiritual leaders and never transition into spiritual sonship, which is the pathway to inheriting the anointing. He emphasizes that becoming a son requires becoming teachable, continuously learning from spiritual fathers, and reading books to grow in wisdom, leadership, and ministry skills. He challenges the congregation to move from autopilot ministry work into intentional learning, warning that those unwilling to learn will be set aside as God raises up serious, diligent sons and daughters.",
-    "audioId": "14v9FUKpDBC2ltTfu2A7oobVNRP-vTQGr"
+    "summary": "Bishop Joshua teaches that many pastors and workers remain in a labor-only relationship with their spiritual leaders and never transition into spiritual sonship, which is the pathway to inheriting the anointing. He emphasizes that becoming a son requires becoming teachable, continuously learning from spiritual fathers, and reading books to grow in wisdom, leadership, and ministry skills. He challenges the congregation to move from autopilot ministry work into intentional learning, warning that those unwilling to learn will be set aside as God raises up serious, diligent sons and daughters."
   },
   {
     "id": 317,
@@ -10616,8 +10379,7 @@ export const SERMONS = [
       "Habakkuk 2:20"
     ],
     "keyScripture": "James 3:8",
-    "summary": "Bishop Joshua teaches that blasphemy—speaking irreverently about God, His name, His church, or His servants—is a dangerous form of poison that comes from the tongue and brings God's wrath and judgment. He emphasizes that using God's name in vain (as a casual expression or swear word) violates the commandment and carries severe consequences, illustrating this with the Old Testament story of a man stoned for blaspheming God's name in Leviticus 24. He warns believers to guard their speech carefully, to never speak negatively about any church (the bride of Christ) or God's servants, and to replace careless words with positive declarations that bring life rather than death.",
-    "audioId": "1cb6OtpdT2WbG8QnjwuTvDGUCEYSeBKPA"
+    "summary": "Bishop Joshua teaches that blasphemy—speaking irreverently about God, His name, His church, or His servants—is a dangerous form of poison that comes from the tongue and brings God's wrath and judgment. He emphasizes that using God's name in vain (as a casual expression or swear word) violates the commandment and carries severe consequences, illustrating this with the Old Testament story of a man stoned for blaspheming God's name in Leviticus 24. He warns believers to guard their speech carefully, to never speak negatively about any church (the bride of Christ) or God's servants, and to replace careless words with positive declarations that bring life rather than death."
   },
   {
     "id": 318,
@@ -10646,9 +10408,7 @@ export const SERMONS = [
       "Luke 18:8"
     ],
     "keyScripture": "Luke 18:1",
-    "summary": "Bishop Joshua teaches that the parable of the persistent widow and unjust judge has one aim: to show that men must always pray and not give up. He emphasizes that God will definitely avenge His elect who cry to Him day and night with continual, persistent prayer that wearies God until He answers. The key to answered prayer is not our goodness or God's favoritism, but our perseverance and refusal to stop praying, empowered by the Holy Spirit who gives strength to persist without fainting.",
-    "keyScripture_fullText": "Luke 18:1 - And he spake a parable unto them to this end, that men ought always to pray, and not to faint",
-    "audioId": "1N5zDvuIvJ_p04lxLLesnHHkYjOqDBHDa"
+    "summary": "Bishop Joshua teaches that the parable of the persistent widow and unjust judge has one aim: to show that men must always pray and not give up. He emphasizes that God will definitely avenge His elect who cry to Him day and night with continual, persistent prayer that wearies God until He answers. The key to answered prayer is not our goodness or God's favoritism, but our perseverance and refusal to stop praying, empowered by the Holy Spirit who gives strength to persist without fainting."
   },
   {
     "id": 319,
@@ -10677,8 +10437,7 @@ export const SERMONS = [
       "1 Timothy 1:19"
     ],
     "keyScripture": "1 Thessalonians 5:23",
-    "summary": "Bishop Heward-Mills teaches that becoming a spiritual Christian requires sanctifying all three parts of the human being—spirit, soul, and body—through prayer (especially praying in tongues), regular church attendance and fellowship, separating from bad company (including professing believers who are fornicators or otherwise immoral), and maintaining a good conscience by obeying the inner moral compass God has placed in every person. He uses dramatic illustrations (actors representing flesh, soul, and spirit in conflict) to show how prayer strengthens the spirit man to overcome fleshly desires and soulish reasoning. He warns that ignoring one's conscience repeatedly leads to spiritual shipwreck and being 'delivered to Satan' for discipline, using examples like Samson who repeatedly ignored warning signs until he lost his ministry and reputation.",
-    "audioId": "1XSxnRUHZesUbXzbNYjkK7yfb5RpPAJRB"
+    "summary": "Bishop Heward-Mills teaches that becoming a spiritual Christian requires sanctifying all three parts of the human being—spirit, soul, and body—through prayer (especially praying in tongues), regular church attendance and fellowship, separating from bad company (including professing believers who are fornicators or otherwise immoral), and maintaining a good conscience by obeying the inner moral compass God has placed in every person. He uses dramatic illustrations (actors representing flesh, soul, and spirit in conflict) to show how prayer strengthens the spirit man to overcome fleshly desires and soulish reasoning. He warns that ignoring one's conscience repeatedly leads to spiritual shipwreck and being 'delivered to Satan' for discipline, using examples like Samson who repeatedly ignored warning signs until he lost his ministry and reputation."
   },
   {
     "id": 320,
@@ -10706,8 +10465,7 @@ export const SERMONS = [
       "Psalm 19:1"
     ],
     "keyScripture": "John 17:15",
-    "summary": "Bishop Joshua teaches that while this world is not the Christian's home, believers are sent here on a divine mission with two primary purposes: first, the world is our harvest field where we must witness to everyone we encounter and win souls for Christ, and second, the world is our school where nature and creation itself teach us about God and help us grow in knowing Him personally. He emphasizes that Christians must not get distracted by earthly pursuits but must remember they are missionaries and ambassadors sent to reach the lost in their workplaces, schools, and everywhere they go. He illustrates this through personal testimonies of witnessing to colleagues at a bank and others, stressing that real friendship means sharing the gospel and that every believer must see their environment as their mission field.",
-    "audioId": "1CrC1qD8paah6KsPNAbw0n-Bz-h70z8Ui"
+    "summary": "Bishop Joshua teaches that while this world is not the Christian's home, believers are sent here on a divine mission with two primary purposes: first, the world is our harvest field where we must witness to everyone we encounter and win souls for Christ, and second, the world is our school where nature and creation itself teach us about God and help us grow in knowing Him personally. He emphasizes that Christians must not get distracted by earthly pursuits but must remember they are missionaries and ambassadors sent to reach the lost in their workplaces, schools, and everywhere they go. He illustrates this through personal testimonies of witnessing to colleagues at a bank and others, stressing that real friendship means sharing the gospel and that every believer must see their environment as their mission field."
   },
   {
     "id": 321,
@@ -10745,8 +10503,7 @@ export const SERMONS = [
       "Proverbs 18:21"
     ],
     "keyScripture": "James 3:2-8",
-    "summary": "Bishop Joshua teaches that the tongue is like a small helm that controls a massive ship or a bit that directs a large horse, meaning that what we say with our mouths determines the entire direction of our lives. He emphasizes that if we can control our speech we achieve perfection and gain control over our whole body, but the tongue is an unruly evil full of deadly poison that can defile our entire life. He warns that negative confessions, complaints, and careless words poison our future, marriage, career, and destiny, while positive declarations of scripture redirect our lives toward blessing.",
-    "audioId": "1zDg20GmzyOU6BraL3wGaxsnOm_GeSn9x"
+    "summary": "Bishop Joshua teaches that the tongue is like a small helm that controls a massive ship or a bit that directs a large horse, meaning that what we say with our mouths determines the entire direction of our lives. He emphasizes that if we can control our speech we achieve perfection and gain control over our whole body, but the tongue is an unruly evil full of deadly poison that can defile our entire life. He warns that negative confessions, complaints, and careless words poison our future, marriage, career, and destiny, while positive declarations of scripture redirect our lives toward blessing."
   },
   {
     "id": 322,
@@ -10773,8 +10530,7 @@ export const SERMONS = [
       "Ephesians 6:17"
     ],
     "keyScripture": "Ephesians 6:18",
-    "summary": "Bishop Joshua teaches that praying in the Spirit means allowing the Holy Spirit to guide not just the manner of prayer (like tongues) but the motive, topic, and strength of prayer, because we don't know what or how to pray on our own. He emphasizes that praying scripture ensures we pray God's will rather than our own lusts and desires, and that the armor of God is incomplete without constant prayer in the Spirit. He explains three levels of prayer—asking, seeking, and knocking—with the goal of moving beyond selfish requests to praying God's burden with perseverance for all saints.",
-    "audioId": "1kBH_dpKdrgynDf_UnzJ1gvgd6jVLFAsP"
+    "summary": "Bishop Joshua teaches that praying in the Spirit means allowing the Holy Spirit to guide not just the manner of prayer (like tongues) but the motive, topic, and strength of prayer, because we don't know what or how to pray on our own. He emphasizes that praying scripture ensures we pray God's will rather than our own lusts and desires, and that the armor of God is incomplete without constant prayer in the Spirit. He explains three levels of prayer—asking, seeking, and knocking—with the goal of moving beyond selfish requests to praying God's burden with perseverance for all saints."
   },
   {
     "id": 323,
@@ -10811,8 +10567,7 @@ export const SERMONS = [
       "John 18:3-6"
     ],
     "keyScripture": "Acts 2:42-43",
-    "summary": "Bishop Joshua Heward-Mills teaches that the Dream Church is the original church modeled in the book of Acts, characterized by speaking in tongues, signs, wonders, and regular manifestations of the Holy Spirit. He emphasizes that when believers gather, they should expect visible demonstrations of God's presence including people weeping, falling down, trembling, and shaking as evidence that the Holy Spirit is touching and transforming them. He explains that manifestation (Greek: phanerosis) means making the invisible Holy Spirit visible through physical signs, and that modern churches should hunger for and normalize these supernatural experiences just as the early church did.",
-    "audioId": "1SkneSeBU8oEVXDOFtl-FnklwqYLqa1cZ"
+    "summary": "Bishop Joshua Heward-Mills teaches that the Dream Church is the original church modeled in the book of Acts, characterized by speaking in tongues, signs, wonders, and regular manifestations of the Holy Spirit. He emphasizes that when believers gather, they should expect visible demonstrations of God's presence including people weeping, falling down, trembling, and shaking as evidence that the Holy Spirit is touching and transforming them. He explains that manifestation (Greek: phanerosis) means making the invisible Holy Spirit visible through physical signs, and that modern churches should hunger for and normalize these supernatural experiences just as the early church did."
   },
   {
     "id": 324,
@@ -10877,8 +10632,7 @@ export const SERMONS = [
       "John 3:16"
     ],
     "keyScripture": "Exodus 23:25",
-    "summary": "Bishop Heward-Mills teaches that serving God actively in church ministry brings three specific blessings from Exodus 23:25-26: removal of sickness, elimination of barrenness and miscarriage, and a long fulfilled life. He emphasizes that God heals and blesses those who serve Him not because He needs them, but because service is His method of bringing people close to Him so He can reward them. He challenges the congregation to move from being spectators who only receive to becoming active servants who work hard in ministry, promising that their service will be rewarded with divine provision, healing, children, and longevity.",
-    "audioId": "1E5xWYLsowaRgqyqw8bBY3FHRPGZ91318"
+    "summary": "Bishop Heward-Mills teaches that serving God actively in church ministry brings three specific blessings from Exodus 23:25-26: removal of sickness, elimination of barrenness and miscarriage, and a long fulfilled life. He emphasizes that God heals and blesses those who serve Him not because He needs them, but because service is His method of bringing people close to Him so He can reward them. He challenges the congregation to move from being spectators who only receive to becoming active servants who work hard in ministry, promising that their service will be rewarded with divine provision, healing, children, and longevity."
   },
   {
     "id": 326,
@@ -10914,8 +10668,7 @@ export const SERMONS = [
       "Proverbs 3:5-6"
     ],
     "keyScripture": "Acts 5:42",
-    "summary": "Bishop Joshua Heward-Mills teaches that visitation—going to people's homes and workplaces—is one of the four essential keys to effective soul winning and establishing people in church. He emphasizes that visitation is powerful because it expresses love (which never fails), involves ministering the Word of God (which is alive and powerful), and includes prayer. He challenges Christians to move beyond texting or casual interaction and actually travel to people's houses to sit with them, share Scripture, and pray, citing Jesus's visit to Zacchaeus's home as the model for life-changing evangelism.",
-    "audioId": "1NB_P45ojtkk3iZikYOs4jTEnW0nUutUW"
+    "summary": "Bishop Joshua Heward-Mills teaches that visitation—going to people's homes and workplaces—is one of the four essential keys to effective soul winning and establishing people in church. He emphasizes that visitation is powerful because it expresses love (which never fails), involves ministering the Word of God (which is alive and powerful), and includes prayer. He challenges Christians to move beyond texting or casual interaction and actually travel to people's houses to sit with them, share Scripture, and pray, citing Jesus's visit to Zacchaeus's home as the model for life-changing evangelism."
   },
   {
     "id": 327,
@@ -10958,9 +10711,7 @@ export const SERMONS = [
       "Acts 4:24"
     ],
     "keyScripture": "James 5:16",
-    "summary": "Bishop Heward-Mills teaches that the dream church is the original Acts church that prayed fervently in tongues, and any church that doesn't speak in tongues has deviated from God's original design. He explains that \"fervent\" prayer (from the Greek \"energeo\") requires visible energy, activity, and display through specific postures like bowing, lifted hands, lifted eyes, standing, sitting with shuckling, and lying prostrate. He demonstrates that the early church prayed with loud, high-octave voices in tongues together, and this roaring sound is what drew crowds and manifested God's power, not quiet whispering or internal prayer.",
-    "keyScripture_explanation": "James 5:16 ('the effectual fervent prayer of a righteous man availeth much') is the central verse Bishop Heward-Mills expounds throughout the sermon, defining 'fervent' from the Greek 'energeo' and building his entire teaching on what makes prayer effectual versus ineffective.",
-    "audioId": "1OtgJcAwlPjezwkj6r_CFvJwAU1zHX1x4"
+    "summary": "Bishop Heward-Mills teaches that the dream church is the original Acts church that prayed fervently in tongues, and any church that doesn't speak in tongues has deviated from God's original design. He explains that \"fervent\" prayer (from the Greek \"energeo\") requires visible energy, activity, and display through specific postures like bowing, lifted hands, lifted eyes, standing, sitting with shuckling, and lying prostrate. He demonstrates that the early church prayed with loud, high-octave voices in tongues together, and this roaring sound is what drew crowds and manifested God's power, not quiet whispering or internal prayer."
   },
   {
     "id": 328,
@@ -11000,8 +10751,7 @@ export const SERMONS = [
       "1 Timothy 5:3"
     ],
     "keyScripture": "Romans 13:7",
-    "summary": "Bishop Joshua teaches that honor is a debt owed to specific people in our lives—parents, widows, employers, prophets, and especially the anointed men and women of God who labor in the Word. He emphasizes that the first level of honor is recognizing the anointing and not knowing people 'after the flesh' but discerning the presence and grace of God upon them. He warns that failure to honor, especially dishonoring parents or spiritual leaders, blocks blessings and can shorten life, while those who recognize and honor the anointing position themselves for breakthrough and spiritual increase.",
-    "audioId": "1R1iW8VDLGyQEQWj2IakNqrUg5qOukjw5"
+    "summary": "Bishop Joshua teaches that honor is a debt owed to specific people in our lives—parents, widows, employers, prophets, and especially the anointed men and women of God who labor in the Word. He emphasizes that the first level of honor is recognizing the anointing and not knowing people 'after the flesh' but discerning the presence and grace of God upon them. He warns that failure to honor, especially dishonoring parents or spiritual leaders, blocks blessings and can shorten life, while those who recognize and honor the anointing position themselves for breakthrough and spiritual increase."
   },
   {
     "id": 329,
@@ -11047,9 +10797,7 @@ export const SERMONS = [
       "Galatians 5:16"
     ],
     "keyScripture": "John 21:15",
-    "summary": "Bishop Joshua teaches that love for God—not rewards, training, or spiritual gifts—is the only sustainable motivation for long-term pastoral ministry, using Peter's call in John 21:15 where Jesus asks only \"Do you love me?\" despite Peter's many flaws. He explains that 1 Corinthians 13 shows that prayer, prophecy, knowledge, faith, and sacrifice are all worthless without love, which \"compels and constrains\" pastors to persevere when external motivations (food, security, respect) fail. He urges pastors to pray daily for God to circumcise their hearts (Deuteronomy 30:6), shed His love abroad by the Holy Spirit (Romans 5:5), and direct their hearts into the love of God (2 Thessalonians 3:5) so they can shepherd faithfully like Peter did.",
-    "keyTopic": "Love for God as the engine and perfection of pastoral ministry",
-    "audioId": "1DdYazfecYLYKB99AymzV9lH5UtnlMNKi"
+    "summary": "Bishop Joshua teaches that love for God—not rewards, training, or spiritual gifts—is the only sustainable motivation for long-term pastoral ministry, using Peter's call in John 21:15 where Jesus asks only \"Do you love me?\" despite Peter's many flaws. He explains that 1 Corinthians 13 shows that prayer, prophecy, knowledge, faith, and sacrifice are all worthless without love, which \"compels and constrains\" pastors to persevere when external motivations (food, security, respect) fail. He urges pastors to pray daily for God to circumcise their hearts (Deuteronomy 30:6), shed His love abroad by the Holy Spirit (Romans 5:5), and direct their hearts into the love of God (2 Thessalonians 3:5) so they can shepherd faithfully like Peter did."
   },
   {
     "id": 330,
@@ -11082,8 +10830,7 @@ export const SERMONS = [
       "1 Timothy 5:8"
     ],
     "keyScripture": "Ephesians 2:2",
-    "summary": "BJosh teaches that the world has an evil course dictated by Satan that includes fornication before marriage, marital dysfunction, and worldly success tactics, but God's way is superior and leads to true fulfillment. He emphasizes that believers should marry young (at their sexual peak around age 24) and maintain sexual intimacy in marriage as God designed, with husbands loving their wives and wives submitting to their husbands. He calls Christians to reject the world's timeline and methods for love, marriage, and success, instead following the Holy Spirit and God's perfect way as revealed in Scripture.",
-    "audioId": "1u0rtks1ThFxgtusnwEoheKyaaI6GUQfG"
+    "summary": "BJosh teaches that the world has an evil course dictated by Satan that includes fornication before marriage, marital dysfunction, and worldly success tactics, but God's way is superior and leads to true fulfillment. He emphasizes that believers should marry young (at their sexual peak around age 24) and maintain sexual intimacy in marriage as God designed, with husbands loving their wives and wives submitting to their husbands. He calls Christians to reject the world's timeline and methods for love, marriage, and success, instead following the Holy Spirit and God's perfect way as revealed in Scripture."
   },
   {
     "id": 331,
@@ -11115,8 +10862,7 @@ export const SERMONS = [
       "Luke 10:9"
     ],
     "keyScripture": "Luke 10:1-9",
-    "summary": "Bishop Heward-Mills teaches that every Christian must distinguish between 'field work' (soul winning outside the church) and 'house work' (serving inside the church), emphasizing that both are required. He lays out an eight-step interaction strategy beginning with making a decision to talk to strangers, being friendly and speaking kind words, and spending time building relationships before ever preaching. He challenges each member to write down five names of people they will intentionally befriend and bring to church, stressing that souls are won primarily through friendship and consistent interaction, not through programs or titles.",
-    "audioId": "1f0tcxExnaNhjsyI5aTvX3XAKvZtLsFff"
+    "summary": "Bishop Heward-Mills teaches that every Christian must distinguish between 'field work' (soul winning outside the church) and 'house work' (serving inside the church), emphasizing that both are required. He lays out an eight-step interaction strategy beginning with making a decision to talk to strangers, being friendly and speaking kind words, and spending time building relationships before ever preaching. He challenges each member to write down five names of people they will intentionally befriend and bring to church, stressing that souls are won primarily through friendship and consistent interaction, not through programs or titles."
   },
   {
     "id": 332,
@@ -11153,9 +10899,7 @@ export const SERMONS = [
       "Matthew 17:1-5"
     ],
     "keyScripture": "1 Timothy 5:17",
-    "summary": "Bishop Joshua teaches that honoring the pastor involves seven progressive levels, beginning with recognition of the anointing, moving to listening gladly to his teaching, and advancing to correcting one's behavior when the pastor speaks. He emphasizes that honor is not primarily about financial gifts but about spiritual discernment, respect, obedience, and submission to the set man of God over the church. Using Scripture and personal illustrations, he challenges the congregation to assess which level of honor they are operating in toward their spiritual leader, especially during the church's Founders Day celebration.",
-    "keyLessons": [],
-    "audioId": "1AfpG7DyvRZtwBciq8KEgy8sRGPVjrvPG"
+    "summary": "Bishop Joshua teaches that honoring the pastor involves seven progressive levels, beginning with recognition of the anointing, moving to listening gladly to his teaching, and advancing to correcting one's behavior when the pastor speaks. He emphasizes that honor is not primarily about financial gifts but about spiritual discernment, respect, obedience, and submission to the set man of God over the church. Using Scripture and personal illustrations, he challenges the congregation to assess which level of honor they are operating in toward their spiritual leader, especially during the church's Founders Day celebration."
   },
   {
     "id": 333,
@@ -11187,8 +10931,7 @@ export const SERMONS = [
       "Hebrews 4:12"
     ],
     "keyScripture": "Luke 19:5",
-    "summary": "Bishop Joshua teaches that visitation—going to people's homes to minister to them—is one of the four essential keys to effective soul winning and establishing people in church. He emphasizes that visitation is powerful because it is an expression of love that never fails, involves ministry of the Word of God (which is alive and powerful), and includes prayer ministry. He challenges Christians to move beyond texting and social media messages to physically visit people in their homes, following Jesus' example with Zacchaeus, because love expressed through visitation transforms lives more powerfully than preaching alone.",
-    "audioId": "1-a3-Tir0E6gc3k6S-84ZJmqrSNllEcSN"
+    "summary": "Bishop Joshua teaches that visitation—going to people's homes to minister to them—is one of the four essential keys to effective soul winning and establishing people in church. He emphasizes that visitation is powerful because it is an expression of love that never fails, involves ministry of the Word of God (which is alive and powerful), and includes prayer ministry. He challenges Christians to move beyond texting and social media messages to physically visit people in their homes, following Jesus' example with Zacchaeus, because love expressed through visitation transforms lives more powerfully than preaching alone."
   },
   {
     "id": 334,
@@ -11219,8 +10962,7 @@ export const SERMONS = [
       "Ephesians 2:2"
     ],
     "keyScripture": "1 John 5:4-5",
-    "summary": "Bishop Joshua teaches that the world is a threefold enemy consisting of physical dangers (a wilderness made deadly by Lucifer), wicked and dangerous people who corrupt and harm believers, and evil spirits including the prince of the power of the air who controls media and culture. He emphasizes that every born-again believer who has faith in Jesus Christ as the Messiah is already overcoming this hostile world through their faith. Using vivid personal stories from boarding school and prison ministry, he warns Christians to remain aware that they are aliens in a dangerous territory where the atmosphere, people, and spiritual forces are actively trying to destroy them, but God promises long life and victory to those who believe.",
-    "audioId": "15Vfxzt33Tox9pcnvnAdRvyZH5lZj8zjH"
+    "summary": "Bishop Joshua teaches that the world is a threefold enemy consisting of physical dangers (a wilderness made deadly by Lucifer), wicked and dangerous people who corrupt and harm believers, and evil spirits including the prince of the power of the air who controls media and culture. He emphasizes that every born-again believer who has faith in Jesus Christ as the Messiah is already overcoming this hostile world through their faith. Using vivid personal stories from boarding school and prison ministry, he warns Christians to remain aware that they are aliens in a dangerous territory where the atmosphere, people, and spiritual forces are actively trying to destroy them, but God promises long life and victory to those who believe."
   },
   {
     "id": 335,
@@ -11255,8 +10997,7 @@ export const SERMONS = [
       "1 Samuel 10"
     ],
     "keyScripture": "Acts 10:38",
-    "summary": "Bishop Joshua teaches that the anointing is the power of the Holy Spirit that breaks every yoke, brings supernatural wisdom, prosperity, promotion, and transforms lives beyond natural ability. He emphasizes that Christianity must move beyond theological discussion to demonstrate God's power, citing that the anointing destroys bondage to addiction, poverty, and limitation. He calls believers to pursue spiritual gifts and fresh oil rather than earthly achievements, declaring that when the anointing comes upon a person, their cup runs over and their entire life is transformed.",
-    "audioId": "1wzzgES4c4XejbalE_7c7mD5Hi7T7qsbZ"
+    "summary": "Bishop Joshua teaches that the anointing is the power of the Holy Spirit that breaks every yoke, brings supernatural wisdom, prosperity, promotion, and transforms lives beyond natural ability. He emphasizes that Christianity must move beyond theological discussion to demonstrate God's power, citing that the anointing destroys bondage to addiction, poverty, and limitation. He calls believers to pursue spiritual gifts and fresh oil rather than earthly achievements, declaring that when the anointing comes upon a person, their cup runs over and their entire life is transformed."
   },
   {
     "id": 336,
@@ -11295,8 +11036,7 @@ export const SERMONS = [
       "Luke 17:11-19"
     ],
     "keyScripture": "Acts 8:5",
-    "summary": "Bishop Joshua teaches that Philip chose to preach Christ in Samaria despite numerous social issues (racial tension, marriage problems, religious mixture, sickness) because Jesus is the hope of glory, the light of the world who removes darkness and demonic activity, and the healer. He emphasizes that Jesus Christ living inside believers is the only source of true transformation, guidance, honor, and deliverance from demons, not self-help topics or therapy. Using vivid illustrations about walking in physical darkness, he demonstrates that without Christ people are lost, wounded by poor decisions, and vulnerable to demonic oppression that only flees when the light of Christ is present.",
-    "audioId": "1-Ch_wh_rWogF8nq8ZyFtIduP5hwgAj0o"
+    "summary": "Bishop Joshua teaches that Philip chose to preach Christ in Samaria despite numerous social issues (racial tension, marriage problems, religious mixture, sickness) because Jesus is the hope of glory, the light of the world who removes darkness and demonic activity, and the healer. He emphasizes that Jesus Christ living inside believers is the only source of true transformation, guidance, honor, and deliverance from demons, not self-help topics or therapy. Using vivid illustrations about walking in physical darkness, he demonstrates that without Christ people are lost, wounded by poor decisions, and vulnerable to demonic oppression that only flees when the light of Christ is present."
   },
   {
     "id": 337,
@@ -11331,8 +11071,7 @@ export const SERMONS = [
       "John 8"
     ],
     "keyScripture": "Proverbs 27:17",
-    "summary": "Bishop Heward-Mills teaches that effective soul winning begins with interaction and friendship, not with immediate preaching or condemnation, emphasizing that only a friend can change someone's life (as iron sharpens iron). He challenges every member to create a personal list of five people they will befriend and bring to Christ through consistent, kind interaction in everyday settings like work, school, or public transport. He outlines eight keys to interaction, stressing that Christians must overcome fear, speak kind words first (like Jesus said 'peace be unto this house'), and become the nicest person in every environment before attempting to evangelize.",
-    "audioId": "1YkFOFGpDJqStfeBcRnxi1bYSFzKO9KQL"
+    "summary": "Bishop Heward-Mills teaches that effective soul winning begins with interaction and friendship, not with immediate preaching or condemnation, emphasizing that only a friend can change someone's life (as iron sharpens iron). He challenges every member to create a personal list of five people they will befriend and bring to Christ through consistent, kind interaction in everyday settings like work, school, or public transport. He outlines eight keys to interaction, stressing that Christians must overcome fear, speak kind words first (like Jesus said 'peace be unto this house'), and become the nicest person in every environment before attempting to evangelize."
   },
   {
     "id": 338,
@@ -11366,8 +11105,7 @@ export const SERMONS = [
       "Luke 4:27"
     ],
     "keyScripture": "2 Peter 1:4-8",
-    "summary": "Bishop Joshua teaches that faith alone is insufficient for prosperity; believers must add diligence, virtue, knowledge, temperance, patience, godliness, brotherly kindness, and charity to their faith to become partakers of the divine nature and escape corruption. He emphasizes that these character traits—working hard, being good, controlling yourself, being patient at work and in marriage, showing Christlike love—are what lead to fruitfulness and true prosperity in every area of life. He also teaches that God sends anointed voices (pastors/prophets) specifically to individuals and that rejecting the pastor God has given you is rejecting what God has sent for your blessing.",
-    "audioId": "1nvZsQ4VOOCgAWSjbQrxjjQl_EpfXymha"
+    "summary": "Bishop Joshua teaches that faith alone is insufficient for prosperity; believers must add diligence, virtue, knowledge, temperance, patience, godliness, brotherly kindness, and charity to their faith to become partakers of the divine nature and escape corruption. He emphasizes that these character traits—working hard, being good, controlling yourself, being patient at work and in marriage, showing Christlike love—are what lead to fruitfulness and true prosperity in every area of life. He also teaches that God sends anointed voices (pastors/prophets) specifically to individuals and that rejecting the pastor God has given you is rejecting what God has sent for your blessing."
   },
   {
     "id": 339,
@@ -11414,8 +11152,7 @@ export const SERMONS = [
       "Ephesians 3:19"
     ],
     "keyScripture": "John 3:16",
-    "summary": "Bishop Joshua Heward-Mills teaches that John 3:16 reveals God as the greatest person (inventor, royalty, richest, wisest) who demonstrates the greatest love by seeking and saving humanity despite their sin and unworthiness. He contrasts God's unconditional love with all human forms of love (romantic, maternal, sexual, seasonal), emphasizing that even the most devoted human love fails where God's love persists. He calls listeners to recognize they have been \"sought out\" by God and to respond to this supreme love that accepts them as they are, even in their rebellion and sin.",
-    "audioId": "1L2fa_1_3Gqiy-ek8U6_Hb-6WGAMMirrU"
+    "summary": "Bishop Joshua Heward-Mills teaches that John 3:16 reveals God as the greatest person (inventor, royalty, richest, wisest) who demonstrates the greatest love by seeking and saving humanity despite their sin and unworthiness. He contrasts God's unconditional love with all human forms of love (romantic, maternal, sexual, seasonal), emphasizing that even the most devoted human love fails where God's love persists. He calls listeners to recognize they have been \"sought out\" by God and to respond to this supreme love that accepts them as they are, even in their rebellion and sin."
   },
   {
     "id": 340,
@@ -11454,8 +11191,7 @@ export const SERMONS = [
       "Acts 5:32"
     ],
     "keyScripture": "John 8:29",
-    "summary": "Bishop Heward-Mills teaches that obedience is the master key to experiencing God's continuous presence rather than intermittent, occasional encounters with God. He contrasts Christians who experience God's presence only periodically (like Saul, from whom the Spirit departed) with those like Enoch and Jesus who walked in unbroken fellowship with God through constant obedience. He emphasizes that Jesus maintained perfect fellowship with the Father because He always did what pleased God, and that this same principle of continuous obedience attracts God's sustained presence, which is the only power by which believers can overcome sin and live victoriously.",
-    "audioId": "1lvPBxDGXvrYsCPKxaz76Uxx5gxHUrcHO"
+    "summary": "Bishop Heward-Mills teaches that obedience is the master key to experiencing God's continuous presence rather than intermittent, occasional encounters with God. He contrasts Christians who experience God's presence only periodically (like Saul, from whom the Spirit departed) with those like Enoch and Jesus who walked in unbroken fellowship with God through constant obedience. He emphasizes that Jesus maintained perfect fellowship with the Father because He always did what pleased God, and that this same principle of continuous obedience attracts God's sustained presence, which is the only power by which believers can overcome sin and live victoriously."
   },
   {
     "id": 341,
@@ -11490,8 +11226,7 @@ export const SERMONS = [
       "Proverbs 22:24-25"
     ],
     "keyScripture": "Mark 2:3-5",
-    "summary": "BJosh teaches that the man with palsy represents spiritual paralysis—people who are stuck in patterns of sin and whose bodies do involuntary actions against their will, unable to change despite their best intentions. He explains that just as four friends carried the paralyzed man through obstacles (the crowd, the roof) to reach Jesus, it takes multiple people and influences to bring someone to salvation because people are heavy and difficult. The central point is that Jesus addressed the man's core problem first—forgiveness of sins—because sin is humanity's greatest problem, and forgiveness through Christ is more important than physical healing or material blessings.",
-    "audioId": "1Pf-ZeWcuuadHJw_LyNE9wgAmVHDLLlwx"
+    "summary": "BJosh teaches that the man with palsy represents spiritual paralysis—people who are stuck in patterns of sin and whose bodies do involuntary actions against their will, unable to change despite their best intentions. He explains that just as four friends carried the paralyzed man through obstacles (the crowd, the roof) to reach Jesus, it takes multiple people and influences to bring someone to salvation because people are heavy and difficult. The central point is that Jesus addressed the man's core problem first—forgiveness of sins—because sin is humanity's greatest problem, and forgiveness through Christ is more important than physical healing or material blessings."
   },
   {
     "id": 342,
@@ -11529,8 +11264,7 @@ export const SERMONS = [
       "Mark 12:34-37"
     ],
     "keyScripture": "1 Timothy 5:17",
-    "summary": "Bishop Joshua teaches that honor is a spiritual obligation owed to various people—parents, widows, pastors, and prophets—and that failing to honor them brings negative consequences including shortened life and blocked blessings. He emphasizes that the first level of honor is simply recognizing the anointing on a person rather than knowing them only 'after the flesh,' and the second level is listening to them gladly. He connects this teaching to Founders Day, urging the congregation to honor their set man of God and participate in soul-winning as an expression of that honor.",
-    "audioId": "1XRCd-JLlktNOTRuKoMHhQr4-fiTyRm5R"
+    "summary": "Bishop Joshua teaches that honor is a spiritual obligation owed to various people—parents, widows, pastors, and prophets—and that failing to honor them brings negative consequences including shortened life and blocked blessings. He emphasizes that the first level of honor is simply recognizing the anointing on a person rather than knowing them only 'after the flesh,' and the second level is listening to them gladly. He connects this teaching to Founders Day, urging the congregation to honor their set man of God and participate in soul-winning as an expression of that honor."
   },
   {
     "id": 343,
@@ -11563,8 +11297,7 @@ export const SERMONS = [
       "John 8"
     ],
     "keyScripture": "Luke 10:1-2",
-    "summary": "Bishop Heward-Mills teaches that soul winning requires believers to make friends with unbelievers person-to-person rather than relying only on church programs, emphasizing that \"only your friend can change you\" based on Proverbs 27:17. He instructs each member to establish at least five people by interacting with coworkers, delivery people, mechanics, and others they encounter daily, stressing that Christians must be the kindest, friendliest people in their workplaces and communities. He outlines four main keys to soul winning (prayer, visitation, teaching, and interaction) and focuses this message on eight practical interaction principles, including making a decision to talk to strangers, being friendly, speaking kind words, and not condemning people but accepting them like Jesus did.",
-    "audioId": "1DZ_3-Wg8Z1MoXHsTqgsXnsTqdDnIea4T"
+    "summary": "Bishop Heward-Mills teaches that soul winning requires believers to make friends with unbelievers person-to-person rather than relying only on church programs, emphasizing that \"only your friend can change you\" based on Proverbs 27:17. He instructs each member to establish at least five people by interacting with coworkers, delivery people, mechanics, and others they encounter daily, stressing that Christians must be the kindest, friendliest people in their workplaces and communities. He outlines four main keys to soul winning (prayer, visitation, teaching, and interaction) and focuses this message on eight practical interaction principles, including making a decision to talk to strangers, being friendly, speaking kind words, and not condemning people but accepting them like Jesus did."
   },
   {
     "id": 344,
@@ -11602,9 +11335,7 @@ export const SERMONS = [
       "Galatians 4:1"
     ],
     "keyScripture": "Romans 8:29",
-    "summary": "Bishop Heward-Mills teaches that while salvation changes the inner spirit, true Christian transformation requires spiritual growth from being a spiritual baby to spiritual maturity. He emphasizes that many Christians remain unchanged for years because they never grow up spiritually, remaining unable to resist temptation or demonstrate Christ-like conduct. The goal of salvation is not wealth or success but conforming believers to the image of Jesus Christ through spiritual maturity, which produces changed behavior that witnesses to others without words.",
-    "note": "Transcript contains extensive sermon content interspersed with worship lyrics at the beginning. Teaching focuses on seven principles of change (Part 1) with primary emphasis on spiritual growth as the foundation for transformation.",
-    "audioId": "1koIZICHOP3_LRQLCKAA603C-d-CExb8X"
+    "summary": "Bishop Heward-Mills teaches that while salvation changes the inner spirit, true Christian transformation requires spiritual growth from being a spiritual baby to spiritual maturity. He emphasizes that many Christians remain unchanged for years because they never grow up spiritually, remaining unable to resist temptation or demonstrate Christ-like conduct. The goal of salvation is not wealth or success but conforming believers to the image of Jesus Christ through spiritual maturity, which produces changed behavior that witnesses to others without words."
   },
   {
     "id": 345,
@@ -11640,8 +11371,7 @@ export const SERMONS = [
       "2 Timothy"
     ],
     "keyScripture": "Matthew 6:33",
-    "summary": "Bishop Joshua teaches that every member must participate in \"Swollen Sunday\" (November 23, 2025) by bringing at least five souls to church, emphasizing that soul-winning is the primary work of God and the key to having all things added unto you. He contrasts worrying about life's needs (food, clothing, finances, relationships) with seeking first God's kingdom through evangelism, promising that when believers exchange their burdens for the yoke of soul-winning, God will take care of all their needs. Using Matthew 6:33 as the foundation, he demonstrates that prosperity and blessing flow not from church activities like music or technical service, but specifically from seeking and saving the lost, illustrated by calling out members who had actually brought converts to church.",
-    "audioId": "1jeyqFwXikwHXOHscUKTt-IiDRDlPRdri"
+    "summary": "Bishop Joshua teaches that every member must participate in \"Swollen Sunday\" (November 23, 2025) by bringing at least five souls to church, emphasizing that soul-winning is the primary work of God and the key to having all things added unto you. He contrasts worrying about life's needs (food, clothing, finances, relationships) with seeking first God's kingdom through evangelism, promising that when believers exchange their burdens for the yoke of soul-winning, God will take care of all their needs. Using Matthew 6:33 as the foundation, he demonstrates that prosperity and blessing flow not from church activities like music or technical service, but specifically from seeking and saving the lost, illustrated by calling out members who had actually brought converts to church."
   },
   {
     "id": 346,
@@ -11676,8 +11406,7 @@ export const SERMONS = [
       "Hebrews 13:18"
     ],
     "keyScripture": "Psalm 34:12-13",
-    "summary": "Bishop Joshua teaches that lying is a poison that destroys your conscience (your internal policeman), opens the door to all other sins, and eventually causes you to deceive yourself and harden your heart. He emphasizes that according to Psalm 34:12-13, if you want to enjoy life and live many days, you must keep your tongue from evil and from telling lies. He urges believers to walk in truth before God rather than maintaining appearances before people, warning that deception damages the very protection system (conscience) that guards against all forms of sin.",
-    "audioId": "1S5W1y2U_wXEm-zJu5EpOgswk1GF_qwUh"
+    "summary": "Bishop Joshua teaches that lying is a poison that destroys your conscience (your internal policeman), opens the door to all other sins, and eventually causes you to deceive yourself and harden your heart. He emphasizes that according to Psalm 34:12-13, if you want to enjoy life and live many days, you must keep your tongue from evil and from telling lies. He urges believers to walk in truth before God rather than maintaining appearances before people, warning that deception damages the very protection system (conscience) that guards against all forms of sin."
   },
   {
     "id": 347,
@@ -11708,8 +11437,7 @@ export const SERMONS = [
       "Revelation 19:11"
     ],
     "keyScripture": "Numbers 16:9",
-    "summary": "Bishop Joshua teaches that Swollen Sunday is a mobilization of the entire church (not just pastors) to win souls and invite people to the November 23rd Independence Square crusade, emphasizing that when the whole church has 'a mind to work' like Nehemiah's builders, years of growth can be achieved in one day. He explains that nearness to God comes through doing His work of seeking and saving the lost (Luke 19:10), not merely attending services, and that God separates believers from being spectators to bring them near through service. The sermon stresses that the gospel is God's power to save and transform lives, and every church member must participate in soul-winning to experience God's manifest presence and become His friend rather than remaining distant congregants.",
-    "audioId": "133NJ5hxO6q05scXcSw8-2uuXJu73sZYu"
+    "summary": "Bishop Joshua teaches that Swollen Sunday is a mobilization of the entire church (not just pastors) to win souls and invite people to the November 23rd Independence Square crusade, emphasizing that when the whole church has 'a mind to work' like Nehemiah's builders, years of growth can be achieved in one day. He explains that nearness to God comes through doing His work of seeking and saving the lost (Luke 19:10), not merely attending services, and that God separates believers from being spectators to bring them near through service. The sermon stresses that the gospel is God's power to save and transform lives, and every church member must participate in soul-winning to experience God's manifest presence and become His friend rather than remaining distant congregants."
   },
   {
     "id": 348,
@@ -11740,8 +11468,7 @@ export const SERMONS = [
       "Romans 1:16"
     ],
     "keyScripture": "Luke 14:23",
-    "summary": "Bishop Joshua teaches that church growth requires every member to practice three Greek concepts: Anagkazo (compelling/necessitating people to come to church through persistent insistence, not polite invitations), Biazo (holy violence and forceful determination in bringing souls), and Anadeia (shameless boldness in witnessing without embarrassment about the gospel). He emphasizes that serving God by bringing people to church is the pathway to personal blessing, citing Exodus 20:25 that God will bless your bread, water, and remove sickness when you serve Him. He mobilizes the entire congregation to bring two people to church the following Sunday, teaching that the vision of a mountain-like exalted church (Isaiah 2) will only be fulfilled when many members—not just pastors—go out and say 'Come, let us go to the house of the Lord.'",
-    "audioId": "1dzC_g-3Doc6HHqxudfHoMC-zCjXGNvZm"
+    "summary": "Bishop Joshua teaches that church growth requires every member to practice three Greek concepts: Anagkazo (compelling/necessitating people to come to church through persistent insistence, not polite invitations), Biazo (holy violence and forceful determination in bringing souls), and Anadeia (shameless boldness in witnessing without embarrassment about the gospel). He emphasizes that serving God by bringing people to church is the pathway to personal blessing, citing Exodus 20:25 that God will bless your bread, water, and remove sickness when you serve Him. He mobilizes the entire congregation to bring two people to church the following Sunday, teaching that the vision of a mountain-like exalted church (Isaiah 2) will only be fulfilled when many members—not just pastors—go out and say 'Come, let us go to the house of the Lord.'"
   },
   {
     "id": 349,
@@ -11782,8 +11509,7 @@ export const SERMONS = [
       "Matthew 9:36"
     ],
     "keyScripture": "2 Chronicles 20:20",
-    "summary": "Bishop Joshua teaches that church members have four primary duties toward their pastor: know them (their doctrine, manner of life, purpose, and persecutions), respect them highly in love for their work's sake, believe them and their prophets to experience prosperity and breakthrough, and recognize that God speaks and appears through men He has set as spiritual authority. He emphasizes that the lesser is blessed by the greater, so church members must not equalize themselves with their pastor but receive them as God's representative and ambassador. The teaching stresses that knowing God deeply results in honoring and receiving from the pastors God has given to feed His people with knowledge and understanding.",
-    "audioId": "1Zn6iwrH5uvRaTl-DNN2-FMYJgs9-Jfud"
+    "summary": "Bishop Joshua teaches that church members have four primary duties toward their pastor: know them (their doctrine, manner of life, purpose, and persecutions), respect them highly in love for their work's sake, believe them and their prophets to experience prosperity and breakthrough, and recognize that God speaks and appears through men He has set as spiritual authority. He emphasizes that the lesser is blessed by the greater, so church members must not equalize themselves with their pastor but receive them as God's representative and ambassador. The teaching stresses that knowing God deeply results in honoring and receiving from the pastors God has given to feed His people with knowledge and understanding."
   },
   {
     "id": 350,
@@ -11814,9 +11540,7 @@ export const SERMONS = [
       "John 21:15-17"
     ],
     "keyScripture": "Matthew 16:24",
-    "summary": "Bishop Heward-Mills teaches that when lay people (unpaid church members) are not involved in ministry, the church loses the vital principle of Christian sacrifice and suffering that Jesus commanded when He said disciples must deny themselves, take up their cross, and follow Him. He argues that paying people for every church role creates disorderly workers who are idle, gossips, and busybodies, because most ministry tasks (ushering, sound, shepherding) don't require full-time work and should be done sacrificially out of love for Christ. He repeatedly challenges the congregation by asking \"Do you love Jesus?\" and insisting that loving Jesus means feeding His sheep through active, unpaid shepherding and service, sharing his own testimony of years of exhausting volunteer ministry work.",
-    "keyPoints": [],
-    "audioId": "1v4xrwTiyO0JfqS-04xNuo-bz0XbfyUfx"
+    "summary": "Bishop Heward-Mills teaches that when lay people (unpaid church members) are not involved in ministry, the church loses the vital principle of Christian sacrifice and suffering that Jesus commanded when He said disciples must deny themselves, take up their cross, and follow Him. He argues that paying people for every church role creates disorderly workers who are idle, gossips, and busybodies, because most ministry tasks (ushering, sound, shepherding) don't require full-time work and should be done sacrificially out of love for Christ. He repeatedly challenges the congregation by asking \"Do you love Jesus?\" and insisting that loving Jesus means feeding His sheep through active, unpaid shepherding and service, sharing his own testimony of years of exhausting volunteer ministry work."
   },
   {
     "id": 351,
@@ -11846,8 +11570,7 @@ export const SERMONS = [
       "1 John 1:9"
     ],
     "keyScripture": "Luke 10:36",
-    "summary": "BJosh teaches that your 'neighbor' is anyone whose life crosses your path—friends, relatives, coworkers, roommates, people you meet playing sports, at hospitals, or through romance—and that every Christian is responsible to preach salvation to these neighbors. He provides a practical evangelism framework: preach without notes, memorize three points (without God you can do nothing, sin separates you from God, confessing your sins brings cleansing), three scriptures (John 15:5, Romans 3:23, 1 John 1:9), and three illustrative stories (windows) to explain each point naturally in conversation. He demonstrates this method through numerous testimonies of church members who invited neighbors and saw them come to Christ, marry in the church, and become leaders, urging the entire congregation to bring one neighbor next week.",
-    "audioId": "1OMRrCAQPnRMxkCdqVaXcmZE6akhrBUcn"
+    "summary": "BJosh teaches that your 'neighbor' is anyone whose life crosses your path—friends, relatives, coworkers, roommates, people you meet playing sports, at hospitals, or through romance—and that every Christian is responsible to preach salvation to these neighbors. He provides a practical evangelism framework: preach without notes, memorize three points (without God you can do nothing, sin separates you from God, confessing your sins brings cleansing), three scriptures (John 15:5, Romans 3:23, 1 John 1:9), and three illustrative stories (windows) to explain each point naturally in conversation. He demonstrates this method through numerous testimonies of church members who invited neighbors and saw them come to Christ, marry in the church, and become leaders, urging the entire congregation to bring one neighbor next week."
   },
   {
     "id": 352,
@@ -11883,8 +11606,7 @@ export const SERMONS = [
       "Philippians 2:13"
     ],
     "keyScripture": "John 4:14",
-    "summary": "Bishop Joshua teaches that the Holy Spirit operates in two ways: as a well for personal needs (helping us pray, making God real, overcoming weakness in prayer) and as a river that flows out to bless others through ministry. He emphasizes that many Christians are saved but don't know the Holy Spirit personally, and that the Spirit helps our infirmities when we don't know how to pray, including through speaking in tongues. The well must be established first in personal communion with God before the river of public ministry can flow out to bless cities and nations.",
-    "audioId": "1L5FfiXSaplHwJReP96wOrJENG0GZiAvz"
+    "summary": "Bishop Joshua teaches that the Holy Spirit operates in two ways: as a well for personal needs (helping us pray, making God real, overcoming weakness in prayer) and as a river that flows out to bless others through ministry. He emphasizes that many Christians are saved but don't know the Holy Spirit personally, and that the Spirit helps our infirmities when we don't know how to pray, including through speaking in tongues. The well must be established first in personal communion with God before the river of public ministry can flow out to bless cities and nations."
   },
   {
     "id": 353,
@@ -11912,8 +11634,7 @@ export const SERMONS = [
       "Matthew 24:6-14"
     ],
     "keyScripture": "Hebrews 10:25",
-    "summary": "Bishop Joshua teaches a practical evangelism strategy called 'One Member Five Souls' where every church member is challenged to bring five people to a special 'Swollen Sunday' service. He provides a systematic four-step approach: make a list of 10 names, interact with those people using seven basic questions, visit them in their homes to teach about the end times and the importance of church attendance, and pray for the Holy Spirit to draw them. He emphasizes that friendship evangelism modeled by Jesus, combined with teaching people that the world is ending soon and they must not neglect church meetings, will result in a harvest of souls and personal blessings including healed bread and water.",
-    "audioId": "133NJ5hxO6q05scXcSw8-2uuXJu73sZYu"
+    "summary": "Bishop Joshua teaches a practical evangelism strategy called 'One Member Five Souls' where every church member is challenged to bring five people to a special 'Swollen Sunday' service. He provides a systematic four-step approach: make a list of 10 names, interact with those people using seven basic questions, visit them in their homes to teach about the end times and the importance of church attendance, and pray for the Holy Spirit to draw them. He emphasizes that friendship evangelism modeled by Jesus, combined with teaching people that the world is ending soon and they must not neglect church meetings, will result in a harvest of souls and personal blessings including healed bread and water."
   },
   {
     "id": 354,
@@ -11946,8 +11667,7 @@ export const SERMONS = [
       "Luke 10:29"
     ],
     "keyScripture": "Luke 14:16-18",
-    "summary": "Bishop Joshua teaches that 'anagkazo' (the Greek word for 'compel') is the key to church growth, requiring believers to actively prepare spiritually, overcome people's excuses and lies, and persistently invite many people to church rather than accepting rejection. He announces a six-week 'Operation Sit By Your Soul' campaign where every member must bring at least one unsaved person to sit beside them in church, with the goal of filling the sanctuary. Using the parable of the great supper in Luke 14, he emphasizes that successful soul-winning requires preparation (having scriptures ready), persistence (not accepting excuses), and influence over many people (inviting widely, not just one or two), illustrated through testimonies of members who came to Christ through relentless invitation.",
-    "audioId": "1_JwrDlESWwoReigwZ4NJoliexSYgFjKt"
+    "summary": "Bishop Joshua teaches that 'anagkazo' (the Greek word for 'compel') is the key to church growth, requiring believers to actively prepare spiritually, overcome people's excuses and lies, and persistently invite many people to church rather than accepting rejection. He announces a six-week 'Operation Sit By Your Soul' campaign where every member must bring at least one unsaved person to sit beside them in church, with the goal of filling the sanctuary. Using the parable of the great supper in Luke 14, he emphasizes that successful soul-winning requires preparation (having scriptures ready), persistence (not accepting excuses), and influence over many people (inviting widely, not just one or two), illustrated through testimonies of members who came to Christ through relentless invitation."
   },
   {
     "id": 355,
@@ -11986,8 +11706,7 @@ export const SERMONS = [
       "1 Corinthians 2:9-12"
     ],
     "keyScripture": "2 Corinthians 3:18",
-    "summary": "Bishop Heward-Mills teaches that being born again saves you from hell, but only receiving the Holy Spirit changes you to become like Jesus Christ. He explains that Jesus lived a sinless life through the power of the eternal Spirit (Hebrews 9:14), and believers need that same Holy Spirit power to be transformed into Christ's image and overcome sin. He emphasizes that godliness (becoming more like God) profits all things in this life, and that transformation comes by asking the Father for the Holy Spirit who carries everything believers need—wisdom, grace, joy, power, and righteousness.",
-    "audioId": "1y-Nmq4RUey01XDmZcfA0ms06X8-Stybw"
+    "summary": "Bishop Heward-Mills teaches that being born again saves you from hell, but only receiving the Holy Spirit changes you to become like Jesus Christ. He explains that Jesus lived a sinless life through the power of the eternal Spirit (Hebrews 9:14), and believers need that same Holy Spirit power to be transformed into Christ's image and overcome sin. He emphasizes that godliness (becoming more like God) profits all things in this life, and that transformation comes by asking the Father for the Holy Spirit who carries everything believers need—wisdom, grace, joy, power, and righteousness."
   },
   {
     "id": 356,
@@ -12027,8 +11746,7 @@ export const SERMONS = [
       "2 Kings 3:11"
     ],
     "keyScripture": "Isaiah 10:27",
-    "summary": "Bishop Joshua teaches that the anointing is the power of God that breaks yokes, brings prosperity, wisdom, and transformation, but it requires a changed vessel through holiness and sanctification. He emphasizes that God anoints servants—those who serve prophets and men of God—and that the anointing is transmitted through men, not independently sought. He calls believers to pursue spiritual gifts and the anointing rather than chasing after degrees, jobs, or migration, because the invisible realm of the Spirit creates all visible success.",
-    "audioId": "1bOhI1ujp-Z7YdY4e6ZcSmU2_jPuxgbzy"
+    "summary": "Bishop Joshua teaches that the anointing is the power of God that breaks yokes, brings prosperity, wisdom, and transformation, but it requires a changed vessel through holiness and sanctification. He emphasizes that God anoints servants—those who serve prophets and men of God—and that the anointing is transmitted through men, not independently sought. He calls believers to pursue spiritual gifts and the anointing rather than chasing after degrees, jobs, or migration, because the invisible realm of the Spirit creates all visible success."
   },
   {
     "id": 357,
@@ -12061,8 +11779,7 @@ export const SERMONS = [
       "Ezekiel 1:1"
     ],
     "keyScripture": "Matthew 6:33",
-    "summary": "Bishop Joshua teaches that the most appropriate vision for every Christian and church is to build God's house and seek His kingdom first, rather than pursuing personal ambitions like career success, marriage, or relocation. He emphasizes that when believers get involved in Jesus' building project (the church), God gets involved in their personal projects and needs. He argues that the sign of the Holy Spirit's presence is a changed vision—from seeking what gentiles seek (food, drink, clothing, prosperity) to seeking God's kingdom, with the promise that all other things will be added.",
-    "audioId": "1hK9UJ_OXhDjtsaQDj3R6nAHQiAKwiQUP"
+    "summary": "Bishop Joshua teaches that the most appropriate vision for every Christian and church is to build God's house and seek His kingdom first, rather than pursuing personal ambitions like career success, marriage, or relocation. He emphasizes that when believers get involved in Jesus' building project (the church), God gets involved in their personal projects and needs. He argues that the sign of the Holy Spirit's presence is a changed vision—from seeking what gentiles seek (food, drink, clothing, prosperity) to seeking God's kingdom, with the promise that all other things will be added."
   },
   {
     "id": 358,
@@ -12097,9 +11814,7 @@ export const SERMONS = [
       "2 Peter 1:13"
     ],
     "keyScripture": "Mark 11:22-23",
-    "summary": "BJosh teaches that the dream church is a church of strong faith that believes every mountain—whether poverty, sickness, broken relationships, or impossibility—can be flattened by speaking to it and not doubting in the heart. He emphasizes that faith gives believers an unlimited capacity for vision, enabling them to see God's plans beyond their physical circumstances and limitations (the 'tent' of the flesh). Using Abraham's story from Genesis 15, he demonstrates that God brings believers 'outside the tent' to see a supernatural vision that transcends natural ability, time constraints, and human impossibility.",
-    "keyTakeaway": "Speak directly to your mountain with faith in God, receive the Holy Spirit's vision for your life that is greater than your current reality, and come out of the tent of your physical limitations to see what God has promised.",
-    "audioId": "1Ifo5A1Vfl5Funh0-RU-BDack7SyPYWyC"
+    "summary": "BJosh teaches that the dream church is a church of strong faith that believes every mountain—whether poverty, sickness, broken relationships, or impossibility—can be flattened by speaking to it and not doubting in the heart. He emphasizes that faith gives believers an unlimited capacity for vision, enabling them to see God's plans beyond their physical circumstances and limitations (the 'tent' of the flesh). Using Abraham's story from Genesis 15, he demonstrates that God brings believers 'outside the tent' to see a supernatural vision that transcends natural ability, time constraints, and human impossibility."
   },
   {
     "id": 359,
@@ -12130,8 +11845,7 @@ export const SERMONS = [
       "Ezekiel 22:9"
     ],
     "keyScripture": "Proverbs 11:13",
-    "summary": "Bishop Heward-Mills teaches that talebearers (gossips who maliciously spread stories and reveal secrets) poison relationships, create strife, destroy friendships, and inflict deep wounds that are difficult to heal. He emphasizes that a talebearing spirit reveals unfaithfulness and warns believers to withdraw from atmospheres of gossip, refuse to repeat matters that should remain private, and extend mercy rather than publicly exposing others' mistakes. Using personal stories from pastoral ministry, he illustrates how gossip networks operate in churches and workplaces, and calls Christians to control their tongues as a mark of spiritual maturity and faithfulness.",
-    "audioId": "1frvurnArQmu3VGtJj4vCczyyVRhCNUQ5"
+    "summary": "Bishop Heward-Mills teaches that talebearers (gossips who maliciously spread stories and reveal secrets) poison relationships, create strife, destroy friendships, and inflict deep wounds that are difficult to heal. He emphasizes that a talebearing spirit reveals unfaithfulness and warns believers to withdraw from atmospheres of gossip, refuse to repeat matters that should remain private, and extend mercy rather than publicly exposing others' mistakes. Using personal stories from pastoral ministry, he illustrates how gossip networks operate in churches and workplaces, and calls Christians to control their tongues as a mark of spiritual maturity and faithfulness."
   },
   {
     "id": 360,
@@ -12160,8 +11874,7 @@ export const SERMONS = [
       "Genesis 17:1-5"
     ],
     "keyScripture": "Proverbs 18:21",
-    "summary": "Bishop Joshua teaches that expressing doubt—even when facts seem realistic—is poison that prevents believers from receiving God's promises, as illustrated by the ten spies who brought an 'evil report' about Canaan despite accurate facts. He emphasizes that true faith means speaking God's promises over your life regardless of circumstances, just as Abraham changed his name to 'father of many nations' at age 99 when he had no children. Believers must confess what God has declared rather than describe negative realities, because death and life are in the power of the tongue and speaking doubt blocks supernatural intervention.",
-    "audioId": "1U0QyQbhK9vbTYBRdNR3tbiQQ7DQplveX"
+    "summary": "Bishop Joshua teaches that expressing doubt—even when facts seem realistic—is poison that prevents believers from receiving God's promises, as illustrated by the ten spies who brought an 'evil report' about Canaan despite accurate facts. He emphasizes that true faith means speaking God's promises over your life regardless of circumstances, just as Abraham changed his name to 'father of many nations' at age 99 when he had no children. Believers must confess what God has declared rather than describe negative realities, because death and life are in the power of the tongue and speaking doubt blocks supernatural intervention."
   },
   {
     "id": 361,
@@ -12193,8 +11906,7 @@ export const SERMONS = [
       "Luke 22:31-32"
     ],
     "keyScripture": "Ezekiel 22:30",
-    "summary": "BJosh teaches that Christians must become intercessors who pray for others—especially unsaved people—rather than only praying for their own needs, because intercession modifies the course of events in people's lives and situates believers between souls and the devil. He emphasizes that God is looking for people to \"make up the hedge\" and stand in the gap through prayer, using Job as an example of someone who prayed for his friends even in the midst of his own devastating losses. The sermon is part four of a series on preaching salvation, focusing specifically on the prayer component, where believers are called to pray for their soul list and interfere in the spiritual realm on behalf of those heading toward hell.",
-    "audioId": "1y5EXhRm7zRM-gbK1R4WhEQ_ArvUmAJWh"
+    "summary": "BJosh teaches that Christians must become intercessors who pray for others—especially unsaved people—rather than only praying for their own needs, because intercession modifies the course of events in people's lives and situates believers between souls and the devil. He emphasizes that God is looking for people to \"make up the hedge\" and stand in the gap through prayer, using Job as an example of someone who prayed for his friends even in the midst of his own devastating losses. The sermon is part four of a series on preaching salvation, focusing specifically on the prayer component, where believers are called to pray for their soul list and interfere in the spiritual realm on behalf of those heading toward hell."
   },
   {
     "id": 362,
@@ -12233,8 +11945,7 @@ export const SERMONS = [
       "Isaiah 62"
     ],
     "keyScripture": "Matthew 6:33",
-    "summary": "Bishop Joshua teaches that Christians must have a vision for building a mega church (3,000 members in first service) because seeking God's kingdom first is the most appropriate vision for believers, distinguishing them from unbelievers who only seek material needs. He emphasizes that true Holy Spirit encounter changes a person's vision from personal ambitions (education, marriage, career) to God's work and the church, because judgment includes not just actions but hidden motives and the counsel of the heart. He challenges the congregation that the harvest is plentiful but laborers are few, calling them to remember they were sought out and saved, and now must work to build God's house rather than focus only on personal blessings.",
-    "audioId": "13-0mKr6BAHd90RxsgRgdnFK3w4__cIIU"
+    "summary": "Bishop Joshua teaches that Christians must have a vision for building a mega church (3,000 members in first service) because seeking God's kingdom first is the most appropriate vision for believers, distinguishing them from unbelievers who only seek material needs. He emphasizes that true Holy Spirit encounter changes a person's vision from personal ambitions (education, marriage, career) to God's work and the church, because judgment includes not just actions but hidden motives and the counsel of the heart. He challenges the congregation that the harvest is plentiful but laborers are few, calling them to remember they were sought out and saved, and now must work to build God's house rather than focus only on personal blessings."
   },
   {
     "id": 363,
@@ -12266,8 +11977,7 @@ export const SERMONS = [
       "Philippians 4:9"
     ],
     "keyScripture": "1 Timothy 4:16",
-    "summary": "Bishop Joshua teaches that genuine personal change and sanctification come not from occasional church attendance but from sustained, deliberate immersion in the Word of God through watching and listening to teaching materials daily. He emphasizes that humans are corrupt, weak, and powerless in themselves, but the God of Peace sanctifies believers wholly—spirit, soul, and body—when they consistently expose themselves to anointed teaching. He challenges believers to adopt a lifestyle of self-education by continuously watching ministry videos and messages, arguing that large amounts of light (teaching) create lasting transformation while brief weekly exposure leads back to spiritual darkness.",
-    "audioId": "1gOoGouGkp8mIG1lwGAIz1sEF54fY1EPE"
+    "summary": "Bishop Joshua teaches that genuine personal change and sanctification come not from occasional church attendance but from sustained, deliberate immersion in the Word of God through watching and listening to teaching materials daily. He emphasizes that humans are corrupt, weak, and powerless in themselves, but the God of Peace sanctifies believers wholly—spirit, soul, and body—when they consistently expose themselves to anointed teaching. He challenges believers to adopt a lifestyle of self-education by continuously watching ministry videos and messages, arguing that large amounts of light (teaching) create lasting transformation while brief weekly exposure leads back to spiritual darkness."
   },
   {
     "id": 364,
@@ -12311,9 +12021,7 @@ export const SERMONS = [
       "Psalm 119:10"
     ],
     "keyScripture": "Matthew 11:28",
-    "summary": "Bishop Heward-Mills teaches that the solution to every problem—anxiety, labor, heavy burdens—is simply to come to Jesus through five practical ways: reading the Word, praying, attending church, seeking the pastor, and working for God. He emphasizes that Satan complicates the simplicity of the gospel, but Jesus' invitation is straightforward and requires no complex steps. Christians must avoid wandering from God's presence by consistently engaging in these five simple practices, which are all ways of coming directly to Christ.",
-    "keyScripture_context": "The entire sermon centers on Matthew 11:28 where Jesus says 'Come unto me, all ye that labor and are heavy laden, and I will give you rest' as the foundational answer to all of life's problems and anxieties.",
-    "audioId": "1gA6vcQblUwI-QGgnu9OZmpc1QHK5ai-m"
+    "summary": "Bishop Heward-Mills teaches that the solution to every problem—anxiety, labor, heavy burdens—is simply to come to Jesus through five practical ways: reading the Word, praying, attending church, seeking the pastor, and working for God. He emphasizes that Satan complicates the simplicity of the gospel, but Jesus' invitation is straightforward and requires no complex steps. Christians must avoid wandering from God's presence by consistently engaging in these five simple practices, which are all ways of coming directly to Christ."
   },
   {
     "id": 365,
@@ -12345,9 +12053,7 @@ export const SERMONS = [
       "John 3:16"
     ],
     "keyScripture": "Matthew 16:18",
-    "summary": "Bishop Joshua Heward-Mills teaches that every church member should have a vision to build a mega church because that vision will transform them into servants who work for God rather than passive attendees who only come to be ministered to. He emphasizes that Jesus' primary project on earth is building His church (Matthew 16:18), not solving individual personal problems, and that when believers align themselves with this church-building vision, God will provide for all their needs as He provides for His workers. He illustrates through personal testimony and examples that serving in church work—regardless of how menial—puts believers on a spiritual journey that makes them pray more, read more, and become more spiritually mature, while also positioning them to receive God's blessing and provision.",
-    "keyTimestamp": "",
-    "audioId": "1UCihcFnuaHpUWvYyUstzE0xAWSTZARXF"
+    "summary": "Bishop Joshua Heward-Mills teaches that every church member should have a vision to build a mega church because that vision will transform them into servants who work for God rather than passive attendees who only come to be ministered to. He emphasizes that Jesus' primary project on earth is building His church (Matthew 16:18), not solving individual personal problems, and that when believers align themselves with this church-building vision, God will provide for all their needs as He provides for His workers. He illustrates through personal testimony and examples that serving in church work—regardless of how menial—puts believers on a spiritual journey that makes them pray more, read more, and become more spiritually mature, while also positioning them to receive God's blessing and provision."
   },
   {
     "id": 366,
@@ -12384,8 +12090,7 @@ export const SERMONS = [
       "Philippians 4:19"
     ],
     "keyScripture": "Hebrews 11:3",
-    "summary": "Bishop Heward-Mills teaches that human beings are spirit, soul, and body (1 Thessalonians 5:23), and that the invisible spiritual realm determines what manifests in the visible physical realm (Hebrews 11:3). He emphasizes that Christians must win the unseen battle in \"the backside of the desert\"—the private, hidden place of prayer, giving, and devotion to God—before they can experience victory in their visible circumstances, just as Moses spent 40 unseen years in the wilderness before confronting Pharaoh. He challenges believers to become truly spiritual people who invest in their spirit man through secret prayer, sacrificial giving without announcement, and seeking God's kingdom first, because only spiritual people can receive what God has prepared for them and create better lives through faith.",
-    "audioId": "109cNoBP5NMnUcBBhJA-Y3wYcjI2cR865"
+    "summary": "Bishop Heward-Mills teaches that human beings are spirit, soul, and body (1 Thessalonians 5:23), and that the invisible spiritual realm determines what manifests in the visible physical realm (Hebrews 11:3). He emphasizes that Christians must win the unseen battle in \"the backside of the desert\"—the private, hidden place of prayer, giving, and devotion to God—before they can experience victory in their visible circumstances, just as Moses spent 40 unseen years in the wilderness before confronting Pharaoh. He challenges believers to become truly spiritual people who invest in their spirit man through secret prayer, sacrificial giving without announcement, and seeking God's kingdom first, because only spiritual people can receive what God has prepared for them and create better lives through faith."
   },
   {
     "id": 367,
@@ -12419,8 +12124,7 @@ export const SERMONS = [
       "1 Corinthians 9:18"
     ],
     "keyScripture": "Ephesians 2:10",
-    "summary": "Bishop Joshua teaches that church growth requires expanding the workforce by mobilizing lay people (unpaid volunteers) who work for love of God rather than money, because the harvest is plentiful but the laborers are few. He emphasizes that every believer is created in Christ Jesus for good works which God has pre-ordained, and that Christians will be judged not only for salvation but for their works in service to God. Using Moses and the seventy elders as an example, he argues that pastors cannot do all the ministry alone and need thousands of lay workers to help with prayer, counseling, visitation, and bringing people to church.",
-    "audioId": "1OsAQoMqrn0-OpmUm--IJZ4_k5UyZWTbh"
+    "summary": "Bishop Joshua teaches that church growth requires expanding the workforce by mobilizing lay people (unpaid volunteers) who work for love of God rather than money, because the harvest is plentiful but the laborers are few. He emphasizes that every believer is created in Christ Jesus for good works which God has pre-ordained, and that Christians will be judged not only for salvation but for their works in service to God. Using Moses and the seventy elders as an example, he argues that pastors cannot do all the ministry alone and need thousands of lay workers to help with prayer, counseling, visitation, and bringing people to church."
   },
   {
     "id": 368,
@@ -12446,8 +12150,7 @@ export const SERMONS = [
       "John 17"
     ],
     "keyScripture": "Philippians 4:6-7",
-    "summary": "Bishop Joshua teaches that prayer must be integrated into everything we do, not just morning and evening routines, and that the greatest sign of prayerlessness in the church is the presence of anxiety and hopelessness. He explains that the solution to anxiety is persistent prayer with thanksgiving, which brings the peace of God that guards our hearts and minds even when circumstances don't change. He emphasizes that Christians must maintain constant communication with God and keep their eyes steadfastly on heaven to protect themselves from the crushing difficulties of this world.",
-    "audioId": "1OP4GX5G4ZPZ6ud21B4AsSRte9VCUVO4q"
+    "summary": "Bishop Joshua teaches that prayer must be integrated into everything we do, not just morning and evening routines, and that the greatest sign of prayerlessness in the church is the presence of anxiety and hopelessness. He explains that the solution to anxiety is persistent prayer with thanksgiving, which brings the peace of God that guards our hearts and minds even when circumstances don't change. He emphasizes that Christians must maintain constant communication with God and keep their eyes steadfastly on heaven to protect themselves from the crushing difficulties of this world."
   },
   {
     "id": 369,
@@ -12480,8 +12183,7 @@ export const SERMONS = [
       "Exodus 3:3"
     ],
     "keyScripture": "Exodus 3:1-3",
-    "summary": "BJosh teaches that while corporate worship and church encounters with God are powerful, they are meant to lead believers into private, individual meetings with God in the \"secret place\" where true transformation happens. He emphasizes that Christians must learn to turn aside from their busy lives—careers, ministries, and distractions—to meet God alone, using Moses at the burning bush as the primary example of someone who deliberately turned aside from his daily work to encounter God personally. He argues that most Christians live far below their potential because they depend solely on public church experiences rather than cultivating a daily, intimate, one-on-one relationship with God where He speaks to them individually by name.",
-    "audioId": "1bJxi1jr5ZHjDU44D_uvBaU4awwixsWVi"
+    "summary": "BJosh teaches that while corporate worship and church encounters with God are powerful, they are meant to lead believers into private, individual meetings with God in the \"secret place\" where true transformation happens. He emphasizes that Christians must learn to turn aside from their busy lives—careers, ministries, and distractions—to meet God alone, using Moses at the burning bush as the primary example of someone who deliberately turned aside from his daily work to encounter God personally. He argues that most Christians live far below their potential because they depend solely on public church experiences rather than cultivating a daily, intimate, one-on-one relationship with God where He speaks to them individually by name."
   },
   {
     "id": 370,
@@ -12521,8 +12223,7 @@ export const SERMONS = [
       "Matthew 1:23"
     ],
     "keyScripture": "2 Corinthians 1:21-22",
-    "summary": "Bishop Joshua teaches that the presence of God is the only true certification of authentic Christianity, distinguishing real faith from religious activity, and that this presence is known primarily through hearing the voice of the Holy Spirit who guides, corrects, prophesies, and comforts believers. He emphasizes that without the Holy Spirit's voice actively speaking into daily decisions—career, marriage, ministry—Christians are merely operating by human intelligence and are separated from the life God intends for them. He warns that beautiful church structures, programs, and even supernatural results through angels do not guarantee God's presence; only the indwelling Holy Spirit who continuously speaks and guides proves that God is truly with a person or congregation.",
-    "audioId": "1CP6JywHfQOAb2ohAnhaAWpXX9lgy01-u"
+    "summary": "Bishop Joshua teaches that the presence of God is the only true certification of authentic Christianity, distinguishing real faith from religious activity, and that this presence is known primarily through hearing the voice of the Holy Spirit who guides, corrects, prophesies, and comforts believers. He emphasizes that without the Holy Spirit's voice actively speaking into daily decisions—career, marriage, ministry—Christians are merely operating by human intelligence and are separated from the life God intends for them. He warns that beautiful church structures, programs, and even supernatural results through angels do not guarantee God's presence; only the indwelling Holy Spirit who continuously speaks and guides proves that God is truly with a person or congregation."
   },
   {
     "id": 371,
@@ -12553,8 +12254,7 @@ export const SERMONS = [
       "Jeremiah 18"
     ],
     "keyScripture": "Mark 5:19",
-    "summary": "Bishop Heward-Mills teaches that the dream church is a church of soul winners where every member is a missionary sent by God to evangelize wherever they find themselves—in trotros, on campus, at work, in hostels, at bus stops, hospitals, and every daily setting. He emphasizes that soul winning is God's primary love language (John 21:16) and that when believers become soul winners, they generate divine protection, promotion, and eternal treasure. Using the parable of building on rock versus sand (Matthew 7:24) and the illustration of Operation Fish, he urges believers to invest in eternity by establishing 25 people in church as a personal annual vision.",
-    "audioId": "1a6oYVWN5XZOARKy0NZfcdOo6Hlwj96Se"
+    "summary": "Bishop Heward-Mills teaches that the dream church is a church of soul winners where every member is a missionary sent by God to evangelize wherever they find themselves—in trotros, on campus, at work, in hostels, at bus stops, hospitals, and every daily setting. He emphasizes that soul winning is God's primary love language (John 21:16) and that when believers become soul winners, they generate divine protection, promotion, and eternal treasure. Using the parable of building on rock versus sand (Matthew 7:24) and the illustration of Operation Fish, he urges believers to invest in eternity by establishing 25 people in church as a personal annual vision."
   },
   {
     "id": 372,
@@ -12589,8 +12289,7 @@ export const SERMONS = [
       "Romans 7:14"
     ],
     "keyScripture": "1 Corinthians 2:14",
-    "summary": "Bishop Heward-Mills teaches that the natural (unspiritual) man cannot receive the things of God, and that all life's battles are spiritual warfare, not fought against flesh and blood but against evil spirits. He emphasizes that Christians must become spiritual through consistent prayer, speaking in tongues, and faithful church attendance, because an unspiritual Christian lives the same defeated life as an unbeliever. He illustrates spiritual authority through Elisha's invisible angelic army and Jesus' 12 legions of angels, arguing that spiritual stature—not physical effort—determines victory over sin, poverty, lust, and demonic oppression.",
-    "audioId": "1zt_3avUQhGliXA4V2eUo8HphneqHobee"
+    "summary": "Bishop Heward-Mills teaches that the natural (unspiritual) man cannot receive the things of God, and that all life's battles are spiritual warfare, not fought against flesh and blood but against evil spirits. He emphasizes that Christians must become spiritual through consistent prayer, speaking in tongues, and faithful church attendance, because an unspiritual Christian lives the same defeated life as an unbeliever. He illustrates spiritual authority through Elisha's invisible angelic army and Jesus' 12 legions of angels, arguing that spiritual stature—not physical effort—determines victory over sin, poverty, lust, and demonic oppression."
   },
   {
     "id": 373,
@@ -12624,8 +12323,7 @@ export const SERMONS = [
       "Hebrews 5:7"
     ],
     "keyScripture": "1 Corinthians 14:4",
-    "summary": "Bishop Heward-Mills teaches that 'oikodomeo' (the Greek word for 'edify' in 1 Corinthians 14:4) means to build or construct, and when believers speak in tongues they are literally building themselves up spiritually in preparation for unknown future battles. He emphasizes that speaking in tongues should be done audibly and fervently (not whispered), with hands lifted and eyes closed, as a way to magnify God and become aware of the spiritual realm. He warns that shallow Christianity without fervent prayer in tongues will not sustain believers or their children through the spiritual darkness and trials coming in the future.",
-    "audioId": "1J9obIo_AwyOR6maIQqLl0CmGXMF0XD48"
+    "summary": "Bishop Heward-Mills teaches that 'oikodomeo' (the Greek word for 'edify' in 1 Corinthians 14:4) means to build or construct, and when believers speak in tongues they are literally building themselves up spiritually in preparation for unknown future battles. He emphasizes that speaking in tongues should be done audibly and fervently (not whispered), with hands lifted and eyes closed, as a way to magnify God and become aware of the spiritual realm. He warns that shallow Christianity without fervent prayer in tongues will not sustain believers or their children through the spiritual darkness and trials coming in the future."
   },
   {
     "id": 374,
@@ -12651,8 +12349,7 @@ export const SERMONS = [
       "Matthew 7:26"
     ],
     "keyScripture": "Matthew 7:24-27",
-    "summary": "Bishop Joshua Heward-Mills teaches that life is like building a house: those who hear Jesus' words and obey them build on a rock (the wise), while those who hear but do not obey build on sand (the foolish). He emphasizes that building on the rock is harder and slower—requiring patience, godly timing, discipline in sexuality, proper education, and resisting shortcuts—but it creates a foundation that will withstand life's storms. He warns young people especially against rushing into relationships, sexual sin, materialism, and trying to experience adult privileges prematurely, because these shortcuts destroy the foundation and lead to a life that collapses when tested.",
-    "audioId": "1tiB_-yxf6zuJW6TL65ThFKwfS_rbaI_r"
+    "summary": "Bishop Joshua Heward-Mills teaches that life is like building a house: those who hear Jesus' words and obey them build on a rock (the wise), while those who hear but do not obey build on sand (the foolish). He emphasizes that building on the rock is harder and slower—requiring patience, godly timing, discipline in sexuality, proper education, and resisting shortcuts—but it creates a foundation that will withstand life's storms. He warns young people especially against rushing into relationships, sexual sin, materialism, and trying to experience adult privileges prematurely, because these shortcuts destroy the foundation and lead to a life that collapses when tested."
   },
   {
     "id": 375,
@@ -12675,9 +12372,7 @@ export const SERMONS = [
       "Acts 2:42"
     ],
     "keyScripture": "James 4:2",
-    "summary": "BJosh teaches that people often lust, kill, desire, and fight to obtain what they want, but the real reason they don't have is because they don't ask God in prayer. He emphasizes that prayer is the key to obtaining what we are fighting for, desiring, or trying to get through our own efforts. He calls the church to continue steadfastly in the four practices of the New Testament church, beginning with the apostles' doctrine, and stresses that each of God's servants has a unique doctrine and way that God works with them.",
-    "keyTheme": "Prayer replaces human striving",
-    "audioId": "10wW3-pkCaKDn-dyh_a60lo-dmD2w8G_q"
+    "summary": "BJosh teaches that people often lust, kill, desire, and fight to obtain what they want, but the real reason they don't have is because they don't ask God in prayer. He emphasizes that prayer is the key to obtaining what we are fighting for, desiring, or trying to get through our own efforts. He calls the church to continue steadfastly in the four practices of the New Testament church, beginning with the apostles' doctrine, and stresses that each of God's servants has a unique doctrine and way that God works with them."
   },
   {
     "id": 376,
@@ -12704,8 +12399,7 @@ export const SERMONS = [
       "Matthew 28:18"
     ],
     "keyScripture": "Proverbs 11:30",
-    "summary": "BJosh teaches that every Christian must personally become a soul winner by sitting down with individuals to share that Christ died for their sins and praying with them until they are genuinely converted. He defines the gospel specifically as the message that Christ died for our sins, was buried, and rose again on the third day according to the scriptures. He emphasizes that soul winning is the great commission and that those who win souls are wise, warning that demons create strongholds on people's minds that prevent them from receiving salvation.",
-    "audioId": "162YiqmkR2QJOMByquwNHmKJ1uU4ZMmS4"
+    "summary": "BJosh teaches that every Christian must personally become a soul winner by sitting down with individuals to share that Christ died for their sins and praying with them until they are genuinely converted. He defines the gospel specifically as the message that Christ died for our sins, was buried, and rose again on the third day according to the scriptures. He emphasizes that soul winning is the great commission and that those who win souls are wise, warning that demons create strongholds on people's minds that prevent them from receiving salvation."
   },
   {
     "id": 377,
@@ -12731,8 +12425,7 @@ export const SERMONS = [
       "John 15:4"
     ],
     "keyScripture": "John 15:8",
-    "summary": "Bishop Joshua teaches that true disciples of Jesus Christ are identified not by religious activity or church attendance, but by their fruitfulness—bearing spiritual fruit that proves they are genuine followers. He presents four laws of fruitfulness: fruitless Christians will be removed, fruitful Christians will be pruned to bear more fruit, cleanliness through God's Word is needed for fruitfulness, and closeness (abiding) in Christ is essential for bearing fruit. Using the analogy of biological reproduction requiring complete intimacy, he emphasizes that believers must have deep, unhindered closeness with God to be truly fruitful, warning that in cultures where Christianity costs nothing, many may appear Christian without actually being disciples.",
-    "audioId": "1osetMqaZhnoM1O0TtiBoyZEhXAM2Tn0K"
+    "summary": "Bishop Joshua teaches that true disciples of Jesus Christ are identified not by religious activity or church attendance, but by their fruitfulness—bearing spiritual fruit that proves they are genuine followers. He presents four laws of fruitfulness: fruitless Christians will be removed, fruitful Christians will be pruned to bear more fruit, cleanliness through God's Word is needed for fruitfulness, and closeness (abiding) in Christ is essential for bearing fruit. Using the analogy of biological reproduction requiring complete intimacy, he emphasizes that believers must have deep, unhindered closeness with God to be truly fruitful, warning that in cultures where Christianity costs nothing, many may appear Christian without actually being disciples."
   },
   {
     "id": 378,
@@ -12764,8 +12457,7 @@ export const SERMONS = [
       "Ephesians 4"
     ],
     "keyScripture": "1 Peter 3:3-4",
-    "summary": "BJosh teaches that God's primary work is transforming believers internally, particularly by developing humility and a meek and quiet spirit which God values highly. He explains that pride is naturally generated in human hearts and is a characteristic of the last days, manifested through self-love, boasting, and covetousness that pervades modern culture including among Christians. He emphasizes that true beauty and value come from the hidden man of the heart rather than outward adornment, and that those who humble themselves will be exalted according to universal biblical law.",
-    "audioId": "1UrFThdCRaHIceWK_eL_SS88-cLy-zJho"
+    "summary": "BJosh teaches that God's primary work is transforming believers internally, particularly by developing humility and a meek and quiet spirit which God values highly. He explains that pride is naturally generated in human hearts and is a characteristic of the last days, manifested through self-love, boasting, and covetousness that pervades modern culture including among Christians. He emphasizes that true beauty and value come from the hidden man of the heart rather than outward adornment, and that those who humble themselves will be exalted according to universal biblical law."
   },
   {
     "id": 379,
@@ -12880,8 +12572,7 @@ export const SERMONS = [
       "Psalm 23"
     ],
     "keyScripture": "Luke 5:4-6",
-    "summary": "BJosh teaches that the primary evidence of God's presence is hearing His voice, which transforms ministry from human effort (toiling all night with no results) to supernatural results through divine guidance. He emphasizes that the Holy Spirit speaks through three channels: to the body (audible voice, servants/prophets, visions), to the soul (making you remember scriptures, giving thoughts that seem good), and to the spirit, and Christians must learn the language and patterns of how God speaks. He illustrates that without learning to hear the Holy Spirit's voice in daily decisions—from fishing on the right side of the boat to buying land to leading a church—believers will remain limited to ordinary, natural results rather than accessing the supernatural abundant life God intends.",
-    "audioId": "1PeDi7z0WVyuV8YCHxof4Kygt1psfE6Vk"
+    "summary": "BJosh teaches that the primary evidence of God's presence is hearing His voice, which transforms ministry from human effort (toiling all night with no results) to supernatural results through divine guidance. He emphasizes that the Holy Spirit speaks through three channels: to the body (audible voice, servants/prophets, visions), to the soul (making you remember scriptures, giving thoughts that seem good), and to the spirit, and Christians must learn the language and patterns of how God speaks. He illustrates that without learning to hear the Holy Spirit's voice in daily decisions—from fishing on the right side of the boat to buying land to leading a church—believers will remain limited to ordinary, natural results rather than accessing the supernatural abundant life God intends."
   },
   {
     "id": 382,
@@ -12922,8 +12613,7 @@ export const SERMONS = [
       "John 3:17"
     ],
     "keyScripture": "Acts 8:5",
-    "summary": "Bishop Joshua teaches that Philip preached Christ to Samaria—a rejected, poor, and lawless place—because Christ alone is the hope of glory, the light of the world who guides our lives, and the resurrection and the life who saves us from sin and death. He emphasizes that no amount of education, money, or human solutions can solve humanity's core problem of shame and mortality, only Jesus Christ can transform lives and grant eternal life. The sermon concludes with an altar call for people to accept Jesus as their personal Savior and receive forgiveness, guidance, and the promise of resurrection.",
-    "audioId": "1so_NDQHGzoTq6u76ql1aQD5X1aQ1QZb7"
+    "summary": "Bishop Joshua teaches that Philip preached Christ to Samaria—a rejected, poor, and lawless place—because Christ alone is the hope of glory, the light of the world who guides our lives, and the resurrection and the life who saves us from sin and death. He emphasizes that no amount of education, money, or human solutions can solve humanity's core problem of shame and mortality, only Jesus Christ can transform lives and grant eternal life. The sermon concludes with an altar call for people to accept Jesus as their personal Savior and receive forgiveness, guidance, and the promise of resurrection."
   },
   {
     "id": 383,
@@ -12970,8 +12660,7 @@ export const SERMONS = [
       "Matthew 16:26"
     ],
     "keyScripture": "2 Corinthians 5:17",
-    "summary": "Bishop Heward-Mills teaches that when a person is born again through faith in Christ, they become a completely new creation in their spirit—the real person inside—while the outer body remains unchanged and is perishing. He emphasizes that humans are tripartite beings composed of spirit, soul, and body, with the spirit being the true eternal self that was dead in sin through Adam but is made alive through the incorruptible seed of God's Word. He urges believers to invest in their inner spiritual man through prayer, tongues, and God's Word rather than focusing only on the temporary physical body, because the spirit is what continues after death into eternity.",
-    "audioId": "1q4HsVg_s8Wa6jhN4PqUBvZKL_on96SPo"
+    "summary": "Bishop Heward-Mills teaches that when a person is born again through faith in Christ, they become a completely new creation in their spirit—the real person inside—while the outer body remains unchanged and is perishing. He emphasizes that humans are tripartite beings composed of spirit, soul, and body, with the spirit being the true eternal self that was dead in sin through Adam but is made alive through the incorruptible seed of God's Word. He urges believers to invest in their inner spiritual man through prayer, tongues, and God's Word rather than focusing only on the temporary physical body, because the spirit is what continues after death into eternity."
   },
   {
     "id": 384,
@@ -13008,8 +12697,7 @@ export const SERMONS = [
       "John 3:16"
     ],
     "keyScripture": "Mark 10:46-49",
-    "summary": "Bishop Joshua teaches that all lost people are spiritually blind like Bartimaeus, unable to see their own sin and need for salvation until Jesus comes to them. He emphasizes that salvation is initiated by Jesus seeking us out, not by our ability to find Him, and that we must cry out for mercy and come to Jesus by faith despite obstacles that try to silence us. The sermon illustrates that Jesus stands still for each individual person, demonstrating God's personal love and willingness to interrupt His plans to save even one soul who calls out to Him.",
-    "audioId": "1GtvU_0vvwigXZXKdvqK-GxxXaOnoebW6"
+    "summary": "Bishop Joshua teaches that all lost people are spiritually blind like Bartimaeus, unable to see their own sin and need for salvation until Jesus comes to them. He emphasizes that salvation is initiated by Jesus seeking us out, not by our ability to find Him, and that we must cry out for mercy and come to Jesus by faith despite obstacles that try to silence us. The sermon illustrates that Jesus stands still for each individual person, demonstrating God's personal love and willingness to interrupt His plans to save even one soul who calls out to Him."
   },
   {
     "id": 385,
@@ -13033,8 +12721,7 @@ export const SERMONS = [
       "Matthew 5:6"
     ],
     "keyScripture": "Matthew 5:6",
-    "summary": "BJosh welcomes the Holy Spirit and invites God's presence to reveal His grace, glory, and power to those gathered. He emphasizes the need for spiritual hunger and references Jesus' teaching that those who hunger and thirst after righteousness will be filled. He prays for transformation through encounter with God's presence, particularly for backsliders and those who need to know God more intimately.",
-    "audioId": "188R0ECM1lVg8QIMJRHyirliEai1dD7kN"
+    "summary": "BJosh welcomes the Holy Spirit and invites God's presence to reveal His grace, glory, and power to those gathered. He emphasizes the need for spiritual hunger and references Jesus' teaching that those who hunger and thirst after righteousness will be filled. He prays for transformation through encounter with God's presence, particularly for backsliders and those who need to know God more intimately."
   },
   {
     "id": 386,
@@ -13119,9 +12806,7 @@ export const SERMONS = [
       "Deuteronomy 7:4"
     ],
     "keyScripture": "Psalm 92:13",
-    "summary": "Bishop Joshua teaches that getting people saved is incomplete until they are firmly planted and established in the local church, not just visiting occasionally like flower-pot plants. He emphasizes that Sunday is the critical day for the New Testament church because Pentecost, the resurrection, and Jesus' appearances all happened on Sundays, making it essential for new converts to attend. He instructs soul winners to establish new believers through four key methods: bringing them to Sunday services, encouraging post-service conversations and WhatsApp group connections, taking them to church events and food fellowships, and encouraging them to marry within the church community.",
-    "topics_explanation": "The sermon focuses heavily on practical soul-winning strategies beyond initial conversion, emphasizing church planting (establishment), the theological and practical importance of Sunday worship, building relationships through conversations and social media, and the power of fellowship meals and events to cement church membership.",
-    "audioId": "1AlGcpLh4FlWeTbwQwy4OeqOTDcu8b5Oq"
+    "summary": "Bishop Joshua teaches that getting people saved is incomplete until they are firmly planted and established in the local church, not just visiting occasionally like flower-pot plants. He emphasizes that Sunday is the critical day for the New Testament church because Pentecost, the resurrection, and Jesus' appearances all happened on Sundays, making it essential for new converts to attend. He instructs soul winners to establish new believers through four key methods: bringing them to Sunday services, encouraging post-service conversations and WhatsApp group connections, taking them to church events and food fellowships, and encouraging them to marry within the church community."
   },
   {
     "id": 388,
@@ -13153,8 +12838,7 @@ export const SERMONS = [
       "Luke 2:52"
     ],
     "keyScripture": "1 Timothy 4:16",
-    "summary": "Bishop Joshua Heward-Mills teaches that believers must take heed to themselves first before trying to change others, emphasizing that the problem is more within us than with the people we minister to. He stresses the discipline of waiting on God through extended prayer, fasting, and spending long hours in God's presence as the foundation for effective ministry and spiritual power. He warns that without personal spiritual preparation and self-examination of both doctrine and lifestyle, ministers risk becoming castaways even while preaching to others.",
-    "audioId": "1KA2Bu7L6mTEnoE6MUccHGahzXeCdPwLl"
+    "summary": "Bishop Joshua Heward-Mills teaches that believers must take heed to themselves first before trying to change others, emphasizing that the problem is more within us than with the people we minister to. He stresses the discipline of waiting on God through extended prayer, fasting, and spending long hours in God's presence as the foundation for effective ministry and spiritual power. He warns that without personal spiritual preparation and self-examination of both doctrine and lifestyle, ministers risk becoming castaways even while preaching to others."
   },
   {
     "id": 389,
@@ -13188,7 +12872,471 @@ export const SERMONS = [
       "Matthew 12:43-45"
     ],
     "keyScripture": "1 Corinthians 15:33",
-    "summary": "Bishop Heward-Mills teaches that after being born again, great life change comes through spiritual growth, renewing your mind with God's Word, and especially through listening to preaching—which he says manifests God's Word with Holy Spirit power to produce miracles, cast out demons, and transform lives in ways reading alone cannot. He emphasizes that preaching is God's chosen method to change people, as evidenced in Acts 8 where Philip's preaching in Samaria brought miracles, deliverance, and healing. He concludes that you must change your friends to change your life, warning that bad company corrupts good character and urging believers to seek out spiritually stronger companions who will elevate them.",
-    "audioId": "1woqlfazIV4Q2a27oZYyfi9SOC4ky237F"
+    "summary": "Bishop Heward-Mills teaches that after being born again, great life change comes through spiritual growth, renewing your mind with God's Word, and especially through listening to preaching—which he says manifests God's Word with Holy Spirit power to produce miracles, cast out demons, and transform lives in ways reading alone cannot. He emphasizes that preaching is God's chosen method to change people, as evidenced in Acts 8 where Philip's preaching in Samaria brought miracles, deliverance, and healing. He concludes that you must change your friends to change your life, warning that bad company corrupts good character and urging believers to seek out spiritually stronger companions who will elevate them."
+  },
+  {
+    "id": 390,
+    "youtubeId": "t7EVD-dn_34",
+    "title": "The  River Of The Holy Spirit | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "River of the Holy Spirit",
+      "Emblems of the Holy Spirit",
+      "Temple versus Tomb",
+      "Holy Spirit flowing outward",
+      "Evangelism and soul-winning",
+      "Revival and spiritual awakening",
+      "Personal holiness leading to service",
+      "Dead Sea prophecy",
+      "Spiritual life and healing",
+      "Well to river progression",
+      "Holy Spirit brings life to the dead",
+      "Campus ministry and workplace witness"
+    ],
+    "scriptures": [
+      "John 14:17",
+      "1 Corinthians 2",
+      "Isaiah 55",
+      "Ezekiel 47:1",
+      "John 4:14",
+      "John 7:37-39",
+      "Matthew 23:27",
+      "Ephesians 2:5",
+      "Ezekiel 47:8-9"
+    ],
+    "keyScripture": "John 7:38",
+    "summary": "Bishop Heward-Mills teaches that the Holy Spirit begins as a well inside believers for personal blessing but must break out to become a river flowing outward to bring life, healing, and salvation to others. He contrasts temple Christians (alive with the Spirit flowing out) with tomb Christians (outwardly religious but spiritually dead inside, living only on past experiences). The river of the Holy Spirit flows toward dead places like classrooms, workplaces, and hostels, bringing spiritual life to the lost, healing to the broken, and a great harvest of souls wherever believers allow it to flow through them.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 391,
+    "youtubeId": "FnAkGA39Vl4",
+    "title": "Backsliding | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "Backsliding",
+      "Relationship with God",
+      "Spiritual decay",
+      "Continuing in faith",
+      "Jeremiah the weeping prophet",
+      "Going backward spiritually",
+      "Warning signs in faith",
+      "Spiritual decline",
+      "Staying close to God",
+      "Religious diligence",
+      "Spiritual temperature",
+      "Perseverance in Christianity"
+    ],
+    "scriptures": [
+      "Jeremiah 3:22",
+      "Acts 17:28",
+      "John 8:30-31",
+      "John 6:66",
+      "Matthew 10:22",
+      "1 Corinthians 10:12",
+      "Proverbs 9:9"
+    ],
+    "keyScripture": "Jeremiah 3:22",
+    "summary": "Bishop Joshua Heward-Mills teaches that backsliding means sliding backward in your relationship with God rather than moving forward, and that Christians are never standing still—they are either progressing or regressing spiritually. He explains that everything on earth is decaying and relationships with God require active maintenance, warning that many people start their Christian journey beautifully but slowly drift away without realizing it because there are no clear notifications or warnings when spiritual decline begins. Using the prophet Jeremiah's message and comparing spiritual relationships to romantic relationships, he emphasizes that believers must assess whether they are continuing with Christ or slowly falling away, noting that symptoms like prayerlessness, missing church, and losing passion indicate backsliding.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 392,
+    "youtubeId": "apy6uAEmco4",
+    "title": "The Oil of The Holy Spirit | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "Holy Spirit",
+      "Anointing oil",
+      "Revelation of God",
+      "Personal relationship with God",
+      "Transformation",
+      "Separation from the world",
+      "Divine guidance",
+      "Fresh oil",
+      "Light in darkness",
+      "Voice of the Spirit",
+      "Spiritual change",
+      "Knowing God personally"
+    ],
+    "scriptures": [
+      "John 1:18",
+      "Matthew 16:13",
+      "Matthew 16:14",
+      "Matthew 16:15",
+      "Matthew 16:17",
+      "1 Samuel 3:21",
+      "Hebrews 8:11",
+      "1 Samuel 16:13",
+      "Exodus 30:30",
+      "Revelation 1:6",
+      "John 16:14",
+      "Proverbs 8:1",
+      "Job 29:3",
+      "Psalm 92:10",
+      "Matthew 25:8"
+    ],
+    "keyScripture": "1 Samuel 16:13",
+    "summary": "BJosh teaches that the Holy Spirit is symbolized by oil in Scripture, which marks believers out as different from the world, brings divine light and guidance for life decisions, and transforms desires from worldly to godly. He emphasizes that many Christians remain unchanged because they lack a personal relationship with the Holy Spirit, not just knowledge about God, and that fresh oil from the Spirit is needed continuously to maintain spiritual light and direction. The anointing oil separates believers unto God as priests and kings, guides them through the darkness of life's decisions, and makes Christianity attractive by glorifying Jesus and changing what believers desire.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 393,
+    "youtubeId": "HwB4-FYG0bk",
+    "title": "The Person Of The Holy Spirit | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "Person of the Holy Spirit",
+      "Trinity",
+      "Receiving the Holy Spirit",
+      "Companion relationship with Holy Spirit",
+      "Holy Spirit as person not force",
+      "Greek word lambano",
+      "Emblems of the Holy Spirit",
+      "Holy Spirit's will",
+      "Holy Spirit's emotions",
+      "Holy Spirit's personality",
+      "Knowing versus having the Spirit",
+      "Acts 19 believers"
+    ],
+    "scriptures": [
+      "Genesis 1:26",
+      "Acts 7:55-56",
+      "Romans 8:9",
+      "1 John 4:13",
+      "Acts 19:1-2",
+      "John 14:15-17",
+      "John 16:5-7",
+      "John 14:16",
+      "John 16:13",
+      "1 Corinthians 12:11"
+    ],
+    "keyScripture": "Acts 19:2",
+    "summary": "Bishop Joshua teaches that while all Christians have the Holy Spirit, most have not 'received' (Greek: lambano) Him as a personal companion they associate with and know intimately. He explains the Holy Spirit is not a force or power but a person with will, emotions, mind, and the ability to converse, using emblems throughout Scripture to reveal His personality. The sermon begins a series introducing believers to the person of the Holy Spirit so they can develop a friendship with Him rather than just knowing about Him.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 394,
+    "youtubeId": "waH0CJjLHGg",
+    "title": "The Names Of God: Jehovah Sabaoth | Joshua Heward-Mills",
+    "topics": [
+      "Jehovah Sabaoth",
+      "Lord of Hosts",
+      "Spiritual Warfare",
+      "Heavenly Armies",
+      "Angels as Ministering Spirits",
+      "David and Goliath",
+      "Fighting the Good Fight",
+      "Word of God Activates Angels",
+      "Captain of the Host",
+      "Sheep Among Wolves",
+      "Continuous Battles",
+      "God Fights for His Word"
+    ],
+    "scriptures": [
+      "Genesis 1:1-3",
+      "John 17:6",
+      "Romans 9:29",
+      "James 5:4",
+      "Isaiah 47:4",
+      "Hebrews 10:32",
+      "1 Timothy 6:12",
+      "Hebrews 1:14",
+      "Matthew 10:16",
+      "1 Samuel 17:4",
+      "1 Samuel 17:5",
+      "1 Samuel 17:41",
+      "1 Samuel 17:42",
+      "1 Samuel 17:44",
+      "1 Samuel 17:45",
+      "1 Samuel 17:46",
+      "1 Samuel 17:48",
+      "2 Samuel 21:15",
+      "2 Samuel 21:16",
+      "2 Samuel 21:17",
+      "2 Samuel 21:18",
+      "2 Samuel 21:19",
+      "2 Samuel 21:20",
+      "Joshua 5:13",
+      "Joshua 5:14",
+      "Revelation 19:13-14",
+      "Psalm 103:20",
+      "Jude 1:9"
+    ],
+    "keyScripture": "1 Samuel 17:45",
+    "summary": "Bishop Heward-Mills teaches that Jehovah Sabaoth means 'Lord of Hosts' or 'Lord of Armies,' revealing God as the commander of heavenly forces who deploys angels to fight spiritual battles on behalf of believers. He emphasizes that Christians are like sheep among wolves facing continuous battles they cannot win in their own strength, but must invoke the name of Jehovah Sabaoth as David did against Goliath. The Lord of Hosts is not automatically on our side but fights for His Word, so believers must align their prayers and lives with Scripture to activate the angelic armies that follow the Word of God.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 395,
+    "youtubeId": "ZO-OVUQejg0",
+    "title": "Causes Of Backsliding | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "backsliding",
+      "spiritual shallowness",
+      "Bible-based convictions",
+      "spiritual ambition",
+      "bitterness and unforgiveness",
+      "rebellion",
+      "lust and worldly desires",
+      "spiritual depth and roots",
+      "fear versus love of God",
+      "Holy Spirit filling",
+      "demonic strongholds",
+      "Christian maturity"
+    ],
+    "scriptures": [
+      "Proverbs 14:14",
+      "1 Corinthians 10:11",
+      "1 Corinthians 10:12",
+      "Matthew 3:10",
+      "Luke 8:13",
+      "Isaiah 5:24",
+      "Ecclesiastes 7:25",
+      "Matthew 28:18-20",
+      "Proverbs 3:9-10",
+      "Malachi 3:10",
+      "1 Timothy 1:5",
+      "Hebrews 5:4",
+      "Matthew 12:43"
+    ],
+    "keyScripture": "Luke 8:13",
+    "summary": "Bishop Joshua Heward-Mills teaches that backsliding has specific root causes including spiritual shallowness (lacking deep Bible-based convictions), emptiness (not being filled with the Holy Spirit), bitterness/unforgiveness, rebellion, and lust. He emphasizes that shallow Christians receive God's word with joy but have no roots, so they believe for a while but fall away in times of testing because their faith is based on following people rather than personal conviction in Scripture. He stresses that Christians must move from doing things out of fear to doing things out of love for God, developing deep spiritual roots through personal knowledge of God's Word rather than merely following pastors or other people.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 396,
+    "youtubeId": "TE-D2y1OIUY",
+    "title": "Elohim | The Names Of God Part 1 | Joshua Heward-Mills",
+    "topics": [
+      "Names of God",
+      "Elohim",
+      "Creator God",
+      "God creates from nothing",
+      "God's nature and character",
+      "Holy Spirit hovering",
+      "Manifestation of God's name",
+      "Remember your creator in youth",
+      "God works for His name's sake",
+      "Trusting God's character",
+      "Jesus revealing the Father",
+      "Foundation of life in youth"
+    ],
+    "scriptures": [
+      "John 14:6",
+      "John 14:7",
+      "John 14:8",
+      "John 17:6",
+      "Proverbs 18:10",
+      "Psalm 9:10",
+      "Psalm 19:1",
+      "Psalm 19:2",
+      "Psalm 19:3",
+      "Psalm 23:1-3",
+      "Psalm 25:11",
+      "Psalm 79:9",
+      "Psalm 109:21",
+      "1 Samuel 12:22",
+      "Genesis 1:1",
+      "Genesis 1:2",
+      "Romans 4:17",
+      "Deuteronomy 32:11",
+      "Ecclesiastes 12:1"
+    ],
+    "keyScripture": "Genesis 1:1",
+    "summary": "Bishop Heward-Mills teaches that Elohim means Creator God who makes something out of nothing, requiring no raw material, background, or perfect conditions to work in our lives. He emphasizes that God does everything for His name's sake (His own nature and character), not because we deserve it, and that knowing God's names helps us trust Him and run to Him for safety. He stresses the importance of remembering our Creator in youth because foundational decisions are made early in life, and we must allow the Holy Spirit time to hover and brood over us to transform our lives.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 397,
+    "youtubeId": "gnGQUpwt0Tk",
+    "title": "The Holy Spirit: The Power Of The God Pleaser | Joshua Heward-Mills",
+    "topics": [
+      "Holy Spirit",
+      "pleasing God",
+      "spiritual transformation",
+      "inner change",
+      "Christ-likeness",
+      "spiritual disciplines",
+      "God's will",
+      "new desires",
+      "Holy Spirit as person",
+      "spiritual growth process",
+      "obedience",
+      "full-time ministry calling"
+    ],
+    "scriptures": [
+      "Matthew 3:16",
+      "Matthew 3:17",
+      "1 Thessalonians 4:11",
+      "2 Corinthians 3:18",
+      "Philippians 2:12",
+      "Philippians 2:13",
+      "Acts 19:2",
+      "Philippians 1:6",
+      "Ezekiel 36:26",
+      "Ezekiel 36:27",
+      "1 Timothy 4:7",
+      "1 Timothy 4:8",
+      "Luke 3:21",
+      "Hebrews 5:7"
+    ],
+    "keyScripture": "Philippians 2:13",
+    "summary": "Bishop Heward-Mills teaches that only the Holy Spirit working within believers can transform them to become Christ-like and pleasing to God, not external religious behaviors or self-effort. He emphasizes that the Holy Spirit's work happens in two stages: first changing a person's desires to want what God wants, then giving them the power to do it, which occurs gradually through spiritual disciplines like prayer, Bible reading, and church attendance. He argues that true Christianity is not fighting between your will and God's will, but allowing the Holy Spirit to change you from within so that you genuinely desire and choose what pleases God.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 398,
+    "youtubeId": "hl4NXSiLFio",
+    "title": "If You Love The Lord, You Will Love His House",
+    "topics": [
+      "loving God's house",
+      "church attendance",
+      "love languages",
+      "spiritual strength through church",
+      "being planted in the house of God",
+      "quality time with God",
+      "devotion to the church",
+      "dwelling in God's presence",
+      "flourishing in God's courts",
+      "commitment to Sunday worship",
+      "spiritual growth through church",
+      "honoring God's dwelling place"
+    ],
+    "scriptures": [
+      "Romans 8:28",
+      "1 Corinthians 2:9",
+      "Psalm 91:14-16",
+      "1 Kings 11:1",
+      "1 Kings 11:3",
+      "Song of Solomon 4:10",
+      "Song of Solomon 2:2",
+      "Song of Solomon 2:3",
+      "Song of Solomon 6:8",
+      "Song of Solomon 6:9",
+      "Jeremiah 31:3",
+      "1 John 3:16",
+      "Psalm 26:8",
+      "Psalm 84:1",
+      "Psalm 84:2",
+      "Psalm 84:3",
+      "Psalm 84:4",
+      "Psalm 84:5",
+      "Psalm 84:7",
+      "Psalm 84:10",
+      "Psalm 92:13"
+    ],
+    "keyScripture": "Psalm 26:8",
+    "summary": "Bishop Joshua teaches that loving God's house (the church) is God's primary love language, and those who claim to love God but don't faithfully attend church are not speaking God's love language and He does not enjoy them. He emphasizes that consistent church attendance every Sunday is essential to spiritual growth, comparing it to Solomon's experience with 1,000 women to illustrate how God can distinguish genuine love from empty words among billions of professing Christians. He teaches that being planted (not just visiting) in God's house causes believers to go from strength to strength and flourish, while those who only attend sporadically will eventually backslide and stop serving God altogether.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 399,
+    "youtubeId": "w6yFWOCbKIU",
+    "title": "Others V: Many Are Called | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "calling of God",
+      "holy calling",
+      "fruitfulness",
+      "judgment seat of Christ",
+      "purpose and grace",
+      "duty in relationship with God",
+      "many are called",
+      "salvation and calling inseparable",
+      "Christians have assignments",
+      "accountability for calling",
+      "first love",
+      "work of ministry for all believers"
+    ],
+    "scriptures": [
+      "2 Timothy 1:9",
+      "Matthew 22:14",
+      "John 3:16",
+      "Revelation 20:12"
+    ],
+    "keyScripture": "2 Timothy 1:9",
+    "summary": "Bishop Heward-Mills teaches that every Christian is not only saved but also called by God with a holy calling to do something specific for Him, and this calling comes with both purpose and grace. He emphasizes that 'many are called' means the majority—the church members, not just pastors—have a divine assignment they will answer for at the judgment seat of Christ. The message stresses that salvation and calling are inseparable (like a combo package), and Christians will be judged not for their sins (covered by Jesus' blood) but for what they did with their calling.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 400,
+    "youtubeId": "VuRH7nF1lkw",
+    "title": "Others IV: Nabal &amp; Others | Holy Ghost Encounter | Joshua Heward-Mills",
+    "topics": [
+      "calling",
+      "salvation and calling",
+      "holy calling",
+      "purpose and grace",
+      "judgment seat of Christ",
+      "fruitfulness",
+      "duty in relationship with God",
+      "many are called",
+      "five-fold ministry gifts",
+      "accountability before God",
+      "church members called",
+      "answering God's call"
+    ],
+    "scriptures": [
+      "2 Timothy 1:9",
+      "Matthew 22:14",
+      "Revelation 20:12",
+      "John 3:16"
+    ],
+    "keyScripture": "2 Timothy 1:9",
+    "summary": "Bishop Joshua teaches that every Christian is not only saved but also called by God with a holy calling, which means God is asking them to do something for Him according to His purpose and grace. He emphasizes that the majority of believers (not just pastors and leaders) are called and will stand before the judgment seat of Christ to give account for whether they fulfilled their calling. He warns that many Christians mistakenly think only pastors, apostles, prophets, evangelists, and teachers are called to do God's work, when in reality the 'many' refers to regular church members who have specific duties and assignments from God.",
+    "channel": "Meeting God"
+  },
+  {
+    "id": 401,
+    "youtubeId": "SRFmsRQqA7c",
+    "title": "First Love Conference 2026 | Others",
+    "topics": [
+      "bearing fruit",
+      "heavenly mission",
+      "reaching the lost",
+      "keys of the kingdom",
+      "yielding to God's leading",
+      "beautiful feet",
+      "evangelism",
+      "fire to serve",
+      "building the church",
+      "gates of hell"
+    ],
+    "scriptures": [
+      "Matthew 16:18"
+    ],
+    "keyScripture": "Matthew 16:18",
+    "summary": "BJosh teaches that bearing fruit through evangelism is the one mission all of heaven supports and smiles upon. He emphasizes that Jesus has given believers the keys to open doors and reach people in need of God's love, and that the gates of hell will not prevail against the church. He calls believers to maintain their fire to serve others with beautiful feet, yielding to God's leading to reach the lost and overlooked until their last day.",
+    "channel": "First Love Center"
+  },
+  {
+    "id": 402,
+    "youtubeId": "rQ694zXgHzo",
+    "title": "The Influence of The Holy Spirit | Joshua Heward-Mills",
+    "topics": [
+      "Holy Spirit filling",
+      "being drunk in the Spirit",
+      "influence of the Holy Spirit",
+      "prayer for laborers",
+      "prayer for the unsaved",
+      "intercessory prayer",
+      "Ephesians 5:18",
+      "spiritual intoxication",
+      "living under the influence",
+      "wholehearted prayer",
+      "continuous prayer",
+      "power after Holy Spirit comes"
+    ],
+    "scriptures": [
+      "Psalm 116:1-2",
+      "Matthew 9:36-38",
+      "1 Timothy 2:1-4",
+      "Acts 12:1-5",
+      "Malachi 1:11-14",
+      "Ephesians 5:18",
+      "Luke 1:15",
+      "Genesis 9:21",
+      "Acts 1:7-8",
+      "Acts 2:1"
+    ],
+    "keyScripture": "Ephesians 5:18",
+    "summary": "Bishop Joshua teaches that being filled with the Holy Spirit is like being drunk with alcohol—just as drinking one glass doesn't make you drunk, having the Holy Spirit doesn't mean you're filled unless He completely takes over your life. He emphasizes three prayer topics: praying for laborers to enter the harvest field, praying for the unsaved in our streets and workplaces, and praying against Satan's plans to harm church members. He uses the comparison of alcohol intoxication throughout to illustrate that Christians must move beyond merely possessing the Holy Spirit to being completely influenced and controlled by Him, living 'under the influence' of the Spirit rather than just having Him present.",
+    "channel": "First Love Center"
   }
 ];

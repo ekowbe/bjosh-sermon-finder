@@ -1,9 +1,17 @@
 import { NextResponse } from 'next/server';
 import { GoogleAuth } from 'google-auth-library';
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
 import { SERMONS } from '@/lib/sermons';
+
+const TRANSCRIPTS_PATH = join(process.cwd(), 'lib', 'youtube-transcripts.json');
+const YOUTUBE_TRANSCRIPTS = existsSync(TRANSCRIPTS_PATH)
+  ? JSON.parse(readFileSync(TRANSCRIPTS_PATH, 'utf8'))
+  : {};
 
 const FOLDER_ID = '1TvUjIL9px2q29TJcu3-QW_BAqkmWLg_S';
 const audioByDriveId = new Map(SERMONS.filter(s => s.audioId).map(s => [s.driveId, s.audioId]));
+const youtubeMetaById = new Map(SERMONS.filter(s => s.youtubeId).map(s => [s.youtubeId, s]));
 
 async function getAccessToken() {
   const auth = new GoogleAuth({
@@ -47,11 +55,26 @@ function extractRelevantSnippet(fullText, query) {
       const idx = lowerFull.indexOf(words.slice(start, start + len).join(' '));
       if (idx !== -1) {
         const from = Math.max(0, idx - 800);
-        return fullText.slice(from, from + 2500);
+        return { snippet: fullText.slice(from, from + 2500), matched: true };
       }
     }
   }
-  return fullText.slice(0, 3000);
+  return { snippet: fullText.slice(0, 3000), matched: false };
+}
+
+// Drive's fullText search pre-filters candidates for us; YouTube sermons have
+// no such index, so only include one as a candidate if the query phrase
+// actually occurs somewhere in its caption transcript.
+function searchYoutubeTranscripts(query) {
+  const candidates = [];
+  for (const [youtubeId, transcript] of Object.entries(YOUTUBE_TRANSCRIPTS)) {
+    const { snippet, matched } = extractRelevantSnippet(transcript, query);
+    if (matched) {
+      const meta = youtubeMetaById.get(youtubeId);
+      candidates.push({ youtubeId, title: meta?.title || youtubeId, snippet });
+    }
+  }
+  return candidates;
 }
 
 export async function POST(request) {
@@ -61,14 +84,17 @@ export async function POST(request) {
   try {
     const token = await getAccessToken();
     const files = await searchDrive(query, token);
-    if (!files.length) return NextResponse.json({ matches: [] });
 
-    const snippets = await Promise.all(
+    const driveSnippets = await Promise.all(
       files.slice(0, 8).map(async (f) => {
         const fullText = await readFullText(f.id, token);
-        return { driveId: f.id, title: f.name.replace('.txt', ''), snippet: extractRelevantSnippet(fullText, query) };
+        return { driveId: f.id, title: f.name.replace('.txt', ''), snippet: extractRelevantSnippet(fullText, query).snippet };
       })
     );
+    const youtubeSnippets = searchYoutubeTranscripts(query).slice(0, 4);
+    const snippets = [...driveSnippets, ...youtubeSnippets];
+
+    if (!snippets.length) return NextResponse.json({ matches: [] });
 
     const prompt = `You help find BJosh (Bishop Joshua Heward-Mills) sermons. User searched: "${query}"
 
@@ -106,14 +132,16 @@ Return ONLY valid JSON, nothing else.`;
       .map(r => {
         const s = snippets[r.index];
         if (!s) return null;
-        return {
-          driveId: s.driveId,
+        const base = {
           title: s.title,
           confidence: r.confidence,
           keyScripture: r.keyScripture || '',
           summary: r.summary || '',
-          audioId: audioByDriveId.get(s.driveId) || '',
         };
+        if (s.driveId) {
+          return { ...base, driveId: s.driveId, audioId: audioByDriveId.get(s.driveId) || '' };
+        }
+        return { ...base, youtubeId: s.youtubeId };
       })
       .filter(Boolean);
 
