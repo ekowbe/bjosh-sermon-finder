@@ -134,9 +134,9 @@ export default function Home() {
   }
 
   const confidenceBadge = (c) => {
-    if (c === 'high') return 'bg-green-100 text-green-800';
-    if (c === 'medium') return 'bg-amber-100 text-amber-800';
-    return 'bg-stone-100 text-stone-600';
+    if (c === 'high') return 'bg-emerald-400/15 text-emerald-300 ring-1 ring-emerald-400/30';
+    if (c === 'medium') return 'bg-amber-400/15 text-amber-300 ring-1 ring-amber-400/30';
+    return 'bg-white/10 text-white/60 ring-1 ring-white/15';
   };
 
   const confidenceLabel = (c) => {
@@ -145,75 +145,93 @@ export default function Home() {
     return 'Possible match';
   };
 
+  const showHero = results === null && !loading;
+
   return (
-    <main className="min-h-dvh flex flex-col items-center px-4 py-10">
-      <div className="w-full max-w-xl">
+    <main className="app-bg min-h-dvh flex flex-col items-center px-4 py-8 sm:py-12">
+      <div className="w-full max-w-xl flex flex-col items-center">
 
         {/* Header */}
-        <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-2 mb-1">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EF9F27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-              <line x1="12" y1="19" x2="12" y2="23"/>
-              <line x1="8" y1="23" x2="16" y2="23"/>
-            </svg>
-            <h1 className="text-xl font-medium text-stone-900">BJosh Sermon Finder</h1>
-          </div>
-          <p className="text-sm text-stone-500">Search by topic, scripture, speak a phrase, or hold the mic up to a playing sermon</p>
+        <div className="flex items-center gap-2 mb-1">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF9F27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" y1="19" x2="12" y2="23"/>
+            <line x1="8" y1="23" x2="16" y2="23"/>
+          </svg>
+          <h1 className="text-sm font-medium tracking-wide text-white/70 uppercase">BJosh Sermon Finder</h1>
         </div>
 
-        {/* Mic button */}
-        {speechSupported && (
-          <div className="flex flex-col items-center gap-3 mb-6">
-            <button
-              onClick={toggleListening}
-              aria-label={listening ? 'Stop listening' : 'Start listening'}
-              className="relative flex items-center justify-center w-20 h-20 rounded-full text-white transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-              style={{ background: listening ? '#BA7517' : '#EF9F27' }}
-            >
-              {listening && (
-                <>
-                  <span className="absolute inset-0 rounded-full animate-ping-slow" style={{ background: '#EF9F27', opacity: 0.4 }} />
-                  <span className="absolute inset-0 rounded-full animate-ping-slower" style={{ background: '#EF9F27', opacity: 0.2 }} />
-                </>
-              )}
-              <svg className="relative z-10" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                <line x1="12" y1="19" x2="12" y2="23"/>
-                <line x1="8" y1="23" x2="16" y2="23"/>
-              </svg>
-            </button>
-            {listening && (
-              <div className="flex flex-col items-center gap-1">
-                <p className="text-sm text-stone-500 italic text-center max-w-sm">
-                  {transcript ? `"${transcript}"` : 'Listening for a question or a sermon playing nearby...'}
+        {/* Hero / mic */}
+        {showHero && (
+          <div className="flex flex-col items-center gap-5 pt-6 pb-10">
+            <p className="text-white/50 text-sm text-center max-w-xs">
+              {listening
+                ? 'Listening...'
+                : 'Tap to identify a sermon playing nearby, or search below'}
+            </p>
+
+            {speechSupported ? (
+              <button
+                onClick={toggleListening}
+                aria-label={listening ? 'Stop listening' : 'Start listening'}
+                className={`relative flex items-center justify-center w-40 h-40 sm:w-48 sm:h-48 rounded-full text-white transition-transform duration-200 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 ${!listening ? 'animate-glow-pulse' : ''}`}
+                style={{
+                  background: listening
+                    ? 'radial-gradient(circle at 35% 30%, #ffb24d, #BA7517 70%)'
+                    : 'radial-gradient(circle at 35% 30%, #5fa8ff, #1d5fd6 70%)',
+                }}
+              >
+                {listening && (
+                  <>
+                    <span className="absolute inset-0 rounded-full animate-ping-slow" style={{ background: '#EF9F27', opacity: 0.35 }} />
+                    <span className="absolute inset-0 rounded-full animate-ping-slower" style={{ background: '#EF9F27', opacity: 0.2 }} />
+                  </>
+                )}
+                <svg className="relative z-10" width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                  <line x1="12" y1="19" x2="12" y2="23"/>
+                  <line x1="8" y1="23" x2="16" y2="23"/>
+                </svg>
+              </button>
+            ) : (
+              <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full flex items-center justify-center bg-white/5 ring-1 ring-white/10 text-white/30 text-xs text-center px-6">
+                Voice search isn't supported in this browser
+              </div>
+            )}
+
+            {listening ? (
+              <div className="flex flex-col items-center gap-2 max-w-sm">
+                <p className="text-sm text-white/80 italic text-center min-h-[1.5em]">
+                  {transcript ? `"${transcript}"` : ' '}
                 </p>
                 <button
                   onClick={stopListening}
-                  className="text-xs text-amber-600 hover:text-amber-700 underline"
+                  className="text-xs text-amber-300 hover:text-amber-200 underline underline-offset-2"
                 >
                   Stop listening
                 </button>
               </div>
+            ) : (
+              <p className="text-xs text-white/30">{SERMONS.length} sermons indexed</p>
             )}
           </div>
         )}
 
         {/* Text search */}
-        <div className="flex gap-2 mb-8">
+        <div className="w-full flex gap-2 mb-2">
           <input
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && doSearch()}
             placeholder="e.g. John 3:16 · suffering · why preach Christ..."
-            className="flex-1 h-10 px-3 rounded-lg border border-stone-200 bg-white text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-300"
+            className="flex-1 h-11 px-4 rounded-full bg-white/8 backdrop-blur ring-1 ring-white/15 text-sm text-white placeholder:text-white/35 focus:outline-none focus:ring-2 focus:ring-blue-400/60"
           />
           <button
             onClick={() => doSearch()}
-            className="px-4 h-10 rounded-lg bg-amber-500 hover:bg-amber-600 active:scale-95 text-white text-sm font-medium transition-all"
+            className="px-5 h-11 rounded-full bg-amber-500 hover:bg-amber-400 active:scale-95 text-white text-sm font-medium transition-all"
           >
             Search
           </button>
@@ -221,54 +239,69 @@ export default function Home() {
 
         {/* Loading */}
         {loading && (
-          <p className="text-center text-sm text-stone-500 py-8">Searching sermons...</p>
+          <div className="w-full flex flex-col items-center gap-3 py-12">
+            <div className="w-10 h-10 rounded-full border-2 border-white/15 border-t-blue-400 animate-spin" />
+            <p className="text-sm text-white/50">Searching sermons...</p>
+          </div>
         )}
 
         {/* Results */}
         {results !== null && !loading && (
-          <div>
+          <div className="w-full mt-4 animate-rise-in">
             <div className="flex items-center justify-between mb-3">
-              <p className="text-sm text-stone-500">
+              <p className="text-sm text-white/50">
                 {results.length === 0 ? 'No sermons found' : `${results.length} sermon${results.length !== 1 ? 's' : ''} found`}
               </p>
               <button
                 onClick={() => { setResults(null); setQuery(''); }}
-                className="text-xs text-amber-600 hover:text-amber-700"
+                className="text-xs text-amber-300 hover:text-amber-200"
               >
                 ← All sermons
               </button>
             </div>
             {results.length === 0 ? (
-              <p className="text-center text-sm text-stone-400 py-6">Try different keywords or a scripture reference.</p>
+              <p className="text-center text-sm text-white/35 py-6">Try different keywords or a scripture reference.</p>
             ) : (
               <div className="flex flex-col gap-3">
                 {results.map((r, i) => (
-                  <div key={r.driveId} className="bg-white rounded-xl border border-stone-200 p-4">
+                  <div key={r.driveId} className="bg-white/6 backdrop-blur rounded-2xl ring-1 ring-white/10 p-4 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
                     <div className="flex gap-3">
-                      <div className="w-7 h-7 rounded-full bg-amber-100 flex items-center justify-center text-xs font-medium text-amber-700 shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-full bg-blue-500/20 ring-1 ring-blue-400/30 flex items-center justify-center text-xs font-medium text-blue-300 shrink-0 mt-0.5">
                         {i + 1}
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-start gap-2 flex-wrap mb-1">
-                          <span className="text-sm font-medium text-stone-900">{r.title}</span>
+                          <span className="text-sm font-medium text-white">{r.title}</span>
                           <span className={`text-xs px-2 py-0.5 rounded-full ${confidenceBadge(r.confidence)}`}>
                             {confidenceLabel(r.confidence)}
                           </span>
                         </div>
                         {r.keyScripture && (
-                          <p className="text-xs text-amber-700 font-medium mb-1">{r.keyScripture}</p>
+                          <p className="text-xs text-amber-300 font-medium mb-1">{r.keyScripture}</p>
                         )}
                         {r.summary && (
-                          <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.summary}</p>
+                          <p className="text-xs text-white/50 leading-relaxed mb-2">{r.summary}</p>
                         )}
-                        <a
-                          href={`https://drive.google.com/file/d/${r.driveId}/view`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-amber-600 hover:text-amber-700"
-                        >
-                          Open transcript →
-                        </a>
+                        <div className="flex items-center gap-3 flex-wrap">
+                          <a
+                            href={`https://drive.google.com/file/d/${r.driveId}/view`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs text-blue-300 hover:text-blue-200"
+                          >
+                            Open transcript →
+                          </a>
+                          {r.audioId && (
+                            <a
+                              href={`https://drive.google.com/file/d/${r.audioId}/view`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs text-amber-300 hover:text-amber-200"
+                            >
+                              Listen to audio →
+                            </a>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -279,9 +312,9 @@ export default function Home() {
         )}
 
         {/* Library */}
-        {results === null && !loading && (
-          <div>
-            <p className="text-xs text-stone-400 uppercase tracking-wider mb-2">
+        {showHero && (
+          <div className="w-full mt-2">
+            <p className="text-xs text-white/30 uppercase tracking-wider mb-2">
               Library · {SERMONS.length} sermons indexed
             </p>
             <div className="flex flex-col gap-1.5">
@@ -289,15 +322,15 @@ export default function Home() {
                 <button
                   key={s.id}
                   onClick={() => { setQuery(s.title); doSearch(s.title); }}
-                  className="flex items-center gap-3 px-3 py-2.5 bg-white rounded-lg border border-stone-200 hover:border-amber-300 hover:bg-amber-50 transition-colors text-left"
+                  className="flex items-center gap-3 px-3 py-2.5 bg-white/5 hover:bg-white/10 rounded-xl ring-1 ring-white/10 hover:ring-blue-400/30 transition-colors text-left"
                 >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#a8a29e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
                     <polyline points="14 2 14 8 20 8"/>
                   </svg>
-                  <span className="flex-1 text-sm text-stone-800">{s.title}</span>
+                  <span className="flex-1 text-sm text-white/80">{s.title}</span>
                   {s.keyScripture && (
-                    <span className="text-xs text-stone-400 shrink-0">{s.keyScripture}</span>
+                    <span className="text-xs text-white/30 shrink-0">{s.keyScripture}</span>
                   )}
                 </button>
               ))}

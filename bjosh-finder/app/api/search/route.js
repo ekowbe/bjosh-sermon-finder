@@ -1,7 +1,9 @@
 import { NextResponse } from 'next/server';
 import { GoogleAuth } from 'google-auth-library';
+import { SERMONS } from '@/lib/sermons';
 
 const FOLDER_ID = '1TvUjIL9px2q29TJcu3-QW_BAqkmWLg_S';
+const audioByDriveId = new Map(SERMONS.filter(s => s.audioId).map(s => [s.driveId, s.audioId]));
 
 async function getAccessToken() {
   const auth = new GoogleAuth({
@@ -110,6 +112,7 @@ Return ONLY valid JSON, nothing else.`;
           confidence: r.confidence,
           keyScripture: r.keyScripture || '',
           summary: r.summary || '',
+          audioId: audioByDriveId.get(s.driveId) || '',
         };
       })
       .filter(Boolean);
