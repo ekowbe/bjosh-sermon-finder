@@ -72,26 +72,29 @@ function fetchCaptions(videoId) {
 }
 
 async function extractMetadata(title, text, anthropic) {
-  const prompt = `You are indexing a BJosh (Bishop Joshua Heward-Mills) sermon transcript for a search engine. This transcript comes from YouTube auto-captions, so it has little punctuation and scripture references are spoken aloud (e.g. "john chapter three verse sixteen") rather than written.
+  const prompt = `You are indexing a sermon transcript for a search engine that ONLY catalogs sermons by Bishop Joshua Heward-Mills (also known as "BJosh"). This channel also posts sermons by his father, Bishop Dag Heward-Mills, and possibly other preachers — those must be identified and excluded. This transcript comes from YouTube auto-captions, so it has little punctuation and scripture references are spoken aloud (e.g. "john chapter three verse sixteen") rather than written.
 
-Sermon title: "${title}"
+Video title: "${title}"
 
 Transcript:
 ${text.slice(0, 40000)}
 
 Your job:
-1. Find ALL Bible scripture references — listen for spoken patterns like "john three sixteen", "romans eight twenty eight", etc. Convert to standard format: "John 3:16", "Romans 8:28".
-2. Extract specific topic keywords central to the teaching.
-3. Identify the single most central scripture.
-4. Write a 3-sentence summary of what BJosh specifically teaches.
-5. If this transcript is only worship/singing/announcements with no actual teaching content, return empty arrays for topics and scriptures and say so in the summary.
+1. First, determine who is actually preaching/teaching in this transcript. Look for self-introductions, third-person introductions by an emcee/host ("please welcome Bishop..."), or distinctive phrasing. Bishop Joshua Heward-Mills and Bishop Dag Heward-Mills are father and son and are easily confused — be careful. If you cannot confidently identify the preacher as Joshua Heward-Mills specifically, set "isJoshuaHewardMills" to false.
+2. If and only if the preacher is confidently Joshua Heward-Mills, find ALL Bible scripture references — listen for spoken patterns like "john three sixteen", "romans eight twenty eight", etc. Convert to standard format: "John 3:16", "Romans 8:28".
+3. Extract specific topic keywords central to the teaching.
+4. Identify the single most central scripture.
+5. Write a 3-sentence summary of what is specifically taught.
+6. If the preacher is not Joshua Heward-Mills, OR this is only worship/singing/announcements with no actual teaching content, return empty arrays for topics and scriptures.
 
 Return ONLY this JSON, nothing else:
 {
-  "topics": ["8-12 specific topic keywords — not generic words like God or church"],
-  "scriptures": ["all Bible references found, in standard format e.g. John 3:16"],
-  "keyScripture": "the single most central scripture or empty string if truly none",
-  "summary": "exactly 3 sentences on what BJosh specifically teaches — be concrete"
+  "isJoshuaHewardMills": true or false,
+  "preacherNote": "one short phrase on who you identified as preaching, or why you're unsure",
+  "topics": ["8-12 specific topic keywords — not generic words like God or church — empty array if not Joshua Heward-Mills"],
+  "scriptures": ["all Bible references found, in standard format e.g. John 3:16 — empty array if not Joshua Heward-Mills"],
+  "keyScripture": "the single most central scripture or empty string",
+  "summary": "exactly 3 sentences on what is specifically taught, or empty string if not Joshua Heward-Mills"
 }`;
 
   const response = await anthropic.messages.create({
@@ -113,7 +116,7 @@ function regenerateOutputs(progress) {
     .filter(s => (s.scriptures && s.scriptures.length) || (s.topics && s.topics.length));
 
   const youtubeSermons = Object.values(progress)
-    .filter(s => (s.scriptures && s.scriptures.length) || (s.topics && s.topics.length));
+    .filter(s => s.isJoshuaHewardMills && ((s.scriptures && s.scriptures.length) || (s.topics && s.topics.length)));
 
   const transcripts = {};
   for (const s of youtubeSermons) {
@@ -151,6 +154,13 @@ async function main() {
     for (const entry of fullSermons) {
       if (progress[entry.videoId]) continue;
 
+      if (/\bdag\s+heward-?mills\b/i.test(entry.title)) {
+        console.log(`  Skipping (title names Dag Heward-Mills): ${entry.title}`);
+        progress[entry.videoId] = { youtubeId: entry.videoId, title: entry.title, isJoshuaHewardMills: false, topics: [], scriptures: [] };
+        saveProgress(progress);
+        continue;
+      }
+
       console.log(`  Indexing: ${entry.title}`);
       const transcript = fetchCaptions(entry.videoId);
       if (!transcript) {
@@ -160,6 +170,12 @@ async function main() {
 
       try {
         const meta = await extractMetadata(entry.title, transcript, anthropic);
+        if (!meta.isJoshuaHewardMills) {
+          console.log(`    → skipped, not Joshua Heward-Mills (${meta.preacherNote || 'unconfirmed'})`);
+          progress[entry.videoId] = { youtubeId: entry.videoId, title: entry.title, isJoshuaHewardMills: false, topics: [], scriptures: [] };
+          saveProgress(progress);
+          continue;
+        }
         progress[entry.videoId] = {
           youtubeId: entry.videoId,
           title: entry.title,
