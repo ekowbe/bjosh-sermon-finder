@@ -68,3 +68,8 @@ body {
 .fade-bottom {
   mask-image: linear-gradient(to bottom, black calc(100% - 28px), transparent 100%);
 }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
