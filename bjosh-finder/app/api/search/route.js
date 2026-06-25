@@ -78,7 +78,9 @@ Return ONLY valid JSON, nothing else.`;
 
     const data = await res.json();
     const text = data.content?.find(b => b.type === 'text')?.text || '[]';
-    const ranked = JSON.parse(text.replace(/```json|```/g, '').trim());
+    const cleaned = text.replace(/```json|```/g, '').trim();
+    const jsonMatch = cleaned.match(/\[[\s\S]*\]/);
+    const ranked = JSON.parse(jsonMatch ? jsonMatch[0] : cleaned);
 
     const matches = ranked
       .map(r => {
