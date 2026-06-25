@@ -3,8 +3,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { SERMONS } from '@/lib/sermons';
 
-const MATCH_WINDOW_WORDS = 30;
-const MATCH_MIN_WORDS = 6;
+const MATCH_WINDOW_WORDS = 12;
+const MATCH_MIN_WORDS = 5;
 const MATCH_DEBOUNCE_MS = 1800;
 const MATCH_MIN_INTERVAL_MS = 6000;
 

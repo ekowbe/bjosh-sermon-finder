@@ -26,12 +26,30 @@ async function searchDrive(query, token) {
   return data.files || [];
 }
 
-async function readSnippet(fileId, token) {
+async function readFullText(fileId, token) {
   const res = await fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
     headers: { Authorization: `Bearer ${token}` },
   });
-  const text = await res.text();
-  return text.slice(0, 3000);
+  return res.text();
+}
+
+// Drive's fullText search scans the whole document, but the opening of a
+// transcript is usually just prayer/worship — so locate where the query
+// phrase actually occurs and center the excerpt there instead of always
+// sending the start of the file.
+function extractRelevantSnippet(fullText, query) {
+  const lowerFull = fullText.toLowerCase();
+  const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  for (let len = words.length; len >= Math.min(4, words.length); len--) {
+    for (let start = 0; start + len <= words.length; start++) {
+      const idx = lowerFull.indexOf(words.slice(start, start + len).join(' '));
+      if (idx !== -1) {
+        const from = Math.max(0, idx - 800);
+        return fullText.slice(from, from + 2500);
+      }
+    }
+  }
+  return fullText.slice(0, 3000);
 }
 
 export async function POST(request) {
@@ -45,8 +63,8 @@ export async function POST(request) {
 
     const snippets = await Promise.all(
       files.slice(0, 8).map(async (f) => {
-        const text = await readSnippet(f.id, token);
-        return { driveId: f.id, title: f.name.replace('.txt', ''), snippet: text };
+        const fullText = await readFullText(f.id, token);
+        return { driveId: f.id, title: f.name.replace('.txt', ''), snippet: extractRelevantSnippet(fullText, query) };
       })
     );
 
@@ -55,7 +73,7 @@ export async function POST(request) {
 Here are matching sermons with transcript excerpts (numbered 0 to ${snippets.length - 1}):
 
 ${snippets.map((s, i) => `[${i}] "${s.title}"
-Excerpt: ${s.snippet.slice(0, 800)}
+Excerpt: ${s.snippet}
 ---`).join('\n')}
 
 Rank these by relevance. Exclude any sermon where the topic only appears in an opening prayer, worship section, or passing mention — only include sermons where it is a central teaching point. Return a JSON array using the exact 0-based index shown above:
@@ -79,8 +97,8 @@ Return ONLY valid JSON, nothing else.`;
     const data = await res.json();
     const text = data.content?.find(b => b.type === 'text')?.text || '[]';
     const cleaned = text.replace(/```json|```/g, '').trim();
-    const jsonMatch = cleaned.match(/\[[\s\S]*\]/);
-    const ranked = JSON.parse(jsonMatch ? jsonMatch[0] : cleaned);
+    const jsonMatch = cleaned.match(/\[\s*\{[\s\S]*\}\s*\]/) || cleaned.match(/^\[\s*\]/);
+    const ranked = jsonMatch ? JSON.parse(jsonMatch[0]) : [];
 
     const matches = ranked
       .map(r => {
