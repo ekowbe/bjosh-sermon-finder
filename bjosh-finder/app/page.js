@@ -9,6 +9,95 @@ const MATCH_DEBOUNCE_MS = 1800;
 const MATCH_MIN_INTERVAL_MS = 6000;
 const LIBRARY_PAGE_SIZE = 40;
 
+const CATEGORIES = [
+  { id: 'all', label: 'All' },
+  {
+    id: 'holy-spirit',
+    label: 'Holy Spirit',
+    keywords: ['holy spirit', 'holy ghost', 'speaking in tongues', 'tongues', 'anointing',
+      'holy spirit baptism', 'baptism of the spirit', 'gifts of the spirit', 'presence of god',
+      'fire of god', 'wind of the spirit', 'dove', 'comforter'],
+  },
+  {
+    id: 'soul-winning',
+    label: 'Soul Winning',
+    keywords: ['soul winning', 'evangelism', 'great commission', 'missions', 'missionary',
+      'witnessing', 'outreach', 'winning souls', 'saviours'],
+  },
+  {
+    id: 'prayer',
+    label: 'Prayer & Devotion',
+    keywords: ['prayer', 'fasting', 'quiet time', 'devotion', 'intercession', 'worship',
+      'devotional life', 'communion with god'],
+  },
+  {
+    id: 'warfare',
+    label: 'Spiritual Warfare',
+    keywords: ['spiritual warfare', 'spiritual discernment', 'deliverance', 'demons',
+      'the enemy', 'devil', 'demonic', 'strongholds'],
+  },
+  {
+    id: 'leadership',
+    label: 'Leadership',
+    keywords: ['leadership', 'church growth', 'pastor', 'shepherd', 'ministry',
+      'vision', 'church member', 'pastoral', 'servant'],
+  },
+  {
+    id: 'faith',
+    label: 'Faith & Salvation',
+    keywords: ['faith', 'salvation', 'grace', 'repentance', 'transformation', 'born again',
+      'redemption', 'trust in god', 'believe'],
+  },
+  {
+    id: 'discipleship',
+    label: 'Discipleship',
+    keywords: ['discipleship', 'humility', 'obedience', 'fruitfulness', 'character',
+      'loyalty', 'commitment', 'following jesus', 'will of god'],
+  },
+];
+
+function categoryFor(sermon) {
+  if (!sermon.topics?.length) return null;
+  const topicStr = sermon.topics.join(' ').toLowerCase();
+  let best = null, bestScore = 0;
+  for (const cat of CATEGORIES.slice(1)) {
+    const score = cat.keywords.reduce((n, kw) => n + (topicStr.includes(kw) ? 1 : 0), 0);
+    if (score > bestScore) { bestScore = score; best = cat.id; }
+  }
+  return best;
+}
+
+function parseDate(title) {
+  if (!title) return '';
+  let m = title.match(/\b(20\d{2})[.\-\/](\d{2})[.\-\/](\d{2})\b/);
+  if (m) return `${m[1]}-${m[2]}-${m[3]}`;
+  m = title.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\s,]+(\d{1,2})[\s,]+(\d{4})\b/i);
+  if (m) {
+    const months = { jan:'01',feb:'02',mar:'03',apr:'04',may:'05',jun:'06',jul:'07',aug:'08',sep:'09',oct:'10',nov:'11',dec:'12' };
+    return `${m[3]}-${months[m[1].toLowerCase().slice(0,3)]}-${m[2].padStart(2,'0')}`;
+  }
+  m = title.match(/\b(20\d{2})\b/);
+  if (m) return `${m[1]}-00-00`;
+  return '';
+}
+
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  if (dateStr.endsWith('-00-00')) return dateStr.slice(0, 4);
+  try {
+    return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  } catch { return ''; }
+}
+
+const SORTED_SERMONS = [...SERMONS]
+  .map(s => ({ ...s, _date: s.published?.slice(0, 10) || parseDate(s.title) }))
+  .sort((a, b) => {
+    if (!a._date && !b._date) return 0;
+    if (!a._date) return 1;
+    if (!b._date) return -1;
+    return b._date.localeCompare(a._date);
+  });
+
 const PALETTES = [
   ['#fa6f6f', '#fa2d6f'],
   ['#ff9f5a', '#fa2d6f'],
@@ -49,6 +138,7 @@ export default function Home() {
   const [transcript, setTranscript] = useState('');
   const [speechSupported, setSpeechSupported] = useState(false);
   const [libraryFilter, setLibraryFilter] = useState('');
+  const [activeCategory, setActiveCategory] = useState('all');
   const [libraryShown, setLibraryShown] = useState(LIBRARY_PAGE_SIZE);
   const recRef = useRef(null);
   const bufferRef = useRef('');
@@ -182,17 +272,24 @@ export default function Home() {
 
   const filteredLibrary = useMemo(() => {
     const q = libraryFilter.trim().toLowerCase();
-    if (!q) return SERMONS;
-    return SERMONS.filter(s =>
-      s.title.toLowerCase().includes(q) ||
-      s.keyScripture?.toLowerCase().includes(q) ||
-      s.topics?.some(t => t.toLowerCase().includes(q))
-    );
-  }, [libraryFilter]);
+    return SORTED_SERMONS.filter(s => {
+      if (activeCategory !== 'all' && categoryFor(s) !== activeCategory) return false;
+      if (!q) return true;
+      return (
+        s.title.toLowerCase().includes(q) ||
+        s.keyScripture?.toLowerCase().includes(q) ||
+        s.topics?.some(t => t.toLowerCase().includes(q))
+      );
+    });
+  }, [libraryFilter, activeCategory]);
 
   const visibleLibrary = filteredLibrary.slice(0, libraryShown);
-
   const showHero = results === null && !loading;
+
+  function selectCategory(id) {
+    setActiveCategory(id);
+    setLibraryShown(LIBRARY_PAGE_SIZE);
+  }
 
   return (
     <main className="app-bg min-h-dvh flex flex-col items-center px-5 py-8 sm:py-10">
@@ -347,8 +444,25 @@ export default function Home() {
                 Library
               </p>
               <span className="text-xs text-stone-400">
-                {libraryFilter ? `${filteredLibrary.length} of ${SERMONS.length}` : `${SERMONS.length}`}
+                {(libraryFilter || activeCategory !== 'all') ? `${filteredLibrary.length} of ${SERMONS.length}` : `${SERMONS.length}`}
               </span>
+            </div>
+
+            {/* Category pills */}
+            <div className="flex gap-2 overflow-x-auto pb-2 mb-3" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+              {CATEGORIES.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => selectCategory(cat.id)}
+                  className={`shrink-0 px-3.5 py-1.5 rounded-full text-[13px] font-medium transition-colors whitespace-nowrap ${
+                    activeCategory === cat.id
+                      ? 'bg-stone-900 text-white'
+                      : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              ))}
             </div>
 
             <div className="relative mb-3">
@@ -371,19 +485,24 @@ export default function Home() {
               <div className="rounded-2xl ring-1 ring-stone-100 bg-white/60">
                 <div className="max-h-[420px] overflow-y-auto thin-scroll fade-bottom px-3">
                   <div className="flex flex-col">
-                    {visibleLibrary.map((s, i) => (
-                      <button
-                        key={s.id}
-                        onClick={() => { setQuery(s.title); doSearch(s.title); }}
-                        className={`flex items-center gap-3 py-2.5 hover:bg-stone-50 -mx-3 px-3 transition-colors text-left ${i !== 0 ? 'border-t border-stone-100' : ''}`}
-                      >
-                        <Artwork id={s.driveId || s.youtubeId || s.id} size="w-9 h-9" rounded="rounded-md" />
-                        <span className="flex-1 text-[14px] font-medium text-stone-800 truncate">{s.title}</span>
-                        {s.keyScripture && (
-                          <span className="text-[12px] text-stone-400 shrink-0 ml-2">{s.keyScripture}</span>
-                        )}
-                      </button>
-                    ))}
+                    {visibleLibrary.map((s, i) => {
+                      const dateStr = formatDate(s._date);
+                      return (
+                        <button
+                          key={s.id}
+                          onClick={() => { setQuery(s.title); doSearch(s.title); }}
+                          className={`flex items-center gap-3 py-2.5 hover:bg-stone-50 -mx-3 px-3 transition-colors text-left ${i !== 0 ? 'border-t border-stone-100' : ''}`}
+                        >
+                          <Artwork id={s.driveId || s.youtubeId || s.id} size="w-9 h-9" rounded="rounded-md" />
+                          <div className="flex-1 min-w-0">
+                            <p className="text-[14px] font-medium text-stone-800 truncate leading-snug">{s.title}</p>
+                            <p className="text-[12px] text-stone-400 truncate leading-tight mt-0.5">
+                              {[s.keyScripture, dateStr].filter(Boolean).join(' · ')}
+                            </p>
+                          </div>
+                        </button>
+                      );
+                    })}
                   </div>
                   {libraryShown < filteredLibrary.length && (
                     <div className="py-2 text-center">
