@@ -1,12 +1,13 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { SERMONS } from '@/lib/sermons';
 
 const MATCH_WINDOW_WORDS = 12;
 const MATCH_MIN_WORDS = 5;
 const MATCH_DEBOUNCE_MS = 1800;
 const MATCH_MIN_INTERVAL_MS = 6000;
+const LIBRARY_PAGE_SIZE = 40;
 
 const PALETTES = [
   ['#fa6f6f', '#fa2d6f'],
@@ -23,14 +24,14 @@ function paletteFor(key) {
   return PALETTES[hash % PALETTES.length];
 }
 
-function Artwork({ id, size = 'w-12 h-12', rounded = 'rounded-lg' }) {
+function Artwork({ id, size = 'w-12 h-12', rounded = 'rounded-xl' }) {
   const [c1, c2] = paletteFor(String(id));
   return (
     <div
       className={`${size} ${rounded} shrink-0 flex items-center justify-center`}
       style={{ background: `linear-gradient(135deg, ${c1}, ${c2})` }}
     >
-      <svg width="40%" height="40%" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.9">
+      <svg width="42%" height="42%" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.92">
         <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
         <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
         <line x1="12" y1="19" x2="12" y2="23"/>
@@ -47,6 +48,8 @@ export default function Home() {
   const [listening, setListening] = useState(false);
   const [transcript, setTranscript] = useState('');
   const [speechSupported, setSpeechSupported] = useState(false);
+  const [libraryFilter, setLibraryFilter] = useState('');
+  const [libraryShown, setLibraryShown] = useState(LIBRARY_PAGE_SIZE);
   const recRef = useRef(null);
   const bufferRef = useRef('');
   const stopRequestedRef = useRef(false);
@@ -176,6 +179,18 @@ export default function Home() {
     if (c === 'medium') return 'Medium match';
     return 'Possible match';
   };
+
+  const filteredLibrary = useMemo(() => {
+    const q = libraryFilter.trim().toLowerCase();
+    if (!q) return SERMONS;
+    return SERMONS.filter(s =>
+      s.title.toLowerCase().includes(q) ||
+      s.keyScripture?.toLowerCase().includes(q) ||
+      s.topics?.some(t => t.toLowerCase().includes(q))
+    );
+  }, [libraryFilter]);
+
+  const visibleLibrary = filteredLibrary.slice(0, libraryShown);
 
   const showHero = results === null && !loading;
 
@@ -327,24 +342,62 @@ export default function Home() {
         {/* Library */}
         {showHero && (
           <div className="w-full">
-            <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-1 px-1">
-              Library
-            </p>
-            <div className="flex flex-col">
-              {SERMONS.map((s, i) => (
-                <button
-                  key={s.id}
-                  onClick={() => { setQuery(s.title); doSearch(s.title); }}
-                  className={`flex items-center gap-3 py-2.5 hover:bg-stone-50 -mx-2 px-2 rounded-lg transition-colors text-left ${i !== 0 ? 'border-t border-stone-100' : ''}`}
-                >
-                  <Artwork id={s.driveId || s.youtubeId || s.id} size="w-10 h-10" rounded="rounded-md" />
-                  <span className="flex-1 text-[14px] font-medium text-stone-800 truncate">{s.title}</span>
-                  {s.keyScripture && (
-                    <span className="text-[12px] text-stone-400 shrink-0">{s.keyScripture}</span>
-                  )}
-                </button>
-              ))}
+            <div className="flex items-center justify-between mb-3 px-1">
+              <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide">
+                Library
+              </p>
+              <span className="text-xs text-stone-400">
+                {libraryFilter ? `${filteredLibrary.length} of ${SERMONS.length}` : `${SERMONS.length}`}
+              </span>
             </div>
+
+            <div className="relative mb-3">
+              <svg className="absolute left-3 top-1/2 -translate-y-1/2" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#a8a29e" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="7"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input
+                type="text"
+                value={libraryFilter}
+                onChange={e => { setLibraryFilter(e.target.value); setLibraryShown(LIBRARY_PAGE_SIZE); }}
+                placeholder="Filter the library"
+                className="w-full h-9 pl-8 pr-3 rounded-lg bg-white ring-1 ring-stone-200 text-[13px] text-stone-800 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-rose-200"
+              />
+            </div>
+
+            {filteredLibrary.length === 0 ? (
+              <p className="text-center text-sm text-stone-400 py-8">No sermons match that filter.</p>
+            ) : (
+              <div className="rounded-2xl ring-1 ring-stone-100 bg-white/60">
+                <div className="max-h-[420px] overflow-y-auto thin-scroll fade-bottom px-3">
+                  <div className="flex flex-col">
+                    {visibleLibrary.map((s, i) => (
+                      <button
+                        key={s.id}
+                        onClick={() => { setQuery(s.title); doSearch(s.title); }}
+                        className={`flex items-center gap-3 py-2.5 hover:bg-stone-50 -mx-3 px-3 transition-colors text-left ${i !== 0 ? 'border-t border-stone-100' : ''}`}
+                      >
+                        <Artwork id={s.driveId || s.youtubeId || s.id} size="w-9 h-9" rounded="rounded-md" />
+                        <span className="flex-1 text-[14px] font-medium text-stone-800 truncate">{s.title}</span>
+                        {s.keyScripture && (
+                          <span className="text-[12px] text-stone-400 shrink-0 ml-2">{s.keyScripture}</span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                  {libraryShown < filteredLibrary.length && (
+                    <div className="py-2 text-center">
+                      <button
+                        onClick={() => setLibraryShown(n => n + LIBRARY_PAGE_SIZE)}
+                        className="text-xs font-semibold text-rose-500 hover:text-rose-600 py-2"
+                      >
+                        Show more ({filteredLibrary.length - libraryShown} left)
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
