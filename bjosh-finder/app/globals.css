@@ -9,14 +9,14 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
-  background: #fafaf9;
-  color: #18181b;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #0a0a0a;
   min-height: 100dvh;
 }
 
 .app-bg {
-  background: #fafaf9;
+  background: #ffffff;
   min-height: 100dvh;
 }
 

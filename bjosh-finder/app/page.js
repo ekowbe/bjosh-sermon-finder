@@ -8,6 +8,38 @@ const MATCH_MIN_WORDS = 5;
 const MATCH_DEBOUNCE_MS = 1800;
 const MATCH_MIN_INTERVAL_MS = 6000;
 
+const PALETTES = [
+  ['#fa6f6f', '#fa2d6f'],
+  ['#ff9f5a', '#fa2d6f'],
+  ['#7f6fff', '#fa2d6f'],
+  ['#5ad1ff', '#7f6fff'],
+  ['#ffd15a', '#fa6f2d'],
+  ['#5affc0', '#2dd4fa'],
+];
+
+function paletteFor(key) {
+  let hash = 0;
+  for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
+  return PALETTES[hash % PALETTES.length];
+}
+
+function Artwork({ id, size = 'w-12 h-12', rounded = 'rounded-lg' }) {
+  const [c1, c2] = paletteFor(String(id));
+  return (
+    <div
+      className={`${size} ${rounded} shrink-0 flex items-center justify-center`}
+      style={{ background: `linear-gradient(135deg, ${c1}, ${c2})` }}
+    >
+      <svg width="40%" height="40%" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.9">
+        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+        <line x1="12" y1="19" x2="12" y2="23"/>
+        <line x1="8" y1="23" x2="16" y2="23"/>
+      </svg>
+    </div>
+  );
+}
+
 export default function Home() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(null);
@@ -134,9 +166,9 @@ export default function Home() {
   }
 
   const confidenceBadge = (c) => {
-    if (c === 'high') return 'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200';
-    if (c === 'medium') return 'bg-amber-50 text-amber-700 ring-1 ring-amber-200';
-    return 'bg-stone-100 text-stone-500 ring-1 ring-stone-200';
+    if (c === 'high') return 'bg-rose-50 text-rose-600';
+    if (c === 'medium') return 'bg-orange-50 text-orange-600';
+    return 'bg-stone-100 text-stone-500';
   };
 
   const confidenceLabel = (c) => {
@@ -148,38 +180,55 @@ export default function Home() {
   const showHero = results === null && !loading;
 
   return (
-    <main className="app-bg min-h-dvh flex flex-col items-center px-4 py-10 sm:py-14">
+    <main className="app-bg min-h-dvh flex flex-col items-center px-5 py-8 sm:py-10">
       <div className="w-full max-w-xl flex flex-col items-center">
 
         {/* Header */}
-        <div className="flex items-center gap-2 mb-10">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EF9F27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-            <line x1="12" y1="19" x2="12" y2="23"/>
-            <line x1="8" y1="23" x2="16" y2="23"/>
+        <div className="w-full flex items-center justify-between mb-6">
+          <h1 className="text-3xl font-bold tracking-tight text-stone-900">Search</h1>
+          <div className="flex items-center gap-1.5 text-xs font-medium text-stone-400">
+            <span>{SERMONS.length} sermons</span>
+          </div>
+        </div>
+
+        {/* Text search */}
+        <div className="w-full relative mb-7">
+          <svg className="absolute left-3.5 top-1/2 -translate-y-1/2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8e8e93" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="7"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
           </svg>
-          <h1 className="text-sm font-semibold tracking-tight text-stone-800">BJosh Sermon Finder</h1>
+          <input
+            type="text"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && doSearch()}
+            placeholder="Sermons, scriptures, topics"
+            className="w-full h-10 pl-10 pr-4 rounded-xl bg-stone-100 text-[15px] text-stone-900 placeholder:text-stone-400 focus:outline-none focus:bg-stone-200/70 transition-colors"
+          />
         </div>
 
         {/* Hero / mic */}
         {showHero && (
-          <div className="flex flex-col items-center gap-4 pb-10">
+          <div className="w-full flex flex-col items-center gap-3 pb-8">
             {speechSupported ? (
               <button
                 onClick={toggleListening}
                 aria-label={listening ? 'Stop listening' : 'Start listening'}
-                className={`relative flex items-center justify-center w-20 h-20 rounded-full transition-all duration-200 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-400 ${
-                  listening ? 'bg-amber-500 shadow-lg shadow-amber-500/25' : 'bg-stone-900 hover:bg-stone-800 shadow-md shadow-stone-900/10'
-                }`}
+                className="relative flex items-center justify-center w-16 h-16 rounded-full transition-transform duration-150 active:scale-95 focus:outline-none"
+                style={{
+                  background: listening
+                    ? 'linear-gradient(135deg, #ff9f5a, #fa2d6f)'
+                    : 'linear-gradient(135deg, #fa6f6f, #fa2d6f)',
+                  boxShadow: '0 8px 20px -6px rgba(250, 45, 111, 0.45)',
+                }}
               >
                 {listening && (
                   <>
-                    <span className="absolute inset-0 rounded-full animate-ping-slow bg-amber-400/50" />
-                    <span className="absolute inset-0 rounded-full animate-ping-slower bg-amber-400/30" />
+                    <span className="absolute inset-0 rounded-full animate-ping-slow bg-rose-400/50" />
+                    <span className="absolute inset-0 rounded-full animate-ping-slower bg-rose-400/30" />
                   </>
                 )}
-                <svg className="relative z-10" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <svg className="relative z-10" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
                   <line x1="12" y1="19" x2="12" y2="23"/>
@@ -189,120 +238,83 @@ export default function Home() {
             ) : null}
 
             {listening ? (
-              <div className="flex flex-col items-center gap-1.5">
-                <p className="text-sm text-stone-500 italic text-center max-w-sm min-h-[1.4em]">
-                  {transcript ? `"${transcript}"` : 'Listening for a sermon or a question...'}
+              <div className="flex flex-col items-center gap-1">
+                <p className="text-sm text-stone-500 text-center max-w-sm min-h-[1.3em]">
+                  {transcript ? `"${transcript}"` : 'Listening...'}
                 </p>
                 <button
                   onClick={stopListening}
-                  className="text-xs text-stone-400 hover:text-stone-600 underline underline-offset-2"
+                  className="text-xs font-medium text-rose-500 hover:text-rose-600"
                 >
-                  Stop listening
+                  Stop
                 </button>
               </div>
             ) : (
-              <p className="text-sm text-stone-400 text-center max-w-xs">
-                {speechSupported ? 'Tap to identify a sermon playing nearby' : 'Search below, or use the library'}
+              <p className="text-xs font-medium text-stone-400 uppercase tracking-wide">
+                {speechSupported ? 'Tap to identify a sermon playing nearby' : ''}
               </p>
             )}
           </div>
         )}
 
-        {/* Text search */}
-        <div className="w-full flex gap-2 mb-2">
-          <input
-            type="text"
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && doSearch()}
-            placeholder="e.g. John 3:16 · suffering · why preach Christ..."
-            className="flex-1 h-11 px-4 rounded-xl bg-white ring-1 ring-stone-200 text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-stone-900/15 shadow-sm"
-          />
-          <button
-            onClick={() => doSearch()}
-            className="px-5 h-11 rounded-xl bg-stone-900 hover:bg-stone-800 active:scale-95 text-white text-sm font-medium transition-all shadow-sm"
-          >
-            Search
-          </button>
-        </div>
-
         {/* Loading */}
         {loading && (
           <div className="w-full flex flex-col items-center gap-3 py-12">
-            <div className="w-8 h-8 rounded-full border-2 border-stone-200 border-t-stone-500 animate-spin" />
-            <p className="text-sm text-stone-400">Searching sermons...</p>
+            <div className="w-7 h-7 rounded-full border-[2.5px] border-stone-200 border-t-rose-500 animate-spin" />
+            <p className="text-sm text-stone-400">Searching...</p>
           </div>
         )}
 
         {/* Results */}
         {results !== null && !loading && (
-          <div className="w-full mt-4 animate-rise-in">
-            <div className="flex items-center justify-between mb-3">
-              <p className="text-sm text-stone-500">
-                {results.length === 0 ? 'No sermons found' : `${results.length} sermon${results.length !== 1 ? 's' : ''} found`}
+          <div className="w-full animate-rise-in">
+            <div className="flex items-center justify-between mb-2 px-1">
+              <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide">
+                {results.length === 0 ? 'No results' : `${results.length} result${results.length !== 1 ? 's' : ''}`}
               </p>
               <button
                 onClick={() => { setResults(null); setQuery(''); }}
-                className="text-xs font-medium text-stone-500 hover:text-stone-700"
+                className="text-xs font-semibold text-rose-500 hover:text-rose-600"
               >
-                ← All sermons
+                Clear
               </button>
             </div>
             {results.length === 0 ? (
-              <p className="text-center text-sm text-stone-400 py-6">Try different keywords or a scripture reference.</p>
+              <p className="text-center text-sm text-stone-400 py-10">Try different keywords or a scripture reference.</p>
             ) : (
-              <div className="flex flex-col gap-2.5">
+              <div className="flex flex-col">
                 {results.map((r, i) => (
-                  <div key={r.driveId || r.youtubeId} className="bg-white rounded-2xl ring-1 ring-stone-200 p-4 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex gap-3">
-                      <div className="w-7 h-7 rounded-full bg-stone-100 flex items-center justify-center text-xs font-medium text-stone-500 shrink-0 mt-0.5">
-                        {i + 1}
+                  <div key={r.driveId || r.youtubeId} className={`flex gap-3 py-3 ${i !== 0 ? 'border-t border-stone-100' : ''}`}>
+                    <Artwork id={r.driveId || r.youtubeId} />
+                    <div className="flex-1 min-w-0 flex flex-col">
+                      <div className="flex items-start gap-2 flex-wrap">
+                        <span className="text-[15px] font-semibold text-stone-900 leading-snug">{r.title}</span>
+                        <span className={`text-[11px] font-medium px-1.5 py-0.5 rounded ${confidenceBadge(r.confidence)} shrink-0 mt-0.5`}>
+                          {confidenceLabel(r.confidence)}
+                        </span>
                       </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-start gap-2 flex-wrap mb-1">
-                          <span className="text-sm font-medium text-stone-900">{r.title}</span>
-                          <span className={`text-xs px-2 py-0.5 rounded-full ${confidenceBadge(r.confidence)}`}>
-                            {confidenceLabel(r.confidence)}
-                          </span>
-                        </div>
-                        {r.keyScripture && (
-                          <p className="text-xs text-amber-600 font-medium mb-1">{r.keyScripture}</p>
+                      {r.keyScripture && (
+                        <p className="text-[13px] text-rose-500 font-medium mt-0.5">{r.keyScripture}</p>
+                      )}
+                      {r.summary && (
+                        <p className="text-[13px] text-stone-500 leading-snug mt-0.5 line-clamp-2">{r.summary}</p>
+                      )}
+                      <div className="flex items-center gap-3 flex-wrap mt-1.5">
+                        {r.driveId && (
+                          <a href={`https://drive.google.com/file/d/${r.driveId}/view`} target="_blank" rel="noopener noreferrer" className="text-[12px] font-semibold text-stone-900 hover:text-rose-500">
+                            Transcript
+                          </a>
                         )}
-                        {r.summary && (
-                          <p className="text-xs text-stone-500 leading-relaxed mb-2">{r.summary}</p>
+                        {r.audioId && (
+                          <a href={`https://drive.google.com/file/d/${r.audioId}/view`} target="_blank" rel="noopener noreferrer" className="text-[12px] font-semibold text-stone-900 hover:text-rose-500">
+                            Audio
+                          </a>
                         )}
-                        <div className="flex items-center gap-3 flex-wrap">
-                          {r.driveId && (
-                            <a
-                              href={`https://drive.google.com/file/d/${r.driveId}/view`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs font-medium text-stone-600 hover:text-stone-900"
-                            >
-                              Open transcript →
-                            </a>
-                          )}
-                          {r.audioId && (
-                            <a
-                              href={`https://drive.google.com/file/d/${r.audioId}/view`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs font-medium text-amber-600 hover:text-amber-700"
-                            >
-                              Listen to audio →
-                            </a>
-                          )}
-                          {r.youtubeId && (
-                            <a
-                              href={`https://www.youtube.com/watch?v=${r.youtubeId}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs font-medium text-red-500 hover:text-red-600"
-                            >
-                              Watch on YouTube →
-                            </a>
-                          )}
-                        </div>
+                        {r.youtubeId && (
+                          <a href={`https://www.youtube.com/watch?v=${r.youtubeId}`} target="_blank" rel="noopener noreferrer" className="text-[12px] font-semibold text-stone-900 hover:text-rose-500">
+                            YouTube
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
@@ -314,24 +326,21 @@ export default function Home() {
 
         {/* Library */}
         {showHero && (
-          <div className="w-full mt-2">
-            <p className="text-xs text-stone-400 uppercase tracking-wider mb-2 font-medium">
-              Library · {SERMONS.length} sermons indexed
+          <div className="w-full">
+            <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-1 px-1">
+              Library
             </p>
-            <div className="flex flex-col gap-1.5">
-              {SERMONS.map(s => (
+            <div className="flex flex-col">
+              {SERMONS.map((s, i) => (
                 <button
                   key={s.id}
                   onClick={() => { setQuery(s.title); doSearch(s.title); }}
-                  className="flex items-center gap-3 px-3 py-2.5 bg-white hover:bg-stone-50 rounded-xl ring-1 ring-stone-200 hover:ring-stone-300 transition-colors text-left"
+                  className={`flex items-center gap-3 py-2.5 hover:bg-stone-50 -mx-2 px-2 rounded-lg transition-colors text-left ${i !== 0 ? 'border-t border-stone-100' : ''}`}
                 >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#a8a29e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                    <polyline points="14 2 14 8 20 8"/>
-                  </svg>
-                  <span className="flex-1 text-sm text-stone-700 truncate">{s.title}</span>
+                  <Artwork id={s.driveId || s.youtubeId || s.id} size="w-10 h-10" rounded="rounded-md" />
+                  <span className="flex-1 text-[14px] font-medium text-stone-800 truncate">{s.title}</span>
                   {s.keyScripture && (
-                    <span className="text-xs text-stone-400 shrink-0">{s.keyScripture}</span>
+                    <span className="text-[12px] text-stone-400 shrink-0">{s.keyScripture}</span>
                   )}
                 </button>
               ))}
