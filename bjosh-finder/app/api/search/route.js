@@ -47,19 +47,23 @@ async function readFullText(fileId, token) {
 // transcript is usually just prayer/worship — so locate where the query
 // phrase actually occurs and center the excerpt there instead of always
 // sending the start of the file.
+// We also exclude the last 20% of the transcript: BJosh sermons almost
+// always end with a "born again" / salvation altar call regardless of topic,
+// so matches there are not meaningful evidence of central teaching.
 function extractRelevantSnippet(fullText, query) {
-  const lowerFull = fullText.toLowerCase();
+  const searchable = fullText.slice(0, Math.floor(fullText.length * 0.80));
+  const lowerFull = searchable.toLowerCase();
   const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
   for (let len = words.length; len >= Math.min(4, words.length); len--) {
     for (let start = 0; start + len <= words.length; start++) {
       const idx = lowerFull.indexOf(words.slice(start, start + len).join(' '));
       if (idx !== -1) {
         const from = Math.max(0, idx - 800);
-        return { snippet: fullText.slice(from, from + 2500), matched: true };
+        return { snippet: searchable.slice(from, from + 2500), matched: true };
       }
     }
   }
-  return { snippet: fullText.slice(0, 3000), matched: false };
+  return { snippet: searchable.slice(0, 3000), matched: false };
 }
 
 // Drive's fullText search pre-filters candidates for us; YouTube sermons have
@@ -104,7 +108,7 @@ ${snippets.map((s, i) => `[${i}] "${s.title}"
 Excerpt: ${s.snippet}
 ---`).join('\n')}
 
-Rank these by relevance. Exclude any sermon where the topic only appears in an opening prayer, worship section, or passing mention — only include sermons where it is a central teaching point. Return a JSON array using the exact 0-based index shown above:
+Rank these by relevance. Exclude any sermon where the topic only appears in an altar call, closing prayer, passing mention, or opening worship — only include sermons where it is a CENTRAL teaching point of the main body of the message. Be strict: if the excerpt sounds like a salvation appeal at the end of a sermon rather than the sermon's actual subject, exclude it. Return a JSON array using the exact 0-based index shown above:
 [{"index": 0, "confidence": "high"|"medium"|"low", "keyScripture": "main scripture or empty string", "summary": "one crisp sentence on what this sermon is about"}]
 Return ONLY valid JSON, nothing else.`;
 
