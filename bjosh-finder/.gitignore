@@ -5,3 +5,7 @@ out/
 .env*.local
 scripts/index-progress.json
 .DS_Store
+
+# YouTube backlog staging (regenerable, large)
+lib/youtube-backlog-transcripts.json
+scripts/backlog-progress.json

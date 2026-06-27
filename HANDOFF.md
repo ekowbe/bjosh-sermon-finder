@@ -1,108 +1,28 @@
 # BJosh Sermon Finder — Handoff
 
-## Repo
-- GitHub: https://github.com/ekowbe/bjosh-sermon-finder
-- Vercel: https://bjosh-sermon-finder.vercel.app
-- Local: `/tmp/bjosh-sermon-finder/` (clone; may not persist across reboots)
+Sermon search/discovery app for Bishop Joshua Heward-Mills sermons. Next.js 15 (App Router) + Vercel.
+Read this first each session. Durable detail: `bjosh-finder/DESIGN.md` (theme), `bjosh-finder/db/README.md` (search backend).
 
-## Project Structure
-```
-bjosh-sermon-finder/
-  bjosh-finder/           ← Next.js 15 app (App Router)
-    app/
-      page.js             ← ALL UI in one file ('use client')
-      globals.css         ← animations: spin, ping-slow, ping-slower, rise-in
-      api/search/route.js ← semantic search via Drive fullText + Anthropic
-    lib/
-      sermons.js          ← SERMONS array (Drive + YouTube, auto-generated)
-      playlists.js        ← PLAYLISTS array (6 categories + 1 hidden)
-      youtube-transcripts.json ← cached YouTube captions
-    scripts/
-      index-youtube.js    ← weekly GitHub Action indexer
-      index-progress.json ← Drive sermon index progress
-      youtube-progress.json ← YouTube index progress
-  .github/workflows/
-    youtube-index.yml     ← cron: every Monday 06:00 UTC
-```
+## Locations
+- GitHub: https://github.com/ekowbe/bjosh-sermon-finder · Live: https://bjosh-sermon-finder.vercel.app
+- Local: `~/Projects/bjosh-sermon-finder` (app in `bjosh-finder/`). Dev: `npm run dev` in that subdir.
 
-## App Architecture
+## Current state
+- **Corpus:** 389 Drive sermons (full transcripts) + 9 YouTube = 398 searchable. `lib/sermons.js` (auto-generated, don't hand-edit), `lib/playlists.js` (6 categories + 1 hidden; references 271 unique YouTube videoIds, ~262 not yet searchable).
+- **UI redesign — PR #2 (`redesign-sanctuary-theme`), open.** Custom "Sanctuary" theme (warm parchment/gold, Fraunces+Inter, lucide), design tokens, componentized `app/page.js`, `useVoice` hook, logic in `lib/format.js`. Replaced the Apple-Music clone.
+- **Search backend — PR #3 (`feat/search-backend`, stacked on #2), open, DORMANT.** Pre-indexed hybrid retrieval (pgvector + tsvector RRF) + Sonnet 4.6 rerank, Voyage 3 embeddings, own Supabase project. Replaces slow query-time Drive/YouTube scan. Live route untouched until cutover (rename `route.v2.js`→`route.js`).
 
-### Single-file UI (`app/page.js`)
-All components in one minified-style file:
-- `Art` — sermon artwork (YouTube thumbnail or Drive color block)
-- `Row` — single sermon list row
-- `Sheet` — bottom sheet player (audio for Drive sermons, YouTube embed)
-- `Lib` — Library tab: Browse by category grid → category drill-down → sermon list
-- `Srch` — Search tab (DEFAULT VIEW): big mic hero + text search bar
-- `NavBtn` — bottom nav button
-- `App` — root; 2-tab nav: **Search** (default) + Library
+## How search works TODAY (until #3 cutover)
+`app/api/search/route.js`: Drive `fullText contains` (keyword only) + scan 9 cached YT transcripts → `claude-sonnet-4-5` ranks → `{matches:[{title,driveId|youtubeId,confidence,keyScripture,summary}]}`. Slow + keyword-only = the problem #3 fixes.
 
-### Key constants (top of page.js)
-```js
-const MATCH_MIN_WORDS = 4
-const MATCH_MIN_INTERVAL_MS = 4000
-const MATCH_DEBOUNCE_MS = 1500
-const MATCH_WINDOW_WORDS = 40
-```
+## Next steps (priority)
+1. **Merge #2, then #3** (base auto-retargets to main).
+2. **Stand up the search index** — provision Supabase, set keys, `npm run index:build`, cutover. Full runbook: `db/README.md`.
+3. **YouTube back-catalog** — ~262 playlist videos aren't searchable. Probe (15 sampled): ~87% have EN auto-captions, ~13% none, 0 manual. Plan: `scripts/fetch-youtube-backlog.js` bulk-fetches captions (resumable, throttled) → then metadata+dedup-vs-Drive (needs `ANTHROPIC_API_KEY`) → index. The ~13% captionless need a later Whisper pass.
+4. Upgrade indexer model `claude-sonnet-4-5` → `4-6` (`scripts/index-youtube.js`).
+5. Category `videoIds` are hardcoded — new YT sermons won't auto-appear in categories.
 
-### Speech Recognition (in Srch)
-- Web Speech API, continuous mode, sliding window of last 40 words
-- Debounced: fires search after 4s or 1.5s debounce
-- `go()` / `end()` start/stop; `sched()` → `srchMic()` triggers API call
-- Transcript displayed live below mic button
-
-### Search API (`app/api/search/route.js`)
-1. Drive `fullText` search (pre-filters candidates)
-2. YouTube transcript in-memory search
-3. Clips snippet to **first 80% of transcript** (altar call boilerplate lives in last 20%)
-4. Sends snippets to `claude-sonnet-4-5` for ranking + confidence scoring
-5. Returns `{matches: [{title, driveId|youtubeId, confidence, keyScripture, summary}]}`
-
-## Categories (`lib/playlists.js`)
-6 broad categories (replacing original 14 specific ones):
-
-| id | title | ~sermons |
-|----|-------|---------|
-| `holy-spirit` | The Holy Spirit | 96 |
-| `prayer-and-devotion` | Prayer & Devotion | 60 |
-| `salvation-and-evangelism` | Salvation & Evangelism | 82 |
-| `discipleship` | Discipleship | 75 |
-| `church-and-ministry` | Church & Ministry | 50 |
-| `spiritual-warfare` | Spiritual Warfare | 25 |
-| `tuesday-meeting-god` | (hidden) | — |
-
-Categorization uses `plFor(s)` — keyword scoring against `topics` array per sermon.
-Unmatched: 1 (empty-topic sermon titled '11.'). Low-confidence: ~38.
-
-## Design System
-- Primary red: `#FC3C44`
-- Dark text: `#1C1C1E`
-- Secondary text: `#8E8E93`
-- Background: `#F2F2F7`
-- Cards: `#fff`
-- Apple Music–inspired UI
-
-### Search screen layout
-- Red gradient header ("Find a Sermon" / "Listening…")
-- 72px circular mic button with pulsing rings (ping-slow/ping-slower animations)
-- Live transcript caption below mic
-- Text search bar below the mic section
-- Results or "All Sermons" list below
-
-## Recent Changes (this session)
-1. **Consolidated 14 → 6 categories** in `lib/playlists.js`
-2. **Removed Home tab** — 2-tab nav: Search (default) + Library
-3. **Big mic hero on Search screen** — restored Apple Music–style red gradient header + large centered mic
-4. **Search snippet trimmed to 80%** — fixes "born again" returning altar-call matches
-5. **Tighter search prompt** — AI instructed to exclude altar call / closing prayer excerpts
-
-## Known Issues / TODO
-- Category keyword matching is weak for some sermons (~38 low-confidence)
-- `playlists.js` `videoIds` arrays are hardcoded; new YouTube sermons indexed via GitHub Action won't auto-appear in categories
-- `sermons.js` model still references `claude-sonnet-4-5` (indexer); consider upgrading to `claude-sonnet-4-6`
-
-## Key Files to Know
-- All UI: `bjosh-finder/app/page.js`
-- Categories + keywords: `bjosh-finder/lib/playlists.js`
-- Search logic: `bjosh-finder/app/api/search/route.js`
-- Sermon data: `bjosh-finder/lib/sermons.js` (auto-generated, don't hand-edit)
+## Gotchas
+- `yt-dlp` lives at `~/Library/Python/3.14/bin/yt-dlp` (not on PATH).
+- Long sermons (1–2.5 hr) → large transcripts; chunker drops the altar-call tail + cleans `[music]`/entities.
+- If a long overnight job needs `sudo pmset -a disablesleep 1`, remind to run `disablesleep 0` on completion.
