@@ -1,80 +1,635 @@
 'use client';
-import { useState, useRef, useEffect, useMemo } from 'react';
+import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
+import {
+  Mic, Search as SearchIcon, Library as LibraryIcon, ChevronRight, ArrowLeft,
+  X, FileText, Volume2, SquarePlay, Loader2, BookOpen,
+} from 'lucide-react';
 import { SERMONS } from '@/lib/sermons';
 import { PLAYLISTS } from '@/lib/playlists';
-const MATCH_WINDOW_WORDS=12,MATCH_MIN_WORDS=5,MATCH_DEBOUNCE_MS=1800,MATCH_MIN_INTERVAL_MS=6000;
-function plFor(s){if(!s.topics?.length)return null;const t=s.topics.join(" ").toLowerCase();let best=null,top=0;for(const pl of PLAYLISTS){if(!pl.kw?.length||pl.hidden)continue;const n=pl.kw.reduce((a,k)=>a+(t.includes(k)?1:0),0);if(n>top){top=n;best=pl.id;}}return best;}
-function pdate(title){if(!title)return '';let m=title.match(/\b(20\d{2})[.\-\/](\d{2})[.\-\/](\d{2})\b/);if(m)return `${m[1]}-${m[2]}-${m[3]}`;m=title.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\s,]+(\d{1,2})[\s,]+(\d{4})\b/i);if(m){const mo={jan:'01',feb:'02',mar:'03',apr:'04',may:'05',jun:'06',jul:'07',aug:'08',sep:'09',oct:'10',nov:'11',dec:'12'};return `${m[3]}-${mo[m[1].toLowerCase().slice(0,3)]}-${m[2].padStart(2,'0')}`;}m=title.match(/\b(20\d{2})\b/);return m?`${m[1]}-00-00`:''}
-function fdate(d){if(!d)return '';if(d.endsWith('-00-00'))return d.slice(0,4);try{return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});}catch{return '';}}
-function cTitle(t){t=t.replace(/^\d{4}[.\-\/]\d{2}[.\-\/]\d{2}[_\s]*[A-Za-z]*[_\s]*/i,'').trim();return t.replace(/^[A-Z]{2,8}[_\s]+/,'').trim();}
-function sKey(title){let t=cTitle(title);t=t.replace(/^\d+\s+/,'');return t.replace(/[\s,|]+[Pp]art\s*\d+\s*$/,'').trim().toLowerCase();}
-const SS=[...SERMONS].map(s=>({...s,_d:s.published?.slice(0,10)||pdate(s.title)})).sort((a,b)=>(!a._d&&!b._d)?0:!a._d?1:!b._d?-1:b._d.localeCompare(a._d));
-function buildSeries(){const g={};for(const s of SERMONS){if(!s.driveId)continue;const raw=cTitle(s.title),key=sKey(s.title);if(key!==raw.toLowerCase()||/^\d+\s/.test(raw)){if(!g[key]){const title=cTitle(s.title).replace(/^\d+\s+/,'').replace(/[\s,|]+[Pp]art\s*\d+\s*$/,'').trim();g[key]={key,title,ids:[]};}g[key].ids.push(s.id);}}return Object.values(g).filter(x=>x.ids.length>=2);}
-const SERIES=buildSeries(),SID=new Map();for(const s of SERIES)for(const id of s.ids)SID.set(id,s.key);
-const PAL=[['#FF6B6B','#C0392B'],['#FF9F5A','#E67E22'],['#A78BFA','#6D28D9'],['#60A5FA','#1D4ED8'],['#34D399','#065F46'],['#F472B6','#9D174D'],['#FBBF24','#92400E'],['#6EE7B7','#047857']];
-function pal(k){let h=0;const s=String(k);for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))>>>0;return PAL[h%PAL.length];}
-function Art({id,sz=52,r=10}){const[c1,c2]=pal(id);return(<div style={{width:sz,height:sz,minWidth:sz,borderRadius:r,background:`linear-gradient(145deg,${c1},${c2})`,display:'flex',alignItems:'center',justifyContent:'center',boxShadow:'0 2px 6px rgba(0,0,0,0.18)'}}><svg width={sz*.38} height={sz*.38} viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></div>);}
-function PlArt({id,sz=52,r=10}){const[c1,c2]=pal('pl-'+id);return(<div style={{width:sz,height:sz,minWidth:sz,borderRadius:r,background:`linear-gradient(145deg,${c1},${c2})`,display:'flex',alignItems:'center',justifyContent:'center',boxShadow:'0 2px 6px rgba(0,0,0,0.18)'}}><svg width={sz*.38} height={sz*.38} viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7l11 5-11 5z"/></svg></div>);}
-function Chev(){return <svg width="7" height="12" viewBox="0 0 7 12" fill="none" style={{flexShrink:0,marginLeft:4}}><path d="M1 1l5 5-5 5" stroke="#C7C7CC" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>;}
-function Row({s,i,onClick}){const meta=[s.keyScripture,fdate(s._d)].filter(Boolean).join(' · ');return(<button onClick={()=>onClick(s)} style={{display:'flex',alignItems:'center',gap:12,width:'100%',padding:'10px 16px',background:'none',border:'none',cursor:'pointer',textAlign:'left',borderTop:i===0?'none':'1px solid #F2F2F7'}}><Art id={s.driveId||s.youtubeId||s.id} sz={44} r={8}/><div style={{flex:1,minWidth:0}}><p style={{margin:0,fontSize:14,fontWeight:500,color:'#1C1C1E',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{s.title}</p>{meta&&<p style={{margin:'2px 0 0',fontSize:12,color:'#8E8E93',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{meta}</p>}</div><Chev/></button>);}
-function Sheet({s,onClose}){const ds=fdate(s._d);return(<div onClick={onClose} style={{position:'fixed',inset:0,zIndex:50,background:'rgba(0,0,0,0.45)',backdropFilter:'blur(6px)',WebkitBackdropFilter:'blur(6px)',display:'flex',alignItems:'flex-end'}}><div onClick={e=>e.stopPropagation()} style={{width:'100%',background:'#fff',borderRadius:'20px 20px 0 0',paddingBottom:40,maxHeight:'82vh',overflowY:'auto'}}><div style={{width:36,height:4,background:'#D1D1D6',borderRadius:2,margin:'12px auto 16px'}}/><div style={{padding:'0 20px'}}><div style={{display:'flex',gap:16,alignItems:'flex-start',marginBottom:20}}><Art id={s.driveId||s.youtubeId||s.id} sz={76} r={14}/><div style={{flex:1,minWidth:0,paddingTop:4}}><p style={{margin:0,fontSize:18,fontWeight:700,color:'#1C1C1E',lineHeight:1.3}}>{s.title}</p>{s.keyScripture&&<p style={{margin:'4px 0 0',fontSize:14,color:'#FC3C44',fontWeight:600}}>{s.keyScripture}</p>}{ds&&<p style={{margin:'3px 0 0',fontSize:13,color:'#8E8E93'}}>{ds}</p>}</div></div>{s.summary&&<div style={{background:'#F2F2F7',borderRadius:12,padding:'12px 14px',marginBottom:16}}><p style={{margin:0,fontSize:14,color:'#3A3A3C',lineHeight:1.6}}>{s.summary}</p></div>}{s.topics?.length>0&&<div style={{display:'flex',flexWrap:'wrap',gap:6,marginBottom:20}}>{s.topics.map(t=><span key={t} style={{fontSize:12,fontWeight:500,color:'#636366',background:'#F2F2F7',borderRadius:100,padding:'4px 10px'}}>{t}</span>)}</div>}<div style={{display:'flex',flexDirection:'column',gap:10}}>{s.driveId&&<a href={`https://drive.google.com/file/d/${s.driveId}/view`} target="_blank" rel="noopener noreferrer" style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,padding:'14px',background:'#F2F2F7',borderRadius:12,textDecoration:'none',color:'#1C1C1E',fontSize:15,fontWeight:600}}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Read Transcript</a>}{s.audioId&&<a href={`https://drive.google.com/file/d/${s.audioId}/view`} target="_blank" rel="noopener noreferrer" style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,padding:'14px',background:'#FC3C44',borderRadius:12,textDecoration:'none',color:'white',fontSize:15,fontWeight:600}}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>Listen to Audio</a>}{s.youtubeId&&<a href={`https://www.youtube.com/watch?v=${s.youtubeId}`} target="_blank" rel="noopener noreferrer" style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,padding:'14px',background:'#FF0000',borderRadius:12,textDecoration:'none',color:'white',fontSize:15,fontWeight:600}}><svg width="17" height="17" viewBox="0 0 24 24" fill="white"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>Watch on YouTube</a>}</div></div></div></div>);}
-function Drill({title,subtitle,sermons,onBack,onSel}){const[q,setQ]=useState('');const list=q?sermons.filter(s=>s.title.toLowerCase().includes(q.toLowerCase())||s.keyScripture?.toLowerCase().includes(q.toLowerCase())):sermons;return(<div style={{minHeight:'100dvh',background:'#F2F2F7'}}><div style={{background:'#fff',borderBottom:'1px solid #E5E5EA',padding:'12px 16px',position:'sticky',top:0,zIndex:10}}><button onClick={onBack} style={{display:'flex',alignItems:'center',gap:4,background:'none',border:'none',color:'#FC3C44',fontSize:17,cursor:'pointer',padding:0,marginBottom:8}}><svg width="10" height="17" viewBox="0 0 10 17" fill="none"><path d="M9 1L1 8.5L9 16" stroke="#FC3C44" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>Back</button><h2 style={{margin:0,fontSize:22,fontWeight:700,color:'#1C1C1E'}}>{title}</h2><p style={{margin:'2px 0 10px',fontSize:13,color:'#8E8E93'}}>{subtitle||`${sermons.length} sermons`}</p><div style={{position:'relative'}}><svg style={{position:'absolute',left:10,top:'50%',transform:'translateY(-50%)'}} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8E8E93" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Filter" style={{width:'100%',height:36,paddingLeft:32,paddingRight:12,borderRadius:10,border:'none',background:'#F2F2F7',fontSize:14,color:'#1C1C1E',outline:'none',boxSizing:'border-box'}}/></div></div><div style={{margin:'12px 16px 100px',background:'#fff',borderRadius:12,overflow:'hidden'}}>{list.map((s,i)=><Row key={s.id} s={s} i={i} onClick={onSel}/>)}{!list.length&&<p style={{textAlign:'center',color:'#8E8E93',fontSize:14,padding:'32px 16px'}}>No sermons match.</p>}</div></div>);}
-function Home({onSel,onCat}){const[listening,setListening]=useState(false);const[tx,setTx]=useState('');const[load,setLoad]=useState(false);const[res,setRes]=useState(null);const[canS,setCanS]=useState(false);const rec=useRef(null),buf=useRef(''),stopR=useRef(false),tmr=useRef(null),fly=useRef(false),lat=useRef(0);useEffect(()=>{setCanS('webkitSpeechRecognition' in window||'SpeechRecognition' in window);return()=>clearTimeout(tmr.current);},[]);async function srch(q){if(!q||fly.current)return;fly.current=true;setLoad(true);try{const r=await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:q})});const d=await r.json();setRes(d.matches||[]);}catch{setRes([]);}setLoad(false);fly.current=false;}function sched(){const w=buf.current.trim().split(/\s+/).filter(Boolean);if(w.length<MATCH_MIN_WORDS)return;clearTimeout(tmr.current);const e=Date.now()-lat.current;if(e>=MATCH_MIN_INTERVAL_MS){lat.current=Date.now();srch(buf.current.trim());}else tmr.current=setTimeout(()=>{lat.current=Date.now();srch(buf.current.trim());},MATCH_DEBOUNCE_MS);}function go(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return;stopR.current=false;buf.current='';lat.current=0;setRes(null);setTx('');const r=new SR();r.continuous=true;r.interimResults=true;r.lang='en-US';r.onresult=(e)=>{let it='';for(let i=e.resultIndex;i<e.results.length;i++){const rr=e.results[i];if(rr.isFinal){const w=(buf.current+' '+rr[0].transcript).trim().split(/\s+/);buf.current=w.slice(-MATCH_WINDOW_WORDS).join(' ');sched();}else it+=rr[0].transcript;}setTx((buf.current+' '+it).trim());};r.onerror=(e)=>{if(e.error==='not-allowed'||e.error==='service-not-allowed'){stopR.current=true;setListening(false);}};r.onend=()=>{if(stopR.current){setListening(false);return;}try{r.start();}catch{setListening(false);}};rec.current=r;r.start();setListening(true);}function end(){stopR.current=true;clearTimeout(tmr.current);rec.current?.stop();setListening(false);}const bgC=c=>c==='high'?{bg:'#FFF0F3',tc:'#C0392B'}:c==='medium'?{bg:'#FFF3E0',tc:'#E67E22'}:{bg:'#F2F2F7',tc:'#636366'};return(<div style={{paddingBottom:100}}><div style={{padding:'54px 20px 22px',background:'linear-gradient(180deg,#FC3C44 0%,#C0392B 100%)'}}><p style={{margin:'0 0 3px',fontSize:12,fontWeight:600,color:'rgba(255,255,255,0.7)',textTransform:'uppercase',letterSpacing:'0.07em'}}>BJosh Sermons</p><h1 style={{margin:0,fontSize:34,fontWeight:800,color:'#fff',letterSpacing:'-0.5px'}}>{listening?'Listening…':'For You'}</h1></div>{canS&&(<div style={{background:'#fff',padding:'22px 20px',display:'flex',flexDirection:'column',alignItems:'center',gap:10,borderBottom:'1px solid #E5E5EA'}}><div style={{position:'relative',width:72,height:72,display:'flex',alignItems:'center',justifyContent:'center'}}>{listening&&<><div style={{position:'absolute',inset:0,borderRadius:'50%',background:'rgba(252,60,68,0.15)',animation:'ping-slow 1.6s ease-in-out infinite'}}/><div style={{position:'absolute',inset:0,borderRadius:'50%',background:'rgba(252,60,68,0.08)',animation:'ping-slower 1.6s ease-in-out 0.4s infinite'}}/></>}<button onClick={listening?end:go} style={{width:64,height:64,borderRadius:'50%',border:'none',cursor:'pointer',background:listening?'linear-gradient(135deg,#FF9F5A,#FC3C44)':'linear-gradient(135deg,#FC3C44,#C0392B)',boxShadow:'0 8px 24px rgba(252,60,68,0.4)',display:'flex',alignItems:'center',justifyContent:'center',position:'relative',zIndex:1}}><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></button></div><p style={{margin:0,fontSize:13,color:'#8E8E93',textAlign:'center'}}>{listening?(tx?`"${tx}"` :'Listening for a sermon…'):'Tap to identify a sermon playing nearby'}</p></div>)}{load&&<div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:10,padding:'18px 20px',color:'#8E8E93',fontSize:14}}><div style={{width:18,height:18,borderRadius:'50%',border:'2.5px solid #E5E5EA',borderTopColor:'#FC3C44',animation:'spin 0.8s linear infinite'}}/>Identifying…</div>}{res!==null&&!load&&(<div style={{padding:'14px 16px 0'}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:8}}><p style={{margin:0,fontSize:12,fontWeight:600,color:'#8E8E93',textTransform:'uppercase',letterSpacing:'0.05em'}}>{res.length===0?'No match':`${res.length} match${res.length!==1?'es':''}`}</p><button onClick={()=>setRes(null)} style={{background:'none',border:'none',color:'#FC3C44',fontSize:14,fontWeight:600,cursor:'pointer',padding:0}}>Clear</button></div><div style={{background:'#fff',borderRadius:12,overflow:'hidden'}}>{res.map((r,i)=>{const b=bgC(r.confidence),s={...r,_d:r.published?.slice(0,10)||pdate(r.title)};return(<button key={r.driveId||r.youtubeId} onClick={()=>onSel(s)} style={{display:'flex',gap:12,padding:'12px 16px',background:'none',border:'none',cursor:'pointer',borderTop:i===0?'none':'1px solid #F2F2F7',textAlign:'left',width:'100%'}}><Art id={r.driveId||r.youtubeId} sz={52} r={10}/><div style={{flex:1,minWidth:0}}><div style={{display:'flex',gap:6,alignItems:'flex-start',flexWrap:'wrap'}}><span style={{fontSize:15,fontWeight:600,color:'#1C1C1E',lineHeight:1.3}}>{r.title}</span><span style={{fontSize:11,fontWeight:600,color:b.tc,background:b.bg,borderRadius:6,padding:'2px 6px',flexShrink:0}}>{r.confidence==='high'?'High':r.confidence==='medium'?'Medium':'Low'}</span></div>{r.keyScripture&&<p style={{margin:'3px 0 0',fontSize:13,color:'#FC3C44',fontWeight:500}}>{r.keyScripture}</p>}{r.summary&&<p style={{margin:'3px 0 0',fontSize:13,color:'#636366',lineHeight:1.4,display:'-webkit-box',WebkitLineClamp:2,WebkitBoxOrient:'vertical',overflow:'hidden'}}>{r.summary}</p>}</div></button>);})}</div></div>)}<div style={{marginTop:28}}><p style={{margin:'0 0 10px',padding:'0 20px',fontSize:22,fontWeight:700,color:'#1C1C1E'}}>Featured Series</p><div style={{display:'flex',gap:14,overflowX:'auto',padding:'2px 20px 16px',scrollbarWidth:'none'}}>{PLAYLISTS.slice(0,14).map(pl=>(<button key={pl.id} onClick={()=>onCat(pl.id)} style={{flexShrink:0,width:136,background:'none',border:'none',cursor:'pointer',textAlign:'left',padding:0}}><PlArt id={pl.id} sz={136} r={12}/><p style={{margin:'8px 0 2px',fontSize:13,fontWeight:600,color:'#1C1C1E',display:'-webkit-box',WebkitLineClamp:2,WebkitBoxOrient:'vertical',overflow:'hidden',lineHeight:1.3}}>{pl.title}</p><p style={{margin:0,fontSize:11,color:'#8E8E93'}}>{pl.videoIds.length} videos</p></button>))}</div></div><div style={{marginTop:6}}><p style={{margin:'0 0 10px',padding:'0 20px',fontSize:22,fontWeight:700,color:'#1C1C1E'}}>Recently Added</p><div style={{display:'flex',gap:14,overflowX:'auto',padding:'2px 20px 16px',scrollbarWidth:'none'}}>{SS.slice(0,18).map(s=>(<button key={s.id} onClick={()=>onSel(s)} style={{flexShrink:0,width:126,background:'none',border:'none',cursor:'pointer',textAlign:'left',padding:0}}><Art id={s.driveId||s.youtubeId||s.id} sz={126} r={12}/><p style={{margin:'8px 0 2px',fontSize:13,fontWeight:600,color:'#1C1C1E',display:'-webkit-box',WebkitLineClamp:2,WebkitBoxOrient:'vertical',overflow:'hidden',lineHeight:1.3}}>{s.title}</p>{s._d&&<p style={{margin:0,fontSize:11,color:'#8E8E93'}}>{fdate(s._d)}</p>}</button>))}</div></div><div style={{padding:'6px 20px 0'}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline',marginBottom:12}}><p style={{margin:0,fontSize:22,fontWeight:700,color:'#1C1C1E'}}>Browse Categories</p><button onClick={()=>onCat(null)} style={{background:'none',border:'none',color:'#FC3C44',fontSize:14,fontWeight:600,cursor:'pointer',padding:0}}>See All</button></div><div style={{display:'flex',gap:14,overflowX:'auto',padding:'2px 0 16px',scrollbarWidth:'none'}}>{PLAYLISTS.filter(p=>!p.hidden).slice(0,10).map(pl=>{const[c1,c2]=pal('pl-'+pl.id);return(<button key={pl.id} onClick={()=>onCat(pl.id)} style={{flexShrink:0,width:110,background:'none',border:'none',cursor:'pointer',padding:0,textAlign:'left'}}><div style={{width:110,height:110,borderRadius:14,background:`linear-gradient(145deg,${c1},${c2})`,boxShadow:'0 2px 8px rgba(0,0,0,0.12)',display:'flex',alignItems:'center',justifyContent:'center',marginBottom:6}}><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7l11 5-11 5z"/></svg></div><p style={{margin:0,fontSize:12,fontWeight:600,color:'#1C1C1E',display:'-webkit-box',WebkitLineClamp:2,WebkitBoxOrient:'vertical',overflow:'hidden',lineHeight:1.3}}>{pl.title}</p></button>);})}</div></div></div>);}
-function Lib({onSel}){
-  const[tab,setTab]=useState('categories');
-  const[drill,setDrill]=useState(null);
-  const ytMap=useMemo(()=>{const m=new Map();for(const s of SS)if(s.youtubeId)m.set(s.youtubeId,s);return m;},[]);
-  const byPl=useMemo(()=>PLAYLISTS.map(pl=>{
-    const ytSet=new Set(pl.videoIds);
-    const ytMatches=pl.videoIds.map(id=>ytMap.get(id)).filter(Boolean);
-    const driveMatches=SS.filter(s=>s.driveId&&plFor(s)===pl.id);
-    return{...pl,sermons:[...ytMatches,...driveMatches]};
-  }).filter(pl=>pl.sermons.length>0),[ytMap]);
-  const byY=useMemo(()=>{const g={};for(const s of SS){const y=s._d?.slice(0,4)||'Undated';if(!g[y])g[y]=[];g[y].push(s);}return Object.entries(g).sort(([a],[b])=>a==='Undated'?1:b==='Undated'?-1:b.localeCompare(a));},[]);
-  if(drill)return<Drill title={drill.title} subtitle={drill.sub} sermons={drill.list} onBack={()=>setDrill(null)} onSel={onSel}/>;
-  return(<div style={{minHeight:'100dvh',background:'#F2F2F7',paddingBottom:100}}>
-    <div style={{padding:'54px 16px 14px',background:'#F2F2F7',position:'sticky',top:0,zIndex:10}}>
-      <h1 style={{margin:'0 0 14px',fontSize:32,fontWeight:800,color:'#1C1C1E'}}>Library</h1>
-      <div style={{display:'flex',background:'#E5E5EA',borderRadius:10,padding:2}}>
-        {[['categories','Categories'],['date','By Date']].map(([id,lbl])=>(
-          <button key={id} onClick={()=>setTab(id)} style={{flex:1,padding:'7px 0',border:'none',cursor:'pointer',borderRadius:8,fontSize:13,fontWeight:600,background:tab===id?'#fff':'transparent',color:tab===id?'#1C1C1E':'#636366',boxShadow:tab===id?'0 1px 4px rgba(0,0,0,0.12)':'none',transition:'all 0.2s'}}>{lbl}</button>
-        ))}
+import {
+  MATCH, parseDate, fmtDate, cleanTitle, playlistFor, palette, confColors, SS,
+} from '@/lib/format';
+
+const withDate = (r) => ({ ...r, _d: r.published?.slice(0, 10) || parseDate(r.title) });
+
+/* ------------------------------------------------------------------ */
+/* Voice search hook — encapsulates Web Speech API + debounced query  */
+/* ------------------------------------------------------------------ */
+function useVoice(onQuery) {
+  const [listening, setListening] = useState(false);
+  const [transcript, setTranscript] = useState('');
+  const [supported, setSupported] = useState(false);
+  const rec = useRef(null), buf = useRef(''), stop = useRef(false), tmr = useRef(null), last = useRef(0);
+
+  useEffect(() => {
+    setSupported('webkitSpeechRecognition' in window || 'SpeechRecognition' in window);
+    return () => clearTimeout(tmr.current);
+  }, []);
+
+  const schedule = useCallback(() => {
+    const words = buf.current.trim().split(/\s+/).filter(Boolean);
+    if (words.length < MATCH.MIN_WORDS) return;
+    clearTimeout(tmr.current);
+    const elapsed = Date.now() - last.current;
+    const fire = () => { last.current = Date.now(); onQuery(buf.current.trim()); };
+    if (elapsed >= MATCH.MIN_INTERVAL_MS) fire();
+    else tmr.current = setTimeout(fire, MATCH.DEBOUNCE_MS);
+  }, [onQuery]);
+
+  const start = useCallback(() => {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) return;
+    stop.current = false; buf.current = ''; last.current = 0;
+    setTranscript('');
+    const r = new SR();
+    r.continuous = true; r.interimResults = true; r.lang = 'en-US';
+    r.onresult = (e) => {
+      let interim = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const res = e.results[i];
+        if (res.isFinal) {
+          const words = (buf.current + ' ' + res[0].transcript).trim().split(/\s+/);
+          buf.current = words.slice(-MATCH.WINDOW_WORDS).join(' ');
+          schedule();
+        } else interim += res[0].transcript;
+      }
+      setTranscript((buf.current + ' ' + interim).trim());
+    };
+    r.onerror = (e) => {
+      if (e.error === 'not-allowed' || e.error === 'service-not-allowed') { stop.current = true; setListening(false); }
+    };
+    r.onend = () => {
+      if (stop.current) { setListening(false); return; }
+      try { r.start(); } catch { setListening(false); }
+    };
+    rec.current = r; r.start(); setListening(true);
+  }, [schedule]);
+
+  const end = useCallback(() => {
+    stop.current = true; clearTimeout(tmr.current); rec.current?.stop(); setListening(false);
+  }, []);
+
+  return { listening, transcript, supported, start, end };
+}
+
+async function runSearch(query, guard, setLoad, setRes) {
+  if (!query || guard.current) return;
+  guard.current = true; setLoad(true);
+  try {
+    const r = await fetch('/api/search', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query }),
+    });
+    const d = await r.json();
+    setRes(d.matches || []);
+  } catch { setRes([]); }
+  setLoad(false); guard.current = false;
+}
+
+/* ------------------------------------------------------------------ */
+/* Artwork — warm gradient panel with a serif monogram                */
+/* ------------------------------------------------------------------ */
+function Artwork({ seed, title, size = 52, radius = 12, kind = 'sermon' }) {
+  const [c1, c2] = palette((kind === 'playlist' ? 'pl-' : '') + seed);
+  const letter = (cleanTitle(title || '') || title || '?').trim().charAt(0).toUpperCase();
+  return (
+    <div
+      className="relative flex items-center justify-center overflow-hidden shrink-0"
+      style={{
+        width: size, height: size, minWidth: size, borderRadius: radius,
+        background: `linear-gradient(150deg, ${c1}, ${c2})`,
+        boxShadow: '0 4px 14px rgba(33,28,23,0.18)',
+      }}
+    >
+      <span
+        className="font-serif select-none"
+        style={{
+          fontSize: size * 0.52, fontWeight: 700, lineHeight: 1,
+          color: 'rgba(255,255,255,0.92)', letterSpacing: '-0.02em',
+        }}
+      >
+        {letter}
+      </span>
+      <div
+        aria-hidden
+        className="absolute"
+        style={{
+          right: -size * 0.18, top: -size * 0.18, width: size * 0.7, height: size * 0.7,
+          borderRadius: '50%', background: 'rgba(255,255,255,0.12)',
+        }}
+      />
+    </div>
+  );
+}
+
+function ConfBadge({ confidence }) {
+  const c = confColors(confidence);
+  return (
+    <span
+      className="shrink-0 rounded-md px-1.5 py-0.5 text-[11px] font-semibold"
+      style={{ color: c.text, background: c.bg }}
+    >
+      {c.label}
+    </span>
+  );
+}
+
+function Spinner({ label }) {
+  return (
+    <div className="flex items-center justify-center gap-2.5 py-8 text-sm text-muted">
+      <Loader2 size={18} className="animate-spin" style={{ color: 'var(--gold)' }} />
+      {label}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* List row                                                           */
+/* ------------------------------------------------------------------ */
+function SermonRow({ s, first, onClick }) {
+  const meta = [s.keyScripture, fmtDate(s._d)].filter(Boolean).join('  ·  ');
+  return (
+    <button
+      onClick={() => onClick(s)}
+      className="flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-surface-2/60"
+      style={{ borderTop: first ? 'none' : '1px solid var(--line)' }}
+    >
+      <Artwork seed={s.driveId || s.youtubeId || s.id} title={s.title} size={46} radius={10} />
+      <div className="min-w-0 flex-1">
+        <p className="truncate font-serif text-[15px] font-semibold leading-tight text-ink">{s.title}</p>
+        {meta && <p className="mt-0.5 truncate text-xs text-muted">{meta}</p>}
+      </div>
+      <ChevronRight size={16} className="shrink-0 text-faint" />
+    </button>
+  );
+}
+
+/* Rich result card (search + voice results) */
+function ResultCard({ r, first, onClick }) {
+  const s = withDate(r);
+  return (
+    <button
+      onClick={() => onClick(s)}
+      className="flex w-full gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-2/60"
+      style={{ borderTop: first ? 'none' : '1px solid var(--line)' }}
+    >
+      <Artwork seed={r.driveId || r.youtubeId} title={r.title} size={52} radius={11} />
+      <div className="min-w-0 flex-1">
+        <div className="flex flex-wrap items-start gap-1.5">
+          <span className="font-serif text-[15px] font-semibold leading-tight text-ink">{r.title}</span>
+          {r.confidence && <ConfBadge confidence={r.confidence} />}
+        </div>
+        {r.keyScripture && (
+          <p className="mt-1 text-[13px] font-semibold" style={{ color: 'var(--gold)' }}>{r.keyScripture}</p>
+        )}
+        {r.summary && (
+          <p className="mt-1 line-clamp-2 text-[13px] leading-snug text-muted">{r.summary}</p>
+        )}
+      </div>
+    </button>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Detail sheet                                                       */
+/* ------------------------------------------------------------------ */
+function ActionLink({ href, icon: Icon, children, tone }) {
+  const styles = tone === 'gold'
+    ? { background: 'linear-gradient(135deg, var(--gold-bright), var(--gold))', color: '#fff' }
+    : tone === 'youtube'
+    ? { background: '#E0322B', color: '#fff' }
+    : { background: 'var(--surface-2)', color: 'var(--ink)' };
+  return (
+    <a
+      href={href} target="_blank" rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 rounded-xl py-3.5 text-[15px] font-semibold transition-transform active:scale-[0.98]"
+      style={styles}
+    >
+      <Icon size={17} />{children}
+    </a>
+  );
+}
+
+function SermonSheet({ s, onClose }) {
+  const ds = fmtDate(s._d);
+  return (
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-end"
+      style={{ background: 'rgba(33,28,23,0.5)', backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)' }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="animate-sheet-up max-h-[86vh] w-full overflow-y-auto rounded-t-3xl bg-surface pb-10"
+      >
+        <div className="mx-auto mt-3 mb-4 h-1 w-9 rounded-full" style={{ background: 'var(--line)' }} />
+        <div className="px-5">
+          <div className="mb-5 flex items-start gap-4">
+            <Artwork seed={s.driveId || s.youtubeId || s.id} title={s.title} size={80} radius={16} />
+            <div className="min-w-0 flex-1 pt-1">
+              <p className="font-serif text-[20px] font-bold leading-snug text-ink">{s.title}</p>
+              {s.keyScripture && (
+                <p className="mt-1.5 text-sm font-semibold" style={{ color: 'var(--gold)' }}>{s.keyScripture}</p>
+              )}
+              {ds && <p className="mt-0.5 text-[13px] text-muted">{ds}</p>}
+            </div>
+          </div>
+
+          {s.summary && (
+            <div className="mb-4 rounded-2xl p-4" style={{ background: 'var(--surface-2)' }}>
+              <p className="text-sm leading-relaxed text-ink/80">{s.summary}</p>
+            </div>
+          )}
+
+          {s.topics?.length > 0 && (
+            <div className="mb-6 flex flex-wrap gap-1.5">
+              {s.topics.map((t) => (
+                <span key={t} className="rounded-full px-2.5 py-1 text-xs font-medium text-muted" style={{ background: 'var(--surface-2)' }}>
+                  {t}
+                </span>
+              ))}
+            </div>
+          )}
+
+          <div className="flex flex-col gap-2.5">
+            {s.driveId && <ActionLink href={`https://drive.google.com/file/d/${s.driveId}/view`} icon={FileText}>Read transcript</ActionLink>}
+            {s.audioId && <ActionLink href={`https://drive.google.com/file/d/${s.audioId}/view`} icon={Volume2} tone="gold">Listen to audio</ActionLink>}
+            {s.youtubeId && <ActionLink href={`https://www.youtube.com/watch?v=${s.youtubeId}`} icon={SquarePlay} tone="youtube">Watch on YouTube</ActionLink>}
+          </div>
+        </div>
       </div>
     </div>
-    {tab==='categories'&&(
-      <div style={{padding:'0 16px'}}>
-        <div style={{background:'#fff',borderRadius:12,overflow:'hidden',marginBottom:10}}>
-          {byPl.map((pl,i)=>(
-            <button key={pl.id} onClick={()=>setDrill({title:pl.title,sub:`${pl.sermons.length} sermons`,list:pl.sermons})} style={{display:'flex',alignItems:'center',gap:12,width:'100%',padding:'12px 16px',background:'none',border:'none',cursor:'pointer',textAlign:'left',borderTop:i===0?'none':'1px solid #F2F2F7'}}>
-              <PlArt id={pl.id} sz={52} r={10}/>
-              <div style={{flex:1,minWidth:0}}>
-                <p style={{margin:0,fontSize:15,fontWeight:600,color:'#1C1C1E'}}>{pl.title}</p>
-                <p style={{margin:'2px 0 0',fontSize:13,color:'#8E8E93'}}>{pl.sermons.length} sermons</p>
-              </div>
-              <Chev/>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Hero + mic                                                         */
+/* ------------------------------------------------------------------ */
+function Hero({ eyebrow, title }) {
+  return (
+    <div
+      className="relative overflow-hidden px-5 pb-7 pt-14"
+      style={{ background: 'linear-gradient(160deg, var(--espresso) 0%, var(--clay) 100%)' }}
+    >
+      <div
+        aria-hidden className="pointer-events-none absolute"
+        style={{ right: -60, top: -80, width: 240, height: 240, borderRadius: '50%', background: 'radial-gradient(circle, rgba(229,165,59,0.4), transparent 70%)' }}
+      />
+      <p className="relative mb-1 text-[11px] font-semibold uppercase tracking-[0.16em]" style={{ color: 'rgba(229,165,59,0.85)' }}>
+        {eyebrow}
+      </p>
+      <h1 className="relative font-serif text-[34px] font-bold leading-none text-white" style={{ letterSpacing: '-0.01em' }}>
+        {title}
+      </h1>
+    </div>
+  );
+}
+
+function MicPanel({ listening, transcript, supported, onToggle }) {
+  if (!supported) return null;
+  return (
+    <div className="flex flex-col items-center gap-3 border-b bg-surface px-5 py-6" style={{ borderColor: 'var(--line)' }}>
+      <div className="relative flex h-20 w-20 items-center justify-center">
+        {listening && (
+          <>
+            <span className="absolute inset-0 rounded-full animate-ping-slow" style={{ background: 'rgba(178,107,18,0.18)' }} />
+            <span className="absolute inset-0 rounded-full animate-ping-slower" style={{ background: 'rgba(178,107,18,0.1)' }} />
+          </>
+        )}
+        <button
+          onClick={onToggle}
+          aria-label={listening ? 'Stop listening' : 'Identify a sermon'}
+          className="relative z-10 flex h-[72px] w-[72px] items-center justify-center rounded-full transition-transform active:scale-95"
+          style={{
+            background: 'linear-gradient(135deg, var(--gold-bright), var(--gold))',
+            boxShadow: '0 10px 30px rgba(178,107,18,0.4)',
+          }}
+        >
+          <Mic size={28} color="#fff" />
+        </button>
+      </div>
+      <p className="text-center text-[13px] text-muted">
+        {listening
+          ? (transcript ? `“${transcript}”` : 'Listening for a sermon…')
+          : 'Tap to identify a sermon playing nearby'}
+      </p>
+    </div>
+  );
+}
+
+/* Horizontal shelf of artwork cards */
+function Shelf({ title, action, children }) {
+  return (
+    <section className="mt-7">
+      <div className="mb-3 flex items-baseline justify-between px-5">
+        <h2 className="font-serif text-[22px] font-bold text-ink">{title}</h2>
+        {action}
+      </div>
+      <div className="no-scrollbar flex gap-3.5 overflow-x-auto px-5 pb-2">{children}</div>
+    </section>
+  );
+}
+
+function ResultsBlock({ res, onClear, onSel, emptyHint }) {
+  return (
+    <div className="px-4 pt-4">
+      <div className="mb-2 flex items-center justify-between">
+        <p className="text-xs font-semibold uppercase tracking-wider text-muted">
+          {res.length === 0 ? 'No results' : `${res.length} result${res.length !== 1 ? 's' : ''}`}
+        </p>
+        <button onClick={onClear} className="text-sm font-semibold" style={{ color: 'var(--gold)' }}>Clear</button>
+      </div>
+      {res.length === 0 ? (
+        <p className="py-6 text-sm text-muted">{emptyHint}</p>
+      ) : (
+        <div className="overflow-hidden rounded-2xl bg-surface shadow-soft">
+          {res.map((r, i) => <ResultCard key={r.driveId || r.youtubeId || i} r={r} first={i === 0} onClick={onSel} />)}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Search tab                                                         */
+/* ------------------------------------------------------------------ */
+function SearchTab({ onSel, onCat }) {
+  const [q, setQ] = useState('');
+  const [res, setRes] = useState(null);
+  const [load, setLoad] = useState(false);
+  const [lim, setLim] = useState(40);
+  const typeGuard = useRef(false), voiceGuard = useRef(false), inp = useRef(null);
+
+  const voice = useVoice(useCallback((query) => {
+    runSearch(query, voiceGuard, setLoad, setRes);
+  }, []));
+
+  const submit = () => runSearch(q.trim(), typeGuard, setLoad, setRes);
+  const onMic = () => {
+    if (voice.listening) voice.end();
+    else { setRes(null); setQ(''); voice.start(); }
+  };
+
+  const browsing = !q && !res && !voice.listening;
+
+  return (
+    <div className="min-h-[100dvh] bg-bg pb-28">
+      <Hero eyebrow="BJosh Sermons" title={voice.listening ? 'Listening…' : 'Find a sermon'} />
+      <MicPanel listening={voice.listening} transcript={voice.transcript} supported={voice.supported} onToggle={onMic} />
+
+      {/* search field */}
+      <div className="px-4 pt-4">
+        <div className="relative">
+          <SearchIcon size={16} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-faint" />
+          <input
+            ref={inp} value={q}
+            onChange={(e) => setQ(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && submit()}
+            placeholder="Search by topic, scripture, or phrase…"
+            className="h-11 w-full rounded-xl border-none bg-surface-2 pl-9 pr-9 text-[15px] text-ink outline-none placeholder:text-faint"
+          />
+          {q && (
+            <button
+              onClick={() => { setQ(''); setRes(null); inp.current?.focus(); }}
+              aria-label="Clear search"
+              className="absolute right-3 top-1/2 flex h-[18px] w-[18px] -translate-y-1/2 items-center justify-center rounded-full"
+              style={{ background: 'var(--faint)' }}
+            >
+              <X size={11} color="#fff" />
+            </button>
+          )}
+        </div>
+        {q && (
+          <button
+            onClick={submit}
+            className="mt-2 w-full rounded-xl py-2.5 text-[15px] font-semibold text-white"
+            style={{ background: 'linear-gradient(135deg, var(--gold-bright), var(--gold))' }}
+          >
+            Search
+          </button>
+        )}
+      </div>
+
+      {load && <Spinner label={voice.listening ? 'Identifying…' : 'Searching…'} />}
+      {res !== null && !load && (
+        <ResultsBlock res={res} onClear={() => setRes(null)} onSel={onSel} emptyHint="Try different keywords or a scripture reference." />
+      )}
+
+      {browsing && (
+        <>
+          <Shelf title="Featured series">
+            {PLAYLISTS.filter((p) => !p.hidden).slice(0, 12).map((pl) => (
+              <button key={pl.id} onClick={() => onCat(pl.id)} className="w-[136px] shrink-0 text-left">
+                <Artwork seed={pl.id} title={pl.title} size={136} radius={14} kind="playlist" />
+                <p className="mt-2 line-clamp-2 font-serif text-[14px] font-semibold leading-tight text-ink">{pl.title}</p>
+                <p className="text-[11px] text-faint">{pl.videoIds.length} videos</p>
+              </button>
+            ))}
+          </Shelf>
+
+          <Shelf title="Recently added">
+            {SS.slice(0, 18).map((s) => (
+              <button key={s.id} onClick={() => onSel(s)} className="w-[126px] shrink-0 text-left">
+                <Artwork seed={s.driveId || s.youtubeId || s.id} title={s.title} size={126} radius={14} />
+                <p className="mt-2 line-clamp-2 font-serif text-[13px] font-semibold leading-tight text-ink">{s.title}</p>
+                {s._d && <p className="text-[11px] text-faint">{fmtDate(s._d)}</p>}
+              </button>
+            ))}
+          </Shelf>
+
+          <section className="px-4 pt-7">
+            <p className="mb-2 px-1 text-xs font-semibold uppercase tracking-wider text-muted">All sermons</p>
+            <div className="overflow-hidden rounded-2xl bg-surface shadow-soft">
+              {SS.slice(0, lim).map((s, i) => <SermonRow key={s.id} s={s} first={i === 0} onClick={onSel} />)}
+              {lim < SS.length && (
+                <button
+                  onClick={() => setLim((l) => l + 40)}
+                  className="w-full py-3.5 text-sm font-semibold"
+                  style={{ borderTop: '1px solid var(--line)', color: 'var(--gold)' }}
+                >
+                  Show more ({SS.length - lim} remaining)
+                </button>
+              )}
+            </div>
+          </section>
+        </>
+      )}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Drill-down list                                                    */
+/* ------------------------------------------------------------------ */
+function DrillView({ title, subtitle, sermons, onBack, onSel }) {
+  const [q, setQ] = useState('');
+  const list = q
+    ? sermons.filter((s) => s.title.toLowerCase().includes(q.toLowerCase()) || s.keyScripture?.toLowerCase().includes(q.toLowerCase()))
+    : sermons;
+  return (
+    <div className="min-h-[100dvh] bg-bg">
+      <div className="sticky top-0 z-10 border-b bg-surface px-4 pb-3 pt-3" style={{ borderColor: 'var(--line)' }}>
+        <button onClick={onBack} className="mb-2 flex items-center gap-1 text-[15px] font-medium" style={{ color: 'var(--gold)' }}>
+          <ArrowLeft size={17} />Back
+        </button>
+        <h2 className="font-serif text-[24px] font-bold text-ink">{title}</h2>
+        <p className="mb-3 mt-0.5 text-[13px] text-muted">{subtitle || `${sermons.length} sermons`}</p>
+        <div className="relative">
+          <SearchIcon size={14} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-faint" />
+          <input
+            value={q} onChange={(e) => setQ(e.target.value)} placeholder="Filter"
+            className="h-9 w-full rounded-lg border-none bg-surface-2 pl-8 pr-3 text-sm text-ink outline-none placeholder:text-faint"
+          />
+        </div>
+      </div>
+      <div className="mx-4 mb-28 mt-3 overflow-hidden rounded-2xl bg-surface shadow-soft">
+        {list.map((s, i) => <SermonRow key={s.id} s={s} first={i === 0} onClick={onSel} />)}
+        {!list.length && <p className="px-4 py-8 text-center text-sm text-muted">No sermons match.</p>}
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Library tab                                                        */
+/* ------------------------------------------------------------------ */
+function LibraryTab({ onSel }) {
+  const [tab, setTab] = useState('categories');
+  const [drill, setDrill] = useState(null);
+
+  const ytMap = useMemo(() => {
+    const m = new Map();
+    for (const s of SS) if (s.youtubeId) m.set(s.youtubeId, s);
+    return m;
+  }, []);
+
+  const byPlaylist = useMemo(() => PLAYLISTS.map((pl) => {
+    const ytMatches = pl.videoIds.map((id) => ytMap.get(id)).filter(Boolean);
+    const driveMatches = SS.filter((s) => s.driveId && playlistFor(s) === pl.id);
+    return { ...pl, sermons: [...ytMatches, ...driveMatches] };
+  }).filter((pl) => pl.sermons.length > 0), [ytMap]);
+
+  const byYear = useMemo(() => {
+    const g = {};
+    for (const s of SS) { const y = s._d?.slice(0, 4) || 'Undated'; (g[y] ||= []).push(s); }
+    return Object.entries(g).sort(([a], [b]) => (a === 'Undated' ? 1 : b === 'Undated' ? -1 : b.localeCompare(a)));
+  }, []);
+
+  if (drill) return <DrillView title={drill.title} subtitle={drill.sub} sermons={drill.list} onBack={() => setDrill(null)} onSel={onSel} />;
+
+  return (
+    <div className="min-h-[100dvh] bg-bg pb-28">
+      <div className="px-4 pb-3 pt-14">
+        <h1 className="mb-4 font-serif text-[32px] font-bold text-ink">Library</h1>
+        <div className="flex rounded-xl p-1" style={{ background: 'var(--surface-2)' }}>
+          {[['categories', 'Categories'], ['date', 'By date']].map(([id, lbl]) => (
+            <button
+              key={id} onClick={() => setTab(id)}
+              className="flex-1 rounded-lg py-1.5 text-[13px] font-semibold transition-all"
+              style={tab === id
+                ? { background: 'var(--surface)', color: 'var(--ink)', boxShadow: '0 1px 4px rgba(33,28,23,0.1)' }
+                : { background: 'transparent', color: 'var(--muted)' }}
+            >
+              {lbl}
             </button>
           ))}
         </div>
-        <button onClick={()=>setDrill({title:'All Sermons',sub:`${SS.length} sermons`,list:SS})} style={{display:'flex',alignItems:'center',gap:12,width:'100%',padding:'14px 16px',background:'#fff',border:'none',cursor:'pointer',textAlign:'left',borderRadius:12,marginBottom:10}}>
-          <div style={{width:52,height:52,minWidth:52,borderRadius:10,background:'linear-gradient(145deg,#6B7280,#374151)',display:'flex',alignItems:'center',justifyContent:'center'}}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-          <div style={{flex:1}}><p style={{margin:0,fontSize:15,fontWeight:600,color:'#1C1C1E'}}>All Sermons</p><p style={{margin:'2px 0 0',fontSize:13,color:'#8E8E93'}}>{SS.length} sermons</p></div>
-          <Chev/>
-        </button>
       </div>
-    )}
-    {tab==='date'&&(
-      <div style={{padding:'0 16px'}}>
-        {byY.map(([year,list])=>(
-          <button key={year} onClick={()=>setDrill({title:year==='Undated'?'Undated Sermons':year,sub:`${list.length} sermons`,list})} style={{display:'flex',alignItems:'center',justifyContent:'space-between',width:'100%',background:'#fff',border:'none',cursor:'pointer',padding:'14px 16px',borderRadius:12,textAlign:'left',boxShadow:'0 1px 3px rgba(0,0,0,0.06)',marginBottom:10}}>
-            <div><p style={{margin:0,fontSize:20,fontWeight:700,color:'#1C1C1E'}}>{year}</p><p style={{margin:'2px 0 0',fontSize:13,color:'#8E8E93'}}>{list.length} sermons</p></div>
-            <Chev/>
+
+      {tab === 'categories' && (
+        <div className="px-4">
+          <div className="mb-2.5 overflow-hidden rounded-2xl bg-surface shadow-soft">
+            {byPlaylist.map((pl, i) => (
+              <button
+                key={pl.id}
+                onClick={() => setDrill({ title: pl.title, sub: `${pl.sermons.length} sermons`, list: pl.sermons })}
+                className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-2/60"
+                style={{ borderTop: i === 0 ? 'none' : '1px solid var(--line)' }}
+              >
+                <Artwork seed={pl.id} title={pl.title} size={52} radius={11} kind="playlist" />
+                <div className="min-w-0 flex-1">
+                  <p className="font-serif text-[15px] font-semibold text-ink">{pl.title}</p>
+                  <p className="mt-0.5 text-[13px] text-muted">{pl.sermons.length} sermons</p>
+                </div>
+                <ChevronRight size={16} className="text-faint" />
+              </button>
+            ))}
+          </div>
+          <button
+            onClick={() => setDrill({ title: 'All sermons', sub: `${SS.length} sermons`, list: SS })}
+            className="flex w-full items-center gap-3 rounded-2xl bg-surface px-4 py-3.5 text-left shadow-soft"
+          >
+            <div className="flex h-[52px] w-[52px] min-w-[52px] items-center justify-center rounded-xl" style={{ background: 'linear-gradient(150deg, #4A403A, #2A211A)' }}>
+              <BookOpen size={22} color="#fff" />
+            </div>
+            <div className="flex-1">
+              <p className="font-serif text-[15px] font-semibold text-ink">All sermons</p>
+              <p className="mt-0.5 text-[13px] text-muted">{SS.length} sermons</p>
+            </div>
+            <ChevronRight size={16} className="text-faint" />
           </button>
-        ))}
-      </div>
-    )}
-  </div>);
+        </div>
+      )}
+
+      {tab === 'date' && (
+        <div className="px-4">
+          {byYear.map(([year, list]) => (
+            <button
+              key={year}
+              onClick={() => setDrill({ title: year === 'Undated' ? 'Undated sermons' : year, sub: `${list.length} sermons`, list })}
+              className="mb-2.5 flex w-full items-center justify-between rounded-2xl bg-surface px-4 py-3.5 text-left shadow-soft"
+            >
+              <div>
+                <p className="font-serif text-[20px] font-bold text-ink">{year}</p>
+                <p className="mt-0.5 text-[13px] text-muted">{list.length} sermons</p>
+              </div>
+              <ChevronRight size={16} className="text-faint" />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
-function Srch({onSel}){const[q,setQ]=useState('');const[res,setRes]=useState(null);const[load,setLoad]=useState(false);const[lim,setLim]=useState(40);const[listening,setListening]=useState(false);const[tx,setTx]=useState('');const[canS,setCanS]=useState(false);const fly=useRef(false),inp=useRef(null),rec=useRef(null),buf=useRef(''),stopR=useRef(false),tmr=useRef(null),lat=useRef(0),flyM=useRef(false);useEffect(()=>{setCanS('webkitSpeechRecognition' in window||'SpeechRecognition' in window);return()=>clearTimeout(tmr.current);},[]);async function srch(){const query=q.trim();if(!query||fly.current)return;fly.current=true;setLoad(true);try{const r=await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query})});const d=await r.json();setRes(d.matches||[]);}catch{setRes([]);}setLoad(false);fly.current=false;}async function srchMic(query){if(!query||flyM.current)return;flyM.current=true;setLoad(true);try{const r=await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query})});const d=await r.json();setRes(d.matches||[]);}catch{setRes([]);}setLoad(false);flyM.current=false;}function sched(){const w=buf.current.trim().split(/\s+/).filter(Boolean);if(w.length<MATCH_MIN_WORDS)return;clearTimeout(tmr.current);const e=Date.now()-lat.current;if(e>=MATCH_MIN_INTERVAL_MS){lat.current=Date.now();srchMic(buf.current.trim());}else tmr.current=setTimeout(()=>{lat.current=Date.now();srchMic(buf.current.trim());},MATCH_DEBOUNCE_MS);}function go(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return;stopR.current=false;buf.current='';lat.current=0;flyM.current=false;setRes(null);setTx('');setQ('');const r=new SR();r.continuous=true;r.interimResults=true;r.lang='en-US';r.onresult=(e)=>{let it='';for(let i=e.resultIndex;i<e.results.length;i++){const rr=e.results[i];if(rr.isFinal){const w=(buf.current+' '+rr[0].transcript).trim().split(/\s+/);buf.current=w.slice(-MATCH_WINDOW_WORDS).join(' ');sched();}else it+=rr[0].transcript;}setTx((buf.current+' '+it).trim());};r.onerror=(e)=>{if(e.error==='not-allowed'||e.error==='service-not-allowed'){stopR.current=true;setListening(false);}};r.onend=()=>{if(stopR.current){setListening(false);return;}try{r.start();}catch{setListening(false);}};rec.current=r;r.start();setListening(true);}function end(){stopR.current=true;clearTimeout(tmr.current);rec.current?.stop();setListening(false);}const bgC=c=>c==='high'?{bg:'#FFF0F3',tc:'#C0392B'}:c==='medium'?{bg:'#FFF3E0',tc:'#E67E22'}:{bg:'#F2F2F7',tc:'#636366'};return(<div style={{minHeight:'100dvh',background:'#F2F2F7',paddingBottom:100}}><div style={{padding:'54px 20px 22px',background:'linear-gradient(180deg,#FC3C44 0%,#C0392B 100%)'}}><p style={{margin:'0 0 3px',fontSize:12,fontWeight:600,color:'rgba(255,255,255,0.7)',textTransform:'uppercase',letterSpacing:'0.07em'}}>BJosh Sermons</p><h1 style={{margin:0,fontSize:34,fontWeight:800,color:'#fff',letterSpacing:'-0.5px'}}>{listening?'Listening…':'Find a Sermon'}</h1></div>{canS&&<div style={{background:'#fff',padding:'24px 20px 20px',display:'flex',flexDirection:'column',alignItems:'center',gap:12,borderBottom:'1px solid #E5E5EA'}}><div style={{position:'relative',width:80,height:80,display:'flex',alignItems:'center',justifyContent:'center'}}>{listening&&<><div style={{position:'absolute',inset:0,borderRadius:'50%',background:'rgba(252,60,68,0.15)',animation:'ping-slow 1.6s ease-in-out infinite'}}/><div style={{position:'absolute',inset:0,borderRadius:'50%',background:'rgba(252,60,68,0.08)',animation:'ping-slower 1.6s ease-in-out 0.4s infinite'}}/></>}<button onClick={listening?end:go} style={{width:72,height:72,borderRadius:'50%',border:'none',cursor:'pointer',background:listening?'linear-gradient(135deg,#FF9F5A,#FC3C44)':'linear-gradient(135deg,#FC3C44,#C0392B)',boxShadow:'0 8px 24px rgba(252,60,68,0.4)',display:'flex',alignItems:'center',justifyContent:'center',position:'relative',zIndex:1}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></button></div><p style={{margin:0,fontSize:13,color:'#8E8E93',textAlign:'center'}}>{listening?(tx?`"${tx}"` :'Listening for a sermon playing nearby…'):'Tap to identify a sermon playing nearby'}</p></div>}<div style={{padding:'16px 16px 0'}}><div style={{position:'relative'}}><svg style={{position:'absolute',left:10,top:'50%',transform:'translateY(-50%)'}} width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8E8E93" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input ref={inp} value={q} onChange={e=>setQ(e.target.value)} onKeyDown={e=>e.key==='Enter'&&srch()} placeholder="Search by topic, scripture, keyword…" style={{width:'100%',height:44,paddingLeft:34,paddingRight:q?36:12,borderRadius:10,border:'none',background:'#E5E5EA',fontSize:15,color:'#1C1C1E',outline:'none',boxSizing:'border-box'}}/>{q&&<button onClick={()=>{setQ('');setRes(null);inp.current?.focus();}} style={{position:'absolute',right:10,top:'50%',transform:'translateY(-50%)',width:18,height:18,borderRadius:'50%',background:'#8E8E93',border:'none',cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',padding:0}}><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="white" strokeWidth="1.6" strokeLinecap="round"><path d="M1 1l8 8M9 1L1 9"/></svg></button>}</div>{q&&<button onClick={srch} style={{marginTop:8,width:'100%',padding:'11px 0',background:'#FC3C44',border:'none',borderRadius:10,color:'white',fontSize:15,fontWeight:600,cursor:'pointer'}}>Search</button>}</div>{load&&<div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:10,padding:'36px 0',color:'#8E8E93',fontSize:14}}><div style={{width:20,height:20,borderRadius:'50%',border:'2.5px solid #E5E5EA',borderTopColor:'#FC3C44',animation:'spin 0.8s linear infinite'}}/>{listening?'Identifying…':'Searching…'}</div>}{res!==null&&!load&&(<div style={{padding:'14px 16px 0'}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:8}}><p style={{margin:0,fontSize:12,fontWeight:600,color:'#8E8E93',textTransform:'uppercase',letterSpacing:'0.05em'}}>{res.length===0?'No results':`${res.length} result${res.length!==1?'s':''}`}</p><button onClick={()=>setRes(null)} style={{background:'none',border:'none',color:'#FC3C44',fontSize:14,fontWeight:600,cursor:'pointer',padding:0}}>Clear</button></div>{res.length===0?<p style={{fontSize:14,color:'#8E8E93',padding:'24px 0'}}>Try different keywords or a scripture reference.</p>:<div style={{background:'#fff',borderRadius:12,overflow:'hidden'}}>{res.map((r,i)=>{const b=bgC(r.confidence),s={...r,_d:r.published?.slice(0,10)||pdate(r.title)};return(<button key={r.driveId||r.youtubeId} onClick={()=>onSel(s)} style={{display:'flex',gap:12,padding:'12px 16px',background:'none',border:'none',cursor:'pointer',borderTop:i===0?'none':'1px solid #F2F2F7',textAlign:'left',width:'100%'}}><Art id={r.driveId||r.youtubeId} sz={52} r={10}/><div style={{flex:1,minWidth:0}}><div style={{display:'flex',gap:6,alignItems:'flex-start',flexWrap:'wrap'}}><span style={{fontSize:15,fontWeight:600,color:'#1C1C1E',lineHeight:1.3}}>{r.title}</span><span style={{fontSize:11,fontWeight:600,color:b.tc,background:b.bg,borderRadius:6,padding:'2px 6px',flexShrink:0}}>{r.confidence==='high'?'High':r.confidence==='medium'?'Med':'Low'}</span></div>{r.keyScripture&&<p style={{margin:'3px 0 0',fontSize:13,color:'#FC3C44',fontWeight:500}}>{r.keyScripture}</p>}{r.summary&&<p style={{margin:'3px 0 0',fontSize:13,color:'#636366',lineHeight:1.4,display:'-webkit-box',WebkitLineClamp:2,WebkitBoxOrient:'vertical',overflow:'hidden'}}>{r.summary}</p>}</div></button>);})}</div>}</div>)}{!q&&!res&&!listening&&(<div style={{padding:'16px 16px 0'}}><p style={{margin:'0 0 8px',fontSize:12,fontWeight:600,color:'#8E8E93',textTransform:'uppercase',letterSpacing:'0.05em'}}>All Sermons</p><div style={{background:'#fff',borderRadius:12,overflow:'hidden'}}>{SS.slice(0,lim).map((s,i)=><Row key={s.id} s={s} i={i} onClick={onSel}/>)}{lim<SS.length&&<button onClick={()=>setLim(l=>l+40)} style={{width:'100%',padding:'14px',background:'none',border:'none',borderTop:'1px solid #F2F2F7',color:'#FC3C44',fontSize:14,fontWeight:600,cursor:'pointer'}}>Show more ({SS.length-lim} remaining)</button>}</div></div>)}</div>);}
-function NavBtn({view,label,active,onClick}){const c=active?'#FC3C44':'#8E8E93';const icons={home:<svg width="23" height="23" viewBox="0 0 24 24" fill={active?c:'none'} stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,library:<svg width="23" height="23" viewBox="0 0 24 24" fill={active?c:'none'} stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>,search:<svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>};return(<button onClick={onClick} style={{display:'flex',flexDirection:'column',alignItems:'center',gap:2,background:'none',border:'none',cursor:'pointer',padding:'4px 20px',color:c,minWidth:60}}>{icons[view]}<span style={{fontSize:10,fontWeight:600,letterSpacing:'0.02em'}}>{label}</span></button>);}
-export default function App(){const[v,setV]=useState('search');const[s,setS]=useState(null);return(<><div style={{minHeight:'100dvh',background:'#F2F2F7',fontFamily:"-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif"}}>{v==='library'&&<Lib onSel={setS}/>}{v==='search'&&<Srch onSel={setS}/>}</div><nav style={{position:'fixed',bottom:0,left:0,right:0,background:'rgba(255,255,255,0.88)',backdropFilter:'blur(20px)',WebkitBackdropFilter:'blur(20px)',borderTop:'1px solid rgba(0,0,0,0.08)',display:'flex',justifyContent:'center',gap:48,padding:'8px 0 max(16px,env(safe-area-inset-bottom))',zIndex:40}}><NavBtn view="search" label="Search" active={v==='search'} onClick={()=>setV('search')}/><NavBtn view="library" label="Library" active={v==='library'} onClick={()=>setV('library')}/></nav>{s&&<Sheet s={s} onClose={()=>setS(null)}/>}</>
-);}
+
+/* ------------------------------------------------------------------ */
+/* Bottom nav + shell                                                 */
+/* ------------------------------------------------------------------ */
+function NavButton({ icon: Icon, label, active, onClick }) {
+  return (
+    <button onClick={onClick} className="flex min-w-[64px] flex-col items-center gap-1 py-1" aria-label={label}>
+      <Icon size={22} style={{ color: active ? 'var(--gold)' : 'var(--faint)' }} strokeWidth={active ? 2.4 : 1.9} />
+      <span className="text-[10px] font-semibold" style={{ color: active ? 'var(--gold)' : 'var(--faint)' }}>{label}</span>
+    </button>
+  );
+}
+
+export default function App() {
+  const [view, setView] = useState('search');
+  const [sel, setSel] = useState(null);
+
+  return (
+    <>
+      <div className="min-h-[100dvh] bg-bg">
+        {view === 'search' && <SearchTab onSel={setSel} onCat={() => setView('library')} />}
+        {view === 'library' && <LibraryTab onSel={setSel} />}
+      </div>
+
+      <nav
+        className="fixed inset-x-0 bottom-0 z-40 flex justify-center gap-12 pt-2"
+        style={{
+          paddingBottom: 'max(16px, env(safe-area-inset-bottom))',
+          background: 'rgba(250,246,239,0.9)',
+          backdropFilter: 'blur(18px)', WebkitBackdropFilter: 'blur(18px)',
+          borderTop: '1px solid var(--line)',
+        }}
+      >
+        <NavButton icon={SearchIcon} label="Search" active={view === 'search'} onClick={() => setView('search')} />
+        <NavButton icon={LibraryIcon} label="Library" active={view === 'library'} onClick={() => setView('library')} />
+      </nav>
+
+      {sel && <SermonSheet s={sel} onClose={() => setSel(null)} />}
+    </>
+  );
+}

@@ -2,74 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+:root {
+  --bg: #FAF6EF;
+  --surface: #FFFFFF;
+  --surface-2: #F3EDE1;
+  --ink: #211C17;
+  --muted: #6B6157;
+  --faint: #A89E90;
+  --line: #ECE3D4;
+  --gold: #B26B12;
+  --gold-bright: #E5A53B;
+  --clay: #6E2A23;
+  --espresso: #2A211A;
 }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-text-size-adjust: 100%; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
-  background: #ffffff;
-  color: #0a0a0a;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
   min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.app-bg {
-  background: #ffffff;
-  min-height: 100dvh;
-}
+::selection { background: rgba(229, 165, 59, 0.3); }
 
-@keyframes ping-slow {
-  0% { transform: scale(1); opacity: 0.5; }
-  100% { transform: scale(1.7); opacity: 0; }
-}
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
 
-@keyframes ping-slower {
-  0% { transform: scale(1); opacity: 0.3; }
-  100% { transform: scale(2.2); opacity: 0; }
-}
+@keyframes ping-slow { 0% { transform: scale(1); opacity: 0.5; } 100% { transform: scale(1.7); opacity: 0; } }
+@keyframes ping-slower { 0% { transform: scale(1); opacity: 0.3; } 100% { transform: scale(2.2); opacity: 0; } }
+@keyframes rise-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
 
-@keyframes rise-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.animate-ping-slow {
-  animation: ping-slow 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-.animate-ping-slower {
-  animation: ping-slower 1.6s cubic-bezier(0, 0, 0.2, 1) 0.4s infinite;
-}
-
-.animate-rise-in {
-  animation: rise-in 0.3s ease-out both;
-}
-
-.thin-scroll {
-  scrollbar-width: thin;
-  scrollbar-color: #d4d4d4 transparent;
-}
-
-.thin-scroll::-webkit-scrollbar {
-  width: 6px;
-}
-
-.thin-scroll::-webkit-scrollbar-thumb {
-  background: #d4d4d4;
-  border-radius: 999px;
-}
-
-.thin-scroll::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.fade-bottom {
-  mask-image: linear-gradient(to bottom, black calc(100% - 28px), transparent 100%);
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.animate-sheet-up { animation: sheet-up 0.28s cubic-bezier(0.16, 1, 0.3, 1) both; }
