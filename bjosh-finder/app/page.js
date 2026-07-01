@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
 import {
   Mic, Search as SearchIcon, Library as LibraryIcon, ChevronRight, ArrowLeft,
-  X, FileText, Volume2, SquarePlay, Loader2, BookOpen,
+  X, FileText, Volume2, SquarePlay, Loader2, BookOpen, Sparkles,
 } from 'lucide-react';
 import { SERMONS } from '@/lib/sermons';
 import { PLAYLISTS } from '@/lib/playlists';
@@ -257,6 +257,13 @@ function SermonSheet({ s, onClose }) {
             {s.audioId && <ActionLink href={`https://drive.google.com/file/d/${s.audioId}/view`} icon={Volume2} tone="gold">Listen to audio</ActionLink>}
             {s.youtubeId && <ActionLink href={`https://www.youtube.com/watch?v=${s.youtubeId}`} icon={SquarePlay} tone="youtube">Watch on YouTube</ActionLink>}
           </div>
+
+          {s.isReconstructed && (
+            <p className="mt-4 flex items-start gap-1.5 text-[12px] leading-snug text-faint">
+              <Sparkles size={13} className="mt-0.5 shrink-0" />
+              Search uses an AI-cleaned transcript. For exact wording, check the audio.
+            </p>
+          )}
         </div>
       </div>
     </div>
