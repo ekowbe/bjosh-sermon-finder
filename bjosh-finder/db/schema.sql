@@ -1,8 +1,14 @@
--- BJosh Sermon Finder — search index schema (its own Supabase project)
--- Run once in the Supabase SQL editor (or psql) against a fresh project.
+-- BJosh Sermon Finder — search index schema.
+-- Lives in a dedicated `bjosh` schema so it can co-tenant inside an existing
+-- Supabase project (here: the theology-kb project) without touching that
+-- project's `public` tables. Fully reversible: `drop schema bjosh cascade;`.
+-- Apply via `npm run db:init` (runs this file through the search DB client).
 
-create extension if not exists vector;      -- pgvector
+create extension if not exists vector;      -- pgvector (already present)
 create extension if not exists pg_trgm;     -- trigram fuzzy keyword
+
+create schema if not exists bjosh;
+set search_path = bjosh, public, extensions;
 
 -- One row per sermon (Drive transcript OR YouTube video).
 create table if not exists sermons (
@@ -17,6 +23,11 @@ create table if not exists sermons (
   audio_id      text default '',            -- Drive audio file id, when present
   channel       text default '',
   published     text default '',            -- ISO date string when known
+  -- Provenance: transcripts are AI-cleaned reconstructions (owned by theology-kb).
+  -- status: 'ok' | 'partial-recovery' (both indexed). is_reconstructed drives a
+  -- UI badge so a cleaned/repaired transcript is never mistaken for verbatim.
+  is_reconstructed boolean not null default false,
+  status        text not null default 'ok',
   -- content_hash lets the indexer skip unchanged transcripts on re-runs
   content_hash  text not null,
   indexed_at    timestamptz not null default now(),

@@ -9,7 +9,9 @@
     "start": "next start",
     "index": "node scripts/index-sermons.js",
     "index:youtube": "node scripts/index-youtube.js",
-    "index:build": "node --env-file=.env.local scripts/build-index.js"
+    "db:init": "node --env-file=.env.local scripts/db-init.js",
+    "index:build": "node --env-file=.env.local scripts/build-index.js",
+    "index:backlog": "node scripts/fetch-youtube-backlog.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.0",
