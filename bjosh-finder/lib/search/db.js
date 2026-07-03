@@ -62,43 +62,57 @@ export async function replaceChunks(sermonId, chunks, embeddings) {
   await db`insert into chunks ${db(values, 'sermon_id', 'position', 'text', 'embedding')}`;
 }
 
-// Hybrid retrieval: vector cosine + keyword (ts_rank), fused with Reciprocal
-// Rank Fusion, collapsed to one row per sermon (best chunk wins).
+// Hybrid retrieval over the UNIFIED corpus: theology-kb's public.chunks/sources, JHM only
+// (BJosh = Joshua Heward-Mills), restricted to sermons carrying bjosh metadata (the 607-sermon
+// corpus). Vector cosine + keyword (ts_rank) fused with RRF, one row per sermon (best chunk wins).
+// The finder's field shape (source/external_id/audio_id/... ) is mapped out of sources.metadata.bjosh.
 export async function hybridSearch(queryEmbedding, queryText, { k = 15, pool = 60 } = {}) {
   const db = sql();
   const vec = toVector(queryEmbedding);
   return db`
     with vector_hits as (
-      select c.id, c.sermon_id, c.text,
+      select c.id, c.source_id, c.text,
              row_number() over (order by c.embedding <=> ${vec}::vector) as rank
-      from chunks c
+      from public.chunks c
+      join public.sources s on s.id = c.source_id
+      where s.author = 'jhm' and s.metadata -> 'bjosh' is not null
       order by c.embedding <=> ${vec}::vector
       limit ${pool}
     ),
     keyword_hits as (
-      select c.id, c.sermon_id, c.text,
+      select c.id, c.source_id, c.text,
              row_number() over (order by ts_rank(c.text_tsv, plainto_tsquery('english', ${queryText})) desc) as rank
-      from chunks c
-      where c.text_tsv @@ plainto_tsquery('english', ${queryText})
+      from public.chunks c
+      join public.sources s on s.id = c.source_id
+      where s.author = 'jhm' and s.metadata -> 'bjosh' is not null
+        and c.text_tsv @@ plainto_tsquery('english', ${queryText})
       limit ${pool}
     ),
     fused as (
       select coalesce(v.id, k.id) as id,
-             coalesce(v.sermon_id, k.sermon_id) as sermon_id,
+             coalesce(v.source_id, k.source_id) as source_id,
              coalesce(v.text, k.text) as text,
              coalesce(1.0 / (60 + v.rank), 0) + coalesce(1.0 / (60 + k.rank), 0) as score
       from vector_hits v
       full outer join keyword_hits k on v.id = k.id
     ),
     best_per_sermon as (
-      select distinct on (sermon_id) sermon_id, id as chunk_id, text, score
+      select distinct on (source_id) source_id, id as chunk_id, text, score
       from fused
-      order by sermon_id, score desc
+      order by source_id, score desc
     )
-    select s.id as sermon_id, s.source, s.external_id, s.title, s.key_scripture, s.summary,
-           s.audio_id, s.is_reconstructed, s.status, b.text as best_chunk, b.score
+    select s.id as sermon_id,
+           s.metadata->'bjosh'->>'source' as source,
+           s.metadata->'bjosh'->>'external_id' as external_id,
+           s.title,
+           coalesce(s.metadata->'bjosh'->>'key_scripture', s.primary_scripture, '') as key_scripture,
+           coalesce(s.metadata->'bjosh'->>'summary', '') as summary,
+           coalesce(s.metadata->'bjosh'->>'audio_id', '') as audio_id,
+           coalesce((s.metadata->'bjosh'->>'is_reconstructed')::boolean, false) as is_reconstructed,
+           'ok' as status,
+           b.text as best_chunk, b.score
     from best_per_sermon b
-    join sermons s on s.id = b.sermon_id
+    join public.sources s on s.id = b.source_id
     order by b.score desc
     limit ${k}
   `;

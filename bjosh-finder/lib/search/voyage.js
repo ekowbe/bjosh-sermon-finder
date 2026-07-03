@@ -1,8 +1,8 @@
-// Voyage 3 embeddings via REST (1024-dim, cosine) — same model family as
-// theology-kb. No SDK needed. Reads VOYAGE_API_KEY at call time so the module
-// imports fine without secrets.
+// Voyage embeddings via REST (1024-dim, cosine). Uses voyage-3-large to match the
+// unified theology-kb corpus (the finder now reads JHM from theology-kb's public
+// schema, not the old bjosh schema). Reads VOYAGE_API_KEY at call time.
 
-const MODEL = 'voyage-3';
+const MODEL = 'voyage-3-large';
 const DIM = 1024;
 const ENDPOINT = 'https://api.voyageai.com/v1/embeddings';
 

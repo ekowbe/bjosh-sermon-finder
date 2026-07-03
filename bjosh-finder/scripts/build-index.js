@@ -35,6 +35,7 @@ const flag = (name, def) => {
 };
 const SOURCE = flag('source', 'all');
 const CLEANED = flag('cleaned', false);
+const YT_BACKLOG = flag('youtube-backlog', false);
 const LIMIT = flag('limit') ? Number(flag('limit')) : Infinity;
 const FORCE = flag('force', false);
 const EMBED_BATCH = 64;
@@ -80,6 +81,37 @@ async function embedAll(texts) {
   return out;
 }
 
+// Index the promoted YouTube back-catalog: keepers from promote-results.json,
+// transcript text from the staged cache. Raw auto-captions (not AI-cleaned),
+// so is_reconstructed=false, status='raw-captions'.
+async function runYoutubeBacklog() {
+  const results = JSON.parse(readFileSync(join(__dirname, 'promote-results.json'), 'utf8'));
+  const staged = JSON.parse(readFileSync(join(__dirname, '../lib/youtube-backlog-transcripts.json'), 'utf8'));
+  const keepers = Object.entries(results)
+    .filter(([, r]) => r.status === 'keep' && staged[r.youtubeId])
+    .slice(0, LIMIT);
+  console.log(`YouTube back-catalog: ${keepers.length} keepers to index (raw captions)…\n`);
+
+  let indexed = 0, upToDate = 0, empty = 0, totalChunks = 0;
+  for (const [, r] of keepers) {
+    const rec = {
+      source: 'youtube', externalId: r.youtubeId, title: r.title,
+      topics: r.topics || [], scriptures: r.scriptures || [], keyScripture: r.keyScripture || '',
+      summary: r.summary || '', audioId: '', text: staged[r.youtubeId],
+      isReconstructed: false, status: 'raw-captions',
+    };
+    let n;
+    try { n = await indexRecord(rec); }
+    catch (e) { console.log(`  ! ${r.title}: ${e.message}`); continue; }
+    if (n === -1) { upToDate++; continue; }
+    if (n === 0) { empty++; continue; }
+    indexed++; totalChunks += n;
+    console.log(`  ✓ ${r.title} — ${n} chunks`);
+  }
+  console.log(`\nDone. ${indexed} indexed (${totalChunks} chunks) · ${upToDate} up-to-date · ${empty} empty`);
+  process.exit(0);
+}
+
 async function runCleaned(dir) {
   const { records, skipped, orphans } = buildIndexRecords(dir);
   const targets = records.slice(0, LIMIT);
@@ -101,6 +133,7 @@ async function runCleaned(dir) {
 }
 
 async function main() {
+  if (YT_BACKLOG) return runYoutubeBacklog();
   if (CLEANED) return runCleaned(CLEANED);
 
   const wantDrive = SOURCE === 'all' || SOURCE === 'drive';

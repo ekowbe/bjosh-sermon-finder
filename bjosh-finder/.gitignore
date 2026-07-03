@@ -9,3 +9,5 @@ scripts/index-progress.json
 # YouTube backlog staging (regenerable, large)
 lib/youtube-backlog-transcripts.json
 scripts/backlog-progress.json
+.vercel
+.env*
