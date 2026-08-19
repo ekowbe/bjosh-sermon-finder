@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        attempt: [1, 2, 3, 4]
+        attempt: [1, 2, 3]
     permissions:
       contents: write
     env:
@@ -26,48 +26,66 @@ jobs:
           deno-version: v2.x
 
       - name: Install fetchers
-        run: pip install -U yt-dlp youtube-transcript-api
+        run: pip install -U yt-dlp
 
-      - name: Try yt-dlp
+      - name: Try yt-dlp with alternate clients
         continue-on-error: true
         run: |
           cd transcripts
-          yt-dlp --skip-download --write-sub --write-auto-sub \
-            --sub-lang "en,en-orig,en-US,en-GB" --sub-format vtt \
-            --extractor-args "youtube:player_client=default,tv_simply,web_safari" \
-            -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$VIDEO_ID" || true
+          for client in "tv,ios,android" "mweb" "web_embedded"; do
+            echo "== client: $client"
+            yt-dlp --skip-download --write-sub --write-auto-sub \
+              --sub-lang "en,en-orig,en-US,en-GB" --sub-format "vtt/srv3/best" \
+              --extractor-args "youtube:player_client=$client" \
+              -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$VIDEO_ID" && break || true
+          done
           ls -la
 
-      - name: Try youtube-transcript-api
+      - name: Try timedtext endpoints
         continue-on-error: true
         run: |
           ls transcripts/$VIDEO_ID*.vtt 2>/dev/null && exit 0
-          python - <<'EOF'
-          import json, os
-          from youtube_transcript_api import YouTubeTranscriptApi
-          vid = os.environ["VIDEO_ID"]
-          fetched = YouTubeTranscriptApi().fetch(vid, languages=["en", "en-US", "en-GB"])
-          data = [{"start": s.start, "duration": s.duration, "text": s.text} for s in fetched]
-          with open(f"transcripts/{vid}.transcript.json", "w") as f:
-              json.dump(data, f)
-          print(f"fetched {len(data)} segments")
-          EOF
+          for url in \
+            "https://video.google.com/timedtext?lang=en&v=$VIDEO_ID" \
+            "https://www.youtube.com/api/timedtext?lang=en&v=$VIDEO_ID&fmt=vtt" \
+            "https://www.youtube.com/api/timedtext?lang=en&v=$VIDEO_ID&kind=asr&fmt=vtt"; do
+            echo "== $url"
+            curl -sS -m 20 "$url" -o tt.out || continue
+            wc -c tt.out; head -c 300 tt.out; echo
+            if [ -s tt.out ] && grep -qi "webvtt\|<transcript" tt.out; then
+              mv tt.out "transcripts/$VIDEO_ID.en.timedtext"; break
+            fi
+          done
+          rm -f tt.out
 
-      - name: Try invidious instances
+      - name: Try piped instances
         continue-on-error: true
         run: |
-          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.json 2>/dev/null | grep -v oembed && exit 0
-          for inst in inv.nadeko.net yewtu.be invidious.f5.si inv.tux.pizza invidious.privacyredirect.com iv.duti.dev invidious.materialio.us; do
+          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.timedtext 2>/dev/null && exit 0
+          for api in pipedapi.kavin.rocks api.piped.private.coffee pipedapi.adminforge.de api.piped.projectsegfau.lt pipedapi.reallyaweso.me; do
+            echo "== $api"
+            streams=$(curl -sS -m 25 "https://$api/streams/$VIDEO_ID" || true)
+            echo "$streams" | head -c 300; echo
+            suburl=$(echo "$streams" | jq -r '[.subtitles[]? | select(.code=="en" or (.code|startswith("en")))][0].url // empty' 2>/dev/null || true)
+            if [ -n "$suburl" ]; then
+              echo "subtitle url: $suburl"
+              curl -sS -m 30 "$suburl" -o "transcripts/$VIDEO_ID.en.vtt" || true
+              if [ -s "transcripts/$VIDEO_ID.en.vtt" ]; then echo "got captions from $api"; break
+              else rm -f "transcripts/$VIDEO_ID.en.vtt"; fi
+            fi
+          done
+
+      - name: Try more invidious instances
+        continue-on-error: true
+        run: |
+          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.timedtext 2>/dev/null && exit 0
+          for inst in nyc1.iv.ggtyler.dev cal1.iv.ggtyler.dev invidious.jing.rocks iv.melmac.space yt.artemislena.eu invidious.private.coffee inv.us.projectsegfau.lt; do
             echo "== $inst"
-            listing=$(curl -sS -m 20 "https://$inst/api/v1/captions/$VIDEO_ID" || true)
-            echo "$listing" | head -c 400; echo
-            if echo "$listing" | grep -q '"label"'; then
-              curl -sS -m 30 "https://$inst/api/v1/captions/$VIDEO_ID?lang=en" -o "transcripts/$VIDEO_ID.en.vtt" || true
-              if [ -s "transcripts/$VIDEO_ID.en.vtt" ] && head -1 "transcripts/$VIDEO_ID.en.vtt" | grep -q WEBVTT; then
-                echo "got captions from $inst"; break
-              else
-                rm -f "transcripts/$VIDEO_ID.en.vtt"
-              fi
+            out=$(curl -sSL -m 20 "https://$inst/api/v1/captions/$VIDEO_ID?lang=en" || true)
+            echo "$out" | head -c 200; echo
+            if echo "$out" | head -1 | grep -q WEBVTT; then
+              printf '%s' "$out" > "transcripts/$VIDEO_ID.en.vtt"
+              echo "got captions from $inst"; break
             fi
           done
           ls -la transcripts/
