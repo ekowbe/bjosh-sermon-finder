@@ -1,101 +1,44 @@
 name: Index new YouTube sermons
 
 on:
+  schedule:
+    - cron: '0 6 * * 1' # every Monday 06:00 UTC
   workflow_dispatch: {}
 
 jobs:
   index:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        attempt: [1, 2, 3]
     permissions:
       contents: write
-    env:
-      VIDEO_ID: QZ99-2aLMEQ
+    defaults:
+      run:
+        working-directory: bjosh-finder
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-
-      - name: Install fetchers
+      - name: Install yt-dlp
         run: pip install -U yt-dlp
 
-      - name: Try yt-dlp with alternate clients
-        continue-on-error: true
-        run: |
-          cd transcripts
-          for client in "tv,ios,android" "mweb" "web_embedded"; do
-            echo "== client: $client"
-            yt-dlp --skip-download --write-sub --write-auto-sub \
-              --sub-lang "en,en-orig,en-US,en-GB" --sub-format "vtt/srv3/best" \
-              --extractor-args "youtube:player_client=$client" \
-              -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$VIDEO_ID" && break || true
-          done
-          ls -la
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Try timedtext endpoints
-        continue-on-error: true
-        run: |
-          ls transcripts/$VIDEO_ID*.vtt 2>/dev/null && exit 0
-          for url in \
-            "https://video.google.com/timedtext?lang=en&v=$VIDEO_ID" \
-            "https://www.youtube.com/api/timedtext?lang=en&v=$VIDEO_ID&fmt=vtt" \
-            "https://www.youtube.com/api/timedtext?lang=en&v=$VIDEO_ID&kind=asr&fmt=vtt"; do
-            echo "== $url"
-            curl -sS -m 20 "$url" -o tt.out || continue
-            wc -c tt.out; head -c 300 tt.out; echo
-            if [ -s tt.out ] && grep -qi "webvtt\|<transcript" tt.out; then
-              mv tt.out "transcripts/$VIDEO_ID.en.timedtext"; break
-            fi
-          done
-          rm -f tt.out
+      - name: Run YouTube indexer
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run index:youtube
 
-      - name: Try piped instances
-        continue-on-error: true
-        run: |
-          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.timedtext 2>/dev/null && exit 0
-          for api in pipedapi.kavin.rocks api.piped.private.coffee pipedapi.adminforge.de api.piped.projectsegfau.lt pipedapi.reallyaweso.me; do
-            echo "== $api"
-            streams=$(curl -sS -m 25 "https://$api/streams/$VIDEO_ID" || true)
-            echo "$streams" | head -c 300; echo
-            suburl=$(echo "$streams" | jq -r '[.subtitles[]? | select(.code=="en" or (.code|startswith("en")))][0].url // empty' 2>/dev/null || true)
-            if [ -n "$suburl" ]; then
-              echo "subtitle url: $suburl"
-              curl -sS -m 30 "$suburl" -o "transcripts/$VIDEO_ID.en.vtt" || true
-              if [ -s "transcripts/$VIDEO_ID.en.vtt" ]; then echo "got captions from $api"; break
-              else rm -f "transcripts/$VIDEO_ID.en.vtt"; fi
-            fi
-          done
-
-      - name: Try more invidious instances
-        continue-on-error: true
-        run: |
-          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.timedtext 2>/dev/null && exit 0
-          for inst in nyc1.iv.ggtyler.dev cal1.iv.ggtyler.dev invidious.jing.rocks iv.melmac.space yt.artemislena.eu invidious.private.coffee inv.us.projectsegfau.lt; do
-            echo "== $inst"
-            out=$(curl -sSL -m 20 "https://$inst/api/v1/captions/$VIDEO_ID?lang=en" || true)
-            echo "$out" | head -c 200; echo
-            if echo "$out" | head -1 | grep -q WEBVTT; then
-              printf '%s' "$out" > "transcripts/$VIDEO_ID.en.vtt"
-              echo "got captions from $inst"; break
-            fi
-          done
-          ls -la transcripts/
-
-      - name: Commit results to this branch
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add transcripts/
-          git diff --staged --quiet && { echo "nothing new"; exit 0; }
-          git commit -m "chore: fetch transcript for $VIDEO_ID (attempt ${{ matrix.attempt }})"
-          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 3; done
-          exit 1
+          git add lib/sermons.js lib/youtube-transcripts.json scripts/youtube-progress.json
+          git diff --staged --quiet || git commit -m "chore: weekly YouTube sermon index update"
+          git push
