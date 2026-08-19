@@ -6,6 +6,10 @@ on:
 jobs:
   index:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        attempt: [1, 2, 3, 4]
     permissions:
       contents: write
     env:
@@ -24,29 +28,17 @@ jobs:
       - name: Install fetchers
         run: pip install -U yt-dlp youtube-transcript-api
 
-      - name: Fetch title via oembed
-        continue-on-error: true
-        run: |
-          mkdir -p transcripts
-          curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$VIDEO_ID&format=json" \
-            | tee "transcripts/$VIDEO_ID.oembed.json"
-          echo
-
-      - name: Fetch captions with yt-dlp
+      - name: Try yt-dlp
         continue-on-error: true
         run: |
           cd transcripts
           yt-dlp --skip-download --write-sub --write-auto-sub \
             --sub-lang "en,en-orig,en-US,en-GB" --sub-format vtt \
             --extractor-args "youtube:player_client=default,tv_simply,web_safari" \
-            --print-to-file "title: %(title)s" "$VIDEO_ID.meta.txt" \
-            --print-to-file "channel: %(channel)s" "$VIDEO_ID.meta.txt" \
-            --print-to-file "upload_date: %(upload_date)s" "$VIDEO_ID.meta.txt" \
-            --print-to-file "duration: %(duration_string)s" "$VIDEO_ID.meta.txt" \
-            -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$VIDEO_ID"
+            -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$VIDEO_ID" || true
           ls -la
 
-      - name: Fallback via youtube-transcript-api
+      - name: Try youtube-transcript-api
         continue-on-error: true
         run: |
           ls transcripts/$VIDEO_ID*.vtt 2>/dev/null && exit 0
@@ -61,13 +53,31 @@ jobs:
           print(f"fetched {len(data)} segments")
           EOF
 
-      - name: Show results
-        run: ls -la transcripts/ && head -c 2000 transcripts/* 2>/dev/null || true
+      - name: Try invidious instances
+        continue-on-error: true
+        run: |
+          ls transcripts/$VIDEO_ID*.vtt transcripts/$VIDEO_ID*.json 2>/dev/null | grep -v oembed && exit 0
+          for inst in inv.nadeko.net yewtu.be invidious.f5.si inv.tux.pizza invidious.privacyredirect.com iv.duti.dev invidious.materialio.us; do
+            echo "== $inst"
+            listing=$(curl -sS -m 20 "https://$inst/api/v1/captions/$VIDEO_ID" || true)
+            echo "$listing" | head -c 400; echo
+            if echo "$listing" | grep -q '"label"'; then
+              curl -sS -m 30 "https://$inst/api/v1/captions/$VIDEO_ID?lang=en" -o "transcripts/$VIDEO_ID.en.vtt" || true
+              if [ -s "transcripts/$VIDEO_ID.en.vtt" ] && head -1 "transcripts/$VIDEO_ID.en.vtt" | grep -q WEBVTT; then
+                echo "got captions from $inst"; break
+              else
+                rm -f "transcripts/$VIDEO_ID.en.vtt"
+              fi
+            fi
+          done
+          ls -la transcripts/
 
       - name: Commit results to this branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add transcripts/
-          git diff --staged --quiet || git commit -m "chore: fetch transcript for $VIDEO_ID"
-          git push
+          git diff --staged --quiet && { echo "nothing new"; exit 0; }
+          git commit -m "chore: fetch transcript for $VIDEO_ID (attempt ${{ matrix.attempt }})"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 3; done
+          exit 1
